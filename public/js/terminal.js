@@ -144,7 +144,7 @@
 
   function printBeer() {
     addLine('');
-    addLine('        .~~~.   .~~~.', 'ascii');
+    var foam = addLine('        .~~~.   .~~~.', 'ascii');
     addLine('       _i===i   i===i_', 'ascii');
     addLine('      (_|ccc|   |ccc|_)', 'ascii');
     addLine('        |ccc|   |ccc|', 'ascii');
@@ -152,6 +152,16 @@
     addLine('');
     addLine('  prost!', 'title');
     addLine('');
+
+    var frames = [
+      '        .~~~.   .~~~.',
+      '       .~~~.    .~~~. ',
+    ];
+    var fi = 0;
+    setInterval(function () {
+      fi = (fi + 1) % frames.length;
+      foam.textContent = frames[fi];
+    }, 600);
   }
 
   function handleCommand(raw) {
