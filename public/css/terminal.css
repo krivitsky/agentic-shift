@@ -174,9 +174,7 @@ html, body {
   width: 160px;
   height: auto;
   border-radius: 4px;
-  filter: sepia(0.4) saturate(0.8) brightness(0.9);
   background: transparent;
-  mix-blend-mode: lighten;
 }
 
 .orga-name {
