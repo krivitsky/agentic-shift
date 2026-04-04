@@ -144,24 +144,91 @@
 
   function printBeer() {
     addLine('');
-    var foam = addLine('        .~~~.   .~~~.', 'ascii');
-    addLine('       _i===i   i===i_', 'ascii');
-    addLine('      (_|ccc|   |ccc|_)', 'ascii');
-    addLine('        |ccc|   |ccc|', 'ascii');
-    addLine('        `-==-\' `-==-\'', 'ascii');
-    addLine('');
-    addLine('  prost!', 'title');
+    var l0 = addLine('', 'ascii');
+    var l1 = addLine('', 'ascii');
+    var l2 = addLine('', 'ascii');
+    var l3 = addLine('', 'ascii');
+    var l4 = addLine('', 'ascii');
+    var prostLine = addLine('', 'title');
     addLine('');
 
-    var frames = [
-      '        .~~~.   .~~~.',
-      '       .~~~.    .~~~. ',
+    var beer = [l0, l1, l2, l3, l4];
+
+    // Animation: glasses start far apart and slide together
+    var keyframes = [
+      [' .~~~.               .~~~. ',
+       '_i===i               i===i_',
+       '|ccc|_)             (_|ccc|',
+       ' |ccc|               |ccc| ',
+       ' `-==-\'             `-==-\' '],
+      [' .~~~.             .~~~. ',
+       '_i===i             i===i_',
+       '|ccc|_)           (_|ccc|',
+       ' |ccc|             |ccc| ',
+       ' `-==-\'           `-==-\' '],
+      [' .~~~.           .~~~. ',
+       '_i===i           i===i_',
+       '|ccc|_)         (_|ccc|',
+       ' |ccc|           |ccc| ',
+       ' `-==-\'         `-==-\' '],
+      [' .~~~.         .~~~. ',
+       '_i===i         i===i_',
+       '|ccc|_)       (_|ccc|',
+       ' |ccc|         |ccc| ',
+       ' `-==-\'       `-==-\' '],
+      [' .~~~.       .~~~. ',
+       '_i===i       i===i_',
+       '|ccc|_)     (_|ccc|',
+       ' |ccc|       |ccc| ',
+       ' `-==-\'     `-==-\' '],
+      [' .~~~.     .~~~. ',
+       '_i===i     i===i_',
+       '|ccc|_)   (_|ccc|',
+       ' |ccc|     |ccc| ',
+       ' `-==-\'   `-==-\' '],
+      [' .~~~.   .~~~. ',
+       '_i===i   i===i_',
+       '|ccc|_) (_|ccc|',
+       ' |ccc|   |ccc| ',
+       ' `-==-\' `-==-\' '],
+      ['  .~~~. .~~~.  ',
+       ' _i===ii===i_  ',
+       '(_|ccc||ccc|_) ',
+       '  |ccc||ccc|   ',
+       '  `-==-`==-\'   '],
     ];
-    var fi = 0;
-    setInterval(function () {
-      fi = (fi + 1) % frames.length;
-      foam.textContent = frames[fi];
-    }, 600);
+
+    var pad = '      ';
+    var frame = 0;
+
+    function renderFrame() {
+      for (var i = 0; i < 5; i++) {
+        beer[i].textContent = pad + keyframes[frame][i];
+      }
+      scrollToBottom();
+    }
+
+    renderFrame();
+
+    var anim = setInterval(function () {
+      frame++;
+      if (frame >= keyframes.length) {
+        clearInterval(anim);
+        prostLine.textContent = '  prost!';
+        // Foam wave after clink
+        var waveState = 0;
+        setInterval(function () {
+          waveState = (waveState + 1) % 2;
+          if (waveState === 0) {
+            beer[0].textContent = pad + '  .~~~. .~~~.  ';
+          } else {
+            beer[0].textContent = pad + ' .~~~. .~~~.   ';
+          }
+        }, 600);
+        return;
+      }
+      renderFrame();
+    }, 150);
   }
 
   function handleCommand(raw) {
