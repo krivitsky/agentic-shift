@@ -68,15 +68,31 @@
 
   // ── ASCII Frauenkirche ─────────────────────────────────────────
 
-  const FRAUENKIRCHE = [
-    '                                                          __       __',
-    '                                                        .\'  `\'._.\' `\'.',
-    '              ___   ___                                |  .--;   ;--.  |',
-    '             (o o) (o o)                               |  (  /   \\  )  |',
-    '              | |   | |                                 \\  ;` /^\\ `;  /',
-    '             .|.|. .|.|.                                 :` .\'._.\'.\' `;',
-    '             |. .| |. .|                                  \'-`\'.___.\' `-\'',
+  // Church without pretzel (printed first)
+  const CHURCH_LINES = [
+    '                                                          ',
+    '              ___   ___                                   ',
+    '             (o o) (o o)                                  ',
+    '              | |   | |                                   ',
+    '             .|.|. .|.|.                                  ',
+    '             |. .| |. .|                                  ',
     '             | | | | | |      _____________________',
+    '             |_|_| |_|_|     / / / / / / / / / / / /\\',
+    '             |   | |   |    /_______________________/|',
+    '             |   | |   |    | (_) (_) (_) (_) (_) (_)|  |',
+    '             |   |_|   |____| (_) (_) (_) (_) (_) (_)|  |',
+    '             |___|_|___|____|________________________|__|',
+  ];
+
+  // Full church + pretzel (replaces church lines after date is typed)
+  const CHURCH_WITH_PRETZEL = [
+    '                                                          __       __',
+    '              ___   ___                                 .\'  `\'._.\' `\'.',
+    '             (o o) (o o)                               |  .--;   ;--.  |',
+    '              | |   | |                                |  (  /   \\  )  |',
+    '             .|.|. .|.|.                                \\  ;` /^\\ `;  /',
+    '             |. .| |. .|                                 :` .\'._.\'.\' `;',
+    '             | | | | | |      _____________________      \'-`\'.___.\' `-\'',
     '             |_|_| |_|_|     / / / / / / / / / / / /\\',
     '             |   | |   |    /_______________________/|',
     '             |   | |   |    | (_) (_) (_) (_) (_) (_)|  |',
@@ -100,7 +116,6 @@
   }
 
   function printOrga() {
-    addLine('');
     var imgLine = document.createElement('div');
     imgLine.className = 'line orga-images';
     imgLine.innerHTML =
@@ -208,13 +223,18 @@
 
   async function autoTypeCommand(text) {
     var id = 'auto-cmd-' + Date.now();
-    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command" id="' + id + '"></span>', 'prompt-line');
+    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typing-cursor"></span><span class="typed-command" id="' + id + '"></span>', 'prompt-line');
+    scrollToBottom();
+    await wait(1000);
+    var line = document.getElementById(id).parentElement;
+    var cursor = line.querySelector('.typing-cursor');
     var span = document.getElementById(id);
     for (var i = 0; i < text.length; i++) {
       span.textContent += text[i];
       scrollToBottom();
       await wait(80);
     }
+    if (cursor) cursor.remove();
   }
 
   // ── Boot sequence ──────────────────────────────────────────────
@@ -228,8 +248,12 @@
     await wait(400);
     addLine('');
 
-    // Frauenkirche ASCII
-    await printInstant(FRAUENKIRCHE, 'ascii');
+    // Frauenkirche ASCII (church only first)
+    var churchElements = [];
+    for (var i = 0; i < CHURCH_LINES.length; i++) {
+      churchElements.push(addLine(CHURCH_LINES[i], 'ascii'));
+      await wait(15);
+    }
 
     await wait(300);
     addLine('');
@@ -237,7 +261,17 @@
     // Location + date
     await typeText('munich, june 27, 2026', 'title', 35);
 
-    await wait(600);
+    await wait(400);
+
+    // Now replace church lines with church+pretzel version
+    for (var j = 0; j < CHURCH_WITH_PRETZEL.length; j++) {
+      if (j < churchElements.length) {
+        churchElements[j].textContent = CHURCH_WITH_PRETZEL[j];
+      }
+    }
+    scrollToBottom();
+
+    await wait(400);
     addLine('');
 
     // Auto-type /orga
@@ -245,15 +279,23 @@
     await wait(400);
     printOrga();
 
-    await wait(600);
-
     // Auto-type /help
     await autoTypeCommand('/help');
     await wait(400);
     printHelp();
 
-    // Show interactive prompt
+    // Show interactive prompt with hint
     showPrompt();
+    var hint = 'type any command here...';
+    for (var h = 0; h < hint.length; h++) {
+      commandInput.value += hint[h];
+      await wait(40);
+    }
+    await wait(1000);
+    for (var b = hint.length; b > 0; b--) {
+      commandInput.value = hint.substring(0, b - 1);
+      await wait(30);
+    }
   }
 
   boot();
