@@ -27,9 +27,15 @@
     return div;
   }
 
+  var isMobile = window.innerWidth <= 600;
+
   function scrollToBottom() {
-    const terminal = document.getElementById('terminal');
-    terminal.scrollTop = terminal.scrollHeight;
+    if (isMobile) {
+      window.scrollTo(0, document.body.scrollHeight);
+    } else {
+      var terminal = document.getElementById('terminal');
+      terminal.scrollTop = terminal.scrollHeight;
+    }
   }
 
   async function typeText(text, className, speed) {

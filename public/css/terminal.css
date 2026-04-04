@@ -257,10 +257,33 @@ html, body {
 @media (max-width: 600px) {
   html, body {
     font-size: 12px;
+    overflow: auto;
+  }
+
+  #terminal-wrapper {
+    height: auto;
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  #terminal-frame {
+    height: auto;
+    min-height: 100vh;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  #title-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
 
   #terminal {
     padding: 16px;
+    overflow-y: visible;
+    height: auto;
   }
 
   #output .line.ascii {
