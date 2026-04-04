@@ -223,18 +223,15 @@
 
   async function autoTypeCommand(text) {
     var id = 'auto-cmd-' + Date.now();
-    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typing-cursor"></span><span class="typed-command" id="' + id + '"></span>', 'prompt-line');
+    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command" id="' + id + '"></span>', 'prompt-line');
     scrollToBottom();
     await wait(1000);
-    var line = document.getElementById(id).parentElement;
-    var cursor = line.querySelector('.typing-cursor');
     var span = document.getElementById(id);
     for (var i = 0; i < text.length; i++) {
       span.textContent += text[i];
       scrollToBottom();
       await wait(80);
     }
-    if (cursor) cursor.remove();
   }
 
   // ── Boot sequence ──────────────────────────────────────────────
@@ -280,23 +277,68 @@
     printOrga();
 
     // Auto-type /help
+    await wait(2500);
     await autoTypeCommand('/help');
     await wait(400);
     printHelp();
 
     // Show interactive prompt with hint
+    await wait(1000);
     showPrompt();
     var hint = 'type any command here...';
     for (var h = 0; h < hint.length; h++) {
       commandInput.value += hint[h];
       await wait(40);
     }
-    await wait(1000);
+    await wait(1500);
     for (var b = hint.length; b > 0; b--) {
       commandInput.value = hint.substring(0, b - 1);
       await wait(30);
     }
   }
+
+  // ── Draggable window ────────────────────────────────────────────
+
+  (function () {
+    var frame = document.getElementById('terminal-frame');
+    var titleBar = document.getElementById('title-bar');
+    var isDragging = false;
+    var offsetX, offsetY;
+
+    titleBar.addEventListener('mousedown', function (e) {
+      if (e.target.classList.contains('dot')) return;
+      isDragging = true;
+      var rect = frame.getBoundingClientRect();
+      offsetX = e.clientX - rect.left;
+      offsetY = e.clientY - rect.top;
+      frame.style.position = 'absolute';
+      frame.style.left = rect.left + 'px';
+      frame.style.top = rect.top + 'px';
+      frame.style.margin = '0';
+      titleBar.style.cursor = 'grabbing';
+      e.preventDefault();
+    });
+
+    document.addEventListener('mousemove', function (e) {
+      if (!isDragging) return;
+      var x = e.clientX - offsetX;
+      var y = e.clientY - offsetY;
+      var fw = frame.offsetWidth;
+      var fh = frame.offsetHeight;
+      var vw = window.innerWidth;
+      var vh = window.innerHeight;
+      x = Math.max(0, Math.min(x, vw - fw));
+      y = Math.max(0, Math.min(y, vh - fh));
+      frame.style.left = x + 'px';
+      frame.style.top = y + 'px';
+    });
+
+    document.addEventListener('mouseup', function () {
+      if (!isDragging) return;
+      isDragging = false;
+      titleBar.style.cursor = '';
+    });
+  })();
 
   boot();
 })();

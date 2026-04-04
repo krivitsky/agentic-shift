@@ -19,7 +19,7 @@
 
 html, body {
   height: 100%;
-  background: var(--bg);
+  background: #333333;
   color: var(--text);
   font-family: var(--font-mono);
   font-size: 14px;
@@ -27,10 +27,59 @@ html, body {
   overflow: hidden;
 }
 
-#terminal {
+#terminal-wrapper {
   height: 100vh;
   width: 100vw;
-  padding: 24px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+#terminal-frame {
+  width: 100%;
+  max-width: 900px;
+  height: 90vh;
+  background: var(--bg);
+  border: 1px solid #222;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+#title-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  background: #111;
+  border-bottom: 1px solid #222;
+  gap: 6px;
+  flex-shrink: 0;
+  cursor: grab;
+  user-select: none;
+}
+
+#title-bar .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+#title-bar .dot.red { background: #ff5f57; }
+#title-bar .dot.yellow { background: #888; }
+#title-bar .dot.green { background: #28c840; }
+
+#title-bar .title-text {
+  margin-left: 8px;
+  color: var(--text-dim);
+  font-size: 12px;
+}
+
+#terminal {
+  flex: 1;
+  padding: 20px 24px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -129,8 +178,8 @@ html, body {
 /* Blinking cursor for typing animation */
 .typing-cursor {
   display: inline-block;
-  width: 8px;
-  height: 16px;
+  width: 2px;
+  height: 14px;
   background: var(--accent);
   vertical-align: text-bottom;
   animation: blink 1s step-end infinite;
@@ -175,6 +224,17 @@ html, body {
   height: auto;
   border-radius: 4px;
   background: transparent;
+  clip-path: inset(0 0 100% 0);
+  animation: reveal-scanline 2s steps(40) forwards;
+}
+
+@keyframes reveal-scanline {
+  from { clip-path: inset(0 0 100% 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+
+.orga-card:nth-child(2) .orga-img {
+  animation-delay: 0.3s;
 }
 
 .orga-name {

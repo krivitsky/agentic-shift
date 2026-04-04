@@ -8,12 +8,22 @@
   <link rel="stylesheet" href="/css/terminal.css">
 </head>
 <body>
-  <div id="terminal">
-    <div id="output"></div>
-    <div id="input-line" class="hidden">
-      <span class="prompt">&gt;</span>
-      <input id="command-input" type="text" spellcheck="false" autocomplete="off" autofocus>
-      <span class="cursor"></span>
+  <div id="terminal-wrapper">
+    <div id="terminal-frame">
+      <div id="title-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="title-text">agentic-shift</span>
+      </div>
+      <div id="terminal">
+        <div id="output"></div>
+        <div id="input-line" class="hidden">
+          <span class="prompt">&gt;</span>
+          <input id="command-input" type="text" spellcheck="false" autocomplete="off" autofocus>
+          <span class="cursor"></span>
+        </div>
+      </div>
     </div>
   </div>
   <script src="/js/terminal.js"></script>
