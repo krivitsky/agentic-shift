@@ -5,15 +5,15 @@
 }
 
 :root {
-  --bg: #1a1b2e;
-  --bg-subtle: #222338;
-  --text: #c9a06c;
-  --text-dim: #8a6d4a;
-  --accent: #d4a574;
-  --prompt-color: #c9a06c;
-  --command-color: #d4a574;
-  --success: #c9a06c;
-  --warning: #d4a574;
+  --bg: #000000;
+  --bg-subtle: #111111;
+  --text: #d67757;
+  --text-dim: #9b5540;
+  --accent: #d67757;
+  --prompt-color: #d67757;
+  --command-color: #d67757;
+  --success: #d67757;
+  --warning: #d67757;
   --font-mono: "Berkeley Mono", "JetBrains Mono", "Fira Code", "Cascadia Code", "SF Mono", "Consolas", monospace;
 }
 
@@ -156,6 +156,43 @@ html, body {
 
 #terminal::-webkit-scrollbar-thumb:hover {
   background: var(--text-dim);
+}
+
+/* Organizer images */
+.orga-images {
+  display: flex;
+  gap: 32px;
+  padding: 8px 0;
+  align-items: flex-end;
+}
+
+.orga-card {
+  text-align: center;
+}
+
+.orga-img {
+  width: 160px;
+  height: auto;
+  border-radius: 4px;
+  filter: sepia(0.4) saturate(0.8) brightness(0.9);
+  background: transparent;
+  mix-blend-mode: lighten;
+}
+
+.orga-name {
+  color: var(--accent);
+  font-weight: bold;
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.orga-name a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.orga-name a:hover {
+  text-decoration: underline;
 }
 
 /* Responsive */

@@ -93,9 +93,32 @@
     addHTML('    <span class="cmd">/program</span>         — conference program', 'help-item');
     addHTML('    <span class="cmd">/registration</span>    — register for the event', 'help-item');
     addHTML('    <span class="cmd">/contact</span>         — get in touch', 'help-item');
+    addHTML('    <span class="cmd">/orga</span>            — meet the organizers', 'help-item');
     addHTML('    <span class="cmd">/beer</span>            — prost!', 'help-item');
     addHTML('    <span class="cmd">/help</span>            — show this message', 'help-item');
     addLine('');
+  }
+
+  function printOrga() {
+    addLine('');
+    var imgLine = document.createElement('div');
+    imgLine.className = 'line orga-images';
+    imgLine.innerHTML =
+      '<div class="orga-card">' +
+        '<a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">' +
+          '<img src="/images/alexey.png" alt="alexey" class="orga-img">' +
+        '</a>' +
+        '<div class="orga-name"><a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">alexey krivitsky</a></div>' +
+      '</div>' +
+      '<div class="orga-card">' +
+        '<a href="https://www.linkedin.com/in/ade-anima/" target="_blank" rel="noopener">' +
+          '<img src="/images/martin.png" alt="martin" class="orga-img">' +
+        '</a>' +
+        '<div class="orga-name"><a href="https://www.linkedin.com/in/ade-anima/" target="_blank" rel="noopener">martin westphal</a></div>' +
+      '</div>';
+    output.appendChild(imgLine);
+    addLine('');
+    scrollToBottom();
   }
 
   function printBeer() {
@@ -137,6 +160,9 @@
         break;
       case '/beer':
         printBeer();
+        break;
+      case '/orga':
+        printOrga();
         break;
       default:
         addLine('');
@@ -180,6 +206,17 @@
     }
   });
 
+  async function autoTypeCommand(text) {
+    var id = 'auto-cmd-' + Date.now();
+    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command" id="' + id + '"></span>', 'prompt-line');
+    var span = document.getElementById(id);
+    for (var i = 0; i < text.length; i++) {
+      span.textContent += text[i];
+      scrollToBottom();
+      await wait(80);
+    }
+  }
+
   // ── Boot sequence ──────────────────────────────────────────────
 
   async function boot() {
@@ -203,19 +240,16 @@
     await wait(600);
     addLine('');
 
-    // Auto-type /help
-    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command" id="auto-help"></span>', 'prompt-line');
-    const helpSpan = document.getElementById('auto-help');
-    const helpText = '/help';
-    for (let i = 0; i < helpText.length; i++) {
-      helpSpan.textContent += helpText[i];
-      scrollToBottom();
-      await wait(80);
-    }
-
+    // Auto-type /orga
+    await autoTypeCommand('/orga');
     await wait(400);
+    printOrga();
 
-    // Print help
+    await wait(600);
+
+    // Auto-type /help
+    await autoTypeCommand('/help');
+    await wait(400);
     printHelp();
 
     // Show interactive prompt
