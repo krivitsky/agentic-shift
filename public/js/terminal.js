@@ -372,9 +372,18 @@
     }
     regFlow = { step: 0, data: {} };
     addLine('');
+    printRegPrice();
     addLine('  registration — type /cancel at any prompt to abort.', 'dim');
     addLine('');
     promptRegStep();
+  }
+
+  function printRegPrice() {
+    var cfg = window.AGENTIC_CONFIG && window.AGENTIC_CONFIG.price;
+    if (!cfg) return;
+    var headline = cfg.regHeadline ? cfg.regHeadline + ', ' + cfg.display : 'price: ' + cfg.display;
+    addLine('  ' + headline, 'title');
+    addLine('');
   }
 
   function promptRegStep() {
@@ -557,7 +566,7 @@
 
     // Venue info
     addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">// codecentric, Plaza im Werksviertel<br>// august-everding-straße 20</a>', 'venue');
-    addHTML('// price: 99–249 EUR', 'venue');
+    addHTML('// price: ' + (window.AGENTIC_CONFIG && window.AGENTIC_CONFIG.price ? window.AGENTIC_CONFIG.price.display : '99–249 EUR'), 'venue');
     addLine('');
 
     // Separator
@@ -641,7 +650,7 @@
 
     // Venue info (after shift completes)
     addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">// codecentric, Plaza im Werksviertel<br>// august-everding-straße 20</a>', 'venue');
-    addHTML('// price: 99–249 EUR', 'venue');
+    addHTML('// price: ' + (window.AGENTIC_CONFIG && window.AGENTIC_CONFIG.price ? window.AGENTIC_CONFIG.price.display : '99–249 EUR'), 'venue');
 
     await wait(400);
     addLine('');
