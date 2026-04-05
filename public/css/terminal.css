@@ -342,12 +342,35 @@ html, body {
   width: 100%;
 }
 
+/* Program speakers — grid, 2 per row, responsive */
+.program-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 32px;
+  padding: 8px 0;
+  max-width: 500px;
+}
+
+@media (max-width: 500px) {
+  .program-images {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Organizer images */
 .orga-images {
-  display: flex;
-  gap: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 32px;
   padding: 8px 0;
-  align-items: flex-end;
+  max-width: 500px;
+  align-items: end;
+}
+
+@media (max-width: 500px) {
+  .orga-images {
+    grid-template-columns: 1fr;
+  }
 }
 
 .orga-card {

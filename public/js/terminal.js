@@ -143,6 +143,37 @@
     scrollToBottom();
   }
 
+  function printProgram() {
+    addLine('');
+    addLine('  below are invited speakers. session topics being defined.', 'dim');
+    addLine('');
+    var speakers = [
+      { slug: 'paul', name: 'paul stack', linkedin: 'https://www.linkedin.com/in/stack72/' },
+      { slug: 'hendrik', name: 'hendrik mans', linkedin: 'https://www.linkedin.com/in/hmans/' },
+      { slug: 'benedikt', name: 'benedikt stemmildt', linkedin: 'https://www.linkedin.com/in/benedikt-stemmildt/' },
+      { slug: 'bjoern', name: 'björn rochel', linkedin: 'https://www.linkedin.com/in/bjoern-rochel/' },
+      { slug: 'ingo', name: 'ingo eichhorst', linkedin: 'https://www.linkedin.com/in/ingo-eichhorst/' },
+      { slug: 'unknown', name: 'cfp is open: alexey@krivitsky.com', linkedin: 'mailto:alexey@krivitsky.com', cfp: true },
+    ];
+    var imgLine = document.createElement('div');
+    imgLine.className = 'line program-images';
+    var html = '';
+    for (var i = 0; i < speakers.length; i++) {
+      var s = speakers[i];
+      html +=
+        '<div class="orga-card">' +
+          '<a href="' + s.linkedin + '" target="_blank" rel="noopener">' +
+            '<img src="/images/' + s.slug + '.png" alt="' + s.name + '" class="orga-img">' +
+          '</a>' +
+          '<div class="orga-name"><a href="' + s.linkedin + '" target="_blank" rel="noopener">' + s.name + '</a></div>' +
+        '</div>';
+    }
+    imgLine.innerHTML = html;
+    output.appendChild(imgLine);
+    addLine('');
+    scrollToBottom();
+  }
+
   function printBeer() {
     addLine('');
     var l0 = addLine('', 'ascii');
@@ -243,9 +274,7 @@
         printHelp();
         break;
       case '/program':
-        addLine('');
-        addLine('  coming soon...', 'dim');
-        addLine('');
+        printProgram();
         break;
       case '/reg':
         addLine('');
@@ -396,6 +425,12 @@
     await autoTypeCommand('/orga');
     await wait(400);
     printOrga();
+
+    // Auto-type /program
+    await wait(2500);
+    await autoTypeCommand('/program');
+    await wait(400);
+    printProgram();
 
     // Auto-type /help
     await wait(2500);
