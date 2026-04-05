@@ -91,19 +91,20 @@
   ];
 
   // Full church + pretzel (replaces church lines after date is typed)
+  // Shifted left to align with the left margin when pretzel pushes it
   const CHURCH_WITH_PRETZEL = [
-    '                                                          __       __',
-    '              ___   ___                                 .\'  `\'._.\' `\'.',
-    '             (o o) (o o)                               |  .--;   ;--.  |',
-    '              | |   | |                                |  (  /   \\  )  |',
-    '             .|.|. .|.|.                                \\  ;` /^\\ `;  /',
-    '             |. .| |. .|                                 :` .\'._.\'.\' `;',
-    '             | | | | | |      _____________________      \'-`\'.___.\' `-\'',
-    '             |_|_| |_|_|     / / / / / / / / / / / /\\',
-    '             |   | |   |    /_______________________/|',
-    '             |   | |   |    | (_) (_) (_) (_) (_) (_)|  |',
-    '             |   |_|   |____| (_) (_) (_) (_) (_) (_)|  |',
-    '             |___|_|___|____|________________________|__|',
+    '                                              __       __',
+    '  ___   ___                                 .\'  `\'._.\' `\'.',
+    ' (o o) (o o)                               |  .--;   ;--.  |',
+    '  | |   | |                                |  (  /   \\  )  |',
+    ' .|.|. .|.|.                                \\  ;` /^\\ `;  /',
+    ' |. .| |. .|                                 :` .\'._.\'.\' `;',
+    ' | | | | | |      _____________________      \'-`\'.___.\' `-\'',
+    ' |_|_| |_|_|     / / / / / / / / / / / /\\',
+    ' |   | |   |    /_______________________/|',
+    ' |   | |   |    | (_) (_) (_) (_) (_) (_)|  |',
+    ' |   |_|   |____| (_) (_) (_) (_) (_) (_)|  |',
+    ' |___|_|___|____|________________________|__|',
   ];
 
   // ── Commands ───────────────────────────────────────────────────
@@ -343,13 +344,36 @@
 
     await wait(400);
 
-    // Now replace church lines with church+pretzel version
+    // First: show church+pretzel at original centered position (add 12-space prefix)
+    var shiftAmount = 12;
+    function padPrefix(n) {
+      var s = '';
+      for (var k = 0; k < n; k++) s += ' ';
+      return s;
+    }
     for (var j = 0; j < CHURCH_WITH_PRETZEL.length; j++) {
       if (j < churchElements.length) {
-        churchElements[j].textContent = CHURCH_WITH_PRETZEL[j];
+        churchElements[j].textContent = padPrefix(shiftAmount) + CHURCH_WITH_PRETZEL[j];
       }
     }
     scrollToBottom();
+
+    await wait(100);
+
+    // Then: slide left one character at a time
+    for (var step = shiftAmount - 1; step >= 0; step--) {
+      for (var j = 0; j < CHURCH_WITH_PRETZEL.length; j++) {
+        if (j < churchElements.length) {
+          churchElements[j].textContent = padPrefix(step) + CHURCH_WITH_PRETZEL[j];
+        }
+      }
+      await wait(40);
+    }
+
+    await wait(400);
+
+    // Venue info (after shift completes)
+    addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">codecentric, Plaza im Werksviertel<br>august-everding-straße 20</a>', 'venue');
 
     await wait(400);
     addLine('');

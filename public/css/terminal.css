@@ -207,6 +207,26 @@ html, body {
   background: var(--text-dim);
 }
 
+/* Venue info below date */
+#output .line.venue {
+  color: var(--text);
+  font-weight: normal;
+  margin-top: 4px;
+  line-height: 1.4;
+  font-size: 14.4px;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+.venue-link {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.venue-link:hover {
+  text-decoration: underline;
+}
+
 /* Separator line (Claude Code CLI style) */
 .separator {
   height: 1px;
@@ -233,7 +253,7 @@ html, body {
   border-radius: 4px;
   background: transparent;
   clip-path: inset(0 0 100% 0);
-  animation: reveal-scanline 2s steps(40) forwards;
+  animation: reveal-scanline 1.6s steps(40) forwards;
 }
 
 @keyframes reveal-scanline {
