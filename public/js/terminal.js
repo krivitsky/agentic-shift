@@ -284,9 +284,7 @@
         printSpeakers();
         break;
       case '/reg':
-        addLine('');
-        addLine('  coming soon...', 'dim');
-        addLine('');
+        startRegistration();
         break;
       case '/contact':
         addLine('');
@@ -326,6 +324,170 @@
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
+  // ── Registration flow ──────────────────────────────────────────
+
+  var regFlow = null; // { step: 0, data: {} } when active
+
+  var REG_STEPS = [
+    { key: 'name',           label: 'name',                     required: true },
+    { key: 'email',          label: 'email',                    required: true,
+      validate: function (v) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v) ? null : 'please enter a valid email';
+      } },
+    { key: 'role',           label: 'role (optional)',          required: false },
+    { key: 'company',        label: 'company (optional)',       required: false },
+    { key: 'payment_method', label: 'payment (card/invoice)',   required: true,
+      validate: function (v) {
+        var x = v.toLowerCase();
+        return (x === 'card' || x === 'invoice') ? null : 'type "card" or "invoice"';
+      },
+      transform: function (v) { return v.toLowerCase(); } },
+    { key: 'linkedin',       label: 'linkedin (optional)',      required: false },
+    { key: 'comment',        label: 'comment (optional)',       required: false },
+  ];
+
+  function getStoredRegistration() {
+    try {
+      var raw = localStorage.getItem('agenticShiftRegistered');
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+  }
+
+  function setStoredRegistration(name, email) {
+    try {
+      localStorage.setItem('agenticShiftRegistered', JSON.stringify({ name: name, email: email }));
+    } catch (e) {}
+  }
+
+  function startRegistration() {
+    var existing = getStoredRegistration();
+    if (existing && existing.name) {
+      regFlow = { confirming: true, step: 0, data: {} };
+      addLine('');
+      addLine('  you are already registered as ' + existing.name + '.', 'title');
+      addLine('  register another person? (y/n)', 'dim');
+      var label = document.getElementById('prompt-label');
+      if (label) label.textContent = '(y/n)>';
+      return;
+    }
+    regFlow = { step: 0, data: {} };
+    addLine('');
+    addLine('  registration — type /cancel at any prompt to abort.', 'dim');
+    addLine('');
+    promptRegStep();
+  }
+
+  function promptRegStep() {
+    var step = REG_STEPS[regFlow.step];
+    var label = document.getElementById('prompt-label');
+    if (label) label.textContent = step.label + '>';
+  }
+
+  function handleRegInput(raw) {
+    var val = raw.trim();
+
+    if (val.toLowerCase() === '/cancel') {
+      regFlow = null;
+      resetPromptLabel();
+      addLine('');
+      addLine('  registration cancelled.', 'dim');
+      addLine('');
+      return;
+    }
+
+    // Confirmation stage: "already registered — register another person?"
+    if (regFlow.confirming) {
+      addHTML(
+        '<span style="color:var(--prompt-color);font-weight:bold">(y/n)&gt;</span> ' +
+        '<span class="typed-command">' + escapeHTML(raw) + '</span>',
+        'prompt-line'
+      );
+      var answer = val.toLowerCase();
+      if (answer === 'y' || answer === 'yes') {
+        regFlow.confirming = false;
+        addLine('');
+        addLine('  registration — type /cancel at any prompt to abort.', 'dim');
+        addLine('');
+        promptRegStep();
+      } else {
+        regFlow = null;
+        resetPromptLabel();
+        addLine('');
+        addLine('  ok, see you in Munich!', 'dim');
+        addLine('');
+      }
+      return;
+    }
+
+    var step = REG_STEPS[regFlow.step];
+
+    // Echo what the user typed in the prompt style
+    addHTML(
+      '<span style="color:var(--prompt-color);font-weight:bold">' + escapeHTML(step.label) + '&gt;</span> ' +
+      '<span class="typed-command">' + escapeHTML(raw) + '</span>',
+      'prompt-line'
+    );
+
+    if (step.required && !val) {
+      addLine('  ' + step.label + ' is required.', 'dim');
+      return; // re-prompt same step
+    }
+
+    if (val && step.validate) {
+      var err = step.validate(val);
+      if (err) {
+        addLine('  ' + err, 'dim');
+        return; // re-prompt same step
+      }
+    }
+
+    regFlow.data[step.key] = step.transform ? step.transform(val) : val;
+    regFlow.step++;
+
+    if (regFlow.step >= REG_STEPS.length) {
+      submitRegistration();
+    } else {
+      promptRegStep();
+    }
+  }
+
+  function resetPromptLabel() {
+    var label = document.getElementById('prompt-label');
+    if (label) label.textContent = '>';
+  }
+
+  async function submitRegistration() {
+    var data = regFlow.data;
+    data.website = ''; // honeypot
+    regFlow = null;
+    resetPromptLabel();
+
+    addLine('');
+    addLine('  submitting...', 'dim');
+
+    try {
+      var res = await fetch('/api/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      var body = await res.json().catch(function () { return { ok: false, error: 'bad response' }; });
+      if (body.ok) {
+        setStoredRegistration(data.name, data.email);
+        addLine('');
+        addLine('  [ok] registered. confirmation sent to ' + data.email, 'title');
+        addLine('');
+      } else {
+        addLine('  [err] ' + (body.error || 'registration failed'), 'dim');
+        addLine('  type /reg to try again.', 'dim');
+        addLine('');
+      }
+    } catch (e) {
+      addLine('  [err] network error — please try again later.', 'dim');
+      addLine('');
+    }
+  }
+
   // ── Input handling ─────────────────────────────────────────────
 
   function showPrompt() {
@@ -339,7 +501,9 @@
     if (e.key === 'Enter') {
       const val = commandInput.value;
       inputLine.classList.add('hidden');
-      if (val.trim()) {
+      if (regFlow) {
+        handleRegInput(val);
+      } else if (val.trim()) {
         handleCommand(val);
       }
       showPrompt();
@@ -393,6 +557,7 @@
 
     // Venue info
     addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">// codecentric, Plaza im Werksviertel<br>// august-everding-straße 20</a>', 'venue');
+    addHTML('// price: 99–249 EUR', 'venue');
     addLine('');
 
     // Separator
@@ -476,6 +641,7 @@
 
     // Venue info (after shift completes)
     addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">// codecentric, Plaza im Werksviertel<br>// august-everding-straße 20</a>', 'venue');
+    addHTML('// price: 99–249 EUR', 'venue');
 
     await wait(400);
     addLine('');
