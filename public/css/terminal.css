@@ -344,16 +344,26 @@ html, body {
   width: 100%;
 }
 
-/* Program speakers — grid, responsive to terminal window width */
+/* Speakers intro — properly indented with hanging indent */
+#output .line.speakers-intro {
+  color: var(--text-dim);
+  padding-left: 2ch;
+  white-space: normal;
+}
+
+/* Portrait grids — orga and program share responsive breakpoints */
+.orga-images,
 .program-images {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px 32px;
   padding: 8px 0;
   max-width: 750px;
+  align-items: end;
 }
 
 @container terminal (max-width: 680px) {
+  .orga-images,
   .program-images {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     max-width: 500px;
@@ -361,23 +371,8 @@ html, body {
 }
 
 @container terminal (max-width: 400px) {
+  .orga-images,
   .program-images {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Organizer images */
-.orga-images {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px 32px;
-  padding: 8px 0;
-  max-width: 500px;
-  align-items: end;
-}
-
-@media (max-width: 500px) {
-  .orga-images {
     grid-template-columns: 1fr;
   }
 }

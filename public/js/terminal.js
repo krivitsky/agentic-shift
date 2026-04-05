@@ -113,13 +113,14 @@
     addLine('');
     addLine('  available commands:', 'help-header');
     addLine('');
+    addHTML('    <span class="cmd">/help</span>            — show this message', 'help-item');
+    addHTML('    <span class="cmd">/orga</span>            — meet the organizers', 'help-item');
+    addHTML('    <span class="cmd">/speakers</span>        — meet the speakers', 'help-item');
     addHTML('    <span class="cmd">/program</span>         — conference program', 'help-item');
     addHTML('    <span class="cmd">/reg</span>             — register for the event', 'help-item');
     addHTML('    <span class="cmd">/contact</span>         — get in touch', 'help-item');
-    addHTML('    <span class="cmd">/orga</span>            — meet the organizers', 'help-item');
     addHTML('    <span class="cmd">/beer</span>            — prost!', 'help-item');
     addHTML('    <span class="cmd">/reboot</span>          — replay the intro', 'help-item');
-    addHTML('    <span class="cmd">/help</span>            — show this message', 'help-item');
     addLine('');
   }
 
@@ -144,9 +145,9 @@
     scrollToBottom();
   }
 
-  function printProgram() {
+  function printSpeakers() {
     addLine('');
-    addLine('  below are invited speakers. session topics being defined.', 'dim');
+    addHTML('below are invited speakers. session topics being defined.', 'speakers-intro');
     addLine('');
     var speakers = [
       { slug: 'paul', name: 'paul stack', linkedin: 'https://www.linkedin.com/in/stack72/' },
@@ -275,7 +276,12 @@
         printHelp();
         break;
       case '/program':
-        printProgram();
+        addLine('');
+        addLine('  coming soon...', 'dim');
+        addLine('');
+        break;
+      case '/speakers':
+        printSpeakers();
         break;
       case '/reg':
         addLine('');
@@ -289,7 +295,7 @@
           'Josef-Obenhin-Str. 5<br>' +
           '80634 München, Germany<br>' +
           'VAT: DE301509127<br>' +
-          '<a href="tel:+4915257400441" class="venue-link">+49(0)15257400441</a><br>' +
+          '<a href="https://wa.me/+4915257400441" target="_blank" rel="noopener" class="venue-link">+49(0)15257400441</a><br>' +
           '<a href="mailto:alexey@krivitsky.com" class="venue-link">alexey@krivitsky.com</a>',
           'venue'
         );
@@ -399,9 +405,9 @@
     addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command">/orga</span>', 'prompt-line');
     printOrga();
 
-    // /program
-    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command">/program</span>', 'prompt-line');
-    printProgram();
+    // /speakers
+    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command">/speakers</span>', 'prompt-line');
+    printSpeakers();
 
     // /help
     addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command">/help</span>', 'prompt-line');
@@ -485,11 +491,11 @@
     await wait(400);
     printOrga();
 
-    // Auto-type /program
+    // Auto-type /speakers
     await wait(2500);
-    await autoTypeCommand('/program');
+    await autoTypeCommand('/speakers');
     await wait(400);
-    printProgram();
+    printSpeakers();
 
     // Auto-type /help
     await wait(2500);
