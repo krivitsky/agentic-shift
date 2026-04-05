@@ -373,7 +373,7 @@
     await wait(400);
 
     // Venue info (after shift completes)
-    addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">codecentric, Plaza im Werksviertel<br>august-everding-straße 20</a>', 'venue');
+    addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">// codecentric, Plaza im Werksviertel<br>// august-everding-straße 20</a>', 'venue');
 
     await wait(400);
     addLine('');
