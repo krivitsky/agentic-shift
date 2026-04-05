@@ -37,9 +37,11 @@ html, body {
 }
 
 #terminal-frame {
-  width: 100%;
-  max-width: 900px;
+  width: 900px;
+  max-width: 100%;
   height: 90vh;
+  min-width: 400px;
+  min-height: 300px;
   background: var(--bg);
   border: 1px solid #222;
   border-radius: 8px;
@@ -47,6 +49,7 @@ html, body {
   flex-direction: column;
   overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  resize: both;
 }
 
 #title-bar {
@@ -65,10 +68,100 @@ html, body {
   width: 12px;
   height: 12px;
   border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-clip: padding-box;
+}
+
+#title-bar:hover .dot::before,
+#title-bar:hover .dot::after {
+  opacity: 1;
+}
+
+#title-bar .dot::before,
+#title-bar .dot::after {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+/* Red X */
+#title-bar .dot.red::before,
+#title-bar .dot.red::after {
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 1.5px;
+  background: #4d0000;
+  transform-origin: center;
+}
+#title-bar .dot.red::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+#title-bar .dot.red::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* Yellow minus */
+#title-bar .dot.yellow::before {
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 1.5px;
+  background: #5c3a00;
+  transform: translate(-50%, -50%);
+}
+
+/* Green maximize (two triangles pointing toward each other) */
+#title-bar .dot.green::before {
+  top: 1.5px;
+  left: 1.5px;
+  width: 5px;
+  height: 5px;
+  background: #003300;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+#title-bar .dot.green::after {
+  bottom: 1.5px;
+  right: 1.5px;
+  width: 5px;
+  height: 5px;
+  background: #003300;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
 }
 
 #title-bar .dot.red { background: #ff5f57; }
-#title-bar .dot.yellow { background: #888; }
+#title-bar .dot.yellow { background: #febc2e; }
+
+#terminal-frame.minimized {
+  transform: translateY(100vh) scale(0.3);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  pointer-events: none;
+}
+
+#restore-button {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  padding: 10px 16px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid #333;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  cursor: pointer;
+  display: none;
+  z-index: 100;
+}
+
+#restore-button.visible {
+  display: block;
+}
 #title-bar .dot.green { background: #28c840; }
 
 #title-bar .title-text {

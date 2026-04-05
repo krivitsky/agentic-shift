@@ -451,6 +451,81 @@
       isDragging = false;
       titleBar.style.cursor = '';
     });
+
+    // Red button: close
+    var redDot = document.querySelector('#title-bar .dot.red');
+    if (redDot) {
+      redDot.style.cursor = 'pointer';
+      redDot.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (window.confirm('Are you sure?')) {
+          window.close();
+          // Fallback if window.close() is blocked (most browsers block it for non-script-opened tabs)
+          setTimeout(function () {
+            document.body.innerHTML = '<div style="color:#d67757;font-family:monospace;padding:40px;">goodbye.</div>';
+          }, 100);
+        }
+      });
+    }
+
+    // Yellow button: minimize
+    var yellowDot = document.querySelector('#title-bar .dot.yellow');
+    var restoreBtn = document.getElementById('restore-button');
+    if (yellowDot && restoreBtn) {
+      yellowDot.style.cursor = 'pointer';
+      yellowDot.addEventListener('click', function (e) {
+        e.stopPropagation();
+        frame.style.transition = 'transform 0.4s ease, opacity 0.4s ease';
+        frame.classList.add('minimized');
+        setTimeout(function () {
+          restoreBtn.classList.add('visible');
+        }, 400);
+      });
+      restoreBtn.addEventListener('click', function () {
+        frame.classList.remove('minimized');
+        restoreBtn.classList.remove('visible');
+        setTimeout(function () {
+          frame.style.transition = '';
+        }, 400);
+      });
+    }
+
+    // Green button: maximize / restore
+    var greenDot = document.querySelector('#title-bar .dot.green');
+    var savedState = null;
+    if (greenDot) {
+      greenDot.style.cursor = 'pointer';
+      greenDot.addEventListener('click', function (e) {
+        e.stopPropagation();
+        if (!savedState) {
+          savedState = {
+            width: frame.style.width,
+            height: frame.style.height,
+            left: frame.style.left,
+            top: frame.style.top,
+            position: frame.style.position,
+            margin: frame.style.margin,
+            borderRadius: frame.style.borderRadius,
+          };
+          frame.style.position = 'fixed';
+          frame.style.left = '0';
+          frame.style.top = '0';
+          frame.style.width = '100vw';
+          frame.style.height = '100vh';
+          frame.style.margin = '0';
+          frame.style.borderRadius = '0';
+        } else {
+          frame.style.width = savedState.width;
+          frame.style.height = savedState.height;
+          frame.style.left = savedState.left;
+          frame.style.top = savedState.top;
+          frame.style.position = savedState.position;
+          frame.style.margin = savedState.margin;
+          frame.style.borderRadius = savedState.borderRadius;
+          savedState = null;
+        }
+      });
+    }
   })();
 
   boot();
