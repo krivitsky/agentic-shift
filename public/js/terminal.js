@@ -499,6 +499,7 @@
       if (answer === 'y' || answer === 'yes') {
         regFlow.confirming = false;
         addLine('');
+        openFormBox();
         addLine('  registration — type /cancel at any prompt to abort.', 'dim');
         addLine('');
         promptRegStep();
