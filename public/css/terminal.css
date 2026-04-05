@@ -170,6 +170,12 @@ html, body {
 #minimized-bar button:hover {
   border-color: var(--accent);
 }
+
+#fake-button .lol {
+  color: #994444;
+  font-weight: normal;
+  margin-left: 4px;
+}
 #title-bar .dot.green { background: #28c840; }
 
 #title-bar .title-text {
