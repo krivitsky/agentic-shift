@@ -190,6 +190,8 @@ html, body {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  container-type: inline-size;
+  container-name: terminal;
 }
 
 #output {
@@ -342,16 +344,23 @@ html, body {
   width: 100%;
 }
 
-/* Program speakers — grid, 2 per row, responsive */
+/* Program speakers — grid, responsive to terminal window width */
 .program-images {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px 32px;
   padding: 8px 0;
-  max-width: 500px;
+  max-width: 750px;
 }
 
-@media (max-width: 500px) {
+@container terminal (max-width: 680px) {
+  .program-images {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 500px;
+  }
+}
+
+@container terminal (max-width: 400px) {
   .program-images {
     grid-template-columns: 1fr;
   }
@@ -384,6 +393,11 @@ html, body {
   background: transparent;
   clip-path: inset(0 0 100% 0);
   animation: reveal-scanline 1.6s steps(40) forwards;
+}
+
+.instant-boot .orga-img {
+  animation: none;
+  clip-path: inset(0 0 0 0);
 }
 
 @keyframes reveal-scanline {

@@ -118,6 +118,7 @@
     addHTML('    <span class="cmd">/contact</span>         — get in touch', 'help-item');
     addHTML('    <span class="cmd">/orga</span>            — meet the organizers', 'help-item');
     addHTML('    <span class="cmd">/beer</span>            — prost!', 'help-item');
+    addHTML('    <span class="cmd">/reboot</span>          — replay the intro', 'help-item');
     addHTML('    <span class="cmd">/help</span>            — show this message', 'help-item');
     addLine('');
   }
@@ -300,6 +301,10 @@
       case '/orga':
         printOrga();
         break;
+      case '/reboot':
+        try { localStorage.removeItem('agenticShiftSeen'); } catch (e) {}
+        location.reload();
+        break;
       default:
         addLine('');
         addLine('  unknown command: ' + raw, 'dim');
@@ -357,7 +362,61 @@
 
   // ── Boot sequence ──────────────────────────────────────────────
 
+  function hasSeenBoot() {
+    try { return localStorage.getItem('agenticShiftSeen') === '1'; } catch (e) { return false; }
+  }
+
+  function markBootSeen() {
+    try { localStorage.setItem('agenticShiftSeen', '1'); } catch (e) {}
+  }
+
+  function bootInstant() {
+    document.body.classList.add('instant-boot');
+    // Title
+    addLine('welcome to agentic shift conference', 'title');
+    addLine('');
+
+    // Frauenkirche + pretzel (final, left-aligned state)
+    for (var i = 0; i < CHURCH_WITH_PRETZEL.length; i++) {
+      addLine(CHURCH_WITH_PRETZEL[i], 'ascii');
+    }
+    addLine('');
+
+    // Location + date
+    addLine('munich, june 27, 2026', 'title');
+
+    // Venue info
+    addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">// codecentric, Plaza im Werksviertel<br>// august-everding-straße 20</a>', 'venue');
+    addLine('');
+
+    // Separator
+    var separator = document.createElement('div');
+    separator.className = 'separator';
+    output.appendChild(separator);
+    addLine('');
+
+    // /orga
+    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command">/orga</span>', 'prompt-line');
+    printOrga();
+
+    // /program
+    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command">/program</span>', 'prompt-line');
+    printProgram();
+
+    // /help
+    addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command">/help</span>', 'prompt-line');
+    printHelp();
+
+    // Prompt
+    showPrompt();
+  }
+
   async function boot() {
+    if (hasSeenBoot()) {
+      bootInstant();
+      return;
+    }
+
     await wait(600);
 
     // Title
@@ -451,6 +510,8 @@
       commandInput.value = hint.substring(0, b - 1);
       await wait(30);
     }
+
+    markBootSeen();
   }
 
   // ── Draggable window ────────────────────────────────────────────
