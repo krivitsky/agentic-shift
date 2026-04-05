@@ -114,7 +114,7 @@
     addLine('  available commands:', 'help-header');
     addLine('');
     addHTML('    <span class="cmd">/program</span>         — conference program', 'help-item');
-    addHTML('    <span class="cmd">/registration</span>    — register for the event', 'help-item');
+    addHTML('    <span class="cmd">/reg</span>             — register for the event', 'help-item');
     addHTML('    <span class="cmd">/contact</span>         — get in touch', 'help-item');
     addHTML('    <span class="cmd">/orga</span>            — meet the organizers', 'help-item');
     addHTML('    <span class="cmd">/beer</span>            — prost!', 'help-item');
@@ -247,14 +247,22 @@
         addLine('  coming soon...', 'dim');
         addLine('');
         break;
-      case '/registration':
+      case '/reg':
         addLine('');
         addLine('  coming soon...', 'dim');
         addLine('');
         break;
       case '/contact':
         addLine('');
-        addLine('  coming soon...', 'dim');
+        addHTML(
+          'Alexey Krivitsky<br>' +
+          'Josef-Obenhin-Str. 5<br>' +
+          '80634 München, Germany<br>' +
+          'VAT: DE301509127<br>' +
+          '<a href="tel:+4915257400441" class="venue-link">+49(0)15257400441</a><br>' +
+          '<a href="mailto:alexey@krivitsky.com" class="venue-link">alexey@krivitsky.com</a>',
+          'venue'
+        );
         addLine('');
         break;
       case '/beer':
