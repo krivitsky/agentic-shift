@@ -143,10 +143,20 @@ html, body {
   pointer-events: none;
 }
 
-#restore-button {
+#minimized-bar {
   position: fixed;
   bottom: 16px;
   right: 16px;
+  display: none;
+  gap: 10px;
+  z-index: 100;
+}
+
+#minimized-bar.visible {
+  display: flex;
+}
+
+#minimized-bar button {
   padding: 10px 16px;
   background: var(--bg);
   color: var(--text);
@@ -155,12 +165,10 @@ html, body {
   font-family: var(--font-mono);
   font-size: 13px;
   cursor: pointer;
-  display: none;
-  z-index: 100;
 }
 
-#restore-button.visible {
-  display: block;
+#minimized-bar button:hover {
+  border-color: var(--accent);
 }
 #title-bar .dot.green { background: #28c840; }
 

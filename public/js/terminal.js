@@ -478,24 +478,32 @@
 
     // Yellow button: minimize
     var yellowDot = document.querySelector('#title-bar .dot.yellow');
+    var minimizedBar = document.getElementById('minimized-bar');
     var restoreBtn = document.getElementById('restore-button');
-    if (yellowDot && restoreBtn) {
+    var fakeBtn = document.getElementById('fake-button');
+    if (yellowDot && minimizedBar && restoreBtn) {
       yellowDot.style.cursor = 'pointer';
       yellowDot.addEventListener('click', function (e) {
         e.stopPropagation();
         frame.style.transition = 'transform 0.4s ease, opacity 0.4s ease';
         frame.classList.add('minimized');
         setTimeout(function () {
-          restoreBtn.classList.add('visible');
+          minimizedBar.classList.add('visible');
         }, 400);
       });
       restoreBtn.addEventListener('click', function () {
         frame.classList.remove('minimized');
-        restoreBtn.classList.remove('visible');
+        minimizedBar.classList.remove('visible');
         setTimeout(function () {
           frame.style.transition = '';
         }, 400);
       });
+      if (fakeBtn) {
+        fakeBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          // does nothing on purpose
+        });
+      }
     }
 
     // Green button: maximize / restore
