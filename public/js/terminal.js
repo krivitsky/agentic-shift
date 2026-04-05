@@ -375,6 +375,10 @@
       return;
     }
     regFlow = { step: 0, data: {} };
+    beginFieldFlow();
+  }
+
+  function beginFieldFlow() {
     addLine('');
     printRegPrice();
     openFormBox();
@@ -498,12 +502,7 @@
       var answer = val.toLowerCase();
       if (answer === 'y' || answer === 'yes') {
         regFlow.confirming = false;
-        addLine('');
-        printRegPrice();
-        openFormBox();
-        addLine('  registration — type /cancel at any prompt to abort.', 'dim');
-        addLine('');
-        promptRegStep();
+        beginFieldFlow();
       } else {
         regFlow = null;
         resetPromptLabel();
