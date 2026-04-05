@@ -354,6 +354,12 @@
     await wait(400);
     addLine('');
 
+    // Separator line like Claude Code CLI
+    var separator = document.createElement('div');
+    separator.className = 'separator';
+    output.appendChild(separator);
+    addLine('');
+
     // Auto-type /orga
     await autoTypeCommand('/orga');
     await wait(400);

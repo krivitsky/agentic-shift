@@ -207,6 +207,14 @@ html, body {
   background: var(--text-dim);
 }
 
+/* Separator line (Claude Code CLI style) */
+.separator {
+  height: 1px;
+  background: #3a3a3a;
+  margin: 4px 0;
+  width: 100%;
+}
+
 /* Organizer images */
 .orga-images {
   display: flex;
