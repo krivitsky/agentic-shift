@@ -327,6 +327,24 @@ html, body {
   text-transform: lowercase;
 }
 
+#output .line.venue.tier-list {
+  margin-top: 14px;
+  line-height: 1.25;
+  min-height: 0;
+}
+
+/* Registration form box */
+#output .form-box {
+  border: 1px solid #ffffff;
+  padding: 12px 16px;
+  margin: 8px 0;
+  max-width: 720px;
+}
+
+#output .form-box .line:first-child {
+  min-height: 1.2em;
+}
+
 .venue-link {
   color: var(--text);
   text-decoration: none;

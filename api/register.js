@@ -17,7 +17,12 @@ module.exports = async function handler(req, res) {
     try { body = JSON.parse(body); } catch { body = {}; }
   }
 
-  const result = await handleRegistration(body || {});
-  const status = result.ok ? 200 : (result.error === 'server not configured' ? 500 : 400);
-  return res.status(status).json(result);
+  try {
+    const result = await handleRegistration(body || {});
+    const status = result.ok ? 200 : (result.error === 'server not configured' ? 500 : 400);
+    return res.status(status).json(result);
+  } catch (err) {
+    console.error('[/api/register] unhandled:', err);
+    return res.status(500).json({ ok: false, error: 'server_error' });
+  }
 };

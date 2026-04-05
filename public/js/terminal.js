@@ -9,11 +9,15 @@
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
+  // Optional nested container — when set, addLine/addHTML append here instead
+  // of directly to #output. Used to visually group the /reg form in a box.
+  var outputContainer = null;
+
   function addLine(text, className) {
     const div = document.createElement('div');
     div.className = 'line' + (className ? ' ' + className : '');
     div.textContent = text;
-    output.appendChild(div);
+    (outputContainer || output).appendChild(div);
     scrollToBottom();
     return div;
   }
@@ -22,7 +26,7 @@
     const div = document.createElement('div');
     div.className = 'line' + (className ? ' ' + className : '');
     div.innerHTML = html;
-    output.appendChild(div);
+    (outputContainer || output).appendChild(div);
     scrollToBottom();
     return div;
   }
@@ -373,16 +377,95 @@
     regFlow = { step: 0, data: {} };
     addLine('');
     printRegPrice();
+    openFormBox();
     addLine('  registration — type /cancel at any prompt to abort.', 'dim');
     addLine('');
     promptRegStep();
   }
 
+  var inputLineOriginalParent = null;
+
+  function openFormBox() {
+    var box = document.createElement('div');
+    box.className = 'form-box';
+    var body = document.createElement('div');
+    body.className = 'form-body';
+    box.appendChild(body);
+    output.appendChild(box);
+    outputContainer = body;
+    // Move the live input line into the box AFTER the body so the active field
+    // always renders at the bottom of the frame.
+    if (inputLine && inputLine.parentNode !== box) {
+      inputLineOriginalParent = inputLine.parentNode;
+      box.appendChild(inputLine);
+    }
+  }
+
+  function closeFormBox() {
+    outputContainer = null;
+    // Move the input line back to its original place (end of #terminal)
+    if (inputLineOriginalParent && inputLine.parentNode !== inputLineOriginalParent) {
+      inputLineOriginalParent.appendChild(inputLine);
+    }
+    inputLineOriginalParent = null;
+  }
+
+  function currentTierIndex() {
+    var cfg = window.AGENTIC_CONFIG && window.AGENTIC_CONFIG.price;
+    if (!cfg || !cfg.tiers) return -1;
+    for (var i = 0; i < cfg.tiers.length; i++) {
+      if (cfg.tiers[i].id === cfg.current) return i;
+    }
+    return -1;
+  }
+
+  function printVenueTierList() {
+    var cfg = window.AGENTIC_CONFIG && window.AGENTIC_CONFIG.price;
+    if (!cfg || !cfg.tiers || !cfg.tiers.length) return;
+    var curIdx = currentTierIndex();
+    var parts = [];
+    for (var i = 0; i < cfg.tiers.length; i++) {
+      var t = cfg.tiers[i];
+      var body = escapeHTML(t.amount) + ' - ' + escapeHTML(t.label);
+      if (i === curIdx) {
+        parts.push('// <strong>' + body + ' (current)</strong>');
+      } else if (i < curIdx) {
+        parts.push('// ' + body + ' (sold-out)');
+      } else {
+        parts.push('// ' + body);
+      }
+    }
+    addHTML(parts.join('<br>'), 'venue tier-list');
+  }
+
+  function currentPriceTier() {
+    var cfg = window.AGENTIC_CONFIG && window.AGENTIC_CONFIG.price;
+    if (!cfg || !cfg.tiers || !cfg.tiers.length) return null;
+    for (var i = 0; i < cfg.tiers.length; i++) {
+      if (cfg.tiers[i].id === cfg.current) return cfg.tiers[i];
+    }
+    return cfg.tiers[0];
+  }
+
   function printRegPrice() {
     var cfg = window.AGENTIC_CONFIG && window.AGENTIC_CONFIG.price;
     if (!cfg) return;
-    var headline = cfg.regHeadline ? cfg.regHeadline + ', ' + cfg.display : 'price: ' + cfg.display;
-    addLine('  ' + headline, 'title');
+    if (cfg.regHeadline) addLine('  ' + cfg.regHeadline, 'title');
+    if (cfg.tiers && cfg.tiers.length) {
+      addLine('');
+      var curIdx = currentTierIndex();
+      for (var i = 0; i < cfg.tiers.length; i++) {
+        var t = cfg.tiers[i];
+        var body = t.amount + ' - ' + t.label;
+        if (i === curIdx) {
+          addHTML('    <strong>' + escapeHTML(body) + ' (current)</strong>', 'title');
+        } else if (i < curIdx) {
+          addLine('    ' + body + ' (sold-out)', 'dim');
+        } else {
+          addLine('    ' + body, 'dim');
+        }
+      }
+    }
     addLine('');
   }
 
@@ -398,6 +481,7 @@
     if (val.toLowerCase() === '/cancel') {
       regFlow = null;
       resetPromptLabel();
+      closeFormBox();
       addLine('');
       addLine('  registration cancelled.', 'dim');
       addLine('');
@@ -473,6 +557,7 @@
 
     addLine('');
     addLine('  submitting...', 'dim');
+    closeFormBox();
 
     try {
       var res = await fetch('/api/register', {
@@ -480,7 +565,14 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
       });
-      var body = await res.json().catch(function () { return { ok: false, error: 'bad response' }; });
+      var text = await res.text();
+      var body;
+      try {
+        body = JSON.parse(text);
+      } catch (parseErr) {
+        body = { ok: false, error: 'non-json response (HTTP ' + res.status + ')' };
+        console.error('[/reg] non-json response:', res.status, text.slice(0, 500));
+      }
       if (body.ok) {
         setStoredRegistration(data.name, data.email);
         addLine('');
@@ -499,11 +591,11 @@
 
   // ── Input handling ─────────────────────────────────────────────
 
-  function showPrompt() {
+  function showPrompt(opts) {
     inputLine.classList.remove('hidden');
     commandInput.value = '';
-    commandInput.focus();
-    scrollToBottom();
+    try { commandInput.focus({ preventScroll: true }); } catch (e) { commandInput.focus(); }
+    if (!opts || opts.scroll !== false) scrollToBottom();
   }
 
   commandInput.addEventListener('keydown', function (e) {
@@ -519,10 +611,10 @@
     }
   });
 
-  // Keep focus on input
+  // Keep focus on input (without scrolling the page to the input)
   document.addEventListener('click', function () {
     if (!inputLine.classList.contains('hidden')) {
-      commandInput.focus();
+      try { commandInput.focus({ preventScroll: true }); } catch (e) { commandInput.focus(); }
     }
   });
 
@@ -566,7 +658,7 @@
 
     // Venue info
     addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">// codecentric, Plaza im Werksviertel<br>// august-everding-straße 20</a>', 'venue');
-    addHTML('// price: ' + (window.AGENTIC_CONFIG && window.AGENTIC_CONFIG.price ? window.AGENTIC_CONFIG.price.display : '99–249 EUR'), 'venue');
+    printVenueTierList();
     addLine('');
 
     // Separator
@@ -587,8 +679,11 @@
     addHTML('<span style="color:var(--prompt-color);font-weight:bold">&gt;</span> <span class="typed-command">/help</span>', 'prompt-line');
     printHelp();
 
-    // Prompt
-    showPrompt();
+    // Prompt — don't auto-scroll on instant boot, keep user at the top
+    showPrompt({ scroll: false });
+    var _term = document.getElementById('terminal');
+    if (_term) _term.scrollTop = 0;
+    window.scrollTo(0, 0);
   }
 
   async function boot() {
@@ -650,7 +745,7 @@
 
     // Venue info (after shift completes)
     addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">// codecentric, Plaza im Werksviertel<br>// august-everding-straße 20</a>', 'venue');
-    addHTML('// price: ' + (window.AGENTIC_CONFIG && window.AGENTIC_CONFIG.price ? window.AGENTIC_CONFIG.price.display : '99–249 EUR'), 'venue');
+    printVenueTierList();
 
     await wait(400);
     addLine('');

@@ -9,9 +9,14 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/api/register', async (req, res) => {
-  const result = await handleRegistration(req.body || {});
-  const status = result.ok ? 200 : (result.error === 'server not configured' ? 500 : 400);
-  res.status(status).json(result);
+  try {
+    const result = await handleRegistration(req.body || {});
+    const status = result.ok ? 200 : (result.error === 'server not configured' ? 500 : 400);
+    res.status(status).json(result);
+  } catch (err) {
+    console.error('[/api/register] unhandled:', err);
+    res.status(500).json({ ok: false, error: 'server_error' });
+  }
 });
 
 app.listen(PORT, () => {
