@@ -5,6 +5,6 @@ window.AGENTIC_CONFIG = {
     // shown in the venue boot line ("// price: ...")
     display: '99 EUR',
     // shown at the start of /reg; the display price is appended after a comma
-    regHeadline: "you're lucky! super-early bird price is available",
+    regHeadline: "you're lucky! a pre-registration is open now with a super-early bird price",
   },
 };
