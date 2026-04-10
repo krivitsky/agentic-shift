@@ -157,7 +157,6 @@
       { slug: 'paul', name: 'paul stack', linkedin: 'https://www.linkedin.com/in/stack72/' },
       { slug: 'benedikt', name: 'benedikt stemmildt', linkedin: 'https://www.linkedin.com/in/benedikt-stemmildt/' },
       { slug: 'bjoern', name: 'björn rochel', linkedin: 'https://www.linkedin.com/in/bjoern-rochel/' },
-      { slug: 'ingo', name: 'ingo eichhorst', linkedin: 'https://www.linkedin.com/in/ingo-eichhorst/' },
       { slug: 'unknown', name: 'cfp is open: alexey@krivitsky.com', linkedin: 'mailto:alexey@krivitsky.com', cfp: true },
     ];
     var imgLine = document.createElement('div');
