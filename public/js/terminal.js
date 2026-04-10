@@ -155,7 +155,6 @@
     addLine('');
     var speakers = [
       { slug: 'paul', name: 'paul stack', linkedin: 'https://www.linkedin.com/in/stack72/' },
-      { slug: 'hendrik', name: 'hendrik mans', linkedin: 'https://www.linkedin.com/in/hmans/' },
       { slug: 'benedikt', name: 'benedikt stemmildt', linkedin: 'https://www.linkedin.com/in/benedikt-stemmildt/' },
       { slug: 'bjoern', name: 'björn rochel', linkedin: 'https://www.linkedin.com/in/bjoern-rochel/' },
       { slug: 'ingo', name: 'ingo eichhorst', linkedin: 'https://www.linkedin.com/in/ingo-eichhorst/' },
