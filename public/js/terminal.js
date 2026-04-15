@@ -12,6 +12,7 @@
   // Optional nested container — when set, addLine/addHTML append here instead
   // of directly to #output. Used to visually group the /reg form in a box.
   var outputContainer = null;
+  var suppressScroll = false;
 
   function addLine(text, className) {
     const div = document.createElement('div');
@@ -34,6 +35,7 @@
   var isMobile = window.innerWidth <= 600;
 
   function scrollToBottom() {
+    if (suppressScroll) return;
     if (isMobile) {
       window.scrollTo(0, document.body.scrollHeight);
     } else {
@@ -137,14 +139,14 @@
           '<img src="/images/alexey.png" alt="alexey" class="orga-img">' +
         '</a>' +
         '<div class="orga-name"><a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">alexey krivitsky</a></div>' +
-        '<div class="orga-role">munich, org design consultant</div>' +
+        '<div class="orga-role">munich, org design consultant<br>@org topologies</div>' +
       '</div>' +
       '<div class="orga-card">' +
         '<a href="https://www.linkedin.com/in/ade-anima/" target="_blank" rel="noopener">' +
           '<img src="/images/martin.png" alt="martin" class="orga-img">' +
         '</a>' +
         '<div class="orga-name"><a href="https://www.linkedin.com/in/ade-anima/" target="_blank" rel="noopener">martin westphal</a></div>' +
-        '<div class="orga-role">munich, co-founder &amp; cto</div>' +
+        '<div class="orga-role">munich, everything tech<br>@alphalist</div>' +
       '</div>';
     output.appendChild(imgLine);
     addLine('');
@@ -156,9 +158,11 @@
     addHTML('below are invited speakers. session topics being defined.', 'speakers-intro');
     addLine('');
     var speakers = [
-      { slug: 'paul', name: 'paul stack', linkedin: 'https://www.linkedin.com/in/stack72/' },
-      { slug: 'benedikt', name: 'benedikt stemmildt', linkedin: 'https://www.linkedin.com/in/benedikt-stemmildt/' },
-      { slug: 'bjoern', name: 'björn rochel', linkedin: 'https://www.linkedin.com/in/bjoern-rochel/' },
+      { slug: 'paul', name: 'paul stack', role: 'londonderry, director of product @swamp', linkedin: 'https://www.linkedin.com/in/stack72/' },
+      { slug: 'benedikt', name: 'benedikt stemmildt', role: 'hamburg, co-founder &amp; co-ceo @hackers&amp;wizards', linkedin: 'https://www.linkedin.com/in/benedikt-stemmildt/' },
+      { slug: 'bjoern', name: 'björn rochel', role: 'hamburg, engineering manager @independent', linkedin: 'https://www.linkedin.com/in/bjoern-rochel/' },
+      { slug: 'voityuk', name: 'vadym voitiuk', role: 'berlin, principal solutions architect @aws', linkedin: 'https://www.linkedin.com/in/voituk/' },
+      { slug: 'nikita', name: 'nikita filippov', role: 'london, vp of ai @anna.money', linkedin: 'https://www.linkedin.com/in/nfilippov/' },
       { slug: 'unknown', name: 'cfp is open: alexey@krivitsky.com', linkedin: 'mailto:alexey@krivitsky.com', cfp: true },
     ];
     var imgLine = document.createElement('div');
@@ -172,6 +176,7 @@
             '<img src="/images/' + s.slug + '.png" alt="' + s.name + '" class="orga-img">' +
           '</a>' +
           '<div class="orga-name"><a href="' + s.linkedin + '" target="_blank" rel="noopener">' + s.name + '</a></div>' +
+          (s.role ? '<div class="orga-role">' + s.role.replace(/ @(\w{4,})/g, '<br>@$1') + '</div>' : '') +
         '</div>';
     }
     imgLine.innerHTML = html;
@@ -643,6 +648,7 @@
   }
 
   function bootInstant() {
+    suppressScroll = true;
     document.body.classList.add('instant-boot');
     // Title
     addLine('welcome to agentic shift conference', 'title');
@@ -655,7 +661,7 @@
     addLine('');
 
     // Location + date
-    addLine('munich, june 20 or 27, 2026', 'title');
+    addLine('munich, june 27, 2026', 'title');
 
     // Venue info
     addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">// codecentric, Plaza im Werksviertel<br>// august-everding-straße 20</a>', 'venue');
@@ -685,6 +691,7 @@
     var _term = document.getElementById('terminal');
     if (_term) _term.scrollTop = 0;
     window.scrollTo(0, 0);
+    suppressScroll = false;
   }
 
   async function boot() {
@@ -712,7 +719,7 @@
     addLine('');
 
     // Location + date
-    await typeText('munich, june 20 or 27, 2026', 'title', 35);
+    await typeText('munich, june 27, 2026', 'title', 35);
 
     await wait(400);
 
