@@ -163,7 +163,6 @@
       { slug: 'bjoern', name: 'björn rochel', role: 'hamburg, engineering manager @independent', linkedin: 'https://www.linkedin.com/in/bjoern-rochel/' },
       { slug: 'voityuk', name: 'vadym voitiuk', role: 'berlin, principal solutions architect @aws', linkedin: 'https://www.linkedin.com/in/voituk/' },
       { slug: 'nikita', name: 'nikita filippov', role: 'london, vp of ai @anna.money', linkedin: 'https://www.linkedin.com/in/nfilippov/' },
-      { slug: 'unknown', name: 'cfp is open: alexey@krivitsky.com', linkedin: 'mailto:alexey@krivitsky.com', cfp: true },
     ];
     var imgLine = document.createElement('div');
     imgLine.className = 'line program-images';
@@ -181,6 +180,22 @@
     }
     imgLine.innerHTML = html;
     output.appendChild(imgLine);
+    addLine('');
+
+    // CFP call with image below the speakers
+    addHTML('call for speakers is open', 'speakers-intro');
+    addLine('');
+    var cfpLine = document.createElement('div');
+    cfpLine.className = 'line orga-images';
+    cfpLine.innerHTML =
+      '<div class="orga-card">' +
+        '<a href="mailto:alexeykrivitsky@gmail.com">' +
+          '<img src="/images/unknown.png" alt="cfp" class="orga-img">' +
+        '</a>' +
+        '<div class="orga-name">contact the organizer</div>' +
+        '<div class="orga-role"><a href="mailto:alexeykrivitsky@gmail.com" style="color:inherit;text-decoration:none;">alexeykrivitsky@gmail.com</a></div>' +
+      '</div>';
+    output.appendChild(cfpLine);
     addLine('');
     scrollToBottom();
   }
@@ -303,7 +318,7 @@
           '80634 München, Germany<br>' +
           'VAT: DE301509127<br>' +
           '<a href="https://wa.me/+4915257400441" target="_blank" rel="noopener" class="venue-link">+49(0)15257400441</a><br>' +
-          '<a href="mailto:alexey@krivitsky.com" class="venue-link">alexey@krivitsky.com</a>',
+          '<a href="mailto:alexeykrivitsky@gmail.com" class="venue-link">alexeykrivitsky@gmail.com</a>',
           'venue'
         );
         addLine('');
