@@ -438,6 +438,12 @@ html, body {
   text-decoration: underline;
 }
 
+.orga-role {
+  color: var(--text-dim);
+  font-size: 11px;
+  margin-top: 2px;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   html, body {

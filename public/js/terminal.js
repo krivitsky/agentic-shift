@@ -137,12 +137,14 @@
           '<img src="/images/alexey.png" alt="alexey" class="orga-img">' +
         '</a>' +
         '<div class="orga-name"><a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">alexey krivitsky</a></div>' +
+        '<div class="orga-role">munich, org design consultant</div>' +
       '</div>' +
       '<div class="orga-card">' +
         '<a href="https://www.linkedin.com/in/ade-anima/" target="_blank" rel="noopener">' +
           '<img src="/images/martin.png" alt="martin" class="orga-img">' +
         '</a>' +
         '<div class="orga-name"><a href="https://www.linkedin.com/in/ade-anima/" target="_blank" rel="noopener">martin westphal</a></div>' +
+        '<div class="orga-role">munich, co-founder &amp; cto</div>' +
       '</div>';
     output.appendChild(imgLine);
     addLine('');
