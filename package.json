@@ -1,7 +1,7 @@
 {
   "name": "agentic-shift",
   "version": "1.0.0",
-  "description": "Agentic Shift Conference - Munich, June 27, 2026",
+  "description": "Agentic Shift Conference - Munich, 23 June 2026 (Tue)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

@@ -676,7 +676,7 @@
     addLine('');
 
     // Location + date
-    addLine('munich, june 27, 2026', 'title');
+    addLine('munich, 23 june 2026 (tue)', 'title');
 
     // Venue info
     addHTML('<a href="https://maps.app.goo.gl/NmhFXz7aJb5zUXpy7" target="_blank" rel="noopener" class="venue-link">// codecentric, Plaza im Werksviertel<br>// august-everding-straße 20</a>', 'venue');
@@ -734,7 +734,7 @@
     addLine('');
 
     // Location + date
-    await typeText('munich, june 27, 2026', 'title', 35);
+    await typeText('munich, 23 june 2026 (tue)', 'title', 35);
 
     await wait(400);
 
