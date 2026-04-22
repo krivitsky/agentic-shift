@@ -160,7 +160,6 @@
     var speakers = [
       { slug: 'paul', name: 'paul stack', role: 'londonderry, director of product @swamp', linkedin: 'https://www.linkedin.com/in/stack72/' },
       { slug: 'benedikt', name: 'benedikt stemmildt', role: 'hamburg, co-founder &amp; co-ceo @hackers&amp;wizards', linkedin: 'https://www.linkedin.com/in/benedikt-stemmildt/' },
-      { slug: 'bjoern', name: 'björn rochel', role: 'hamburg, engineering manager @independent', linkedin: 'https://www.linkedin.com/in/bjoern-rochel/' },
       { slug: 'voityuk', name: 'vadym voitiuk', role: 'berlin, principal solutions architect @aws', linkedin: 'https://www.linkedin.com/in/voituk/' },
       { slug: 'nikita', name: 'nikita filippov', role: 'london, vp of ai @anna.money', linkedin: 'https://www.linkedin.com/in/nfilippov/' },
     ];
