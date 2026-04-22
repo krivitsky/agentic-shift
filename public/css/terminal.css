@@ -200,6 +200,48 @@ html, body {
   word-wrap: break-word;
 }
 
+/* Pixelated block banner — "AGENTIC SHIFT" */
+#pixel-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 8px 0 18px;
+  --cell: 12px;
+}
+
+.pixel-row {
+  display: flex;
+  gap: calc(var(--cell) * 1);
+}
+
+.pixel-letter {
+  display: grid;
+  gap: 1px;
+  position: relative;
+}
+
+.pixel {
+  width: var(--cell);
+  height: var(--cell);
+  background: transparent;
+}
+
+.pixel.on {
+  background: var(--accent);
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  box-shadow:
+    3px 3px 0 -1px transparent,
+    4px 4px 0 -1px var(--text-dim);
+}
+
+@container terminal (max-width: 680px) {
+  #pixel-banner { --cell: 8px; }
+}
+
+@container terminal (max-width: 440px) {
+  #pixel-banner { --cell: 6px; }
+}
+
 #output .line {
   min-height: 1.6em;
 }
