@@ -6,6 +6,13 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
+
+// Clean routes for sub-pages (before static so dirs aren't auto-redirected
+// to a trailing slash).
+app.get('/old', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'old', 'index.html'));
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/api/register', async (req, res) => {

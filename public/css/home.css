@@ -1,0 +1,315 @@
+/* ── New homepage (static, terminal-themed) ───────────────────────── */
+
+/* The home page scrolls naturally — override terminal's fixed viewport. */
+body.home,
+html:has(body.home) {
+  overflow: auto;
+  height: auto;
+}
+
+body.home #terminal-wrapper {
+  height: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  padding: 32px 24px;
+}
+
+body.home #terminal-frame {
+  height: auto;
+  min-height: 0;
+  resize: none;
+}
+
+body.home #terminal {
+  overflow-y: visible;
+  height: auto;
+  padding: 24px 28px 40px;
+}
+
+/* Section headings — terminal prompt style: "> /events" */
+.home-section {
+  margin-top: 36px;
+}
+
+.home-heading {
+  color: var(--text-dim);
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+
+.home-heading .prompt {
+  color: var(--prompt-color);
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.home-heading .cmd {
+  color: var(--text);
+  font-weight: bold;
+}
+
+/* Tagline under banner */
+.home-tagline {
+  color: var(--text);
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-size: 17.6px;
+  font-weight: bold;
+  margin: 6px 0 10px;
+}
+
+.home-subtagline {
+  color: var(--text-dim);
+  font-size: 13px;
+}
+
+/* Munich skyline ASCII */
+.home-skyline {
+  color: var(--accent);
+  font-size: 12px;
+  line-height: 1.15;
+  margin: 18px 0 8px;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+/* Luma calendar embed */
+.luma-embed {
+  margin-top: 4px;
+}
+
+.luma-embed iframe {
+  width: 100%;
+  height: 700px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  background: #000;
+  display: block;
+}
+
+/* Past event recap — text + image two-column on desktop */
+.recap {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 28px;
+  align-items: start;
+  max-width: 820px;
+}
+
+.recap-title {
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.recap-body {
+  color: var(--text);
+  font-size: 13.5px;
+  line-height: 1.7;
+}
+
+.recap-body .meta {
+  color: var(--text-dim);
+}
+
+.recap-body ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.recap-body li::before {
+  content: "// ";
+  color: var(--text-dim);
+}
+
+.recap-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.recap-link:hover {
+  text-decoration: underline;
+}
+
+.recap-photo {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #222;
+  display: block;
+}
+
+.recap-caption {
+  color: var(--text-dim);
+  font-size: 11px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+/* Footer */
+.home-footer {
+  margin-top: 44px;
+  padding-top: 18px;
+  border-top: 1px solid #3a3a3a;
+  color: var(--text-dim);
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.home-footer a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.home-footer a:hover {
+  text-decoration: underline;
+}
+
+.home-footer .cmd {
+  color: var(--accent);
+}
+
+/* Past section panel — dark card matching the calendar embed, visually separated */
+.past-panel {
+  background: linear-gradient(180deg, #1b2030 0%, #262032 100%);
+  border: 1px solid #2a2a35;
+  border-radius: 12px;
+  padding: 24px 26px 28px;
+  margin-top: 6px;
+}
+
+@media (max-width: 600px) {
+  .past-panel {
+    padding: 16px 16px 20px;
+  }
+}
+
+/* Minimal past-event card — full-width clickable cover, no register box */
+.event-card {
+  display: block;
+  text-decoration: none;
+}
+
+.event-card .news-photo {
+  transition: opacity 0.15s;
+}
+
+.event-card:hover .news-photo {
+  opacity: 0.88;
+}
+
+.event-card-cta {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.event-card:hover .event-card-cta {
+  text-decoration: underline;
+}
+
+/* ── Newsletter / follow-up page ──────────────────────────────────── */
+.news-article {
+  max-width: 760px;
+}
+
+.news-lead {
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.news-block {
+  margin-top: 30px;
+}
+
+.news-block h2 {
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.news-block p {
+  color: var(--text);
+  font-size: 13.5px;
+  line-height: 1.75;
+  margin-bottom: 10px;
+}
+
+.news-block .meta {
+  color: var(--text-dim);
+}
+
+.news-block ul {
+  list-style: none;
+  margin: 8px 0 12px;
+  padding: 0;
+}
+
+.news-block li {
+  color: var(--text);
+  font-size: 13.5px;
+  line-height: 1.7;
+}
+
+.news-block li::before {
+  content: "// ";
+  color: var(--text-dim);
+}
+
+.news-photo {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #222;
+  display: block;
+  margin: 14px 0 4px;
+}
+
+.news-signoff {
+  color: var(--text);
+  font-size: 14px;
+  margin-top: 28px;
+  line-height: 1.7;
+}
+
+.news-cta {
+  display: inline-block;
+  margin: 4px 0;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.news-cta:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .recap {
+    grid-template-columns: 1fr;
+  }
+  .luma-embed iframe {
+    height: 620px;
+  }
+}
+
+@media (max-width: 600px) {
+  body.home #terminal-wrapper {
+    padding: 0;
+  }
+  body.home #terminal {
+    padding: 16px;
+  }
+  .home-skyline {
+    font-size: 8px;
+    line-height: 1.05;
+  }
+}

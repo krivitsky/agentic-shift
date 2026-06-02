@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agentic Shift — Munich, 23 June 2026 (Tue)</title>
+  <meta name="description" content="Agentic Shift Conference. Munich, 23 June 2026 (Tue).">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/terminal.css">
+</head>
+<body>
+  <div id="terminal-wrapper">
+    <div id="terminal-frame">
+      <div id="title-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="title-text">agentic-shift</span>
+      </div>
+      <div id="terminal">
+        <div id="pixel-banner" aria-label="agentic shift"></div>
+        <div id="output"></div>
+        <div id="input-line" class="hidden">
+          <span class="prompt" id="prompt-label">&gt;</span>
+          <input id="command-input" type="text" spellcheck="false" autocomplete="off">
+          <span class="cursor"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="minimized-bar">
+    <button id="restore-button">&gt; reopen conference</button>
+    <button id="fake-button" title="😜">&gt; sudo rm -rf <span class="lol">lol</span></button>
+  </div>
+  <script src="/js/config.js"></script>
+  <script src="/js/pixel-banner.js"></script>
+  <script src="/js/terminal.js"></script>
+</body>
+</html>

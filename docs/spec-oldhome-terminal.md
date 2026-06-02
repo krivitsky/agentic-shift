@@ -1,5 +1,8 @@
 # Agentic Shift Conference Website - Spec 1
 
+> **Status:** superseded as homepage. This terminal page now lives at `/old`.
+> Current homepage spec: [spec-newhome.md](./spec-newhome.md).
+
 ## Overview
 Conference website styled as a Claude Code CLI terminal.
 
