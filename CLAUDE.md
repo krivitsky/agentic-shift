@@ -11,6 +11,12 @@ Theme: agentic engineering + organizational impact. The site looks like a termin
 - No build step. Edit files in `public/`, commit, deploy.
 - `/api/register` posts to `REG_WEBHOOK_URL` (only used by the legacy `/old` terminal). Returns 500 if env var unset.
 
+## Deploy
+- Hosted on Vercel, auto-deploys on push to `main` (GitHub integration). `vercel` CLI installed globally.
+- **When the user says "commit": commit, push, then wait for and report the Vercel deploy status.** Poll the GitHub commit status (Vercel posts it there):
+  `gh api repos/krivitsky/agentic-shift/commits/<sha>/status --jq '.state, .statuses[0].target_url'`
+  → `pending` until done, then `success`/`failure`. Report final state + the `target_url` (Vercel deployment URL).
+
 ## Routes
 - `/` → new static homepage (`public/index.html`). Terminal-themed but NOT interactive.
 - `/old` → original interactive terminal (`public/old/index.html` + `js/terminal.js`). Boot animation, `/help`, `/reg`, `/beer`, etc. Route registered BEFORE `express.static` so the dir isn't auto-redirected.
