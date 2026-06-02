@@ -42,8 +42,8 @@ Pixel banner (`js/pixel-banner.js`) → tagline → Munich skyline ASCII → sec
 - Full meta in `<head>`: title, description, keywords, canonical, Open Graph, Twitter card, JSON-LD Organization (founders + Luma). All absolute URLs use https://agentic-shift.eu.
 
 ## Specs
-- `docs/spec-newhome.md` — current homepage (NOTE: written for the early separate-`/news` design; newsletter is now inlined into `/past_events` — update if revising)
-- `docs/spec-terminallike-page.md` — original terminal page (now at `/old`)
+- `docs/spec-newhome.md` — current homepage (inlined newsletter design)
+- `docs/spec-oldhome-terminal.md` — original terminal page (now at `/old`)
 
 ## Conventions
 - Brand voice: lowercase, terminal/CLI flavor. Section headings styled as `> /command`.

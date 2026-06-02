@@ -2,96 +2,49 @@
 
 ## Context
 
-The site currently serves an interactive terminal homepage (`public/index.html` + `public/js/terminal.js`) for the Agentic Shift conference, Munich. Registration ran through a custom `/reg` terminal flow → `/api/register` webhook.
+The original site was an interactive terminal homepage (`public/old/index.html` + `js/terminal.js`) with a custom `/reg` flow. Event management has moved to **Luma** (calendar `cal-MbzaaU1GVYLS8TM`). This spec covers the new static homepage at `/` that embeds Luma and recaps past events. The terminal is preserved at `/old`.
 
-The organizers are shifting registration + event management to **Luma** (calendar `cal-MbzaaU1GVYLS8TM`). They want a **new, simpler homepage** that:
-- reuses the terminal brand (pixel "AGENTIC SHIFT" banner + Munich skyline header),
-- shows organizers Alexey + Martin up top,
-- embeds the Luma calendar (auto-lists upcoming + past events),
-- recaps past event #1 with text + photo.
-
-The current rich terminal experience is **preserved at `/old`** (nothing lost).
-
----
+Production: **https://agentic-shift.eu/** · run by Alexey Krivitsky + Martin Westphal (Munich).
 
 ## Decisions
 
 | Topic | Decision |
 |-------|----------|
-| Visual style | Match terminal theme — black bg, orange `#d67757`, mono font, pixel banner |
-| Event embed | Luma **calendar embed iframe**: `https://luma.com/embed/calendar/cal-MbzaaU1GVYLS8TM/events` |
-| Terminal `/reg` flow | **Dropped** on new home; fully preserved at `/old` |
-| Organizers | Keep Alexey + Martin on top |
-| Past events | Keep — covered by calendar embed + dedicated #1 recap block |
+| Visual style | Terminal theme — black bg, orange `#d67757`, mono, pixel banner |
+| Upcoming events | Luma **calendar embed iframe** (`/embed/calendar/cal-MbzaaU1GVYLS8TM/events`) |
+| Past event embed | Custom clickable **cover card** → Luma event. Luma's `/embed/event/.../simple` always shows a Register box, so it's NOT used. |
+| Follow-up newsletter | **Inlined** into `/past_events` (text + 5 photos), not a separate page |
+| `/reg` flow | Dropped on new home; preserved at `/old` |
 
----
+## Routing (`server.js`)
+- `/` → `public/index.html` (new homepage).
+- `/old` → `public/old/index.html` (terminal). Route registered **before** `express.static` so the dir isn't auto-redirected to `/old/`.
+- `/api/register` retained (used only by `/old`).
 
-## Requirements
+## Homepage layout (`public/index.html`)
+Top → bottom:
+1. SEO `<head>` — title, description, keywords, canonical, Open Graph, Twitter card, JSON-LD Organization. Absolute URLs on `https://agentic-shift.eu`; OG/Twitter image = `/images/event1-cover.jpg`.
+2. Pixel banner (`js/pixel-banner.js`) + tagline (`agentic engineering · organizational impact · meetups & trainings & conferences`) + Munich skyline ASCII.
+3. `> /orga` — Alexey + Martin cards (reuse `.orga-*`, LinkedIn links).
+4. `> /upcoming_events` — Luma calendar embed iframe.
+5. `> /past_events` — inside `.past-panel` (gradient gray-blue→gray-purple, rounded): event #1 title (→ `luma.com/c0einz4e`) + date, minimal cover card, recap (78 attendees / themes / speakers), room photo, then the full follow-up newsletter inlined (blocks + 5 photos + wired report/community links).
+6. `> /contacts` footer — Alexey (LinkedIn) + alexey@krivitsky.com.
 
-### R1 — Routing
-- `/` → new homepage (`public/index.html`).
-- `/old` → current terminal homepage, unchanged behavior (boot animation, all commands, `/reg`).
-- `/api/register` stays (still used by `/old`).
-- Redirect switch (`REDIRECT_ENABLED` script) removed from new home.
+## Styling
+- `public/css/home.css` — home sections, news blocks, `.past-panel`, `.event-card`. New page = static (no boot animation, no input line).
+- `public/css/terminal.css` reused unchanged (also serves `/old`).
+- Responsive: single column on mobile; full-width images/iframes.
 
-### R2 — New homepage layout (top → bottom)
-1. **Header** — pixel "AGENTIC SHIFT" banner (reuse `pixel-banner.js`) + Munich skyline ASCII. Mac-terminal window chrome retained for brand.
-2. **Tagline** — `munich · agentic shift · meetups & conference`.
-3. **`> /orga`** — Alexey + Martin cards (reuse `printOrga()` markup, `terminal.js:133`). LinkedIn links preserved.
-4. **`> /events`** — Luma calendar embed iframe (upcoming + past).
-5. **`> /past` — Agentic Shift Munich #1 recap** — text block + photo (R4).
-6. **Footer** — link to `/old` ("> open the terminal"), contact, calendar link.
+## Assets (`public/images/`)
+- `event1-cover.jpg` — Luma social card (also OG image).
+- `news-networking.jpg`, `news-audience.jpg`, `news-food.jpg`, `news-10xorg.jpg`, `news-selfie.jpg`.
 
-### R3 — Styling
-- New page = static HTML, no boot animation, no input line.
-- Reuse `public/css/terminal.css` (banner, `.orga-*`, `.venue`, `.separator`, colors).
-- New `public/css/home.css` for section headings, iframe container, recap two-column (stacked on mobile).
-- Responsive: mobile stacks everything; iframe full-width.
-
-### R4 — Past event #1 recap content
-Source: `https://luma.com/c0einz4e` + organizer newsletter.
-- **Heading:** `agentic shift munich #1`
-- **Body:** first meetup, 78 attendees, hosted by EGYM. themes: cutting agentic slop via direct feedback signals for agents; why individual AI speed gains don't compound at org scale; establishing agentic workflows. speakers: martin westphal, alexey krivitsky, cem freimoser.
-- **Image:** group photo → `public/images/event1.jpg` (fallback: Luma cover).
-- **Link:** "> recap" → `https://luma.com/c0einz4e`.
-
----
-
-## Implementation
-
-### Files
-- **`public/old/index.html`** ← current `public/index.html` verbatim (minus redirect script). Absolute asset paths keep working.
-- **`server.js`** — add `/old` route:
-  ```js
-  app.get('/old', (req, res) =>
-    res.sendFile(path.join(__dirname, 'public', 'old', 'index.html')));
-  ```
-- **`public/index.html`** — rewritten static homepage. Loads `pixel-banner.js` only (no `terminal.js`/`config.js`).
-- **`public/css/home.css`** — new home styles.
-- **`public/images/event1.jpg`** — recap photo.
-
-### Reuse
-- Pixel banner: `public/js/pixel-banner.js`.
-- Organizer cards: `terminal.js:133` / `terminal.css:414` (`.orga-*`).
-- Color vars, `.separator`, `.venue-link`: `terminal.css:7`.
-- Munich skyline ASCII: `CHURCH_WITH_PRETZEL`, `terminal.js:101`.
-
-### Luma embed
-```html
-<iframe src="https://luma.com/embed/calendar/cal-MbzaaU1GVYLS8TM/events"
-        width="100%" height="640" frameborder="0"
-        style="border:1px solid #222;border-radius:8px;background:#000"
-        allowfullscreen aria-hidden="false" tabindex="0"></iframe>
-```
-Fallback: per-event checkout buttons from `luma-team/examples`.
-
----
+## Past event / newsletter #1 data
+- Event slug `c0einz4e`, id `evt-S5HVbaMCuoIxFcG` — Tue 19 May, 18:00–22:00 CEST, 78 attendees, hosted by EGYM.
+- Inlined newsletter links: Janina Lermer (LinkedIn, de), Alexey Krivitsky (LinkedIn), @PATOffice (LinkedIn), WhatsApp community invite, EGYM (LinkedIn), 10X ORG (10xorg.com). "Sign up for #2" → Luma calendar.
 
 ## Verification
-1. `node server.js` → `http://localhost:3000/`: banner + skyline render; orga cards + LinkedIn links; Luma iframe lists events; #1 recap text + photo; "recap" → luma.com/c0einz4e; footer "open the terminal" → `/old`.
-2. `http://localhost:3000/old`: full terminal boots (`/help`, `/reg`, `/beer` work); assets load.
-3. Mobile width: everything stacks.
-4. `index.html` no longer contains `REDIRECT_ENABLED`.
-
-## Open items
-- Provide/approve actual `event1.jpg` photo — else Luma cover used as fallback.
+1. `node server.js` → `/`: banner, tagline, orga + LinkedIn, calendar iframe, `.past-panel` with cover card + recap + inlined newsletter + photos, contacts footer.
+2. `/old`: terminal boots fully (`/help`, `/reg`, `/beer`).
+3. Mobile width: everything stacks; images full-width.
+4. View source: SEO meta present, all absolute URLs on `agentic-shift.eu`.
