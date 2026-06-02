@@ -48,6 +48,14 @@ body.home #terminal {
   font-weight: bold;
 }
 
+.home-copy {
+  color: var(--text);
+  font-size: 13.5px;
+  line-height: 1.8;
+  max-width: 640px;
+  margin: 0 0 14px;
+}
+
 /* Tagline under banner */
 .home-tagline {
   color: var(--text);
@@ -119,21 +127,27 @@ body.home #terminal {
   max-width: 820px;
 }
 
+/* Readable body color for text on the blue-gray past-panel */
+.past-panel {
+  --panel-text: #d2d6e2;
+  --panel-meta: #8d93a6;
+}
+
 .recap-title {
   color: var(--accent);
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
 .recap-body {
-  color: var(--text);
+  color: var(--panel-text);
   font-size: 13.5px;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 .recap-body .meta {
-  color: var(--text-dim);
+  color: var(--panel-meta);
 }
 
 .recap-body ul {
@@ -142,9 +156,15 @@ body.home #terminal {
   padding: 0;
 }
 
+.recap-body li {
+  padding-left: 1.6em;
+  text-indent: -1.6em;
+}
+
 .recap-body li::before {
   content: "// ";
-  color: var(--text-dim);
+  color: var(--accent);
+  font-weight: bold;
 }
 
 .recap-link {
@@ -166,7 +186,7 @@ body.home #terminal {
 }
 
 .recap-caption {
-  color: var(--text-dim);
+  color: var(--panel-meta);
   font-size: 11px;
   margin-top: 6px;
   text-align: center;
@@ -242,32 +262,39 @@ body.home #terminal {
 }
 
 .news-lead {
-  color: var(--text);
+  color: var(--panel-text);
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.75;
   margin-bottom: 8px;
 }
 
 .news-block {
-  margin-top: 30px;
+  margin-top: 36px;
+  padding-top: 20px;
+  border-top: 1px solid #353a4a;
 }
 
 .news-block h2 {
   color: var(--accent);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.news-block h2::before {
+  content: "> ";
+  color: var(--accent);
 }
 
 .news-block p {
-  color: var(--text);
+  color: var(--panel-text);
   font-size: 13.5px;
-  line-height: 1.75;
+  line-height: 1.8;
   margin-bottom: 10px;
 }
 
 .news-block .meta {
-  color: var(--text-dim);
+  color: var(--panel-meta);
 }
 
 .news-block ul {
@@ -277,14 +304,17 @@ body.home #terminal {
 }
 
 .news-block li {
-  color: var(--text);
+  color: var(--panel-text);
   font-size: 13.5px;
   line-height: 1.7;
+  padding-left: 1.6em;
+  text-indent: -1.6em;
 }
 
 .news-block li::before {
   content: "// ";
-  color: var(--text-dim);
+  color: var(--accent);
+  font-weight: bold;
 }
 
 .news-photo {
@@ -296,7 +326,7 @@ body.home #terminal {
 }
 
 .news-signoff {
-  color: var(--text);
+  color: var(--panel-text);
   font-size: 14px;
   margin-top: 28px;
   line-height: 1.7;
