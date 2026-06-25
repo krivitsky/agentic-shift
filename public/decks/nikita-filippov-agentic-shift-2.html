@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Agentic Shift — ANNA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* ANNA "otter" design tokens */
+    --neutral-900:#270e0b; --neutral-800:#402e2c; --neutral-700:#594a48;
+    --neutral-600:#736664; --neutral-500:#817574; --neutral-300:#b9b1b0;
+    --clay:#f9f8f1; --clay-soft:#f7f5eb;
+    --terracotta:#cd4a39; --terracotta-600:#b33120; --terracotta-50:#faedeb;
+    --emerald:#008660; --emerald-600:#006d4e; --emerald-50:#e5f3ef;
+    --font:'Inter','Helvetica Neue',Arial,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%;width:100%;overflow:hidden;background:#000;font-family:var(--font)}
+  #stage{position:fixed;inset:0}
+
+  .slide{
+    position:absolute;inset:0;
+    display:none;flex-direction:column;justify-content:center;
+    padding:9vh 9vw;opacity:0;transition:opacity .45s ease;
+  }
+  .slide.active{display:flex;opacity:1}
+
+  /* themes */
+  .t-cream{background:var(--clay);color:var(--neutral-900)}
+  .t-dark{background:var(--neutral-900);color:var(--clay)}
+  .t-terra{background:var(--terracotta);color:#fff}
+  .t-emerald{background:var(--emerald);color:#fff}
+
+  .kicker{
+    display:inline-block;font-size:1.3vw;letter-spacing:.3em;text-transform:uppercase;
+    font-weight:700;margin-bottom:3vh;
+  }
+  .t-cream .kicker{color:var(--terracotta)}
+  .t-dark .kicker{color:var(--emerald)}
+  .t-terra .kicker{color:#fff}
+  .t-emerald .kicker{color:var(--neutral-900)}
+  .sq{display:block;margin-top:.7vh;height:8px;width:62px}
+  .sq path{fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round}
+
+  h1{font-size:6.2vw;line-height:1.03;font-weight:800;letter-spacing:-.025em;max-width:19ch}
+  h2{font-size:4.6vw;line-height:1.06;font-weight:800;letter-spacing:-.02em;max-width:22ch}
+  .sub{margin-top:3.6vh;font-size:2vw;line-height:1.45;font-weight:400;max-width:48ch}
+  .t-cream .sub{color:var(--neutral-600)}
+  .t-dark .sub{color:rgba(249,248,241,.62)}
+  .t-terra .sub{color:rgba(255,255,255,.88)}
+  .t-emerald .sub{color:rgba(255,255,255,.9)}
+  em{font-style:normal}
+  .t-cream em{color:var(--terracotta)}
+  .t-dark em{color:var(--emerald)}
+  .t-terra em,.t-emerald em{color:var(--neutral-900)}
+
+  .meta{margin-top:6.5vh;font-size:1.6vw;font-weight:600;letter-spacing:.01em}
+  .meta span{opacity:.55;font-weight:400}
+
+  .steps{margin-top:3.8vh;display:flex;flex-direction:column;gap:1.7vh;max-width:52ch}
+  .steps div{font-size:1.9vw;line-height:1.3;font-weight:500;padding-left:1.4vw;border-left:3px solid var(--terracotta)}
+  .t-dark .steps div{border-color:var(--emerald)}
+  .t-terra .steps div,.t-emerald .steps div{border-color:#fff}
+
+  .arrowline{margin-top:3.4vh;font-size:2.3vw;font-weight:700;line-height:1.3}
+  .arrowline .sep{opacity:.35;margin:0 .5vw}
+  .hl-t{color:var(--terracotta)} .hl-e{color:var(--emerald)}
+  .t-dark .hl-t{color:#e6a59c}
+
+  .figwrap{margin-top:2.4vh;width:100%;max-width:62vw}
+  .figwrap svg{width:100%;height:auto;display:block}
+  .quietnote{margin-top:2.2vh;font-size:1.45vw;color:var(--neutral-600);max-width:55ch}
+
+  /* chrome */
+  .pageno{position:fixed;bottom:3.2vh;right:3.2vw;font-size:1.2vw;font-weight:600;letter-spacing:.1em;opacity:.45;z-index:5}
+  .brand{position:fixed;bottom:3.2vh;left:3.2vw;font-size:1.2vw;font-weight:800;letter-spacing:.22em;opacity:.5;z-index:5}
+  .progress{position:fixed;top:0;left:0;height:3px;background:var(--terracotta);z-index:6;transition:width .35s ease}
+
+  #notes{
+    position:fixed;left:0;right:0;bottom:0;z-index:20;
+    background:rgba(20,13,11,.975);color:#f1efef;border-top:3px solid var(--emerald);
+    padding:20px 5vw 24px;font-size:15.5px;line-height:1.55;max-height:44vh;overflow:auto;display:none;
+  }
+  #notes.show{display:block}
+  #notes b{color:var(--emerald);letter-spacing:.12em;font-size:11px;text-transform:uppercase;display:block;margin-bottom:7px}
+  .hint{position:fixed;bottom:3.2vh;left:50%;transform:translateX(-50%);font-size:.72vw;letter-spacing:.1em;opacity:.3;z-index:5}
+</style>
+</head>
+<body>
+<div class="progress" id="bar"></div>
+<div id="stage">
+
+  <!-- 1 TITLE -->
+  <section class="slide t-dark active" data-notes="Open slow. One sentence: this is the story of rebuilding a company around agents — and it's a story about people and organisation as much as technology. I'll tell you a few stories. By the end, the real question won't be 'what can we automate?' but 'what should the company become?' Let the title sit before you move on.">
+    <div class="kicker">ANNA · The Agentic Shift</div>
+    <h1>From support automation to <em>agentic operations</em>.</h1>
+    <div class="sub">A story about technology, people, and what a company becomes when automation stops being a set of tools.</div>
+    <div class="meta">Nikita Filippov <span>· ANNA Money</span></div>
+  </section>
+
+  <!-- 2 CAREER -->
+  <section class="slide t-cream" data-notes="My path in one breath. Twenty years in tech: seven of them in Agile and Lean software-management consulting, watching how work actually flows through companies — the rest in product management and startups. That detour is why this talk is about organisation, not just models.">
+    <div class="kicker">How I got here</div>
+    <h2>Twenty years in tech. Seven in Agile &amp; Lean. The rest in product.</h2>
+    <div class="sub">Consulting taught me one thing: it doesn't matter how good the technology is or how expert the consultants. After you decide — CEO or engineer — you still have to run a <em>political campaign</em> to get people to do what you want.</div>
+  </section>
+
+  <!-- 3 OBSESSION -->
+  <section class="slide t-dark" data-notes="State the obsession plainly — it's the spine of the whole talk. For most of those twenty years, software couldn't act. It waits to be clicked. No initiative, no memory, no follow-through. Everything I've built since has been an attempt to give software the missing verb: act.">
+    <div class="kicker">The obsession</div>
+    <h2>Software still doesn't <em>do</em> anything for you.</h2>
+    <div class="sub">It waits to be clicked. No initiative, no memory, no follow-through. I've spent a career trying to give software the missing verb: act.</div>
+  </section>
+
+  <!-- 4 ORIGIN -->
+  <section class="slide t-cream" data-notes="Backstory, kept short. 2014 — I start automating customer support with classic supervised and unsupervised ML. It becomes a startup. 2016 — acquihire, and out of that the idea of ANNA is born. Don't linger; this is the runway, not the point.">
+    <div class="kicker">2014 → 2016</div>
+    <h2>Support automation, a startup, an acquihire — then ANNA.</h2>
+    <div class="steps">
+      <div>2014 — automating support with supervised &amp; unsupervised ML</div>
+      <div>Built it into a startup</div>
+      <div>2016 — acquihired; the idea of ANNA is born</div>
+    </div>
+  </section>
+
+  <!-- 5 WHAT ANNA IS -->
+  <section class="slide t-emerald" data-notes="The reframe that defines us. People call ANNA a business account for small businesses. Internally we never did. ANNA is a support service for running a business. Banking, tax, invoices, documents, reminders, admin — for an owner these were never separate features. They're one continuous support problem. Hold on this — it's why agents fit us so naturally.">
+    <div style="display:flex;align-items:center;gap:6vw;width:100%">
+      <div style="flex:1;min-width:0">
+        <div class="kicker">What ANNA actually is</div>
+        <h2>Not a business account. A <em>support service</em> for running a business.</h2>
+        <div class="sub">Banking, tax, invoices, documents, reminders, admin — not separate features. For the owner it's one continuous support problem.</div>
+        <div style="margin-top:3.5vh;display:flex;align-items:center;gap:1.6vw">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://anna.money&bgcolor=e5f3ef&color=270e0b" style="width:9vw;height:9vw;border-radius:10px;border:2px solid rgba(255,255,255,0.4)" alt="QR anna.money">
+          <span style="font-size:1.6vw;font-weight:700;opacity:0.85">anna.money</span>
+        </div>
+      </div>
+      <div style="flex:0 0 auto;width:30vw">
+        <img src="https://anna.money/static/img/home/anna-all-in-one-hero.webp" style="width:100%;border-radius:20px;box-shadow:0 8px 40px rgba(0,0,0,0.25)" alt="ANNA app">
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 AI-FRIENDLY BUT STUCK -->
+  <section class="slide t-cream" data-notes="Here's the trap that set up everything. We had conversational UX, AI-assisted support, ML intent classifiers, tags, an Alexa-style skill architecture, domain agents per vertical. It made us AI-friendly before the agentic wave. But it exposed a deeper limit: each automation worked beautifully inside its own lane, while the customer's real problem lived ACROSS context — history, transactions, documents, tax status, past conversations. No single skill could reach across that. That gap is exactly what the agentic shift had to close.">
+    <div class="kicker">AI-friendly — and stuck</div>
+    <h2>Every automation worked. Inside its own lane.</h2>
+    <div class="sub">Intents, tags, skills, domain agents — they made us AI-friendly early. But the customer's problem lived <em>across</em> context: history, transactions, documents, tax status. No single skill could reach across it.</div>
+  </section>
+
+  <!-- 7 DIVIDER -->
+  <section class="slide t-terra" data-notes="Section turn. The next step wasn't 'add LLMs.' It was to rethink how work flows through the company and rebuild ANNA on agents. Three stories. But first the disclaimer that matters more than any architecture diagram: none of this works without political will. Say it, then pause. If leadership won't reshape roles, budgets and ownership, the technology stalls — every time.">
+    <div class="kicker">Three stories</div>
+    <h1>The Agentic Shift.</h1>
+    <div class="sub"><em>Disclaimer:</em> nothing here works without political will. Not the framework, not the team, not the org change. Nothing.</div>
+  </section>
+
+  <!-- 8 THE WORK NOBODY WANTS -->
+  <section class="slide t-cream" data-notes="Before the stories, what we actually aimed agents at — and two honest reasons why. First: there's work nobody wants to do anyway. Repetitive, draining, invisible. People drag their feet on it, cut corners, forget. Second — and this is the more important one: we genuinely believe this work doesn't need a human. Not as an efficiency claim, but as a welfare claim. Humans lose motivation on this kind of work fast. They disengage, they burn out. Keeping people on it does real damage. Those are the two sides. Everything that follows points at this.">
+    <div class="kicker">Where we aim the agents</div>
+    <h2>Two reasons to aim agents at this work.</h2>
+    <div style="display:flex;gap:5vw;margin-top:4vh">
+      <div style="flex:1;border-left:3px solid var(--terracotta);padding-left:1.4vw">
+        <div style="font-size:1.4vw;font-weight:700;color:var(--terracotta);margin-bottom:1.2vh;text-transform:uppercase;letter-spacing:.1em">Nobody wants to do it</div>
+        <div style="font-size:1.9vw;font-weight:500;line-height:1.35;color:var(--neutral-700)">Repeated, draining, invisible work. People drag their feet. Cut corners. Forget.</div>
+      </div>
+      <div style="flex:1;border-left:3px solid var(--emerald);padding-left:1.4vw">
+        <div style="font-size:1.4vw;font-weight:700;color:var(--emerald-600);margin-bottom:1.2vh;text-transform:uppercase;letter-spacing:.1em">It doesn't need a human</div>
+        <div style="font-size:1.9vw;font-weight:500;line-height:1.35;color:var(--neutral-700)">People lose motivation fast on this kind of work. They disengage. They burn out. Keeping humans on it does real damage.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 GEMMA HYPOTHESIS -->
+  <section class="slide t-dark" data-notes="Story one: GEMMA — our General Manager agent. The hypothesis: what if the first thing a request hits is one agent that can take the WHOLE task, see all the context, and solve it itself with the right tools — instead of relaying it down a chain of skills and teams? And concretely, GEMMA replaces the old ANNA bot: the skills, intents, tags and domain agents from the previous slide. One reasoning agent in place of a pile of verticals.">
+    <div class="kicker">Story 1 · GEMMA</div>
+    <h2>One agent at the front door. <em>No handoffs.</em></h2>
+    <div class="sub">GEMMA — our General Manager agent. It takes the whole task, sees all the context, and solves it with the right tools — replacing the old bot's skills, intents, tags and domain agents.</div>
+  </section>
+
+  <!-- 9 GEMMA FLOW -->
+  <section class="slide t-cream" data-notes="How GEMMA works, in one picture. A Capability Selector loads only the tools and knowledge the request needs. The Main Agent Loop reasons and calls tools until it's ready to answer. Before anything reaches the customer, Guardrails check it. If they pass — respond. If the active tools can't finish the job, the loop escalates to a second agent that retries with a different toolset, updates or creates a support task for a human, or schedules it. Walk left to right; keep it to thirty seconds.">
+    <div class="kicker">GEMMA · how it works</div>
+    <h2 style="font-size:3.8vw;margin-bottom:.5vh">Select context → reason → check → respond.</h2>
+    <div class="figwrap">
+      <svg viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg" font-family="Inter,Arial,sans-serif">
+        <defs>
+          <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L7,3 L0,6 Z" fill="#594a48"/>
+          </marker>
+          <marker id="aht" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L7,3 L0,6 Z" fill="#cd4a39"/>
+          </marker>
+        </defs>
+        <!-- tools loop -->
+        <rect x="244" y="64" width="118" height="40" rx="8" fill="#fff" stroke="#b9b1b0" stroke-width="1.5"/>
+        <text x="303" y="89" text-anchor="middle" font-size="15" fill="#270e0b">tools</text>
+        <path d="M300,140 L300,106" fill="none" stroke="#594a48" stroke-width="1.6" marker-end="url(#ah)"/>
+        <path d="M340,106 L340,140" fill="none" stroke="#594a48" stroke-width="1.6" marker-end="url(#ah)"/>
+        <!-- not passed (top arc, terracotta dashed) -->
+        <path d="M566,150 C566,120 470,118 438,140" fill="none" stroke="#cd4a39" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#aht)"/>
+        <text x="500" y="114" text-anchor="middle" font-size="13" fill="#cd4a39">not passed</text>
+        <!-- boxes -->
+        <rect x="24" y="150" width="160" height="64" rx="12" fill="#fff" stroke="#b9b1b0" stroke-width="1.5"/>
+        <text x="104" y="178" text-anchor="middle" font-size="15" font-weight="600" fill="#270e0b">Capability</text>
+        <text x="104" y="197" text-anchor="middle" font-size="15" font-weight="600" fill="#270e0b">Selector</text>
+
+        <rect x="250" y="140" width="196" height="84" rx="16" fill="#faedeb" stroke="#cd4a39" stroke-width="2.5"/>
+        <text x="348" y="187" text-anchor="middle" font-size="16" font-weight="700" fill="#270e0b">Main Agent Loop</text>
+
+        <rect x="520" y="150" width="150" height="64" rx="12" fill="#e5f3ef" stroke="#008660" stroke-width="2"/>
+        <text x="595" y="187" text-anchor="middle" font-size="16" font-weight="700" fill="#270e0b">Guardrails</text>
+
+        <rect x="740" y="150" width="180" height="64" rx="32" fill="#fff" stroke="#008660" stroke-width="2.5"/>
+        <text x="830" y="187" text-anchor="middle" font-size="16" font-weight="700" fill="#006d4e">Respond</text>
+
+        <!-- spine arrows -->
+        <path d="M184,182 L250,182" fill="none" stroke="#594a48" stroke-width="1.8" marker-end="url(#ah)"/>
+        <path d="M446,182 L520,182" fill="none" stroke="#594a48" stroke-width="1.8" marker-end="url(#ah)"/>
+        <text x="483" y="172" text-anchor="middle" font-size="13" fill="#736664">responds</text>
+        <path d="M670,182 L740,182" fill="none" stroke="#594a48" stroke-width="1.8" marker-end="url(#ah)"/>
+        <text x="705" y="172" text-anchor="middle" font-size="13" fill="#736664">passes</text>
+
+        <!-- escalate branch -->
+        <rect x="500" y="282" width="210" height="56" rx="12" fill="#f7f6f5" stroke="#736664" stroke-width="1.5"/>
+        <text x="605" y="315" text-anchor="middle" font-size="15" font-weight="600" fill="#270e0b">Escalation → human help</text>
+        <path d="M348,224 C348,272 430,308 500,310" fill="none" stroke="#594a48" stroke-width="1.6" marker-end="url(#ah)"/>
+        <text x="412" y="266" text-anchor="middle" font-size="13" fill="#736664">escalate</text>
+      </svg>
+    </div>
+  </section>
+
+  <!-- 10 CAPABILITIES / CONTEXT -->
+  <section class="slide t-cream" data-notes="The context story — this is the memorable one, tell it as an anecdote. When we first gave GEMMA every tool, prompt and message at once, the average request was about 70,000 tokens — longer than The Great Gatsby. Then we started hitting context-overflow errors. The fix was Capabilities: twelve of them, each a bundle of a description, a prompt, a tool set, knowledge articles, and a choice of model — fast or smart. A selector loads only the one or two a request actually needs. Less context, sharper reasoning, lower cost.">
+    <div class="kicker">GEMMA · capabilities</div>
+    <h2>We gave it every tool. The average request hit <em>70k tokens</em>.</h2>
+    <div class="sub">Longer than <em>The Great Gatsby</em> — and then came context-overflow errors. Now a selector loads only the capabilities a request needs: each one a prompt, a tool set, knowledge, and the right model — fast or smart.</div>
+    <div class="quietnote">12 capabilities · one or two loaded per request · less context, sharper reasoning, lower cost.</div>
+  </section>
+
+  <!-- 10b MODALITIES -->
+  <section class="slide t-dark" data-notes="Capabilities and Modalities sound similar but they solve different problems. Capabilities are intent-driven: same customer, different requests — a selector loads only what this specific request needs. Modalities are lifecycle-state-driven: same architecture, but the available tool set depends on who the customer is. A blocked customer must not see the same tools as an active one. An onboarding customer doesn't need payment tools yet. A non-business-account customer has a completely different surface. Modalities create a custom version of GEMMA per customer state — we're currently building them for Onboarding, Formations, Blocked Customers, and Non-business account customers. One agent, many contexts.">
+    <div class="kicker">GEMMA · modalities</div>
+    <h2>Not every customer should see the <em>same GEMMA.</em></h2>
+    <div class="sub">Capabilities are intent-driven — they limit context per request. Modalities are lifecycle-state-driven — they limit tools per customer status.</div>
+    <div class="steps">
+      <div>Onboarding — limited tool set, not yet a full account</div>
+      <div>Blocked customers — restricted surface, different guardrails</div>
+      <div>Non-business account customers — different product, different agent</div>
+    </div>
+  </section>
+
+  <!-- 11 GUARDRAILS -->
+  <section class="slide t-cream" data-notes="Trust and operations. Every answer GEMMA produces is checked before it reaches the customer, by two independent checks running in parallel. Grounding: did we actually do what we're claiming we did — verified against the real tool calls. Policy: are we saying something we must never say — promising a refund, admitting ANNA is at fault, committing to a precise timeframe, or promising compensation. A real example: GEMMA tried to tell a customer 'for 3 months' and the policy guard blocked it as a timeframe commitment, and it rephrased. This is how you let an agent talk to customers and still sleep at night.">
+    <div class="kicker">GEMMA · guardrails</div>
+    <h2>Every answer is checked <em>before</em> it reaches the customer.</h2>
+    <div class="steps">
+      <div><strong>Grounding</strong> — did we really do what we claim? Checked against the tool calls.</div>
+      <div><strong>Policy</strong> — never promise refunds, admit fault, commit a timeframe, or offer compensation.</div>
+    </div>
+  </section>
+
+  <!-- 12 BUILD + TEAM -->
+  <section class="slide t-dark" data-notes="How we built it and who builds it. We started on the Claude SDK, moved to Strands, then built our own framework — because we needed to own context management, orchestration, evaluations, latency, cost, and exactly where the human-in-the-loop boundary sits. The focus discipline that kept us moving: one question per quarter — first can it work at all, then can it work correctly, then can it work fast. Never all three at once. The team: eight people — two engineers, two analysts, two managers including me, a chief scientist, a former frontend dev — and everyone ships code. Around them an outer ring that commits and pushes the architecture toward agent-to-agent. The hardest part wasn't the model; it was getting people to grasp that agents are designed differently. Months of explaining did less than one hands-on tutorial repo.">
+    <div class="kicker">GEMMA · build &amp; team</div>
+    <h2>Claude SDK → Strands → our own framework.</h2>
+    <div class="arrowline">Make it <span class="hl-e">work</span> <span class="sep">→</span> make it <em>right</em> <span class="sep">→</span> make it <span class="hl-t">fast</span></div>
+    <div class="sub">Eight people — engineers, analysts, managers, a chief scientist, a former frontender — and <em>everyone ships code</em>, with an outer ring driving the architecture toward agent-to-agent.</div>
+  </section>
+
+  <!-- 14 DESIGN PARADIGM SHIFT -->
+  <section class="slide t-emerald" data-notes="This is the single most important lesson of adoption, so give it its own breath. The hard part of shipping agents was never the model — it was that designing for an agent is a different paradigm, and people kept reaching for the old one. With deterministic software you design screens, you script every path, you QA every branch. With an agent you don't design the path at all — you design what it can see (context), what it can do (tools), what it must never do (guardrails), and how you measure whether it's behaving (evals). Then you let it reason. People's instinct was to draw flowcharts and pin down every branch; that instinct fights the technology. We tried explaining it for months and it moved almost no one. What finally worked was a hands-on tutorial repository — people had to build an agent themselves before the shift clicked. If you take one operational lesson from this talk, take this one.">
+    <div class="kicker">GEMMA · designing for agents</div>
+    <h2>The real blocker wasn't the model. It was a <em>paradigm shift in design.</em></h2>
+    <div class="steps">
+      <div>Designing screens &amp; flows → designing context, tools &amp; guardrails</div>
+      <div>Scripting every path → setting a goal and its boundaries</div>
+      <div>Deterministic steps → reasoning you can't fully predict</div>
+      <div>QA-ing each branch → evaluating behaviour</div>
+    </div>
+    <div class="sub" style="margin-top:2.8vh">Months of explaining moved no one. One hands-on tutorial repo did — people had to build an agent to feel it.</div>
+  </section>
+
+  <!-- 15 CO-PILOT -->
+  <section class="slide t-cream" data-notes="Story two: the AI Co-pilot, or Democratisation, team. Ideologically GEMMA should eventually lift the load off everyone — but nobody knows when. So in parallel we built a team focused on automating the work of people, today. What they did: stood up a Claude instance in a container so anyone can deploy universal skills; wired it into Slack where work already happens; demonstrated relentlessly what's now possible; and ran a company-wide Skillathon. Bottom-up leverage while GEMMA matures top-down.">
+    <div class="kicker">Story 2 · AI Co-pilot</div>
+    <h2>While GEMMA matures, give <em>everyone</em> leverage now.</h2>
+    <div class="steps">
+      <div>Claude in a container — anyone can deploy universal skills</div>
+      <div>Wired into Slack, where work already happens</div>
+      <div>Relentless demos of what's now possible</div>
+      <div>A company-wide Skillathon</div>
+    </div>
+  </section>
+
+  <!-- 15 ORG · FRICTION -->
+  <section class="slide t-cream" data-notes="Story three: the organisation. The problems are the old problems in new clothes. Luddites — people who quietly refuse and sabotage; you manage them honestly, not by force. The leverage map redraws: some people suddenly do the work of five, others find themselves blocked by skills they don't yet have. And it becomes an SRE problem — now managers and designers also want into the repo, into safe sandboxes, because building is no longer only engineering's job.">
+    <div class="kicker">Story 3 · the organisation</div>
+    <h2>The problems are the <em>same as always</em> — in new clothes.</h2>
+    <div class="steps">
+      <div>Luddites — quiet refusal and sabotage to manage</div>
+      <div>The leverage map redraws — some gain it, some get blocked</div>
+      <div>An SRE problem now — managers &amp; designers want into the repo, into safe sandboxes</div>
+    </div>
+  </section>
+
+  <!-- 16 ORG · NEW ROLES -->
+  <section class="slide t-emerald" data-notes="The roles the shift creates. Two are emerging clearly. The AI Product Engineer — someone who specifies the intent and ships the agent that delivers it; product thinking and engineering collapse into one person. The UX-Engineer — designs the interaction and builds it in the same breath, because with agents the interface is increasingly generated, not hand-laid. The common thread: the old line between who designs and who builds is dissolving. Hiring, levelling and team shape all have to follow.">
+    <div class="kicker">Story 3 · new roles</div>
+    <h2>New roles the shift creates.</h2>
+    <div class="steps">
+      <div><strong>AI Product Engineer</strong> — specifies the intent and ships the agent that delivers it</div>
+      <div><strong>UX-Engineer</strong> — designs the interaction and builds it in the same breath</div>
+    </div>
+    <div class="sub" style="margin-top:3vh">The line between who designs and who builds is dissolving.</div>
+  </section>
+
+  <!-- 17 ORG · OPERATING MODEL -->
+  <section class="slide t-dark" data-notes="The capstone of the org story, and the bridge to the close. The real change isn't a new set of tools — it's that automation stops being a toolset and becomes the operating model. Teams restructure around agentic services rather than around features. Some roles gain enormous leverage. Some change shape entirely. And some parts of the old organisation simply become unnecessary. That's uncomfortable, and it's the honest part of the story. This is what it means to become AI-native rather than merely AI-assisted — and it's exactly why the next slide's question is the one that matters.">
+    <div class="kicker">Story 3 · the real shift</div>
+    <h2>Automation is no longer a toolset. It's the <em>operating model.</em></h2>
+    <div class="sub">Teams restructure around agentic services. Some roles gain leverage. Some change shape. Some become unnecessary. That's the move from AI-assisted to AI-native.</div>
+  </section>
+
+  <!-- 19 CLOSE · MY BET -->
+  <section class="slide t-dark" data-notes="Close honestly. I'm not going to pretend I know where this lands — nobody does. But I'd rather end on a bet than on a tidy slogan. Three things I'm betting on. First: fewer people first. Roles will go before the new ones arrive, and I won't dress that up — it means jobs. Second: more people later, but different ones, with different skills — and probably never at the old scale. Third: the teams themselves blur. Ownership starts to matter more than the org chart; we drift toward something looser, closer to holacracy than to boxes and reporting lines. That's a bet, not a forecast. Let's find out together. Thank them, take questions.">
+    <div class="kicker">My bet</div>
+    <h2>I don't know where this ends. But I'll <em>bet</em> on three things.</h2>
+    <div class="steps">
+      <div><strong>Fewer people first</strong> — and I won't pretend that doesn't mean jobs.</div>
+      <div><strong>Then more people</strong> — different ones, different skills, never at the old scale.</div>
+      <div><strong>Teams blur</strong> — ownership replaces the org chart; closer to holacracy than to boxes.</div>
+    </div>
+    <div class="sub" style="margin-top:3vh">That's a bet, not a forecast. Let's find out together.</div>
+  </section>
+
+  <!-- 21 HIRING -->
+  <section class="slide t-terra" data-notes="Last slide. Everything in this talk — GEMMA, the co-pilot team, the new roles — needs people who actually build with AI, not just talk about it. Background doesn't matter: engineering, data, design, product. What matters is that you reach for a coding agent to ship something real. Telegram is faster than email.">
+    <div class="kicker">We're hiring · ANNA</div>
+    <h2>Looking for people who <em>build</em> with AI.</h2>
+    <div class="sub">AI Engineer — someone who turns ideas into working systems using coding agents and AI tools. Engineering, data, design, product — background is less important than the instinct to ship.</div>
+    <div style="margin-top:5vh;display:flex;flex-direction:column;gap:1.8vh">
+      <div style="font-size:2.4vw;font-weight:800">@nfilippov <span style="font-size:1.6vw;font-weight:400;opacity:0.8">— Telegram (preferred)</span></div>
+      <div style="font-size:1.9vw;font-weight:500;opacity:0.85">nik@anna.money</div>
+    </div>
+  </section>
+
+</div>
+
+<div class="brand">ANNA</div>
+<div class="pageno" id="pageno">01 / 19</div>
+<div class="hint">← → navigate · N notes · F fullscreen</div>
+
+<div id="notes"><b>Speaker notes</b><div id="notetext"></div></div>
+
+<script>
+  // inject squiggle under every kicker
+  const SQ='<svg class="sq" viewBox="0 0 62 8" preserveAspectRatio="none"><path d="M1 5 Q5 1 9 5 T17 5 T25 5 T33 5 T41 5 T49 5 T57 5"/></svg>';
+  document.querySelectorAll('.kicker').forEach(k=>k.insertAdjacentHTML('beforeend',SQ));
+
+  const slides=[...document.querySelectorAll('.slide')];
+  const total=slides.length;
+  let i=0;
+  const bar=document.getElementById('bar');
+  const pageno=document.getElementById('pageno');
+  const notes=document.getElementById('notes');
+  const notetext=document.getElementById('notetext');
+  let notesOn=false;
+  const pad=n=>String(n).padStart(2,'0');
+  function render(){
+    slides.forEach((s,n)=>s.classList.toggle('active',n===i));
+    bar.style.width=((i+1)/total*100)+'%';
+    pageno.textContent=pad(i+1)+' / '+pad(total);
+    notetext.textContent=slides[i].dataset.notes||'';
+  }
+  const go=n=>{i=Math.max(0,Math.min(total-1,n));render()};
+  document.addEventListener('keydown',e=>{
+    const k=e.key.toLowerCase();
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();go(i+1)}
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(i-1)}
+    else if(e.key==='Home'){go(0)} else if(e.key==='End'){go(total-1)}
+    else if(k==='n'||k==='s'){notesOn=!notesOn;notes.classList.toggle('show',notesOn)}
+    else if(k==='f'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}
+  });
+  document.getElementById('stage').addEventListener('click',e=>{go(e.clientX/innerWidth<0.25?i-1:i+1)});
+  render();
+</script>
+</body>
+</html>
