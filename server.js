@@ -13,6 +13,10 @@ app.get('/old', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'old', 'index.html'));
 });
 
+app.get('/new', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'new', 'index.html'));
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/api/register', async (req, res) => {

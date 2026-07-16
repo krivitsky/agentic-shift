@@ -1,0 +1,645 @@
+/* ── /new — "shift happens" ────────────────────────────────────────
+   Standalone theme. Does not touch terminal.css / home.css — the
+   dark-teal palette here is deliberately not the orange-on-black site.
+   Source text: specs/shift-happens.md · Visual: specs/new-design-idea.png
+   ------------------------------------------------------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ink: #05090d;
+  --ink-2: #0b1620;
+  --teal: #3ddc9a;
+  --teal-deep: #1c8f63;
+  --teal-ghost: rgba(61, 220, 154, 0.14);
+  --amber: #e8a33d;
+  --text: #e9eff3;
+  --muted: #8395a1;
+  --line: rgba(137, 180, 190, 0.16);
+  --font-sans: "Poppins", "Montserrat", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Berkeley Mono", "JetBrains Mono", "Fira Code", "SF Mono", "Consolas", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  background:
+    radial-gradient(150% 55% at 50% 0%, rgba(15, 32, 41, 0.55) 0%, transparent 44%),
+    var(--ink);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Faint dot-field echoing the hero motif — carries the texture down through
+   the manifesto so the page doesn't fall off a cliff into flat black below
+   the hero. Fixed, behind everything; the opaque hero covers it up top. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(126, 160, 172, 0.06) 1.1px, transparent 1.4px);
+  background-size: 34px 34px;
+  mask-image: linear-gradient(to bottom, transparent 0, #000 34%, #000 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 34%, #000 100%);
+}
+
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* ── Hero banner ─────────────────────────────────────────────────── */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  margin: 24px auto;
+  max-width: 1440px;
+  border-radius: 18px;
+  border: 1px solid rgba(137, 180, 190, 0.1);
+  background:
+    radial-gradient(120% 90% at 78% 8%, rgba(28, 143, 99, 0.16) 0%, transparent 58%),
+    linear-gradient(168deg, #0f2029 0%, #091420 46%, #04080c 100%);
+  min-height: min(78vh, 560px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: clamp(26px, 4vw, 52px);
+}
+
+/* Faint grid */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 68px 68px;
+  /* Tile from the top-right so a right-anchored dot-field stays grid-locked
+     at any hero width. */
+  background-position: 100% 0;
+  opacity: 0.35;
+  mask-image: radial-gradient(120% 100% at 60% 30%, #000 20%, transparent 92%);
+  pointer-events: none;
+}
+
+/* Diagonal light streak, top-right → bottom-left */
+.streak {
+  position: absolute;
+  top: -30%;
+  left: 62%;
+  width: 2px;
+  height: 170%;
+  transform: rotate(9deg);
+  background: linear-gradient(to bottom, transparent, rgba(61, 220, 154, 0.75) 40%, rgba(61, 220, 154, 0.22) 76%, transparent);
+  filter: blur(0.3px);
+  box-shadow: 0 0 22px 2px rgba(61, 220, 154, 0.14);
+  pointer-events: none;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Eyebrow */
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: var(--font-mono);
+  font-size: clamp(10px, 1.05vw, 13px);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  flex-wrap: wrap;
+}
+
+.eyebrow .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--teal);
+  box-shadow: 0 0 12px 3px rgba(61, 220, 154, 0.55);
+  flex: none;
+}
+
+.eyebrow .sep {
+  color: rgba(137, 180, 190, 0.5);
+}
+
+.eyebrow .lead {
+  color: #c4d2da;
+}
+
+.eyebrow .tail {
+  color: #fff;
+}
+
+/* Headline block */
+.hero-mid {
+  padding: clamp(20px, 5vw, 56px) 0 0;
+}
+
+.headline {
+  font-size: clamp(46px, 9vw, 128px);
+  font-weight: 600;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.subtitle {
+  margin-top: clamp(10px, 1.6vw, 20px);
+  font-size: clamp(18px, 2.5vw, 34px);
+  font-weight: 500;
+  color: #c8d5dd;
+  letter-spacing: -0.01em;
+}
+
+.subtitle .slash {
+  color: var(--amber);
+  margin: 0 0.15em;
+}
+
+.hero-rule {
+  margin: clamp(20px, 3vw, 38px) 0 0;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(137, 180, 190, 0.3), rgba(137, 180, 190, 0.06) 70%, transparent);
+}
+
+/* Bottom row: meta + CTAs */
+.hero-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-top: clamp(18px, 2.5vw, 26px);
+}
+
+.meta {
+  font-family: var(--font-mono);
+  font-size: clamp(12px, 1.2vw, 15px);
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* Footnote asterisk — in both the eyebrow and the footnote itself. */
+.star {
+  color: var(--teal);
+}
+
+/* Hero footnote (keyed to the * on "a manifesto"). Small print, bottom-left. */
+.footnote {
+  font-family: var(--font-mono);
+  font-size: clamp(11px, 1.05vw, 13px);
+  line-height: 1.55;
+  color: #7f929d;
+  max-width: 62ch;
+  letter-spacing: 0.01em;
+}
+
+/* ── Glitched word ───────────────────────────────────────────────── */
+/* An interlace smear, not a torn-band glitch: copies of the word are
+   sliced into thin VERTICAL stripes and offset sideways. The stripe mask
+   scrolls, so the shift is always in motion — the word never settles.
+   All offsets/widths are in `em` so it tracks the clamped font-size.  */
+
+.glitch {
+  position: relative;
+  display: inline-block;
+  color: var(--teal);
+  /* Layers sit on top; keep them from bleeding into layout. */
+  isolation: isolate;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* The stripes are a repeating gradient clipped to the glyphs, and the
+   motion is `background-position` — NOT `mask-position`, which Chrome
+   refuses to interpolate on a pseudo-element (it snaps to the end value
+   and sits there, animation reported "running" but visually frozen).
+   The mask here is only the static left/right fade. */
+.glitch::before,
+.glitch::after {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: repeat;
+}
+
+/* Light echo — pushed right, densest at the trailing edge of the word. */
+.glitch::before {
+  opacity: 0.9;
+  transform: translateX(0.055em);
+  background-image: repeating-linear-gradient(90deg, #b6f0d5 0 0.03em, transparent 0.03em 0.075em);
+  -webkit-mask-image: linear-gradient(90deg, transparent 18%, #000 82%);
+  mask-image: linear-gradient(90deg, transparent 18%, #000 82%);
+  animation: smear-right 2.6s linear infinite;
+}
+
+/* Dark echo — pushed left and slightly down, concentrated on the leading
+   letters. Reads as the depth/shadow edge in the reference. */
+.glitch::after {
+  opacity: 0.85;
+  transform: translate(-0.04em, 0.018em);
+  background-image: repeating-linear-gradient(90deg, #2e8060 0 0.022em, transparent 0.022em 0.1em);
+  -webkit-mask-image: linear-gradient(90deg, #000 12%, transparent 78%);
+  mask-image: linear-gradient(90deg, #000 12%, transparent 78%);
+  animation: smear-left 3.7s linear infinite;
+}
+
+/* One full stripe period per cycle, so the loop seam is invisible. */
+@keyframes smear-right {
+  from { background-position: 0 0; }
+  to   { background-position: 0.075em 0; }
+}
+
+@keyframes smear-left {
+  from { background-position: 0 0; }
+  to   { background-position: -0.1em 0; }
+}
+
+/* The word itself never moves — the glyphs stay anchored and only the
+   stripes travel across them. Do not animate transform on .glitch. */
+
+/* ── Node graph (upper right) ────────────────────────────────────── */
+
+/* Sized to stay inside the upper-right quadrant — it must not reach the
+   CTA row at the bottom of the hero.
+   Sizing note: a single fluid corner element at ALL widths. It scales with the
+   viewport (width tracks 30vw) so it always sits to the RIGHT of the headline
+   text and clears it — the headline text width also scales with vw, so the two
+   never collide. (A previous grid-locked 612px version could not: the hero
+   caps at 1440px, so a field that big always dropped onto the headline.) */
+.graph {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: min(30vw, 380px);
+  height: auto;
+  overflow: visible;
+  pointer-events: none;
+}
+
+/* The dimmed grid — mediocrity, the background everyone sits in.
+   Sits exactly on the hero's grid intersections. */
+.graph .grid circle {
+  fill: rgba(126, 160, 172, 0.18);
+}
+
+/* The live diagonal — the climb. Each live dot blinks by growing and fading
+   around its OWN centre (transform-box: fill-box), so relative sizes are kept
+   and no dot ever leaves its grid point. */
+.graph .rise circle,
+.graph .peak circle {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: dot-grow 3.4s ease-in-out infinite;
+}
+
+.graph .rise circle {
+  fill: var(--teal);
+}
+
+.graph .peak circle {
+  fill: #8ff0c4;
+}
+
+/* Delays climb along the diagonal, so the shimmer reads bottom-left → top-right. */
+.graph .rise circle:nth-child(1) { animation-delay: 0s; }
+.graph .rise circle:nth-child(2) { animation-delay: 0.18s; }
+.graph .rise circle:nth-child(3) { animation-delay: 0.36s; }
+.graph .rise circle:nth-child(4) { animation-delay: 0.5s; }
+.graph .rise circle:nth-child(5) { animation-delay: 0.68s; }
+.graph .rise circle:nth-child(6) { animation-delay: 0.82s; }
+.graph .rise circle:nth-child(7) { animation-delay: 0.9s; }
+.graph .rise circle:nth-child(8) { animation-delay: 1s; }
+.graph .rise circle:nth-child(9) { animation-delay: 1.1s; }
+.graph .rise circle:nth-child(10) { animation-delay: 1.18s; }
+.graph .rise circle:nth-child(11) { animation-delay: 1.26s; }
+.graph .rise circle:nth-child(12) { animation-delay: 1.4s; }
+.graph .peak circle:nth-child(1) { animation-delay: 1.5s; }
+.graph .peak circle:nth-child(2) { animation-delay: 1.6s; }
+
+@keyframes dot-grow {
+  0%, 100% { opacity: 0.5; transform: scale(0.62); }
+  50% { opacity: 1; transform: scale(1.18); }
+}
+
+/* ── Buttons ─────────────────────────────────────────────────────── */
+
+.ctas {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  font-family: var(--font-mono);
+  font-size: clamp(13px, 1.15vw, 16px);
+  letter-spacing: 0.02em;
+  padding: 13px 26px;
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease, color 0.16s ease;
+}
+
+.btn-ghost {
+  color: #dbe6ec;
+  border: 1px solid rgba(137, 180, 190, 0.45);
+  background: transparent;
+}
+
+.btn-ghost:hover {
+  border-color: var(--teal);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  color: #06120d;
+  font-weight: 700;
+  border: 1px solid transparent;
+  background: linear-gradient(95deg, var(--teal) 0%, #7fd07a 48%, var(--amber) 100%);
+  box-shadow: 0 6px 26px rgba(61, 220, 154, 0.22);
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 34px rgba(61, 220, 154, 0.34);
+}
+
+/* ── Manifesto body ──────────────────────────────────────────────── */
+
+/* Match the hero's box exactly (max-width + horizontal padding) so the
+   manifesto spans the full hero width and its left edge lines up under the
+   headline, instead of floating as a narrow centred column. */
+.manifesto {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: clamp(48px, 8vw, 96px) clamp(26px, 4vw, 52px) clamp(30px, 4vw, 48px);
+}
+
+.lede {
+  font-size: clamp(19px, 2.1vw, 26px);
+  line-height: 1.55;
+  color: #d3dee5;
+  letter-spacing: -0.01em;
+}
+
+.lede + .lede {
+  margin-top: clamp(20px, 2.4vw, 30px);
+}
+
+.lede em {
+  font-style: normal;
+  color: #fff;
+}
+
+.lede .amber {
+  color: var(--amber);
+}
+
+/* Must wrap — the term is longer than a phone viewport. */
+.definition {
+  color: var(--teal);
+}
+
+/* Section label, mono, matching the eyebrow */
+.label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: clamp(44px, 6vw, 76px) 0 clamp(20px, 3vw, 32px);
+}
+
+.label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(137, 180, 190, 0.28), transparent);
+}
+
+/* Section thesis — "product engineers shift:". This is the argument of the
+   page, so it reads as a real heading, not a tiny mono label. */
+.section-head {
+  font-family: var(--font-mono);
+  font-size: clamp(21px, 3vw, 36px);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: #eef3f5;
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 2vw, 24px);
+  margin: clamp(52px, 7vw, 88px) 0 clamp(24px, 3.5vw, 38px);
+}
+
+.section-head .tick {
+  color: var(--teal);
+}
+
+.section-head::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(137, 180, 190, 0.3), transparent);
+}
+
+/* ── The five shifts ─────────────────────────────────────────────── */
+
+.shifts {
+  list-style: none;
+  display: grid;
+  gap: 14px;
+  counter-reset: shift;
+}
+
+.shift {
+  position: relative;
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  gap: clamp(12px, 2vw, 26px);
+  align-items: start;
+  padding: clamp(20px, 2.6vw, 30px);
+  border: 1px solid rgba(137, 180, 190, 0.14);
+  border-radius: 14px;
+  background: linear-gradient(150deg, rgba(18, 40, 52, 0.75), rgba(7, 13, 18, 0.6));
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.shift:hover {
+  border-color: rgba(61, 220, 154, 0.4);
+  transform: translateY(-2px);
+}
+
+.shift .n {
+  font-family: var(--font-mono);
+  font-size: clamp(22px, 2.6vw, 32px);
+  font-weight: 500;
+  color: var(--teal);
+  line-height: 1.1;
+  opacity: 0.9;
+}
+
+.shift-body {
+  display: grid;
+  gap: clamp(8px, 1vw, 12px);
+  align-content: center;
+}
+
+/* The punchy pair — the shift IS the headline. from muted, to teal. */
+.pair {
+  display: flex;
+  align-items: baseline;
+  gap: clamp(12px, 1.6vw, 22px);
+  font-size: clamp(26px, 3.6vw, 44px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  flex-wrap: wrap;
+}
+
+.pair .from {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.pair .arrow {
+  color: var(--amber);
+  font-weight: 400;
+  font-size: 0.82em;
+  transform: translateY(-0.02em);
+  transition: transform 0.2s ease;
+}
+
+.pair .to {
+  color: var(--teal);
+}
+
+.shift:hover .arrow {
+  transform: translateX(3px) translateY(-0.02em);
+}
+
+.note {
+  color: #9fb0ba;
+  font-size: clamp(14px, 1.35vw, 17px);
+  line-height: 1.5;
+  max-width: 46em;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────── */
+
+.foot {
+  border-top: 1px solid rgba(137, 180, 190, 0.12);
+  margin-top: clamp(40px, 6vw, 72px);
+  padding: 30px 0 60px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--muted);
+  display: flex;
+  gap: 10px 22px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.foot a {
+  color: #c3d2da;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(61, 220, 154, 0.35);
+}
+
+.foot a:hover {
+  color: var(--teal);
+}
+
+.foot .spacer {
+  flex: 1;
+}
+
+/* ── Small screens ───────────────────────────────────────────────── */
+
+/* On phones the hero is cramped and there's no room beside the headline. */
+@media (max-width: 720px) {
+  .graph {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero {
+    min-height: 0;
+    margin: 12px;
+    border-radius: 14px;
+  }
+
+  .hero-foot {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ctas {
+    width: 100%;
+  }
+
+  .btn {
+    flex: 1;
+    text-align: center;
+    padding: 13px 16px;
+  }
+
+  .shift {
+    grid-template-columns: 32px 1fr;
+    padding: 20px 18px;
+  }
+
+  .pair {
+    font-size: clamp(24px, 8vw, 34px);
+    gap: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .glitch::before,
+  .glitch::after,
+  .graph .rise circle,
+  .graph .peak circle {
+    animation: none;
+  }
+}
