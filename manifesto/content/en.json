@@ -1,0 +1,76 @@
+{
+  "lang": "en",
+  "name": "English",
+  "dir": "/",
+
+  "meta": {
+    "title": "Agentic Shift — Professional Agentic Product Engineering",
+    "description": "The industry-wide shift toward agentic product engineering is producing radically new organizations. Five org-design shifts that separate professional agentic product engineering from mediocrity and marketing.",
+    "keywords": "agentic shift, agentic product engineering, agentic engineering, AI agents, organizational design, product engineering, professional agentic engineering, Alexey Krivitsky, Martin Westphal",
+    "ogTitle": "Agentic Shift — Professional Agentic Product Engineering",
+    "ogDescription": "Five org-design shifts that separate professional agentic product engineering from mediocrity and marketing.",
+    "schemaDescription": "The industry-wide shift toward agentic product engineering is producing radically new organizations — defined by five org-design shifts.",
+    "llmsTitle": "Agentic Shift — machine-readable (LLM) version"
+  },
+
+  "hero": {
+    "headlineLead": "Agentic",
+    "headlineGlitch": "Shift",
+    "subtitle": "towards professional agentic product engineering"
+  },
+
+  "lede": [
+    "The industry-wide shift toward <span class=\"definition\">agentic product engineering</span> is producing radically new organizations. Most leaders haven't yet grasped how deep this goes. The ones who have are already ahead of the curve. And <em>the gap between the best and the rest widens every day.</em>",
+    "To help these ideas spread, and to set a bar high enough to tell real change from <span class=\"amber\">mediocrity and marketing</span>, we're defining the <span class=\"definition\"><strong>professional</strong> agentic product engineering</span> as a set of noticeable org-design shifts in how product engineering work gets done."
+  ],
+
+  "sectionHead": "<span class=\"lite\">Towards</span> professional agentic product engineering <span class=\"lite\">at</span> org-level",
+
+  "shifts": [
+    {
+      "from": "features",
+      "to": "systems",
+      "note": "Product engineers stop shipping one-off features and shift to building agentic systems — self-improving loops that turn intent into working solutions."
+    },
+    {
+      "from": "gatekeeping",
+      "to": "guardrails",
+      "note": "Product engineers stop inspecting for quality issues and shift to building quality into the system through well-engineered agentic harnesses."
+    },
+    {
+      "from": "specialists",
+      "to": "craftspeople",
+      "note": "Product engineers shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps in real time and mentoring the product engineers into new domains and skills."
+    },
+    {
+      "from": "proxies",
+      "to": "users",
+      "note": "No more telephone game through manager-proxies, no more sitting in the basement — product engineers shift to zero distance with the customers and users, to empathize, analyze, and synthesize firsthand."
+    },
+    {
+      "from": "output",
+      "to": "outcomes",
+      "note": "Product engineers shift from being measured by output to owning and driving outcomes themselves — sensing drift and correcting course continuously."
+    }
+  ],
+
+  "qa": [
+    {
+      "q": "A new manifesto?",
+      "a": "It is perhaps <span class=\"amber\">too early to write manifestos</span>, as the ground is still shifting — but we'd like to acknowledge the strong changes we're already observing throughout the industry, most visible among the frontrunners."
+    },
+    {
+      "q": "What does it mean for org leaders?",
+      "a": "While coding is now being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: <span class=\"definition\">the drive for perfection</span>, <span class=\"definition\">unlimited creativity</span>, and <span class=\"definition\">rich co-creation</span>. <strong>The task of every organization and every leader is to design environments that <span class=\"definition\">elevate human intelligence</span> to these new heights.</strong>"
+    },
+    {
+      "q": "Want to contribute?",
+      "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Propose improvements</a>. Share this page. Put these ideas to work in your organization."
+    }
+  ],
+
+  "foot": {
+    "by": "created and maintained by",
+    "cta": "community and meetups in munich"
+  }
+}

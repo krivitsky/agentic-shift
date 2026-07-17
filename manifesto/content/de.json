@@ -1,0 +1,76 @@
+{
+  "lang": "de",
+  "name": "Deutsch",
+  "dir": "/de/",
+
+  "meta": {
+    "title": "Agentic Shift — Professionelles Agentic Product Engineering",
+    "description": "Der branchenweite Wandel hin zu agentic product engineering bringt radikal neue Organisationen hervor. Fünf Verschiebungen im Org-Design, die professionelles agentic product engineering von Mittelmaß und Marketing trennen.",
+    "keywords": "agentic shift, agentic product engineering, agentisches Product Engineering, KI-Agenten, Organisationsdesign, Product Engineering, Alexey Krivitsky, Martin Westphal",
+    "ogTitle": "Agentic Shift — Professionelles Agentic Product Engineering",
+    "ogDescription": "Fünf Verschiebungen im Org-Design, die professionelles agentic product engineering von Mittelmaß und Marketing trennen.",
+    "schemaDescription": "Der branchenweite Wandel hin zu agentic product engineering bringt radikal neue Organisationen hervor — definiert durch fünf Verschiebungen im Org-Design.",
+    "llmsTitle": "Agentic Shift — maschinenlesbare (LLM-)Fassung"
+  },
+
+  "hero": {
+    "headlineLead": "Agentic",
+    "headlineGlitch": "Shift",
+    "subtitle": "hin zu professionellem agentic product engineering"
+  },
+
+  "lede": [
+    "Der branchenweite Wandel hin zu <span class=\"definition\">agentic product engineering</span> bringt radikal neue Organisationen hervor. Die meisten Führungskräfte haben noch nicht erfasst, wie tief das reicht. Wer es erfasst hat, ist der Kurve bereits voraus. Und <em>die Kluft zwischen den Besten und dem Rest wird täglich größer.</em>",
+    "Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu legen, um echten Wandel von <span class=\"amber\">Mittelmaß und Marketing</span> zu unterscheiden — definieren wir <span class=\"definition\"><strong>professionelles</strong> agentic product engineering</span> als eine Reihe deutlich sichtbarer Verschiebungen im Org-Design: darin, wie Produktentwicklung tatsächlich geschieht."
+  ],
+
+  "sectionHead": "<span class=\"lite\">Hin zu</span> professionellem agentic product engineering <span class=\"lite\">auf</span> Org-Ebene",
+
+  "shifts": [
+    {
+      "from": "Features",
+      "to": "Systeme",
+      "note": "Product Engineers liefern nicht länger einzelne Features aus, sondern bauen agentische Systeme — sich selbst verbessernde Loops, die Absicht in funktionierende Lösungen verwandeln."
+    },
+    {
+      "from": "Kontrolle",
+      "to": "Leitplanken",
+      "note": "Product Engineers prüfen Qualität nicht länger im Nachhinein, sondern bauen sie über gut konstruierte agentische Harnesses direkt ins System ein."
+    },
+    {
+      "from": "Spezialisten",
+      "to": "Handwerker",
+      "note": "Product Engineers wandeln sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern — KI füllt die Spezialistenlücken in Echtzeit und führt die Product Engineers in neue Domänen und Fähigkeiten ein."
+    },
+    {
+      "from": "Stellvertreter",
+      "to": "Nutzer",
+      "note": "Kein Stille-Post-Spiel mehr über Manager als Stellvertreter, kein Sitzen im Keller — Product Engineers gehen auf null Distanz zu Kundinnen und Nutzern, um aus erster Hand zu verstehen, zu analysieren und zu synthetisieren."
+    },
+    {
+      "from": "Output",
+      "to": "Wirkung",
+      "note": "Product Engineers werden nicht länger am Output gemessen, sondern verantworten und treiben Wirkung selbst — sie spüren Abweichungen und korrigieren den Kurs fortlaufend."
+    }
+  ],
+
+  "qa": [
+    {
+      "q": "Ein neues Manifest?",
+      "a": "Es ist vielleicht <span class=\"amber\">zu früh für Manifeste</span>, denn der Boden bewegt sich noch — aber wir möchten die starken Veränderungen anerkennen, die wir bereits in der ganzen Branche beobachten, am deutlichsten bei den Vorreitern."
+    },
+    {
+      "q": "Was bedeutet das für Führungskräfte?",
+      "a": "Während das Programmieren automatisiert und zur Routine wird, erlebt das Handwerk des Product Engineering eine grundlegende Neuerfindung — möglich allein durch zutiefst menschliche Eigenschaften: <span class=\"definition\">den Drang zur Perfektion</span>, <span class=\"definition\">grenzenlose Kreativität</span> und <span class=\"definition\">reiche Ko-Kreation</span>. <strong>Die Aufgabe jeder Organisation und jeder Führungskraft ist es, Umgebungen zu gestalten, die <span class=\"definition\">menschliche Intelligenz</span> auf diese neue Höhe heben.</strong>"
+    },
+    {
+      "q": "Mitmachen?",
+      "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Verbesserungen vorschlagen</a>. Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen."
+    }
+  ],
+
+  "foot": {
+    "by": "erstellt und gepflegt von",
+    "cta": "community und meetups in münchen"
+  }
+}

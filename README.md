@@ -63,14 +63,20 @@ Live at **[agentic-shift.com](https://agentic-shift.com)**.
 The website for agentic-shift.com — the manifesto above, and the Agentic Shift Munich meetups.
 
 ### Pages
-- **`/`** — the manifesto (`public/index.html`).
+- **`/`** — the manifesto (English). Also in
+  [German](https://agentic-shift.com/de/), [French](https://agentic-shift.com/fr/),
+  [Spanish](https://agentic-shift.com/es/), [Ukrainian](https://agentic-shift.com/uk/), and
+  [Japanese](https://agentic-shift.com/ja/) — one directory each under `public/`.
 - **`/munich`** — the Munich meetups: next event, Luma calendar, organizers, community, past
   events (`public/munich/index.html`).
 
 ### Stack
-- Plain static site — HTML + CSS in `public/`, **no build step, no dependencies**.
+- Plain static site — HTML + CSS in `public/`, **no dependencies, no deploy-time build**.
 - Production serves `public/` statically via Vercel (`vercel.json`), which resolves clean URLs
   like `/munich` on its own.
+- The manifesto pages (`public/index.html` + `public/<lang>/index.html`) are **generated** — see
+  [Editing the manifesto](#editing-the-manifesto). The generated HTML is committed, so the deploy
+  itself still runs no build.
 
 ### Run locally
 
@@ -78,15 +84,35 @@ The website for agentic-shift.com — the manifesto above, and the Agentic Shift
 npx serve public      # → http://localhost:3000
 ```
 
-(You can also just open `public/index.html` directly in a browser.)
-
 ### Deploy
 Auto-deploys to [Vercel](https://vercel.com) on push to `main`.
 
 ### Design system
-Both pages share `public/css/shift.css` — ink `#05090d`, teal `#3ddc9a`, amber `#e8a33d`, Poppins
-headings + JetBrains Mono labels. `/munich` layers on `public/css/meetups.css`.
+All manifesto pages share `public/css/shift.css` — ink `#05090d`, teal `#3ddc9a`, amber `#e8a33d`,
+Poppins headings + JetBrains Mono labels. `/munich` layers on `public/css/meetups.css`.
+
+### Editing the manifesto
+The manifesto text is **not** edited in the HTML — the pages are generated from content files:
+
+- Copy per language: [`manifesto/content/en.json`](manifesto/content/en.json) (canonical),
+  [`de`](manifesto/content/de.json), [`fr`](manifesto/content/fr.json),
+  [`es`](manifesto/content/es.json), [`uk`](manifesto/content/uk.json),
+  [`ja`](manifesto/content/ja.json).
+- Markup, once: [`manifesto/template.html`](manifesto/template.html).
+- Generator (zero-dep, plain Node): [`manifesto/build.js`](manifesto/build.js).
+
+To change wording or fix a translation, edit the relevant `content/*.json`, then regenerate:
+
+```bash
+node manifesto/build.js
+```
+
+**Adding a language:** drop a new `content/<lang>.json` (copy `en.json`, translate the values),
+add the locale to `LANGS` / `OG_LOCALE` / `LANGBAR_LABEL` in `build.js`, run it, and add the URL to
+`public/sitemap.xml`. The English `from → to` term pairs render automatically beneath each
+translated pair — don't restate them. Never hand-edit the generated `public/**/index.html`.
 
 ### Contributing
-Open an issue or a pull request. This site is meant to spread: **share it, propose improvements, and
-put the ideas to work in your own organization.**
+Open an issue or a pull request. Translations especially welcome — edit the content files above, not
+the HTML. This site is meant to spread: **share it, propose improvements, and put the ideas to work
+in your own organization.**

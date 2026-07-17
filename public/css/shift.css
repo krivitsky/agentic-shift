@@ -60,6 +60,46 @@ body::before {
   padding: 0 28px;
 }
 
+/* ── Language switcher ───────────────────────────────────────────── */
+
+/* Bottom-left of the hero, aligned to the headline's left edge: the top is
+   reserved for the headline + dot-field composition, and the reading order
+   lands on it last — headline, subtitle, then language.
+   Native names, not ISO codes: "UK" reads as United Kingdom, not Ukrainian.
+   Scoped as `.hero .langbar` so it outweighs `.hero > *`, which would
+   otherwise force position:relative on this child and break the placement. */
+.hero .langbar {
+  position: absolute;
+  bottom: var(--pad);
+  left: var(--pad);
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: clamp(9px, 1.3vw, 17px);
+  font-family: var(--font-mono);
+  font-size: clamp(10px, 1vw, 12px);
+  letter-spacing: 0.08em;
+}
+
+.langbar a {
+  color: var(--muted);
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.16s ease, border-color 0.16s ease;
+}
+
+.langbar a:hover {
+  color: #fff;
+  border-bottom-color: rgba(61, 220, 154, 0.5);
+}
+
+.langbar a[aria-current="page"] {
+  color: var(--teal);
+  border-bottom-color: var(--teal);
+}
+
 /* ── Hero banner ─────────────────────────────────────────────────── */
 
 .hero {
@@ -84,7 +124,10 @@ body::before {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: var(--pad);
+  /* Extra bottom padding reserves a clear band for the language switcher,
+     which sits absolutely at bottom-left; the centered headline block shifts
+     up so the two never overlap. */
+  padding: var(--pad) var(--pad) calc(var(--pad) + 34px);
 }
 
 /* Faint grid — cell size matches the dot pitch and the tile is anchored so a
@@ -589,6 +632,28 @@ body::before {
 .pair .from {
   color: var(--muted);
   font-weight: 500;
+}
+
+/* On translated pages each term stacks its canonical English word directly
+   beneath it (word-under-word), so the shared vocabulary reads inline with
+   the localized headline. Generated from en.json; absent on the English page.
+   The column's baseline is its first row (the big word), so the arrow between
+   terms still aligns to the headline, not to the gloss. */
+.pair .term {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pair-en {
+  margin-top: 3px;
+  font-family: var(--font-mono);
+  font-size: clamp(13px, 1.5vw, 17px);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  color: var(--muted);
+  opacity: 0.75;
 }
 
 .pair .arrow {

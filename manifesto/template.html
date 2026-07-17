@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{META_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <meta name="keywords" content="{{META_KEYWORDS}}">
+  <meta name="author" content="Alexey Krivitsky, Martin Westphal">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#05090d">
+  <link rel="canonical" href="{{DIR}}">
+  <link rel="alternate" type="text/markdown" href="/llms.txt" title="{{META_LLMS_TITLE}}">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Language alternates. Absolute URLs are required here by the hreflang
+       spec — this is a deliberate carve-out from the relative-URLs-only rule
+       for <head> meta (same as sitemap.xml / robots.txt). -->
+{{HREFLANG}}
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Agentic Shift">
+  <meta property="og:title" content="{{META_OG_TITLE}}">
+  <meta property="og:description" content="{{META_OG_DESCRIPTION}}">
+  <meta property="og:locale" content="{{OG_LOCALE}}">
+  <meta property="og:url" content="{{DIR}}">
+  <meta property="og:image" content="/images/og-shift.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{META_OG_TITLE}}">
+  <meta name="twitter:description" content="{{META_OG_DESCRIPTION}}">
+  <meta name="twitter:image" content="/images/og-shift.png">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Agentic Shift",
+    "description": "{{META_SCHEMA_DESCRIPTION}}",
+    "url": "{{DIR}}",
+    "founder": [
+      { "@type": "Person", "name": "Alexey Krivitsky", "url": "https://www.linkedin.com/in/alexeykrivitsky/" },
+      { "@type": "Person", "name": "Martin Westphal", "url": "https://www.linkedin.com/in/ade-anima/" }
+    ]
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/shift.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJW53LEJGS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SJW53LEJGS');
+  </script>
+</head>
+<body>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────── -->
+  <header class="hero">
+
+    <!-- Rising dot-field: the mediocre grid dims into the background while a
+         diagonal of live nodes climbs to the top-right — the shift, made literal.
+         Adapted from the CTO-book cover motif. -->
+    <svg class="graph" viewBox="0 0 306 112" fill="none" aria-hidden="true">
+      <g class="grid">
+        <circle cx="0" cy="28" r="4.2"/><circle cx="34" cy="28" r="4.2"/><circle cx="68" cy="28" r="4.2"/><circle cx="102" cy="28" r="4.2"/><circle cx="136" cy="28" r="4.2"/><circle cx="170" cy="28" r="4.2"/><circle cx="204" cy="28" r="4.2"/>
+        <circle cx="0" cy="56" r="4.2"/><circle cx="34" cy="56" r="4.2"/><circle cx="68" cy="56" r="4.2"/><circle cx="102" cy="56" r="4.2"/><circle cx="136" cy="56" r="4.2"/><circle cx="170" cy="56" r="4.2"/><circle cx="306" cy="56" r="4.2"/>
+        <circle cx="0" cy="84" r="4.2"/><circle cx="34" cy="84" r="4.2"/><circle cx="68" cy="84" r="4.2"/><circle cx="102" cy="84" r="4.2"/><circle cx="136" cy="84" r="4.2"/><circle cx="238" cy="84" r="4.2"/><circle cx="272" cy="84" r="4.2"/><circle cx="306" cy="84" r="4.2"/>
+        <circle cx="0" cy="112" r="4.2"/><circle cx="34" cy="112" r="4.2"/><circle cx="68" cy="112" r="4.2"/><circle cx="170" cy="112" r="4.2"/><circle cx="204" cy="112" r="4.2"/><circle cx="238" cy="112" r="4.2"/><circle cx="272" cy="112" r="4.2"/><circle cx="306" cy="112" r="4.2"/>
+      </g>
+      <g class="rise">
+        <circle cx="102" cy="112" r="4.7"/><circle cx="136" cy="112" r="5.1"/><circle cx="170" cy="84" r="5.6"/><circle cx="204" cy="84" r="6"/><circle cx="204" cy="56" r="5"/><circle cx="238" cy="56" r="6.8"/><circle cx="238" cy="28" r="5.2"/><circle cx="272" cy="56" r="7.2"/><circle cx="272" cy="28" r="5.8"/><circle cx="306" cy="28" r="8.4"/>
+      </g>
+      <g class="peak">
+        <circle cx="272" cy="0" r="3.4"/><circle cx="306" cy="0" r="4.2"/>
+      </g>
+    </svg>
+
+    <div class="hero-mid">
+      <h1 class="headline">{{HEADLINE_LEAD}} <span class="glitch" data-text="{{HEADLINE_GLITCH}}">{{HEADLINE_GLITCH}}</span></h1>
+      <div class="hero-rule" aria-hidden="true"></div>
+      <p class="subtitle">{{SUBTITLE}}</p>
+    </div>
+
+    <nav class="langbar" aria-label="{{LANGBAR_LABEL}}">
+{{LANGBAR}}
+    </nav>
+
+  </header>
+
+  <!-- ── Manifesto ────────────────────────────────────────────────── -->
+  <main class="wrap manifesto">
+
+{{LEDE}}
+
+    <h2 class="section-head" id="the-five"><span class="txt">{{SECTION_HEAD}}<span class="tick" aria-hidden="true">:</span></span></h2>
+
+    <ol class="shifts">
+
+{{SHIFTS}}
+
+    </ol>
+
+{{QA}}
+
+    <footer class="foot">
+      <div class="foot-line">
+        <span>2026, <a href="{{DIR}}">agentic-shift.com</a></span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span class="by">{{FOOT_BY}} <a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">Alexey Krivitsky</a></span>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="mailto:alexey@krivitsky.com">alexey@krivitsky.com</a>
+      </div>
+      <a class="foot-cta" href="/munich">{{FOOT_CTA}}</a>
+      <div class="foot-meta">
+        <a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">github</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/sitemap.xml">sitemap</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/llms.txt">llms.txt</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/ai.txt">ai.txt</a>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+</html>

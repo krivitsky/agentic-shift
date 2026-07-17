@@ -1,0 +1,76 @@
+{
+  "lang": "fr",
+  "name": "Français",
+  "dir": "/fr/",
+
+  "meta": {
+    "title": "Agentic Shift — L'ingénierie produit agentique professionnelle",
+    "description": "Le basculement de toute l'industrie vers l'ingénierie produit agentique fait émerger des organisations radicalement nouvelles. Cinq basculements de design organisationnel qui séparent l'ingénierie produit agentique professionnelle de la médiocrité et du marketing.",
+    "keywords": "agentic shift, ingénierie produit agentique, agentic product engineering, agents IA, design organisationnel, ingénierie produit, Alexey Krivitsky, Martin Westphal",
+    "ogTitle": "Agentic Shift — L'ingénierie produit agentique professionnelle",
+    "ogDescription": "Cinq basculements de design organisationnel qui séparent l'ingénierie produit agentique professionnelle de la médiocrité et du marketing.",
+    "schemaDescription": "Le basculement de toute l'industrie vers l'ingénierie produit agentique fait émerger des organisations radicalement nouvelles — définies par cinq basculements de design organisationnel.",
+    "llmsTitle": "Agentic Shift — version lisible par machine (LLM)"
+  },
+
+  "hero": {
+    "headlineLead": "Agentic",
+    "headlineGlitch": "Shift",
+    "subtitle": "vers une ingénierie produit agentique professionnelle"
+  },
+
+  "lede": [
+    "Le basculement de toute l'industrie vers l'<span class=\"definition\">ingénierie produit agentique</span> fait émerger des organisations radicalement nouvelles. La plupart des dirigeants n'ont pas encore saisi la profondeur du phénomène. Ceux qui l'ont saisi ont déjà une longueur d'avance. Et <em>l'écart entre les meilleurs et les autres se creuse chaque jour.</em>",
+    "Pour aider ces idées à se répandre, et pour placer la barre assez haut pour distinguer le vrai changement de la <span class=\"amber\">médiocrité et du marketing</span>, nous définissons l'<span class=\"definition\">ingénierie produit agentique <strong>professionnelle</strong></span> comme un ensemble de basculements visibles dans le design organisationnel : dans la façon dont le travail d'ingénierie produit se fait réellement."
+  ],
+
+  "sectionHead": "<span class=\"lite\">Vers</span> une ingénierie produit agentique professionnelle <span class=\"lite\">à</span> l'échelle de l'organisation",
+
+  "shifts": [
+    {
+      "from": "fonctionnalités",
+      "to": "systèmes",
+      "note": "Les ingénieurs produit cessent de livrer des fonctionnalités isolées et se tournent vers la construction de systèmes agentiques — des boucles qui s'améliorent d'elles-mêmes et transforment l'intention en solutions qui fonctionnent."
+    },
+    {
+      "from": "contrôle",
+      "to": "garde-fous",
+      "note": "Les ingénieurs produit cessent d'inspecter la qualité après coup et l'intègrent directement dans le système, grâce à des harnais agentiques bien conçus."
+    },
+    {
+      "from": "spécialistes",
+      "to": "artisans",
+      "note": "Les ingénieurs produit passent de spécialistes cloisonnés, à la chaîne, à des artisans de bout en bout — l'IA comblant les lacunes de spécialité en temps réel et guidant les ingénieurs vers de nouveaux domaines et compétences."
+    },
+    {
+      "from": "intermédiaires",
+      "to": "utilisateurs",
+      "note": "Fini le téléphone arabe via des managers intermédiaires, fini l'isolement au sous-sol — les ingénieurs produit passent à distance zéro avec les clients et les utilisateurs, pour comprendre, analyser et synthétiser de première main."
+    },
+    {
+      "from": "production",
+      "to": "résultats",
+      "note": "Les ingénieurs produit ne sont plus mesurés à leur production mais s'approprient et pilotent eux-mêmes les résultats — détectant les dérives et corrigeant le cap en continu."
+    }
+  ],
+
+  "qa": [
+    {
+      "q": "Un nouveau manifeste ?",
+      "a": "Il est peut-être <span class=\"amber\">trop tôt pour écrire des manifestes</span>, car le sol bouge encore — mais nous tenons à reconnaître les changements profonds que nous observons déjà dans toute l'industrie, surtout chez les pionniers."
+    },
+    {
+      "q": "Qu'est-ce que cela signifie pour les dirigeants ?",
+      "a": "Alors que le code est désormais automatisé et routinisé, l'artisanat de l'ingénierie produit connaît une réinvention majeure — rendue possible uniquement par des traits profondément humains : <span class=\"definition\">la quête de la perfection</span>, <span class=\"definition\">la créativité sans limites</span> et <span class=\"definition\">une co-création riche</span>. <strong>La tâche de chaque organisation et de chaque dirigeant est de concevoir des environnements qui <span class=\"definition\">élèvent l'intelligence humaine</span> à ces nouveaux sommets.</strong>"
+    },
+    {
+      "q": "Envie de contribuer ?",
+      "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Proposez des améliorations</a>. Partagez cette page. Mettez ces idées en œuvre dans votre organisation."
+    }
+  ],
+
+  "foot": {
+    "by": "créé et maintenu par",
+    "cta": "communauté et rencontres à munich"
+  }
+}
