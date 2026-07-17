@@ -489,7 +489,8 @@ body::before {
 }
 
 .section-head .tick {
-  color: var(--teal);
+  color: var(--muted);
+  font-weight: 400;
 }
 
 .section-head .lite {

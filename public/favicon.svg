@@ -1,7 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" fill="#0a0a0a"/>
-  <text x="8" y="46" font-family="monospace" font-size="40" font-weight="bold" fill="#d67757">&gt;</text>
-  <rect x="38" y="44" width="16" height="6" fill="#d67757">
-    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
-  </rect>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#0b1620"/>
+  <!-- faint grid -->
+  <g stroke="#89b4be" stroke-opacity="0.12" stroke-width="1">
+    <line x1="8" y1="3" x2="8" y2="29"/>
+    <line x1="16" y1="3" x2="16" y2="29"/>
+    <line x1="24" y1="3" x2="24" y2="29"/>
+    <line x1="3" y1="8" x2="29" y2="8"/>
+    <line x1="3" y1="16" x2="29" y2="16"/>
+    <line x1="3" y1="24" x2="29" y2="24"/>
+  </g>
+  <!-- dimmed grid dots -->
+  <g fill="#7ea0ac" fill-opacity="0.30">
+    <circle cx="8" cy="8" r="2.3"/>
+    <circle cx="16" cy="8" r="2.3"/>
+    <circle cx="8" cy="16" r="2.3"/>
+    <circle cx="24" cy="24" r="2.3"/>
+  </g>
+  <!-- rising teal diagonal (bottom-left → top-right) -->
+  <g fill="#3ddc9a">
+    <circle cx="8" cy="24" r="2.8"/>
+    <circle cx="16" cy="24" r="3"/>
+    <circle cx="16" cy="16" r="3.2"/>
+    <circle cx="24" cy="16" r="3.6"/>
+    <circle cx="24" cy="8" r="3.9" fill="#8ff0c4"/>
+  </g>
 </svg>
