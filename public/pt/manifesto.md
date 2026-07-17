@@ -11,8 +11,8 @@ Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficien
 ### 01. funcionalidades → sistemas (features → systems)
 Os engenheiros de produto deixam de entregar funcionalidades avulsas e passam a construir sistemas agênticos — ciclos que se aprimoram a si próprios e transformam a intenção em soluções que funcionam.
 
-### 02. controlo → guarda-corpos (gatekeeping → guardrails)
-Os engenheiros de produto deixam de inspecionar a qualidade a posteriori e passam a integrá-la no sistema, através de arneses agênticos bem concebidos.
+### 02. controlo → guardrails (gatekeeping → guardrails)
+Os engenheiros de produto deixam de validar a qualidade apenas ao final do processo e passam a incorporá-la diretamente ao sistema, por meio de guardrails e mecanismos agênticos bem projetados.
 
 ### 03. especialistas → artesãos (specialists → craftspeople)
 Os engenheiros de produto passam de especialistas estreitos, de linha de montagem, a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade em tempo real e a orientá-los para novos domínios e competências.
