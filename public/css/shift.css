@@ -453,6 +453,21 @@ body::before {
   color: var(--teal);
 }
 
+/* Prompt-style sub-question label introducing a closing thought. */
+.q-head {
+  font-family: var(--font-mono);
+  font-size: clamp(15px, 1.7vw, 20px);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: #eef3f5;
+  margin: clamp(40px, 6vw, 66px) 0 clamp(14px, 1.8vw, 20px);
+}
+
+.q-head .p {
+  color: var(--teal);
+  margin-right: 0.4em;
+}
+
 /* Section label, mono, matching the eyebrow */
 .label {
   font-family: var(--font-mono);
