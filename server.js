@@ -9,13 +9,12 @@ app.use(express.json());
 
 // Clean routes for sub-pages (before static so dirs aren't auto-redirected
 // to a trailing slash).
-app.get('/old', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'old', 'index.html'));
+app.get('/munich', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'munich', 'index.html'));
 });
 
-app.get('/new', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'new', 'index.html'));
-});
+// The manifesto used to live at /new; it's now the homepage.
+app.get('/new', (req, res) => res.redirect(301, '/'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 

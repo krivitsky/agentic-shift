@@ -207,6 +207,24 @@ body::before {
   color: var(--teal);
 }
 
+/* Hero → meetups link (bottom-right of the hero foot) */
+.hero-link {
+  font-family: var(--font-mono);
+  font-size: clamp(13px, 1.2vw, 15px);
+  letter-spacing: 0.02em;
+  color: #dbe6ec;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 11px 22px;
+  border: 1px solid rgba(137, 180, 190, 0.4);
+  border-radius: 999px;
+  transition: border-color 0.16s ease, color 0.16s ease, transform 0.16s ease;
+}
+
+.hero-link span { color: var(--amber); transition: transform 0.16s ease; display: inline-block; }
+.hero-link:hover { border-color: var(--teal); color: #fff; transform: translateY(-1px); }
+.hero-link:hover span { transform: translateX(3px); }
+
 /* Hero footnote (keyed to the * on "a manifesto"). Small print, bottom-left. */
 .footnote {
   font-family: var(--font-mono);
@@ -472,6 +490,11 @@ body::before {
 
 .section-head .tick {
   color: var(--teal);
+}
+
+.section-head .lite {
+  font-weight: 400;
+  color: var(--muted);
 }
 
 .section-head::after {
