@@ -664,9 +664,10 @@ body::before {
   font-size: 12px;
 }
 
+/* Clearly dimmer than the rest of the footer (which is ~#8395a1 / #c3d2da). */
 .foot-meta a {
-  color: rgba(131, 149, 161, 0.55);
-  border-bottom-color: rgba(61, 220, 154, 0.16);
+  color: #4e5860;
+  border-bottom-color: rgba(137, 180, 190, 0.12);
 }
 
 .foot-meta a:hover {
@@ -674,7 +675,7 @@ body::before {
 }
 
 .foot-meta .sep {
-  color: rgba(137, 180, 190, 0.22);
+  color: #333c42;
 }
 
 .foot a {
