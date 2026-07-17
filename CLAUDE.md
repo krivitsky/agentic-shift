@@ -30,7 +30,7 @@ engineering, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky and 
 ## Content & SEO
 - Manifesto copy lives in **three** places that must be kept in sync when edited: `public/index.html` (rendered page), `README.md` (top section), and `public/llms.txt` (machine-readable).
 - Full `<head>` meta on both pages (title, description, OG, Twitter, JSON-LD Organization). **Relative URLs only in the page `<head>`** — no absolute URLs, no `.eu`. OG images: `/` → `og-shift.png`, `/munich` → `event1-cover.jpg`.
-- **Crawler/LLM files** in `public/` (served at site root): `robots.txt`, `sitemap.xml`, `llms.txt`, `ai.txt`, `site.webmanifest`, `.well-known/security.txt`. These use **absolute `https://agentic-shift.com` URLs** (required by their specs — the relative-only rule is `<head>`-meta only). Pages carry `<link rel="alternate" type="text/markdown" href="/llms.txt">` + `<link rel="manifest">`.
+- **Crawler/LLM files** in `public/` (served at site root): `robots.txt`, `sitemap.xml`, `llms.txt`, `ai.txt`, `site.webmanifest`. These use **absolute `https://agentic-shift.com` URLs** (required by their specs — the relative-only rule is `<head>`-meta only). Pages carry `<link rel="alternate" type="text/markdown" href="/llms.txt">` + `<link rel="manifest">`.
 
 ## Analytics
 - Google Analytics 4, property `G-SJW53LEJGS` — standard inline gtag.js snippet at the end of `<head>` in **all three** HTML files (`public/index.html`, `public/munich/index.html`, `public/decks/*.html`). No build step, so a new page needs the snippet pasted in by hand.

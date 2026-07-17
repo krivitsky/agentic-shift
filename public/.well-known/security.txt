@@ -1,5 +1,0 @@
-Contact: mailto:alexey@krivitsky.com
-Contact: https://github.com/krivitsky/agentic-shift/issues
-Preferred-Languages: en
-Canonical: https://agentic-shift.com/.well-known/security.txt
-Expires: 2027-07-17T00:00:00.000Z
