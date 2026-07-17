@@ -64,6 +64,14 @@ body::before {
 /* ── Hero banner ─────────────────────────────────────────────────── */
 
 .hero {
+  /* Shared geometry so the dot-field and the background grid stay locked:
+     the grid cell === one dot pitch, both anchored to the padded top-right
+     corner. --gw is the on-screen width of the dot SVG (viewBox 306 wide =
+     9 column-pitches, rows step 28/34 of a column). */
+  --pad: clamp(22px, 4vw, 52px);
+  --col: 62px;                           /* fixed dot column pitch — dots look identical on every screen */
+  --row: calc(var(--col) * 28 / 34);     /* dot row pitch (dots sit 28/34 as far apart vertically) */
+  --gw: calc(var(--col) * 9);            /* dot SVG width (viewBox 306 = 9 column-pitches) */
   position: relative;
   overflow: hidden;
   margin: 24px auto;
@@ -73,14 +81,15 @@ body::before {
   background:
     radial-gradient(120% 90% at 78% 8%, rgba(28, 143, 99, 0.16) 0%, transparent 58%),
     linear-gradient(168deg, #0f2029 0%, #091420 46%, #04080c 100%);
-  min-height: min(78vh, 560px);
+  min-height: min(52vh, 400px);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: clamp(26px, 4vw, 52px);
+  justify-content: center;
+  padding: var(--pad);
 }
 
-/* Faint grid */
+/* Faint grid — cell size matches the dot pitch and the tile is anchored so a
+   line passes through the top-right dot (which sits at the padded corner). */
 .hero::before {
   content: "";
   position: absolute;
@@ -88,29 +97,14 @@ body::before {
   background-image:
     linear-gradient(var(--line) 1px, transparent 1px),
     linear-gradient(90deg, var(--line) 1px, transparent 1px);
-  background-size: 68px 68px;
-  /* Tile from the top-right so a right-anchored dot-field stays grid-locked
-     at any hero width. */
-  background-position: 100% 0;
+  background-size: var(--col) var(--row);
+  background-position: right var(--pad) top var(--pad);
   opacity: 0.35;
   mask-image: radial-gradient(120% 100% at 60% 30%, #000 20%, transparent 92%);
   pointer-events: none;
 }
 
-/* Diagonal light streak, top-right → bottom-left */
-.streak {
-  position: absolute;
-  top: -30%;
-  left: 62%;
-  width: 2px;
-  height: 170%;
-  transform: rotate(9deg);
-  background: linear-gradient(to bottom, transparent, rgba(61, 220, 154, 0.75) 40%, rgba(61, 220, 154, 0.22) 76%, transparent);
-  filter: blur(0.3px);
-  box-shadow: 0 0 22px 2px rgba(61, 220, 154, 0.14);
-  pointer-events: none;
-}
-
+/* Content sits above the absolute grid + dot layers. */
 .hero > * {
   position: relative;
   z-index: 1;
@@ -323,9 +317,12 @@ body::before {
    caps at 1440px, so a field that big always dropped onto the headline.) */
 .graph {
   position: absolute;
-  top: 24px;
-  right: 24px;
-  width: min(42vw, 560px);
+  /* Anchored to the padded top-right corner (the same origin the grid tiles
+     from), and sized to --gw so its dot pitch === the grid cell. The top-right
+     dot therefore lands exactly on a grid intersection at every width. */
+  top: 0;
+  right: 0;
+  width: var(--gw);
   height: auto;
   overflow: visible;
   pointer-events: none;
@@ -428,7 +425,7 @@ body::before {
 .manifesto {
   max-width: 1440px;
   margin: 0 auto;
-  padding: clamp(48px, 8vw, 96px) clamp(26px, 4vw, 52px) clamp(30px, 4vw, 48px);
+  padding: clamp(24px, 3vw, 44px) clamp(26px, 4vw, 52px) clamp(30px, 4vw, 48px);
 }
 
 .lede {
@@ -603,14 +600,32 @@ body::before {
 .foot {
   border-top: 1px solid rgba(137, 180, 190, 0.12);
   margin-top: clamp(40px, 6vw, 72px);
-  padding: 30px 0 60px;
+  padding: 28px 0 56px;
   font-family: var(--font-mono);
   font-size: 13px;
   color: var(--muted);
   display: flex;
-  gap: 10px 22px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+}
+
+/* Identity items on one line, dot-separated; wraps on narrow screens. */
+.foot-line {
+  display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
+  gap: 6px 12px;
+}
+
+.foot .sep {
+  color: rgba(137, 180, 190, 0.4);
+}
+
+/* The community/meetups link sits below the identity line, set a little apart. */
+.foot .foot-cta {
+  margin-top: 7px;
+  color: #dbe6ec;
 }
 
 .foot a {
@@ -623,25 +638,24 @@ body::before {
   color: var(--teal);
 }
 
-.foot .spacer {
-  flex: 1;
-}
-
 /* ── Small screens ───────────────────────────────────────────────── */
-
-/* On phones the hero is cramped and there's no room beside the headline. */
-@media (max-width: 720px) {
-  .graph {
-    display: none;
-  }
-}
 
 @media (max-width: 760px) {
   .hero {
     min-height: 0;
     margin: 12px;
+    /* Smaller dot pitch so the field sits to the RIGHT of the title on
+       narrow screens instead of running behind it. */
+    --col: 34px;
     border-radius: 14px;
   }
+
+  /* Keep the headline/subtitle on the left (let the title wrap) so the
+     dot-field stays clearly to their right and the text remains readable. */
+  .hero-mid {
+    max-width: 60%;
+  }
+
 
   /* Tighten the gap between the hero and the first paragraph on phones. */
   .manifesto {
