@@ -28,7 +28,7 @@ engineering, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky and 
 - Ink `#05090d`, teal `#3ddc9a`, amber `#e8a33d`; Poppins headings + JetBrains Mono labels; rounded bordered cards; `>`-prefixed mono section labels. `/munich` layers on `public/css/meetups.css`.
 
 ## Content & SEO
-- Manifesto copy is authored **inline in `public/index.html`** — no separate content file.
+- Manifesto copy is authored **inline in `public/index.html`**, and mirrored as prose in the top section of `README.md`. **When editing the manifesto text, update both — they must stay in sync.**
 - Full `<head>` meta on both pages (title, description, OG, Twitter, JSON-LD Organization). **Relative URLs only — no absolute URLs, no `.eu`.** OG images: `/` → `og-shift.png`, `/munich` → `event1-cover.jpg`.
 
 ## Luma (for /munich)
