@@ -1,0 +1,78 @@
+{
+  "lang": "pt",
+  "name": "Português",
+  "dir": "/pt/",
+
+  "meta": {
+    "title": "Agentic Shift — Engenharia de produto agêntica profissional",
+    "description": "A mudança de toda a indústria rumo à engenharia de produto agêntica está a produzir organizações radicalmente novas. Cinco mudanças de design organizacional que separam a engenharia de produto agêntica profissional da mediocridade e do marketing.",
+    "keywords": "agentic shift, engenharia de produto agêntica, agentic product engineering, agentes de IA, design organizacional, engenharia de produto, Alexey Krivitsky, Martin Westphal",
+    "ogTitle": "Agentic Shift — Engenharia de produto agêntica profissional",
+    "ogDescription": "Cinco mudanças de design organizacional que separam a engenharia de produto agêntica profissional da mediocridade e do marketing.",
+    "schemaDescription": "A mudança de toda a indústria rumo à engenharia de produto agêntica está a produzir organizações radicalmente novas — definidas por cinco mudanças de design organizacional.",
+    "llmsTitle": "Agentic Shift — versão legível por máquina (LLM)"
+  },
+
+  "hero": {
+    "headlineLead": "Agentic",
+    "headlineGlitch": "Shift",
+    "subtitle": "rumo a uma engenharia de produto agêntica profissional"
+  },
+
+  "lede": [
+    "A mudança de toda a indústria rumo à <span class=\"definition\">engenharia de produto agêntica</span> está a produzir organizações radicalmente novas. A maioria dos líderes ainda não percebeu quão profundo isto é. Quem percebeu já está à frente. E <em>a distância entre os melhores e os restantes aumenta a cada dia.</em>",
+    "Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficiente para distinguir a mudança real da <span class=\"amber\">mediocridade e do marketing</span>, definimos a <span class=\"definition\">engenharia de produto agêntica <strong>profissional</strong></span> como um conjunto de mudanças visíveis no design organizacional: no modo como o trabalho de engenharia de produto é realmente feito."
+  ],
+
+  "sectionHead": "<span class=\"lite\">Rumo a</span> uma engenharia de produto agêntica profissional <span class=\"lite\">ao</span> nível da organização",
+
+  "qaHead": "O que se segue",
+
+  "shifts": [
+    {
+      "from": "funcionalidades",
+      "to": "sistemas",
+      "note": "Os engenheiros de produto deixam de entregar funcionalidades avulsas e passam a construir sistemas agênticos — ciclos que se aprimoram a si próprios e transformam a intenção em soluções que funcionam."
+    },
+    {
+      "from": "controlo",
+      "to": "guarda-corpos",
+      "note": "Os engenheiros de produto deixam de inspecionar a qualidade a posteriori e passam a integrá-la no sistema, através de arneses agênticos bem concebidos."
+    },
+    {
+      "from": "especialistas",
+      "to": "artesãos",
+      "note": "Os engenheiros de produto passam de especialistas estreitos, de linha de montagem, a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade em tempo real e a orientá-los para novos domínios e competências."
+    },
+    {
+      "from": "intermediários",
+      "to": "utilizadores",
+      "note": "Acabou o telefone estragado através de gestores intermediários, acabou o ficar fechado na cave — os engenheiros de produto passam a distância zero dos clientes e utilizadores, para se colocarem no lugar deles, analisar e sintetizar em primeira mão."
+    },
+    {
+      "from": "produção",
+      "to": "resultados",
+      "note": "Os engenheiros de produto deixam de ser medidos pela produção e passam a assumir e a conduzir os resultados eles próprios — detetando desvios e corrigindo o rumo continuamente."
+    }
+  ],
+
+  "qa": [
+    {
+      "q": "Um novo manifesto?",
+      "a": "Talvez seja <span class=\"amber\">cedo demais para escrever manifestos</span>, pois o terreno ainda se move — mas queremos reconhecer as fortes mudanças que já observamos em toda a indústria, sobretudo entre os pioneiros."
+    },
+    {
+      "q": "O que significa para os líderes de organização?",
+      "a": "Enquanto a programação é agora automatizada e rotinizada, o ofício da engenharia de produto vive uma grande reinvenção — possível apenas graças a traços profundamente humanos: <span class=\"definition\">o desejo de perfeição</span>, <span class=\"definition\">a criatividade sem limites</span> e <span class=\"definition\">uma rica cocriação</span>. <strong>A tarefa de cada organização e de cada líder é conceber ambientes que <span class=\"definition\">elevem a inteligência humana</span> a estes novos patamares.</strong>"
+    },
+    {
+      "q": "Quer contribuir?",
+      "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Proponha melhorias</a>. Partilhe esta página. Ponha estas ideias a trabalhar na sua organização."
+    }
+  ],
+
+  "foot": {
+    "by": "criado e mantido por",
+    "cta": "comunidade e encontros em munique"
+  }
+}

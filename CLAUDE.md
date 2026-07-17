@@ -22,7 +22,7 @@ engineering, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky and 
 
 ## Routes
 - `/` → manifesto homepage (`public/index.html`): "Agentic Shift" hero + five org-design shifts. Links to `/munich`.
-- `/de/ /fr/ /es/ /uk/ /ja/` → translated manifesto pages (generated; see §Manifesto i18n). Language switcher at the hero bottom-left; hreflang + sitemap wired.
+- `/de/ /fr/ /es/ /pt/ /uk/ /zh/ /ja/` → translated manifesto pages (generated; see §Manifesto i18n). Language switcher at the hero bottom-left; hreflang + sitemap wired.
 - `/munich` → Munich meetups (`public/munich/index.html`): next meetup, Luma calendar embed, organizers, community, past events.
 - `/decks/*` → talk slides linked from `/munich` (Martin's PDF, Nikita's HTML deck).
 
@@ -30,16 +30,15 @@ engineering, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky and 
 - Ink `#05090d`, teal `#3ddc9a`, amber `#e8a33d`; Poppins headings + JetBrains Mono labels; rounded bordered cards; `>`-prefixed mono section labels. `/munich` layers on `public/css/meetups.css`.
 
 ## Content & SEO
-- **Manifesto copy is edited in `manifesto/content/*.json`, never in the HTML** (see §Manifesto i18n). `en.json` is canonical. `README.md` (top section) and `public/llms.txt` still carry hand-written English copies that must be re-synced by hand if the manifesto wording changes — they are deliberately *not* generated (they hold extra material with no JSON source).
+- **Manifesto copy is edited in `manifesto/content/*.json`, never in the HTML** (see §Manifesto i18n). `en.json` is canonical. The manifesto sections of `README.md` and `public/llms.txt` are **generated from `en.json`** between `<!-- MANIFESTO:START -->` / `END` markers — so the English copy has one source. Everything *outside* those markers (llms.txt summary/Meetups/Links, README Tech Details) stays hand-written.
 - Full `<head>` meta on every page (title, description, OG, Twitter, JSON-LD Organization). **Relative URLs only in the page `<head>`** — no absolute URLs, no `.eu` — **except `hreflang` alternates**, which the spec requires to be absolute (same carve-out as `sitemap.xml`/`robots.txt`). OG images: manifesto pages → `og-shift.png`, `/munich` → `event1-cover.jpg`.
 - **Crawler/LLM files** in `public/` (served at site root): `robots.txt`, `sitemap.xml`, `llms.txt`, `ai.txt`, `site.webmanifest`. These use **absolute `https://agentic-shift.com` URLs** (required by their specs — the relative-only rule is `<head>`-meta only). Pages carry `<link rel="alternate" type="text/markdown" href="/llms.txt">` + `<link rel="manifest">`.
 
 ## Manifesto i18n
-- **Pipeline lives in `manifesto/`:** `content/*.json` (one per language, content only), `template.html` (markup, once), `build.js` (zero-dep Node generator). Languages: en (canonical) · de · fr · es · uk · ja.
-- **Edit content → `node manifesto/build.js` → generates** `public/index.html` + `public/<lang>/index.html`. Every generated file carries a `GENERATED … do not edit` banner. **Never hand-edit `public/**/index.html`** — the next build overwrites it.
+- **Pipeline lives in `manifesto/`:** `content/*.json` (one per language, content only), `template.html` (markup, once), `build.js` (zero-dep Node generator). Languages: en (canonical) · de · fr · es · pt · uk · zh · ja.
+- **Edit content → `node manifesto/build.js` → generates** `public/index.html`, `public/<lang>/index.html`, `public/sitemap.xml`, and the `MANIFESTO`-marked regions of `README.md` + `public/llms.txt`. Generated files carry a `GENERATED … do not edit` banner (or `MANIFESTO` markers). **Never hand-edit them** — the next build overwrites.
 - Each translated page shows the localized `from → to` pair with the **canonical English pair beneath it**, sourced from `en.json` at build time (can't drift). English page shows no gloss.
-- **Adding a language:** add `content/<lang>.json`, then its entry in `LANGS`/`OG_LOCALE`/`LANGBAR_LABEL` in `build.js`, run the build, and add the `<url>` + hreflang alternates to `public/sitemap.xml`. A language with no JSON is simply absent (not half-rendered).
-- `build.js` does **not** touch `llms.txt` or `README.md` — those stay hand-written (see Content & SEO).
+- **Adding a language:** add `content/<lang>.json`, then its entry in `LANGS`/`OG_LOCALE`/`LANGBAR_LABEL` in `build.js`, and run the build — switcher, hreflang, and sitemap update automatically. A language with no JSON is simply absent (not half-rendered).
 
 ## Analytics
 - Google Analytics 4, property `G-SJW53LEJGS`, inline gtag.js snippet at the end of `<head>`. Manifesto pages get it from `manifesto/template.html` (so every language inherits it automatically); `public/munich/index.html` and `public/decks/*.html` are standalone and have the snippet pasted in by hand.

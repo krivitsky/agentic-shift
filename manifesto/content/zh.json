@@ -1,0 +1,78 @@
+{
+  "lang": "zh",
+  "name": "中文",
+  "dir": "/zh/",
+
+  "meta": {
+    "title": "Agentic Shift — 专业的智能体产品工程",
+    "description": "整个行业向智能体产品工程的转变，正在催生根本性全新的组织。五项组织设计转变，将专业的智能体产品工程与平庸和营销区分开来。",
+    "keywords": "agentic shift, 智能体产品工程, agentic product engineering, AI 智能体, 组织设计, 产品工程, Alexey Krivitsky, Martin Westphal",
+    "ogTitle": "Agentic Shift — 专业的智能体产品工程",
+    "ogDescription": "五项组织设计转变，将专业的智能体产品工程与平庸和营销区分开来。",
+    "schemaDescription": "整个行业向智能体产品工程的转变，正在催生根本性全新的组织——由五项组织设计转变所定义。",
+    "llmsTitle": "Agentic Shift — 机器可读（LLM）版本"
+  },
+
+  "hero": {
+    "headlineLead": "Agentic",
+    "headlineGlitch": "Shift",
+    "subtitle": "迈向专业的智能体产品工程"
+  },
+
+  "lede": [
+    "整个行业向<span class=\"definition\">智能体产品工程</span>的转变，正在催生根本性全新的组织。大多数领导者尚未领会这一转变有多深。领会者已然领先。而且<em>最优者与其余者之间的差距，正日益扩大。</em>",
+    "为帮助这些理念传播，并把标杆立得足够高，以便将真正的变革与<span class=\"amber\">平庸和营销</span>区分开来，我们将<span class=\"definition\"><strong>专业的</strong>智能体产品工程</span>定义为一组显而易见的组织设计转变：即产品工程工作究竟如何完成。"
+  ],
+
+  "sectionHead": "在组织层面<span class=\"lite\">迈向</span>专业的智能体产品工程",
+
+  "qaHead": "接下来",
+
+  "shifts": [
+    {
+      "from": "功能",
+      "to": "系统",
+      "note": "产品工程师不再交付零散的功能，而是转向构建智能体系统——将意图转化为可用方案的自我改进循环。"
+    },
+    {
+      "from": "把关",
+      "to": "护栏",
+      "note": "产品工程师不再事后检查质量问题，而是通过精心设计的智能体框架，将质量构建进系统之中。"
+    },
+    {
+      "from": "专才",
+      "to": "匠人",
+      "note": "产品工程师从狭窄的流水线专才，转变为端到端的匠人——AI 实时填补专业空白，并引导工程师进入新的领域与技能。"
+    },
+    {
+      "from": "代理人",
+      "to": "用户",
+      "note": "不再有经由管理者代理人的传话游戏，不再蜷缩于地下室——产品工程师转向与客户和用户零距离，亲身去共情、分析与综合。"
+    },
+    {
+      "from": "产出",
+      "to": "成果",
+      "note": "产品工程师不再以产出被衡量，而是亲自承担并推动成果——持续察觉偏移并修正航向。"
+    }
+  ],
+
+  "qa": [
+    {
+      "q": "一份新的宣言？",
+      "a": "或许<span class=\"amber\">现在写宣言还为时过早</span>，因为地面仍在移动——但我们仍愿承认，我们已在整个行业观察到的深刻变化，尤以先行者身上最为显著。"
+    },
+    {
+      "q": "这对组织领导者意味着什么？",
+      "a": "当编码正被自动化、常规化之际，产品工程这门手艺正经历一场重大的再造——这唯有凭借鲜明的人类特质方能实现：<span class=\"definition\">对完美的渴求</span>、<span class=\"definition\">无限的创造力</span>，以及<span class=\"definition\">丰富的共创</span>。<strong>每一个组织、每一位领导者的任务，是设计出能将<span class=\"definition\">人类智能</span>提升到这些新高度的环境。</strong>"
+    },
+    {
+      "q": "想要参与贡献？",
+      "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">提出改进建议</a>。分享此页。把这些理念在你的组织中付诸实践。"
+    }
+  ],
+
+  "foot": {
+    "by": "创建与维护：",
+    "cta": "慕尼黑的社区与聚会"
+  }
+}
