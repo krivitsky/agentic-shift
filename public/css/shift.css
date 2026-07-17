@@ -664,17 +664,18 @@ body::before {
   font-size: 12px;
 }
 
-/* Clearly dimmer than the rest of the footer (which is ~#8395a1 / #c3d2da). */
-.foot-meta a {
+/* Clearly dimmer than the rest of the footer (which is ~#8395a1 / #c3d2da).
+   Uses `.foot .foot-meta a` specificity so it wins over the later `.foot a`. */
+.foot .foot-meta a {
   color: #4e5860;
   border-bottom-color: rgba(137, 180, 190, 0.12);
 }
 
-.foot-meta a:hover {
+.foot .foot-meta a:hover {
   color: var(--teal);
 }
 
-.foot-meta .sep {
+.foot .foot-meta .sep {
   color: #333c42;
 }
 
