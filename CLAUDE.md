@@ -16,9 +16,15 @@ engineering, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky and 
 
 ## Deploy
 - Vercel, auto-deploys on push to `main`. Commit + push only when asked.
-- **When the user says "commit"/"push": commit, push, then poll and report the Vercel deploy status:**
-  `gh api repos/krivitsky/agentic-shift/commits/<sha>/status --jq '.state, .statuses[0].target_url'`
-  → `pending` until done, then `success`/`failure`. Report final state + the `target_url`.
+- **When the user says "commit"/"push": commit, push, then run the full deploy check below and report it.** Don't stop at the first status line — report **all** statuses and check-runs, then confirm the change is actually live.
+  1. **Poll combined status** until terminal (`pending` → `success`/`failure`/`error`):
+     `gh api repos/krivitsky/agentic-shift/commits/<sha>/status --jq '.state, (.statuses[] | "  \(.state)  \(.context)  \(.target_url)")'`
+     Report the combined `state` **and every** status context (there's usually one, `Vercel`, but list all — a second context can be red while the first is green).
+  2. **List check-runs** (GitHub Actions, if any):
+     `gh api repos/krivitsky/agentic-shift/commits/<sha>/check-runs --jq '.check_runs[] | "  \(.name): \(.status)/\(.conclusion)"'`
+     Empty output = no Actions configured (currently the case) — say so rather than silently skipping.
+  3. **Verify live, don't trust green.** Vercel `success` means the build finished, not that the CDN serves it. `curl` the affected public URL(s) and confirm a `200` **and** an expected content marker (e.g. the new string/CSS value). Only after that is the deploy "done".
+- Report the final combined state, each status/check line, the Vercel `target_url`, and the live-verify result.
 
 ## Routes
 - `/` → manifesto homepage (`public/index.html`): "Agentic Shift" hero + five org-design shifts. Links to `/munich`.
