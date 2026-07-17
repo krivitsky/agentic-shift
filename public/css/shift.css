@@ -219,9 +219,11 @@ body::before {
 
 /* ── Glitched word ───────────────────────────────────────────────── */
 /* An interlace smear, not a torn-band glitch: copies of the word are
-   sliced into thin VERTICAL stripes and offset sideways. The stripe mask
-   scrolls, so the shift is always in motion — the word never settles.
-   All offsets/widths are in `em` so it tracks the clamped font-size.  */
+   sliced into thin VERTICAL stripes and offset sideways. The echoes slide
+   in from a wide offset on load and SETTLE — the shift happens once, then
+   the word rests as a static double-exposure (no perpetual motion, which
+   read as a font glitch). All offsets/widths in `em` so they track the
+   clamped font-size. */
 
 .glitch {
   position: relative;
@@ -254,40 +256,40 @@ body::before {
   background-repeat: repeat;
 }
 
-/* Light echo — pushed right, densest at the trailing edge of the word. */
+/* Light echo — settles pushed right, densest at the trailing edge. */
 .glitch::before {
   opacity: 0.9;
   transform: translateX(0.055em);
   background-image: repeating-linear-gradient(90deg, #b6f0d5 0 0.03em, transparent 0.03em 0.075em);
   -webkit-mask-image: linear-gradient(90deg, transparent 18%, #000 82%);
   mask-image: linear-gradient(90deg, transparent 18%, #000 82%);
-  animation: smear-right 2.6s linear infinite;
+  animation: settle-right 0.9s cubic-bezier(0.2, 0.75, 0.2, 1) 0.15s both;
 }
 
-/* Dark echo — pushed left and slightly down, concentrated on the leading
-   letters. Reads as the depth/shadow edge in the reference. */
+/* Dark echo — settles pushed left and slightly down, on the leading letters.
+   Reads as the depth/shadow edge in the reference. */
 .glitch::after {
   opacity: 0.85;
   transform: translate(-0.04em, 0.018em);
   background-image: repeating-linear-gradient(90deg, #2e8060 0 0.022em, transparent 0.022em 0.1em);
   -webkit-mask-image: linear-gradient(90deg, #000 12%, transparent 78%);
   mask-image: linear-gradient(90deg, #000 12%, transparent 78%);
-  animation: smear-left 3.7s linear infinite;
+  animation: settle-left 1.1s cubic-bezier(0.2, 0.75, 0.2, 1) 0.05s both;
 }
 
-/* One full stripe period per cycle, so the loop seam is invisible. */
-@keyframes smear-right {
-  from { background-position: 0 0; }
-  to   { background-position: 0.075em 0; }
+/* The shift happens ONCE: each echo slides in from a wide offset and comes
+   to rest at its final (static) position. No looping. */
+@keyframes settle-right {
+  from { transform: translateX(0.5em); opacity: 0; }
+  to   { transform: translateX(0.055em); opacity: 0.9; }
 }
 
-@keyframes smear-left {
-  from { background-position: 0 0; }
-  to   { background-position: -0.1em 0; }
+@keyframes settle-left {
+  from { transform: translate(-0.5em, 0.018em); opacity: 0; }
+  to   { transform: translate(-0.04em, 0.018em); opacity: 0.85; }
 }
 
-/* The word itself never moves — the glyphs stay anchored and only the
-   stripes travel across them. Do not animate transform on .glitch. */
+/* The base glyphs stay anchored — only the echoes move, once, on load. */
 
 /* ── Node graph (upper right) ────────────────────────────────────── */
 
@@ -302,7 +304,7 @@ body::before {
   position: absolute;
   top: 24px;
   right: 24px;
-  width: min(30vw, 380px);
+  width: min(42vw, 560px);
   height: auto;
   overflow: visible;
   pointer-events: none;
@@ -456,10 +458,11 @@ body::before {
 /* Section thesis — "product engineers shift:". This is the argument of the
    page, so it reads as a real heading, not a tiny mono label. */
 .section-head {
-  font-family: var(--font-mono);
-  font-size: clamp(21px, 3vw, 36px);
-  font-weight: 500;
-  letter-spacing: -0.01em;
+  font-family: var(--font-sans);
+  font-size: clamp(22px, 3.2vw, 40px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
   color: #eef3f5;
   display: flex;
   align-items: center;

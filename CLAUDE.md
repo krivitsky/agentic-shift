@@ -1,9 +1,9 @@
-This is the homepage for **agentic-shift.eu** initiatives.
+This is the homepage for **agentic-shift.com** initiatives.
 Run by Alexey Krivitsky and Martin Westphal in Munich — monthly meetups now, with plans for trainings, conferences, and consulting.
 Theme: agentic engineering + organizational impact. The site looks like a terminal window — for fun.
 
 ## Domain
-- Production: https://agentic-shift.eu/
+- Production: https://agentic-shift.com/
 - GitHub: git@github.com:krivitsky/agentic-shift.git (branch: main)
 
 ## Stack
