@@ -70,7 +70,7 @@ body::before {
    otherwise force position:relative on this child and break the placement. */
 .hero .langbar {
   position: absolute;
-  bottom: var(--pad);
+  bottom: clamp(14px, 2vw, 24px);
   left: var(--pad);
   z-index: 2;
   display: flex;
