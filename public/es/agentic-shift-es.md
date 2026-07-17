@@ -6,7 +6,7 @@ El cambio en toda la industria hacia la **ingeniería de producto agéntica** es
 
 Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante alto como para distinguir el cambio real de la *mediocridad y el marketing*, definimos la **ingeniería de producto agéntica profesional** como un conjunto de cambios visibles en el diseño organizativo: en cómo se hace realmente el trabajo de ingeniería de producto.
 
-## Hacia una ingeniería de producto agéntica profesional a nivel de organización
+## Da el paso hacia una ingeniería de producto agéntica profesional a nivel de organización
 
 ### 01. funciones → sistemas (features → systems)
 Los ingenieros de producto dejan de entregar funciones sueltas y pasan a construir sistemas agénticos — bucles que se mejoran a sí mismos y convierten la intención en soluciones que funcionan.

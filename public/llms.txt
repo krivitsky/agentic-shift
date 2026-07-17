@@ -11,7 +11,7 @@ The industry-wide shift toward agentic product engineering is producing radicall
 
 To help these ideas spread, and to set a bar high enough to tell real change from mediocrity and marketing, we're defining the professional agentic product engineering as a set of noticeable org-design shifts in how product engineering work gets done.
 
-### Towards professional agentic product engineering at org-level
+### Shift towards professional agentic product engineering at org-level
 
 1. features → systems — Product engineers stop shipping one-off features and shift to building agentic systems — self-improving loops that turn intent into working solutions.
 2. gatekeeping → guardrails — Product engineers stop inspecting for quality issues and shift to building quality into the system through well-engineered agentic harnesses.
@@ -33,7 +33,7 @@ Der branchenweite Wandel hin zu agentic product engineering bringt radikal neue 
 
 Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu legen, um echten Wandel von Mittelmaß und Marketing zu unterscheiden — definieren wir professionelles agentic product engineering als eine Reihe deutlich sichtbarer Verschiebungen im Org-Design: darin, wie Produktentwicklung tatsächlich geschieht.
 
-### Hin zu professionellem agentic product engineering auf Org-Ebene
+### Vollzieh den Wandel hin zu professionellem agentic product engineering auf Org-Ebene
 
 1. Features → Systeme (features → systems) — Product Engineers liefern nicht länger einzelne Features aus, sondern bauen agentische Systeme — sich selbst verbessernde Loops, die Absicht in funktionierende Lösungen verwandeln.
 2. Kontrolle → Leitplanken (gatekeeping → guardrails) — Product Engineers prüfen Qualität nicht länger im Nachhinein, sondern bauen sie über gut konstruierte agentische Harnesses direkt ins System ein.
@@ -55,7 +55,7 @@ De sectorbrede verschuiving naar agentic product engineering brengt radicaal nie
 
 Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om echte verandering te onderscheiden van middelmaat en marketing, definiëren we professionele agentic product engineering als een reeks zichtbare verschuivingen in organisatieontwerp: in hoe het werk van product engineering daadwerkelijk gebeurt.
 
-### Naar professionele agentic product engineering op organisatieniveau
+### Maak de verschuiving naar professionele agentic product engineering op organisatieniveau
 
 1. features → systemen (features → systems) — Product engineers leveren niet langer losse features, maar bouwen agentic systemen — zelfverbeterende loops die intentie omzetten in werkende oplossingen.
 2. poortwachten → vangrails (gatekeeping → guardrails) — Product engineers inspecteren kwaliteit niet langer achteraf, maar bouwen die in het systeem in, via goed ontworpen agentic harnassen.
@@ -77,7 +77,7 @@ Le basculement de toute l'industrie vers l'ingénierie produit agentique fait é
 
 Pour aider ces idées à se répandre, et pour placer la barre assez haut pour distinguer le vrai changement de la médiocrité et du marketing, nous définissons l'ingénierie produit agentique professionnelle comme un ensemble de basculements visibles dans le design organisationnel : dans la façon dont le travail d'ingénierie produit se fait réellement.
 
-### Vers une ingénierie produit agentique professionnelle à l'échelle de l'organisation
+### Basculez vers une ingénierie produit agentique professionnelle à l'échelle de l'organisation
 
 1. fonctionnalités → systèmes (features → systems) — Les ingénieurs produit cessent de livrer des fonctionnalités isolées et se tournent vers la construction de systèmes agentiques — des boucles qui s'améliorent d'elles-mêmes et transforment l'intention en solutions qui fonctionnent.
 2. contrôle → garde-fous (gatekeeping → guardrails) — Les ingénieurs produit cessent d'inspecter la qualité après coup et l'intègrent directement dans le système, grâce à des harnais agentiques bien conçus.
@@ -99,7 +99,7 @@ Lo spostamento dell'intero settore verso l'ingegneria di prodotto agentica sta p
 
 Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla mediocrità e dal marketing, definiamo l'ingegneria di prodotto agentica professionale come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto.
 
-### Verso un'ingegneria di prodotto agentica professionale a livello di organizzazione
+### Compi lo spostamento verso un'ingegneria di prodotto agentica professionale a livello di organizzazione
 
 1. funzionalità → sistemi (features → systems) — Gli ingegneri di prodotto smettono di consegnare funzionalità isolate e passano a costruire sistemi agentici — cicli che si migliorano da soli e trasformano l'intento in soluzioni funzionanti.
 2. controllo → guardrail (gatekeeping → guardrails) — Gli ingegneri di prodotto smettono di ispezionare la qualità a posteriori e la integrano nel sistema, attraverso imbracature agentiche ben progettate.
@@ -121,7 +121,7 @@ El cambio en toda la industria hacia la ingeniería de producto agéntica está 
 
 Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante alto como para distinguir el cambio real de la mediocridad y el marketing, definimos la ingeniería de producto agéntica profesional como un conjunto de cambios visibles en el diseño organizativo: en cómo se hace realmente el trabajo de ingeniería de producto.
 
-### Hacia una ingeniería de producto agéntica profesional a nivel de organización
+### Da el paso hacia una ingeniería de producto agéntica profesional a nivel de organización
 
 1. funciones → sistemas (features → systems) — Los ingenieros de producto dejan de entregar funciones sueltas y pasan a construir sistemas agénticos — bucles que se mejoran a sí mismos y convierten la intención en soluciones que funcionan.
 2. control → guardarraíles (gatekeeping → guardrails) — Los ingenieros de producto dejan de inspeccionar la calidad a posteriori y pasan a integrarla en el sistema mediante arneses agénticos bien diseñados.
@@ -143,7 +143,7 @@ A mudança de toda a indústria rumo à engenharia de produto agêntica está a 
 
 Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficiente para distinguir a mudança real da mediocridade e do marketing, definimos a engenharia de produto agêntica profissional como um conjunto de mudanças visíveis no design organizacional: no modo como o trabalho de engenharia de produto é realmente feito.
 
-### Rumo a uma engenharia de produto agêntica profissional ao nível da organização
+### Faça a mudança rumo a uma engenharia de produto agêntica profissional ao nível da organização
 
 1. funcionalidades → sistemas (features → systems) — Os engenheiros de produto deixam de entregar funcionalidades avulsas e passam a construir sistemas agênticos — ciclos que se aprimoram a si próprios e transformam a intenção em soluções que funcionam.
 2. controlo → guardrails (gatekeeping → guardrails) — Os engenheiros de produto deixam de validar a qualidade apenas ao final do processo e passam a incorporá-la diretamente ao sistema, por meio de guardrails e mecanismos agênticos bem projetados.
@@ -165,7 +165,7 @@ Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficien
 
 Щоб допомогти цим ідеям поширюватися — і щоб задати планку, достатньо високу, аби відрізнити справжні зміни від посередності та маркетингу — ми визначаємо професійну агентну продуктову інженерію як набір помітних зрушень в організаційному дизайні: у тому, як насправді відбувається продуктова інженерна робота.
 
-### До професійної агентної продуктової інженерії на рівні організації
+### Здійсніть перехід до професійної агентної продуктової інженерії на рівні організації
 
 1. функції → системи (features → systems) — Продуктові інженери перестають постачати окремі функції й переходять до побудови агентних систем — самовдосконалюваних циклів, що перетворюють намір на робочі рішення.
 2. контроль → запобіжники (gatekeeping → guardrails) — Продуктові інженери перестають перевіряти якість постфактум і вбудовують її в систему через добре сконструйовані агентні гарнеси.
@@ -187,7 +187,7 @@ Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficien
 
 Чтобы помочь этим идеям распространяться — и задать планку достаточно высокую, чтобы отличить настоящие перемены от посредственности и маркетинга — мы определяем профессиональную агентную продуктовую инженерию как набор заметных сдвигов в организационном дизайне: в том, как на самом деле выполняется продуктовая инженерная работа.
 
-### К профессиональной агентной продуктовой инженерии на уровне организации
+### Совершите переход к профессиональной агентной продуктовой инженерии на уровне организации
 
 1. функции → системы (features → systems) — Продуктовые инженеры перестают выпускать отдельные функции и переходят к построению агентных систем — самосовершенствующихся циклов, превращающих замысел в работающие решения.
 2. контроль → ограждения (gatekeeping → guardrails) — Продуктовые инженеры перестают проверять качество постфактум и встраивают его в систему через хорошо спроектированную агентную оснастку.
@@ -209,7 +209,7 @@ Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficien
 
 为帮助这些理念传播，并把标杆立得足够高，以便将真正的变革与平庸和营销区分开来，我们将专业的智能体产品工程定义为一组显而易见的组织设计转变：即产品工程工作究竟如何完成。
 
-### 在组织层面迈向专业的智能体产品工程
+### 转向组织层面的专业的智能体产品工程
 
 1. 功能 → 系统 (features → systems) — 产品工程师不再交付零散的功能，而是转向构建智能体系统——将意图转化为可用方案的自我改进循环。
 2. 把关 → 护栏 (gatekeeping → guardrails) — 产品工程师不再事后检查质量问题，而是通过精心设计的智能体框架，将质量构建进系统之中。
@@ -231,7 +231,7 @@ Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficien
 
 こうした考えの普及を助け、本物の変化を凡庸さやマーケティングと見分けられるだけの高い基準を設けるために、私たちはプロフェッショナルなエージェンティック・プロダクトエンジニアリングを、プロダクトエンジニアリングの仕事の進め方における、目に見える一連の組織デザインの転換として定義します。
 
-### 組織レベルでのプロフェッショナルなエージェンティック・プロダクトエンジニアリングへ
+### 組織レベルでプロフェッショナルなエージェンティック・プロダクトエンジニアリングへ移行しよう
 
 1. 機能 → システム (features → systems) — プロダクトエンジニアは単発の機能を出荷することをやめ、エージェンティックなシステム——意図を動くソリューションへと変える自己改善型のループ——の構築へと移行します。
 2. 門番 → ガードレール (gatekeeping → guardrails) — プロダクトエンジニアは品質問題を後から検査することをやめ、よく設計されたエージェンティックなハーネスを通じて、品質をシステムに作り込む側へと移行します。
