@@ -18,7 +18,7 @@ Os engenheiros de produto deixam de validar a qualidade apenas ao final do proce
 Os engenheiros de produto passam de especialistas estreitos, de linha de montagem, a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade em tempo real e a orientá-los para novos domínios e competências.
 
 ### 04. intermediários → utilizadores (proxies → users)
-Acabou o telefone estragado através de gestores intermediários, acabou o ficar fechado na cave — os engenheiros de produto passam a distância zero dos clientes e utilizadores, para se colocarem no lugar deles, analisar e sintetizar em primeira mão.
+Acaba a comunicação indireta por meio de gestores intermediários. Os engenheiros de produto passam a atuar em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte.
 
 ### 05. produção → resultados (output → outcomes)
 Os engenheiros de produto deixam de ser medidos pela produção e passam a assumir e a conduzir os resultados eles próprios — detetando desvios e corrigindo o rumo continuamente.

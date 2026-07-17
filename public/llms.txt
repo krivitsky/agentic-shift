@@ -5,7 +5,7 @@
 
 <!-- MANIFESTO:START -->
 
-## Manifesto
+## Manifesto (English)
 
 The industry-wide shift toward agentic product engineering is producing radically new organizations. Most leaders haven't yet grasped how deep this goes. The ones who have are already ahead of the curve. And the gap between the best and the rest widens every day.
 
@@ -26,6 +26,226 @@ To help these ideas spread, and to set a bar high enough to tell real change fro
 **What does it mean for org leaders?** While coding is now being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: the drive for perfection, unlimited creativity, and rich co-creation. The task of every organization and every leader is to design environments that elevate human intelligence to these new heights.
 
 **Want to contribute?** Propose improvements (https://github.com/krivitsky/agentic-shift). Share this page. Put these ideas to work in your organization.
+
+## Manifesto (Deutsch)
+
+Der branchenweite Wandel hin zu agentic product engineering bringt radikal neue Organisationen hervor. Die meisten Führungskräfte haben noch nicht erfasst, wie tief das reicht. Wer es erfasst hat, ist der Kurve bereits voraus. Und die Kluft zwischen den Besten und dem Rest wird täglich größer.
+
+Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu legen, um echten Wandel von Mittelmaß und Marketing zu unterscheiden — definieren wir professionelles agentic product engineering als eine Reihe deutlich sichtbarer Verschiebungen im Org-Design: darin, wie Produktentwicklung tatsächlich geschieht.
+
+### Hin zu professionellem agentic product engineering auf Org-Ebene
+
+1. Features → Systeme (features → systems) — Product Engineers liefern nicht länger einzelne Features aus, sondern bauen agentische Systeme — sich selbst verbessernde Loops, die Absicht in funktionierende Lösungen verwandeln.
+2. Kontrolle → Leitplanken (gatekeeping → guardrails) — Product Engineers prüfen Qualität nicht länger im Nachhinein, sondern bauen sie über gut konstruierte agentische Harnesses direkt ins System ein.
+3. Spezialisten → Handwerker (specialists → craftspeople) — Product Engineers wandeln sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern — KI füllt die Spezialistenlücken in Echtzeit und führt die Product Engineers in neue Domänen und Fähigkeiten ein.
+4. Stellvertreter → Nutzer (proxies → users) — Kein Stille-Post-Spiel mehr über Manager als Stellvertreter, kein Sitzen im Keller — Product Engineers gehen auf null Distanz zu Kundinnen und Nutzern, um aus erster Hand zu verstehen, zu analysieren und zu synthetisieren.
+5. Output → Wirkung (output → outcomes) — Product Engineers werden nicht länger am Output gemessen, sondern verantworten und treiben Wirkung selbst — sie spüren Abweichungen und korrigieren den Kurs fortlaufend.
+
+### Was kommt als Nächstes
+
+**Ein neues Manifest?** Es ist vielleicht zu früh für Manifeste, denn der Boden bewegt sich noch — aber wir möchten die starken Veränderungen anerkennen, die wir bereits in der ganzen Branche beobachten, am deutlichsten bei den Vorreitern.
+
+**Was bedeutet das für Führungskräfte?** Während das Programmieren automatisiert und zur Routine wird, erlebt das Handwerk des Product Engineering eine grundlegende Neuerfindung — möglich allein durch zutiefst menschliche Eigenschaften: den Drang zur Perfektion, grenzenlose Kreativität und reiche Ko-Kreation. Die Aufgabe jeder Organisation und jeder Führungskraft ist es, Umgebungen zu gestalten, die menschliche Intelligenz auf diese neue Höhe heben.
+
+**Mitmachen?** Verbesserungen vorschlagen (https://github.com/krivitsky/agentic-shift). Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen.
+
+## Manifesto (Nederlands)
+
+De sectorbrede verschuiving naar agentic product engineering brengt radicaal nieuwe organisaties voort. De meeste leiders hebben nog niet doorgrond hoe diep dit gaat. Wie dat wel heeft, loopt al voorop. En de kloof tussen de besten en de rest wordt met de dag groter.
+
+Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om echte verandering te onderscheiden van middelmaat en marketing, definiëren we professionele agentic product engineering als een reeks zichtbare verschuivingen in organisatieontwerp: in hoe het werk van product engineering daadwerkelijk gebeurt.
+
+### Naar professionele agentic product engineering op organisatieniveau
+
+1. features → systemen (features → systems) — Product engineers leveren niet langer losse features, maar bouwen agentic systemen — zelfverbeterende loops die intentie omzetten in werkende oplossingen.
+2. poortwachten → vangrails (gatekeeping → guardrails) — Product engineers inspecteren kwaliteit niet langer achteraf, maar bouwen die in het systeem in, via goed ontworpen agentic harnassen.
+3. specialisten → vakmensen (specialists → craftspeople) — Product engineers verschuiven van smalle, lopendebandspecialisten naar end-to-end vakmensen — waarbij AI de specialismegaten in realtime opvult en hen begeleidt naar nieuwe domeinen en vaardigheden.
+4. tussenpersonen → gebruikers (proxies → users) — Geen doorgeefspel meer via manager-tussenpersonen, geen wegkwijnen meer in de kelder — product engineers gaan naar nul afstand tot klanten en gebruikers, om uit de eerste hand in te leven, te analyseren en te synthetiseren.
+5. output → uitkomsten (output → outcomes) — Product engineers worden niet langer afgerekend op output, maar nemen de uitkomsten zelf in handen en sturen ze aan — afwijkingen aanvoelen en voortdurend bijsturen.
+
+### Wat nu?
+
+**Een nieuw manifest?** Het is misschien te vroeg om manifesten te schrijven, want de grond beweegt nog — maar we willen de sterke veranderingen erkennen die we nu al in de hele sector zien, het duidelijkst bij de koplopers.
+
+**Wat betekent dit voor organisatieleiders?** Terwijl het coderen nu wordt geautomatiseerd en tot routine wordt, ondergaat het vak van product engineering een grote heruitvinding — enkel mogelijk door uitgesproken menselijke eigenschappen: de drang naar perfectie, onbegrensde creativiteit en rijke co-creatie. De taak van elke organisatie en elke leider is omgevingen te ontwerpen die de menselijke intelligentie naar deze nieuwe hoogten tillen.
+
+**Wil je bijdragen?** Stel verbeteringen voor (https://github.com/krivitsky/agentic-shift). Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie.
+
+## Manifesto (Français)
+
+Le basculement de toute l'industrie vers l'ingénierie produit agentique fait émerger des organisations radicalement nouvelles. La plupart des dirigeants n'ont pas encore saisi la profondeur du phénomène. Ceux qui l'ont saisi ont déjà une longueur d'avance. Et l'écart entre les meilleurs et les autres se creuse chaque jour.
+
+Pour aider ces idées à se répandre, et pour placer la barre assez haut pour distinguer le vrai changement de la médiocrité et du marketing, nous définissons l'ingénierie produit agentique professionnelle comme un ensemble de basculements visibles dans le design organisationnel : dans la façon dont le travail d'ingénierie produit se fait réellement.
+
+### Vers une ingénierie produit agentique professionnelle à l'échelle de l'organisation
+
+1. fonctionnalités → systèmes (features → systems) — Les ingénieurs produit cessent de livrer des fonctionnalités isolées et se tournent vers la construction de systèmes agentiques — des boucles qui s'améliorent d'elles-mêmes et transforment l'intention en solutions qui fonctionnent.
+2. contrôle → garde-fous (gatekeeping → guardrails) — Les ingénieurs produit cessent d'inspecter la qualité après coup et l'intègrent directement dans le système, grâce à des harnais agentiques bien conçus.
+3. spécialistes → artisans (specialists → craftspeople) — Les ingénieurs produit passent de spécialistes cloisonnés, à la chaîne, à des artisans de bout en bout — l'IA comblant les lacunes de spécialité en temps réel et guidant les ingénieurs vers de nouveaux domaines et compétences.
+4. intermédiaires → utilisateurs (proxies → users) — Fini le téléphone arabe via des managers intermédiaires, fini l'isolement au sous-sol — les ingénieurs produit passent à distance zéro avec les clients et les utilisateurs, pour comprendre, analyser et synthétiser de première main.
+5. production → résultats (output → outcomes) — Les ingénieurs produit ne sont plus mesurés à leur production mais s'approprient et pilotent eux-mêmes les résultats — détectant les dérives et corrigeant le cap en continu.
+
+### Et maintenant ?
+
+**Un nouveau manifeste ?** Il est peut-être trop tôt pour écrire des manifestes, car le sol bouge encore — mais nous tenons à reconnaître les changements profonds que nous observons déjà dans toute l'industrie, surtout chez les pionniers.
+
+**Qu'est-ce que cela signifie pour les dirigeants ?** Alors que le code est désormais automatisé et routinisé, l'artisanat de l'ingénierie produit connaît une réinvention majeure — rendue possible uniquement par des traits profondément humains : la quête de la perfection, la créativité sans limites et une co-création riche. La tâche de chaque organisation et de chaque dirigeant est de concevoir des environnements qui élèvent l'intelligence humaine à ces nouveaux sommets.
+
+**Envie de contribuer ?** Proposez des améliorations (https://github.com/krivitsky/agentic-shift). Partagez cette page. Mettez ces idées en œuvre dans votre organisation.
+
+## Manifesto (Italiano)
+
+Lo spostamento dell'intero settore verso l'ingegneria di prodotto agentica sta producendo organizzazioni radicalmente nuove. La maggior parte dei leader non ha ancora colto quanto sia profondo. Chi l'ha colto è già avanti. E il divario tra i migliori e gli altri si allarga ogni giorno.
+
+Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla mediocrità e dal marketing, definiamo l'ingegneria di prodotto agentica professionale come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto.
+
+### Verso un'ingegneria di prodotto agentica professionale a livello di organizzazione
+
+1. funzionalità → sistemi (features → systems) — Gli ingegneri di prodotto smettono di consegnare funzionalità isolate e passano a costruire sistemi agentici — cicli che si migliorano da soli e trasformano l'intento in soluzioni funzionanti.
+2. controllo → guardrail (gatekeeping → guardrails) — Gli ingegneri di prodotto smettono di ispezionare la qualità a posteriori e la integrano nel sistema, attraverso imbracature agentiche ben progettate.
+3. specialisti → artigiani (specialists → craftspeople) — Gli ingegneri di prodotto passano da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma le lacune di specializzazione in tempo reale e li guida verso nuovi ambiti e competenze.
+4. intermediari → utenti (proxies → users) — Basta con il gioco del telefono senza fili attraverso manager-intermediari, basta con lo stare chiusi in cantina — gli ingegneri di prodotto passano a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona.
+5. produzione → risultati (output → outcomes) — Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dei risultati guidandoli in prima persona — percependo le deviazioni e correggendo la rotta di continuo.
+
+### E adesso?
+
+**Un nuovo manifesto?** Forse è troppo presto per scrivere manifesti, perché il terreno è ancora in movimento — ma vogliamo riconoscere i forti cambiamenti che già osserviamo in tutto il settore, più visibili tra i pionieri.
+
+**Cosa significa per i leader delle organizzazioni?** Mentre la programmazione viene ormai automatizzata e resa routine, l'artigianato dell'ingegneria di prodotto vive una grande reinvenzione — resa possibile solo da tratti profondamente umani: la spinta alla perfezione, la creatività senza limiti e una ricca co-creazione. Il compito di ogni organizzazione e di ogni leader è progettare ambienti che elevino l'intelligenza umana a queste nuove altezze.
+
+**Vuoi contribuire?** Proponi miglioramenti (https://github.com/krivitsky/agentic-shift). Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione.
+
+## Manifesto (Español)
+
+El cambio en toda la industria hacia la ingeniería de producto agéntica está produciendo organizaciones radicalmente nuevas. La mayoría de los líderes aún no ha comprendido su profundidad. Quienes lo han hecho ya van por delante. Y la brecha entre los mejores y el resto se ensancha cada día.
+
+Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante alto como para distinguir el cambio real de la mediocridad y el marketing, definimos la ingeniería de producto agéntica profesional como un conjunto de cambios visibles en el diseño organizativo: en cómo se hace realmente el trabajo de ingeniería de producto.
+
+### Hacia una ingeniería de producto agéntica profesional a nivel de organización
+
+1. funciones → sistemas (features → systems) — Los ingenieros de producto dejan de entregar funciones sueltas y pasan a construir sistemas agénticos — bucles que se mejoran a sí mismos y convierten la intención en soluciones que funcionan.
+2. control → guardarraíles (gatekeeping → guardrails) — Los ingenieros de producto dejan de inspeccionar la calidad a posteriori y pasan a integrarla en el sistema mediante arneses agénticos bien diseñados.
+3. especialistas → artesanos (specialists → craftspeople) — Los ingenieros de producto pasan de especialistas estrechos, de cadena de montaje, a artesanos de principio a fin — con la IA cubriendo los huecos de especialidad en tiempo real y guiándolos hacia nuevos dominios y habilidades.
+4. intermediarios → usuarios (proxies → users) — Se acabó el teléfono escacharrado a través de mánagers intermediarios, se acabó el estar encerrados en el sótano — los ingenieros de producto pasan a distancia cero con clientes y usuarios, para empatizar, analizar y sintetizar de primera mano.
+5. producción → resultados (output → outcomes) — Los ingenieros de producto dejan de medirse por su producción y pasan a asumir e impulsar los resultados ellos mismos — detectando desviaciones y corrigiendo el rumbo de forma continua.
+
+### ¿Qué sigue?
+
+**¿Un nuevo manifiesto?** Quizá sea demasiado pronto para escribir manifiestos, pues el terreno aún se mueve — pero queremos reconocer los profundos cambios que ya observamos en toda la industria, sobre todo entre los pioneros.
+
+**¿Qué significa para los líderes de organización?** Mientras la programación se automatiza y se vuelve rutina, el oficio de la ingeniería de producto vive una gran reinvención — posible solo gracias a rasgos profundamente humanos: el afán de perfección, la creatividad sin límites y una rica co-creación. La tarea de cada organización y cada líder es diseñar entornos que eleven la inteligencia humana a estas nuevas cotas.
+
+**¿Quieres contribuir?** Propón mejoras (https://github.com/krivitsky/agentic-shift). Comparte esta página. Pon estas ideas a trabajar en tu organización.
+
+## Manifesto (Português)
+
+A mudança de toda a indústria rumo à engenharia de produto agêntica está a produzir organizações radicalmente novas. A maioria dos líderes ainda não percebeu quão profundo isto é. Quem percebeu já está à frente. E a distância entre os melhores e os restantes aumenta a cada dia.
+
+Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficiente para distinguir a mudança real da mediocridade e do marketing, definimos a engenharia de produto agêntica profissional como um conjunto de mudanças visíveis no design organizacional: no modo como o trabalho de engenharia de produto é realmente feito.
+
+### Rumo a uma engenharia de produto agêntica profissional ao nível da organização
+
+1. funcionalidades → sistemas (features → systems) — Os engenheiros de produto deixam de entregar funcionalidades avulsas e passam a construir sistemas agênticos — ciclos que se aprimoram a si próprios e transformam a intenção em soluções que funcionam.
+2. controlo → guardrails (gatekeeping → guardrails) — Os engenheiros de produto deixam de validar a qualidade apenas ao final do processo e passam a incorporá-la diretamente ao sistema, por meio de guardrails e mecanismos agênticos bem projetados.
+3. especialistas → artesãos (specialists → craftspeople) — Os engenheiros de produto passam de especialistas estreitos, de linha de montagem, a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade em tempo real e a orientá-los para novos domínios e competências.
+4. intermediários → utilizadores (proxies → users) — Acaba a comunicação indireta por meio de gestores intermediários. Os engenheiros de produto passam a atuar em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte.
+5. produção → resultados (output → outcomes) — Os engenheiros de produto deixam de ser medidos pela produção e passam a assumir e a conduzir os resultados eles próprios — detetando desvios e corrigindo o rumo continuamente.
+
+### O que se segue
+
+**Um novo manifesto?** Talvez seja cedo demais para escrever manifestos, pois o terreno ainda se move — mas queremos reconhecer as fortes mudanças que já observamos em toda a indústria, sobretudo entre os pioneiros.
+
+**O que significa para os líderes de organização?** Enquanto a programação é agora automatizada e rotinizada, o ofício da engenharia de produto vive uma grande reinvenção — possível apenas graças a traços profundamente humanos: o desejo de perfeição, a criatividade sem limites e uma rica cocriação. A tarefa de cada organização e de cada líder é conceber ambientes que elevem a inteligência humana a estes novos patamares.
+
+**Quer contribuir?** Proponha melhorias (https://github.com/krivitsky/agentic-shift). Partilhe esta página. Ponha estas ideias a trabalhar na sua organização.
+
+## Manifesto (Українська)
+
+Загальногалузевий перехід до агентної продуктової інженерії породжує радикально нові організації. Більшість керівників ще не усвідомили, наскільки це глибоко. Ті, хто усвідомив, уже випереджають інших. І розрив між найкращими та рештою щодня зростає.
+
+Щоб допомогти цим ідеям поширюватися — і щоб задати планку, достатньо високу, аби відрізнити справжні зміни від посередності та маркетингу — ми визначаємо професійну агентну продуктову інженерію як набір помітних зрушень в організаційному дизайні: у тому, як насправді відбувається продуктова інженерна робота.
+
+### До професійної агентної продуктової інженерії на рівні організації
+
+1. функції → системи (features → systems) — Продуктові інженери перестають постачати окремі функції й переходять до побудови агентних систем — самовдосконалюваних циклів, що перетворюють намір на робочі рішення.
+2. контроль → запобіжники (gatekeeping → guardrails) — Продуктові інженери перестають перевіряти якість постфактум і вбудовують її в систему через добре сконструйовані агентні гарнеси.
+3. спеціалісти → майстри (specialists → craftspeople) — Продуктові інженери переходять від вузьких, конвеєрних спеціалістів до майстрів повного циклу — ШІ заповнює прогалини спеціалізації в реальному часі й наставляє інженерів у нових галузях і навичках.
+4. посередники → користувачі (proxies → users) — Годі зіпсованого телефону через менеджерів-посередників, годі сидіння в підвалі — продуктові інженери переходять до нульової дистанції з клієнтами та користувачами, щоб співпереживати, аналізувати й синтезувати з перших вуст.
+5. результат праці → результати (output → outcomes) — Продуктових інженерів перестають вимірювати за обсягом зробленого — вони самі беруть на себе результати й керують ними, відчуваючи відхилення й безперервно коригуючи курс.
+
+### Що далі
+
+**Новий маніфест?** Можливо, ще зарано писати маніфести, адже ґрунт досі рухається — але ми хочемо визнати ті потужні зміни, які вже спостерігаємо по всій галузі, найпомітніше — серед першопрохідців.
+
+**Що це означає для керівників?** Поки програмування автоматизується й стає рутиною, ремесло продуктової інженерії переживає велике переосмислення — можливе лише завдяки суто людським рисам: прагненню до досконалості, безмежній творчості та багатій співтворчості. Завдання кожної організації та кожного лідера — проєктувати середовища, що підносять людський інтелект на ці нові висоти.
+
+**Хочете долучитися?** Запропонуйте покращення (https://github.com/krivitsky/agentic-shift). Поділіться цією сторінкою. Застосуйте ці ідеї у своїй організації.
+
+## Manifesto (Русский)
+
+Общеотраслевой переход к агентной продуктовой инженерии порождает радикально новые организации. Большинство руководителей ещё не осознали, насколько это глубоко. Те, кто осознал, уже впереди. И разрыв между лучшими и остальными растёт с каждым днём.
+
+Чтобы помочь этим идеям распространяться — и задать планку достаточно высокую, чтобы отличить настоящие перемены от посредственности и маркетинга — мы определяем профессиональную агентную продуктовую инженерию как набор заметных сдвигов в организационном дизайне: в том, как на самом деле выполняется продуктовая инженерная работа.
+
+### К профессиональной агентной продуктовой инженерии на уровне организации
+
+1. функции → системы (features → systems) — Продуктовые инженеры перестают выпускать отдельные функции и переходят к построению агентных систем — самосовершенствующихся циклов, превращающих замысел в работающие решения.
+2. контроль → ограждения (gatekeeping → guardrails) — Продуктовые инженеры перестают проверять качество постфактум и встраивают его в систему через хорошо спроектированную агентную оснастку.
+3. специалисты → мастера (specialists → craftspeople) — Продуктовые инженеры переходят от узких, конвейерных специалистов к мастерам полного цикла — ИИ в реальном времени закрывает пробелы в специализации и наставляет их в новых областях и навыках.
+4. посредники → пользователи (proxies → users) — Больше никакого испорченного телефона через менеджеров-посредников, больше никакого сидения в подвале — продуктовые инженеры переходят к нулевой дистанции с клиентами и пользователями, чтобы сопереживать, анализировать и синтезировать из первых рук.
+5. выработка → результаты (output → outcomes) — Продуктовых инженеров перестают измерять по выработке — они сами берут на себя результаты и ведут их, улавливая отклонения и непрерывно корректируя курс.
+
+### Что дальше?
+
+**Новый манифест?** Возможно, ещё слишком рано писать манифесты, ведь почва пока движется — но мы хотим признать те мощные перемены, которые уже наблюдаем по всей отрасли, заметнее всего — среди первопроходцев.
+
+**Что это значит для руководителей организаций?** Пока программирование автоматизируется и превращается в рутину, ремесло продуктовой инженерии переживает крупное переосмысление — возможное лишь благодаря сугубо человеческим качествам: стремлению к совершенству, безграничному творчеству и богатому сотворчеству. Задача каждой организации и каждого лидера — проектировать среды, которые поднимают человеческий интеллект на эти новые высоты.
+
+**Хотите внести вклад?** Предложите улучшения (https://github.com/krivitsky/agentic-shift). Поделитесь этой страницей. Примените эти идеи в своей организации.
+
+## Manifesto (中文)
+
+整个行业向智能体产品工程的转变，正在催生根本性全新的组织。大多数领导者尚未领会这一转变有多深。领会者已然领先。而且最优者与其余者之间的差距，正日益扩大。
+
+为帮助这些理念传播，并把标杆立得足够高，以便将真正的变革与平庸和营销区分开来，我们将专业的智能体产品工程定义为一组显而易见的组织设计转变：即产品工程工作究竟如何完成。
+
+### 在组织层面迈向专业的智能体产品工程
+
+1. 功能 → 系统 (features → systems) — 产品工程师不再交付零散的功能，而是转向构建智能体系统——将意图转化为可用方案的自我改进循环。
+2. 把关 → 护栏 (gatekeeping → guardrails) — 产品工程师不再事后检查质量问题，而是通过精心设计的智能体框架，将质量构建进系统之中。
+3. 专才 → 匠人 (specialists → craftspeople) — 产品工程师从狭窄的流水线专才，转变为端到端的匠人——AI 实时填补专业空白，并引导工程师进入新的领域与技能。
+4. 代理人 → 用户 (proxies → users) — 不再有经由管理者代理人的传话游戏，不再蜷缩于地下室——产品工程师转向与客户和用户零距离，亲身去共情、分析与综合。
+5. 产出 → 成果 (output → outcomes) — 产品工程师不再以产出被衡量，而是亲自承担并推动成果——持续察觉偏移并修正航向。
+
+### 接下来
+
+**一份新的宣言？** 或许现在写宣言还为时过早，因为地面仍在移动——但我们仍愿承认，我们已在整个行业观察到的深刻变化，尤以先行者身上最为显著。
+
+**这对组织领导者意味着什么？** 当编码正被自动化、常规化之际，产品工程这门手艺正经历一场重大的再造——这唯有凭借鲜明的人类特质方能实现：对完美的渴求、无限的创造力，以及丰富的共创。每一个组织、每一位领导者的任务，是设计出能将人类智能提升到这些新高度的环境。
+
+**想要参与贡献？** 提出改进建议 (https://github.com/krivitsky/agentic-shift)。分享此页。把这些理念在你的组织中付诸实践。
+
+## Manifesto (日本語)
+
+エージェンティック・プロダクトエンジニアリングへの業界全体の転換が、根本的に新しい組織を生み出しています。ほとんどのリーダーは、これがどれほど深いものかをまだ捉えていません。捉えた者はすでに先を行っています。そして最良の者とそれ以外との差は、日々広がっています。
+
+こうした考えの普及を助け、本物の変化を凡庸さやマーケティングと見分けられるだけの高い基準を設けるために、私たちはプロフェッショナルなエージェンティック・プロダクトエンジニアリングを、プロダクトエンジニアリングの仕事の進め方における、目に見える一連の組織デザインの転換として定義します。
+
+### 組織レベルでのプロフェッショナルなエージェンティック・プロダクトエンジニアリングへ
+
+1. 機能 → システム (features → systems) — プロダクトエンジニアは単発の機能を出荷することをやめ、エージェンティックなシステム——意図を動くソリューションへと変える自己改善型のループ——の構築へと移行します。
+2. 門番 → ガードレール (gatekeeping → guardrails) — プロダクトエンジニアは品質問題を後から検査することをやめ、よく設計されたエージェンティックなハーネスを通じて、品質をシステムに作り込む側へと移行します。
+3. 専門家 → 職人 (specialists → craftspeople) — プロダクトエンジニアは、細分化された流れ作業の専門家から、端から端までを担う職人へと移行します——AIが専門領域の隙間をリアルタイムで埋め、新しい領域とスキルへと導きます。
+4. 代理人 → ユーザー (proxies → users) — マネージャーという代理人を介した伝言ゲームはもう終わり、地下にこもるのももう終わり——プロダクトエンジニアは顧客とユーザーへの距離をゼロにし、直接に共感し、分析し、統合する側へと移行します。
+5. アウトプット → 成果 (output → outcomes) — プロダクトエンジニアはアウトプットで測られる側から、成果そのものを引き受け、自ら推し進める側へと移行します——ずれを察知し、絶えず針路を修正しながら。
+
+### 次に来るもの
+
+**新しいマニフェスト？** 地面がまだ動いている以上、マニフェストを書くにはまだ早いのかもしれません——それでも私たちは、業界全体ですでに観察している力強い変化を、とりわけ最前線を走る者たちのあいだで、認めておきたいのです。
+
+**組織のリーダーにとって何を意味するのか？** コーディングが自動化され定型化されていく一方で、プロダクトエンジニアリングの技芸は大きな再発明を遂げつつあります——それを可能にするのは、際立って人間的な資質だけです：完璧さへの渇望、限りない創造性、そして豊かな共創。あらゆる組織とあらゆるリーダーの務めは、人間の知性をこの新たな高みへと引き上げる環境を設計することです。
+
+**貢献したいですか？** 改善を提案してください (https://github.com/krivitsky/agentic-shift)。このページを共有してください。これらの考えを、あなたの組織で実践してください。
 
 <!-- MANIFESTO:END -->
 

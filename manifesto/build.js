@@ -181,7 +181,7 @@ function render(c) {
     QA: qa(c),
     FOOT_BY: esc(c.foot.by),
     FOOT_CTA: esc(c.foot.cta),
-    MD_HREF: `${c.dir}manifesto.md`,
+    MD_HREF: `${c.dir}agentic-shift-${c.lang}.md`,
     MD_DOWNLOAD: `agentic-shift-${c.lang}.md`,
     MD_LANG: c.lang.toUpperCase(),
   };
@@ -219,18 +219,31 @@ function sitemap() {
     + `${urls.join('\n')}\n</urlset>\n`;
 }
 
-// ── llms.txt / README manifesto blocks (canonical English, between markers) ──
-function llmsBlock() {
-  const L = ['## Manifesto', ''];
-  en.lede.forEach((p) => { L.push(inline(p, { emphasis: 'none', links: 'paren' })); L.push(''); });
-  L.push(`### ${inline(en.sectionHead, { emphasis: 'none', links: 'paren' })}`, '');
-  en.shifts.forEach((s, i) =>
-    L.push(`${i + 1}. ${s.from} → ${s.to} — ${inline(s.note, { emphasis: 'none', links: 'paren' })}`));
-  L.push('', `### ${inline(en.qaHead, { emphasis: 'none', links: 'paren' })}`, '');
-  en.qa.forEach((x) =>
-    L.push(`**${inline(x.q, { emphasis: 'none', links: 'paren' })}** ${inline(x.a, { emphasis: 'none', links: 'paren' })}`, ''));
+// ── llms.txt / README manifesto blocks (between markers) ──
+const plain = (s) => inline(s, { emphasis: 'none', links: 'paren' });
+
+// One language's manifesto in llms.txt plain-text style (no emphasis).
+function llmsLang(c, heading) {
+  const L = [heading, ''];
+  c.lede.forEach((p) => { L.push(plain(p)); L.push(''); });
+  L.push(`### ${plain(c.sectionHead)}`, '');
+  c.shifts.forEach((s, i) => {
+    const gloss = c.lang === 'en' ? '' : ` (${en.shifts[i].from} → ${en.shifts[i].to})`;
+    L.push(`${i + 1}. ${s.from} → ${s.to}${gloss} — ${plain(s.note)}`);
+  });
+  L.push('', `### ${plain(c.qaHead)}`, '');
+  c.qa.forEach((x) => L.push(`**${plain(x.q)}** ${plain(x.a)}`, ''));
   while (L[L.length - 1] === '') L.pop();
   return L.join('\n');
+}
+
+// llms.txt manifesto region: English first, then every translation, so an LLM
+// reading the file sees all languages. Translated pairs carry the English pair.
+function llmsBlock() {
+  const parts = [llmsLang(en, '## Manifesto (English)')];
+  LANGS.filter((l) => l !== 'en').forEach((lang) =>
+    parts.push(llmsLang(all[lang], `## Manifesto (${all[lang].name})`)));
+  return parts.join('\n\n');
 }
 
 function readmeBlock() {
@@ -305,7 +318,7 @@ for (const lang of LANGS) {
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   fs.writeFileSync(dest, render(c));
   written.push(path.relative(ROOT, dest));
-  const mdDest = path.join(path.dirname(dest), 'manifesto.md');
+  const mdDest = path.join(path.dirname(dest), `agentic-shift-${c.lang}.md`);
   fs.writeFileSync(mdDest, manifestoMd(c));
   written.push(path.relative(ROOT, mdDest));
 }
