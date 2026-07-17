@@ -741,24 +741,44 @@ body::before {
   color: #333c42;
 }
 
-/* Markdown download — the CommonMark mark (M + down-arrow) as an icon.
-   Inherits the dim foot-meta color via currentColor; brightens on hover.
-   No bottom border (it's an icon, not a text link). */
-.foot .foot-meta a.md-dl {
-  display: inline-flex;
-  align-items: center;
-  border-bottom: 0;
-  color: #4e5860;
+/* Markdown download in the language switcher — the CommonMark mark
+   (M + down-arrow) plus the current language code in brackets, so it reads
+   as "download the Markdown for THIS language". Sits after the language
+   links; inherits the langbar's muted color, brightens on hover. */
+/* Thin vertical pipe separating the language list from the download link. */
+.langbar .langbar-div {
+  width: 1px;
+  height: 13px;
+  background: rgba(137, 180, 190, 0.35);
+  flex: none;
 }
 
-.foot .foot-meta a.md-dl svg {
-  width: 22px;
+.langbar .md-dl {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  /* Always styled "active" (teal + underline) so it reads as a live download
+     affordance, mirroring the current-language item. */
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 1px solid var(--teal);
+  padding-bottom: 3px;
+  transition: color 0.16s ease, border-color 0.16s ease;
+}
+
+.langbar .md-dl svg {
+  width: 18px;
   height: auto;
   display: block;
 }
 
-.foot .foot-meta a.md-dl:hover {
-  color: var(--teal);
+.langbar .md-dl .md-code {
+  letter-spacing: 0.06em;
+}
+
+.langbar .md-dl:hover {
+  color: #fff;
+  border-bottom-color: #fff;
 }
 
 .foot a {

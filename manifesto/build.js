@@ -183,6 +183,7 @@ function render(c) {
     FOOT_CTA: esc(c.foot.cta),
     MD_HREF: `${c.dir}manifesto.md`,
     MD_DOWNLOAD: `agentic-shift-${c.lang}.md`,
+    MD_LANG: c.lang.toUpperCase(),
   };
 
   let out = template;
