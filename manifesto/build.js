@@ -181,6 +181,8 @@ function render(c) {
     QA: qa(c),
     FOOT_BY: esc(c.foot.by),
     FOOT_CTA: esc(c.foot.cta),
+    MD_HREF: `${c.dir}manifesto.md`,
+    MD_DOWNLOAD: `agentic-shift-${c.lang}.md`,
   };
 
   let out = template;
@@ -251,6 +253,33 @@ function readmeBlock() {
   return L.join('\n');
 }
 
+// Standalone, downloadable Markdown of one language's manifesto — the whole
+// page as a clean .md (title, subtitle, lede, the five shifts, Q&A). On
+// translated pages the canonical English pair follows each localized pair in
+// parens, mirroring the on-page gloss.
+function manifestoMd(c) {
+  const md = (s) => inline(s, { emphasis: 'md', links: 'md' });
+  const L = [];
+  L.push('# Agentic Shift', '');
+  L.push(`_${md(c.hero.subtitle)}_`, '');
+  c.lede.forEach((p) => { L.push(md(p)); L.push(''); });
+  L.push(`## ${md(c.sectionHead)}`, '');
+  c.shifts.forEach((s, i) => {
+    const n = String(i + 1).padStart(2, '0');
+    const gloss = c.lang === 'en' ? '' : ` (${en.shifts[i].from} → ${en.shifts[i].to})`;
+    L.push(`### ${n}. ${s.from} → ${s.to}${gloss}`);
+    L.push(md(s.note), '');
+  });
+  L.push(`## ${md(c.qaHead)}`, '');
+  c.qa.forEach((x) => {
+    L.push(`### ${md(x.q)}`);
+    L.push(md(x.a), '');
+  });
+  L.push('---', '');
+  L.push(`${md(c.foot.by)} [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · ${ORIGIN}${c.dir}`, '');
+  return L.join('\n');
+}
+
 // Replace the region between MANIFESTO markers; never write if markers absent.
 function writeMarked(rel, block) {
   const file = path.join(ROOT, rel);
@@ -275,6 +304,9 @@ for (const lang of LANGS) {
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   fs.writeFileSync(dest, render(c));
   written.push(path.relative(ROOT, dest));
+  const mdDest = path.join(path.dirname(dest), 'manifesto.md');
+  fs.writeFileSync(mdDest, manifestoMd(c));
+  written.push(path.relative(ROOT, mdDest));
 }
 
 fs.writeFileSync(path.join(PUBLIC, 'sitemap.xml'), sitemap());
