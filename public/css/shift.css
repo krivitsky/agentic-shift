@@ -756,9 +756,10 @@ body::before {
 .langbar .md-dl {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   /* Always styled "active" (teal + underline) so it reads as a live download
-     affordance, mirroring the current-language item. */
+     affordance, mirroring the current-language item. The [XX] code stays the
+     same size as the language labels; only the icon is enlarged (below). */
   color: var(--teal);
   text-decoration: none;
   border-bottom: 1px solid var(--teal);
@@ -767,7 +768,7 @@ body::before {
 }
 
 .langbar .md-dl svg {
-  width: 18px;
+  width: 25px;
   height: auto;
   display: block;
 }
