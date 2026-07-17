@@ -488,7 +488,9 @@ body::before {
   display: flex;
   align-items: center;
   gap: clamp(16px, 2vw, 24px);
-  margin: clamp(52px, 7vw, 88px) 0 clamp(24px, 3.5vw, 38px);
+  margin: clamp(40px, 6vw, 68px) 0 clamp(24px, 3.5vw, 38px);
+  border-top: 1px solid var(--line);
+  padding-top: clamp(28px, 4vw, 44px);
 }
 
 .section-head .tick {
@@ -639,6 +641,11 @@ body::before {
     min-height: 0;
     margin: 12px;
     border-radius: 14px;
+  }
+
+  /* Tighten the gap between the hero and the first paragraph on phones. */
+  .manifesto {
+    padding-top: clamp(20px, 5vw, 34px);
   }
 
   .hero-foot {
