@@ -3,9 +3,6 @@
 The website for **[agentic-shift.com](https://agentic-shift.com)** — a short manifesto for
 _professional agentic product engineering_, and the home of the **Agentic Shift Munich** meetups.
 
-Run by [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) and
-[Martin Westphal](https://www.linkedin.com/in/ade-anima/).
-
 ## Pages
 
 - **`/`** — the manifesto: the _Agentic Shift_ and five org-design shifts in how product
