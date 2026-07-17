@@ -225,6 +225,9 @@ body::before {
 .hero-link:hover { border-color: var(--teal); color: #fff; transform: translateY(-1px); }
 .hero-link:hover span { transform: translateX(3px); }
 
+/* keep the link on the right now that the footnote no longer shares the row */
+.hero-foot .hero-link { margin-left: auto; }
+
 /* Hero footnote (keyed to the * on "a manifesto"). Small print, bottom-left. */
 .footnote {
   font-family: var(--font-mono);
@@ -585,6 +588,12 @@ body::before {
   font-size: clamp(14px, 1.35vw, 17px);
   line-height: 1.5;
   max-width: 46em;
+}
+
+/* Closing note — moved out of the hero footnote; same .lede style as the
+   opening paragraphs, just needs top spacing below the shifts. */
+.closing {
+  margin-top: clamp(40px, 6vw, 72px);
 }
 
 /* ── Footer ──────────────────────────────────────────────────────── */
