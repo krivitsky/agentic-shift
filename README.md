@@ -35,7 +35,7 @@ shift to zero distance with the customers and users, to empathize, analyze, and 
 Product engineers shift from being measured by output to owning and driving outcomes themselves —
 sensing drift and correcting course continuously.
 
----
+## What's Next?
 
 > **A new manifesto?**
 
