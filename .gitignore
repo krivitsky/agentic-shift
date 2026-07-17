@@ -1,8 +1,10 @@
+# No deps by design — but keep this guard so a stray `npm i`/`npx`
+# never commits a dependency tree into a static site.
 node_modules/
+
 .env
 .env.*
 !.env.example
-dist/
 .DS_Store
 run.sh
 

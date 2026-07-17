@@ -68,15 +68,14 @@ The website for agentic-shift.com — the manifesto above, and the Agentic Shift
   events (`public/munich/index.html`).
 
 ### Stack
-- Plain static site — HTML + CSS in `public/`, **no build step**.
-- `server.js` (Node + Express) is a **local dev** server that adds clean routes (`/munich`, and a
-  `/new` → `/` redirect). In production the `public/` folder is served statically (`vercel.json`).
+- Plain static site — HTML + CSS in `public/`, **no build step, no dependencies**.
+- Production serves `public/` statically via Vercel (`vercel.json`), which resolves clean URLs
+  like `/munich` on its own.
 
 ### Run locally
 
 ```bash
-npm install
-node server.js        # → http://localhost:3000
+npx serve public      # → http://localhost:3000
 ```
 
 (You can also just open `public/index.html` directly in a browser.)

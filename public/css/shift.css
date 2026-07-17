@@ -1,7 +1,6 @@
-/* ── /new — "shift happens" ────────────────────────────────────────
-   Standalone theme. Does not touch terminal.css / home.css — the
-   dark-teal palette here is deliberately not the orange-on-black site.
-   Source text: specs/shift-happens.md · Visual: specs/new-design-idea.png
+/* ── Agentic Shift — site theme ─────────────────────────────────────
+   The dark-teal palette for the manifesto homepage; /munich layers
+   meetups.css on top of this.
    ------------------------------------------------------------------ */
 
 * {
