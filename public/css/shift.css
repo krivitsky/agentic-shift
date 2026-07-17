@@ -654,6 +654,29 @@ body::before {
   color: #dbe6ec;
 }
 
+/* Machine-readable / crawler files — subtle fine print at the very bottom. */
+.foot-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.foot-meta a {
+  color: rgba(131, 149, 161, 0.55);
+  border-bottom-color: rgba(61, 220, 154, 0.16);
+}
+
+.foot-meta a:hover {
+  color: var(--teal);
+}
+
+.foot-meta .sep {
+  color: rgba(137, 180, 190, 0.22);
+}
+
 .foot a {
   color: #c3d2da;
   text-decoration: none;
