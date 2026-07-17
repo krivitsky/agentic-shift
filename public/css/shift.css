@@ -107,6 +107,10 @@ body::before {
 @media (max-width: 820px) {
   .hero {
     padding-bottom: var(--pad);
+    /* Hug the content instead of centering it inside a tall min-height —
+       otherwise the leftover vertical space piles up below the switcher. */
+    min-height: auto;
+    justify-content: flex-start;
   }
   .hero .langbar {
     position: static;
