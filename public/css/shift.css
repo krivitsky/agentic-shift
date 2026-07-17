@@ -448,6 +448,17 @@ body::before {
   color: var(--amber);
 }
 
+.lede a {
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(61, 220, 154, 0.4);
+  transition: border-color 0.16s ease;
+}
+
+.lede a:hover {
+  border-color: var(--teal);
+}
+
 /* Must wrap — the term is longer than a phone viewport. */
 .definition {
   color: var(--teal);
