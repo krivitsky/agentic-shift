@@ -12,7 +12,7 @@ The industry-wide shift toward **agentic product engineering** is producing radi
 
 To help these ideas spread, and to set a bar high enough to tell real change from *mediocrity and marketing*, we're defining the **professional agentic product engineering** as a set of noticeable org-design shifts in how product engineering work gets done.
 
-## Shift towards professional agentic product engineering at org-level
+## The shifts towards professional agentic product engineering at org-level
 
 ### 1. features → systems
 Product engineers stop shipping one-off features and shift to building agentic systems — self-improving loops that turn intent into working solutions.

@@ -6,7 +6,7 @@ De sectorbrede verschuiving naar **agentic product engineering** brengt radicaal
 
 Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om echte verandering te onderscheiden van *middelmaat en marketing*, definiëren we **professionele agentic product engineering** als een reeks zichtbare verschuivingen in organisatieontwerp: in hoe het werk van product engineering daadwerkelijk gebeurt.
 
-## Maak de verschuiving naar professionele agentic product engineering op organisatieniveau
+## De verschuivingen naar professionele agentic product engineering op organisatieniveau
 
 ### 01. features → systemen (features → systems)
 Product engineers leveren niet langer losse features, maar bouwen agentic systemen — zelfverbeterende loops die intentie omzetten in werkende oplossingen.

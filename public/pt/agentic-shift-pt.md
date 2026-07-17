@@ -6,7 +6,7 @@ A mudança de toda a indústria rumo à **engenharia de produto agêntica** est�
 
 Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficiente para distinguir a mudança real da *mediocridade e do marketing*, definimos a **engenharia de produto agêntica profissional** como um conjunto de mudanças visíveis no design organizacional: no modo como o trabalho de engenharia de produto é realmente feito.
 
-## Faça a mudança rumo a uma engenharia de produto agêntica profissional ao nível da organização
+## As mudanças rumo a uma engenharia de produto agêntica profissional ao nível da organização
 
 ### 01. funcionalidades → sistemas (features → systems)
 Os engenheiros de produto deixam de entregar funcionalidades avulsas e passam a construir sistemas agênticos — ciclos que se aprimoram a si próprios e transformam a intenção em soluções que funcionam.

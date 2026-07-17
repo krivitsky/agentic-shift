@@ -6,7 +6,7 @@ Lo spostamento dell'intero settore verso l'**ingegneria di prodotto agentica** s
 
 Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla *mediocrità e dal marketing*, definiamo l'**ingegneria di prodotto agentica professionale** come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto.
 
-## Compi lo spostamento verso un'ingegneria di prodotto agentica professionale a livello di organizzazione
+## Gli spostamenti verso un'ingegneria di prodotto agentica professionale a livello di organizzazione
 
 ### 01. funzionalità → sistemi (features → systems)
 Gli ingegneri di prodotto smettono di consegnare funzionalità isolate e passano a costruire sistemi agentici — cicli che si migliorano da soli e trasformano l'intento in soluzioni funzionanti.

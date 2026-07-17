@@ -6,7 +6,7 @@ Le basculement de toute l'industrie vers l'**ingénierie produit agentique** fai
 
 Pour aider ces idées à se répandre, et pour placer la barre assez haut pour distinguer le vrai changement de la *médiocrité et du marketing*, nous définissons l'**ingénierie produit agentique professionnelle** comme un ensemble de basculements visibles dans le design organisationnel : dans la façon dont le travail d'ingénierie produit se fait réellement.
 
-## Basculez vers une ingénierie produit agentique professionnelle à l'échelle de l'organisation
+## Les basculements vers une ingénierie produit agentique professionnelle à l'échelle de l'organisation
 
 ### 01. fonctionnalités → systèmes (features → systems)
 Les ingénieurs produit cessent de livrer des fonctionnalités isolées et se tournent vers la construction de systèmes agentiques — des boucles qui s'améliorent d'elles-mêmes et transforment l'intention en solutions qui fonctionnent.
