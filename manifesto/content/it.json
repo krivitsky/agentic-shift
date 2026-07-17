@@ -1,0 +1,78 @@
+{
+  "lang": "it",
+  "name": "Italiano",
+  "dir": "/it/",
+
+  "meta": {
+    "title": "Agentic Shift — Ingegneria di prodotto agentica professionale",
+    "description": "Lo spostamento dell'intero settore verso l'ingegneria di prodotto agentica sta producendo organizzazioni radicalmente nuove. Cinque spostamenti nella progettazione organizzativa che separano l'ingegneria di prodotto agentica professionale dalla mediocrità e dal marketing.",
+    "keywords": "agentic shift, ingegneria di prodotto agentica, agentic product engineering, agenti IA, progettazione organizzativa, ingegneria di prodotto, Alexey Krivitsky, Martin Westphal",
+    "ogTitle": "Agentic Shift — Ingegneria di prodotto agentica professionale",
+    "ogDescription": "Cinque spostamenti nella progettazione organizzativa che separano l'ingegneria di prodotto agentica professionale dalla mediocrità e dal marketing.",
+    "schemaDescription": "Lo spostamento dell'intero settore verso l'ingegneria di prodotto agentica sta producendo organizzazioni radicalmente nuove — definite da cinque spostamenti nella progettazione organizzativa.",
+    "llmsTitle": "Agentic Shift — versione leggibile dalle macchine (LLM)"
+  },
+
+  "hero": {
+    "headlineLead": "Agentic",
+    "headlineGlitch": "Shift",
+    "subtitle": "verso un'ingegneria di prodotto agentica professionale"
+  },
+
+  "lede": [
+    "Lo spostamento dell'intero settore verso l'<span class=\"definition\">ingegneria di prodotto agentica</span> sta producendo organizzazioni radicalmente nuove. La maggior parte dei leader non ha ancora colto quanto sia profondo. Chi l'ha colto è già avanti. E <em>il divario tra i migliori e gli altri si allarga ogni giorno.</em>",
+    "Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla <span class=\"amber\">mediocrità e dal marketing</span>, definiamo l'<span class=\"definition\">ingegneria di prodotto agentica <strong>professionale</strong></span> come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto."
+  ],
+
+  "sectionHead": "<span class=\"lite\">Verso</span> un'ingegneria di prodotto agentica professionale <span class=\"lite\">a</span> livello di organizzazione",
+
+  "qaHead": "E adesso?",
+
+  "shifts": [
+    {
+      "from": "funzionalità",
+      "to": "sistemi",
+      "note": "Gli ingegneri di prodotto smettono di consegnare funzionalità isolate e passano a costruire sistemi agentici — cicli che si migliorano da soli e trasformano l'intento in soluzioni funzionanti."
+    },
+    {
+      "from": "controllo",
+      "to": "guardrail",
+      "note": "Gli ingegneri di prodotto smettono di ispezionare la qualità a posteriori e la integrano nel sistema, attraverso imbracature agentiche ben progettate."
+    },
+    {
+      "from": "specialisti",
+      "to": "artigiani",
+      "note": "Gli ingegneri di prodotto passano da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma le lacune di specializzazione in tempo reale e li guida verso nuovi ambiti e competenze."
+    },
+    {
+      "from": "intermediari",
+      "to": "utenti",
+      "note": "Basta con il gioco del telefono senza fili attraverso manager-intermediari, basta con lo stare chiusi in cantina — gli ingegneri di prodotto passano a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona."
+    },
+    {
+      "from": "produzione",
+      "to": "risultati",
+      "note": "Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dei risultati guidandoli in prima persona — percependo le deviazioni e correggendo la rotta di continuo."
+    }
+  ],
+
+  "qa": [
+    {
+      "q": "Un nuovo manifesto?",
+      "a": "Forse è <span class=\"amber\">troppo presto per scrivere manifesti</span>, perché il terreno è ancora in movimento — ma vogliamo riconoscere i forti cambiamenti che già osserviamo in tutto il settore, più visibili tra i pionieri."
+    },
+    {
+      "q": "Cosa significa per i leader delle organizzazioni?",
+      "a": "Mentre la programmazione viene ormai automatizzata e resa routine, l'artigianato dell'ingegneria di prodotto vive una grande reinvenzione — resa possibile solo da tratti profondamente umani: <span class=\"definition\">la spinta alla perfezione</span>, <span class=\"definition\">la creatività senza limiti</span> e <span class=\"definition\">una ricca co-creazione</span>. <strong>Il compito di ogni organizzazione e di ogni leader è progettare ambienti che <span class=\"definition\">elevino l'intelligenza umana</span> a queste nuove altezze.</strong>"
+    },
+    {
+      "q": "Vuoi contribuire?",
+      "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Proponi miglioramenti</a>. Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione."
+    }
+  ],
+
+  "foot": {
+    "by": "creato e mantenuto da",
+    "cta": "community e incontri a monaco"
+  }
+}

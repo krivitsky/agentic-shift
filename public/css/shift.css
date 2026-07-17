@@ -100,6 +100,20 @@ body::before {
   border-bottom-color: var(--teal);
 }
 
+/* On narrow screens the subtitle and the switcher both wrap to several lines,
+   so absolute-bottom pinning collides with the subtitle. Drop the switcher
+   into normal flow under the subtitle with a clear gap — robust no matter how
+   many lines either takes. The absolute bottom-pin is a desktop-only nicety. */
+@media (max-width: 820px) {
+  .hero {
+    padding-bottom: var(--pad);
+  }
+  .hero .langbar {
+    position: static;
+    margin-top: clamp(22px, 6vw, 34px);
+  }
+}
+
 /* ── Hero banner ─────────────────────────────────────────────────── */
 
 .hero {

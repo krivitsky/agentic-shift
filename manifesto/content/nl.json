@@ -1,0 +1,78 @@
+{
+  "lang": "nl",
+  "name": "Nederlands",
+  "dir": "/nl/",
+
+  "meta": {
+    "title": "Agentic Shift — Professionele agentic product engineering",
+    "description": "De sectorbrede verschuiving naar agentic product engineering brengt radicaal nieuwe organisaties voort. Vijf verschuivingen in organisatieontwerp die professionele agentic product engineering scheiden van middelmaat en marketing.",
+    "keywords": "agentic shift, agentic product engineering, AI-agents, organisatieontwerp, product engineering, Alexey Krivitsky, Martin Westphal",
+    "ogTitle": "Agentic Shift — Professionele agentic product engineering",
+    "ogDescription": "Vijf verschuivingen in organisatieontwerp die professionele agentic product engineering scheiden van middelmaat en marketing.",
+    "schemaDescription": "De sectorbrede verschuiving naar agentic product engineering brengt radicaal nieuwe organisaties voort — gedefinieerd door vijf verschuivingen in organisatieontwerp.",
+    "llmsTitle": "Agentic Shift — machineleesbare (LLM-)versie"
+  },
+
+  "hero": {
+    "headlineLead": "Agentic",
+    "headlineGlitch": "Shift",
+    "subtitle": "naar professionele agentic product engineering"
+  },
+
+  "lede": [
+    "De sectorbrede verschuiving naar <span class=\"definition\">agentic product engineering</span> brengt radicaal nieuwe organisaties voort. De meeste leiders hebben nog niet doorgrond hoe diep dit gaat. Wie dat wel heeft, loopt al voorop. En <em>de kloof tussen de besten en de rest wordt met de dag groter.</em>",
+    "Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om echte verandering te onderscheiden van <span class=\"amber\">middelmaat en marketing</span>, definiëren we <span class=\"definition\"><strong>professionele</strong> agentic product engineering</span> als een reeks zichtbare verschuivingen in organisatieontwerp: in hoe het werk van product engineering daadwerkelijk gebeurt."
+  ],
+
+  "sectionHead": "<span class=\"lite\">Naar</span> professionele agentic product engineering <span class=\"lite\">op</span> organisatieniveau",
+
+  "qaHead": "Wat nu?",
+
+  "shifts": [
+    {
+      "from": "features",
+      "to": "systemen",
+      "note": "Product engineers leveren niet langer losse features, maar bouwen agentic systemen — zelfverbeterende loops die intentie omzetten in werkende oplossingen."
+    },
+    {
+      "from": "poortwachten",
+      "to": "vangrails",
+      "note": "Product engineers inspecteren kwaliteit niet langer achteraf, maar bouwen die in het systeem in, via goed ontworpen agentic harnassen."
+    },
+    {
+      "from": "specialisten",
+      "to": "vakmensen",
+      "note": "Product engineers verschuiven van smalle, lopendebandspecialisten naar end-to-end vakmensen — waarbij AI de specialismegaten in realtime opvult en hen begeleidt naar nieuwe domeinen en vaardigheden."
+    },
+    {
+      "from": "tussenpersonen",
+      "to": "gebruikers",
+      "note": "Geen doorgeefspel meer via manager-tussenpersonen, geen wegkwijnen meer in de kelder — product engineers gaan naar nul afstand tot klanten en gebruikers, om uit de eerste hand in te leven, te analyseren en te synthetiseren."
+    },
+    {
+      "from": "output",
+      "to": "uitkomsten",
+      "note": "Product engineers worden niet langer afgerekend op output, maar nemen de uitkomsten zelf in handen en sturen ze aan — afwijkingen aanvoelen en voortdurend bijsturen."
+    }
+  ],
+
+  "qa": [
+    {
+      "q": "Een nieuw manifest?",
+      "a": "Het is misschien <span class=\"amber\">te vroeg om manifesten te schrijven</span>, want de grond beweegt nog — maar we willen de sterke veranderingen erkennen die we nu al in de hele sector zien, het duidelijkst bij de koplopers."
+    },
+    {
+      "q": "Wat betekent dit voor organisatieleiders?",
+      "a": "Terwijl het coderen nu wordt geautomatiseerd en tot routine wordt, ondergaat het vak van product engineering een grote heruitvinding — enkel mogelijk door uitgesproken menselijke eigenschappen: <span class=\"definition\">de drang naar perfectie</span>, <span class=\"definition\">onbegrensde creativiteit</span> en <span class=\"definition\">rijke co-creatie</span>. <strong>De taak van elke organisatie en elke leider is omgevingen te ontwerpen die <span class=\"definition\">de menselijke intelligentie</span> naar deze nieuwe hoogten tillen.</strong>"
+    },
+    {
+      "q": "Wil je bijdragen?",
+      "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Stel verbeteringen voor</a>. Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie."
+    }
+  ],
+
+  "foot": {
+    "by": "gemaakt en onderhouden door",
+    "cta": "community en meetups in münchen"
+  }
+}
