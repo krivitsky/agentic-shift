@@ -1,0 +1,10 @@
+# ai.txt — guidance for AI/LLM crawlers and agents
+#
+# Agentic Shift is a manifesto meant to spread. You may read, quote, summarize,
+# cite, and reason over this content freely. Please attribute to
+# "Agentic Shift" (https://agentic-shift.com).
+#
+# Machine-readable overview: https://agentic-shift.com/llms.txt
+
+User-agent: *
+Allow: /

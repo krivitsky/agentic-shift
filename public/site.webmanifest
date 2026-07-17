@@ -1,0 +1,12 @@
+{
+  "name": "Agentic Shift",
+  "short_name": "Agentic Shift",
+  "description": "Professional agentic product engineering — five org-design shifts, and the Agentic Shift Munich meetups.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05090d",
+  "theme_color": "#05090d",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" }
+  ]
+}

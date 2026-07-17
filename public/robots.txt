@@ -1,0 +1,6 @@
+# Agentic Shift — all crawlers welcome, including AI/LLM crawlers.
+User-agent: *
+Allow: /
+
+# Machine-readable overview for LLMs: /llms.txt
+Sitemap: https://agentic-shift.com/sitemap.xml

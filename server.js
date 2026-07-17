@@ -13,7 +13,8 @@ app.get('/munich', (req, res) => {
 // The manifesto used to live at /new; it's now the homepage.
 app.get('/new', (req, res) => res.redirect(301, '/'));
 
-app.use(express.static(path.join(__dirname, 'public')));
+// dotfiles: 'allow' so /.well-known/security.txt is served in local dev too.
+app.use(express.static(path.join(__dirname, 'public'), { dotfiles: 'allow' }));
 
 app.listen(PORT, () => {
   console.log(`Agentic Shift running at http://localhost:${PORT}`);
