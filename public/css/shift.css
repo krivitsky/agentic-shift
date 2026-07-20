@@ -471,7 +471,7 @@ body::before {
 }
 
 .lede {
-  font-size: clamp(19px, 2.1vw, 26px);
+  font-size: clamp(18px, 1.95vw, 22px);
   line-height: 1.55;
   color: #d3dee5;
   letter-spacing: -0.01em;
@@ -545,7 +545,7 @@ body::before {
    page, so it reads as a real heading, not a tiny mono label. */
 .section-head {
   font-family: var(--font-sans);
-  font-size: clamp(22px, 3.2vw, 40px);
+  font-size: clamp(21px, 2.7vw, 31px);
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.15;
@@ -602,7 +602,7 @@ body::before {
 
 .shift .n {
   font-family: var(--font-mono);
-  font-size: clamp(22px, 2.6vw, 32px);
+  font-size: clamp(20px, 2.2vw, 27px);
   font-weight: 500;
   color: var(--teal);
   line-height: 1.1;
@@ -620,7 +620,7 @@ body::before {
   display: flex;
   align-items: baseline;
   gap: clamp(12px, 1.6vw, 22px);
-  font-size: clamp(26px, 3.6vw, 44px);
+  font-size: clamp(24px, 3vw, 36px);
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.05;
