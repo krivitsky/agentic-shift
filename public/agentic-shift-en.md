@@ -25,7 +25,7 @@ Product engineers shift from being measured by output to owning and driving outc
 
 **The first two shifts cover the technical aspects** — they draw on the conclusions of the [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
 
-**The other three shifts create the structural conditions** that put that technology to work and amplify its impact — they draw on the org-design of [10X ORG](https://10xorg.com/).
+**The other three shifts create the structural conditions** that put that technology to work and amplify its impact — they draw on the adaptive org topology of [10X ORG](https://10xorg.com/).
 
 **Technical and structural shifts form one system**: they enable and reinforce one another, and cannot be managed in isolation.
 

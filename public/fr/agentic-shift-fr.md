@@ -25,7 +25,7 @@ Les ingénieurs produit ne sont plus mesurés à leur production mais s'appropri
 
 **Les deux premiers basculements couvrent les aspects techniques** — ils s'appuient sur les conclusions de l'[Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
 
-**Les trois autres créent les conditions structurelles** qui mettent cette technologie au travail et en amplifient l'impact — ils s'appuient sur le design organisationnel de [10X ORG](https://10xorg.com/).
+**Les trois autres créent les conditions structurelles** qui mettent cette technologie au travail et en amplifient l'impact — ils s'appuient sur la topologie organisationnelle adaptative de [10X ORG](https://10xorg.com/).
 
 **Les basculements techniques et structurels forment un seul système** : ils se rendent possibles et se renforcent mutuellement, et ne peuvent être gérés isolément.
 

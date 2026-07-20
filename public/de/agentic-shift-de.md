@@ -25,7 +25,7 @@ Product Engineers werden nicht länger am Output gemessen, sondern verantworten 
 
 **Die ersten beiden Verschiebungen decken die technischen Aspekte ab** — sie stützen sich auf die Schlussfolgerungen des [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
 
-**Die anderen drei schaffen die strukturellen Voraussetzungen**, die diese Technologie zur Wirkung bringen und ihren Einfluss verstärken — sie stützen sich auf das Org-Design von [10X ORG](https://10xorg.com/).
+**Die anderen drei schaffen die strukturellen Voraussetzungen**, die diese Technologie zur Wirkung bringen und ihren Einfluss verstärken — sie stützen sich auf die adaptive Org-Topologie von [10X ORG](https://10xorg.com/).
 
 **Technische und strukturelle Verschiebungen bilden ein System**: Sie ermöglichen und verstärken einander und lassen sich nicht isoliert steuern.
 

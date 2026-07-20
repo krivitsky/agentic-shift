@@ -25,7 +25,7 @@ Product engineers worden niet langer afgerekend op output, maar nemen de uitkoms
 
 **De eerste twee verschuivingen dekken de technische aspecten** — ze bouwen voort op de conclusies van de [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
 
-**De andere drie scheppen de structurele voorwaarden** die die technologie aan het werk zetten en haar impact versterken — ze bouwen voort op het org-design van [10X ORG](https://10xorg.com/).
+**De andere drie scheppen de structurele voorwaarden** die die technologie aan het werk zetten en haar impact versterken — ze bouwen voort op de adaptieve org-topologie van [10X ORG](https://10xorg.com/).
 
 **Technische en structurele verschuivingen vormen één systeem**: ze maken elkaar mogelijk en versterken elkaar, en kunnen niet los van elkaar worden beheerd.
 

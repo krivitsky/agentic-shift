@@ -25,7 +25,7 @@ Os engenheiros de produto deixam de ser medidos pela produção e passam a assum
 
 **As duas primeiras mudanças cobrem os aspetos técnicos** — baseiam-se nas conclusões do [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
 
-**As outras três criam as condições estruturais** que põem essa tecnologia a trabalhar e amplificam o seu impacto — baseiam-se no design organizacional do [10X ORG](https://10xorg.com/).
+**As outras três criam as condições estruturais** que põem essa tecnologia a trabalhar e amplificam o seu impacto — baseiam-se na topologia organizacional adaptativa do [10X ORG](https://10xorg.com/).
 
 **As mudanças técnicas e estruturais formam um só sistema**: possibilitam-se e reforçam-se mutuamente e não podem ser geridas isoladamente.
 

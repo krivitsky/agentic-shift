@@ -21,7 +21,7 @@ To help these ideas spread, and to set a bar high enough to tell real change fro
 
 The first two shifts cover the technical aspects — they draw on the conclusions of the Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
 
-The other three shifts create the structural conditions that put that technology to work and amplify its impact — they draw on the org-design of 10X ORG (https://10xorg.com/).
+The other three shifts create the structural conditions that put that technology to work and amplify its impact — they draw on the adaptive org topology of 10X ORG (https://10xorg.com/).
 
 Technical and structural shifts form one system: they enable and reinforce one another, and cannot be managed in isolation.
 
@@ -49,7 +49,7 @@ Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu leg
 
 Die ersten beiden Verschiebungen decken die technischen Aspekte ab — sie stützen sich auf die Schlussfolgerungen des Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
 
-Die anderen drei schaffen die strukturellen Voraussetzungen, die diese Technologie zur Wirkung bringen und ihren Einfluss verstärken — sie stützen sich auf das Org-Design von 10X ORG (https://10xorg.com/).
+Die anderen drei schaffen die strukturellen Voraussetzungen, die diese Technologie zur Wirkung bringen und ihren Einfluss verstärken — sie stützen sich auf die adaptive Org-Topologie von 10X ORG (https://10xorg.com/).
 
 Technische und strukturelle Verschiebungen bilden ein System: Sie ermöglichen und verstärken einander und lassen sich nicht isoliert steuern.
 
@@ -77,7 +77,7 @@ Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om ech
 
 De eerste twee verschuivingen dekken de technische aspecten — ze bouwen voort op de conclusies van de Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
 
-De andere drie scheppen de structurele voorwaarden die die technologie aan het werk zetten en haar impact versterken — ze bouwen voort op het org-design van 10X ORG (https://10xorg.com/).
+De andere drie scheppen de structurele voorwaarden die die technologie aan het werk zetten en haar impact versterken — ze bouwen voort op de adaptieve org-topologie van 10X ORG (https://10xorg.com/).
 
 Technische en structurele verschuivingen vormen één systeem: ze maken elkaar mogelijk en versterken elkaar, en kunnen niet los van elkaar worden beheerd.
 
@@ -105,7 +105,7 @@ Pour aider ces idées à se répandre, et pour placer la barre assez haut pour d
 
 Les deux premiers basculements couvrent les aspects techniques — ils s'appuient sur les conclusions de l'Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
 
-Les trois autres créent les conditions structurelles qui mettent cette technologie au travail et en amplifient l'impact — ils s'appuient sur le design organisationnel de 10X ORG (https://10xorg.com/).
+Les trois autres créent les conditions structurelles qui mettent cette technologie au travail et en amplifient l'impact — ils s'appuient sur la topologie organisationnelle adaptative de 10X ORG (https://10xorg.com/).
 
 Les basculements techniques et structurels forment un seul système : ils se rendent possibles et se renforcent mutuellement, et ne peuvent être gérés isolément.
 
@@ -133,7 +133,7 @@ Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da di
 
 I primi due spostamenti coprono gli aspetti tecnici — attingono alle conclusioni dell'Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
 
-Gli altri tre creano le condizioni strutturali che mettono al lavoro quella tecnologia e ne amplificano l'impatto — attingono al design organizzativo di 10X ORG (https://10xorg.com/).
+Gli altri tre creano le condizioni strutturali che mettono al lavoro quella tecnologia e ne amplificano l'impatto — attingono alla topologia organizzativa adattiva di 10X ORG (https://10xorg.com/).
 
 Gli spostamenti tecnici e strutturali formano un solo sistema: si abilitano e si rafforzano a vicenda e non possono essere gestiti isolatamente.
 
@@ -161,7 +161,7 @@ Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante a
 
 Los dos primeros cambios cubren los aspectos técnicos — se basan en las conclusiones de la Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
 
-Los otros tres crean las condiciones estructurales que ponen esa tecnología a trabajar y amplifican su impacto — se basan en el diseño organizativo de 10X ORG (https://10xorg.com/).
+Los otros tres crean las condiciones estructurales que ponen esa tecnología a trabajar y amplifican su impacto — se basan en la topología organizativa adaptativa de 10X ORG (https://10xorg.com/).
 
 Los cambios técnicos y estructurales forman un solo sistema: se habilitan y refuerzan mutuamente y no pueden gestionarse de forma aislada.
 
@@ -189,7 +189,7 @@ Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficien
 
 As duas primeiras mudanças cobrem os aspetos técnicos — baseiam-se nas conclusões do Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
 
-As outras três criam as condições estruturais que põem essa tecnologia a trabalhar e amplificam o seu impacto — baseiam-se no design organizacional do 10X ORG (https://10xorg.com/).
+As outras três criam as condições estruturais que põem essa tecnologia a trabalhar e amplificam o seu impacto — baseiam-se na topologia organizacional adaptativa do 10X ORG (https://10xorg.com/).
 
 As mudanças técnicas e estruturais formam um só sistema: possibilitam-se e reforçam-se mutuamente e não podem ser geridas isoladamente.
 
@@ -217,7 +217,7 @@ As mudanças técnicas e estruturais formam um só sistema: possibilitam-se e re
 
 Перші два зрушення охоплюють технічні аспекти — вони спираються на висновки Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
 
-Інші три створюють структурні умови, які приводять цю технологію в дію та посилюють її вплив — вони спираються на організаційний дизайн 10X ORG (https://10xorg.com/).
+Інші три створюють структурні умови, які приводять цю технологію в дію та посилюють її вплив — вони спираються на адаптивну організаційну топологію 10X ORG (https://10xorg.com/).
 
 Технічні та структурні зрушення утворюють єдину систему: вони уможливлюють і підсилюють одне одного й не можуть керуватися ізольовано.
 
@@ -245,7 +245,7 @@ As mudanças técnicas e estruturais formam um só sistema: possibilitam-se e re
 
 Первые два сдвига охватывают технические аспекты — они опираются на выводы Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
 
-Остальные три создают структурные условия, которые приводят эту технологию в действие и усиливают её влияние — они опираются на организационный дизайн 10X ORG (https://10xorg.com/).
+Остальные три создают структурные условия, которые приводят эту технологию в действие и усиливают её влияние — они опираются на адаптивную организационную топологию 10X ORG (https://10xorg.com/).
 
 Технические и структурные сдвиги образуют единую систему: они усиливают и подкрепляют друг друга и не могут управляться по отдельности.
 
@@ -273,7 +273,7 @@ As mudanças técnicas e estruturais formam um só sistema: possibilitam-se e re
 
 前两项转变涵盖技术层面——它们借鉴了 Agentic Engineer's Field Guide (https://agentic-engineering.guide/) 的结论。
 
-其余三项创造结构性条件，让这项技术发挥作用并放大其影响——它们借鉴了 10X ORG (https://10xorg.com/) 的组织设计。
+其余三项创造结构性条件，让这项技术发挥作用并放大其影响——它们借鉴了 10X ORG (https://10xorg.com/) 的自适应组织拓扑。
 
 技术转变与结构转变构成同一个系统：二者相互赋能、相互强化，无法孤立地加以管理。
 
@@ -301,7 +301,7 @@ As mudanças técnicas e estruturais formam um só sistema: possibilitam-se e re
 
 最初の二つの転換は技術的側面を担います——Agentic Engineer's Field Guide (https://agentic-engineering.guide/) の結論に基づいています。
 
-残る三つは構造的条件を生み出し、その技術を機能させ、その影響を増幅します——10X ORG (https://10xorg.com/) の組織デザインに基づいています。
+残る三つは構造的条件を生み出し、その技術を機能させ、その影響を増幅します——10X ORG (https://10xorg.com/) の適応的な組織トポロジーに基づいています。
 
 技術的転換と構造的転換は一つのシステムを成します：互いに可能にし、強め合い、切り離して扱うことはできません。
 

@@ -25,7 +25,7 @@ Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fann
 
 **I primi due spostamenti coprono gli aspetti tecnici** — attingono alle conclusioni dell'[Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
 
-**Gli altri tre creano le condizioni strutturali** che mettono al lavoro quella tecnologia e ne amplificano l'impatto — attingono al design organizzativo di [10X ORG](https://10xorg.com/).
+**Gli altri tre creano le condizioni strutturali** che mettono al lavoro quella tecnologia e ne amplificano l'impatto — attingono alla topologia organizzativa adattiva di [10X ORG](https://10xorg.com/).
 
 **Gli spostamenti tecnici e strutturali formano un solo sistema**: si abilitano e si rafforzano a vicenda e non possono essere gestiti isolatamente.
 
