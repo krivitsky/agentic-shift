@@ -56,14 +56,20 @@
     }
   ],
 
+  "systemNote": [
+    "<strong>I primi due spostamenti coprono gli <span class=\"definition\">aspetti tecnici</span></strong> — attingono alle conclusioni dell'<a href=\"https://agentic-engineering.guide/\" target=\"_blank\" rel=\"noopener\">Agentic Engineer's Field Guide</a>.",
+    "<strong>Gli altri tre creano le <span class=\"definition\">condizioni strutturali</span></strong> che mettono al lavoro quella tecnologia e ne amplificano l'impatto — attingono al design organizzativo di <a href=\"https://10xorg.com/\" target=\"_blank\" rel=\"noopener\">10X ORG</a>.",
+    "<strong>Gli spostamenti tecnici e strutturali formano <span class=\"definition\">un solo sistema</span></strong>: si abilitano e si rafforzano a vicenda e non possono essere gestiti isolatamente."
+  ],
+
   "qa": [
     {
-      "q": "Un nuovo manifesto?",
+      "q": "Verso un nuovo manifesto?",
       "a": "Forse è <span class=\"amber\">troppo presto per scrivere manifesti</span>, perché il terreno è ancora in movimento — ma vogliamo riconoscere i forti cambiamenti che già osserviamo in tutto il settore, più visibili tra i pionieri."
     },
     {
       "q": "Cosa significa per i leader delle organizzazioni?",
-      "a": "Mentre la programmazione viene ormai automatizzata e resa routine, l'artigianato dell'ingegneria di prodotto vive una grande reinvenzione — resa possibile solo da tratti profondamente umani: <span class=\"definition\">la spinta alla perfezione</span>, <span class=\"definition\">la creatività senza limiti</span> e <span class=\"definition\">una ricca co-creazione</span>. <strong>Il compito di ogni organizzazione e di ogni leader è progettare ambienti che <span class=\"definition\">elevino l'intelligenza umana</span> a queste nuove altezze.</strong>"
+      "a": "Mentre la programmazione viene ormai automatizzata e resa routine, l'artigianato dell'ingegneria di prodotto vive una grande reinvenzione — resa possibile solo da tratti profondamente umani: <span class=\"definition\">la spinta alla perfezione</span>, <span class=\"definition\">la creatività senza limiti</span> e <span class=\"definition\">una ricca co-creazione</span>. Il compito di ogni organizzazione e di ogni leader è progettare ambienti che <span class=\"definition\">elevino l'intelligenza umana</span> a queste nuove altezze."
     },
     {
       "q": "Vuoi contribuire?",

@@ -23,13 +23,19 @@ Kein Stille-Post-Spiel mehr über Manager als Stellvertreter, kein Sitzen im Kel
 ### 05. Output → Wirkung (output → outcomes)
 Product Engineers werden nicht länger am Output gemessen, sondern verantworten und treiben Wirkung selbst — sie spüren Abweichungen und korrigieren den Kurs fortlaufend.
 
+**Die ersten beiden Verschiebungen decken die technischen Aspekte ab** — sie stützen sich auf die Schlussfolgerungen des [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
+
+**Die anderen drei schaffen die strukturellen Voraussetzungen**, die diese Technologie zur Wirkung bringen und ihren Einfluss verstärken — sie stützen sich auf das Org-Design von [10X ORG](https://10xorg.com/).
+
+**Technische und strukturelle Verschiebungen bilden ein System**: Sie ermöglichen und verstärken einander und lassen sich nicht isoliert steuern.
+
 ## Was kommt als Nächstes
 
-### Ein neues Manifest?
+### Auf dem Weg zu einem neuen Manifest?
 Es ist vielleicht *zu früh für Manifeste*, denn der Boden bewegt sich noch — aber wir möchten die starken Veränderungen anerkennen, die wir bereits in der ganzen Branche beobachten, am deutlichsten bei den Vorreitern.
 
 ### Was bedeutet das für Führungskräfte?
-Während das Programmieren automatisiert und zur Routine wird, erlebt das Handwerk des Product Engineering eine grundlegende Neuerfindung — möglich allein durch zutiefst menschliche Eigenschaften: **den Drang zur Perfektion**, **grenzenlose Kreativität** und **reiche Ko-Kreation**. **Die Aufgabe jeder Organisation und jeder Führungskraft ist es, Umgebungen zu gestalten, die menschliche Intelligenz auf diese neue Höhe heben.**
+Während das Programmieren automatisiert und zur Routine wird, erlebt das Handwerk des Product Engineering eine grundlegende Neuerfindung — möglich allein durch zutiefst menschliche Eigenschaften: **den Drang zur Perfektion**, **grenzenlose Kreativität** und **reiche Ko-Kreation**. Die Aufgabe jeder Organisation und jeder Führungskraft ist es, Umgebungen zu gestalten, die **menschliche Intelligenz** auf diese neue Höhe heben.
 
 ### Mitmachen?
 [Verbesserungen vorschlagen](https://github.com/krivitsky/agentic-shift). Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen.

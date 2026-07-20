@@ -56,14 +56,20 @@
     }
   ],
 
+  "systemNote": [
+    "<strong>The first two shifts cover the <span class=\"definition\">technical aspects</span></strong> — they draw on the conclusions of the <a href=\"https://agentic-engineering.guide/\" target=\"_blank\" rel=\"noopener\">Agentic Engineer's Field Guide</a>.",
+    "<strong>The other three shifts create the <span class=\"definition\">structural conditions</span></strong> that put that technology to work and amplify its impact — they draw on the org-design of <a href=\"https://10xorg.com/\" target=\"_blank\" rel=\"noopener\">10X ORG</a>.",
+    "<strong>Technical and structural shifts form <span class=\"definition\">one system</span></strong>: they enable and reinforce one another, and cannot be managed in isolation."
+  ],
+
   "qa": [
     {
-      "q": "A new manifesto?",
+      "q": "Towards a new manifesto?",
       "a": "It is perhaps <span class=\"amber\">too early to write manifestos</span>, as the ground is still shifting — but we'd like to acknowledge the strong changes we're already observing throughout the industry, most visible among the frontrunners."
     },
     {
       "q": "What does it mean for org leaders?",
-      "a": "While coding is now being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: <span class=\"definition\">the drive for perfection</span>, <span class=\"definition\">unlimited creativity</span>, and <span class=\"definition\">rich co-creation</span>. <strong>The task of every organization and every leader is to design environments that <span class=\"definition\">elevate human intelligence</span> to these new heights.</strong>"
+      "a": "While coding is now being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: <span class=\"definition\">the drive for perfection</span>, <span class=\"definition\">unlimited creativity</span>, and <span class=\"definition\">rich co-creation</span>. The task of every organization and every leader is to design environments that <span class=\"definition\">elevate human intelligence</span> to these new heights."
     },
     {
       "q": "Want to contribute?",

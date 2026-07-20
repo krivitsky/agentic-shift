@@ -23,13 +23,19 @@ Basta con il gioco del telefono senza fili attraverso manager-intermediari, bast
 ### 05. produzione → risultati (output → outcomes)
 Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dei risultati guidandoli in prima persona — percependo le deviazioni e correggendo la rotta di continuo.
 
+**I primi due spostamenti coprono gli aspetti tecnici** — attingono alle conclusioni dell'[Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
+
+**Gli altri tre creano le condizioni strutturali** che mettono al lavoro quella tecnologia e ne amplificano l'impatto — attingono al design organizzativo di [10X ORG](https://10xorg.com/).
+
+**Gli spostamenti tecnici e strutturali formano un solo sistema**: si abilitano e si rafforzano a vicenda e non possono essere gestiti isolatamente.
+
 ## E adesso?
 
-### Un nuovo manifesto?
+### Verso un nuovo manifesto?
 Forse è *troppo presto per scrivere manifesti*, perché il terreno è ancora in movimento — ma vogliamo riconoscere i forti cambiamenti che già osserviamo in tutto il settore, più visibili tra i pionieri.
 
 ### Cosa significa per i leader delle organizzazioni?
-Mentre la programmazione viene ormai automatizzata e resa routine, l'artigianato dell'ingegneria di prodotto vive una grande reinvenzione — resa possibile solo da tratti profondamente umani: **la spinta alla perfezione**, **la creatività senza limiti** e **una ricca co-creazione**. **Il compito di ogni organizzazione e di ogni leader è progettare ambienti che elevino l'intelligenza umana a queste nuove altezze.**
+Mentre la programmazione viene ormai automatizzata e resa routine, l'artigianato dell'ingegneria di prodotto vive una grande reinvenzione — resa possibile solo da tratti profondamente umani: **la spinta alla perfezione**, **la creatività senza limiti** e **una ricca co-creazione**. Il compito di ogni organizzazione e di ogni leader è progettare ambienti che **elevino l'intelligenza umana** a queste nuove altezze.
 
 ### Vuoi contribuire?
 [Proponi miglioramenti](https://github.com/krivitsky/agentic-shift). Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione.

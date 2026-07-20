@@ -23,13 +23,19 @@ Se acabó el teléfono escacharrado a través de mánagers intermediarios, se ac
 ### 05. producción → resultados (output → outcomes)
 Los ingenieros de producto dejan de medirse por su producción y pasan a asumir e impulsar los resultados ellos mismos — detectando desviaciones y corrigiendo el rumbo de forma continua.
 
+**Los dos primeros cambios cubren los aspectos técnicos** — se basan en las conclusiones de la [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
+
+**Los otros tres crean las condiciones estructurales** que ponen esa tecnología a trabajar y amplifican su impacto — se basan en el diseño organizativo de [10X ORG](https://10xorg.com/).
+
+**Los cambios técnicos y estructurales forman un solo sistema**: se habilitan y refuerzan mutuamente y no pueden gestionarse de forma aislada.
+
 ## ¿Qué sigue?
 
-### ¿Un nuevo manifiesto?
+### ¿Hacia un nuevo manifiesto?
 Quizá sea *demasiado pronto para escribir manifiestos*, pues el terreno aún se mueve — pero queremos reconocer los profundos cambios que ya observamos en toda la industria, sobre todo entre los pioneros.
 
 ### ¿Qué significa para los líderes de organización?
-Mientras la programación se automatiza y se vuelve rutina, el oficio de la ingeniería de producto vive una gran reinvención — posible solo gracias a rasgos profundamente humanos: **el afán de perfección**, **la creatividad sin límites** y **una rica co-creación**. **La tarea de cada organización y cada líder es diseñar entornos que eleven la inteligencia humana a estas nuevas cotas.**
+Mientras la programación se automatiza y se vuelve rutina, el oficio de la ingeniería de producto vive una gran reinvención — posible solo gracias a rasgos profundamente humanos: **el afán de perfección**, **la creatividad sin límites** y **una rica co-creación**. La tarea de cada organización y cada líder es diseñar entornos que **eleven la inteligencia humana** a estas nuevas cotas.
 
 ### ¿Quieres contribuir?
 [Propón mejoras](https://github.com/krivitsky/agentic-shift). Comparte esta página. Pon estas ideas a trabajar en tu organización.

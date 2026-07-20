@@ -23,13 +23,19 @@ Geen doorgeefspel meer via manager-tussenpersonen, geen wegkwijnen meer in de ke
 ### 05. output → uitkomsten (output → outcomes)
 Product engineers worden niet langer afgerekend op output, maar nemen de uitkomsten zelf in handen en sturen ze aan — afwijkingen aanvoelen en voortdurend bijsturen.
 
+**De eerste twee verschuivingen dekken de technische aspecten** — ze bouwen voort op de conclusies van de [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
+
+**De andere drie scheppen de structurele voorwaarden** die die technologie aan het werk zetten en haar impact versterken — ze bouwen voort op het org-design van [10X ORG](https://10xorg.com/).
+
+**Technische en structurele verschuivingen vormen één systeem**: ze maken elkaar mogelijk en versterken elkaar, en kunnen niet los van elkaar worden beheerd.
+
 ## Wat nu?
 
-### Een nieuw manifest?
+### Op weg naar een nieuw manifest?
 Het is misschien *te vroeg om manifesten te schrijven*, want de grond beweegt nog — maar we willen de sterke veranderingen erkennen die we nu al in de hele sector zien, het duidelijkst bij de koplopers.
 
 ### Wat betekent dit voor organisatieleiders?
-Terwijl het coderen nu wordt geautomatiseerd en tot routine wordt, ondergaat het vak van product engineering een grote heruitvinding — enkel mogelijk door uitgesproken menselijke eigenschappen: **de drang naar perfectie**, **onbegrensde creativiteit** en **rijke co-creatie**. **De taak van elke organisatie en elke leider is omgevingen te ontwerpen die de menselijke intelligentie naar deze nieuwe hoogten tillen.**
+Terwijl het coderen nu wordt geautomatiseerd en tot routine wordt, ondergaat het vak van product engineering een grote heruitvinding — enkel mogelijk door uitgesproken menselijke eigenschappen: **de drang naar perfectie**, **onbegrensde creativiteit** en **rijke co-creatie**. De taak van elke organisatie en elke leider is omgevingen te ontwerpen die **de menselijke intelligentie** naar deze nieuwe hoogten tillen.
 
 ### Wil je bijdragen?
 [Stel verbeteringen voor](https://github.com/krivitsky/agentic-shift). Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie.

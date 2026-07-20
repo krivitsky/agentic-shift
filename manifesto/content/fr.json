@@ -56,14 +56,20 @@
     }
   ],
 
+  "systemNote": [
+    "<strong>Les deux premiers basculements couvrent les <span class=\"definition\">aspects techniques</span></strong> — ils s'appuient sur les conclusions de l'<a href=\"https://agentic-engineering.guide/\" target=\"_blank\" rel=\"noopener\">Agentic Engineer's Field Guide</a>.",
+    "<strong>Les trois autres créent les <span class=\"definition\">conditions structurelles</span></strong> qui mettent cette technologie au travail et en amplifient l'impact — ils s'appuient sur le design organisationnel de <a href=\"https://10xorg.com/\" target=\"_blank\" rel=\"noopener\">10X ORG</a>.",
+    "<strong>Les basculements techniques et structurels forment <span class=\"definition\">un seul système</span></strong> : ils se rendent possibles et se renforcent mutuellement, et ne peuvent être gérés isolément."
+  ],
+
   "qa": [
     {
-      "q": "Un nouveau manifeste ?",
+      "q": "Vers un nouveau manifeste ?",
       "a": "Il est peut-être <span class=\"amber\">trop tôt pour écrire des manifestes</span>, car le sol bouge encore — mais nous tenons à reconnaître les changements profonds que nous observons déjà dans toute l'industrie, surtout chez les pionniers."
     },
     {
       "q": "Qu'est-ce que cela signifie pour les dirigeants ?",
-      "a": "Alors que le code est désormais automatisé et routinisé, l'artisanat de l'ingénierie produit connaît une réinvention majeure — rendue possible uniquement par des traits profondément humains : <span class=\"definition\">la quête de la perfection</span>, <span class=\"definition\">la créativité sans limites</span> et <span class=\"definition\">une co-création riche</span>. <strong>La tâche de chaque organisation et de chaque dirigeant est de concevoir des environnements qui <span class=\"definition\">élèvent l'intelligence humaine</span> à ces nouveaux sommets.</strong>"
+      "a": "Alors que le code est désormais automatisé et routinisé, l'artisanat de l'ingénierie produit connaît une réinvention majeure — rendue possible uniquement par des traits profondément humains : <span class=\"definition\">la quête de la perfection</span>, <span class=\"definition\">la créativité sans limites</span> et <span class=\"definition\">une co-création riche</span>. La tâche de chaque organisation et de chaque dirigeant est de concevoir des environnements qui <span class=\"definition\">élèvent l'intelligence humaine</span> à ces nouveaux sommets."
     },
     {
       "q": "Envie de contribuer ?",

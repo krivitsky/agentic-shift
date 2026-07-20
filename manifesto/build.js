@@ -178,6 +178,12 @@ function render(c) {
     SECTION_HEAD: c.sectionHead,
     QA_HEAD: esc(c.qaHead),
     SHIFTS: shifts(c),
+    // Synthesis note below the shifts (links the two technical + three
+    // structural shifts to the Field Guide). Array of paragraphs; absent until
+    // a language adds it.
+    SYSTEM_NOTE: c.systemNote
+      ? [].concat(c.systemNote).map((p) => `    <p class="lede system-note">${p}</p>`).join('\n')
+      : '',
     QA: qa(c),
     FOOT_BY: esc(c.foot.by),
     FOOT_CTA: esc(c.foot.cta),
@@ -231,6 +237,7 @@ function llmsLang(c, heading) {
     const gloss = c.lang === 'en' ? '' : ` (${en.shifts[i].from} → ${en.shifts[i].to})`;
     L.push(`${i + 1}. ${s.from} → ${s.to}${gloss} — ${plain(s.note)}`);
   });
+  if (c.systemNote) [].concat(c.systemNote).forEach((p) => L.push('', plain(p)));
   L.push('', `### ${plain(c.qaHead)}`, '');
   c.qa.forEach((x) => L.push(`**${plain(x.q)}** ${plain(x.a)}`, ''));
   while (L[L.length - 1] === '') L.pop();
@@ -258,6 +265,7 @@ function readmeBlock() {
     L.push(`### ${i + 1}. ${s.from} → ${s.to}`);
     L.push(inline(s.note, { emphasis: 'md', links: 'md' }), '');
   });
+  if (en.systemNote) [].concat(en.systemNote).forEach((p) => L.push(inline(p, { emphasis: 'md', links: 'md' }), ''));
   L.push(`## ${inline(en.qaHead, { emphasis: 'md', links: 'md' })}`, '');
   en.qa.forEach((x) => {
     L.push(`> **${inline(x.q, { emphasis: 'md', links: 'md' })}**`, '');
@@ -284,6 +292,7 @@ function manifestoMd(c) {
     L.push(`### ${n}. ${s.from} → ${s.to}${gloss}`);
     L.push(md(s.note), '');
   });
+  if (c.systemNote) [].concat(c.systemNote).forEach((p) => L.push(md(p), ''));
   L.push(`## ${md(c.qaHead)}`, '');
   c.qa.forEach((x) => {
     L.push(`### ${md(x.q)}`);

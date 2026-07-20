@@ -23,13 +23,19 @@ Acaba a comunicação indireta por meio de gestores intermediários. Os engenhei
 ### 05. produção → resultados (output → outcomes)
 Os engenheiros de produto deixam de ser medidos pela produção e passam a assumir e a conduzir os resultados eles próprios — detetando desvios e corrigindo o rumo continuamente.
 
+**As duas primeiras mudanças cobrem os aspetos técnicos** — baseiam-se nas conclusões do [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
+
+**As outras três criam as condições estruturais** que põem essa tecnologia a trabalhar e amplificam o seu impacto — baseiam-se no design organizacional do [10X ORG](https://10xorg.com/).
+
+**As mudanças técnicas e estruturais formam um só sistema**: possibilitam-se e reforçam-se mutuamente e não podem ser geridas isoladamente.
+
 ## O que se segue
 
-### Um novo manifesto?
+### Rumo a um novo manifesto?
 Talvez seja *cedo demais para escrever manifestos*, pois o terreno ainda se move — mas queremos reconhecer as fortes mudanças que já observamos em toda a indústria, sobretudo entre os pioneiros.
 
 ### O que significa para os líderes de organização?
-Enquanto a programação é agora automatizada e rotinizada, o ofício da engenharia de produto vive uma grande reinvenção — possível apenas graças a traços profundamente humanos: **o desejo de perfeição**, **a criatividade sem limites** e **uma rica cocriação**. **A tarefa de cada organização e de cada líder é conceber ambientes que elevem a inteligência humana a estes novos patamares.**
+Enquanto a programação é agora automatizada e rotinizada, o ofício da engenharia de produto vive uma grande reinvenção — possível apenas graças a traços profundamente humanos: **o desejo de perfeição**, **a criatividade sem limites** e **uma rica cocriação**. A tarefa de cada organização e de cada líder é conceber ambientes que **elevem a inteligência humana** a estes novos patamares.
 
 ### Quer contribuir?
 [Proponha melhorias](https://github.com/krivitsky/agentic-shift). Partilhe esta página. Ponha estas ideias a trabalhar na sua organização.

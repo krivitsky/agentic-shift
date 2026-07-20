@@ -683,6 +683,14 @@ body::before {
   margin-top: clamp(40px, 6vw, 72px);
 }
 
+/* Synthesis note under the shifts — same style as the ledes above the shifts
+   (it carries the .lede class, so its link matches the body links); this only
+   adds spacing between the shift cards and the first note paragraph. Paragraph
+   gaps between note lines come from `.lede + .lede`. */
+.system-note {
+  margin-top: clamp(30px, 4.5vw, 52px);
+}
+
 /* ── Footer ──────────────────────────────────────────────────────── */
 
 .foot {

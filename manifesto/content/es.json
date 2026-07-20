@@ -56,14 +56,20 @@
     }
   ],
 
+  "systemNote": [
+    "<strong>Los dos primeros cambios cubren los <span class=\"definition\">aspectos técnicos</span></strong> — se basan en las conclusiones de la <a href=\"https://agentic-engineering.guide/\" target=\"_blank\" rel=\"noopener\">Agentic Engineer's Field Guide</a>.",
+    "<strong>Los otros tres crean las <span class=\"definition\">condiciones estructurales</span></strong> que ponen esa tecnología a trabajar y amplifican su impacto — se basan en el diseño organizativo de <a href=\"https://10xorg.com/\" target=\"_blank\" rel=\"noopener\">10X ORG</a>.",
+    "<strong>Los cambios técnicos y estructurales forman <span class=\"definition\">un solo sistema</span></strong>: se habilitan y refuerzan mutuamente y no pueden gestionarse de forma aislada."
+  ],
+
   "qa": [
     {
-      "q": "¿Un nuevo manifiesto?",
+      "q": "¿Hacia un nuevo manifiesto?",
       "a": "Quizá sea <span class=\"amber\">demasiado pronto para escribir manifiestos</span>, pues el terreno aún se mueve — pero queremos reconocer los profundos cambios que ya observamos en toda la industria, sobre todo entre los pioneros."
     },
     {
       "q": "¿Qué significa para los líderes de organización?",
-      "a": "Mientras la programación se automatiza y se vuelve rutina, el oficio de la ingeniería de producto vive una gran reinvención — posible solo gracias a rasgos profundamente humanos: <span class=\"definition\">el afán de perfección</span>, <span class=\"definition\">la creatividad sin límites</span> y <span class=\"definition\">una rica co-creación</span>. <strong>La tarea de cada organización y cada líder es diseñar entornos que <span class=\"definition\">eleven la inteligencia humana</span> a estas nuevas cotas.</strong>"
+      "a": "Mientras la programación se automatiza y se vuelve rutina, el oficio de la ingeniería de producto vive una gran reinvención — posible solo gracias a rasgos profundamente humanos: <span class=\"definition\">el afán de perfección</span>, <span class=\"definition\">la creatividad sin límites</span> y <span class=\"definition\">una rica co-creación</span>. La tarea de cada organización y cada líder es diseñar entornos que <span class=\"definition\">eleven la inteligencia humana</span> a estas nuevas cotas."
     },
     {
       "q": "¿Quieres contribuir?",

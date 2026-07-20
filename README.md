@@ -29,15 +29,21 @@ No more telephone game through manager-proxies, no more sitting in the basement 
 ### 5. output → outcomes
 Product engineers shift from being measured by output to owning and driving outcomes themselves — sensing drift and correcting course continuously.
 
+**The first two shifts cover the technical aspects** — they draw on the conclusions of the [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
+
+**The other three shifts create the structural conditions** that put that technology to work and amplify its impact — they draw on the org-design of [10X ORG](https://10xorg.com/).
+
+**Technical and structural shifts form one system**: they enable and reinforce one another, and cannot be managed in isolation.
+
 ## What's Next?
 
-> **A new manifesto?**
+> **Towards a new manifesto?**
 
 It is perhaps *too early to write manifestos*, as the ground is still shifting — but we'd like to acknowledge the strong changes we're already observing throughout the industry, most visible among the frontrunners.
 
 > **What does it mean for org leaders?**
 
-While coding is now being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: **the drive for perfection**, **unlimited creativity**, and **rich co-creation**. **The task of every organization and every leader is to design environments that elevate human intelligence to these new heights.**
+While coding is now being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: **the drive for perfection**, **unlimited creativity**, and **rich co-creation**. The task of every organization and every leader is to design environments that **elevate human intelligence** to these new heights.
 
 > **Want to contribute?**
 

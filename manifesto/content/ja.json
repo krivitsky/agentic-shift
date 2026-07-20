@@ -56,14 +56,20 @@
     }
   ],
 
+  "systemNote": [
+    "<strong>最初の二つの転換は<span class=\"definition\">技術的側面</span>を担います</strong>——<a href=\"https://agentic-engineering.guide/\" target=\"_blank\" rel=\"noopener\">Agentic Engineer's Field Guide</a> の結論に基づいています。",
+    "<strong>残る三つは<span class=\"definition\">構造的条件</span>を生み出し</strong>、その技術を機能させ、その影響を増幅します——<a href=\"https://10xorg.com/\" target=\"_blank\" rel=\"noopener\">10X ORG</a> の組織デザインに基づいています。",
+    "<strong>技術的転換と構造的転換は<span class=\"definition\">一つのシステム</span>を成します</strong>：互いに可能にし、強め合い、切り離して扱うことはできません。"
+  ],
+
   "qa": [
     {
-      "q": "新しいマニフェスト？",
+      "q": "新しいマニフェストへ？",
       "a": "地面がまだ動いている以上、<span class=\"amber\">マニフェストを書くにはまだ早い</span>のかもしれません——それでも私たちは、業界全体ですでに観察している力強い変化を、とりわけ最前線を走る者たちのあいだで、認めておきたいのです。"
     },
     {
       "q": "組織のリーダーにとって何を意味するのか？",
-      "a": "コーディングが自動化され定型化されていく一方で、プロダクトエンジニアリングの技芸は大きな再発明を遂げつつあります——それを可能にするのは、際立って人間的な資質だけです：<span class=\"definition\">完璧さへの渇望</span>、<span class=\"definition\">限りない創造性</span>、そして<span class=\"definition\">豊かな共創</span>。<strong>あらゆる組織とあらゆるリーダーの務めは、<span class=\"definition\">人間の知性</span>をこの新たな高みへと引き上げる環境を設計することです。</strong>"
+      "a": "コーディングが自動化され定型化されていく一方で、プロダクトエンジニアリングの技芸は大きな再発明を遂げつつあります——それを可能にするのは、際立って人間的な資質だけです：<span class=\"definition\">完璧さへの渇望</span>、<span class=\"definition\">限りない創造性</span>、そして<span class=\"definition\">豊かな共創</span>。あらゆる組織とあらゆるリーダーの務めは、<span class=\"definition\">人間の知性</span>をこの新たな高みへと引き上げる環境を設計することです。"
     },
     {
       "q": "貢献したいですか？",

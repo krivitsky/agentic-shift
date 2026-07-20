@@ -23,13 +23,19 @@ Fini le téléphone arabe via des managers intermédiaires, fini l'isolement au 
 ### 05. production → résultats (output → outcomes)
 Les ingénieurs produit ne sont plus mesurés à leur production mais s'approprient et pilotent eux-mêmes les résultats — détectant les dérives et corrigeant le cap en continu.
 
+**Les deux premiers basculements couvrent les aspects techniques** — ils s'appuient sur les conclusions de l'[Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
+
+**Les trois autres créent les conditions structurelles** qui mettent cette technologie au travail et en amplifient l'impact — ils s'appuient sur le design organisationnel de [10X ORG](https://10xorg.com/).
+
+**Les basculements techniques et structurels forment un seul système** : ils se rendent possibles et se renforcent mutuellement, et ne peuvent être gérés isolément.
+
 ## Et maintenant ?
 
-### Un nouveau manifeste ?
+### Vers un nouveau manifeste ?
 Il est peut-être *trop tôt pour écrire des manifestes*, car le sol bouge encore — mais nous tenons à reconnaître les changements profonds que nous observons déjà dans toute l'industrie, surtout chez les pionniers.
 
 ### Qu'est-ce que cela signifie pour les dirigeants ?
-Alors que le code est désormais automatisé et routinisé, l'artisanat de l'ingénierie produit connaît une réinvention majeure — rendue possible uniquement par des traits profondément humains : **la quête de la perfection**, **la créativité sans limites** et **une co-création riche**. **La tâche de chaque organisation et de chaque dirigeant est de concevoir des environnements qui élèvent l'intelligence humaine à ces nouveaux sommets.**
+Alors que le code est désormais automatisé et routinisé, l'artisanat de l'ingénierie produit connaît une réinvention majeure — rendue possible uniquement par des traits profondément humains : **la quête de la perfection**, **la créativité sans limites** et **une co-création riche**. La tâche de chaque organisation et de chaque dirigeant est de concevoir des environnements qui **élèvent l'intelligence humaine** à ces nouveaux sommets.
 
 ### Envie de contribuer ?
 [Proposez des améliorations](https://github.com/krivitsky/agentic-shift). Partagez cette page. Mettez ces idées en œuvre dans votre organisation.
