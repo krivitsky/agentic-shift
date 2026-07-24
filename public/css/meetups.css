@@ -68,11 +68,11 @@
 .mu-main {
   max-width: 1440px;
   margin: 0 auto;
-  padding: clamp(28px, 5vw, 60px) clamp(26px, 4vw, 52px) clamp(30px, 4vw, 48px);
+  padding: clamp(6px, 1.2vw, 14px) clamp(26px, 4vw, 52px) clamp(30px, 4vw, 48px);
 }
 
 .mu-section { margin-top: clamp(52px, 7vw, 84px); }
-.mu-section:first-child { margin-top: clamp(16px, 3vw, 34px); }
+.mu-section:first-child { margin-top: clamp(10px, 1.6vw, 18px); }
 
 /* Smaller mono section label (distinct from the big .section-head) */
 .eyebrow-label {
@@ -100,6 +100,12 @@
   border: 1px solid rgba(137, 180, 190, 0.14);
   border-radius: 16px;
   background: linear-gradient(150deg, rgba(18, 40, 52, 0.72), rgba(7, 13, 18, 0.6));
+}
+
+/* Active / highlighted card — manifesto-green frame + glow */
+.card.active {
+  border-color: rgba(61, 220, 154, 0.55);
+  box-shadow: 0 0 0 1px rgba(61, 220, 154, 0.18), 0 14px 46px -24px rgba(61, 220, 154, 0.5);
 }
 
 /* ── Next meetup — feature block ─────────────────────────────────── */

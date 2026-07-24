@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Agentic Shift · Community — Join the Community</title>
+  <meta name="description" content="Join the Agentic Shift community — sign up to hear about meetups, agentic engineering, and its organizational impact.">
+  <meta name="keywords" content="Agentic Shift community, agentic engineering, join community, agentic software, meetup signup, Alexey Krivitsky, Martin Westphal">
+  <meta name="author" content="Alexey Krivitsky, Martin Westphal">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#05090d">
+  <link rel="canonical" href="/community">
+  <link rel="alternate" type="text/markdown" href="/llms.txt" title="Agentic Shift — machine-readable (LLM) version">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Agentic Shift">
+  <meta property="og:title" content="Agentic Shift · Community — Join the Community">
+  <meta property="og:description" content="Sign up to hear about meetups, agentic engineering, and its organizational impact.">
+  <meta property="og:url" content="/community">
+  <meta property="og:image" content="/images/event1-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Agentic Shift · Community — Join the Community">
+  <meta name="twitter:description" content="Sign up to hear about meetups, agentic engineering, and its organizational impact.">
+  <meta name="twitter:image" content="/images/event1-cover.jpg">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Agentic Shift Community",
+    "description": "A professional learning community for senior builders and leaders — live monthly sessions on agentic engineering and its organizational impact.",
+    "url": "/community",
+    "founder": [
+      { "@type": "Person", "name": "Alexey Krivitsky", "url": "https://www.linkedin.com/in/alexeykrivitsky/" },
+      { "@type": "Person", "name": "Martin Westphal", "url": "https://www.linkedin.com/in/ade-anima/" }
+    ],
+    "sameAs": [ "https://luma.com/calendar/cal-MbzaaU1GVYLS8TM" ],
+    "makesOffer": {
+      "@type": "Offer",
+      "name": "Founding membership",
+      "category": "Membership",
+      "price": "49.90",
+      "priceCurrency": "EUR",
+      "description": "Two live online learning sessions a month, every second week on Thursdays, 12:00–14:00 CET. By application only."
+    }
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/shift.css">
+  <link rel="stylesheet" href="/css/meetups.css">
+
+  <style>
+    /* Hero tweaks — scoped to this page only (munich/home untouched) */
+    .hero.mu { min-height: auto; padding-bottom: clamp(30px, 4vw, 48px); }
+    .hero.mu .subtitle { max-width: none; white-space: nowrap; }
+    .headline .ns { color: var(--teal); }
+    @media (max-width: 780px) {
+      .hero.mu .subtitle { white-space: normal; }
+    }
+
+    /* Tally embed — hosted on our domain, auto-resized by embed.js */
+    .signup {
+      padding: clamp(20px, 2.6vw, 32px) clamp(20px, 3vw, 40px) clamp(8px, 1.2vw, 16px);
+    }
+    .signup .copy { max-width: 60ch; margin-bottom: clamp(12px, 2vw, 22px); }
+    .signup .copy h3 {
+      font-size: clamp(20px, 2.2vw, 28px);
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+    .signup .copy p { color: #a7b6bf; font-size: 15px; line-height: 1.6; }
+    /* Light surface behind the form — the Tally form is light-themed, so it
+       stays fully legible inside our dark card. */
+    .form-surface {
+      background: #fff;
+      border-radius: 12px;
+      padding: clamp(14px, 2vw, 26px) clamp(8px, 1.4vw, 18px);
+      overflow: hidden;
+    }
+    .form-surface iframe {
+      width: 100%;
+      min-height: 320px;
+      border: 0;
+      display: block;
+    }
+
+    /* Membership / price block */
+    .membership {
+      display: flex;
+      align-items: stretch;
+      gap: clamp(22px, 3.4vw, 44px);
+      padding: clamp(24px, 3vw, 36px);
+      flex-wrap: wrap;
+      margin-bottom: clamp(16px, 2vw, 24px);
+    }
+    .membership .price { display: flex; flex-direction: column; justify-content: center; }
+    .membership .amount {
+      font-size: clamp(42px, 6vw, 66px);
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .membership .amount .was {
+      font-size: 0.5em;
+      font-weight: 600;
+      color: var(--muted);
+      text-decoration: line-through;
+      text-decoration-thickness: 2px;
+      margin-right: 14px;
+      letter-spacing: -0.02em;
+    }
+    .membership .amount .per {
+      font-size: 0.34em;
+      font-weight: 500;
+      color: var(--muted);
+      margin-left: 10px;
+      letter-spacing: 0;
+    }
+    .membership .founding-note {
+      flex-basis: 100%;
+      margin-top: clamp(6px, 1vw, 10px);
+      padding-top: clamp(16px, 2vw, 22px);
+      border-top: 1px solid rgba(137, 180, 190, 0.14);
+      color: #dbe6ec;
+      font-size: clamp(14px, 1.4vw, 15.5px);
+      line-height: 1.55;
+    }
+    .membership .founding-note .k {
+      color: var(--amber);
+      font-family: var(--font-mono);
+      margin-right: 10px;
+    }
+    .membership .founding-note strong { color: var(--teal); font-weight: 600; }
+    .membership .price-note {
+      font-family: var(--font-mono);
+      font-size: 12.5px;
+      color: var(--muted);
+      margin-top: 12px;
+      letter-spacing: 0.01em;
+    }
+    .membership .divider { width: 1px; background: rgba(137, 180, 190, 0.16); align-self: stretch; }
+    .membership .what {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 11px;
+      flex: 1;
+      min-width: 240px;
+    }
+    .membership .what .line {
+      color: #c6d2d9;
+      font-size: clamp(15px, 1.5vw, 17px);
+      line-height: 1.4;
+    }
+    .membership .what .line .k {
+      color: var(--teal);
+      font-family: var(--font-mono);
+      margin-right: 10px;
+    }
+    @media (max-width: 620px) {
+      .membership .divider { display: none; }
+    }
+    /* Founding card — green tint (green frame comes from the shared .card.active) */
+    .membership.founding {
+      background: linear-gradient(150deg, rgba(20, 52, 44, 0.66), rgba(7, 16, 14, 0.58));
+    }
+    .membership.founding .divider { background: rgba(61, 220, 154, 0.24); }
+    .membership.founding .founding-note { border-top-color: rgba(61, 220, 154, 0.24); }
+    .membership .open-tag {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink, #05090d);
+      background: var(--teal);
+      border-radius: 999px;
+      padding: 3px 11px;
+      margin-bottom: 14px;
+      font-weight: 600;
+    }
+
+    /* Secondary (standard, next intake) membership card — dimmed */
+    .membership.standard {
+      background: linear-gradient(150deg, rgba(18, 40, 52, 0.42), rgba(7, 13, 18, 0.5));
+    }
+    .membership.standard .amount { color: #b3c2ca; }
+    .membership.standard .what .line { color: #9fb0b8; }
+    .membership.standard .what .line .k { color: var(--muted); }
+    .membership .when {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--amber);
+      border: 1px solid rgba(232, 163, 61, 0.35);
+      border-radius: 999px;
+      padding: 3px 10px;
+      margin-bottom: 14px;
+    }
+  </style>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJW53LEJGS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SJW53LEJGS');
+  </script>
+</head>
+<body>
+
+  <!-- ── Top bar ──────────────────────────────────────────────────── -->
+  <nav class="topbar">
+    <a class="crumb" href="/"><span aria-hidden="true">←</span> <span class="home">agentic shift</span> / community</a>
+  </nav>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────── -->
+  <header class="hero mu">
+
+    <div class="eyebrow">
+      <span class="dot" aria-hidden="true"></span>
+      <span class="lead">agentic engineering</span>
+      <span class="sep">·</span>
+      <span class="tail">organizational impact</span>
+    </div>
+
+    <div class="hero-mid">
+      <h1 class="headline">Agentic Shift <span class="ns">Community</span></h1>
+      <div class="hero-rule" aria-hidden="true"></div>
+      <p class="subtitle">a professional learning community for senior builders and leaders</p>
+    </div>
+  </header>
+
+  <main class="mu-main">
+
+    <!-- ── Sign up ───────────────────────────────────────────────── -->
+    <section class="mu-section">
+      <div class="eyebrow-label"><span class="slash">/</span> membership</div>
+      <div class="card membership founding active">
+        <div class="price">
+          <span class="open-tag">first intake · founding</span>
+          <div class="amount"><span class="was">€99.90</span>€49.90<span class="per">/ month</span></div>
+          <div class="price-note">founding rate · excl. VAT if applicable</div>
+        </div>
+        <div class="divider" aria-hidden="true"></div>
+        <div class="what">
+          <div class="line"><span class="k">&gt;</span>two live online learning sessions a month</div>
+          <div class="line"><span class="k">&gt;</span>every second week · thursdays, 12:00–14:00 CET</div>
+          <div class="line"><span class="k">&gt;</span>learn from invited experts — and from each other</div>
+          <div class="line"><span class="k">&gt;</span>stay ahead of the curve in agentic engineering and its org-design impact</div>
+          <div class="line"><span class="k">&gt;</span>practitioner-to-practitioner · no vendors, no consultants, no pitches</div>
+          <div class="line"><span class="k">&gt;</span>a room of senior builders and leaders, by application only</div>
+        </div>
+        <div class="founding-note">
+          <span class="k">&gt;</span>first intake closes <strong>12 august</strong> — lock the €49.90 founding rate for as long as you stay.
+        </div>
+      </div>
+      <div class="card membership standard">
+        <div class="price">
+          <span class="when">next intake</span>
+          <div class="amount">€99.90<span class="per">/ month</span></div>
+          <div class="price-note">standard rate · excl. VAT if applicable</div>
+        </div>
+        <div class="divider" aria-hidden="true"></div>
+        <div class="what">
+          <div class="line"><span class="k">&gt;</span>the standard rate from the second intake on</div>
+        </div>
+      </div>
+      <div class="card signup active">
+        <div class="copy">
+          <h3>be part of it — submit your candidacy now</h3>
+          <p>
+            a curated community for senior builders and leaders. participation is selective —
+            every application is reviewed, and we accept candidates based on their fit. tell us
+            about yourself below.
+          </p>
+        </div>
+
+        <!-- Tally embed -->
+        <div class="form-surface">
+          <iframe
+            data-tally-src="https://tally.so/embed/PdWJb1?alignLeft=1&hideTitle=1&dynamicHeight=1"
+            loading="lazy"
+            width="100%"
+            height="320"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            title="Agentic Shift — join the community"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Also ──────────────────────────────────────────────────── -->
+    <section class="mu-section">
+      <div class="eyebrow-label"><span class="slash">/</span> more</div>
+      <div class="card community">
+        <div class="copy">
+          <h3>keep the conversation going</h3>
+          <p>
+            our whatsapp community is where we share announcements, swap notes on agentic engineering,
+            and figure out what to dig into next. and every month we meet in munich.
+          </p>
+        </div>
+        <div class="btn-row" style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a class="btn btn-ghost" href="https://chat.whatsapp.com/LWXcPnewWO52UC52kTibFT?utm_source=luma" target="_blank" rel="noopener">join whatsapp ↗</a>
+          <a class="btn btn-ghost" href="/munich">munich meetups →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Footer ────────────────────────────────────────────────── -->
+    <footer class="foot">
+      <div class="foot-line">
+        <span>2026, <a href="/">agentic-shift.com</a></span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span class="by">created and maintained by <a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">Alexey Krivitsky</a></span>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="mailto:alexey@krivitsky.com">alexey@krivitsky.com</a>
+      </div>
+      <a class="foot-cta" href="/">home</a>
+      <div class="foot-meta">
+        <a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">github</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/sitemap.xml">sitemap</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/llms.txt">llms.txt</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/ai.txt">ai.txt</a>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Tally embed runtime — auto-resizes the iframe to its content height -->
+  <script>
+    var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(null==d.querySelector('script[src="'+w+'"]')){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
+  </script>
+
+</body>
+</html>
