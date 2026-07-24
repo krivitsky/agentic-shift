@@ -49,6 +49,10 @@ While coding is now being automated and routinized, the craft of product enginee
 
 [Propose improvements](https://github.com/krivitsky/agentic-shift). Share this page. Put these ideas to work in your organization.
 
+> **Want to go deeper?**
+
+[Join the professional learning community](/community) — a curated, application-only space for senior builders and leaders working on these shifts together.
+
 <!-- MANIFESTO:END -->
 
 Live at **[agentic-shift.com](https://agentic-shift.com)**.

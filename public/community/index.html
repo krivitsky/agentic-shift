@@ -114,6 +114,10 @@
     .topic em { color: var(--teal); font-style: normal; }
     .topic.more { border-style: dashed; background: none; color: var(--muted); font-style: italic; }
     .topic.more:hover { color: #c6d2d9; transform: none; }
+    .topic.topic-link { border-color: rgba(61, 220, 154, 0.2); }
+    .topic.topic-link a { color: var(--teal); text-decoration: none; display: block; }
+    .topic.topic-link:hover { border-color: rgba(61, 220, 154, 0.6); }
+    .topic.topic-link:hover a { text-decoration: underline; }
 
     /* Tally embed — hosted on our domain, auto-resized by embed.js */
     .signup {
@@ -306,6 +310,7 @@
       <div class="topics">
         <div class="track">
           <div class="topic-list">
+            <div class="topic topic-link"><a href="/" target="_blank" rel="noopener noreferrer">discovering and applying agentic shifts</a></div>
             <div class="topic">orchestrating agent fleets — subagents &amp; worktrees</div>
             <div class="topic">the bottleneck moved — from code to judgment</div>
             <div class="topic">spec-driven development — keeping agents on-spec</div>

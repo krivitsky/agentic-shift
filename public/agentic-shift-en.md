@@ -40,6 +40,9 @@ While coding is now being automated and routinized, the craft of product enginee
 ### Want to contribute?
 [Propose improvements](https://github.com/krivitsky/agentic-shift). Share this page. Put these ideas to work in your organization.
 
+### Want to go deeper?
+[Join the professional learning community](/community) — a curated, application-only space for senior builders and leaders working on these shifts together.
+
 ---
 
 created and maintained by [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/

@@ -33,6 +33,8 @@ Technical and structural shifts form one system: they enable and reinforce one a
 
 **Want to contribute?** Propose improvements (https://github.com/krivitsky/agentic-shift). Share this page. Put these ideas to work in your organization.
 
+**Want to go deeper?** Join the professional learning community (/community) — a curated, application-only space for senior builders and leaders working on these shifts together.
+
 ## Manifesto (Deutsch)
 
 Der branchenweite Wandel hin zu agentic product engineering bringt radikal neue Organisationen hervor. Die meisten Führungskräfte haben noch nicht erfasst, wie tief das reicht. Wer es erfasst hat, ist der Kurve bereits voraus. Und die Kluft zwischen den Besten und dem Rest wird täglich größer.
