@@ -66,6 +66,11 @@
     .hero.mu { min-height: auto; padding-bottom: clamp(30px, 4vw, 48px); }
     .hero.mu .subtitle { max-width: none; white-space: nowrap; }
     .headline .ns { color: var(--teal); }
+    .subtitle .shine {
+      color: #fff;
+      font-weight: 700;
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.28), 0 0 44px rgba(61, 220, 154, 0.3);
+    }
     @media (max-width: 780px) {
       .hero.mu .subtitle { white-space: normal; }
     }
@@ -114,7 +119,7 @@
     .signup {
       padding: clamp(20px, 2.6vw, 32px) clamp(20px, 3vw, 40px) clamp(8px, 1.2vw, 16px);
     }
-    .signup .copy { max-width: 60ch; margin-bottom: clamp(12px, 2vw, 22px); }
+    .signup .copy { max-width: 74ch; margin-bottom: clamp(12px, 2vw, 22px); }
     .signup .copy h3 {
       font-size: clamp(20px, 2.2vw, 28px);
       font-weight: 600;
@@ -286,7 +291,7 @@
     <div class="hero-mid">
       <h1 class="headline">Agentic Shift <span class="ns">Community</span></h1>
       <div class="hero-rule" aria-hidden="true"></div>
-      <p class="subtitle">a professional learning community for senior builders and leaders</p>
+      <p class="subtitle">a professional <span class="shine">learning community</span> for senior builders and leaders</p>
     </div>
   </header>
 
@@ -296,7 +301,7 @@
     <section class="mu-section">
       <div class="eyebrow-label"><span class="slash">/</span> hot_topics</div>
       <p class="topics-lede">
-        we go deep on what actually moves the needle — and let community members discuss what matters most:
+        we go deep on what actually moves the needle —<br>and let community members discuss what matters most:
       </p>
       <div class="topics">
         <div class="track">
@@ -351,13 +356,18 @@
           <div class="line"><span class="k">&gt;</span>the standard rate from the second intake on</div>
         </div>
       </div>
+    </section>
+
+    <!-- ── Apply ─────────────────────────────────────────────────── -->
+    <section class="mu-section">
+      <div class="eyebrow-label"><span class="slash">/</span> application_is_open</div>
       <div class="card signup active">
         <div class="copy">
           <h3>be part of it — submit your candidacy now</h3>
           <p>
-            a curated community for senior builders and leaders. participation is selective —
-            every application is reviewed, and we accept candidates based on their fit. tell us
-            about yourself below.
+            a curated community for senior builders and leaders.<br>
+            participation is selective — every application is reviewed.<br>
+            tell us about yourself and why you believe you must join:
           </p>
         </div>
 
