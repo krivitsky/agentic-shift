@@ -74,6 +74,10 @@
     {
       "q": "貢献したいですか？",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">改善を提案してください</a>。このページを共有してください。これらの考えを、あなたの組織で実践してください。"
+    },
+    {
+      "q": "さらに深く学びたいですか？",
+      "a": "<a href=\"/community\">プロフェッショナルな学びのコミュニティに参加する</a>——選抜制で、申し込みによってのみ参加できる場です。これらの転換に共に取り組む senior builders &amp; leaders のために。"
     }
   ],
 

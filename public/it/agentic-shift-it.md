@@ -40,6 +40,9 @@ Mentre la programmazione viene ormai automatizzata e resa routine, l'artigianato
 ### Vuoi contribuire?
 [Proponi miglioramenti](https://github.com/krivitsky/agentic-shift). Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione.
 
+### Vuoi approfondire?
+[Unisciti alla community di apprendimento professionale](/community) — uno spazio curato, ad accesso solo su candidatura, per senior builders & leaders che lavorano insieme su questi spostamenti.
+
 ---
 
 creato e mantenuto da [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/it/

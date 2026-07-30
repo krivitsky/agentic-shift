@@ -40,6 +40,9 @@ Alors que le code est désormais automatisé et routinisé, l'artisanat de l'ing
 ### Envie de contribuer ?
 [Proposez des améliorations](https://github.com/krivitsky/agentic-shift). Partagez cette page. Mettez ces idées en œuvre dans votre organisation.
 
+### Envie d'aller plus loin ?
+[Rejoignez la communauté d'apprentissage professionnelle](/community) — un espace sélectif, accessible uniquement sur candidature, pour les senior builders & leaders qui travaillent ensemble sur ces basculements.
+
 ---
 
 créé et maintenu par [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/fr/

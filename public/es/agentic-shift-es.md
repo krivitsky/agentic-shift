@@ -40,6 +40,9 @@ Mientras la programación se automatiza y se vuelve rutina, el oficio de la inge
 ### ¿Quieres contribuir?
 [Propón mejoras](https://github.com/krivitsky/agentic-shift). Comparte esta página. Pon estas ideas a trabajar en tu organización.
 
+### ¿Quieres profundizar?
+[Únete a la comunidad de aprendizaje profesional](/community) — un espacio curado, con acceso solo por candidatura, para senior builders & leaders que trabajan juntos en estos cambios.
+
 ---
 
 creado y mantenido por [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/es/

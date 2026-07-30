@@ -40,6 +40,9 @@ Während das Programmieren automatisiert und zur Routine wird, erlebt das Handwe
 ### Mitmachen?
 [Verbesserungen vorschlagen](https://github.com/krivitsky/agentic-shift). Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen.
 
+### Tiefer einsteigen?
+[Der professionellen Lern-Community beitreten](/community) — ein kuratierter Raum, Zugang nur auf Bewerbung, für senior builders & leaders, die gemeinsam an diesen Verschiebungen arbeiten.
+
 ---
 
 erstellt und gepflegt von [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/de/

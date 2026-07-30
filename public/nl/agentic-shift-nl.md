@@ -40,6 +40,9 @@ Terwijl het coderen nu wordt geautomatiseerd en tot routine wordt, ondergaat het
 ### Wil je bijdragen?
 [Stel verbeteringen voor](https://github.com/krivitsky/agentic-shift). Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie.
 
+### Wil je de diepte in?
+[Sluit je aan bij de professionele leercommunity](/community) — een zorgvuldig samengestelde ruimte, alleen op aanmelding, voor senior builders & leaders die samen aan deze verschuivingen werken.
+
 ---
 
 gemaakt en onderhouden door [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/nl/

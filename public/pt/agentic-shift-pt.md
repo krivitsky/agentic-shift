@@ -40,6 +40,9 @@ Enquanto a programação é agora automatizada e rotinizada, o ofício da engenh
 ### Quer contribuir?
 [Proponha melhorias](https://github.com/krivitsky/agentic-shift). Partilhe esta página. Ponha estas ideias a trabalhar na sua organização.
 
+### Quer ir mais fundo?
+[Junte-se à comunidade de aprendizagem profissional](/community) — um espaço curado, com acesso apenas por candidatura, para senior builders & leaders que trabalham juntos nestas mudanças.
+
 ---
 
 criado e mantido por [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/pt/

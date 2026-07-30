@@ -74,6 +74,10 @@
     {
       "q": "Mitmachen?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Verbesserungen vorschlagen</a>. Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen."
+    },
+    {
+      "q": "Tiefer einsteigen?",
+      "a": "<a href=\"/community\">Der professionellen Lern-Community beitreten</a> — ein kuratierter Raum, Zugang nur auf Bewerbung, für senior builders &amp; leaders, die gemeinsam an diesen Verschiebungen arbeiten."
     }
   ],
 

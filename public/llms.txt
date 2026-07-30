@@ -63,6 +63,8 @@ Technische und strukturelle Verschiebungen bilden ein System: Sie ermöglichen u
 
 **Mitmachen?** Verbesserungen vorschlagen (https://github.com/krivitsky/agentic-shift). Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen.
 
+**Tiefer einsteigen?** Der professionellen Lern-Community beitreten (/community) — ein kuratierter Raum, Zugang nur auf Bewerbung, für senior builders & leaders, die gemeinsam an diesen Verschiebungen arbeiten.
+
 ## Manifesto (Nederlands)
 
 De sectorbrede verschuiving naar agentic product engineering brengt radicaal nieuwe organisaties voort. De meeste leiders hebben nog niet doorgrond hoe diep dit gaat. Wie dat wel heeft, loopt al voorop. En de kloof tussen de besten en de rest wordt met de dag groter.
@@ -90,6 +92,8 @@ Technische en structurele verschuivingen vormen één systeem: ze maken elkaar m
 **Wat betekent dit voor organisatieleiders?** Terwijl het coderen nu wordt geautomatiseerd en tot routine wordt, ondergaat het vak van product engineering een grote heruitvinding — enkel mogelijk door uitgesproken menselijke eigenschappen: de drang naar perfectie, onbegrensde creativiteit en rijke co-creatie. De taak van elke organisatie en elke leider is omgevingen te ontwerpen die de menselijke intelligentie naar deze nieuwe hoogten tillen.
 
 **Wil je bijdragen?** Stel verbeteringen voor (https://github.com/krivitsky/agentic-shift). Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie.
+
+**Wil je de diepte in?** Sluit je aan bij de professionele leercommunity (/community) — een zorgvuldig samengestelde ruimte, alleen op aanmelding, voor senior builders & leaders die samen aan deze verschuivingen werken.
 
 ## Manifesto (Français)
 
@@ -119,6 +123,8 @@ Les basculements techniques et structurels forment un seul système : ils se ren
 
 **Envie de contribuer ?** Proposez des améliorations (https://github.com/krivitsky/agentic-shift). Partagez cette page. Mettez ces idées en œuvre dans votre organisation.
 
+**Envie d'aller plus loin ?** Rejoignez la communauté d'apprentissage professionnelle (/community) — un espace sélectif, accessible uniquement sur candidature, pour les senior builders & leaders qui travaillent ensemble sur ces basculements.
+
 ## Manifesto (Italiano)
 
 Lo spostamento dell'intero settore verso l'ingegneria di prodotto agentica sta producendo organizzazioni radicalmente nuove. La maggior parte dei leader non ha ancora colto quanto sia profondo. Chi l'ha colto è già avanti. E il divario tra i migliori e gli altri si allarga ogni giorno.
@@ -146,6 +152,8 @@ Gli spostamenti tecnici e strutturali formano un solo sistema: si abilitano e si
 **Cosa significa per i leader delle organizzazioni?** Mentre la programmazione viene ormai automatizzata e resa routine, l'artigianato dell'ingegneria di prodotto vive una grande reinvenzione — resa possibile solo da tratti profondamente umani: la spinta alla perfezione, la creatività senza limiti e una ricca co-creazione. Il compito di ogni organizzazione e di ogni leader è progettare ambienti che elevino l'intelligenza umana a queste nuove altezze.
 
 **Vuoi contribuire?** Proponi miglioramenti (https://github.com/krivitsky/agentic-shift). Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione.
+
+**Vuoi approfondire?** Unisciti alla community di apprendimento professionale (/community) — uno spazio curato, ad accesso solo su candidatura, per senior builders & leaders che lavorano insieme su questi spostamenti.
 
 ## Manifesto (Español)
 
@@ -175,6 +183,8 @@ Los cambios técnicos y estructurales forman un solo sistema: se habilitan y ref
 
 **¿Quieres contribuir?** Propón mejoras (https://github.com/krivitsky/agentic-shift). Comparte esta página. Pon estas ideas a trabajar en tu organización.
 
+**¿Quieres profundizar?** Únete a la comunidad de aprendizaje profesional (/community) — un espacio curado, con acceso solo por candidatura, para senior builders & leaders que trabajan juntos en estos cambios.
+
 ## Manifesto (Português)
 
 A mudança de toda a indústria rumo à engenharia de produto agêntica está a produzir organizações radicalmente novas. A maioria dos líderes ainda não percebeu quão profundo isto é. Quem percebeu já está à frente. E a distância entre os melhores e os restantes aumenta a cada dia.
@@ -202,6 +212,8 @@ As mudanças técnicas e estruturais formam um só sistema: possibilitam-se e re
 **O que significa para os líderes de organização?** Enquanto a programação é agora automatizada e rotinizada, o ofício da engenharia de produto vive uma grande reinvenção — possível apenas graças a traços profundamente humanos: o desejo de perfeição, a criatividade sem limites e uma rica cocriação. A tarefa de cada organização e de cada líder é conceber ambientes que elevem a inteligência humana a estes novos patamares.
 
 **Quer contribuir?** Proponha melhorias (https://github.com/krivitsky/agentic-shift). Partilhe esta página. Ponha estas ideias a trabalhar na sua organização.
+
+**Quer ir mais fundo?** Junte-se à comunidade de aprendizagem profissional (/community) — um espaço curado, com acesso apenas por candidatura, para senior builders & leaders que trabalham juntos nestas mudanças.
 
 ## Manifesto (Čeština)
 
@@ -261,6 +273,8 @@ Technické a strukturální posuny tvoří jeden systém: navzájem se umožňuj
 
 **Хочете долучитися?** Запропонуйте покращення (https://github.com/krivitsky/agentic-shift). Поділіться цією сторінкою. Застосуйте ці ідеї у своїй організації.
 
+**Хочете зануритися глибше?** Приєднуйтеся до професійної навчальної спільноти (/community) — ретельно відібраний простір із доступом лише за заявкою, для senior builders & leaders, які разом працюють над цими зрушеннями.
+
 ## Manifesto (Русский)
 
 Общеотраслевой переход к агентной продуктовой инженерии порождает радикально новые организации. Большинство руководителей ещё не осознали, насколько это глубоко. Те, кто осознал, уже впереди. И разрыв между лучшими и остальными растёт с каждым днём.
@@ -288,6 +302,8 @@ Technické a strukturální posuny tvoří jeden systém: navzájem se umožňuj
 **Что это значит для руководителей организаций?** Пока программирование автоматизируется и превращается в рутину, ремесло продуктовой инженерии переживает крупное переосмысление — возможное лишь благодаря сугубо человеческим качествам: стремлению к совершенству, безграничному творчеству и богатому сотворчеству. Задача каждой организации и каждого лидера — проектировать среды, которые поднимают человеческий интеллект на эти новые высоты.
 
 **Хотите внести вклад?** Предложите улучшения (https://github.com/krivitsky/agentic-shift). Поделитесь этой страницей. Примените эти идеи в своей организации.
+
+**Хотите копнуть глубже?** Присоединяйтесь к профессиональному обучающему сообществу (/community) — отобранное пространство с доступом только по заявке, для senior builders & leaders, которые вместе работают над этими сдвигами.
 
 ## Manifesto (中文)
 
@@ -317,6 +333,8 @@ Technické a strukturální posuny tvoří jeden systém: navzájem se umožňuj
 
 **想要参与贡献？** 提出改进建议 (https://github.com/krivitsky/agentic-shift)。分享此页。把这些理念在你的组织中付诸实践。
 
+**想更深入？** 加入专业学习社区 (/community)——精心筛选的空间，仅通过申请加入，面向共同推进这些转变的 senior builders & leaders。
+
 ## Manifesto (日本語)
 
 エージェンティック・プロダクトエンジニアリングへの業界全体の転換が、根本的に新しい組織を生み出しています。ほとんどのリーダーは、これがどれほど深いものかをまだ捉えていません。捉えた者はすでに先を行っています。そして最良の者とそれ以外との差は、日々広がっています。
@@ -344,6 +362,8 @@ Technické a strukturální posuny tvoří jeden systém: navzájem se umožňuj
 **組織のリーダーにとって何を意味するのか？** コーディングが自動化され定型化されていく一方で、プロダクトエンジニアリングの技芸は大きな再発明を遂げつつあります——それを可能にするのは、際立って人間的な資質だけです：完璧さへの渇望、限りない創造性、そして豊かな共創。あらゆる組織とあらゆるリーダーの務めは、人間の知性をこの新たな高みへと引き上げる環境を設計することです。
 
 **貢献したいですか？** 改善を提案してください (https://github.com/krivitsky/agentic-shift)。このページを共有してください。これらの考えを、あなたの組織で実践してください。
+
+**さらに深く学びたいですか？** プロフェッショナルな学びのコミュニティに参加する (/community)——選抜制で、申し込みによってのみ参加できる場です。これらの転換に共に取り組む senior builders & leaders のために。
 
 <!-- MANIFESTO:END -->
 

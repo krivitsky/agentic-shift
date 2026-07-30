@@ -40,6 +40,9 @@ _迈向专业的智能体产品工程_
 ### 想要参与贡献？
 [提出改进建议](https://github.com/krivitsky/agentic-shift)。分享此页。把这些理念在你的组织中付诸实践。
 
+### 想更深入？
+[加入专业学习社区](/community)——精心筛选的空间，仅通过申请加入，面向共同推进这些转变的 senior builders & leaders。
+
 ---
 
 创建与维护： [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/zh/

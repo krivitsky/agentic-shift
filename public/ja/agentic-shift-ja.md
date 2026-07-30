@@ -40,6 +40,9 @@ _プロフェッショナルなエージェンティック・プロダクトエ�
 ### 貢献したいですか？
 [改善を提案してください](https://github.com/krivitsky/agentic-shift)。このページを共有してください。これらの考えを、あなたの組織で実践してください。
 
+### さらに深く学びたいですか？
+[プロフェッショナルな学びのコミュニティに参加する](/community)——選抜制で、申し込みによってのみ参加できる場です。これらの転換に共に取り組む senior builders & leaders のために。
+
 ---
 
 作成・維持： [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/ja/
