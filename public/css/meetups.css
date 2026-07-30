@@ -108,6 +108,17 @@
   box-shadow: 0 0 0 1px rgba(61, 220, 154, 0.18), 0 14px 46px -24px rgba(61, 220, 154, 0.5);
 }
 
+/* ── Banner — the meetup at a glance, above everything else ──────── */
+.mu-banner {
+  margin: 0;
+  border: 1px solid rgba(137, 180, 190, 0.14);
+  border-radius: 16px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.mu-banner img { width: 100%; height: auto; display: block; }
+
 /* ── Next meetup — feature block ─────────────────────────────────── */
 .next {
   display: grid;
@@ -116,6 +127,9 @@
   align-items: center;
   padding: clamp(20px, 2.6vw, 32px);
 }
+
+/* Media slot is optional — without it the copy takes the full width. */
+.next:not(:has(.next-media)) { grid-template-columns: 1fr; }
 
 .next-media { position: relative; }
 
