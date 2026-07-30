@@ -28,7 +28,7 @@ engineering, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky and 
 
 ## Routes
 - `/` → manifesto homepage (`public/index.html`): "Agentic Shift" hero + five org-design shifts. Links to `/munich`.
-- `/de/ /nl/ /fr/ /it/ /es/ /pt/ /uk/ /ru/ /zh/ /ja/` → translated manifesto pages (10 languages; generated; see §Manifesto i18n). Language switcher at the hero bottom; hreflang + sitemap wired.
+- `/de/ /nl/ /fr/ /it/ /es/ /pt/ /cs/ /uk/ /ru/ /zh/ /ja/` → translated manifesto pages (11 languages; generated; see §Manifesto i18n). Language switcher at the hero bottom; hreflang + sitemap wired.
 - `/munich` → Munich meetups (`public/munich/index.html`): next meetup, Luma calendar embed, organizers, community, past events.
 - `/decks/*` → talk slides linked from `/munich` (Martin's PDF, Nikita's HTML deck).
 
@@ -41,10 +41,11 @@ engineering, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky and 
 - **Crawler/LLM files** in `public/` (served at site root): `robots.txt`, `sitemap.xml`, `llms.txt`, `ai.txt`, `site.webmanifest`. These use **absolute `https://agentic-shift.com` URLs** (required by their specs — the relative-only rule is `<head>`-meta only). Pages carry `<link rel="alternate" type="text/markdown" href="/llms.txt">` + `<link rel="manifest">`.
 
 ## Manifesto i18n
-- **Pipeline lives in `manifesto/`:** `content/*.json` (one per language, content only), `template.html` (markup, once), `build.js` (zero-dep Node generator). Languages: en (canonical) · de · fr · es · pt · uk · zh · ja.
+- **Pipeline lives in `manifesto/`:** `content/*.json` (one per language, content only), `template.html` (markup, once), `build.js` (zero-dep Node generator). Languages: en (canonical) · de · nl · fr · it · es · pt · cs · uk · ru · zh · ja.
 - **Edit content → `node manifesto/build.js` → generates** `public/index.html`, `public/<lang>/index.html`, `public/<lang>/agentic-shift-<lang>.md` (downloadable per-language Markdown — locale in the filename so mobile Safari saves it right even when it ignores the `download` attr; linked from the language switcher via a Markdown-mark icon + the current lang code in brackets, e.g. `[DE]`), `public/sitemap.xml`, and the `MANIFESTO`-marked regions of `README.md` + `public/llms.txt`. Generated files carry a `GENERATED … do not edit` banner (or `MANIFESTO` markers). **Never hand-edit them** — the next build overwrites.
 - Each translated page shows the localized `from → to` pair with the **canonical English pair beneath it**, sourced from `en.json` at build time (can't drift). English page shows no gloss.
-- **Adding a language:** add `content/<lang>.json`, then its entry in `LANGS`/`OG_LOCALE`/`LANGBAR_LABEL` in `build.js`, and run the build — switcher, hreflang, and sitemap update automatically. A language with no JSON is simply absent (not half-rendered).
+- **Adding a language:** add `content/<lang>.json`, then its entry in `ALL_LANGS`/`OG_LOCALE`/`LANGBAR_LABEL` in `build.js`, and run the build — switcher, hreflang, and sitemap update automatically. A language with no JSON is simply absent (not half-rendered).
+- **Language code ≠ URL path.** The filename/`lang` key is the **ISO 639-1 code** and drives `lang=`, `hreflang=`, and the `[XX]` Markdown badge — never a country code there (`hreflang="cz"` is invalid and Google drops the alternate). The **`dir` field is the public path** and is free-form: Czech is `cs` internally but ships at **`/cz/`**, the code people recognise. `build.js` derives the output directory from `dir`, so the two can differ per language.
 - **Native-reviewer corrections:** translations are first-pass drafts except where a native has reviewed. Their exact corrections are logged in `manifesto/reviews/<lang>.md` — **re-apply these if a language is ever re-translated.** So far: `pt` (guardrails + proxies note).
 
 ## Analytics
