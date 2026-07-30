@@ -389,15 +389,5 @@
 
   </main>
 
-  <script>
-    // /munich#meetup1 … #meetup3 — the browser jumps before webfonts and photos
-    // finish settling, so the target drifts up. re-align once everything's loaded.
-    addEventListener('load', function () {
-      if (!/^#[a-z][\w-]*$/i.test(location.hash)) return;
-      var el = document.querySelector(location.hash);
-      if (el) el.scrollIntoView();
-    });
-  </script>
-
 </body>
 </html>
