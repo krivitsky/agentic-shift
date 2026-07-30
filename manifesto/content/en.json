@@ -28,6 +28,25 @@
 
   "qaHead": "What's Next?",
 
+  "groups": [
+    {
+      "label": "Major technical shifts",
+      "accent": "tech",
+      "count": 2,
+      "by": "Supported by",
+      "link": "Agentic Product Engineering Guide",
+      "href": "https://agentic-engineering.guide/"
+    },
+    {
+      "label": "Major organizational shifts",
+      "accent": "org",
+      "count": 3,
+      "by": "Supported by",
+      "link": "Adaptive Topology from 10X ORG",
+      "href": "https://10xorg.com/"
+    }
+  ],
+
   "shifts": [
     {
       "from": "features",
@@ -57,9 +76,7 @@
   ],
 
   "systemNote": [
-    "<strong>The first two shifts cover the <span class=\"definition\">technical aspects</span></strong> — they draw on the conclusions of the <a href=\"https://agentic-engineering.guide/\" target=\"_blank\" rel=\"noopener\">Agentic Engineer's Field Guide</a>.",
-    "<strong>The other three shifts create the <span class=\"definition\">structural conditions</span></strong> that put that technology to work and amplify its impact — they draw on the adaptive org topology of <a href=\"https://10xorg.com/\" target=\"_blank\" rel=\"noopener\">10X ORG</a>.",
-    "<strong>Technical and structural shifts form <span class=\"definition\">one system</span></strong>: they enable and reinforce one another, and cannot be managed in isolation."
+    "<strong>The technical and the organizational shifts form <span class=\"definition\">one system</span></strong>: they enable and reinforce one another, and must not be managed in isolation."
   ],
 
   "qa": [

@@ -13,17 +13,18 @@ To help these ideas spread, and to set a bar high enough to tell real change fro
 
 ### The shifts towards professional agentic product engineering at org-level
 
+#### Major technical shifts — Supported by Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. features → systems — Product engineers stop shipping one-off features and shift to building agentic systems — self-improving loops that turn intent into working solutions.
 2. gatekeeping → guardrails — Product engineers stop inspecting for quality issues and shift to building quality into the system through well-engineered agentic harnesses.
+
+#### Major organizational shifts — Supported by Adaptive Topology from 10X ORG (https://10xorg.com/)
+
 3. specialists → craftspeople — Product engineers shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps in real time and mentoring the product engineers into new domains and skills.
 4. proxies → users — No more telephone game through manager-proxies, no more sitting in the basement — product engineers shift to zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.
 5. output → outcomes — Product engineers shift from being measured by output to owning and driving outcomes themselves — sensing drift and correcting course continuously.
 
-The first two shifts cover the technical aspects — they draw on the conclusions of the Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
-
-The other three shifts create the structural conditions that put that technology to work and amplify its impact — they draw on the adaptive org topology of 10X ORG (https://10xorg.com/).
-
-Technical and structural shifts form one system: they enable and reinforce one another, and cannot be managed in isolation.
+The technical and the organizational shifts form one system: they enable and reinforce one another, and must not be managed in isolation.
 
 ### What's Next?
 
@@ -43,17 +44,18 @@ Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu leg
 
 ### Die Verschiebungen hin zu professionellem agentic product engineering auf Org-Ebene
 
+#### Wichtigste technische Verschiebungen — Unterstützt durch Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. Features → Systeme (features → systems) — Product Engineers liefern nicht länger einzelne Features aus, sondern bauen agentische Systeme — sich selbst verbessernde Loops, die Absicht in funktionierende Lösungen verwandeln.
 2. Kontrolle → Leitplanken (gatekeeping → guardrails) — Product Engineers prüfen Qualität nicht länger im Nachhinein, sondern bauen sie über gut konstruierte agentische Harnesses direkt ins System ein.
+
+#### Wichtigste organisatorische Verschiebungen — Unterstützt durch Adaptive Topology von 10X ORG (https://10xorg.com/)
+
 3. Spezialisten → Handwerker (specialists → craftspeople) — Product Engineers wandeln sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern — KI füllt die Spezialistenlücken in Echtzeit und führt die Product Engineers in neue Domänen und Fähigkeiten ein.
 4. Stellvertreter → Nutzer (proxies → users) — Kein Stille-Post-Spiel mehr über Manager als Stellvertreter, kein Sitzen im Keller — Product Engineers gehen auf null Distanz zu Kundinnen und Nutzern, um aus erster Hand zu verstehen, zu analysieren und zu synthetisieren.
 5. Output → Wirkung (output → outcomes) — Product Engineers werden nicht länger am Output gemessen, sondern verantworten und treiben Wirkung selbst — sie spüren Abweichungen und korrigieren den Kurs fortlaufend.
 
-Die ersten beiden Verschiebungen decken die technischen Aspekte ab — sie stützen sich auf die Schlussfolgerungen des Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
-
-Die anderen drei schaffen die strukturellen Voraussetzungen, die diese Technologie zur Wirkung bringen und ihren Einfluss verstärken — sie stützen sich auf die adaptive Org-Topologie von 10X ORG (https://10xorg.com/).
-
-Technische und strukturelle Verschiebungen bilden ein System: Sie ermöglichen und verstärken einander und lassen sich nicht isoliert steuern.
+Die technischen und die organisatorischen Verschiebungen bilden ein System: Sie ermöglichen und verstärken einander und dürfen nicht isoliert gesteuert werden.
 
 ### Was kommt als Nächstes
 
@@ -73,17 +75,18 @@ Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om ech
 
 ### De verschuivingen naar professionele agentic product engineering op organisatieniveau
 
+#### Belangrijkste technische verschuivingen — Ondersteund door Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. features → systemen (features → systems) — Product engineers leveren niet langer losse features, maar bouwen agentic systemen — zelfverbeterende loops die intentie omzetten in werkende oplossingen.
 2. poortwachten → vangrails (gatekeeping → guardrails) — Product engineers inspecteren kwaliteit niet langer achteraf, maar bouwen die in het systeem in, via goed ontworpen agentic harnassen.
+
+#### Belangrijkste organisatorische verschuivingen — Ondersteund door Adaptive Topology van 10X ORG (https://10xorg.com/)
+
 3. specialisten → vakmensen (specialists → craftspeople) — Product engineers verschuiven van smalle, lopendebandspecialisten naar end-to-end vakmensen — waarbij AI de specialismegaten in realtime opvult en hen begeleidt naar nieuwe domeinen en vaardigheden.
 4. tussenpersonen → gebruikers (proxies → users) — Geen doorgeefspel meer via manager-tussenpersonen, geen wegkwijnen meer in de kelder — product engineers gaan naar nul afstand tot klanten en gebruikers, om uit de eerste hand in te leven, te analyseren en te synthetiseren.
 5. output → uitkomsten (output → outcomes) — Product engineers worden niet langer afgerekend op output, maar nemen de uitkomsten zelf in handen en sturen ze aan — afwijkingen aanvoelen en voortdurend bijsturen.
 
-De eerste twee verschuivingen dekken de technische aspecten — ze bouwen voort op de conclusies van de Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
-
-De andere drie scheppen de structurele voorwaarden die die technologie aan het werk zetten en haar impact versterken — ze bouwen voort op de adaptieve org-topologie van 10X ORG (https://10xorg.com/).
-
-Technische en structurele verschuivingen vormen één systeem: ze maken elkaar mogelijk en versterken elkaar, en kunnen niet los van elkaar worden beheerd.
+De technische en de organisatorische verschuivingen vormen één systeem: ze maken elkaar mogelijk en versterken elkaar, en mogen niet los van elkaar worden beheerd.
 
 ### Wat nu?
 
@@ -103,17 +106,18 @@ Pour aider ces idées à se répandre, et pour placer la barre assez haut pour d
 
 ### Les basculements vers une ingénierie produit agentique professionnelle à l'échelle de l'organisation
 
+#### Principaux basculements techniques — Soutenu par Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. fonctionnalités → systèmes (features → systems) — Les ingénieurs produit cessent de livrer des fonctionnalités isolées et se tournent vers la construction de systèmes agentiques — des boucles qui s'améliorent d'elles-mêmes et transforment l'intention en solutions qui fonctionnent.
 2. contrôle → garde-fous (gatekeeping → guardrails) — Les ingénieurs produit cessent d'inspecter la qualité après coup et l'intègrent directement dans le système, grâce à des harnais agentiques bien conçus.
+
+#### Principaux basculements organisationnels — Soutenu par Adaptive Topology de 10X ORG (https://10xorg.com/)
+
 3. spécialistes → artisans (specialists → craftspeople) — Les ingénieurs produit passent de spécialistes cloisonnés, à la chaîne, à des artisans de bout en bout — l'IA comblant les lacunes de spécialité en temps réel et guidant les ingénieurs vers de nouveaux domaines et compétences.
 4. intermédiaires → utilisateurs (proxies → users) — Fini le téléphone arabe via des managers intermédiaires, fini l'isolement au sous-sol — les ingénieurs produit passent à distance zéro avec les clients et les utilisateurs, pour comprendre, analyser et synthétiser de première main.
 5. production → résultats (output → outcomes) — Les ingénieurs produit ne sont plus mesurés à leur production mais s'approprient et pilotent eux-mêmes les résultats — détectant les dérives et corrigeant le cap en continu.
 
-Les deux premiers basculements couvrent les aspects techniques — ils s'appuient sur les conclusions de l'Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
-
-Les trois autres créent les conditions structurelles qui mettent cette technologie au travail et en amplifient l'impact — ils s'appuient sur la topologie organisationnelle adaptative de 10X ORG (https://10xorg.com/).
-
-Les basculements techniques et structurels forment un seul système : ils se rendent possibles et se renforcent mutuellement, et ne peuvent être gérés isolément.
+Les basculements techniques et organisationnels forment un seul système : ils se rendent possibles et se renforcent mutuellement, et ne doivent pas être gérés isolément.
 
 ### Et maintenant ?
 
@@ -133,17 +137,18 @@ Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da di
 
 ### Gli spostamenti verso un'ingegneria di prodotto agentica professionale a livello di organizzazione
 
+#### Principali spostamenti tecnici — Con il supporto di Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. funzionalità → sistemi (features → systems) — Gli ingegneri di prodotto smettono di consegnare funzionalità isolate e passano a costruire sistemi agentici — cicli che si migliorano da soli e trasformano l'intento in soluzioni funzionanti.
 2. controllo → guardrail (gatekeeping → guardrails) — Gli ingegneri di prodotto smettono di ispezionare la qualità a posteriori e la integrano nel sistema, attraverso imbracature agentiche ben progettate.
+
+#### Principali spostamenti organizzativi — Con il supporto di Adaptive Topology di 10X ORG (https://10xorg.com/)
+
 3. specialisti → artigiani (specialists → craftspeople) — Gli ingegneri di prodotto passano da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma le lacune di specializzazione in tempo reale e li guida verso nuovi ambiti e competenze.
 4. intermediari → utenti (proxies → users) — Basta con il gioco del telefono senza fili attraverso manager-intermediari, basta con lo stare chiusi in cantina — gli ingegneri di prodotto passano a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona.
 5. produzione → risultati (output → outcomes) — Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dei risultati guidandoli in prima persona — percependo le deviazioni e correggendo la rotta di continuo.
 
-I primi due spostamenti coprono gli aspetti tecnici — attingono alle conclusioni dell'Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
-
-Gli altri tre creano le condizioni strutturali che mettono al lavoro quella tecnologia e ne amplificano l'impatto — attingono alla topologia organizzativa adattiva di 10X ORG (https://10xorg.com/).
-
-Gli spostamenti tecnici e strutturali formano un solo sistema: si abilitano e si rafforzano a vicenda e non possono essere gestiti isolatamente.
+Gli spostamenti tecnici e organizzativi formano un solo sistema: si abilitano e si rafforzano a vicenda e non vanno gestiti isolatamente.
 
 ### E adesso?
 
@@ -163,17 +168,18 @@ Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante a
 
 ### Los cambios hacia una ingeniería de producto agéntica profesional a nivel de organización
 
+#### Principales cambios técnicos — Con el apoyo de Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. funciones → sistemas (features → systems) — Los ingenieros de producto dejan de entregar funciones sueltas y pasan a construir sistemas agénticos — bucles que se mejoran a sí mismos y convierten la intención en soluciones que funcionan.
 2. control → guardarraíles (gatekeeping → guardrails) — Los ingenieros de producto dejan de inspeccionar la calidad a posteriori y pasan a integrarla en el sistema mediante arneses agénticos bien diseñados.
+
+#### Principales cambios organizativos — Con el apoyo de Adaptive Topology de 10X ORG (https://10xorg.com/)
+
 3. especialistas → artesanos (specialists → craftspeople) — Los ingenieros de producto pasan de especialistas estrechos, de cadena de montaje, a artesanos de principio a fin — con la IA cubriendo los huecos de especialidad en tiempo real y guiándolos hacia nuevos dominios y habilidades.
 4. intermediarios → usuarios (proxies → users) — Se acabó el teléfono escacharrado a través de mánagers intermediarios, se acabó el estar encerrados en el sótano — los ingenieros de producto pasan a distancia cero con clientes y usuarios, para empatizar, analizar y sintetizar de primera mano.
 5. producción → resultados (output → outcomes) — Los ingenieros de producto dejan de medirse por su producción y pasan a asumir e impulsar los resultados ellos mismos — detectando desviaciones y corrigiendo el rumbo de forma continua.
 
-Los dos primeros cambios cubren los aspectos técnicos — se basan en las conclusiones de la Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
-
-Los otros tres crean las condiciones estructurales que ponen esa tecnología a trabajar y amplifican su impacto — se basan en la topología organizativa adaptativa de 10X ORG (https://10xorg.com/).
-
-Los cambios técnicos y estructurales forman un solo sistema: se habilitan y refuerzan mutuamente y no pueden gestionarse de forma aislada.
+Los cambios técnicos y organizativos forman un solo sistema: se habilitan y refuerzan mutuamente y no deben gestionarse de forma aislada.
 
 ### ¿Qué sigue?
 
@@ -193,17 +199,18 @@ Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficien
 
 ### As mudanças rumo a uma engenharia de produto agêntica profissional ao nível da organização
 
+#### Principais mudanças técnicas — Com o apoio de Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. funcionalidades → sistemas (features → systems) — Os engenheiros de produto deixam de entregar funcionalidades avulsas e passam a construir sistemas agênticos — ciclos que se aprimoram a si próprios e transformam a intenção em soluções que funcionam.
 2. controlo → guardrails (gatekeeping → guardrails) — Os engenheiros de produto deixam de validar a qualidade apenas ao final do processo e passam a incorporá-la diretamente ao sistema, por meio de guardrails e mecanismos agênticos bem projetados.
+
+#### Principais mudanças organizacionais — Com o apoio de Adaptive Topology da 10X ORG (https://10xorg.com/)
+
 3. especialistas → artesãos (specialists → craftspeople) — Os engenheiros de produto passam de especialistas estreitos, de linha de montagem, a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade em tempo real e a orientá-los para novos domínios e competências.
 4. intermediários → utilizadores (proxies → users) — Acaba a comunicação indireta por meio de gestores intermediários. Os engenheiros de produto passam a atuar em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte.
 5. produção → resultados (output → outcomes) — Os engenheiros de produto deixam de ser medidos pela produção e passam a assumir e a conduzir os resultados eles próprios — detetando desvios e corrigindo o rumo continuamente.
 
-As duas primeiras mudanças cobrem os aspetos técnicos — baseiam-se nas conclusões do Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
-
-As outras três criam as condições estruturais que põem essa tecnologia a trabalhar e amplificam o seu impacto — baseiam-se na topologia organizacional adaptativa do 10X ORG (https://10xorg.com/).
-
-As mudanças técnicas e estruturais formam um só sistema: possibilitam-se e reforçam-se mutuamente e não podem ser geridas isoladamente.
+As mudanças técnicas e organizacionais formam um só sistema: possibilitam-se e reforçam-se mutuamente e não devem ser geridas isoladamente.
 
 ### O que se segue
 
@@ -223,17 +230,18 @@ Abychom těmto myšlenkám pomohli se šířit — a nastavili laťku dost vysok
 
 ### Posuny k profesionálnímu agentnímu produktovému inženýrství na úrovni organizace
 
+#### Hlavní technické posuny — S podporou Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. funkce → systémy (features → systems) — Produktoví inženýři přestávají dodávat jednorázové funkce a přecházejí k budování agentních systémů — sebezdokonalujících se smyček, které mění záměr ve funkční řešení.
 2. kontrola → mantinely (gatekeeping → guardrails) — Produktoví inženýři přestávají kvalitu kontrolovat dodatečně a zabudovávají ji přímo do systému prostřednictvím dobře zkonstruovaného agentního harnessu.
+
+#### Hlavní organizační posuny — S podporou Adaptive Topology od 10X ORG (https://10xorg.com/)
+
 3. specialisté → řemeslníci (specialists → craftspeople) — Produktoví inženýři se mění z úzce zaměřených specialistů na výrobní lince na řemeslníky, kteří zvládnou celou cestu od začátku do konce — AI v reálném čase doplňuje chybějící specializace a mentoruje produktové inženýry v nových oblastech a dovednostech.
 4. prostředníci → uživatelé (proxies → users) — Už žádná tichá pošta přes manažery-prostředníky, už žádné sezení ve sklepě — produktoví inženýři přecházejí k nulové vzdálenosti od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky.
 5. výstupy → dopady (output → outcomes) — Produktoví inženýři přestávají být měřeni podle výstupů a sami přebírají odpovědnost za dopady a aktivně je řídí — vnímají odchylky a průběžně korigují kurz.
 
-První dva posuny pokrývají technické aspekty — vycházejí ze závěrů Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
-
-Další tři vytvářejí strukturální podmínky, které tuto technologii uvádějí do praxe a zesilují její dopad — vycházejí z adaptivní organizační topologie 10X ORG (https://10xorg.com/).
-
-Technické a strukturální posuny tvoří jeden systém: navzájem se umožňují a posilují a nelze je řídit izolovaně.
+Technické a organizační posuny tvoří jeden systém: navzájem se umožňují a posilují a nesmějí se řídit izolovaně.
 
 ### Co dál?
 
@@ -253,17 +261,18 @@ Technické a strukturální posuny tvoří jeden systém: navzájem se umožňuj
 
 ### Зрушення до професійної агентної продуктової інженерії на рівні організації
 
+#### Головні технічні зрушення — За підтримки Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. функції → системи (features → systems) — Продуктові інженери перестають постачати окремі функції й переходять до побудови агентних систем — самовдосконалюваних циклів, що перетворюють намір на робочі рішення.
 2. контроль → запобіжники (gatekeeping → guardrails) — Продуктові інженери перестають перевіряти якість постфактум і вбудовують її в систему через добре сконструйовані агентні гарнеси.
+
+#### Головні організаційні зрушення — За підтримки Adaptive Topology від 10X ORG (https://10xorg.com/)
+
 3. спеціалісти → майстри (specialists → craftspeople) — Продуктові інженери переходять від вузьких, конвеєрних спеціалістів до майстрів повного циклу — ШІ заповнює прогалини спеціалізації в реальному часі й наставляє інженерів у нових галузях і навичках.
 4. посередники → користувачі (proxies → users) — Годі зіпсованого телефону через менеджерів-посередників, годі сидіння в підвалі — продуктові інженери переходять до нульової дистанції з клієнтами та користувачами, щоб співпереживати, аналізувати й синтезувати з перших вуст.
 5. результат праці → результати (output → outcomes) — Продуктових інженерів перестають вимірювати за обсягом зробленого — вони самі беруть на себе результати й керують ними, відчуваючи відхилення й безперервно коригуючи курс.
 
-Перші два зрушення охоплюють технічні аспекти — вони спираються на висновки Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
-
-Інші три створюють структурні умови, які приводять цю технологію в дію та посилюють її вплив — вони спираються на адаптивну організаційну топологію 10X ORG (https://10xorg.com/).
-
-Технічні та структурні зрушення утворюють єдину систему: вони уможливлюють і підсилюють одне одного й не можуть керуватися ізольовано.
+Технічні та організаційні зрушення утворюють єдину систему: вони уможливлюють і підсилюють одне одного, і ними не можна керувати ізольовано.
 
 ### Що далі
 
@@ -283,17 +292,18 @@ Technické a strukturální posuny tvoří jeden systém: navzájem se umožňuj
 
 ### Сдвиги к профессиональной агентной продуктовой инженерии на уровне организации
 
+#### Главные технические сдвиги — При поддержке Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. функции → системы (features → systems) — Продуктовые инженеры перестают выпускать отдельные функции и переходят к построению агентных систем — самосовершенствующихся циклов, превращающих замысел в работающие решения.
 2. контроль → ограждения (gatekeeping → guardrails) — Продуктовые инженеры перестают проверять качество постфактум и встраивают его в систему через хорошо спроектированную агентную оснастку.
+
+#### Главные организационные сдвиги — При поддержке Adaptive Topology от 10X ORG (https://10xorg.com/)
+
 3. специалисты → мастера (specialists → craftspeople) — Продуктовые инженеры переходят от узких, конвейерных специалистов к мастерам полного цикла — ИИ в реальном времени закрывает пробелы в специализации и наставляет их в новых областях и навыках.
 4. посредники → пользователи (proxies → users) — Больше никакого испорченного телефона через менеджеров-посредников, больше никакого сидения в подвале — продуктовые инженеры переходят к нулевой дистанции с клиентами и пользователями, чтобы сопереживать, анализировать и синтезировать из первых рук.
 5. выработка → результаты (output → outcomes) — Продуктовых инженеров перестают измерять по выработке — они сами берут на себя результаты и ведут их, улавливая отклонения и непрерывно корректируя курс.
 
-Первые два сдвига охватывают технические аспекты — они опираются на выводы Agentic Engineer's Field Guide (https://agentic-engineering.guide/).
-
-Остальные три создают структурные условия, которые приводят эту технологию в действие и усиливают её влияние — они опираются на адаптивную организационную топологию 10X ORG (https://10xorg.com/).
-
-Технические и структурные сдвиги образуют единую систему: они усиливают и подкрепляют друг друга и не могут управляться по отдельности.
+Технические и организационные сдвиги образуют единую систему: они усиливают и подкрепляют друг друга, и ими нельзя управлять по отдельности.
 
 ### Что дальше?
 
@@ -313,17 +323,18 @@ Technické a strukturální posuny tvoří jeden systém: navzájem se umožňuj
 
 ### 面向专业的智能体产品工程的组织级转变
 
+#### 主要技术转变 — 支持: Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. 功能 → 系统 (features → systems) — 产品工程师不再交付零散的功能，而是转向构建智能体系统——将意图转化为可用方案的自我改进循环。
 2. 把关 → 护栏 (gatekeeping → guardrails) — 产品工程师不再事后检查质量问题，而是通过精心设计的智能体框架，将质量构建进系统之中。
+
+#### 主要组织转变 — 支持: 10X ORG 的 Adaptive Topology (https://10xorg.com/)
+
 3. 专才 → 匠人 (specialists → craftspeople) — 产品工程师从狭窄的流水线专才，转变为端到端的匠人——AI 实时填补专业空白，并引导工程师进入新的领域与技能。
 4. 代理人 → 用户 (proxies → users) — 不再有经由管理者代理人的传话游戏，不再蜷缩于地下室——产品工程师转向与客户和用户零距离，亲身去共情、分析与综合。
 5. 产出 → 成果 (output → outcomes) — 产品工程师不再以产出被衡量，而是亲自承担并推动成果——持续察觉偏移并修正航向。
 
-前两项转变涵盖技术层面——它们借鉴了 Agentic Engineer's Field Guide (https://agentic-engineering.guide/) 的结论。
-
-其余三项创造结构性条件，让这项技术发挥作用并放大其影响——它们借鉴了 10X ORG (https://10xorg.com/) 的自适应组织拓扑。
-
-技术转变与结构转变构成同一个系统：二者相互赋能、相互强化，无法孤立地加以管理。
+技术转变与组织转变构成同一个系统：二者相互赋能、相互强化，不得孤立地加以管理。
 
 ### 接下来
 
@@ -343,17 +354,18 @@ Technické a strukturální posuny tvoří jeden systém: navzájem se umožňuj
 
 ### 組織レベルでのプロフェッショナルなエージェンティック・プロダクトエンジニアリングへの転換
 
+#### 主要な技術的転換 — サポート: Agentic Product Engineering Guide (https://agentic-engineering.guide/)
+
 1. 機能 → システム (features → systems) — プロダクトエンジニアは単発の機能を出荷することをやめ、エージェンティックなシステム——意図を動くソリューションへと変える自己改善型のループ——の構築へと移行します。
 2. 門番 → ガードレール (gatekeeping → guardrails) — プロダクトエンジニアは品質問題を後から検査することをやめ、よく設計されたエージェンティックなハーネスを通じて、品質をシステムに作り込む側へと移行します。
+
+#### 主要な組織的転換 — サポート: 10X ORG の Adaptive Topology (https://10xorg.com/)
+
 3. 専門家 → 職人 (specialists → craftspeople) — プロダクトエンジニアは、細分化された流れ作業の専門家から、端から端までを担う職人へと移行します——AIが専門領域の隙間をリアルタイムで埋め、新しい領域とスキルへと導きます。
 4. 代理人 → ユーザー (proxies → users) — マネージャーという代理人を介した伝言ゲームはもう終わり、地下にこもるのももう終わり——プロダクトエンジニアは顧客とユーザーへの距離をゼロにし、直接に共感し、分析し、統合する側へと移行します。
 5. アウトプット → 成果 (output → outcomes) — プロダクトエンジニアはアウトプットで測られる側から、成果そのものを引き受け、自ら推し進める側へと移行します——ずれを察知し、絶えず針路を修正しながら。
 
-最初の二つの転換は技術的側面を担います——Agentic Engineer's Field Guide (https://agentic-engineering.guide/) の結論に基づいています。
-
-残る三つは構造的条件を生み出し、その技術を機能させ、その影響を増幅します——10X ORG (https://10xorg.com/) の適応的な組織トポロジーに基づいています。
-
-技術的転換と構造的転換は一つのシステムを成します：互いに可能にし、強め合い、切り離して扱うことはできません。
+技術的転換と組織的転換は一つのシステムを成します：互いに可能にし、強め合い、切り離して扱ってはなりません。
 
 ### 次に来るもの
 

@@ -8,11 +8,15 @@ Abychom těmto myšlenkám pomohli se šířit — a nastavili laťku dost vysok
 
 ## Posuny k profesionálnímu agentnímu produktovému inženýrství na úrovni organizace
 
+**Hlavní technické posuny** — S podporou [Agentic Product Engineering Guide](https://agentic-engineering.guide/)
+
 ### 01. funkce → systémy (features → systems)
 Produktoví inženýři přestávají dodávat jednorázové funkce a přecházejí k budování agentních systémů — sebezdokonalujících se smyček, které mění záměr ve funkční řešení.
 
 ### 02. kontrola → mantinely (gatekeeping → guardrails)
 Produktoví inženýři přestávají kvalitu kontrolovat dodatečně a zabudovávají ji přímo do systému prostřednictvím dobře zkonstruovaného agentního harnessu.
+
+**Hlavní organizační posuny** — S podporou [Adaptive Topology od 10X ORG](https://10xorg.com/)
 
 ### 03. specialisté → řemeslníci (specialists → craftspeople)
 Produktoví inženýři se mění z úzce zaměřených specialistů na výrobní lince na řemeslníky, kteří zvládnou celou cestu od začátku do konce — AI v reálném čase doplňuje chybějící specializace a mentoruje produktové inženýry v nových oblastech a dovednostech.
@@ -23,11 +27,7 @@ Už žádná tichá pošta přes manažery-prostředníky, už žádné sezení 
 ### 05. výstupy → dopady (output → outcomes)
 Produktoví inženýři přestávají být měřeni podle výstupů a sami přebírají odpovědnost za dopady a aktivně je řídí — vnímají odchylky a průběžně korigují kurz.
 
-**První dva posuny pokrývají technické aspekty** — vycházejí ze závěrů [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
-
-**Další tři vytvářejí strukturální podmínky**, které tuto technologii uvádějí do praxe a zesilují její dopad — vycházejí z adaptivní organizační topologie [10X ORG](https://10xorg.com/).
-
-**Technické a strukturální posuny tvoří jeden systém**: navzájem se umožňují a posilují a nelze je řídit izolovaně.
+**Technické a organizační posuny tvoří jeden systém**: navzájem se umožňují a posilují a nesmějí se řídit izolovaně.
 
 ## Co dál?
 

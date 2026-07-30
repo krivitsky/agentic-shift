@@ -138,17 +138,56 @@ function pair(s, ref, isEn) {
     + `</p>`;
 }
 
+// The shifts render in groups (technical → Field Guide, organizational →
+// 10X ORG). Grouping is structure, not copy: `accent`, `count` and `href`
+// live in en.json only and are read from there for every language, so a
+// translation supplies just the localized `label` + `link` text and the
+// grouping can never drift.
+// Missing fields fall back to English rather than rendering "undefined", so a
+// half-translated group still ships a readable page; parityDrift() names the
+// gap and fails the build.
+const localGroup = (c, gi) => ({ ...en.groups[gi], ...((c.groups && c.groups[gi]) || {}) });
+
+// Group index a shift opens, or -1 if it sits mid-group. Used by the Markdown
+// emitters to slot a group heading in front of the right shift.
+function groupOpening(i) {
+  let start = 0;
+  for (let gi = 0; gi < en.groups.length; gi++) {
+    if (i === start) return gi;
+    start += en.groups[gi].count;
+  }
+  return -1;
+}
+
 function shifts(c) {
   const isEn = c.lang === 'en';
-  return c.shifts.map((s, i) => {
-    const n = String(i + 1).padStart(2, '0');
-    return `      <li class="shift">
-        <span class="n" aria-hidden="true">${n}</span>
-        <div class="shift-body">
-          ${pair(s, en.shifts[i], isEn)}
-          <p class="note">${s.note}</p>
-        </div>
-      </li>`;
+  let start = 0;
+  return en.groups.map((g, gi) => {
+    const loc = localGroup(c, gi);
+    const first = start;
+    start += g.count;
+    const items = c.shifts.slice(first, first + g.count).map((s, k) => {
+      const n = String(first + k + 1).padStart(2, '0');
+      return `        <li class="shift">
+          <span class="n" aria-hidden="true">${n}</span>
+          <div class="shift-body">
+            ${pair(s, en.shifts[first + k], isEn)}
+            <p class="note">${s.note}</p>
+          </div>
+        </li>`;
+    }).join('\n\n');
+    return `    <section class="group group-${g.accent}">
+      <p class="group-head">
+        <span class="group-label">${esc(loc.label)}</span>
+        <a class="group-src" href="${esc(g.href)}" target="_blank" rel="noopener"><span class="src-by">${esc(loc.by)}</span> ${esc(loc.link)}<span class="ext" aria-hidden="true">↗</span></a>
+      </p>
+
+      <ol class="shifts" start="${first + 1}">
+
+${items}
+
+      </ol>
+    </section>`;
   }).join('\n\n');
 }
 
@@ -238,8 +277,14 @@ function llmsLang(c, heading) {
   c.lede.forEach((p) => { L.push(plain(p)); L.push(''); });
   L.push(`### ${plain(c.sectionHead)}`, '');
   c.shifts.forEach((s, i) => {
+    const gi = groupOpening(i);
+    if (gi >= 0) {
+      const loc = localGroup(c, gi);
+      L.push(`#### ${plain(loc.label)} — ${plain(loc.by)} ${plain(loc.link)} (${en.groups[gi].href})`, '');
+    }
     const gloss = c.lang === 'en' ? '' : ` (${en.shifts[i].from} → ${en.shifts[i].to})`;
     L.push(`${i + 1}. ${s.from} → ${s.to}${gloss} — ${plain(s.note)}`);
+    if (groupOpening(i + 1) >= 0) L.push('');
   });
   if (c.systemNote) [].concat(c.systemNote).forEach((p) => L.push('', plain(p)));
   L.push('', `### ${plain(c.qaHead)}`, '');
@@ -266,6 +311,11 @@ function readmeBlock() {
   en.lede.forEach((p) => { L.push(inline(p, { emphasis: 'md', links: 'md' })); L.push(''); });
   L.push(`## ${inline(en.sectionHead, { emphasis: 'md', links: 'md' })}`, '');
   en.shifts.forEach((s, i) => {
+    const gi = groupOpening(i);
+    if (gi >= 0) {
+      const g = en.groups[gi];
+      L.push(`**${g.label}** — ${g.by} [${g.link}](${g.href})`, '');
+    }
     L.push(`### ${i + 1}. ${s.from} → ${s.to}`);
     L.push(inline(s.note, { emphasis: 'md', links: 'md' }), '');
   });
@@ -291,6 +341,11 @@ function manifestoMd(c) {
   c.lede.forEach((p) => { L.push(md(p)); L.push(''); });
   L.push(`## ${md(c.sectionHead)}`, '');
   c.shifts.forEach((s, i) => {
+    const gi = groupOpening(i);
+    if (gi >= 0) {
+      const loc = localGroup(c, gi);
+      L.push(`**${md(loc.label)}** — ${md(loc.by)} [${md(loc.link)}](${en.groups[gi].href})`, '');
+    }
     const n = String(i + 1).padStart(2, '0');
     const gloss = c.lang === 'en' ? '' : ` (${en.shifts[i].from} → ${en.shifts[i].to})`;
     L.push(`### ${n}. ${s.from} → ${s.to}${gloss}`);
@@ -328,7 +383,7 @@ function writeMarked(rel, block) {
 // exits non-zero; the files are still written, so you can keep iterating while
 // the translations catch up.
 function parityDrift() {
-  const COUNTED = ['lede', 'shifts', 'systemNote', 'qa'];
+  const COUNTED = ['lede', 'groups', 'shifts', 'systemNote', 'qa'];
   const drift = [];
   for (const lang of LANGS.filter((l) => l !== 'en')) {
     const c = all[lang];
@@ -339,6 +394,13 @@ function parityDrift() {
       const want = [].concat(en[k] || []).length;
       const got = [].concat(c[k] || []).length;
       if (got < want) gaps.push(`${k} ${got}/${want}`);
+    });
+    // Groups also need their per-field copy — a group present but missing its
+    // localized `label`/`by`/`link` silently renders the English words.
+    en.groups.forEach((g, gi) => {
+      const loc = (c.groups || [])[gi];
+      if (!loc) return;
+      ['label', 'by', 'link'].filter((k) => !loc[k]).forEach((k) => gaps.push(`groups[${gi}].${k}`));
     });
     if (gaps.length) drift.push(`  ${lang}: ${gaps.join(' · ')}`);
   }

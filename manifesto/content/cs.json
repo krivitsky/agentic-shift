@@ -28,6 +28,19 @@
 
   "qaHead": "Co dál?",
 
+  "groups": [
+    {
+      "label": "Hlavní technické posuny",
+      "by": "S podporou",
+      "link": "Agentic Product Engineering Guide"
+    },
+    {
+      "label": "Hlavní organizační posuny",
+      "by": "S podporou",
+      "link": "Adaptive Topology od 10X ORG"
+    }
+  ],
+
   "shifts": [
     {
       "from": "funkce",
@@ -57,9 +70,7 @@
   ],
 
   "systemNote": [
-    "<strong>První dva posuny pokrývají <span class=\"definition\">technické aspekty</span></strong> — vycházejí ze závěrů <a href=\"https://agentic-engineering.guide/\" target=\"_blank\" rel=\"noopener\">Agentic Engineer's Field Guide</a>.",
-    "<strong>Další tři vytvářejí <span class=\"definition\">strukturální podmínky</span></strong>, které tuto technologii uvádějí do praxe a zesilují její dopad — vycházejí z adaptivní organizační topologie <a href=\"https://10xorg.com/\" target=\"_blank\" rel=\"noopener\">10X ORG</a>.",
-    "<strong>Technické a strukturální posuny tvoří <span class=\"definition\">jeden systém</span></strong>: navzájem se umožňují a posilují a nelze je řídit izolovaně."
+    "<strong>Technické a organizační posuny tvoří <span class=\"definition\">jeden systém</span></strong>: navzájem se umožňují a posilují a nesmějí se řídit izolovaně."
   ],
 
   "qa": [

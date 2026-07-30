@@ -573,6 +573,97 @@ body::before {
   background: linear-gradient(90deg, rgba(137, 180, 190, 0.3), transparent);
 }
 
+/* ── Shift groups ────────────────────────────────────────────────── */
+/* The five shifts split into two labelled groups: technical (amber, drawing
+   on the Agentic Engineer's Field Guide) and organizational (teal, drawing on
+   10X ORG). The header carries the source link that used to sit in a
+   paragraph under the whole list — attribution now reads right next to the
+   shifts it belongs to, and the group's colour runs through its numbers,
+   arrows and `to` words. */
+
+.group + .group {
+  margin-top: clamp(32px, 4.5vw, 54px);
+}
+
+.group-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 24px;
+  padding-bottom: clamp(10px, 1.2vw, 14px);
+  margin-bottom: clamp(16px, 2vw, 22px);
+  border-bottom: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: clamp(12px, 1.25vw, 15px);
+  line-height: 1.4;
+}
+
+.group-label {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+}
+
+.group-src {
+  color: var(--muted);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: opacity 0.2s ease;
+}
+
+/* "Supported by" stays muted so the source name keeps the group's accent. */
+.group-src .src-by {
+  color: var(--muted);
+}
+
+.group-src .ext {
+  margin-left: 0.45em;
+}
+
+.group-src:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Technical group — amber. */
+.group-tech .group-head {
+  border-bottom-color: rgba(232, 163, 61, 0.26);
+}
+
+.group-tech .group-label,
+.group-tech .shift .n,
+.group-tech .pair .to {
+  color: var(--amber);
+}
+
+.group-tech .group-src {
+  color: var(--amber);
+  opacity: 0.82;
+}
+
+.group-tech .shift:hover {
+  border-color: rgba(232, 163, 61, 0.4);
+}
+
+/* Organizational group — teal. */
+.group-org .group-head {
+  border-bottom-color: rgba(61, 220, 154, 0.24);
+}
+
+.group-org .group-label,
+.group-org .shift .n,
+.group-org .pair .to,
+.group-org .pair .arrow {
+  color: var(--teal);
+}
+
+.group-org .group-src {
+  color: var(--teal);
+  opacity: 0.82;
+}
+
 /* ── The five shifts ─────────────────────────────────────────────── */
 
 .shifts {

@@ -8,11 +8,15 @@ Pour aider ces idées à se répandre, et pour placer la barre assez haut pour d
 
 ## Les basculements vers une ingénierie produit agentique professionnelle à l'échelle de l'organisation
 
+**Principaux basculements techniques** — Soutenu par [Agentic Product Engineering Guide](https://agentic-engineering.guide/)
+
 ### 01. fonctionnalités → systèmes (features → systems)
 Les ingénieurs produit cessent de livrer des fonctionnalités isolées et se tournent vers la construction de systèmes agentiques — des boucles qui s'améliorent d'elles-mêmes et transforment l'intention en solutions qui fonctionnent.
 
 ### 02. contrôle → garde-fous (gatekeeping → guardrails)
 Les ingénieurs produit cessent d'inspecter la qualité après coup et l'intègrent directement dans le système, grâce à des harnais agentiques bien conçus.
+
+**Principaux basculements organisationnels** — Soutenu par [Adaptive Topology de 10X ORG](https://10xorg.com/)
 
 ### 03. spécialistes → artisans (specialists → craftspeople)
 Les ingénieurs produit passent de spécialistes cloisonnés, à la chaîne, à des artisans de bout en bout — l'IA comblant les lacunes de spécialité en temps réel et guidant les ingénieurs vers de nouveaux domaines et compétences.
@@ -23,11 +27,7 @@ Fini le téléphone arabe via des managers intermédiaires, fini l'isolement au 
 ### 05. production → résultats (output → outcomes)
 Les ingénieurs produit ne sont plus mesurés à leur production mais s'approprient et pilotent eux-mêmes les résultats — détectant les dérives et corrigeant le cap en continu.
 
-**Les deux premiers basculements couvrent les aspects techniques** — ils s'appuient sur les conclusions de l'[Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
-
-**Les trois autres créent les conditions structurelles** qui mettent cette technologie au travail et en amplifient l'impact — ils s'appuient sur la topologie organisationnelle adaptative de [10X ORG](https://10xorg.com/).
-
-**Les basculements techniques et structurels forment un seul système** : ils se rendent possibles et se renforcent mutuellement, et ne peuvent être gérés isolément.
+**Les basculements techniques et organisationnels forment un seul système** : ils se rendent possibles et se renforcent mutuellement, et ne doivent pas être gérés isolément.
 
 ## Et maintenant ?
 

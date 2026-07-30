@@ -8,11 +8,15 @@ Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante a
 
 ## Los cambios hacia una ingeniería de producto agéntica profesional a nivel de organización
 
+**Principales cambios técnicos** — Con el apoyo de [Agentic Product Engineering Guide](https://agentic-engineering.guide/)
+
 ### 01. funciones → sistemas (features → systems)
 Los ingenieros de producto dejan de entregar funciones sueltas y pasan a construir sistemas agénticos — bucles que se mejoran a sí mismos y convierten la intención en soluciones que funcionan.
 
 ### 02. control → guardarraíles (gatekeeping → guardrails)
 Los ingenieros de producto dejan de inspeccionar la calidad a posteriori y pasan a integrarla en el sistema mediante arneses agénticos bien diseñados.
+
+**Principales cambios organizativos** — Con el apoyo de [Adaptive Topology de 10X ORG](https://10xorg.com/)
 
 ### 03. especialistas → artesanos (specialists → craftspeople)
 Los ingenieros de producto pasan de especialistas estrechos, de cadena de montaje, a artesanos de principio a fin — con la IA cubriendo los huecos de especialidad en tiempo real y guiándolos hacia nuevos dominios y habilidades.
@@ -23,11 +27,7 @@ Se acabó el teléfono escacharrado a través de mánagers intermediarios, se ac
 ### 05. producción → resultados (output → outcomes)
 Los ingenieros de producto dejan de medirse por su producción y pasan a asumir e impulsar los resultados ellos mismos — detectando desviaciones y corrigiendo el rumbo de forma continua.
 
-**Los dos primeros cambios cubren los aspectos técnicos** — se basan en las conclusiones de la [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
-
-**Los otros tres crean las condiciones estructurales** que ponen esa tecnología a trabajar y amplifican su impacto — se basan en la topología organizativa adaptativa de [10X ORG](https://10xorg.com/).
-
-**Los cambios técnicos y estructurales forman un solo sistema**: se habilitan y refuerzan mutuamente y no pueden gestionarse de forma aislada.
+**Los cambios técnicos y organizativos forman un solo sistema**: se habilitan y refuerzan mutuamente y no deben gestionarse de forma aislada.
 
 ## ¿Qué sigue?
 

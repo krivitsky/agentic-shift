@@ -8,11 +8,15 @@ To help these ideas spread, and to set a bar high enough to tell real change fro
 
 ## The shifts towards professional agentic product engineering at org-level
 
+**Major technical shifts** — Supported by [Agentic Product Engineering Guide](https://agentic-engineering.guide/)
+
 ### 01. features → systems
 Product engineers stop shipping one-off features and shift to building agentic systems — self-improving loops that turn intent into working solutions.
 
 ### 02. gatekeeping → guardrails
 Product engineers stop inspecting for quality issues and shift to building quality into the system through well-engineered agentic harnesses.
+
+**Major organizational shifts** — Supported by [Adaptive Topology from 10X ORG](https://10xorg.com/)
 
 ### 03. specialists → craftspeople
 Product engineers shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps in real time and mentoring the product engineers into new domains and skills.
@@ -23,11 +27,7 @@ No more telephone game through manager-proxies, no more sitting in the basement 
 ### 05. output → outcomes
 Product engineers shift from being measured by output to owning and driving outcomes themselves — sensing drift and correcting course continuously.
 
-**The first two shifts cover the technical aspects** — they draw on the conclusions of the [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
-
-**The other three shifts create the structural conditions** that put that technology to work and amplify its impact — they draw on the adaptive org topology of [10X ORG](https://10xorg.com/).
-
-**Technical and structural shifts form one system**: they enable and reinforce one another, and cannot be managed in isolation.
+**The technical and the organizational shifts form one system**: they enable and reinforce one another, and must not be managed in isolation.
 
 ## What's Next?
 

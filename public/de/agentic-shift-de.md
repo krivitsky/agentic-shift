@@ -8,11 +8,15 @@ Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu leg
 
 ## Die Verschiebungen hin zu professionellem agentic product engineering auf Org-Ebene
 
+**Wichtigste technische Verschiebungen** — Unterstützt durch [Agentic Product Engineering Guide](https://agentic-engineering.guide/)
+
 ### 01. Features → Systeme (features → systems)
 Product Engineers liefern nicht länger einzelne Features aus, sondern bauen agentische Systeme — sich selbst verbessernde Loops, die Absicht in funktionierende Lösungen verwandeln.
 
 ### 02. Kontrolle → Leitplanken (gatekeeping → guardrails)
 Product Engineers prüfen Qualität nicht länger im Nachhinein, sondern bauen sie über gut konstruierte agentische Harnesses direkt ins System ein.
+
+**Wichtigste organisatorische Verschiebungen** — Unterstützt durch [Adaptive Topology von 10X ORG](https://10xorg.com/)
 
 ### 03. Spezialisten → Handwerker (specialists → craftspeople)
 Product Engineers wandeln sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern — KI füllt die Spezialistenlücken in Echtzeit und führt die Product Engineers in neue Domänen und Fähigkeiten ein.
@@ -23,11 +27,7 @@ Kein Stille-Post-Spiel mehr über Manager als Stellvertreter, kein Sitzen im Kel
 ### 05. Output → Wirkung (output → outcomes)
 Product Engineers werden nicht länger am Output gemessen, sondern verantworten und treiben Wirkung selbst — sie spüren Abweichungen und korrigieren den Kurs fortlaufend.
 
-**Die ersten beiden Verschiebungen decken die technischen Aspekte ab** — sie stützen sich auf die Schlussfolgerungen des [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
-
-**Die anderen drei schaffen die strukturellen Voraussetzungen**, die diese Technologie zur Wirkung bringen und ihren Einfluss verstärken — sie stützen sich auf die adaptive Org-Topologie von [10X ORG](https://10xorg.com/).
-
-**Technische und strukturelle Verschiebungen bilden ein System**: Sie ermöglichen und verstärken einander und lassen sich nicht isoliert steuern.
+**Die technischen und die organisatorischen Verschiebungen bilden ein System**: Sie ermöglichen und verstärken einander und dürfen nicht isoliert gesteuert werden.
 
 ## Was kommt als Nächstes
 

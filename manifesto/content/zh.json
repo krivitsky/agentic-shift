@@ -28,6 +28,19 @@
 
   "qaHead": "接下来",
 
+  "groups": [
+    {
+      "label": "主要技术转变",
+      "by": "支持:",
+      "link": "Agentic Product Engineering Guide"
+    },
+    {
+      "label": "主要组织转变",
+      "by": "支持:",
+      "link": "10X ORG 的 Adaptive Topology"
+    }
+  ],
+
   "shifts": [
     {
       "from": "功能",
@@ -57,9 +70,7 @@
   ],
 
   "systemNote": [
-    "<strong>前两项转变涵盖<span class=\"definition\">技术层面</span></strong>——它们借鉴了 <a href=\"https://agentic-engineering.guide/\" target=\"_blank\" rel=\"noopener\">Agentic Engineer's Field Guide</a> 的结论。",
-    "<strong>其余三项创造<span class=\"definition\">结构性条件</span></strong>，让这项技术发挥作用并放大其影响——它们借鉴了 <a href=\"https://10xorg.com/\" target=\"_blank\" rel=\"noopener\">10X ORG</a> 的自适应组织拓扑。",
-    "<strong>技术转变与结构转变构成<span class=\"definition\">同一个系统</span></strong>：二者相互赋能、相互强化，无法孤立地加以管理。"
+    "<strong>技术转变与组织转变构成<span class=\"definition\">同一个系统</span></strong>：二者相互赋能、相互强化，不得孤立地加以管理。"
   ],
 
   "qa": [

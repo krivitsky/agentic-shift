@@ -8,11 +8,15 @@ Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficien
 
 ## As mudanças rumo a uma engenharia de produto agêntica profissional ao nível da organização
 
+**Principais mudanças técnicas** — Com o apoio de [Agentic Product Engineering Guide](https://agentic-engineering.guide/)
+
 ### 01. funcionalidades → sistemas (features → systems)
 Os engenheiros de produto deixam de entregar funcionalidades avulsas e passam a construir sistemas agênticos — ciclos que se aprimoram a si próprios e transformam a intenção em soluções que funcionam.
 
 ### 02. controlo → guardrails (gatekeeping → guardrails)
 Os engenheiros de produto deixam de validar a qualidade apenas ao final do processo e passam a incorporá-la diretamente ao sistema, por meio de guardrails e mecanismos agênticos bem projetados.
+
+**Principais mudanças organizacionais** — Com o apoio de [Adaptive Topology da 10X ORG](https://10xorg.com/)
 
 ### 03. especialistas → artesãos (specialists → craftspeople)
 Os engenheiros de produto passam de especialistas estreitos, de linha de montagem, a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade em tempo real e a orientá-los para novos domínios e competências.
@@ -23,11 +27,7 @@ Acaba a comunicação indireta por meio de gestores intermediários. Os engenhei
 ### 05. produção → resultados (output → outcomes)
 Os engenheiros de produto deixam de ser medidos pela produção e passam a assumir e a conduzir os resultados eles próprios — detetando desvios e corrigindo o rumo continuamente.
 
-**As duas primeiras mudanças cobrem os aspetos técnicos** — baseiam-se nas conclusões do [Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
-
-**As outras três criam as condições estruturais** que põem essa tecnologia a trabalhar e amplificam o seu impacto — baseiam-se na topologia organizacional adaptativa do [10X ORG](https://10xorg.com/).
-
-**As mudanças técnicas e estruturais formam um só sistema**: possibilitam-se e reforçam-se mutuamente e não podem ser geridas isoladamente.
+**As mudanças técnicas e organizacionais formam um só sistema**: possibilitam-se e reforçam-se mutuamente e não devem ser geridas isoladamente.
 
 ## O que se segue
 

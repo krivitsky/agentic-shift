@@ -8,11 +8,15 @@ Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da di
 
 ## Gli spostamenti verso un'ingegneria di prodotto agentica professionale a livello di organizzazione
 
+**Principali spostamenti tecnici** — Con il supporto di [Agentic Product Engineering Guide](https://agentic-engineering.guide/)
+
 ### 01. funzionalità → sistemi (features → systems)
 Gli ingegneri di prodotto smettono di consegnare funzionalità isolate e passano a costruire sistemi agentici — cicli che si migliorano da soli e trasformano l'intento in soluzioni funzionanti.
 
 ### 02. controllo → guardrail (gatekeeping → guardrails)
 Gli ingegneri di prodotto smettono di ispezionare la qualità a posteriori e la integrano nel sistema, attraverso imbracature agentiche ben progettate.
+
+**Principali spostamenti organizzativi** — Con il supporto di [Adaptive Topology di 10X ORG](https://10xorg.com/)
 
 ### 03. specialisti → artigiani (specialists → craftspeople)
 Gli ingegneri di prodotto passano da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma le lacune di specializzazione in tempo reale e li guida verso nuovi ambiti e competenze.
@@ -23,11 +27,7 @@ Basta con il gioco del telefono senza fili attraverso manager-intermediari, bast
 ### 05. produzione → risultati (output → outcomes)
 Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dei risultati guidandoli in prima persona — percependo le deviazioni e correggendo la rotta di continuo.
 
-**I primi due spostamenti coprono gli aspetti tecnici** — attingono alle conclusioni dell'[Agentic Engineer's Field Guide](https://agentic-engineering.guide/).
-
-**Gli altri tre creano le condizioni strutturali** che mettono al lavoro quella tecnologia e ne amplificano l'impatto — attingono alla topologia organizzativa adattiva di [10X ORG](https://10xorg.com/).
-
-**Gli spostamenti tecnici e strutturali formano un solo sistema**: si abilitano e si rafforzano a vicenda e non possono essere gestiti isolatamente.
+**Gli spostamenti tecnici e organizzativi formano un solo sistema**: si abilitano e si rafforzano a vicenda e non vanno gestiti isolatamente.
 
 ## E adesso?
 
