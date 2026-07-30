@@ -320,6 +320,31 @@ function writeMarked(rel, block) {
   if (next !== txt) { fs.writeFileSync(file, next); written.push(rel); }
 }
 
+// ── en → translation parity ───────────────────────────────────────────
+// en.json is canonical, so anything added to it — a Q&A, a shift, a lede
+// paragraph — must land in every translation, or the translated pages quietly
+// keep serving an older manifesto. (That is exactly how the /community Q&A ran
+// English-only for weeks.) This reports precisely what each language lacks and
+// exits non-zero; the files are still written, so you can keep iterating while
+// the translations catch up.
+function parityDrift() {
+  const COUNTED = ['lede', 'shifts', 'systemNote', 'qa'];
+  const drift = [];
+  for (const lang of LANGS.filter((l) => l !== 'en')) {
+    const c = all[lang];
+    const gaps = [];
+    Object.keys(en).filter((k) => !(k in c)).forEach((k) => gaps.push(`no "${k}"`));
+    Object.keys(en.meta).filter((k) => !(k in (c.meta || {}))).forEach((k) => gaps.push(`no meta.${k}`));
+    COUNTED.forEach((k) => {
+      const want = [].concat(en[k] || []).length;
+      const got = [].concat(c[k] || []).length;
+      if (got < want) gaps.push(`${k} ${got}/${want}`);
+    });
+    if (gaps.length) drift.push(`  ${lang}: ${gaps.join(' · ')}`);
+  }
+  return drift;
+}
+
 // ── write ─────────────────────────────────────────────────────────────
 const written = [];
 
@@ -347,4 +372,14 @@ writeMarked('README.md', readmeBlock());
 console.log(`Built ${LANGS.length} language(s):\n${written.map((w) => `  ${w}`).join('\n')}`);
 if (missing.length) {
   console.log(`\nNot built (no content/<lang>.json yet): ${missing.join(', ')}`);
+}
+
+const drift = parityDrift();
+if (drift.length) {
+  console.error(`\n✗ TRANSLATION DRIFT — en.json carries content these languages lack:\n${drift.join('\n')}\n`
+    + `\n  en.json is canonical: add the missing entries to manifesto/content/<lang>.json,\n`
+    + `  then rebuild. The pages above were still written — they are just incomplete.`);
+  process.exitCode = 1;
+} else {
+  console.log(`\n✓ all ${LANGS.length - 1} translations match en.json`);
 }
