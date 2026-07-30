@@ -123,6 +123,7 @@
 
 .next-media img {
   width: 100%;
+  height: auto;
   display: block;
   border-radius: 12px;
   transition: transform 0.3s ease, opacity 0.2s ease;
@@ -265,6 +266,7 @@
 .past-list { display: grid; gap: clamp(20px, 3vw, 32px); }
 
 .recap {
+  scroll-margin-top: 24px;
   padding: clamp(22px, 3vw, 38px);
   border: 1px solid rgba(137, 180, 190, 0.14);
   border-radius: 18px;
@@ -313,6 +315,7 @@
 figure.shot { margin: 22px 0 0; }
 figure.shot img {
   width: 100%;
+  height: auto;   /* keep the intrinsic ratio from the width/height attrs */
   display: block;
   border-radius: 12px;
   border: 1px solid var(--line);
