@@ -21,7 +21,7 @@
 
   "lede": [
     "The industry-wide shift toward <span class=\"definition\">agentic product engineering</span> is producing radically new organizations. Most leaders haven't yet grasped how deep this goes. The ones who have are already ahead of the curve. And <em>the gap between the best and the rest widens every day.</em>",
-    "To help these ideas spread, and to set a bar high enough to tell real change from <span class=\"amber\">mediocrity and marketing</span>, we're defining the <span class=\"definition\"><strong>professional</strong> agentic product engineering</span> as a set of noticeable org-design shifts in how product engineering work gets done."
+    "To help these ideas spread, and to set a bar high enough to tell real change from <span class=\"strike\">mediocrity and pure marketing</span>, we're defining the <span class=\"definition\"><strong>professional</strong> agentic product engineering</span> as a set of noticeable org-design shifts in how product engineering work gets done."
   ],
 
   "sectionHead": "The shifts <span class=\"lite\">towards</span> professional agentic product engineering <span class=\"lite\">at</span> org-level",
@@ -71,7 +71,7 @@
     {
       "from": "output",
       "to": "outcomes",
-      "note": "Product engineers shift from being measured by output to owning and driving outcomes themselves — sensing drift and correcting course continuously."
+      "note": "Product engineers shift from being measured by output to owning the outer loop — ensuring real customer impact and course-correcting as the evidence comes in."
     }
   ],
 

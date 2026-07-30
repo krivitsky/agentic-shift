@@ -4,7 +4,7 @@ _rumo a uma engenharia de produto agêntica profissional_
 
 A mudança de toda a indústria rumo à **engenharia de produto agêntica** está a produzir organizações radicalmente novas. A maioria dos líderes ainda não percebeu quão profundo isto é. Quem percebeu já está à frente. E *a distância entre os melhores e os restantes aumenta a cada dia.*
 
-Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficiente para distinguir a mudança real da *mediocridade e do marketing*, definimos a **engenharia de produto agêntica profissional** como um conjunto de mudanças visíveis no design organizacional: no modo como o trabalho de engenharia de produto é realmente feito.
+Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficiente para distinguir a mudança real da ~~mediocridade e do puro marketing~~, definimos a **engenharia de produto agêntica profissional** como um conjunto de mudanças visíveis no design organizacional: no modo como o trabalho de engenharia de produto é realmente feito.
 
 ## As mudanças rumo a uma engenharia de produto agêntica profissional ao nível da organização
 
@@ -25,7 +25,7 @@ Os engenheiros de produto passam de especialistas estreitos, de linha de montage
 Acaba a comunicação indireta por meio de gestores intermediários. Os engenheiros de produto passam a atuar em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte.
 
 ### 05. produção → resultados (output → outcomes)
-Os engenheiros de produto deixam de ser medidos pela produção e passam a assumir e a conduzir os resultados eles próprios — detetando desvios e corrigindo o rumo continuamente.
+Os engenheiros de produto deixam de ser medidos pela produção e passam a assumir o outer loop — garantindo um impacto real nos clientes e corrigindo o rumo à medida que surgem as evidências.
 
 **As mudanças técnicas e organizacionais formam um só sistema**: possibilitam-se e reforçam-se mutuamente e não devem ser geridas isoladamente.
 

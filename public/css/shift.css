@@ -490,6 +490,15 @@ body::before {
   color: var(--amber);
 }
 
+/* Struck-through aside — the thing the bar is set against, visibly crossed
+   out rather than merely named. Grey, so it recedes from the live text. */
+.lede .strike {
+  color: var(--muted);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(131, 149, 161, 0.75);
+}
+
 .lede a {
   color: #fff;
   text-decoration: none;

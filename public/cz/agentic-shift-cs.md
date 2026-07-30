@@ -4,7 +4,7 @@ _k profesionálnímu agentnímu produktovému inženýrství_
 
 Celoodvětvový posun k **agentnímu produktovému inženýrství** vytváří radikálně nové organizace. Většina lídrů dosud nepochopila, jak hluboko to jde. Ti, kdo to pochopili, jsou už o krok vpřed. A *rozdíl mezi nejlepšími a ostatními se každým dnem zvětšuje.*
 
-Abychom těmto myšlenkám pomohli se šířit — a nastavili laťku dost vysoko, aby šlo odlišit skutečnou změnu od *průměrnosti a marketingu* — definujeme **profesionální agentní produktové inženýrství** jako soubor zřetelných posunů v organizačním designu: v tom, jak se produktová inženýrská práce skutečně odvádí.
+Abychom těmto myšlenkám pomohli se šířit — a nastavili laťku dost vysoko, aby šlo odlišit skutečnou změnu od ~~průměrnosti a čirého marketingu~~ — definujeme **profesionální agentní produktové inženýrství** jako soubor zřetelných posunů v organizačním designu: v tom, jak se produktová inženýrská práce skutečně odvádí.
 
 ## Posuny k profesionálnímu agentnímu produktovému inženýrství na úrovni organizace
 
@@ -25,7 +25,7 @@ Produktoví inženýři se mění z úzce zaměřených specialistů na výrobn�
 Už žádná tichá pošta přes manažery-prostředníky, už žádné sezení ve sklepě — produktoví inženýři přecházejí k nulové vzdálenosti od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky.
 
 ### 05. výstupy → dopady (output → outcomes)
-Produktoví inženýři přestávají být měřeni podle výstupů a sami přebírají odpovědnost za dopady a aktivně je řídí — vnímají odchylky a průběžně korigují kurz.
+Produktoví inženýři přestávají být měřeni podle výstupů a přebírají vnější smyčku (outer loop) — zajišťují skutečný dopad na zákazníky a korigují kurz, jakmile přicházejí důkazy.
 
 **Technické a organizační posuny tvoří jeden systém**: navzájem se umožňují a posilují a nesmějí se řídit izolovaně.
 

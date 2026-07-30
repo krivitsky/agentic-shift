@@ -21,7 +21,7 @@
 
   "lede": [
     "Der branchenweite Wandel hin zu <span class=\"definition\">agentic product engineering</span> bringt radikal neue Organisationen hervor. Die meisten Führungskräfte haben noch nicht erfasst, wie tief das reicht. Wer es erfasst hat, ist der Kurve bereits voraus. Und <em>die Kluft zwischen den Besten und dem Rest wird täglich größer.</em>",
-    "Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu legen, um echten Wandel von <span class=\"amber\">Mittelmaß und Marketing</span> zu unterscheiden — definieren wir <span class=\"definition\"><strong>professionelles</strong> agentic product engineering</span> als eine Reihe deutlich sichtbarer Verschiebungen im Org-Design: darin, wie Produktentwicklung tatsächlich geschieht."
+    "Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu legen, um echten Wandel von <span class=\"strike\">Mittelmaß und reinem Marketing</span> zu unterscheiden — definieren wir <span class=\"definition\"><strong>professionelles</strong> agentic product engineering</span> als eine Reihe deutlich sichtbarer Verschiebungen im Org-Design: darin, wie Produktentwicklung tatsächlich geschieht."
   ],
 
   "sectionHead": "Die Verschiebungen <span class=\"lite\">hin zu</span> professionellem agentic product engineering <span class=\"lite\">auf</span> Org-Ebene",
@@ -65,7 +65,7 @@
     {
       "from": "Output",
       "to": "Wirkung",
-      "note": "Product Engineers werden nicht länger am Output gemessen, sondern verantworten und treiben Wirkung selbst — sie spüren Abweichungen und korrigieren den Kurs fortlaufend."
+      "note": "Product Engineers werden nicht länger am Output gemessen, sondern übernehmen den Outer Loop — sie sorgen für echte Kundenwirkung und korrigieren den Kurs, sobald die Evidenz eintrifft."
     }
   ],
 

@@ -4,7 +4,7 @@ _towards professional agentic product engineering_
 
 The industry-wide shift toward **agentic product engineering** is producing radically new organizations. Most leaders haven't yet grasped how deep this goes. The ones who have are already ahead of the curve. And *the gap between the best and the rest widens every day.*
 
-To help these ideas spread, and to set a bar high enough to tell real change from *mediocrity and marketing*, we're defining the **professional agentic product engineering** as a set of noticeable org-design shifts in how product engineering work gets done.
+To help these ideas spread, and to set a bar high enough to tell real change from ~~mediocrity and pure marketing~~, we're defining the **professional agentic product engineering** as a set of noticeable org-design shifts in how product engineering work gets done.
 
 ## The shifts towards professional agentic product engineering at org-level
 
@@ -25,7 +25,7 @@ Product engineers shift from narrow, assembly-line specialists to end-to-end cra
 No more telephone game through manager-proxies, no more sitting in the basement — product engineers shift to zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.
 
 ### 05. output → outcomes
-Product engineers shift from being measured by output to owning and driving outcomes themselves — sensing drift and correcting course continuously.
+Product engineers shift from being measured by output to owning the outer loop — ensuring real customer impact and course-correcting as the evidence comes in.
 
 **The technical and the organizational shifts form one system**: they enable and reinforce one another, and must not be managed in isolation.
 

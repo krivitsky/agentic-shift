@@ -4,7 +4,7 @@ _naar professionele agentic product engineering_
 
 De sectorbrede verschuiving naar **agentic product engineering** brengt radicaal nieuwe organisaties voort. De meeste leiders hebben nog niet doorgrond hoe diep dit gaat. Wie dat wel heeft, loopt al voorop. En *de kloof tussen de besten en de rest wordt met de dag groter.*
 
-Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om echte verandering te onderscheiden van *middelmaat en marketing*, definiëren we **professionele agentic product engineering** als een reeks zichtbare verschuivingen in organisatieontwerp: in hoe het werk van product engineering daadwerkelijk gebeurt.
+Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om echte verandering te onderscheiden van ~~middelmaat en pure marketing~~, definiëren we **professionele agentic product engineering** als een reeks zichtbare verschuivingen in organisatieontwerp: in hoe het werk van product engineering daadwerkelijk gebeurt.
 
 ## De verschuivingen naar professionele agentic product engineering op organisatieniveau
 
@@ -25,7 +25,7 @@ Product engineers verschuiven van smalle, lopendebandspecialisten naar end-to-en
 Geen doorgeefspel meer via manager-tussenpersonen, geen wegkwijnen meer in de kelder — product engineers gaan naar nul afstand tot klanten en gebruikers, om uit de eerste hand in te leven, te analyseren en te synthetiseren.
 
 ### 05. output → uitkomsten (output → outcomes)
-Product engineers worden niet langer afgerekend op output, maar nemen de uitkomsten zelf in handen en sturen ze aan — afwijkingen aanvoelen en voortdurend bijsturen.
+Product engineers worden niet langer afgerekend op output, maar nemen de outer loop in handen — ze zorgen voor echte impact bij klanten en sturen bij zodra het bewijs binnenkomt.
 
 **De technische en de organisatorische verschuivingen vormen één systeem**: ze maken elkaar mogelijk en versterken elkaar, en mogen niet los van elkaar worden beheerd.
 

@@ -77,6 +77,8 @@ const B_OPEN = String.fromCharCode(0xE000);
 const B_CLOSE = String.fromCharCode(0xE001);
 const I_OPEN = String.fromCharCode(0xE002);
 const I_CLOSE = String.fromCharCode(0xE003);
+const S_OPEN = String.fromCharCode(0xE004);
+const S_CLOSE = String.fromCharCode(0xE005);
 
 function inline(html, { emphasis, links }) {
   let s = String(html);
@@ -84,6 +86,7 @@ function inline(html, { emphasis, links }) {
     links === 'md' ? '[$2]($1)' : '$2 ($1)');
   s = s.replace(/<span class="definition">([\s\S]*?)<\/span>/g, B_OPEN + '$1' + B_CLOSE);
   s = s.replace(/<span class="amber">([\s\S]*?)<\/span>/g, I_OPEN + '$1' + I_CLOSE);
+  s = s.replace(/<span class="strike">([\s\S]*?)<\/span>/g, S_OPEN + '$1' + S_CLOSE);
   s = s.replace(/<strong>/g, B_OPEN).replace(/<\/strong>/g, B_CLOSE);
   s = s.replace(/<em>/g, I_OPEN).replace(/<\/em>/g, I_CLOSE);
   s = s.replace(/<[^>]+>/g, '');           // drop any remaining tags (e.g. <span class="lite">)
@@ -92,13 +95,17 @@ function inline(html, { emphasis, links }) {
   let out = '';
   let bold = 0;
   let ital = 0;
+  let strike = 0;
   const bMark = emphasis === 'md' ? '**' : '';
   const iMark = emphasis === 'md' ? '*' : '';
+  const sMark = emphasis === 'md' ? '~~' : '';
   for (const ch of s) {
     if (ch === B_OPEN) { if (bold === 0) out += bMark; bold++; }
     else if (ch === B_CLOSE) { bold = Math.max(0, bold - 1); if (bold === 0) out += bMark; }
     else if (ch === I_OPEN) { if (ital === 0) out += iMark; ital++; }
     else if (ch === I_CLOSE) { ital = Math.max(0, ital - 1); if (ital === 0) out += iMark; }
+    else if (ch === S_OPEN) { if (strike === 0) out += sMark; strike++; }
+    else if (ch === S_CLOSE) { strike = Math.max(0, strike - 1); if (strike === 0) out += sMark; }
     else out += ch;
   }
   return out.replace(/\s+/g, ' ').trim();

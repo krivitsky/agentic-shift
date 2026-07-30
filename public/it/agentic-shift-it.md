@@ -4,7 +4,7 @@ _verso un'ingegneria di prodotto agentica professionale_
 
 Lo spostamento dell'intero settore verso l'**ingegneria di prodotto agentica** sta producendo organizzazioni radicalmente nuove. La maggior parte dei leader non ha ancora colto quanto sia profondo. Chi l'ha colto è già avanti. E *il divario tra i migliori e gli altri si allarga ogni giorno.*
 
-Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla *mediocrità e dal marketing*, definiamo l'**ingegneria di prodotto agentica professionale** come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto.
+Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla ~~mediocrità e dal puro marketing~~, definiamo l'**ingegneria di prodotto agentica professionale** come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto.
 
 ## Gli spostamenti verso un'ingegneria di prodotto agentica professionale a livello di organizzazione
 
@@ -25,7 +25,7 @@ Gli ingegneri di prodotto passano da specialisti ristretti, da catena di montagg
 Basta con il gioco del telefono senza fili attraverso manager-intermediari, basta con lo stare chiusi in cantina — gli ingegneri di prodotto passano a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona.
 
 ### 05. produzione → risultati (output → outcomes)
-Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dei risultati guidandoli in prima persona — percependo le deviazioni e correggendo la rotta di continuo.
+Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dell'outer loop — garantendo un impatto reale sui clienti e correggendo la rotta man mano che arrivano le evidenze.
 
 **Gli spostamenti tecnici e organizzativi formano un solo sistema**: si abilitano e si rafforzano a vicenda e non vanno gestiti isolatamente.
 

@@ -21,7 +21,7 @@
 
   "lede": [
     "Celoodvětvový posun k <span class=\"definition\">agentnímu produktovému inženýrství</span> vytváří radikálně nové organizace. Většina lídrů dosud nepochopila, jak hluboko to jde. Ti, kdo to pochopili, jsou už o krok vpřed. A <em>rozdíl mezi nejlepšími a ostatními se každým dnem zvětšuje.</em>",
-    "Abychom těmto myšlenkám pomohli se šířit — a nastavili laťku dost vysoko, aby šlo odlišit skutečnou změnu od <span class=\"amber\">průměrnosti a marketingu</span> — definujeme <span class=\"definition\"><strong>profesionální</strong> agentní produktové inženýrství</span> jako soubor zřetelných posunů v organizačním designu: v tom, jak se produktová inženýrská práce skutečně odvádí."
+    "Abychom těmto myšlenkám pomohli se šířit — a nastavili laťku dost vysoko, aby šlo odlišit skutečnou změnu od <span class=\"strike\">průměrnosti a čirého marketingu</span> — definujeme <span class=\"definition\"><strong>profesionální</strong> agentní produktové inženýrství</span> jako soubor zřetelných posunů v organizačním designu: v tom, jak se produktová inženýrská práce skutečně odvádí."
   ],
 
   "sectionHead": "Posuny <span class=\"lite\">k</span> profesionálnímu agentnímu produktovému inženýrství <span class=\"lite\">na</span> úrovni organizace",
@@ -65,7 +65,7 @@
     {
       "from": "výstupy",
       "to": "dopady",
-      "note": "Produktoví inženýři přestávají být měřeni podle výstupů a sami přebírají odpovědnost za dopady a aktivně je řídí — vnímají odchylky a průběžně korigují kurz."
+      "note": "Produktoví inženýři přestávají být měřeni podle výstupů a přebírají vnější smyčku (outer loop) — zajišťují skutečný dopad na zákazníky a korigují kurz, jakmile přicházejí důkazy."
     }
   ],
 

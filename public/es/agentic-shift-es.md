@@ -4,7 +4,7 @@ _hacia una ingeniería de producto agéntica profesional_
 
 El cambio en toda la industria hacia la **ingeniería de producto agéntica** está produciendo organizaciones radicalmente nuevas. La mayoría de los líderes aún no ha comprendido su profundidad. Quienes lo han hecho ya van por delante. Y *la brecha entre los mejores y el resto se ensancha cada día.*
 
-Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante alto como para distinguir el cambio real de la *mediocridad y el marketing*, definimos la **ingeniería de producto agéntica profesional** como un conjunto de cambios visibles en el diseño organizativo: en cómo se hace realmente el trabajo de ingeniería de producto.
+Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante alto como para distinguir el cambio real de la ~~mediocridad y el puro marketing~~, definimos la **ingeniería de producto agéntica profesional** como un conjunto de cambios visibles en el diseño organizativo: en cómo se hace realmente el trabajo de ingeniería de producto.
 
 ## Los cambios hacia una ingeniería de producto agéntica profesional a nivel de organización
 
@@ -25,7 +25,7 @@ Los ingenieros de producto pasan de especialistas estrechos, de cadena de montaj
 Se acabó el teléfono escacharrado a través de mánagers intermediarios, se acabó el estar encerrados en el sótano — los ingenieros de producto pasan a distancia cero con clientes y usuarios, para empatizar, analizar y sintetizar de primera mano.
 
 ### 05. producción → resultados (output → outcomes)
-Los ingenieros de producto dejan de medirse por su producción y pasan a asumir e impulsar los resultados ellos mismos — detectando desviaciones y corrigiendo el rumbo de forma continua.
+Los ingenieros de producto dejan de medirse por su producción y pasan a hacerse cargo del outer loop — asegurando un impacto real en los clientes y corrigiendo el rumbo a medida que llegan las evidencias.
 
 **Los cambios técnicos y organizativos forman un solo sistema**: se habilitan y refuerzan mutuamente y no deben gestionarse de forma aislada.
 

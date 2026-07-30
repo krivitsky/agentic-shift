@@ -9,7 +9,7 @@
 
 The industry-wide shift toward agentic product engineering is producing radically new organizations. Most leaders haven't yet grasped how deep this goes. The ones who have are already ahead of the curve. And the gap between the best and the rest widens every day.
 
-To help these ideas spread, and to set a bar high enough to tell real change from mediocrity and marketing, we're defining the professional agentic product engineering as a set of noticeable org-design shifts in how product engineering work gets done.
+To help these ideas spread, and to set a bar high enough to tell real change from mediocrity and pure marketing, we're defining the professional agentic product engineering as a set of noticeable org-design shifts in how product engineering work gets done.
 
 ### The shifts towards professional agentic product engineering at org-level
 
@@ -22,7 +22,7 @@ To help these ideas spread, and to set a bar high enough to tell real change fro
 
 3. specialists → craftspeople — Product engineers shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps in real time and mentoring the product engineers into new domains and skills.
 4. proxies → users — No more telephone game through manager-proxies, no more sitting in the basement — product engineers shift to zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.
-5. output → outcomes — Product engineers shift from being measured by output to owning and driving outcomes themselves — sensing drift and correcting course continuously.
+5. output → outcomes — Product engineers shift from being measured by output to owning the outer loop — ensuring real customer impact and course-correcting as the evidence comes in.
 
 The technical and the organizational shifts form one system: they enable and reinforce one another, and must not be managed in isolation.
 
@@ -40,7 +40,7 @@ The technical and the organizational shifts form one system: they enable and rei
 
 Der branchenweite Wandel hin zu agentic product engineering bringt radikal neue Organisationen hervor. Die meisten Führungskräfte haben noch nicht erfasst, wie tief das reicht. Wer es erfasst hat, ist der Kurve bereits voraus. Und die Kluft zwischen den Besten und dem Rest wird täglich größer.
 
-Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu legen, um echten Wandel von Mittelmaß und Marketing zu unterscheiden — definieren wir professionelles agentic product engineering als eine Reihe deutlich sichtbarer Verschiebungen im Org-Design: darin, wie Produktentwicklung tatsächlich geschieht.
+Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu legen, um echten Wandel von Mittelmaß und reinem Marketing zu unterscheiden — definieren wir professionelles agentic product engineering als eine Reihe deutlich sichtbarer Verschiebungen im Org-Design: darin, wie Produktentwicklung tatsächlich geschieht.
 
 ### Die Verschiebungen hin zu professionellem agentic product engineering auf Org-Ebene
 
@@ -53,7 +53,7 @@ Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu leg
 
 3. Spezialisten → Handwerker (specialists → craftspeople) — Product Engineers wandeln sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern — KI füllt die Spezialistenlücken in Echtzeit und führt die Product Engineers in neue Domänen und Fähigkeiten ein.
 4. Stellvertreter → Nutzer (proxies → users) — Kein Stille-Post-Spiel mehr über Manager als Stellvertreter, kein Sitzen im Keller — Product Engineers gehen auf null Distanz zu Kundinnen und Nutzern, um aus erster Hand zu verstehen, zu analysieren und zu synthetisieren.
-5. Output → Wirkung (output → outcomes) — Product Engineers werden nicht länger am Output gemessen, sondern verantworten und treiben Wirkung selbst — sie spüren Abweichungen und korrigieren den Kurs fortlaufend.
+5. Output → Wirkung (output → outcomes) — Product Engineers werden nicht länger am Output gemessen, sondern übernehmen den Outer Loop — sie sorgen für echte Kundenwirkung und korrigieren den Kurs, sobald die Evidenz eintrifft.
 
 Die technischen und die organisatorischen Verschiebungen bilden ein System: Sie ermöglichen und verstärken einander und dürfen nicht isoliert gesteuert werden.
 
@@ -71,7 +71,7 @@ Die technischen und die organisatorischen Verschiebungen bilden ein System: Sie 
 
 De sectorbrede verschuiving naar agentic product engineering brengt radicaal nieuwe organisaties voort. De meeste leiders hebben nog niet doorgrond hoe diep dit gaat. Wie dat wel heeft, loopt al voorop. En de kloof tussen de besten en de rest wordt met de dag groter.
 
-Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om echte verandering te onderscheiden van middelmaat en marketing, definiëren we professionele agentic product engineering als een reeks zichtbare verschuivingen in organisatieontwerp: in hoe het werk van product engineering daadwerkelijk gebeurt.
+Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om echte verandering te onderscheiden van middelmaat en pure marketing, definiëren we professionele agentic product engineering als een reeks zichtbare verschuivingen in organisatieontwerp: in hoe het werk van product engineering daadwerkelijk gebeurt.
 
 ### De verschuivingen naar professionele agentic product engineering op organisatieniveau
 
@@ -84,7 +84,7 @@ Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om ech
 
 3. specialisten → vakmensen (specialists → craftspeople) — Product engineers verschuiven van smalle, lopendebandspecialisten naar end-to-end vakmensen — waarbij AI de specialismegaten in realtime opvult en hen begeleidt naar nieuwe domeinen en vaardigheden.
 4. tussenpersonen → gebruikers (proxies → users) — Geen doorgeefspel meer via manager-tussenpersonen, geen wegkwijnen meer in de kelder — product engineers gaan naar nul afstand tot klanten en gebruikers, om uit de eerste hand in te leven, te analyseren en te synthetiseren.
-5. output → uitkomsten (output → outcomes) — Product engineers worden niet langer afgerekend op output, maar nemen de uitkomsten zelf in handen en sturen ze aan — afwijkingen aanvoelen en voortdurend bijsturen.
+5. output → uitkomsten (output → outcomes) — Product engineers worden niet langer afgerekend op output, maar nemen de outer loop in handen — ze zorgen voor echte impact bij klanten en sturen bij zodra het bewijs binnenkomt.
 
 De technische en de organisatorische verschuivingen vormen één systeem: ze maken elkaar mogelijk en versterken elkaar, en mogen niet los van elkaar worden beheerd.
 
@@ -102,7 +102,7 @@ De technische en de organisatorische verschuivingen vormen één systeem: ze mak
 
 Le basculement de toute l'industrie vers l'ingénierie produit agentique fait émerger des organisations radicalement nouvelles. La plupart des dirigeants n'ont pas encore saisi la profondeur du phénomène. Ceux qui l'ont saisi ont déjà une longueur d'avance. Et l'écart entre les meilleurs et les autres se creuse chaque jour.
 
-Pour aider ces idées à se répandre, et pour placer la barre assez haut pour distinguer le vrai changement de la médiocrité et du marketing, nous définissons l'ingénierie produit agentique professionnelle comme un ensemble de basculements visibles dans le design organisationnel : dans la façon dont le travail d'ingénierie produit se fait réellement.
+Pour aider ces idées à se répandre, et pour placer la barre assez haut pour distinguer le vrai changement de la médiocrité et du pur marketing, nous définissons l'ingénierie produit agentique professionnelle comme un ensemble de basculements visibles dans le design organisationnel : dans la façon dont le travail d'ingénierie produit se fait réellement.
 
 ### Les basculements vers une ingénierie produit agentique professionnelle à l'échelle de l'organisation
 
@@ -115,7 +115,7 @@ Pour aider ces idées à se répandre, et pour placer la barre assez haut pour d
 
 3. spécialistes → artisans (specialists → craftspeople) — Les ingénieurs produit passent de spécialistes cloisonnés, à la chaîne, à des artisans de bout en bout — l'IA comblant les lacunes de spécialité en temps réel et guidant les ingénieurs vers de nouveaux domaines et compétences.
 4. intermédiaires → utilisateurs (proxies → users) — Fini le téléphone arabe via des managers intermédiaires, fini l'isolement au sous-sol — les ingénieurs produit passent à distance zéro avec les clients et les utilisateurs, pour comprendre, analyser et synthétiser de première main.
-5. production → résultats (output → outcomes) — Les ingénieurs produit ne sont plus mesurés à leur production mais s'approprient et pilotent eux-mêmes les résultats — détectant les dérives et corrigeant le cap en continu.
+5. production → résultats (output → outcomes) — Les ingénieurs produit ne sont plus mesurés à leur production mais s'approprient l'outer loop — garantissant un impact client réel et corrigeant le cap à mesure que les preuves arrivent.
 
 Les basculements techniques et organisationnels forment un seul système : ils se rendent possibles et se renforcent mutuellement, et ne doivent pas être gérés isolément.
 
@@ -133,7 +133,7 @@ Les basculements techniques et organisationnels forment un seul système : ils s
 
 Lo spostamento dell'intero settore verso l'ingegneria di prodotto agentica sta producendo organizzazioni radicalmente nuove. La maggior parte dei leader non ha ancora colto quanto sia profondo. Chi l'ha colto è già avanti. E il divario tra i migliori e gli altri si allarga ogni giorno.
 
-Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla mediocrità e dal marketing, definiamo l'ingegneria di prodotto agentica professionale come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto.
+Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla mediocrità e dal puro marketing, definiamo l'ingegneria di prodotto agentica professionale come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto.
 
 ### Gli spostamenti verso un'ingegneria di prodotto agentica professionale a livello di organizzazione
 
@@ -146,7 +146,7 @@ Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da di
 
 3. specialisti → artigiani (specialists → craftspeople) — Gli ingegneri di prodotto passano da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma le lacune di specializzazione in tempo reale e li guida verso nuovi ambiti e competenze.
 4. intermediari → utenti (proxies → users) — Basta con il gioco del telefono senza fili attraverso manager-intermediari, basta con lo stare chiusi in cantina — gli ingegneri di prodotto passano a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona.
-5. produzione → risultati (output → outcomes) — Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dei risultati guidandoli in prima persona — percependo le deviazioni e correggendo la rotta di continuo.
+5. produzione → risultati (output → outcomes) — Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dell'outer loop — garantendo un impatto reale sui clienti e correggendo la rotta man mano che arrivano le evidenze.
 
 Gli spostamenti tecnici e organizzativi formano un solo sistema: si abilitano e si rafforzano a vicenda e non vanno gestiti isolatamente.
 
@@ -164,7 +164,7 @@ Gli spostamenti tecnici e organizzativi formano un solo sistema: si abilitano e 
 
 El cambio en toda la industria hacia la ingeniería de producto agéntica está produciendo organizaciones radicalmente nuevas. La mayoría de los líderes aún no ha comprendido su profundidad. Quienes lo han hecho ya van por delante. Y la brecha entre los mejores y el resto se ensancha cada día.
 
-Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante alto como para distinguir el cambio real de la mediocridad y el marketing, definimos la ingeniería de producto agéntica profesional como un conjunto de cambios visibles en el diseño organizativo: en cómo se hace realmente el trabajo de ingeniería de producto.
+Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante alto como para distinguir el cambio real de la mediocridad y el puro marketing, definimos la ingeniería de producto agéntica profesional como un conjunto de cambios visibles en el diseño organizativo: en cómo se hace realmente el trabajo de ingeniería de producto.
 
 ### Los cambios hacia una ingeniería de producto agéntica profesional a nivel de organización
 
@@ -177,7 +177,7 @@ Para ayudar a que estas ideas se difundan, y para poner el listón lo bastante a
 
 3. especialistas → artesanos (specialists → craftspeople) — Los ingenieros de producto pasan de especialistas estrechos, de cadena de montaje, a artesanos de principio a fin — con la IA cubriendo los huecos de especialidad en tiempo real y guiándolos hacia nuevos dominios y habilidades.
 4. intermediarios → usuarios (proxies → users) — Se acabó el teléfono escacharrado a través de mánagers intermediarios, se acabó el estar encerrados en el sótano — los ingenieros de producto pasan a distancia cero con clientes y usuarios, para empatizar, analizar y sintetizar de primera mano.
-5. producción → resultados (output → outcomes) — Los ingenieros de producto dejan de medirse por su producción y pasan a asumir e impulsar los resultados ellos mismos — detectando desviaciones y corrigiendo el rumbo de forma continua.
+5. producción → resultados (output → outcomes) — Los ingenieros de producto dejan de medirse por su producción y pasan a hacerse cargo del outer loop — asegurando un impacto real en los clientes y corrigiendo el rumbo a medida que llegan las evidencias.
 
 Los cambios técnicos y organizativos forman un solo sistema: se habilitan y refuerzan mutuamente y no deben gestionarse de forma aislada.
 
@@ -195,7 +195,7 @@ Los cambios técnicos y organizativos forman un solo sistema: se habilitan y ref
 
 A mudança de toda a indústria rumo à engenharia de produto agêntica está a produzir organizações radicalmente novas. A maioria dos líderes ainda não percebeu quão profundo isto é. Quem percebeu já está à frente. E a distância entre os melhores e os restantes aumenta a cada dia.
 
-Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficiente para distinguir a mudança real da mediocridade e do marketing, definimos a engenharia de produto agêntica profissional como um conjunto de mudanças visíveis no design organizacional: no modo como o trabalho de engenharia de produto é realmente feito.
+Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficiente para distinguir a mudança real da mediocridade e do puro marketing, definimos a engenharia de produto agêntica profissional como um conjunto de mudanças visíveis no design organizacional: no modo como o trabalho de engenharia de produto é realmente feito.
 
 ### As mudanças rumo a uma engenharia de produto agêntica profissional ao nível da organização
 
@@ -208,7 +208,7 @@ Para ajudar estas ideias a espalhar-se, e para colocar a fasquia alta o suficien
 
 3. especialistas → artesãos (specialists → craftspeople) — Os engenheiros de produto passam de especialistas estreitos, de linha de montagem, a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade em tempo real e a orientá-los para novos domínios e competências.
 4. intermediários → utilizadores (proxies → users) — Acaba a comunicação indireta por meio de gestores intermediários. Os engenheiros de produto passam a atuar em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte.
-5. produção → resultados (output → outcomes) — Os engenheiros de produto deixam de ser medidos pela produção e passam a assumir e a conduzir os resultados eles próprios — detetando desvios e corrigindo o rumo continuamente.
+5. produção → resultados (output → outcomes) — Os engenheiros de produto deixam de ser medidos pela produção e passam a assumir o outer loop — garantindo um impacto real nos clientes e corrigindo o rumo à medida que surgem as evidências.
 
 As mudanças técnicas e organizacionais formam um só sistema: possibilitam-se e reforçam-se mutuamente e não devem ser geridas isoladamente.
 
@@ -226,7 +226,7 @@ As mudanças técnicas e organizacionais formam um só sistema: possibilitam-se 
 
 Celoodvětvový posun k agentnímu produktovému inženýrství vytváří radikálně nové organizace. Většina lídrů dosud nepochopila, jak hluboko to jde. Ti, kdo to pochopili, jsou už o krok vpřed. A rozdíl mezi nejlepšími a ostatními se každým dnem zvětšuje.
 
-Abychom těmto myšlenkám pomohli se šířit — a nastavili laťku dost vysoko, aby šlo odlišit skutečnou změnu od průměrnosti a marketingu — definujeme profesionální agentní produktové inženýrství jako soubor zřetelných posunů v organizačním designu: v tom, jak se produktová inženýrská práce skutečně odvádí.
+Abychom těmto myšlenkám pomohli se šířit — a nastavili laťku dost vysoko, aby šlo odlišit skutečnou změnu od průměrnosti a čirého marketingu — definujeme profesionální agentní produktové inženýrství jako soubor zřetelných posunů v organizačním designu: v tom, jak se produktová inženýrská práce skutečně odvádí.
 
 ### Posuny k profesionálnímu agentnímu produktovému inženýrství na úrovni organizace
 
@@ -239,7 +239,7 @@ Abychom těmto myšlenkám pomohli se šířit — a nastavili laťku dost vysok
 
 3. specialisté → řemeslníci (specialists → craftspeople) — Produktoví inženýři se mění z úzce zaměřených specialistů na výrobní lince na řemeslníky, kteří zvládnou celou cestu od začátku do konce — AI v reálném čase doplňuje chybějící specializace a mentoruje produktové inženýry v nových oblastech a dovednostech.
 4. prostředníci → uživatelé (proxies → users) — Už žádná tichá pošta přes manažery-prostředníky, už žádné sezení ve sklepě — produktoví inženýři přecházejí k nulové vzdálenosti od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky.
-5. výstupy → dopady (output → outcomes) — Produktoví inženýři přestávají být měřeni podle výstupů a sami přebírají odpovědnost za dopady a aktivně je řídí — vnímají odchylky a průběžně korigují kurz.
+5. výstupy → dopady (output → outcomes) — Produktoví inženýři přestávají být měřeni podle výstupů a přebírají vnější smyčku (outer loop) — zajišťují skutečný dopad na zákazníky a korigují kurz, jakmile přicházejí důkazy.
 
 Technické a organizační posuny tvoří jeden systém: navzájem se umožňují a posilují a nesmějí se řídit izolovaně.
 
@@ -257,7 +257,7 @@ Technické a organizační posuny tvoří jeden systém: navzájem se umožňuj�
 
 Загальногалузевий перехід до агентної продуктової інженерії породжує радикально нові організації. Більшість керівників ще не усвідомили, наскільки це глибоко. Ті, хто усвідомив, уже випереджають інших. І розрив між найкращими та рештою щодня зростає.
 
-Щоб допомогти цим ідеям поширюватися — і щоб задати планку, достатньо високу, аби відрізнити справжні зміни від посередності та маркетингу — ми визначаємо професійну агентну продуктову інженерію як набір помітних зрушень в організаційному дизайні: у тому, як насправді відбувається продуктова інженерна робота.
+Щоб допомогти цим ідеям поширюватися — і щоб задати планку, достатньо високу, аби відрізнити справжні зміни від посередності та чистого маркетингу — ми визначаємо професійну агентну продуктову інженерію як набір помітних зрушень в організаційному дизайні: у тому, як насправді відбувається продуктова інженерна робота.
 
 ### Зрушення до професійної агентної продуктової інженерії на рівні організації
 
@@ -270,7 +270,7 @@ Technické a organizační posuny tvoří jeden systém: navzájem se umožňuj�
 
 3. спеціалісти → майстри (specialists → craftspeople) — Продуктові інженери переходять від вузьких, конвеєрних спеціалістів до майстрів повного циклу — ШІ заповнює прогалини спеціалізації в реальному часі й наставляє інженерів у нових галузях і навичках.
 4. посередники → користувачі (proxies → users) — Годі зіпсованого телефону через менеджерів-посередників, годі сидіння в підвалі — продуктові інженери переходять до нульової дистанції з клієнтами та користувачами, щоб співпереживати, аналізувати й синтезувати з перших вуст.
-5. результат праці → результати (output → outcomes) — Продуктових інженерів перестають вимірювати за обсягом зробленого — вони самі беруть на себе результати й керують ними, відчуваючи відхилення й безперервно коригуючи курс.
+5. результат праці → результати (output → outcomes) — Продуктових інженерів перестають вимірювати за обсягом зробленого — вони беруть на себе зовнішній цикл (outer loop), забезпечують реальний вплив на клієнтів і коригують курс, щойно надходять свідчення.
 
 Технічні та організаційні зрушення утворюють єдину систему: вони уможливлюють і підсилюють одне одного, і ними не можна керувати ізольовано.
 
@@ -288,7 +288,7 @@ Technické a organizační posuny tvoří jeden systém: navzájem se umožňuj�
 
 Общеотраслевой переход к агентной продуктовой инженерии порождает радикально новые организации. Большинство руководителей ещё не осознали, насколько это глубоко. Те, кто осознал, уже впереди. И разрыв между лучшими и остальными растёт с каждым днём.
 
-Чтобы помочь этим идеям распространяться — и задать планку достаточно высокую, чтобы отличить настоящие перемены от посредственности и маркетинга — мы определяем профессиональную агентную продуктовую инженерию как набор заметных сдвигов в организационном дизайне: в том, как на самом деле выполняется продуктовая инженерная работа.
+Чтобы помочь этим идеям распространяться — и задать планку достаточно высокую, чтобы отличить настоящие перемены от посредственности и чистого маркетинга — мы определяем профессиональную агентную продуктовую инженерию как набор заметных сдвигов в организационном дизайне: в том, как на самом деле выполняется продуктовая инженерная работа.
 
 ### Сдвиги к профессиональной агентной продуктовой инженерии на уровне организации
 
@@ -301,7 +301,7 @@ Technické a organizační posuny tvoří jeden systém: navzájem se umožňuj�
 
 3. специалисты → мастера (specialists → craftspeople) — Продуктовые инженеры переходят от узких, конвейерных специалистов к мастерам полного цикла — ИИ в реальном времени закрывает пробелы в специализации и наставляет их в новых областях и навыках.
 4. посредники → пользователи (proxies → users) — Больше никакого испорченного телефона через менеджеров-посредников, больше никакого сидения в подвале — продуктовые инженеры переходят к нулевой дистанции с клиентами и пользователями, чтобы сопереживать, анализировать и синтезировать из первых рук.
-5. выработка → результаты (output → outcomes) — Продуктовых инженеров перестают измерять по выработке — они сами берут на себя результаты и ведут их, улавливая отклонения и непрерывно корректируя курс.
+5. выработка → результаты (output → outcomes) — Продуктовых инженеров перестают измерять по выработке — они берут на себя внешний цикл (outer loop), обеспечивают реальное влияние на клиентов и корректируют курс по мере поступления свидетельств.
 
 Технические и организационные сдвиги образуют единую систему: они усиливают и подкрепляют друг друга, и ими нельзя управлять по отдельности.
 
@@ -319,7 +319,7 @@ Technické a organizační posuny tvoří jeden systém: navzájem se umožňuj�
 
 整个行业向智能体产品工程的转变，正在催生根本性全新的组织。大多数领导者尚未领会这一转变有多深。领会者已然领先。而且最优者与其余者之间的差距，正日益扩大。
 
-为帮助这些理念传播，并把标杆立得足够高，以便将真正的变革与平庸和营销区分开来，我们将专业的智能体产品工程定义为一组显而易见的组织设计转变：即产品工程工作究竟如何完成。
+为帮助这些理念传播，并把标杆立得足够高，以便将真正的变革与平庸和纯粹的营销区分开来，我们将专业的智能体产品工程定义为一组显而易见的组织设计转变：即产品工程工作究竟如何完成。
 
 ### 面向专业的智能体产品工程的组织级转变
 
@@ -332,7 +332,7 @@ Technické a organizační posuny tvoří jeden systém: navzájem se umožňuj�
 
 3. 专才 → 匠人 (specialists → craftspeople) — 产品工程师从狭窄的流水线专才，转变为端到端的匠人——AI 实时填补专业空白，并引导工程师进入新的领域与技能。
 4. 代理人 → 用户 (proxies → users) — 不再有经由管理者代理人的传话游戏，不再蜷缩于地下室——产品工程师转向与客户和用户零距离，亲身去共情、分析与综合。
-5. 产出 → 成果 (output → outcomes) — 产品工程师不再以产出被衡量，而是亲自承担并推动成果——持续察觉偏移并修正航向。
+5. 产出 → 成果 (output → outcomes) — 产品工程师不再以产出被衡量，而是亲自承担外循环（outer loop）——确保真实的客户影响，并随着证据到来持续修正航向。
 
 技术转变与组织转变构成同一个系统：二者相互赋能、相互强化，不得孤立地加以管理。
 
@@ -350,7 +350,7 @@ Technické a organizační posuny tvoří jeden systém: navzájem se umožňuj�
 
 エージェンティック・プロダクトエンジニアリングへの業界全体の転換が、根本的に新しい組織を生み出しています。ほとんどのリーダーは、これがどれほど深いものかをまだ捉えていません。捉えた者はすでに先を行っています。そして最良の者とそれ以外との差は、日々広がっています。
 
-こうした考えの普及を助け、本物の変化を凡庸さやマーケティングと見分けられるだけの高い基準を設けるために、私たちはプロフェッショナルなエージェンティック・プロダクトエンジニアリングを、プロダクトエンジニアリングの仕事の進め方における、目に見える一連の組織デザインの転換として定義します。
+こうした考えの普及を助け、本物の変化を凡庸さや純粋なマーケティングと見分けられるだけの高い基準を設けるために、私たちはプロフェッショナルなエージェンティック・プロダクトエンジニアリングを、プロダクトエンジニアリングの仕事の進め方における、目に見える一連の組織デザインの転換として定義します。
 
 ### 組織レベルでのプロフェッショナルなエージェンティック・プロダクトエンジニアリングへの転換
 
@@ -363,7 +363,7 @@ Technické a organizační posuny tvoří jeden systém: navzájem se umožňuj�
 
 3. 専門家 → 職人 (specialists → craftspeople) — プロダクトエンジニアは、細分化された流れ作業の専門家から、端から端までを担う職人へと移行します——AIが専門領域の隙間をリアルタイムで埋め、新しい領域とスキルへと導きます。
 4. 代理人 → ユーザー (proxies → users) — マネージャーという代理人を介した伝言ゲームはもう終わり、地下にこもるのももう終わり——プロダクトエンジニアは顧客とユーザーへの距離をゼロにし、直接に共感し、分析し、統合する側へと移行します。
-5. アウトプット → 成果 (output → outcomes) — プロダクトエンジニアはアウトプットで測られる側から、成果そのものを引き受け、自ら推し進める側へと移行します——ずれを察知し、絶えず針路を修正しながら。
+5. アウトプット → 成果 (output → outcomes) — プロダクトエンジニアはアウトプットで測られる側から、アウターループを引き受ける側へと移行します——顧客への実際のインパクトを担保し、証拠が集まるにつれて針路を修正します。
 
 技術的転換と組織的転換は一つのシステムを成します：互いに可能にし、強め合い、切り離して扱ってはなりません。
 

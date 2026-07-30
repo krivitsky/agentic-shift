@@ -21,7 +21,7 @@
 
   "lede": [
     "Lo spostamento dell'intero settore verso l'<span class=\"definition\">ingegneria di prodotto agentica</span> sta producendo organizzazioni radicalmente nuove. La maggior parte dei leader non ha ancora colto quanto sia profondo. Chi l'ha colto è già avanti. E <em>il divario tra i migliori e gli altri si allarga ogni giorno.</em>",
-    "Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla <span class=\"amber\">mediocrità e dal marketing</span>, definiamo l'<span class=\"definition\">ingegneria di prodotto agentica <strong>professionale</strong></span> come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto."
+    "Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla <span class=\"strike\">mediocrità e dal puro marketing</span>, definiamo l'<span class=\"definition\">ingegneria di prodotto agentica <strong>professionale</strong></span> come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto."
   ],
 
   "sectionHead": "Gli spostamenti <span class=\"lite\">verso</span> un'ingegneria di prodotto agentica professionale <span class=\"lite\">a</span> livello di organizzazione",
@@ -65,7 +65,7 @@
     {
       "from": "produzione",
       "to": "risultati",
-      "note": "Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dei risultati guidandoli in prima persona — percependo le deviazioni e correggendo la rotta di continuo."
+      "note": "Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dell'outer loop — garantendo un impatto reale sui clienti e correggendo la rotta man mano che arrivano le evidenze."
     }
   ],
 

@@ -4,7 +4,7 @@ _hin zu professionellem agentic product engineering_
 
 Der branchenweite Wandel hin zu **agentic product engineering** bringt radikal neue Organisationen hervor. Die meisten Führungskräfte haben noch nicht erfasst, wie tief das reicht. Wer es erfasst hat, ist der Kurve bereits voraus. Und *die Kluft zwischen den Besten und dem Rest wird täglich größer.*
 
-Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu legen, um echten Wandel von *Mittelmaß und Marketing* zu unterscheiden — definieren wir **professionelles agentic product engineering** als eine Reihe deutlich sichtbarer Verschiebungen im Org-Design: darin, wie Produktentwicklung tatsächlich geschieht.
+Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu legen, um echten Wandel von ~~Mittelmaß und reinem Marketing~~ zu unterscheiden — definieren wir **professionelles agentic product engineering** als eine Reihe deutlich sichtbarer Verschiebungen im Org-Design: darin, wie Produktentwicklung tatsächlich geschieht.
 
 ## Die Verschiebungen hin zu professionellem agentic product engineering auf Org-Ebene
 
@@ -25,7 +25,7 @@ Product Engineers wandeln sich von eng gefassten Fließband-Spezialisten zu End-
 Kein Stille-Post-Spiel mehr über Manager als Stellvertreter, kein Sitzen im Keller — Product Engineers gehen auf null Distanz zu Kundinnen und Nutzern, um aus erster Hand zu verstehen, zu analysieren und zu synthetisieren.
 
 ### 05. Output → Wirkung (output → outcomes)
-Product Engineers werden nicht länger am Output gemessen, sondern verantworten und treiben Wirkung selbst — sie spüren Abweichungen und korrigieren den Kurs fortlaufend.
+Product Engineers werden nicht länger am Output gemessen, sondern übernehmen den Outer Loop — sie sorgen für echte Kundenwirkung und korrigieren den Kurs, sobald die Evidenz eintrifft.
 
 **Die technischen und die organisatorischen Verschiebungen bilden ein System**: Sie ermöglichen und verstärken einander und dürfen nicht isoliert gesteuert werden.
 

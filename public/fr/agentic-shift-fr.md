@@ -4,7 +4,7 @@ _vers une ingénierie produit agentique professionnelle_
 
 Le basculement de toute l'industrie vers l'**ingénierie produit agentique** fait émerger des organisations radicalement nouvelles. La plupart des dirigeants n'ont pas encore saisi la profondeur du phénomène. Ceux qui l'ont saisi ont déjà une longueur d'avance. Et *l'écart entre les meilleurs et les autres se creuse chaque jour.*
 
-Pour aider ces idées à se répandre, et pour placer la barre assez haut pour distinguer le vrai changement de la *médiocrité et du marketing*, nous définissons l'**ingénierie produit agentique professionnelle** comme un ensemble de basculements visibles dans le design organisationnel : dans la façon dont le travail d'ingénierie produit se fait réellement.
+Pour aider ces idées à se répandre, et pour placer la barre assez haut pour distinguer le vrai changement de la ~~médiocrité et du pur marketing~~, nous définissons l'**ingénierie produit agentique professionnelle** comme un ensemble de basculements visibles dans le design organisationnel : dans la façon dont le travail d'ingénierie produit se fait réellement.
 
 ## Les basculements vers une ingénierie produit agentique professionnelle à l'échelle de l'organisation
 
@@ -25,7 +25,7 @@ Les ingénieurs produit passent de spécialistes cloisonnés, à la chaîne, à 
 Fini le téléphone arabe via des managers intermédiaires, fini l'isolement au sous-sol — les ingénieurs produit passent à distance zéro avec les clients et les utilisateurs, pour comprendre, analyser et synthétiser de première main.
 
 ### 05. production → résultats (output → outcomes)
-Les ingénieurs produit ne sont plus mesurés à leur production mais s'approprient et pilotent eux-mêmes les résultats — détectant les dérives et corrigeant le cap en continu.
+Les ingénieurs produit ne sont plus mesurés à leur production mais s'approprient l'outer loop — garantissant un impact client réel et corrigeant le cap à mesure que les preuves arrivent.
 
 **Les basculements techniques et organisationnels forment un seul système** : ils se rendent possibles et se renforcent mutuellement, et ne doivent pas être gérés isolément.
 
