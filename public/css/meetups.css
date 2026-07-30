@@ -128,8 +128,10 @@
   padding: clamp(20px, 2.6vw, 32px);
 }
 
-/* Media slot is optional — without it the copy takes the full width. */
+/* Media slot is optional. Without it the card is one column, so the copy
+   needs its own measure — full-card lines are unreadably long. */
 .next:not(:has(.next-media)) { grid-template-columns: 1fr; }
+.next:not(:has(.next-media)) .next-body > :not(.btn-row) { max-width: 62ch; }
 
 .next-media { position: relative; }
 
