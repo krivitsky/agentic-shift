@@ -384,5 +384,21 @@
 
   </main>
 
+  <script>
+    // Share links pick up junk after the fragment (#meetup3?3, #meetup3&utm=…),
+    // and the browser then matches no element and doesn't scroll at all. Only
+    // runs when the native jump has already failed: keep the leading id-shaped
+    // part, scroll there, and tidy the address bar so the next share is clean.
+    addEventListener('DOMContentLoaded', function () {
+      var raw = decodeURIComponent(location.hash.slice(1));
+      if (!raw || document.getElementById(raw)) return;
+      var id = (raw.match(/^[A-Za-z][\w-]*/) || [])[0];
+      var el = id && document.getElementById(id);
+      if (!el) return;
+      el.scrollIntoView();
+      history.replaceState(null, '', location.pathname + location.search + '#' + id);
+    });
+  </script>
+
 </body>
 </html>
