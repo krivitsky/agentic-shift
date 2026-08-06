@@ -45,9 +45,10 @@
 
   <style>
     /* Page-scoped, same pattern as /community — nothing is added to the shared
-       shift.css. This block is byte-identical on /v12, /v15 and /v2, so any
-       visual difference between the three drafts is a copy difference and never
-       a build difference; each page uses only the rules its markup asks for. */
+       shift.css. Written when three drafts were live side by side; /v15 and /v2
+       were removed 2026-08-06 when Alexey picked v1.2. Two rules below now fire
+       on nothing and are kept only so this page's markup is still comparable to
+       the homepage's; each page uses only the rules its markup asks for. */
 
     /* v2 — bright run-in label for the three-part shift blocks ("The move." /
        "The half nobody sells you." / "Skip it and:"). Deliberately colourless:
@@ -100,15 +101,6 @@
       <p class="subtitle">towards professional agentic product engineering</p>
     </div>
 
-    <!-- Review-only draft switcher. Sits in the slot the live page gives its
-         language switcher and reuses .langbar verbatim, so the three drafts
-         stay structurally identical to /. Comes out when a version is chosen. -->
-    <nav class="langbar" aria-label="Manifesto draft version">
-      <a aria-current="page">v1.2</a>
-      <a href="/v15">v1.5</a>
-      <a href="/v2">v2</a>
-    </nav>
-
   </header>
 
   <!-- ── Manifesto ────────────────────────────────────────────────── -->
@@ -138,9 +130,9 @@
 
     <h2 class="section-head" id="refuse"><span class="txt">What we refuse</span></h2>
 
-    <p class="lede"><em>We do not treat the loss of judgment as progress.</em></p>
+    <p class="lede"><em>We do not treat the loss of judgment as efficiency.</em></p>
 
-    <p class="lede"><em>We do not accept dependence as a design outcome.</em></p>
+    <p class="lede"><em>We do not accept vendor dependence as progress.</em></p>
 
     <p class="lede"><em>We do not confuse volume of output with capability.</em></p>
 

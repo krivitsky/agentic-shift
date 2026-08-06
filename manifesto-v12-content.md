@@ -31,9 +31,9 @@ We optimize for two things: the value delivered to customers, and the health of 
 
 ### What we refuse
 
-We do not treat the loss of judgment as progress.
+We do not treat the loss of judgment as efficiency.
 
-We do not accept dependence as a design outcome.
+We do not accept vendor dependence as progress.
 
 We do not confuse volume of output with capability.
 
