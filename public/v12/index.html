@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<!-- HIDDEN DRAFT — manifesto v2, for review only. Not linked from anywhere,
-     noindex, absent from sitemap.xml and llms.txt. Copy source:
-     /manifesto-v2-content.md at the repo root. The live manifesto
-     (manifesto/content/*.json → public/index.html) is untouched. -->
+<!-- HIDDEN DRAFT — manifesto v1.2, for review only. A byte-for-byte copy of the
+     live public/index.html with exactly three departures: the <head> is
+     re-pointed at /v12 and hidden (noindex, no hreflang, no JSON-LD, no GA),
+     the language switcher is replaced by the draft switcher, and two new
+     sections are inserted between the lede and the shifts. Every manifesto
+     string below — lede, shifts, system note, Q&A, foot — is the live text
+     generated from manifesto/content/en.json, untouched.
+     Copy source: /manifesto-v12-content.md at the repo root. -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Agentic Shift — v2 draft</title>
-  <meta name="description" content="Draft v2 of the Agentic Shift manifesto — what we optimize for, who sets the direction, what we refuse, and what we build.">
+  <title>Agentic Shift — v1.2 draft</title>
+  <meta name="description" content="Draft v1.2 of the Agentic Shift manifesto — the live text, plus what we optimize for and what we refuse.">
   <meta name="author" content="Alexey Krivitsky, Martin Westphal">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#05090d">
-  <link rel="canonical" href="/v2">
+  <link rel="canonical" href="/v12">
   <link rel="manifest" href="/site.webmanifest">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Agentic Shift">
-  <meta property="og:title" content="Agentic Shift — v2 draft">
-  <meta property="og:description" content="Draft v2 of the manifesto — what we optimize for, who sets the direction, what we refuse, and what we build.">
+  <meta property="og:title" content="Agentic Shift — v1.2 draft">
+  <meta property="og:description" content="Draft v1.2 — the live manifesto, plus what we optimize for and what we refuse.">
   <meta property="og:locale" content="en_US">
-  <meta property="og:url" content="/v2">
+  <meta property="og:url" content="/v12">
   <meta property="og:image" content="/images/og-shift.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Agentic Shift — v2 draft">
-  <meta name="twitter:description" content="Draft v2 of the manifesto — what we optimize for, who sets the direction, what we refuse, and what we build.">
+  <meta name="twitter:title" content="Agentic Shift — v1.2 draft">
+  <meta name="twitter:description" content="Draft v1.2 — the live manifesto, plus what we optimize for and what we refuse.">
   <meta name="twitter:image" content="/images/og-shift.png">
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -100,14 +104,14 @@
          language switcher and reuses .langbar verbatim, so the three drafts
          stay structurally identical to /. Comes out when a version is chosen. -->
     <nav class="langbar" aria-label="Manifesto draft version">
-      <a href="/v12">v1.2</a>
+      <a aria-current="page">v1.2</a>
       <a href="/v15">v1.5</a>
-      <a aria-current="page">v2</a>
+      <a href="/v2">v2</a>
     </nav>
 
   </header>
 
-  <!-- ── Manifesto (v2 draft) ─────────────────────────────────────── -->
+  <!-- ── Manifesto ────────────────────────────────────────────────── -->
   <main class="wrap manifesto">
 
     <a class="community-banner" href="/community">
@@ -116,37 +120,23 @@
       <span class="cb-status">applications open →</span>
     </a>
 
-    <!-- Opening -->
-    <p class="lede">Something is being sold to you alongside the models. Not only the tools — a set of working habits, arriving as advice. Generate more. Review less. Let the craft go.</p>
+    <p class="lede">The industry-wide shift toward <span class="definition">agentic product engineering</span> is producing radically new organizations. Most leaders haven't yet grasped how deep this goes. The ones who have are already ahead of the curve. And <em>the gap between the best and the rest widens every day.</em></p>
 
-    <p class="lede">We don't think this is a conspiracy. We think it's a very good strategy. Every company chases product-market fit; when your product is a frontier model, one of the available routes is to change the market rather than the product — and habits are part of the market. An engineer who still reads code, judges it, and holds the design is a harder fit than one who has stopped.</p>
+    <p class="lede">To help these ideas spread, and to set a bar high enough to tell real change from <span class="strike">mediocrity and pure marketing</span>, we're defining the <span class="definition"><strong>professional</strong> agentic product engineering</span> as a set of noticeable org-design shifts in how product engineering work gets done.</p>
 
-    <p class="lede">So the advice is real advice, and it is also doing strategic work. Both are true at once.</p>
+    <!-- ── NEW in v1.2 — the only insertion. Everything above and below is the
+         live text, unchanged. ~100 words, ~6 new translatable strings, zero
+         existing strings rewritten. ──────────────────────────────────────── -->
 
-    <!-- ── 1. What we optimize for ─────────────────────────────────── -->
-    <h2 class="section-head" id="optimize-for"><span class="txt"><span class="definition">1.</span> What we optimize for</span></h2>
+    <h2 class="section-head" id="optimize-for"><span class="txt">What we optimize for</span></h2>
 
     <p class="lede">Everyone is optimizing for something.</p>
 
     <p class="lede">The frontier labs optimize for adoption and throughput. That is legitimate, and it is their business — not yours.</p>
 
-    <p class="lede">We optimize for two things: <strong>the value delivered to customers</strong>, and <strong>the health of the organization that delivers it</strong> — its capacity to keep learning, keep judging, and keep changing direction.</p>
+    <p class="lede">We optimize for two things: <span class="definition">the value delivered to customers</span>, and <span class="definition">the health of the organization that delivers it</span> — its capacity to keep learning, keep judging, and keep changing direction. Where those two diverge from adoption and throughput, <em>we follow ours.</em></p>
 
-    <p class="lede">These are not the same target. Where they diverge, <em>we follow ours.</em></p>
-
-    <!-- ── 2. Who sets the direction ───────────────────────────────── -->
-    <h2 class="section-head" id="direction"><span class="txt"><span class="definition">2.</span> Who sets the direction</span></h2>
-
-    <p class="lede">Direction is not something you receive.</p>
-
-    <p class="lede">An organization that doesn't know what it is trying to become will adopt whichever practice is being promoted most loudly, and will call that a strategy.</p>
-
-    <p class="lede">Which capabilities you grow, and which you are content to rent, is a <span class="definition">design decision</span>. It is being made inside your organization right now — by default, by whoever adopts fastest. We think it belongs to leadership, made deliberately, before the tools arrive rather than after.</p>
-
-    <p class="lede">A consultancy sells you a contract. It ends, and you still have your organization. This has a different shape: if the reading and the judging quietly stop, there is no contract to end. There is only what your people can still do without the tools.</p>
-
-    <!-- ── 3. What we refuse ───────────────────────────────────────── -->
-    <h2 class="section-head" id="refuse"><span class="txt"><span class="definition">3.</span> What we refuse</span></h2>
+    <h2 class="section-head" id="refuse"><span class="txt">What we refuse</span></h2>
 
     <p class="lede"><em>We do not treat the loss of judgment as progress.</em></p>
 
@@ -154,14 +144,11 @@
 
     <p class="lede"><em>We do not confuse volume of output with capability.</em></p>
 
-    <!-- ── 4. What we build ────────────────────────────────────────── -->
-    <h2 class="section-head" id="what-we-build"><span class="txt"><span class="definition">4.</span> What we build</span></h2>
+    <!-- ── END of the v1.2 insertion ───────────────────────────────────── -->
 
-    <p class="lede"><span class="definition">Professional agentic product engineering</span> is what that decision looks like when it is carried through — a set of noticeable org-design shifts in how product engineering work gets done.</p>
+    <h2 class="section-head" id="the-five"><span class="txt">The shifts <span class="lite">towards</span> professional agentic product engineering <span class="lite">at</span> org-level<span class="tick" aria-hidden="true">:</span></span></h2>
 
-    <p class="lede">Each shift has a half that nobody sells you. <em>That half is the work.</em></p>
-
-    <section class="group group-tech group-lead">
+    <section class="group group-tech">
       <p class="group-head">
         <span class="group-label">Major technical shifts</span>
         <a class="group-src" href="https://agentic-engineering.guide/" target="_blank" rel="noopener"><span class="src-by">Supported by</span> Agentic Product Engineering Guide<span class="ext" aria-hidden="true">↗</span></a>
@@ -173,9 +160,7 @@
           <span class="n" aria-hidden="true">01</span>
           <div class="shift-body">
             <p class="pair"><span class="from">features</span><span class="arrow" aria-hidden="true">→</span><span class="to">systems</span></p>
-            <p class="note"><span class="lbl">The move.</span> Stop shipping one-off features.</p>
-            <p class="note"><span class="lbl">The half nobody sells you.</span> The self-improving loop that turns intent into working solutions — and someone accountable for the loop itself, not just for its output.</p>
-            <p class="note"><span class="lbl">Skip it and:</span> you get more output and the same product.</p>
+            <p class="note">Product engineers stop shipping one-off features and shift to building agentic systems — self-improving loops that turn intent into working solutions.</p>
           </div>
         </li>
 
@@ -183,9 +168,7 @@
           <span class="n" aria-hidden="true">02</span>
           <div class="shift-body">
             <p class="pair"><span class="from">gatekeeping</span><span class="arrow" aria-hidden="true">→</span><span class="to">guardrails</span></p>
-            <p class="note"><span class="lbl">The move.</span> Stop inspecting for quality at the end.</p>
-            <p class="note"><span class="lbl">The half nobody sells you.</span> Quality engineered into the system — the tests, the specifications, the coverage, the harness that makes output trustworthy before anyone looks at it.</p>
-            <p class="note"><span class="lbl">Skip it and:</span> you have simply removed review. Teams who stop inspecting without building the harness ship faster for two quarters, then cannot explain their own incidents.</p>
+            <p class="note">Product engineers stop inspecting for quality issues and shift to building quality into the system through well-engineered agentic harnesses.</p>
           </div>
         </li>
 
@@ -194,7 +177,7 @@
 
     <section class="group group-org">
       <p class="group-head">
-        <span class="group-label">Major structural shifts</span>
+        <span class="group-label">Major organizational shifts</span>
         <a class="group-src" href="https://10xorg.com/" target="_blank" rel="noopener"><span class="src-by">Supported by</span> Adaptive Topology from 10X ORG<span class="ext" aria-hidden="true">↗</span></a>
       </p>
 
@@ -204,9 +187,7 @@
           <span class="n" aria-hidden="true">03</span>
           <div class="shift-body">
             <p class="pair"><span class="from">specialists</span><span class="arrow" aria-hidden="true">→</span><span class="to">craftspeople</span></p>
-            <p class="note"><span class="lbl">The move.</span> Stop assembly-line specialization.</p>
-            <p class="note"><span class="lbl">The half nobody sells you.</span> Craftspeople who pull in specialist depth on demand and grow from it — the human is the one acting, not the one being filled in for.</p>
-            <p class="note"><span class="lbl">Skip it and:</span> you replace narrow specialists with generalists who no longer know what they don't know.</p>
+            <p class="note">Product engineers shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps in real time and mentoring the product engineers into new domains and skills.</p>
           </div>
         </li>
 
@@ -214,9 +195,7 @@
           <span class="n" aria-hidden="true">04</span>
           <div class="shift-body">
             <p class="pair"><span class="from">proxies</span><span class="arrow" aria-hidden="true">→</span><span class="to">users</span></p>
-            <p class="note"><span class="lbl">The move.</span> Stop the telephone game through manager-proxies.</p>
-            <p class="note"><span class="lbl">The half nobody sells you.</span> The org structure that permits zero distance to customers — a mandate, not an encouragement.</p>
-            <p class="note"><span class="lbl">Skip it and:</span> you deliver the wrong thing faster.</p>
+            <p class="note">No more telephone game through manager-proxies, no more sitting in the basement — product engineers shift to zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.</p>
           </div>
         </li>
 
@@ -224,24 +203,28 @@
           <span class="n" aria-hidden="true">05</span>
           <div class="shift-body">
             <p class="pair"><span class="from">output</span><span class="arrow" aria-hidden="true">→</span><span class="to">outcomes</span></p>
-            <p class="note"><span class="lbl">The move.</span> Stop measuring people by output.</p>
-            <p class="note"><span class="lbl">The half nobody sells you.</span> Teams that sense drift and correct course themselves, which requires the mandate to change direction.</p>
-            <p class="note"><span class="lbl">Skip it and:</span> you get outcome language over output management, and nothing changes but the vocabulary.</p>
+            <p class="note">Product engineers shift from being measured by output to owning the outer loop — ensuring real customer impact and course-correcting as the evidence comes in.</p>
           </div>
         </li>
 
       </ol>
     </section>
 
-    <!-- The copy's first two closing lines ("The first two shifts are technical…",
-         "The other three are structural…") are dropped here: the group headers
-         above already carry both the split and the source links. -->
-    <p class="lede system-note"><strong>They form <span class="definition">one system</span>.</strong> They enable and reinforce one another, and cannot be managed in isolation. The labs ship the technical half. <em>The structural half has no owner unless you take it.</em></p>
+    <p class="lede system-note"><strong>The technical and the organizational shifts form <span class="definition">one system</span></strong>: they enable and reinforce one another, and must not be managed in isolation.</p>
 
-    <!-- Closing -->
-    <p class="lede closing">While coding is being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: <span class="definition">the drive for perfection</span>, <span class="definition">unlimited creativity</span>, and <span class="definition">rich co-creation</span>.</p>
+    <h2 class="section-head" id="whats-next"><span class="txt">What's Next?</span></h2>
 
-    <p class="lede">The task of every organization and every leader is to design environments that <span class="definition">elevate human intelligence</span> to these new heights.</p>
+    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Towards a new manifesto?</p>
+
+    <p class="lede">It is perhaps <span class="amber">too early to write manifestos</span>, as the ground is still shifting — but we'd like to acknowledge the strong changes we're already observing throughout the industry, most visible among the frontrunners.</p>
+
+    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> What does it mean for org leaders?</p>
+
+    <p class="lede">While coding is now being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: <span class="definition">the drive for perfection</span>, <span class="definition">unlimited creativity</span>, and <span class="definition">rich co-creation</span>. The task of every organization and every leader is to design environments that <span class="definition">elevate human intelligence</span> to these new heights.</p>
+
+    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Want to contribute?</p>
+
+    <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Propose improvements</a>. Share this page. Put these ideas to work in your organization.</p>
 
     <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Want to go deeper?</p>
 
