@@ -2,10 +2,12 @@
 <!-- HIDDEN DRAFT — manifesto v1.2, for review only. A byte-for-byte copy of the
      live public/index.html with exactly three departures: the <head> is
      re-pointed at /v12 and hidden (noindex, no hreflang, no JSON-LD, no GA),
-     the language switcher is replaced by the draft switcher, and two new
-     sections are inserted between the lede and the shifts. Every manifesto
-     string below — lede, shifts, system note, Q&A, foot — is the live text
-     generated from manifesto/content/en.json, untouched.
+     the language switcher is replaced by the draft switcher, and the copy
+     departs from live in three places: a rewritten opening (replacing the old
+     two-paragraph lede), a "What we refuse" section, and a third technical
+     shift (02 code → context, which renumbers the organizational shifts to
+     04–06). Everything else — shifts 01/03–06, system note, Q&A, foot — is the
+     live text generated from manifesto/content/en.json, untouched.
      Copy source: /manifesto-v12-content.md at the repo root. -->
 <html lang="en">
 <head>
@@ -70,6 +72,15 @@
        `.lede + .lede` would space it as one more item in the refusal list.
        Higher specificity, so it reads as the transition it is. */
     .manifesto .lede.lede-lead { margin-top: clamp(40px, 6vw, 72px); }
+
+    /* "What we refuse" — identical to every other .section-head in size, family,
+       weight and rule; only the word colour changes. #e8617f is a rose-red
+       deliberately built off amber's red channel (#e8a33d) so it sits in the
+       same light family as the two existing accents instead of shouting over
+       them. NOTE: this is a FOURTH hue in a three-colour system (ink / teal /
+       amber) — it earns its place only if refusal is the one thing on the page
+       allowed to look different. Drop this rule to revert. */
+    .section-head-refuse .txt { color: #e8617f; }
   </style>
 </head>
 <body>
@@ -112,23 +123,21 @@
       <span class="cb-status">applications open →</span>
     </a>
 
-    <p class="lede">The industry-wide shift toward <span class="definition">agentic product engineering</span> is producing radically new organizations. Most leaders haven't yet grasped how deep this goes. The ones who have are already ahead of the curve. And <em>the gap between the best and the rest widens every day.</em></p>
+    <!-- ── v1.2 — the opening replaces the old two-paragraph lede. It names the
+         shift as real, states what we optimize for, and hands off to the shifts.
+         The old lede's definitional job ("we're defining professional agentic
+         product engineering as a set of org-design shifts") survives in the
+         closing paragraph. ─────────────────────────────────────────────────── -->
 
-    <p class="lede">To help these ideas spread, and to set a bar high enough to tell real change from <span class="strike">mediocrity and pure marketing</span>, we're defining the <span class="definition"><strong>professional</strong> agentic product engineering</span> as a set of noticeable org-design shifts in how product engineering work gets done.</p>
+    <p class="lede">The <span class="definition">agentic shift</span> is real — we are living it inside our own organizations. It runs deeper than tooling, and it is not measured in tokens.</p>
 
-    <!-- ── NEW in v1.2 — the only insertion. Everything above and below is the
-         live text, unchanged. ~100 words, ~6 new translatable strings, zero
-         existing strings rewritten. ──────────────────────────────────────── -->
+    <p class="lede">Everyone is optimizing for something. The frontier labs optimize for adoption: their product wins when your habits change, and the fastest way to change a habit is to make standing still feel like falling behind. That is a legitimate business, and it is theirs, not ours.</p>
 
-    <h2 class="section-head" id="optimize-for"><span class="txt">What we optimize for</span></h2>
+    <p class="lede">We are running organizations, and we are judged on other things — <span class="definition">the value that reaches our customers</span>, and <span class="definition">the health of the organization that keeps producing it</span>: its capacity to keep learning, keep judging, keep changing direction. Where that diverges from adoption and throughput, <em>we follow ours.</em></p>
 
-    <p class="lede">Everyone is optimizing for something.</p>
+    <p class="lede">So the shift happens on our terms. Every organization starts somewhere different and owns its path through it. What follows is what we think <span class="definition"><strong>professional</strong></span> has to mean along the way.</p>
 
-    <p class="lede">The frontier labs optimize for adoption and throughput. That is legitimate, and it is their business — not yours.</p>
-
-    <p class="lede">We optimize for two things: <span class="definition">the value delivered to customers</span>, and <span class="definition">the health of the organization that delivers it</span> — its capacity to keep learning, keep judging, and keep changing direction. Where those two diverge from adoption and throughput, <em>we follow ours.</em></p>
-
-    <h2 class="section-head" id="refuse"><span class="txt">What we refuse</span></h2>
+    <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">What we refuse</span></h2>
 
     <p class="lede"><em>We do not treat the loss of judgment as efficiency.</em></p>
 
@@ -136,7 +145,7 @@
 
     <p class="lede"><em>We do not confuse volume of output with capability.</em></p>
 
-    <!-- ── END of the v1.2 insertion ───────────────────────────────────── -->
+    <!-- ── END of the v1.2 opening ─────────────────────────────────────── -->
 
     <h2 class="section-head" id="the-five"><span class="txt">The shifts <span class="lite">towards</span> professional agentic product engineering <span class="lite">at</span> org-level<span class="tick" aria-hidden="true">:</span></span></h2>
 
@@ -159,6 +168,14 @@
         <li class="shift">
           <span class="n" aria-hidden="true">02</span>
           <div class="shift-body">
+            <p class="pair"><span class="from">code</span><span class="arrow" aria-hidden="true">→</span><span class="to">context</span></p>
+            <p class="note">Product engineers stop treating hand-written code as the durable asset and shift to authoring the context that produces it — specs, evals, tools, and the rules agents work under. Code gets cheap to regenerate; the context is what compounds.</p>
+          </div>
+        </li>
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">03</span>
+          <div class="shift-body">
             <p class="pair"><span class="from">gatekeeping</span><span class="arrow" aria-hidden="true">→</span><span class="to">guardrails</span></p>
             <p class="note">Product engineers stop inspecting for quality issues and shift to building quality into the system through well-engineered agentic harnesses.</p>
           </div>
@@ -173,10 +190,10 @@
         <a class="group-src" href="https://10xorg.com/" target="_blank" rel="noopener"><span class="src-by">Supported by</span> Adaptive Topology from 10X ORG<span class="ext" aria-hidden="true">↗</span></a>
       </p>
 
-      <ol class="shifts" start="3">
+      <ol class="shifts" start="4">
 
         <li class="shift">
-          <span class="n" aria-hidden="true">03</span>
+          <span class="n" aria-hidden="true">04</span>
           <div class="shift-body">
             <p class="pair"><span class="from">specialists</span><span class="arrow" aria-hidden="true">→</span><span class="to">craftspeople</span></p>
             <p class="note">Product engineers shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps in real time and mentoring the product engineers into new domains and skills.</p>
@@ -184,7 +201,7 @@
         </li>
 
         <li class="shift">
-          <span class="n" aria-hidden="true">04</span>
+          <span class="n" aria-hidden="true">05</span>
           <div class="shift-body">
             <p class="pair"><span class="from">proxies</span><span class="arrow" aria-hidden="true">→</span><span class="to">users</span></p>
             <p class="note">No more telephone game through manager-proxies, no more sitting in the basement — product engineers shift to zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.</p>
@@ -192,7 +209,7 @@
         </li>
 
         <li class="shift">
-          <span class="n" aria-hidden="true">05</span>
+          <span class="n" aria-hidden="true">06</span>
           <div class="shift-body">
             <p class="pair"><span class="from">output</span><span class="arrow" aria-hidden="true">→</span><span class="to">outcomes</span></p>
             <p class="note">Product engineers shift from being measured by output to owning the outer loop — ensuring real customer impact and course-correcting as the evidence comes in.</p>
