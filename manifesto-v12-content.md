@@ -6,9 +6,9 @@ Three departures from live:
 
 1. **A rewritten opening** — replaces the old two-paragraph lede entirely.
 2. **A "What we refuse" section** — three lines, new.
-3. **A third technical shift** — `02 code → context`, which renumbers the organizational shifts to 04–06.
+3. **A third technical shift** — `03 hands → fleets`, which renumbers the organizational shifts to 04–06.
 
-Everything else (shifts 01 / 03–06, system note, Q&A, foot) is the live English text, untouched.
+Everything else (shifts 01 / 02 / 04–06, system note, Q&A, foot) is the live English text, untouched.
 
 ---
 
@@ -23,9 +23,9 @@ Everything else (shifts 01 / 03–06, system note, Q&A, foot) is the live Englis
 
 The **agentic shift** is real — we are living it inside our own organizations. It runs deeper than tooling, and it is not measured in tokens.
 
-Everyone is optimizing for something. The frontier labs optimize for adoption: their product wins when your habits change, and the fastest way to change a habit is to make standing still feel like falling behind. That is a legitimate business, and it is theirs, not ours.
+Everyone is optimizing for something. The frontier labs optimize for adoption, and FOMO is their fastest lever. That is a legitimate business, and it is theirs, not ours.
 
-We are running organizations, and we are judged on other things — **the value that reaches our customers**, and **the health of the organization that keeps producing it**: its capacity to keep learning, keep judging, keep changing direction. Where that diverges from adoption and throughput, *we follow ours.*
+We are running **our** organizations, and we are judged on other things — **the value that reaches our customers**, and **the health of the organization that keeps producing it**: its capacity to keep learning, keep judging, keep changing direction. Where that diverges from adoption and throughput, *we follow ours.*
 
 So the shift happens on our terms. Every organization starts somewhere different and owns its path through it. What follows is what we think **professional** has to mean along the way.
 
@@ -37,17 +37,17 @@ The live lede did two jobs. The first — *"the gap between the best and the res
 
 ## What we refuse — NEW
 
-Rendered in the same card grammar as the shifts, with a **barred** arrow and a ✕ where the number goes:
+Rendered in the same card grammar as the shifts — a ✕ where the number goes, **≠** instead of an arrow, and each pair keeping its full sentence as the `.note`:
 
-| | | |
-|---|---|---|
-| lost judgment | ↛ | efficiency |
-| vendor dependence | ↛ | progress |
-| volume | ↛ | capability |
+| pair | sentence |
+|---|---|
+| lost judgment **≠** efficiency | We do not treat the loss of judgment as efficiency. |
+| vendor dependence **≠** progress | We do not accept vendor dependence as progress. |
+| volume **≠** capability | We do not confuse volume of output with capability. |
 
-The three settled sentences these compress — *"We do not treat the loss of judgment as efficiency"* etc. — are one revert away if the pairs read too cryptic. They were dropped as `.note` lines because the note would only restate the pair, which none of the shift cards do.
+`≠`, not a struck arrow: the refusals are denied equations, not moves from one place to another, and an arrow kept reading as direction even with a bar through it. The sentences stay so the compressed pair is never the only reading.
 
-**Styling:** same `.section-head` as *The shifts…* (same family, size, weight, rule); only the word colour differs — `#e8617f`, a rose-red built off amber's red channel. This is a fourth hue in a three-colour system (ink / teal / amber). The bar across the arrow is **drawn in CSS**, not typed: Poppins renders U+219B (↛) as an arrow followed by a loose slash. All page-scoped in `/v12`'s own `<style>`; drop the rules to revert.
+**Styling:** same `.section-head` as *The shifts…* (same family, size, weight, rule); only the word colour differs — `#e8617f`, a rose-red built off amber's red channel. This is a fourth hue in a three-colour system (ink / teal / amber). All page-scoped in `/v12`'s own `<style>`; drop the rules to revert.
 
 ---
 
@@ -84,4 +84,4 @@ Verbatim from `en.json`.
 
 ## Cost, if applied
 
-The old lede's strings are **rewritten**, not merely added to — so all 11 translations need a real pass, not an append. New translatable strings: opening (4), refusals (3 + heading), shift 02 pair + note (2). Native-reviewed corrections at risk: `pt` (guardrails + proxies note) — both survive, neither string is touched.
+The old lede's strings are **rewritten**, not merely added to — so all 11 translations need a real pass, not an append. New translatable strings: opening (4), refusals (3 sentences + 3 pairs + heading), shift 03 pair + note (2). Native-reviewed corrections at risk: `pt` (guardrails + proxies note) — both survive, neither string is touched.
