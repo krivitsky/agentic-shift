@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!-- HIDDEN DRAFT — manifesto v2, for review only. Not linked from anywhere,
+     noindex, absent from sitemap.xml and llms.txt. Copy source:
+     /manifesto-v2-content.md at the repo root. The live manifesto
+     (manifesto/content/*.json → public/index.html) is untouched. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Agentic Shift — v2 draft</title>
+  <meta name="description" content="Draft v2 of the Agentic Shift manifesto — what we optimize for, who sets the direction, what we refuse, and what we build.">
+  <meta name="author" content="Alexey Krivitsky, Martin Westphal">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#05090d">
+  <link rel="canonical" href="/v2">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Agentic Shift">
+  <meta property="og:title" content="Agentic Shift — v2 draft">
+  <meta property="og:description" content="Draft v2 of the manifesto — what we optimize for, who sets the direction, what we refuse, and what we build.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="/v2">
+  <meta property="og:image" content="/images/og-shift.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Agentic Shift — v2 draft">
+  <meta name="twitter:description" content="Draft v2 of the manifesto — what we optimize for, who sets the direction, what we refuse, and what we build.">
+  <meta name="twitter:image" content="/images/og-shift.png">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/shift.css">
+
+  <style>
+    /* Page-scoped, same pattern as /community — nothing is added to the
+       shared shift.css. One rule: the run-in labels inside the three-part
+       shift blocks ("The move." / "The half nobody sells you." / "Skip it
+       and:") need to sit brighter than the note body so they read as labels
+       and not as prose. Deliberately colourless — every accent in this system
+       already means something (teal = the destination, amber = the technical
+       group), and the cards are already tinted by their group. */
+    .note .lbl { color: #dbe6ec; font-weight: 600; }
+
+    /* On the homepage a .section-head sits immediately above the first group
+       and supplies the gap. Here the group follows body copy instead, so it
+       needs the same air — reusing the .system-note step so the rhythm above
+       and below the shifts matches. */
+    .manifesto .group:first-of-type { margin-top: clamp(30px, 4.5vw, 52px); }
+  </style>
+</head>
+<body>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────── -->
+  <header class="hero">
+
+    <!-- Rising dot-field: the mediocre grid dims into the background while a
+         diagonal of live nodes climbs to the top-right — the shift, made literal.
+         Adapted from the CTO-book cover motif. -->
+    <svg class="graph" viewBox="0 0 306 112" fill="none" aria-hidden="true">
+      <g class="grid">
+        <circle cx="0" cy="28" r="4.2"/><circle cx="34" cy="28" r="4.2"/><circle cx="68" cy="28" r="4.2"/><circle cx="102" cy="28" r="4.2"/><circle cx="136" cy="28" r="4.2"/><circle cx="170" cy="28" r="4.2"/><circle cx="204" cy="28" r="4.2"/>
+        <circle cx="0" cy="56" r="4.2"/><circle cx="34" cy="56" r="4.2"/><circle cx="68" cy="56" r="4.2"/><circle cx="102" cy="56" r="4.2"/><circle cx="136" cy="56" r="4.2"/><circle cx="170" cy="56" r="4.2"/><circle cx="306" cy="56" r="4.2"/>
+        <circle cx="0" cy="84" r="4.2"/><circle cx="34" cy="84" r="4.2"/><circle cx="68" cy="84" r="4.2"/><circle cx="102" cy="84" r="4.2"/><circle cx="136" cy="84" r="4.2"/><circle cx="238" cy="84" r="4.2"/><circle cx="272" cy="84" r="4.2"/><circle cx="306" cy="84" r="4.2"/>
+        <circle cx="0" cy="112" r="4.2"/><circle cx="34" cy="112" r="4.2"/><circle cx="68" cy="112" r="4.2"/><circle cx="170" cy="112" r="4.2"/><circle cx="204" cy="112" r="4.2"/><circle cx="238" cy="112" r="4.2"/><circle cx="272" cy="112" r="4.2"/><circle cx="306" cy="112" r="4.2"/>
+      </g>
+      <g class="rise">
+        <circle cx="102" cy="112" r="4.7"/><circle cx="136" cy="112" r="5.1"/><circle cx="170" cy="84" r="5.6"/><circle cx="204" cy="84" r="6"/><circle cx="204" cy="56" r="5"/><circle cx="238" cy="56" r="6.8"/><circle cx="238" cy="28" r="5.2"/><circle cx="272" cy="56" r="7.2"/><circle cx="272" cy="28" r="5.8"/><circle cx="306" cy="28" r="8.4"/>
+      </g>
+      <g class="peak">
+        <circle cx="272" cy="0" r="3.4"/><circle cx="306" cy="0" r="4.2"/>
+      </g>
+    </svg>
+
+    <div class="hero-mid">
+      <h1 class="headline">Agentic <span class="glitch" data-text="Shift">Shift</span></h1>
+      <div class="hero-rule" aria-hidden="true"></div>
+      <p class="subtitle">towards professional agentic product engineering</p>
+    </div>
+
+  </header>
+
+  <!-- ── Manifesto (v2 draft) ─────────────────────────────────────── -->
+  <main class="wrap manifesto">
+
+    <a class="community-banner" href="/community">
+      <span class="cb-tag">community</span>
+      <span class="cb-desc">professional learning community for senior builders &amp; leaders</span>
+      <span class="cb-status">applications open →</span>
+    </a>
+
+    <!-- Opening -->
+    <p class="lede">Something is being sold to you alongside the models. Not only the tools — a set of working habits, arriving as advice. Generate more. Review less. Let the craft go.</p>
+
+    <p class="lede">We don't think this is a conspiracy. We think it's a very good strategy. Every company chases product-market fit; when your product is a frontier model, one of the available routes is to change the market rather than the product — and habits are part of the market. An engineer who still reads code, judges it, and holds the design is a harder fit than one who has stopped.</p>
+
+    <p class="lede">So the advice is real advice, and it is also doing strategic work. Both are true at once.</p>
+
+    <!-- ── 1. What we optimize for ─────────────────────────────────── -->
+    <h2 class="section-head" id="optimize-for"><span class="txt"><span class="definition">1.</span> What we optimize for</span></h2>
+
+    <p class="lede">Everyone is optimizing for something.</p>
+
+    <p class="lede">The frontier labs optimize for adoption and throughput. That is legitimate, and it is their business — not yours.</p>
+
+    <p class="lede">We optimize for two things: <strong>the value delivered to customers</strong>, and <strong>the health of the organization that delivers it</strong> — its capacity to keep learning, keep judging, and keep changing direction.</p>
+
+    <p class="lede">These are not the same target. Where they diverge, <em>we follow ours.</em></p>
+
+    <!-- ── 2. Who sets the direction ───────────────────────────────── -->
+    <h2 class="section-head" id="direction"><span class="txt"><span class="definition">2.</span> Who sets the direction</span></h2>
+
+    <p class="lede">Direction is not something you receive.</p>
+
+    <p class="lede">An organization that doesn't know what it is trying to become will adopt whichever practice is being promoted most loudly, and will call that a strategy.</p>
+
+    <p class="lede">Which capabilities you grow, and which you are content to rent, is a <span class="definition">design decision</span>. It is being made inside your organization right now — by default, by whoever adopts fastest. We think it belongs to leadership, made deliberately, before the tools arrive rather than after.</p>
+
+    <p class="lede">A consultancy sells you a contract. It ends, and you still have your organization. This has a different shape: if the reading and the judging quietly stop, there is no contract to end. There is only what your people can still do without the tools.</p>
+
+    <!-- ── 3. What we refuse ───────────────────────────────────────── -->
+    <h2 class="section-head" id="refuse"><span class="txt"><span class="definition">3.</span> What we refuse</span></h2>
+
+    <p class="lede"><em>We do not treat the loss of judgment as progress.</em></p>
+
+    <p class="lede"><em>We do not accept dependence as a design outcome.</em></p>
+
+    <p class="lede"><em>We do not confuse volume of output with capability.</em></p>
+
+    <!-- ── 4. What we build ────────────────────────────────────────── -->
+    <h2 class="section-head" id="what-we-build"><span class="txt"><span class="definition">4.</span> What we build</span></h2>
+
+    <p class="lede"><span class="definition">Professional agentic product engineering</span> is what that decision looks like when it is carried through — a set of noticeable org-design shifts in how product engineering work gets done.</p>
+
+    <p class="lede">Each shift has a half that nobody sells you. <em>That half is the work.</em></p>
+
+    <section class="group group-tech">
+      <p class="group-head">
+        <span class="group-label">Major technical shifts</span>
+        <a class="group-src" href="https://agentic-engineering.guide/" target="_blank" rel="noopener"><span class="src-by">Supported by</span> Agentic Product Engineering Guide<span class="ext" aria-hidden="true">↗</span></a>
+      </p>
+
+      <ol class="shifts" start="1">
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">01</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">features</span><span class="arrow" aria-hidden="true">→</span><span class="to">systems</span></p>
+            <p class="note"><span class="lbl">The move.</span> Stop shipping one-off features.</p>
+            <p class="note"><span class="lbl">The half nobody sells you.</span> The self-improving loop that turns intent into working solutions — and someone accountable for the loop itself, not just for its output.</p>
+            <p class="note"><span class="lbl">Skip it and:</span> you get more output and the same product.</p>
+          </div>
+        </li>
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">02</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">gatekeeping</span><span class="arrow" aria-hidden="true">→</span><span class="to">guardrails</span></p>
+            <p class="note"><span class="lbl">The move.</span> Stop inspecting for quality at the end.</p>
+            <p class="note"><span class="lbl">The half nobody sells you.</span> Quality engineered into the system — the tests, the specifications, the coverage, the harness that makes output trustworthy before anyone looks at it.</p>
+            <p class="note"><span class="lbl">Skip it and:</span> you have simply removed review. Teams who stop inspecting without building the harness ship faster for two quarters, then cannot explain their own incidents.</p>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+
+    <section class="group group-org">
+      <p class="group-head">
+        <span class="group-label">Major structural shifts</span>
+        <a class="group-src" href="https://10xorg.com/" target="_blank" rel="noopener"><span class="src-by">Supported by</span> Adaptive Topology from 10X ORG<span class="ext" aria-hidden="true">↗</span></a>
+      </p>
+
+      <ol class="shifts" start="3">
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">03</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">specialists</span><span class="arrow" aria-hidden="true">→</span><span class="to">craftspeople</span></p>
+            <p class="note"><span class="lbl">The move.</span> Stop assembly-line specialization.</p>
+            <p class="note"><span class="lbl">The half nobody sells you.</span> Craftspeople who pull in specialist depth on demand and grow from it — the human is the one acting, not the one being filled in for.</p>
+            <p class="note"><span class="lbl">Skip it and:</span> you replace narrow specialists with generalists who no longer know what they don't know.</p>
+          </div>
+        </li>
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">04</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">proxies</span><span class="arrow" aria-hidden="true">→</span><span class="to">users</span></p>
+            <p class="note"><span class="lbl">The move.</span> Stop the telephone game through manager-proxies.</p>
+            <p class="note"><span class="lbl">The half nobody sells you.</span> The org structure that permits zero distance to customers — a mandate, not an encouragement.</p>
+            <p class="note"><span class="lbl">Skip it and:</span> you deliver the wrong thing faster.</p>
+          </div>
+        </li>
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">05</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">output</span><span class="arrow" aria-hidden="true">→</span><span class="to">outcomes</span></p>
+            <p class="note"><span class="lbl">The move.</span> Stop measuring people by output.</p>
+            <p class="note"><span class="lbl">The half nobody sells you.</span> Teams that sense drift and correct course themselves, which requires the mandate to change direction.</p>
+            <p class="note"><span class="lbl">Skip it and:</span> you get outcome language over output management, and nothing changes but the vocabulary.</p>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+
+    <p class="lede system-note"><strong>The first two shifts are technical</strong> — they draw on the <a href="https://agentic-engineering.guide/" target="_blank" rel="noopener">Agentic Engineer's Field Guide</a>.</p>
+    <p class="lede"><strong>The other three are structural</strong> — they create the conditions that put the technology to work, drawing on the adaptive org topology of <a href="https://10xorg.com/" target="_blank" rel="noopener">10X ORG</a>.</p>
+    <p class="lede"><strong>They form <span class="definition">one system</span>.</strong> They enable and reinforce one another, and cannot be managed in isolation. The labs ship the technical half. <em>The structural half has no owner unless you take it.</em></p>
+
+    <!-- Closing -->
+    <p class="lede closing">While coding is being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: <span class="definition">the drive for perfection</span>, <span class="definition">unlimited creativity</span>, and <span class="definition">rich co-creation</span>.</p>
+
+    <p class="lede">The task of every organization and every leader is to design environments that <span class="definition">elevate human intelligence</span> to these new heights.</p>
+
+    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Want to go deeper?</p>
+
+    <p class="lede"><a href="/community">Join the professional learning community</a> — a curated, application-only space for senior builders and leaders working on these shifts together.</p>
+
+    <footer class="foot">
+      <div class="foot-line">
+        <span>2026, <a href="/">agentic-shift.com</a></span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span class="by">created and maintained by <a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">Alexey Krivitsky</a></span>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="mailto:alexey@krivitsky.com">alexey@krivitsky.com</a>
+      </div>
+      <a class="foot-cta" href="/community">join the professional learning community</a>
+      <a class="foot-cta" href="/munich">community and meetups in munich</a>
+      <div class="foot-meta">
+        <a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">github</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/sitemap.xml">sitemap</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/llms.txt">llms.txt</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/ai.txt">ai.txt</a>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+</html>
