@@ -168,6 +168,19 @@
       text-wrap: pretty;
     }
 
+    /* Hero kicker. Sits above the name so the human promise lands before the
+       label does: what this is for, then what it is called, then where it goes.
+       Mono and small, the same voice the page already uses for its quiet labels
+       (community tag, group headings) — it must not compete with the headline. */
+    .hero-kicker {
+      font-family: var(--font-mono);
+      font-size: clamp(12px, 1.3vw, 15px);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: clamp(10px, 1.4vw, 16px);
+    }
+
 
     /* ≠ instead of an arrow: the refusals are equations being denied, not moves
        from one place to another, and the arrow — even struck through — kept
@@ -198,6 +211,7 @@
     </svg>
 
     <div class="hero-mid">
+      <p class="hero-kicker">Staying sane in the AI race</p>
       <h1 class="headline">Agentic <span class="glitch" data-text="Shift">Shift</span></h1>
       <div class="hero-rule" aria-hidden="true"></div>
       <p class="subtitle">From tokenmaxing and other nonsense towards healthy organizations with great products and services.</p>
