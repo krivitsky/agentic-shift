@@ -42,27 +42,26 @@ Every stylistic choice is his. The only departures are unambiguous grammar repai
 |---|---|
 | Hero | *Agentic Shift* — subtitle is his: "From tokenmaxing and other nonsense towards healthy organizations with great products and services." |
 | **Where we stand** | Four paragraphs: the shift is real · not tooling or tokens · everyone optimizes for something, the labs optimize for adoption · we run our organizations, so the shift happens on our terms. |
-| **What we refuse** | "By practicing critical thinking, we claim:" + three `≠` cards, rose, same card grammar as the shifts, each keeping its full sentence. Then the fad line, then **"Org design, then AI."** as a standalone creed, then the act-strategically paragraph. |
+| **What we refuse** | "By practicing critical thinking, we claim:" + three `≠` cards, rose, same card grammar as the shifts, each keeping its full sentence. Then the fad line, then **"Org design, then AI."** in its own framed card — teal edge, no marker, full width. |
 | **What we shift** | Three organizational shifts, teal: specialists → craftspeople · proxies → users · output → outcomes. |
 | Closing the shifts | Alexey's "it is up to your organization" paragraph — the three above are examples, not a prescription. |
-| Foot of the shifts | One line handing the technical craft to the Agentic Product Engineering Guide — see below. |
 | What's Next? / Q&A / footer | Verbatim from live. |
 
-## The technical shifts are gone — and the bill is paid in one line
+## The technical shifts are gone
 
 `features → systems` and `gatekeeping → guardrails` are not on this page. Two reasons this
 is right: they sit at the wrong altitude for a document whose spine is *"Org design, then
 AI"*, and they were the part of the old manifesto the frontier labs would happily co-sign,
 i.e. the part nobody could disagree with — the exact defect this rewrite set out to fix.
 
-But they were also the only thing on the front page addressed to engineers, and they carried
-the sole link to the PAPE guide, while `/munich` runs a meetup series for those same people.
-So the foot of *What we shift* now reads:
-
-> The engineering craft these shifts depend on is its own body of work — see the
-> [Agentic Product Engineering Guide](https://agentic-engineering.guide/).
-
-Altitude stays clean, the guide link survives, engineers still have a door.
+A one-line pointer to the Agentic Product Engineering Guide was added at the foot and
+**removed at Alexey's call 2026-08-09 11:27** — *"random additions, doesn't add value."* He is
+right that it read as a bolt-on. The underlying concern stands and is parked, not solved: the
+technical group was the only thing on the front page addressed to engineers, and it carried
+the only link to the guide, while `/munich` runs a meetup series for those same people. The
+footer still reaches `/munich` and `/community`, so nobody is stranded — but if the guide
+should be reachable from the front door, it wants a real home, not a sentence tacked to the
+end of a section.
 
 ## The closing paragraph (added 2026-08-09 11:22)
 

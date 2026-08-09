@@ -66,6 +66,29 @@
        not carry this class. */
     .manifesto .group.group-lead { margin-top: clamp(30px, 4.5vw, 52px); }
 
+    /* On the homepage every card group is introduced by a .section-head, which
+       supplies the gap. Here a plain .lede introduces them ("By practicing
+       critical thinking, we claim:"), so the cards collided with the sentence
+       above and the one below. Give the group its own air on both sides. */
+    .manifesto .group {
+      margin-top: clamp(22px, 3vw, 32px);
+      margin-bottom: clamp(30px, 4.5vw, 52px);
+    }
+
+    /* "Org design, then AI." — the sentence the whole document turns on. It gets
+       the same frame as the refusals and the shifts so it reads as a claim of
+       the same weight, but it is not one of a set: no ✕, no number, full width,
+       and a teal edge instead of rose, because it is the thing we are FOR. The
+       single-column grid is what drops the marker gutter the other cards use. */
+    .group-creed .shift.creed-card {
+      grid-template-columns: 1fr;
+      border-color: rgba(61, 220, 154, 0.34);
+      background: linear-gradient(150deg, rgba(18, 52, 46, 0.72), rgba(7, 14, 16, 0.6));
+    }
+    .group-creed .shift.creed-card:hover { border-color: var(--teal); }
+    .group-creed .creed-line .to { color: var(--teal); }
+    .group-creed .creed-line { margin-bottom: 4px; }
+
     /* v1.5 — the line that hands off to the shifts follows another .lede, so
        `.lede + .lede` would space it as one more item in the refusal list.
        Higher specificity, so it reads as the transition it is. */
@@ -92,16 +115,6 @@
     .group-refuse .shift:hover { border-color: rgba(232, 97, 127, 0.4); }
     .group-refuse .shift .n { font-size: clamp(22px, 2.4vw, 30px); font-weight: 600; opacity: 1; }
 
-    /* "Org design, then AI." — the one line the whole document turns on, so it
-       gets air on both sides and a size between body copy and a section head.
-       Not a heading: it is a sentence the reader is meant to be able to quote,
-       and headings on this page are navigation. */
-    .manifesto .lede.creed {
-      font-size: clamp(21px, 2.4vw, 29px);
-      line-height: 1.25;
-      letter-spacing: -0.01em;
-      margin: clamp(30px, 4.5vw, 52px) 0;
-    }
 
     /* ≠ instead of an arrow: the refusals are equations being denied, not moves
        from one place to another, and the arrow — even struck through — kept
@@ -154,11 +167,11 @@
 
     <p class="lede">The <span class="definition">agentic shift</span> is real. It affects our organizations deeply, changing how we think about the work and the workers.</p>
 
-    <p class="lede">What we know, though, is that it is not about tooling, tokens, or any other output metric — chosen simply because they are easy to measure. It is about building better organizations that offer better products and services. That's what matters.</p>
+    <p class="lede">What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building better organizations that offer better products and services. That's what matters.</p>
 
     <p class="lede">Everyone is optimizing for something. The frontier labs optimize for the adoption of their products, and FOMO is the lever they pull. That is a legitimate business, and it is theirs, not ours.</p>
 
-    <p class="lede">Every organization is unique in the way it was built and in what it aspires to. We run <em>our</em> organizations, and we are judged on what matters to <em>us</em>, our customers, employees, and other stakeholders. So it is an invariant for us that the <em>agentic shift</em> happens on <em>our</em> terms.</p>
+    <p class="lede">Every organization is unique in the way it was built and in what it aspires to. We run <span class="definition">our</span> organizations, and we are judged on what matters to <span class="definition">us</span>, our customers, employees, and other stakeholders. So it is an invariant for us that the <span class="definition">agentic shift</span> happens on <span class="definition">our</span> terms.</p>
 
     <!-- ── What we refuse ───────────────────────────────────────────── -->
 
@@ -196,17 +209,22 @@
       </ul>
     </section>
 
-    <p class="lede">In short, we don't let the superficial AI-adoption fad cancel our long-term thinking about developing our organizations.</p>
+    <p class="lede">In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building.</p>
 
-    <p class="lede creed"><strong>So we say: <span class="definition">“Org design, then AI.”</span></strong></p>
-
-    <p class="lede">We act strategically. We define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make it happen for real.</p>
+    <section class="group group-creed">
+      <div class="shift creed-card">
+        <div class="shift-body">
+          <p class="pair creed-line">So we say: <span class="to">“Org design, then AI.”</span></p>
+          <p class="note">We act strategically. We define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make it happen for real.</p>
+        </div>
+      </div>
+    </section>
 
     <!-- ── What we shift ────────────────────────────────────────────── -->
 
     <h2 class="section-head" id="what-we-shift"><span class="txt">What we shift</span></h2>
 
-    <p class="lede">Product engineering organizations may decide to amplify these shifts, and AI can be a great lever along the way:</p>
+    <p class="lede">So we amplify these shifts in our product engineering organizations, and we use AI as a lever to get there:</p>
 
     <section class="group group-org">
       <ol class="shifts" start="1">
@@ -239,8 +257,6 @@
     </section>
 
     <p class="lede">Which shifts your organization takes on is yours to decide. What matters is that they are <span class="definition">strategic</span> — that they serve the organization you want to have in years, not the numbers you want this quarter.</p>
-
-    <p class="lede system-note">The engineering craft these shifts depend on is its own body of work — see the <a href="https://agentic-engineering.guide/" target="_blank" rel="noopener">Agentic Product Engineering Guide</a>.</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">What's Next?</span></h2>
 
