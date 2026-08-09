@@ -89,6 +89,16 @@
     .group-creed .creed-line .to { color: var(--teal); }
     .group-creed .creed-line { margin-bottom: 4px; }
 
+    /* The shift cards lost their 01/02/03. Numbering implied a sequence — do this
+       one first — which contradicts the line closing the section: which shifts you
+       take on is yours to decide. Three items, no order, so no numbers, and the
+       list is a <ul> rather than an <ol>. The refusals keep their ✕ because that
+       mark carries meaning the words also carry: negation. A number carried none.
+       Dropping the marker means dropping its gutter too, or every card keeps a
+       54px hole where the number used to be. */
+    .group-org .shifts { list-style: none; }
+    .group-org .shift { grid-template-columns: 1fr; }
+
     /* v1.5 — the line that hands off to the shifts follows another .lede, so
        `.lede + .lede` would space it as one more item in the refusal list.
        Higher specificity, so it reads as the transition it is. */
@@ -227,10 +237,9 @@
     <p class="lede">So we amplify these shifts in our product engineering organizations, and we use AI as a lever to get there:</p>
 
     <section class="group group-org">
-      <ol class="shifts" start="1">
+      <ul class="shifts">
 
         <li class="shift">
-          <span class="n" aria-hidden="true">01</span>
           <div class="shift-body">
             <p class="pair"><span class="from">specialists</span><span class="arrow" aria-hidden="true">→</span><span class="to">craftspeople</span></p>
             <p class="note">We enable our product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains.</p>
@@ -238,7 +247,6 @@
         </li>
 
         <li class="shift">
-          <span class="n" aria-hidden="true">02</span>
           <div class="shift-body">
             <p class="pair"><span class="from">proxies</span><span class="arrow" aria-hidden="true">→</span><span class="to">users</span></p>
             <p class="note">We want to stop the telephone game through manager-proxies and the era of “IT sitting in the basement” — we encourage our product engineers to shift to zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.</p>
@@ -246,14 +254,13 @@
         </li>
 
         <li class="shift">
-          <span class="n" aria-hidden="true">03</span>
           <div class="shift-body">
             <p class="pair"><span class="from">output</span><span class="arrow" aria-hidden="true">→</span><span class="to">outcomes</span></p>
             <p class="note">We elevate our product engineers from being measured by output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in.</p>
           </div>
         </li>
 
-      </ol>
+      </ul>
     </section>
 
     <p class="lede">Which shifts your organization takes on is yours to decide. What matters is that they are <span class="definition">strategic</span> — that they serve the organization you want to have in years, not the numbers you want this quarter.</p>
