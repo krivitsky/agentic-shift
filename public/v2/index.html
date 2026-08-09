@@ -126,6 +126,17 @@
        also drops the gutter — every card on the page is now single-column. */
     .group-refuse .shift { grid-template-columns: 1fr; }
 
+    /* The card notes were capped at 46em for a readable measure, but the pair
+       headline above them runs the full box, so on a wide screen the note
+       stopped short and left a single word alone on its last line — it read as
+       a bug rather than as typography. Widened to fill the card, with an
+       ultra-wide guard still in place, and text-wrap: pretty so the last line
+       never orphans a word again. */
+    .manifesto .group .note {
+      max-width: 64em;
+      text-wrap: pretty;
+    }
+
 
     /* ≠ instead of an arrow: the refusals are equations being denied, not moves
        from one place to another, and the arrow — even struck through — kept
