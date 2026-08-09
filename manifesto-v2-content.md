@@ -38,7 +38,7 @@ Every stylistic choice is his. The only departures are unambiguous grammar repai
 
 | Section | Content |
 |---|---|
-| Hero | *Agentic Shift* — subtitle is his: "From tokenmaxxing and other nonsense towards healthy organizations with great products and services." |
+| Hero | *Agentic Shift* — subtitle is his: "From tokenmaxing and other nonsense towards healthy organizations with great products and services." |
 | **Where we stand** | Four paragraphs: the shift is real · not tooling or tokens · everyone optimizes for something, the labs optimize for adoption · we run our organizations, so the shift happens on our terms. |
 | **What we refuse** | "By practicing critical thinking, we claim:" + three `≠` cards, rose, same card grammar as the shifts, each keeping its full sentence. Then the fad line, then **"Org design, then AI."** as a standalone creed, then the act-strategically paragraph. |
 | **What we shift** | Three organizational shifts, teal: specialists → craftspeople · proxies → users · output → outcomes. |
@@ -101,6 +101,12 @@ That makes the subtitle stronger than the alternatives offered, not weaker:
   abstract; *tokenmaxxing* is the leaderboard that got switched off.
 
 Subtitle stands as his.
+
+**Spelling — single x, on his instruction (2026-08-09 11:23).** The page reads *tokenmaxing*.
+Worth knowing: the canonical form is **tokenmaxxing**, double x, from the *-maxxing* suffix
+(*looksmaxxing*, *sleepmaxxing*); Google auto-corrects *tokenmaxing* to it, which is what his
+own screenshot shows. So a reader who knows the term may read the single x as a typo, and the
+double x is what search indexes. His call, applied as asked — one character to flip back.
 
 ## Cost if this is ever applied to the live site
 
