@@ -1,4 +1,61 @@
 {
   "buildCommand": "",
-  "outputDirectory": "public"
+  "outputDirectory": "public",
+  "redirects": [
+    {
+      "source": "/de/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/nl/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/fr/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/it/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/es/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/pt/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/cz/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/uk/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/ru/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/zh/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/ja/:path*",
+      "destination": "/",
+      "permanent": false
+    }
+  ]
 }
