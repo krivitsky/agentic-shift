@@ -40,7 +40,9 @@ Das Stille-Post-Spiel über Manager als Stellvertreter beenden, und mit ihm die 
 ### Output → Wirkung (output → outcomes)
 Product Engineers aus der Messung am Output herausheben, hin zur Verantwortung für den vollständigen Wertkreislauf — echte Kundenwirkung sicherstellen, experimentieren und den Kurs korrigieren, sobald die Evidenz eintrifft.
 
-Welche Verschiebungen deine Organisation angeht, ist **deine Entscheidung**. Entscheidend ist, dass sie **strategisch und nicht kurzsichtig** sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.
+Diese Verschiebungen sind nicht neu. Sie waren lange vor KI gut dokumentiert und empfohlen. Was KI ändert, ist nicht, ob sie richtig sind — nur, wie schwer sie zu vollziehen sind.
+
+Welche Verschiebungen deine Organisation nun angeht, ist **deine Entscheidung**. Entscheidend ist, dass sie **strategisch und nicht kurzsichtig** sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.
 
 ## Was kommt als Nächstes
 

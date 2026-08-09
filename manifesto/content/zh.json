@@ -2,7 +2,6 @@
   "lang": "zh",
   "name": "中文",
   "dir": "/zh/",
-
   "meta": {
     "title": "Agentic Shift — 先做组织设计，再谈 AI",
     "description": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。我们的立场，我们拒绝接受的，我们转向何处。",
@@ -12,14 +11,12 @@
     "schemaDescription": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。",
     "llmsTitle": "Agentic Shift — 机器可读（LLM）版本"
   },
-
   "hero": {
     "kicker": "在 AI 竞赛中保持清醒",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
     "subtitle": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。"
   },
-
   "standHead": "我们的立场",
   "stand": [
     "<span class=\"definition\">智能体转变</span>是真实的。它深刻影响着我们的组织，改变着我们如何看待这份工作，以及做这份工作的人。",
@@ -27,7 +24,6 @@
     "每个人都在为某个目标做优化。前沿实验室优化的是自家产品的采用率，而 FOMO 是他们拉动我们时最强的那根杠杆。那是正当的生意，是他们的生意，不是我们的。",
     "每个组织都是独一无二的——独特在它被建成的方式，也独特在它所追求的东西。我们经营的是<span class=\"definition\">我们自己的</span>组织，我们被评判的标准，是对<span class=\"definition\">我们</span>而言重要的事——<span class=\"definition\">我们的</span>客户、员工与其他利益相关方。所以对我们而言，有一件事没有商量余地：<span class=\"definition\">智能体转变按我们的条件发生</span>。"
   ],
-
   "refuseHead": "我们拒绝接受的",
   "refuseIntro": "通过践行批判性思考，我们主张：",
   "refusals": [
@@ -48,7 +44,6 @@
     }
   ],
   "refuseOutro": "简而言之，我们不会让一阵浅薄的 AI 采纳风潮，挤掉我们对正在建设的组织的长期思考。所以我们说：<span class=\"definition\">「先做组织设计，再谈 AI。」</span>我们学着以战略的方式行动：先定义我们希望在组织中为整体利益做出什么转变，然后再运用 AI——以及其他手段——把这些转变变成现实。",
-
   "shiftHead": "我们转向何处",
   "shiftIntro": "那些坚守可持续质量、客户价值与高度适应力的产品工程组织，会做出以下战略性转变，并以 AI 作为让转变更容易的杠杆：",
   "shifts": [
@@ -68,8 +63,8 @@
       "note": "把产品工程师从以产出被衡量，提升为拥有完整价值闭环——确保真实的客户影响，持续实验，并随着证据到来修正航向。"
     }
   ],
-  "shiftOutro": "你的组织要承担哪些转变，<span class=\"definition\">由你决定</span>。重要的是它们要<span class=\"definition\">具有战略性，而非目光短浅</span>——服务于你希望数年后拥有的那个组织，而不是 FOMO 会让你在这个季度追逐的数字。",
-
+  "shiftNotNew": "这些转变并不新鲜。早在 AI 出现之前，它们就已被充分记录并被推荐。AI 改变的不是它们是否正确，而只是实现它们有多难。",
+  "shiftOutro": "那么，你的组织要承担哪些转变，<span class=\"definition\">由你决定</span>。重要的是它们要<span class=\"definition\">具有战略性，而非目光短浅</span>——服务于你希望数年后拥有的那个组织，而不是 FOMO 会让你在这个季度追逐的数字。",
   "qaHead": "接下来",
   "qa": [
     {
@@ -81,7 +76,6 @@
       "a": "<a href=\"/community\">加入专业学习社区</a>——精心筛选的空间，仅通过申请加入，面向共同推进这些转变的 senior builders &amp; leaders。"
     }
   ],
-
   "foot": {
     "by": "创建与维护：",
     "cta": "慕尼黑的社区与聚会"

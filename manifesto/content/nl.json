@@ -2,7 +2,6 @@
   "lang": "nl",
   "name": "Nederlands",
   "dir": "/nl/",
-
   "meta": {
     "title": "Agentic Shift — Eerst org-ontwerp, dan AI",
     "description": "Van tokenmaxing en ander AI-theater naar gezonde organisaties met geweldige producten en diensten. Waar wij voor staan, wat wij afwijzen, waar wij naartoe bewegen.",
@@ -12,14 +11,12 @@
     "schemaDescription": "Van tokenmaxing en ander AI-theater naar gezonde organisaties met geweldige producten en diensten.",
     "llmsTitle": "Agentic Shift — machineleesbare (LLM-)versie"
   },
-
   "hero": {
     "kicker": "Bij je verstand blijven in de AI-race",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
     "subtitle": "Van tokenmaxing en ander AI-theater naar gezonde organisaties met geweldige producten en diensten."
   },
-
   "standHead": "Waar wij voor staan",
   "stand": [
     "De <span class=\"definition\">agentic shift</span> is echt. Hij raakt onze organisaties diep en verandert hoe wij denken over het werk en over de mensen die het doen.",
@@ -27,7 +24,6 @@
     "Iedereen optimaliseert ergens voor. De frontier labs optimaliseren voor de adoptie van hun producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is een legitieme business, en het is de hunne, niet de onze.",
     "Elke organisatie is uniek in de manier waarop ze is gebouwd en in waar ze naar streeft. Wij leiden <span class=\"definition\">onze</span> organisaties, en wij worden afgerekend op wat voor <span class=\"definition\">ons</span> telt — <span class=\"definition\">onze</span> klanten, medewerkers en andere belanghebbenden. Dus voor ons is één ding niet onderhandelbaar: <span class=\"definition\">de agentic shift gebeurt op onze voorwaarden</span>."
   ],
-
   "refuseHead": "Wat wij niet accepteren",
   "refuseIntro": "Door kritisch denken te beoefenen, stellen wij:",
   "refusals": [
@@ -48,7 +44,6 @@
     }
   ],
   "refuseOutro": "Kortom: wij laten niet toe dat een oppervlakkige AI-adoptiehype ons langetermijndenken verdringt over de organisaties die wij aan het bouwen zijn. Daarom zeggen wij: <span class=\"definition\">“Eerst org-ontwerp, dan AI.”</span> Wij leren strategisch te handelen: wij bepalen wat wij in onze organisaties willen verschuiven, ten goede van het geheel, en zetten daarna AI — en andere middelen — in om die verschuivingen waar te maken.",
-
   "shiftHead": "Waar wij naartoe bewegen",
   "shiftIntro": "Product-engineeringorganisaties die vasthouden aan duurzame kwaliteit, klantwaarde en hoge wendbaarheid maken de volgende strategische verschuivingen, met AI als hefboom die ze vergemakkelijkt:",
   "shifts": [
@@ -68,8 +63,8 @@
       "note": "Product engineers optillen van afgerekend worden op output naar het bezitten van de volledige waardelus — echte klantimpact borgen, experimenteren en bijsturen zodra het bewijs binnenkomt."
     }
   ],
-  "shiftOutro": "Welke verschuivingen jouw organisatie oppakt, is <span class=\"definition\">aan jou</span>. Wat telt is dat ze <span class=\"definition\">strategisch zijn en niet kortzichtig</span> — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.",
-
+  "shiftNotNew": "Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór AI goed gedocumenteerd en aanbevolen. Wat AI verandert, is niet óf ze juist zijn — alleen hoe moeilijk ze te maken zijn.",
+  "shiftOutro": "Welke verschuivingen jouw organisatie nu oppakt, is <span class=\"definition\">aan jou</span>. Wat telt is dat ze <span class=\"definition\">strategisch zijn en niet kortzichtig</span> — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.",
   "qaHead": "Wat nu?",
   "qa": [
     {
@@ -81,7 +76,6 @@
       "a": "<a href=\"/community\">Sluit je aan bij de professionele leercommunity</a> — een zorgvuldig samengestelde ruimte, alleen op aanmelding, voor senior builders &amp; leaders die samen aan deze verschuivingen werken."
     }
   ],
-
   "foot": {
     "by": "gemaakt en onderhouden door",
     "cta": "community en meetups in münchen"

@@ -40,7 +40,9 @@ Poner fin al teléfono escacharrado a través de mánagers intermediarios y a la
 ### producción → resultados (output → outcomes)
 Elevar a los ingenieros de producto de ser medidos por su producción a hacerse cargo del ciclo de valor completo — asegurando un impacto real en los clientes, experimentando y corrigiendo el rumbo a medida que llegan las evidencias.
 
-Qué cambios asume tu organización es **cosa tuya**. Lo que importa es que sean **estratégicos y no cortos de miras** — que sirvan a la organización que quieres tener dentro de años, y no a las cifras que el FOMO te haría perseguir este trimestre.
+Estos cambios no son nuevos. Estaban bien documentados y recomendados mucho antes de la IA. Lo que la IA cambia no es si son acertados — solo lo difíciles que son de hacer.
+
+Ahora bien, qué cambios asume tu organización es **cosa tuya**. Lo que importa es que sean **estratégicos y no cortos de miras** — que sirvan a la organización que quieres tener dentro de años, y no a las cifras que el FOMO te haría perseguir este trimestre.
 
 ## ¿Qué sigue?
 

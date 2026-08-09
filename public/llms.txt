@@ -37,7 +37,9 @@ Product engineering organizations that hold on to sustainable quality, customer 
 - **proxies → users** — Ending the telephone game through manager-proxies and the era of “IT sitting in the basement” — instead putting product engineers at zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.
 - **output → outcomes** — Elevating product engineers from being measured by output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in.
 
-Which shifts your organization takes on is yours to decide. What matters is that they are strategic, not shortsighted — that they serve the organization you want to have in years rather than the numbers FOMO would have you chase this quarter.
+These shifts are not new. They were well documented and recommended long before AI. What AI changes is not whether they are right — only how hard they are to make.
+
+Now, which shifts your organization takes on is yours to decide. What matters is that they are strategic, not shortsighted — that they serve the organization you want to have in years rather than the numbers FOMO would have you chase this quarter.
 
 ### What's Next?
 
@@ -77,7 +79,9 @@ Organisationen im Product Engineering, die an nachhaltiger Qualität, Kundennutz
 - **Stellvertreter → Nutzer** (proxies → users) — Das Stille-Post-Spiel über Manager als Stellvertreter beenden, und mit ihm die Ära der „IT im Keller“ — und stattdessen Product Engineers auf null Distanz zu Kundinnen und Nutzern bringen, um sich aus erster Hand einzufühlen, zu analysieren und zu synthetisieren.
 - **Output → Wirkung** (output → outcomes) — Product Engineers aus der Messung am Output herausheben, hin zur Verantwortung für den vollständigen Wertkreislauf — echte Kundenwirkung sicherstellen, experimentieren und den Kurs korrigieren, sobald die Evidenz eintrifft.
 
-Welche Verschiebungen deine Organisation angeht, ist deine Entscheidung. Entscheidend ist, dass sie strategisch und nicht kurzsichtig sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.
+Diese Verschiebungen sind nicht neu. Sie waren lange vor KI gut dokumentiert und empfohlen. Was KI ändert, ist nicht, ob sie richtig sind — nur, wie schwer sie zu vollziehen sind.
+
+Welche Verschiebungen deine Organisation nun angeht, ist deine Entscheidung. Entscheidend ist, dass sie strategisch und nicht kurzsichtig sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.
 
 ### Was kommt als Nächstes
 
@@ -117,7 +121,9 @@ Product-engineeringorganisaties die vasthouden aan duurzame kwaliteit, klantwaar
 - **tussenpersonen → gebruikers** (proxies → users) — Een einde maken aan het doorgeefspel via manager-tussenpersonen en aan het tijdperk van “IT in de kelder” — en in plaats daarvan product engineers op nul afstand van klanten en gebruikers zetten, om zich uit de eerste hand in te leven, te analyseren en te synthetiseren.
 - **output → uitkomsten** (output → outcomes) — Product engineers optillen van afgerekend worden op output naar het bezitten van de volledige waardelus — echte klantimpact borgen, experimenteren en bijsturen zodra het bewijs binnenkomt.
 
-Welke verschuivingen jouw organisatie oppakt, is aan jou. Wat telt is dat ze strategisch zijn en niet kortzichtig — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.
+Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór AI goed gedocumenteerd en aanbevolen. Wat AI verandert, is niet óf ze juist zijn — alleen hoe moeilijk ze te maken zijn.
+
+Welke verschuivingen jouw organisatie nu oppakt, is aan jou. Wat telt is dat ze strategisch zijn en niet kortzichtig — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.
 
 ### Wat nu?
 
@@ -157,7 +163,9 @@ Les organisations d'ingénierie produit qui tiennent à une qualité durable, à
 - **intermédiaires → utilisateurs** (proxies → users) — Mettre fin au téléphone arabe via des managers intermédiaires et à l'ère de « l'informatique reléguée au sous-sol » — et placer à la place les ingénieurs produit à distance zéro des clients et des utilisateurs, pour faire preuve d'empathie, analyser et synthétiser de première main.
 - **production → résultats** (output → outcomes) — Élever les ingénieurs produit du statut de personnes mesurées à leur production à celui de responsables de la boucle de valeur complète — garantir un impact client réel, expérimenter et corriger le cap à mesure que les preuves arrivent.
 
-Les basculements que votre organisation entreprend, c'est à vous d'en décider. Ce qui compte, c'est qu'ils soient stratégiques et non myopes — qu'ils servent l'organisation que vous voulez avoir dans quelques années, et non les chiffres que la FOMO vous ferait courir après ce trimestre.
+Ces basculements ne sont pas nouveaux. Ils étaient bien documentés et recommandés bien avant l'IA. Ce que l'IA change, ce n'est pas s'ils sont justes — seulement à quel point ils sont difficiles à opérer.
+
+Maintenant, les basculements que votre organisation entreprend, c'est à vous d'en décider. Ce qui compte, c'est qu'ils soient stratégiques et non myopes — qu'ils servent l'organisation que vous voulez avoir dans quelques années, et non les chiffres que la FOMO vous ferait courir après ce trimestre.
 
 ### Et maintenant ?
 
@@ -197,7 +205,9 @@ Le organizzazioni di ingegneria di prodotto che tengono alla qualità sostenibil
 - **intermediari → utenti** (proxies → users) — Mettere fine al gioco del telefono senza fili attraverso manager-intermediari e all'era dell'“IT chiusa in cantina” — e portare invece gli ingegneri di prodotto a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona.
 - **produzione → risultati** (output → outcomes) — Elevare gli ingegneri di prodotto dall'essere misurati sulla produzione al farsi carico dell'intero ciclo del valore — garantendo un impatto reale sui clienti, sperimentando e correggendo la rotta man mano che arrivano le evidenze.
 
-Quali spostamenti la tua organizzazione intraprenda sta a te deciderlo. Ciò che conta è che siano strategici e non miopi — che servano l'organizzazione che vuoi avere fra anni, e non i numeri che la FOMO ti farebbe rincorrere questo trimestre.
+Questi spostamenti non sono nuovi. Erano ben documentati e raccomandati molto prima dell'IA. Ciò che l'IA cambia non è se siano giusti — solo quanto siano difficili da compiere.
+
+Ora, quali spostamenti la tua organizzazione intraprenda sta a te deciderlo. Ciò che conta è che siano strategici e non miopi — che servano l'organizzazione che vuoi avere fra anni, e non i numeri che la FOMO ti farebbe rincorrere questo trimestre.
 
 ### E adesso?
 
@@ -237,7 +247,9 @@ Las organizaciones de ingeniería de producto que se aferran a la calidad sosten
 - **intermediarios → usuarios** (proxies → users) — Poner fin al teléfono escacharrado a través de mánagers intermediarios y a la era del «IT encerrado en el sótano» — y situar en su lugar a los ingenieros de producto a distancia cero de clientes y usuarios, para empatizar, analizar y sintetizar de primera mano.
 - **producción → resultados** (output → outcomes) — Elevar a los ingenieros de producto de ser medidos por su producción a hacerse cargo del ciclo de valor completo — asegurando un impacto real en los clientes, experimentando y corrigiendo el rumbo a medida que llegan las evidencias.
 
-Qué cambios asume tu organización es cosa tuya. Lo que importa es que sean estratégicos y no cortos de miras — que sirvan a la organización que quieres tener dentro de años, y no a las cifras que el FOMO te haría perseguir este trimestre.
+Estos cambios no son nuevos. Estaban bien documentados y recomendados mucho antes de la IA. Lo que la IA cambia no es si son acertados — solo lo difíciles que son de hacer.
+
+Ahora bien, qué cambios asume tu organización es cosa tuya. Lo que importa es que sean estratégicos y no cortos de miras — que sirvan a la organización que quieres tener dentro de años, y no a las cifras que el FOMO te haría perseguir este trimestre.
 
 ### ¿Qué sigue?
 
@@ -277,7 +289,9 @@ As organizações de engenharia de produto que se mantêm fiéis à qualidade su
 - **intermediários → utilizadores** (proxies → users) — Acabar com a comunicação indireta por meio de gestores intermediários e com a era da «TI fechada na cave» — e colocar, em vez disso, os engenheiros de produto em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte.
 - **produção → resultados** (output → outcomes) — Elevar os engenheiros de produto de serem medidos pela produção a assumirem o ciclo de valor completo — garantindo um impacto real nos clientes, experimentando e corrigindo o rumo à medida que surgem as evidências.
 
-Que mudanças a sua organização assume é consigo. O que importa é que sejam estratégicas e não de vista curta — que sirvam a organização que quer ter daqui a anos, e não os números que o FOMO o levaria a perseguir neste trimestre.
+Estas mudanças não são novas. Estavam bem documentadas e recomendadas muito antes da IA. O que a IA muda não é se estão certas — apenas o quão difíceis são de concretizar.
+
+Agora, que mudanças a sua organização assume é consigo. O que importa é que sejam estratégicas e não de vista curta — que sirvam a organização que quer ter daqui a anos, e não os números que o FOMO o levaria a perseguir neste trimestre.
 
 ### O que se segue
 
@@ -317,7 +331,9 @@ Organizace produktového inženýrství, které si drží udržitelnou kvalitu, 
 - **prostředníci → uživatelé** (proxies → users) — Ukončit tichou poštu přes manažery-prostředníky i éru „IT sedícího ve sklepě“ — a místo toho postavit produktové inženýry na nulovou vzdálenost od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky.
 - **výstupy → dopady** (output → outcomes) — Povýšit produktové inženýry z toho, že jsou měřeni podle výstupů, na to, že vlastní celou hodnotovou smyčku — zajišťují skutečný dopad na zákazníky, experimentují a korigují kurz, jakmile přicházejí důkazy.
 
-Které posuny vaše organizace pojme za své, je na vás. Podstatné je, aby byly strategické, ne krátkozraké — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.
+Tyto posuny nejsou nové. Byly dobře zdokumentované a doporučované dávno před AI. Co AI mění, není to, zda jsou správné — jen to, jak těžké je je uskutečnit.
+
+Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, aby byly strategické, ne krátkozraké — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.
 
 ### Co dál?
 
@@ -357,7 +373,9 @@ Které posuny vaše organizace pojme za své, je na vás. Podstatné je, aby byl
 - **посередники → користувачі** (proxies → users) — Припиняти зіпсований телефон через менеджерів-посередників і добу «ІТ, що сидить у підвалі» — і натомість ставити продуктових інженерів на нульову дистанцію до клієнтів і користувачів, щоб співпереживати, аналізувати й синтезувати з перших вуст.
 - **результат праці → результати** (output → outcomes) — Підносити продуктових інженерів від вимірювання за обсягом зробленого до володіння повним циклом цінності — забезпечувати реальний вплив на клієнтів, експериментувати й коригувати курс, щойно надходять свідчення.
 
-Які зрушення візьме на себе ваша організація — вирішувати вам. Важливо, щоб вони були стратегічними, а не короткозорими — щоб вони служили тій організації, яку ви хочете мати за кілька років, а не цифрам, за якими FOMO змусило б вас гнатися цього кварталу.
+Ці зрушення не нові. Вони були добре задокументовані й рекомендовані задовго до ШІ. ШІ змінює не те, чи вони правильні, — лише те, наскільки важко їх здійснити.
+
+Які ж зрушення візьме на себе ваша організація — вирішувати вам. Важливо, щоб вони були стратегічними, а не короткозорими — щоб вони служили тій організації, яку ви хочете мати за кілька років, а не цифрам, за якими FOMO змусило б вас гнатися цього кварталу.
 
 ### Що далі
 
@@ -397,7 +415,9 @@ Které posuny vaše organizace pojme za své, je na vás. Podstatné je, aby byl
 - **посредники → пользователи** (proxies → users) — Прекращать испорченный телефон через менеджеров-посредников и эпоху «ИТ, сидящего в подвале» — и вместо этого ставить продуктовых инженеров на нулевую дистанцию к клиентам и пользователям, чтобы сопереживать, анализировать и синтезировать из первых рук.
 - **выработка → результаты** (output → outcomes) — Поднимать продуктовых инженеров от измерения по выработке до владения полным циклом ценности — обеспечивать реальное влияние на клиентов, экспериментировать и корректировать курс по мере поступления свидетельств.
 
-Какие сдвиги возьмёт на себя ваша организация — решать вам. Важно, чтобы они были стратегическими, а не близорукими — чтобы они служили той организации, которую вы хотите иметь через годы, а не цифрам, за которыми FOMO заставило бы вас гнаться в этом квартале.
+Эти сдвиги не новы. Они были хорошо задокументированы и рекомендованы задолго до ИИ. ИИ меняет не то, верны ли они, — только то, насколько трудно их осуществить.
+
+Какие же сдвиги возьмёт на себя ваша организация — решать вам. Важно, чтобы они были стратегическими, а не близорукими — чтобы они служили той организации, которую вы хотите иметь через годы, а не цифрам, за которыми FOMO заставило бы вас гнаться в этом квартале.
 
 ### Что дальше?
 
@@ -437,7 +457,9 @@ Které posuny vaše organizace pojme za své, je na vás. Podstatné je, aby byl
 - **代理人 → 用户** (proxies → users) — 终结经由管理者代理人的传话游戏，也终结「IT 蜷缩在地下室」的时代——转而把产品工程师放到与客户和用户零距离的位置，亲身去共情、分析与综合。
 - **产出 → 成果** (output → outcomes) — 把产品工程师从以产出被衡量，提升为拥有完整价值闭环——确保真实的客户影响，持续实验，并随着证据到来修正航向。
 
-你的组织要承担哪些转变，由你决定。重要的是它们要具有战略性，而非目光短浅——服务于你希望数年后拥有的那个组织，而不是 FOMO 会让你在这个季度追逐的数字。
+这些转变并不新鲜。早在 AI 出现之前，它们就已被充分记录并被推荐。AI 改变的不是它们是否正确，而只是实现它们有多难。
+
+那么，你的组织要承担哪些转变，由你决定。重要的是它们要具有战略性，而非目光短浅——服务于你希望数年后拥有的那个组织，而不是 FOMO 会让你在这个季度追逐的数字。
 
 ### 接下来
 
@@ -477,7 +499,9 @@ Které posuny vaše organizace pojme za své, je na vás. Podstatné je, aby byl
 - **代理人 → ユーザー** (proxies → users) — マネージャーという代理人を介した伝言ゲームを終わらせ、「IT が地下にこもる」時代も終わらせること——代わりにプロダクトエンジニアを顧客とユーザーへの距離ゼロに置き、直接に共感し、分析し、統合できるようにします。
 - **アウトプット → 成果** (output → outcomes) — プロダクトエンジニアを、アウトプットで測られる立場から、価値のループ全体を引き受ける立場へと引き上げること——顧客への実際のインパクトを担保し、実験し、証拠が集まるにつれて針路を修正します。
 
-どの転換に取り組むかは、あなたの組織が決めることです。大切なのは、それが戦略的であり、近視眼的でないこと——数年後にあなたが持ちたい組織のためになることであって、FOMO が今四半期に追わせようとする数字のためではない、ということです。
+これらの転換は新しいものではありません。AI よりはるか前から、十分に記録され、推奨されてきました。AI が変えるのは、それが正しいかどうかではなく、実行がどれだけ難しいか、だけです。
+
+さて、どの転換に取り組むかは、あなたの組織が決めることです。大切なのは、それが戦略的であり、近視眼的でないこと——数年後にあなたが持ちたい組織のためになることであって、FOMO が今四半期に追わせようとする数字のためではない、ということです。
 
 ### 次に来るもの
 

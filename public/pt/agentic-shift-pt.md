@@ -40,7 +40,9 @@ Acabar com a comunicação indireta por meio de gestores intermediários e com a
 ### produção → resultados (output → outcomes)
 Elevar os engenheiros de produto de serem medidos pela produção a assumirem o ciclo de valor completo — garantindo um impacto real nos clientes, experimentando e corrigindo o rumo à medida que surgem as evidências.
 
-Que mudanças a sua organização assume é **consigo**. O que importa é que sejam **estratégicas e não de vista curta** — que sirvam a organização que quer ter daqui a anos, e não os números que o FOMO o levaria a perseguir neste trimestre.
+Estas mudanças não são novas. Estavam bem documentadas e recomendadas muito antes da IA. O que a IA muda não é se estão certas — apenas o quão difíceis são de concretizar.
+
+Agora, que mudanças a sua organização assume é **consigo**. O que importa é que sejam **estratégicas e não de vista curta** — que sirvam a organização que quer ter daqui a anos, e não os números que o FOMO o levaria a perseguir neste trimestre.
 
 ## O que se segue
 

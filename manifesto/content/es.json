@@ -2,7 +2,6 @@
   "lang": "es",
   "name": "Español",
   "dir": "/es/",
-
   "meta": {
     "title": "Agentic Shift — Primero el diseño organizativo, después la IA",
     "description": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas con grandes productos y servicios. Lo que defendemos, lo que rechazamos, hacia dónde nos movemos.",
@@ -12,14 +11,12 @@
     "schemaDescription": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas con grandes productos y servicios.",
     "llmsTitle": "Agentic Shift — versión legible por máquina (LLM)"
   },
-
   "hero": {
     "kicker": "Mantener la cordura en la carrera de la IA",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
     "subtitle": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas con grandes productos y servicios."
   },
-
   "standHead": "Lo que defendemos",
   "stand": [
     "El <span class=\"definition\">cambio agéntico</span> es real. Afecta a nuestras organizaciones en profundidad y transforma cómo pensamos sobre el trabajo y sobre quienes lo hacen.",
@@ -27,7 +24,6 @@
     "Todo el mundo optimiza para algo. Los laboratorios de frontera optimizan la adopción de sus productos, y el FOMO es la palanca más fuerte de la que tiran sobre nosotros. Es un negocio legítimo, y es el suyo, no el nuestro.",
     "Cada organización es única por cómo fue construida y por aquello a lo que aspira. Nosotros dirigimos <span class=\"definition\">nuestras</span> organizaciones, y se nos juzga por lo que nos importa a <span class=\"definition\">nosotros</span> — <span class=\"definition\">nuestros</span> clientes, empleados y demás partes interesadas. Por eso, para nosotros hay algo que no es negociable: <span class=\"definition\">el cambio agéntico ocurre en nuestros términos</span>."
   ],
-
   "refuseHead": "Lo que nos negamos a aceptar",
   "refuseIntro": "Al practicar el pensamiento crítico, afirmamos:",
   "refusals": [
@@ -48,7 +44,6 @@
     }
   ],
   "refuseOutro": "En resumen, no dejamos que una moda superficial de adopción de la IA desplace nuestro pensamiento a largo plazo sobre las organizaciones que estamos construyendo. Por eso decimos: <span class=\"definition\">«Primero el diseño organizativo, después la IA.»</span> Aprendemos a actuar de forma estratégica: definimos qué queremos cambiar en nuestras organizaciones para el bien común, y luego aplicamos la IA — y otros medios — para hacer realidad esos cambios.",
-
   "shiftHead": "Hacia dónde nos movemos",
   "shiftIntro": "Las organizaciones de ingeniería de producto que se aferran a la calidad sostenible, al valor para el cliente y a una alta adaptabilidad realizan los siguientes cambios estratégicos, con la IA como palanca para facilitarlos:",
   "shifts": [
@@ -68,8 +63,8 @@
       "note": "Elevar a los ingenieros de producto de ser medidos por su producción a hacerse cargo del ciclo de valor completo — asegurando un impacto real en los clientes, experimentando y corrigiendo el rumbo a medida que llegan las evidencias."
     }
   ],
-  "shiftOutro": "Qué cambios asume tu organización es <span class=\"definition\">cosa tuya</span>. Lo que importa es que sean <span class=\"definition\">estratégicos y no cortos de miras</span> — que sirvan a la organización que quieres tener dentro de años, y no a las cifras que el FOMO te haría perseguir este trimestre.",
-
+  "shiftNotNew": "Estos cambios no son nuevos. Estaban bien documentados y recomendados mucho antes de la IA. Lo que la IA cambia no es si son acertados — solo lo difíciles que son de hacer.",
+  "shiftOutro": "Ahora bien, qué cambios asume tu organización es <span class=\"definition\">cosa tuya</span>. Lo que importa es que sean <span class=\"definition\">estratégicos y no cortos de miras</span> — que sirvan a la organización que quieres tener dentro de años, y no a las cifras que el FOMO te haría perseguir este trimestre.",
   "qaHead": "¿Qué sigue?",
   "qa": [
     {
@@ -81,7 +76,6 @@
       "a": "<a href=\"/community\">Únete a la comunidad de aprendizaje profesional</a> — un espacio curado, con acceso solo por candidatura, para senior builders &amp; leaders que trabajan juntos en estos cambios."
     }
   ],
-
   "foot": {
     "by": "creado y mantenido por",
     "cta": "comunidad y encuentros en múnich"

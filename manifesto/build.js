@@ -221,6 +221,7 @@ function render(c) {
     SHIFT_HEAD: c.shiftHead,
     SHIFT_INTRO: c.shiftIntro,
     SHIFTS: cards(c, 'shifts'),
+    SHIFT_NOT_NEW: c.shiftNotNew,
     SHIFT_OUTRO: c.shiftOutro,
     QA_HEAD: c.qaHead,
     QA: qa(c),
@@ -290,7 +291,8 @@ function llmsLang(c, heading) {
   L.push(plain(c.shiftIntro), '');
   c.shifts.forEach((s, i) =>
     L.push(`- **${s.from} → ${s.to}**${glossOf(c, 'shifts', i)} — ${plain(s.note)}`));
-  L.push('', plain(c.shiftOutro), '');
+  L.push('', plain(c.shiftNotNew), '');
+  L.push(plain(c.shiftOutro), '');
   L.push(`### ${plain(c.qaHead)}`, '');
   c.qa.forEach((x) => L.push(`**${plain(x.q)}** ${plain(x.a)}`, ''));
   while (L[L.length - 1] === '') L.pop();
@@ -330,6 +332,7 @@ function readmeBlock() {
     L.push(`### ${s.from} → ${s.to}`);
     L.push(md(s.note), '');
   });
+  L.push(md(en.shiftNotNew), '');
   L.push(md(en.shiftOutro), '');
   L.push(`## ${md(en.qaHead)}`, '');
   en.qa.forEach((x) => {
@@ -364,6 +367,7 @@ function manifestoMd(c) {
     L.push(`### ${s.from} → ${s.to}${glossOf(c, 'shifts', i)}`);
     L.push(md(s.note), '');
   });
+  L.push(md(c.shiftNotNew), '');
   L.push(md(c.shiftOutro), '');
   L.push(`## ${md(c.qaHead)}`, '');
   c.qa.forEach((x) => {

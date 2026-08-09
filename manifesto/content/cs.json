@@ -2,7 +2,6 @@
   "lang": "cs",
   "name": "Čeština",
   "dir": "/cz/",
-
   "meta": {
     "title": "Agentic Shift — Nejdřív organizační design, pak AI",
     "description": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami. Za čím stojíme, co odmítáme, kam se posouváme.",
@@ -12,14 +11,12 @@
     "schemaDescription": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami.",
     "llmsTitle": "Agentic Shift — strojově čitelná (LLM) verze"
   },
-
   "hero": {
     "kicker": "Zachovat zdravý rozum v závodě o AI",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
     "subtitle": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami."
   },
-
   "standHead": "Za čím stojíme",
   "stand": [
     "<span class=\"definition\">Agentní posun</span> je skutečný. Zasahuje naše organizace do hloubky a mění, jak přemýšlíme o práci i o lidech, kteří ji dělají.",
@@ -27,7 +24,6 @@
     "Každý pro něco optimalizuje. Špičkové laboratoře optimalizují pro přijetí svých produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to legitimní byznys, a je jejich, ne náš.",
     "Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu směřuje. Řídíme <span class=\"definition\">své</span> organizace a jsme souzeni podle toho, na čem záleží <span class=\"definition\">nám</span> — <span class=\"definition\">našim</span> zákazníkům, zaměstnancům a dalším zainteresovaným. Proto je pro nás jedna věc nesmlouvavá: <span class=\"definition\">agentní posun se děje za našich podmínek</span>."
   ],
-
   "refuseHead": "Co odmítáme přijmout",
   "refuseIntro": "Praktikováním kritického myšlení tvrdíme:",
   "refusals": [
@@ -48,7 +44,6 @@
     }
   ],
   "refuseOutro": "Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: <span class=\"definition\">„Nejdřív organizační design, pak AI.“</span> Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.",
-
   "shiftHead": "Kam se posouváme",
   "shiftIntro": "Organizace produktového inženýrství, které si drží udržitelnou kvalitu, hodnotu pro zákazníka a vysokou přizpůsobivost, dělají následující strategické posuny, s AI jako pákou, která je usnadňuje:",
   "shifts": [
@@ -68,8 +63,8 @@
       "note": "Povýšit produktové inženýry z toho, že jsou měřeni podle výstupů, na to, že vlastní celou hodnotovou smyčku — zajišťují skutečný dopad na zákazníky, experimentují a korigují kurz, jakmile přicházejí důkazy."
     }
   ],
-  "shiftOutro": "Které posuny vaše organizace pojme za své, je <span class=\"definition\">na vás</span>. Podstatné je, aby byly <span class=\"definition\">strategické, ne krátkozraké</span> — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.",
-
+  "shiftNotNew": "Tyto posuny nejsou nové. Byly dobře zdokumentované a doporučované dávno před AI. Co AI mění, není to, zda jsou správné — jen to, jak těžké je je uskutečnit.",
+  "shiftOutro": "Které posuny tedy vaše organizace pojme za své, je <span class=\"definition\">na vás</span>. Podstatné je, aby byly <span class=\"definition\">strategické, ne krátkozraké</span> — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.",
   "qaHead": "Co dál?",
   "qa": [
     {
@@ -81,7 +76,6 @@
       "a": "<a href=\"/community\">Přidejte se do profesionální učící se komunity</a> — kurátorovaný prostor se vstupem pouze na základě přihlášky, pro senior builders &amp; leaders, kteří na těchto posunech pracují společně."
     }
   ],
-
   "foot": {
     "by": "vytvořil a spravuje",
     "cta": "komunita a meetupy v mnichově"

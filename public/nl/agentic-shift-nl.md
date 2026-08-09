@@ -40,7 +40,9 @@ Een einde maken aan het doorgeefspel via manager-tussenpersonen en aan het tijdp
 ### output → uitkomsten (output → outcomes)
 Product engineers optillen van afgerekend worden op output naar het bezitten van de volledige waardelus — echte klantimpact borgen, experimenteren en bijsturen zodra het bewijs binnenkomt.
 
-Welke verschuivingen jouw organisatie oppakt, is **aan jou**. Wat telt is dat ze **strategisch zijn en niet kortzichtig** — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.
+Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór AI goed gedocumenteerd en aanbevolen. Wat AI verandert, is niet óf ze juist zijn — alleen hoe moeilijk ze te maken zijn.
+
+Welke verschuivingen jouw organisatie nu oppakt, is **aan jou**. Wat telt is dat ze **strategisch zijn en niet kortzichtig** — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.
 
 ## Wat nu?
 

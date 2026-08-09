@@ -2,7 +2,6 @@
   "lang": "de",
   "name": "Deutsch",
   "dir": "/de/",
-
   "meta": {
     "title": "Agentic Shift — Erst Org-Design, dann KI",
     "description": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services. Wofür wir stehen, was wir ablehnen, wohin wir uns bewegen.",
@@ -12,14 +11,12 @@
     "schemaDescription": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services.",
     "llmsTitle": "Agentic Shift — maschinenlesbare (LLM-)Fassung"
   },
-
   "hero": {
     "kicker": "Im KI-Rennen bei Verstand bleiben",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
     "subtitle": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services."
   },
-
   "standHead": "Wofür wir stehen",
   "stand": [
     "Der <span class=\"definition\">agentic shift</span> ist real. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir über die Arbeit und die Arbeitenden denken.",
@@ -27,7 +24,6 @@
     "Alle optimieren auf irgendetwas hin. Die führenden KI-Labore optimieren auf die Adoption ihrer Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist ein legitimes Geschäft, und es ist ihres, nicht unseres.",
     "Jede Organisation ist einzigartig — darin, wie sie gebaut wurde, und darin, wonach sie strebt. Wir führen <span class=\"definition\">unsere</span> Organisationen, und wir werden daran gemessen, was für <span class=\"definition\">uns</span> zählt — <span class=\"definition\">unsere</span> Kundinnen und Kunden, Mitarbeitenden und weiteren Stakeholder. Deshalb ist für uns eines nicht verhandelbar: <span class=\"definition\">Der agentic shift geschieht zu unseren Bedingungen</span>."
   ],
-
   "refuseHead": "Was wir nicht akzeptieren",
   "refuseIntro": "Indem wir kritisches Denken praktizieren, halten wir fest:",
   "refusals": [
@@ -48,7 +44,6 @@
     }
   ],
   "refuseOutro": "Kurz: Wir lassen nicht zu, dass eine oberflächliche KI-Adoptionsmode unser langfristiges Denken über die Organisationen verdrängt, die wir bauen. Deshalb sagen wir: <span class=\"definition\">„Erst Org-Design, dann KI.“</span> Wir lernen, strategisch zu handeln: Wir definieren, was wir in unseren Organisationen zum Wohle des Ganzen verschieben wollen, und setzen dann KI — und andere Mittel — ein, um diese Verschiebungen Wirklichkeit werden zu lassen.",
-
   "shiftHead": "Wohin wir uns bewegen",
   "shiftIntro": "Organisationen im Product Engineering, die an nachhaltiger Qualität, Kundennutzen und hoher Anpassungsfähigkeit festhalten, vollziehen die folgenden strategischen Verschiebungen, mit KI als Hebel, der sie erleichtert:",
   "shifts": [
@@ -68,8 +63,8 @@
       "note": "Product Engineers aus der Messung am Output herausheben, hin zur Verantwortung für den vollständigen Wertkreislauf — echte Kundenwirkung sicherstellen, experimentieren und den Kurs korrigieren, sobald die Evidenz eintrifft."
     }
   ],
-  "shiftOutro": "Welche Verschiebungen deine Organisation angeht, ist <span class=\"definition\">deine Entscheidung</span>. Entscheidend ist, dass sie <span class=\"definition\">strategisch und nicht kurzsichtig</span> sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.",
-
+  "shiftNotNew": "Diese Verschiebungen sind nicht neu. Sie waren lange vor KI gut dokumentiert und empfohlen. Was KI ändert, ist nicht, ob sie richtig sind — nur, wie schwer sie zu vollziehen sind.",
+  "shiftOutro": "Welche Verschiebungen deine Organisation nun angeht, ist <span class=\"definition\">deine Entscheidung</span>. Entscheidend ist, dass sie <span class=\"definition\">strategisch und nicht kurzsichtig</span> sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.",
   "qaHead": "Was kommt als Nächstes",
   "qa": [
     {
@@ -81,7 +76,6 @@
       "a": "<a href=\"/community\">Der professionellen Lern-Community beitreten</a> — ein kuratierter Raum, Zugang nur auf Bewerbung, für senior builders &amp; leaders, die gemeinsam an diesen Verschiebungen arbeiten."
     }
   ],
-
   "foot": {
     "by": "erstellt und gepflegt von",
     "cta": "community und meetups in münchen"

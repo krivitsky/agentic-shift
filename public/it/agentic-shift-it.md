@@ -40,7 +40,9 @@ Mettere fine al gioco del telefono senza fili attraverso manager-intermediari e 
 ### produzione → risultati (output → outcomes)
 Elevare gli ingegneri di prodotto dall'essere misurati sulla produzione al farsi carico dell'intero ciclo del valore — garantendo un impatto reale sui clienti, sperimentando e correggendo la rotta man mano che arrivano le evidenze.
 
-Quali spostamenti la tua organizzazione intraprenda sta **a te deciderlo**. Ciò che conta è che siano **strategici e non miopi** — che servano l'organizzazione che vuoi avere fra anni, e non i numeri che la FOMO ti farebbe rincorrere questo trimestre.
+Questi spostamenti non sono nuovi. Erano ben documentati e raccomandati molto prima dell'IA. Ciò che l'IA cambia non è se siano giusti — solo quanto siano difficili da compiere.
+
+Ora, quali spostamenti la tua organizzazione intraprenda sta **a te deciderlo**. Ciò che conta è che siano **strategici e non miopi** — che servano l'organizzazione che vuoi avere fra anni, e non i numeri che la FOMO ti farebbe rincorrere questo trimestre.
 
 ## E adesso?
 

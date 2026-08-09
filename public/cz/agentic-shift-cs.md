@@ -40,7 +40,9 @@ Ukončit tichou poštu přes manažery-prostředníky i éru „IT sedícího ve
 ### výstupy → dopady (output → outcomes)
 Povýšit produktové inženýry z toho, že jsou měřeni podle výstupů, na to, že vlastní celou hodnotovou smyčku — zajišťují skutečný dopad na zákazníky, experimentují a korigují kurz, jakmile přicházejí důkazy.
 
-Které posuny vaše organizace pojme za své, je **na vás**. Podstatné je, aby byly **strategické, ne krátkozraké** — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.
+Tyto posuny nejsou nové. Byly dobře zdokumentované a doporučované dávno před AI. Co AI mění, není to, zda jsou správné — jen to, jak těžké je je uskutečnit.
+
+Které posuny tedy vaše organizace pojme za své, je **na vás**. Podstatné je, aby byly **strategické, ne krátkozraké** — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.
 
 ## Co dál?
 

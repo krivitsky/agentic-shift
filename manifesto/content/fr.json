@@ -2,7 +2,6 @@
   "lang": "fr",
   "name": "Français",
   "dir": "/fr/",
-
   "meta": {
     "title": "Agentic Shift — Le design organisationnel d'abord, l'IA ensuite",
     "description": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents. Ce que nous défendons, ce que nous refusons, vers quoi nous basculons.",
@@ -12,14 +11,12 @@
     "schemaDescription": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents.",
     "llmsTitle": "Agentic Shift — version lisible par machine (LLM)"
   },
-
   "hero": {
     "kicker": "Garder la tête froide dans la course à l'IA",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
     "subtitle": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents."
   },
-
   "standHead": "Ce que nous défendons",
   "stand": [
     "Le <span class=\"definition\">basculement agentique</span> est réel. Il touche nos organisations en profondeur et change notre façon de penser le travail et celles et ceux qui le font.",
@@ -27,7 +24,6 @@
     "Chacun optimise quelque chose. Les laboratoires de pointe optimisent l'adoption de leurs produits, et la FOMO est le levier le plus puissant qu'ils actionnent sur nous. C'est une activité légitime, et elle est la leur, pas la nôtre.",
     "Chaque organisation est unique par la manière dont elle a été bâtie et par ce à quoi elle aspire. Nous dirigeons <span class=\"definition\">nos</span> organisations, et nous sommes jugés sur ce qui compte pour <span class=\"definition\">nous</span> — <span class=\"definition\">nos</span> clients, nos salariés et nos autres parties prenantes. Alors pour nous, une chose n'est pas négociable : <span class=\"definition\">le basculement agentique se fait à nos conditions</span>."
   ],
-
   "refuseHead": "Ce que nous refusons d'accepter",
   "refuseIntro": "En pratiquant la pensée critique, nous affirmons :",
   "refusals": [
@@ -48,7 +44,6 @@
     }
   ],
   "refuseOutro": "En bref, nous ne laissons pas une mode superficielle d'adoption de l'IA évincer notre réflexion de long terme sur les organisations que nous construisons. Nous disons donc : <span class=\"definition\">« Le design organisationnel d'abord, l'IA ensuite. »</span> Nous apprenons à agir stratégiquement : nous définissons ce que nous voulons faire basculer dans nos organisations pour le bien commun, puis nous mobilisons l'IA — et d'autres moyens — pour rendre ces basculements réels.",
-
   "shiftHead": "Vers quoi nous basculons",
   "shiftIntro": "Les organisations d'ingénierie produit qui tiennent à une qualité durable, à la valeur pour le client et à une forte adaptabilité opèrent les basculements stratégiques suivants, avec l'IA comme levier pour les faciliter :",
   "shifts": [
@@ -68,8 +63,8 @@
       "note": "Élever les ingénieurs produit du statut de personnes mesurées à leur production à celui de responsables de la boucle de valeur complète — garantir un impact client réel, expérimenter et corriger le cap à mesure que les preuves arrivent."
     }
   ],
-  "shiftOutro": "Les basculements que votre organisation entreprend, c'est <span class=\"definition\">à vous d'en décider</span>. Ce qui compte, c'est qu'ils soient <span class=\"definition\">stratégiques et non myopes</span> — qu'ils servent l'organisation que vous voulez avoir dans quelques années, et non les chiffres que la FOMO vous ferait courir après ce trimestre.",
-
+  "shiftNotNew": "Ces basculements ne sont pas nouveaux. Ils étaient bien documentés et recommandés bien avant l'IA. Ce que l'IA change, ce n'est pas s'ils sont justes — seulement à quel point ils sont difficiles à opérer.",
+  "shiftOutro": "Maintenant, les basculements que votre organisation entreprend, c'est <span class=\"definition\">à vous d'en décider</span>. Ce qui compte, c'est qu'ils soient <span class=\"definition\">stratégiques et non myopes</span> — qu'ils servent l'organisation que vous voulez avoir dans quelques années, et non les chiffres que la FOMO vous ferait courir après ce trimestre.",
   "qaHead": "Et maintenant ?",
   "qa": [
     {
@@ -81,7 +76,6 @@
       "a": "<a href=\"/community\">Rejoignez la communauté d'apprentissage professionnelle</a> — un espace sélectif, accessible uniquement sur candidature, pour les senior builders &amp; leaders qui travaillent ensemble sur ces basculements."
     }
   ],
-
   "foot": {
     "by": "créé et maintenu par",
     "cta": "communauté et rencontres à munich"

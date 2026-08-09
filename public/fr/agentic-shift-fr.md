@@ -40,7 +40,9 @@ Mettre fin au téléphone arabe via des managers intermédiaires et à l'ère de
 ### production → résultats (output → outcomes)
 Élever les ingénieurs produit du statut de personnes mesurées à leur production à celui de responsables de la boucle de valeur complète — garantir un impact client réel, expérimenter et corriger le cap à mesure que les preuves arrivent.
 
-Les basculements que votre organisation entreprend, c'est **à vous d'en décider**. Ce qui compte, c'est qu'ils soient **stratégiques et non myopes** — qu'ils servent l'organisation que vous voulez avoir dans quelques années, et non les chiffres que la FOMO vous ferait courir après ce trimestre.
+Ces basculements ne sont pas nouveaux. Ils étaient bien documentés et recommandés bien avant l'IA. Ce que l'IA change, ce n'est pas s'ils sont justes — seulement à quel point ils sont difficiles à opérer.
+
+Maintenant, les basculements que votre organisation entreprend, c'est **à vous d'en décider**. Ce qui compte, c'est qu'ils soient **stratégiques et non myopes** — qu'ils servent l'organisation que vous voulez avoir dans quelques années, et non les chiffres que la FOMO vous ferait courir après ce trimestre.
 
 ## Et maintenant ?
 

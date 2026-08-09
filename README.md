@@ -48,7 +48,9 @@ Ending the telephone game through manager-proxies and the era of “IT sitting i
 ### output → outcomes
 Elevating product engineers from being measured by output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in.
 
-Which shifts your organization takes on is **yours to decide**. What matters is that they are **strategic, not shortsighted** — that they serve the organization you want to have in years rather than the numbers FOMO would have you chase this quarter.
+These shifts are not new. They were well documented and recommended long before AI. What AI changes is not whether they are right — only how hard they are to make.
+
+Now, which shifts your organization takes on is **yours to decide**. What matters is that they are **strategic, not shortsighted** — that they serve the organization you want to have in years rather than the numbers FOMO would have you chase this quarter.
 
 ## What's Next?
 
