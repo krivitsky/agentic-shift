@@ -5,7 +5,7 @@
 manifesto and `/v12` are both untouched.
 
 Source: Alexey's own rewrite — Google Doc *"manifesto"*, exported 2026-08-09 11:20.
-Structure agreed the same morning: **What we stand for → What we refuse → What we shift.**
+Structure agreed the same morning: **What we stand for → What we refuse to accept → What we shift.**
 
 ---
 
@@ -42,7 +42,7 @@ Every stylistic choice is his. The only departures are unambiguous grammar repai
 |---|---|
 | Hero | *Agentic Shift* — subtitle is his: "From tokenmaxing and other AI theater towards healthy organizations with great products and services." |
 | **What we stand for** | Four paragraphs: the shift is real · not tooling or tokens · everyone optimizes for something, the labs optimize for adoption · we run our organizations, so the shift happens on our terms. |
-| **What we refuse** | "By practicing critical thinking, we claim:" + three `≠` cards, rose, same card grammar as the shifts, each keeping its full sentence. Then the fad line, then **"Org design, then AI."** in its own framed card — teal edge, no marker, full width. |
+| **What we refuse to accept** | "By practicing critical thinking, we claim:" + three `≠` cards, rose, same card grammar as the shifts, each keeping its full sentence. Then the fad line, then **"Org design, then AI."** in its own framed card — teal edge, no marker, full width. |
 | **What we shift** | Three organizational shifts, teal: specialists → craftspeople · proxies → users · output → outcomes. |
 | Closing the shifts | Alexey's "it is up to your organization" paragraph — the three above are examples, not a prescription. |
 | What's Next? / Q&A / footer | Verbatim from live. |
