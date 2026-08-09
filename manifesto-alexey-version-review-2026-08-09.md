@@ -16,19 +16,30 @@ Nothing applied. `/v12` and the live manifesto are untouched.
 | Possible to agree/disagree | **Yes.** Three ≠ claims plus a stated priority order. All refutable. |
 | No technical shifts | **Correct to cut — see below.** |
 
-## The one thing I'd fight about: "tokenmaxxing"
+## "tokenmaxxing" — I argued against it and I was wrong
 
-It is the subtitle. It is the first line of the page, the OG description, and the thing that gets quoted.
+Recorded because the reasoning failed in an instructive way.
 
-- **It is in-group slang.** Formed like *looksmaxxing*; it reads instantly to people who live on X, and not at all to a CTO who does not. The audience the rest of the document addresses — leaders running organizations — is the half that will not parse it.
-- **"and other nonsense" sneers.** The body is careful and fair: *"That is a legitimate business, and it is theirs, not ours."* The subtitle calls the same thing nonsense. The body's confidence is stronger than the subtitle's contempt.
-- The idea is already carried better elsewhere in his own text: *"not about tooling, tokens, or any other output metrics."*
+The argument made here was that *tokenmaxxing* is in-group slang formed like *looksmaxxing*,
+that a CTO would not parse it, and that the subtitle is the worst place to lose half the room.
+Alexey pushed back with two words — "it is a term, check" — and he was right.
 
-Alternatives that keep the enemy without the slang:
+By August 2026 it is established vocabulary with mainstream business coverage
+([Inc.](https://www.inc.com/ben-sherry/what-is-tokenmaxxing-ai-productivity-hack/91328999),
+[Trending Topics](https://www.trendingtopics.eu/tokenmaxxing-is-ai-token-consumption-a-productivity-metric-or-vanity-trap/),
+glossary entries), attached to an episode leaders lived through: Meta's *Claudeonomics* and
+Amazon's *Kirorank* ranked staff by tokens burned and were pulled around mid-2026 when the
+incentive backfired.
 
-> From token counts to healthy organizations with great products
-> Past the tooling hype, towards healthy organizations with great products
-> Not more output. Better organizations, better products.
+That inverts the conclusion. The term is **already pejorative in mainstream usage**, so the
+subtitle borrows a verdict rather than picking a fight; and it **names the concrete instance
+of the third refusal** — `output volume ≠ capability` is abstract, *tokenmaxxing* is the
+leaderboard that got switched off. Subtitle stands as his.
+
+**The lesson:** the objection was built on an assumption about a word's currency, asserted
+without checking. One search would have killed it before it cost him a round trip. Check the
+currency of a term before arguing it is too obscure — especially in a fast-moving field where
+vocabulary goes mainstream in months.
 
 ## The technical shifts — cut them, but do not delete them
 

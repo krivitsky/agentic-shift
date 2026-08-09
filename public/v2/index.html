@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!-- HIDDEN DRAFT — manifesto v2, for review only. Source copy is Alexey's own
+     rewrite (Google Doc "manifesto", exported 2026-08-09 11:20). Structure agreed
+     the same morning: Where we stand -> What we refuse -> What we shift.
+     Departures from that doc are ONLY unambiguous grammar repairs, listed in
+     manifesto-v2-content.md. Every stylistic choice is his, including the
+     subtitle. Hidden: noindex, no hreflang, no JSON-LD, no GA, out of the
+     sitemap. NO translation file has been touched and build.js has NOT been
+     run — /v2 is hand-held HTML until it is approved. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Agentic Shift — v2 draft</title>
+  <meta name="description" content="Draft v2 of the Agentic Shift manifesto — Alexey’s rewrite: where we stand, what we refuse, what we shift.">
+  <meta name="author" content="Alexey Krivitsky, Martin Westphal">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#05090d">
+  <link rel="canonical" href="/v2">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Agentic Shift">
+  <meta property="og:title" content="Agentic Shift — v2 draft">
+  <meta property="og:description" content="Draft v2 — where we stand, what we refuse, what we shift.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="/v2">
+  <meta property="og:image" content="/images/og-shift.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Agentic Shift — v2 draft">
+  <meta name="twitter:description" content="Draft v2 — where we stand, what we refuse, what we shift.">
+  <meta name="twitter:image" content="/images/og-shift.png">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/shift.css">
+
+  <style>
+    /* Page-scoped, same pattern as /community — nothing is added to the shared
+       shift.css. Written when three drafts were live side by side; /v15 and /v2
+       were removed 2026-08-06 when Alexey picked v1.2. Two rules below now fire
+       on nothing and are kept only so this page's markup is still comparable to
+       the homepage's; each page uses only the rules its markup asks for. */
+
+    /* v2 — bright run-in label for the three-part shift blocks ("The move." /
+       "The half nobody sells you." / "Skip it and:"). Deliberately colourless:
+       teal and amber already mean things here, and the cards are already
+       tinted by their group. */
+    .note .lbl { color: #dbe6ec; font-weight: 600; }
+
+    /* v1.5 — the cost line sits under the quotable sentence and must not
+       compete with it: dimmer than the note body, italic. */
+    .note.cost { color: var(--muted); font-style: italic; }
+
+    /* v1.5 + v2 — on the homepage a .section-head sits directly above the first
+       group and supplies the gap; where the group follows body copy instead it
+       needs the same air. /v12 keeps the homepage's section-head, so it does
+       not carry this class. */
+    .manifesto .group.group-lead { margin-top: clamp(30px, 4.5vw, 52px); }
+
+    /* v1.5 — the line that hands off to the shifts follows another .lede, so
+       `.lede + .lede` would space it as one more item in the refusal list.
+       Higher specificity, so it reads as the transition it is. */
+    .manifesto .lede.lede-lead { margin-top: clamp(40px, 6vw, 72px); }
+
+    /* "What we refuse" — identical to every other .section-head in size, family,
+       weight and rule; only the word colour changes. #e8617f is a rose-red
+       deliberately built off amber's red channel (#e8a33d) so it sits in the
+       same light family as the two existing accents instead of shouting over
+       them. NOTE: this is a FOURTH hue in a three-colour system (ink / teal /
+       amber) — it earns its place only if refusal is the one thing on the page
+       allowed to look different. Drop this rule to revert. */
+    .section-head-refuse .txt { color: #e8617f; }
+
+    /* The refusals reuse the shift-card markup so they read in the same visual
+       grammar as the shifts — but with ≠ instead of an arrow and a ✕ where the
+       number goes, so nothing suggests "move from here to there". Same rose as
+       the section head; each pair keeps its full sentence as the .note, exactly
+       like a shift card, so the compressed pair is never the only reading. */
+    .group-refuse .shifts { list-style: none; }
+    .group-refuse .shift .n,
+    .group-refuse .pair .to,
+    .group-refuse .pair .arrow { color: #e8617f; }
+    .group-refuse .shift:hover { border-color: rgba(232, 97, 127, 0.4); }
+    .group-refuse .shift .n { font-size: clamp(22px, 2.4vw, 30px); font-weight: 600; opacity: 1; }
+
+    /* "Org design, then AI." — the one line the whole document turns on, so it
+       gets air on both sides and a size between body copy and a section head.
+       Not a heading: it is a sentence the reader is meant to be able to quote,
+       and headings on this page are navigation. */
+    .manifesto .lede.creed {
+      font-size: clamp(21px, 2.4vw, 29px);
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      margin: clamp(30px, 4.5vw, 52px) 0;
+    }
+
+    /* ≠ instead of an arrow: the refusals are equations being denied, not moves
+       from one place to another, and the arrow — even struck through — kept
+       reading as direction. */
+  </style>
+</head>
+<body>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────── -->
+  <header class="hero">
+
+    <!-- Rising dot-field: the mediocre grid dims into the background while a
+         diagonal of live nodes climbs to the top-right — the shift, made literal.
+         Adapted from the CTO-book cover motif. -->
+    <svg class="graph" viewBox="0 0 306 112" fill="none" aria-hidden="true">
+      <g class="grid">
+        <circle cx="0" cy="28" r="4.2"/><circle cx="34" cy="28" r="4.2"/><circle cx="68" cy="28" r="4.2"/><circle cx="102" cy="28" r="4.2"/><circle cx="136" cy="28" r="4.2"/><circle cx="170" cy="28" r="4.2"/><circle cx="204" cy="28" r="4.2"/>
+        <circle cx="0" cy="56" r="4.2"/><circle cx="34" cy="56" r="4.2"/><circle cx="68" cy="56" r="4.2"/><circle cx="102" cy="56" r="4.2"/><circle cx="136" cy="56" r="4.2"/><circle cx="170" cy="56" r="4.2"/><circle cx="306" cy="56" r="4.2"/>
+        <circle cx="0" cy="84" r="4.2"/><circle cx="34" cy="84" r="4.2"/><circle cx="68" cy="84" r="4.2"/><circle cx="102" cy="84" r="4.2"/><circle cx="136" cy="84" r="4.2"/><circle cx="238" cy="84" r="4.2"/><circle cx="272" cy="84" r="4.2"/><circle cx="306" cy="84" r="4.2"/>
+        <circle cx="0" cy="112" r="4.2"/><circle cx="34" cy="112" r="4.2"/><circle cx="68" cy="112" r="4.2"/><circle cx="170" cy="112" r="4.2"/><circle cx="204" cy="112" r="4.2"/><circle cx="238" cy="112" r="4.2"/><circle cx="272" cy="112" r="4.2"/><circle cx="306" cy="112" r="4.2"/>
+      </g>
+      <g class="rise">
+        <circle cx="102" cy="112" r="4.7"/><circle cx="136" cy="112" r="5.1"/><circle cx="170" cy="84" r="5.6"/><circle cx="204" cy="84" r="6"/><circle cx="204" cy="56" r="5"/><circle cx="238" cy="56" r="6.8"/><circle cx="238" cy="28" r="5.2"/><circle cx="272" cy="56" r="7.2"/><circle cx="272" cy="28" r="5.8"/><circle cx="306" cy="28" r="8.4"/>
+      </g>
+      <g class="peak">
+        <circle cx="272" cy="0" r="3.4"/><circle cx="306" cy="0" r="4.2"/>
+      </g>
+    </svg>
+
+    <div class="hero-mid">
+      <h1 class="headline">Agentic <span class="glitch" data-text="Shift">Shift</span></h1>
+      <div class="hero-rule" aria-hidden="true"></div>
+      <p class="subtitle">From tokenmaxxing and other nonsense towards healthy organizations with great products and services.</p>
+    </div>
+
+  </header>
+
+  <!-- ── Manifesto ────────────────────────────────────────────────── -->
+  <main class="wrap manifesto">
+
+    <a class="community-banner" href="/community">
+      <span class="cb-tag">community</span>
+      <span class="cb-desc">professional learning community for senior builders &amp; leaders</span>
+      <span class="cb-status">applications open →</span>
+    </a>
+
+    <!-- ── Where we stand ───────────────────────────────────────────── -->
+
+    <h2 class="section-head" id="where-we-stand"><span class="txt">Where we stand</span></h2>
+
+    <p class="lede">The <span class="definition">agentic shift</span> is real. It affects our organizations deeply, changing how we think about the work and the workers.</p>
+
+    <p class="lede">What we know, though, is that it is not about tooling, tokens, or any other output metric — chosen simply because they are easy to measure. It is about building better organizations that offer better products and services. That's what matters.</p>
+
+    <p class="lede">Everyone is optimizing for something. The frontier labs optimize for the adoption of their products, and FOMO is their fastest lever. That is a legitimate business, and it is theirs, not ours.</p>
+
+    <p class="lede">Every organization is unique in the way it was built and in what it aspires to. We run <em>our</em> organizations, and we are judged on what matters to <em>us</em>, our customers, employees, and other stakeholders. So it is an invariant for us that the <em>agentic shift</em> happens on <em>our</em> terms.</p>
+
+    <!-- ── What we refuse ───────────────────────────────────────────── -->
+
+    <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">What we refuse</span></h2>
+
+    <p class="lede">By practicing critical thinking, we claim:</p>
+
+    <section class="group group-refuse">
+      <ul class="shifts">
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">✕</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">lost judgment</span><span class="arrow" aria-hidden="true">≠</span><span class="to">efficiency</span></p>
+            <p class="note">We do not treat the loss of judgment of code, design, architecture, features, value as efficiency.</p>
+          </div>
+        </li>
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">✕</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">vendor dependence</span><span class="arrow" aria-hidden="true">≠</span><span class="to">progress</span></p>
+            <p class="note">We do not accept dependence on AI vendors, their models and tooling, as progress.</p>
+          </div>
+        </li>
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">✕</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">output volume</span><span class="arrow" aria-hidden="true">≠</span><span class="to">capability</span></p>
+            <p class="note">We do not confuse the ability to generate output with a strategic organizational capability.</p>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <p class="lede">In short, we don't let the superficial AI-adoption fad cancel our long-term thinking about developing our organizations.</p>
+
+    <p class="lede creed"><strong>So we say: <span class="definition">“Org design, then AI.”</span></strong></p>
+
+    <p class="lede">We act strategically. We define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make it happen for real.</p>
+
+    <!-- ── What we shift ────────────────────────────────────────────── -->
+
+    <h2 class="section-head" id="what-we-shift"><span class="txt">What we shift</span></h2>
+
+    <p class="lede">Product engineering organizations may decide to amplify these shifts, and AI can be a great lever along the way:</p>
+
+    <section class="group group-org">
+      <ol class="shifts" start="1">
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">01</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">specialists</span><span class="arrow" aria-hidden="true">→</span><span class="to">craftspeople</span></p>
+            <p class="note">We enable our product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains.</p>
+          </div>
+        </li>
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">02</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">proxies</span><span class="arrow" aria-hidden="true">→</span><span class="to">users</span></p>
+            <p class="note">We want to stop the telephone game through manager-proxies and the era of “IT sitting in the basement” — we encourage our product engineers to shift to zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.</p>
+          </div>
+        </li>
+
+        <li class="shift">
+          <span class="n" aria-hidden="true">03</span>
+          <div class="shift-body">
+            <p class="pair"><span class="from">output</span><span class="arrow" aria-hidden="true">→</span><span class="to">outcomes</span></p>
+            <p class="note">We elevate our product engineers from being measured by output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in.</p>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+
+    <p class="lede system-note">The engineering craft these shifts depend on is its own body of work — see the <a href="https://agentic-engineering.guide/" target="_blank" rel="noopener">Agentic Product Engineering Guide</a>.</p>
+
+    <h2 class="section-head" id="whats-next"><span class="txt">What's Next?</span></h2>
+
+    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Towards a new manifesto?</p>
+
+    <p class="lede">It is perhaps <span class="amber">too early to write manifestos</span>, as the ground is still shifting — but we'd like to acknowledge the strong changes we're already observing throughout the industry, most visible among the frontrunners.</p>
+
+    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> What does it mean for org leaders?</p>
+
+    <p class="lede">While coding is now being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: <span class="definition">the drive for perfection</span>, <span class="definition">unlimited creativity</span>, and <span class="definition">rich co-creation</span>. The task of every organization and every leader is to design environments that <span class="definition">elevate human intelligence</span> to these new heights.</p>
+
+    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Want to contribute?</p>
+
+    <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Propose improvements</a>. Share this page. Put these ideas to work in your organization.</p>
+
+    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Want to go deeper?</p>
+
+    <p class="lede"><a href="/community">Join the professional learning community</a> — a curated, application-only space for senior builders and leaders working on these shifts together.</p>
+
+    <footer class="foot">
+      <div class="foot-line">
+        <span>2026, <a href="/">agentic-shift.com</a></span>
+        <span class="sep" aria-hidden="true">·</span>
+        <span class="by">created and maintained by <a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">Alexey Krivitsky</a></span>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="mailto:alexey@krivitsky.com">alexey@krivitsky.com</a>
+      </div>
+      <a class="foot-cta" href="/community">join the professional learning community</a>
+      <a class="foot-cta" href="/munich">community and meetups in munich</a>
+      <div class="foot-meta">
+        <a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">github</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/sitemap.xml">sitemap</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/llms.txt">llms.txt</a>
+        <span class="sep" aria-hidden="true">·</span>
+        <a href="/ai.txt">ai.txt</a>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+</html>
