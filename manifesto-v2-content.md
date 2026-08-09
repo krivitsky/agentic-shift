@@ -18,7 +18,7 @@ Every stylistic choice is his. The only departures are unambiguous grammar repai
 | "What we know, though, it is not about tooling" | "What we know, though, **is that it is** not about tooling" | Sentence had no main verb. |
 | "in the way it is build" | "in the way it **was built**" | |
 | "in the way it is aspired by" | "in **what it aspires to**" | Not English as written. |
-| "it is a invariant" | "it is **an** invariant" | Article. *invariant* itself kept — his choice, twice deliberate. |
+| "So it is a invariant for us that the agentic shift happens on our terms." | "So for us one thing is **non-negotiable**: *the agentic shift happens on our terms*." | *invariant* dropped at his request 2026-08-09 11:30 — maths jargon in a leadership document. The colon also lets the claim stand on its own, which is what the highlight needs. |
 | "a strategical organizational capability" | "a **strategic** organizational capability" | |
 | "dependence on AI-vendors, their models and tooling as progress" | "dependence on AI vendors, their models and tooling**,** as progress" | The comma stops "tooling as progress" reading as one phrase. |
 | "changing how we think about the work and workers" | "the work and **the** workers" | Parallel article. |
