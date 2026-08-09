@@ -119,11 +119,12 @@
        the section head; each pair keeps its full sentence as the .note, exactly
        like a shift card, so the compressed pair is never the only reading. */
     .group-refuse .shifts { list-style: none; }
-    .group-refuse .shift .n,
     .group-refuse .pair .to,
     .group-refuse .pair .arrow { color: #e8617f; }
     .group-refuse .shift:hover { border-color: rgba(232, 97, 127, 0.4); }
-    .group-refuse .shift .n { font-size: clamp(22px, 2.4vw, 30px); font-weight: 600; opacity: 1; }
+    /* No marker: ≠ already says "not", so the ✕ was saying it twice. Dropping it
+       also drops the gutter — every card on the page is now single-column. */
+    .group-refuse .shift { grid-template-columns: 1fr; }
 
 
     /* ≠ instead of an arrow: the refusals are equations being denied, not moves
@@ -193,7 +194,6 @@
       <ul class="shifts">
 
         <li class="shift">
-          <span class="n" aria-hidden="true">✕</span>
           <div class="shift-body">
             <p class="pair"><span class="from">lost judgment</span><span class="arrow" aria-hidden="true">≠</span><span class="to">efficiency</span></p>
             <p class="note">We do not treat the loss of judgment of code, design, architecture, features, value as efficiency.</p>
@@ -201,7 +201,6 @@
         </li>
 
         <li class="shift">
-          <span class="n" aria-hidden="true">✕</span>
           <div class="shift-body">
             <p class="pair"><span class="from">vendor dependence</span><span class="arrow" aria-hidden="true">≠</span><span class="to">progress</span></p>
             <p class="note">We do not accept dependence on AI vendors, their models and tooling, as progress.</p>
@@ -209,7 +208,6 @@
         </li>
 
         <li class="shift">
-          <span class="n" aria-hidden="true">✕</span>
           <div class="shift-body">
             <p class="pair"><span class="from">output volume</span><span class="arrow" aria-hidden="true">≠</span><span class="to">capability</span></p>
             <p class="note">We do not confuse the ability to generate output with a strategic organizational capability.</p>
