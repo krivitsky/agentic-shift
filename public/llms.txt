@@ -27,9 +27,7 @@ By practicing critical thinking, we claim:
 - **vendor dependence ≠ progress** — We do not accept dependence on AI vendors, their models and tooling, as progress.
 - **output volume ≠ capability** — We do not confuse the ability to generate output with a strategic organizational capability.
 
-In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building.
-
-**So we say: "Org design, then AI."** We learn to act strategically. We define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.
+In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. **So we say: "Org design, then AI."** We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.
 
 ### What we shift
 
