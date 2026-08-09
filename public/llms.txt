@@ -33,7 +33,7 @@ In short, we do not let a shallow AI-adoption fad crowd out our long-term thinki
 
 ### What we shift
 
-So we amplify these shifts in our product engineering organizations, and we use AI as a lever to get there:
+In our product engineering organizations, we make three shifts — with AI as a lever:
 
 - **specialists → craftspeople** — We enable our product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains.
 - **proxies → users** — We end the telephone game through manager-proxies and the era of "IT sitting in the basement" — instead, we put our product engineers at zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.
