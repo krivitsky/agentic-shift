@@ -31,11 +31,11 @@ In short, we do not let a shallow AI-adoption fad crowd out our long-term thinki
 
 ### What we shift towards
 
-We observe product engineering organizations making these shifts, using AI as a lever:
+Product engineering organizations that hold on to quality, customer value and their own adaptability make these shifts, using AI as a lever:
 
-- **specialists → craftspeople** — We enable our product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains.
+- **specialists → craftspeople** — Enabling product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains.
 - **proxies → users** — We end the telephone game through manager-proxies and the era of "IT sitting in the basement" — instead, we put our product engineers at zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.
-- **output → outcomes** — We elevate our product engineers from being measured by output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in.
+- **output → outcomes** — Elevating product engineers from being measured by output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in.
 
 Which shifts your organization takes on is yours to decide. What matters is that they are strategic — that they serve the organization you want to have in years, not the numbers FOMO would have you chase this quarter.
 
