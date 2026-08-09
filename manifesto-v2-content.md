@@ -23,16 +23,18 @@ Every stylistic choice is his. The only departures are unambiguous grammar repai
 | "dependence on AI-vendors, their models and tooling as progress" | "dependence on AI vendors, their models and tooling**,** as progress" | The comma stops "tooling as progress" reading as one phrase. |
 | "changing how we think about the work and workers" | "the work and **the** workers" | Parallel article. |
 
-**Left alone on purpose**, both flagged and both his call:
+**Left alone on purpose**, flagged but his call:
 
-- **"FOMO is their fastest lever."** He questioned *fastest* himself; the suggestion was
-  to drop the comparative — *"FOMO is the lever they pull"* — since a comparative invites
-  "faster than what?" and implies the other levers nearly work too. He did not take it, so
-  his wording stands. One-word swap whenever he wants it.
 - **"Product engineering organizations may decide to amplify these shifts…"** — hedges twice
   in the sentence that hinges into the shifts, right after a page of *we claim / we act*.
   Direct version available: *"So we amplify three shifts in our product engineering
   organizations, and we use AI as a lever to get there."*
+
+**Fixed:**
+
+- **"FOMO is their fastest lever" → "FOMO is the lever they pull."** He gave permission to improve, 
+  so the comparative is gone. Cleaner — a comparative invites "faster than what?" which undercuts 
+  the point.
 
 ## Structure
 
