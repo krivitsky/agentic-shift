@@ -42,6 +42,7 @@ Every stylistic choice is his. The only departures are unambiguous grammar repai
 | **Where we stand** | Four paragraphs: the shift is real · not tooling or tokens · everyone optimizes for something, the labs optimize for adoption · we run our organizations, so the shift happens on our terms. |
 | **What we refuse** | "By practicing critical thinking, we claim:" + three `≠` cards, rose, same card grammar as the shifts, each keeping its full sentence. Then the fad line, then **"Org design, then AI."** as a standalone creed, then the act-strategically paragraph. |
 | **What we shift** | Three organizational shifts, teal: specialists → craftspeople · proxies → users · output → outcomes. |
+| Closing the shifts | Alexey's "it is up to your organization" paragraph — the three above are examples, not a prescription. |
 | Foot of the shifts | One line handing the technical craft to the Agentic Product Engineering Guide — see below. |
 | What's Next? / Q&A / footer | Verbatim from live. |
 
@@ -61,7 +62,21 @@ So the foot of *What we shift* now reads:
 
 Altitude stays clean, the guide link survives, engineers still have a door.
 
-## "Org design, then AI."
+## The closing paragraph (added 2026-08-09 11:22)
+
+His text:
+
+> "It is upto your organization what shifts you define, decide to implement and design for, but it is essential that they are strategic, i.e. support your long-term organizational development."
+
+On the page:
+
+> Which shifts your organization takes on is yours to decide. What matters is that they are **strategic** — that they serve the organization you want to have in years, not the numbers you want this quarter.
+
+Four changes. *upto* → *up to* is a typo, and the phrasing dissolves it anyway. "define, decide to implement and design for" is three verbs doing one job — *takes on* carries all three. *i.e.* is a footnote marker inside a sentence that wants to land, so the em dash does the work instead. And "long-term organizational development" is the abstract form of a concrete contrast, so it becomes **years vs this quarter** — the reader now has something to picture.
+
+The paragraph earns its place: it is the sentence that stops the three shifts reading as a prescription, which is the same claim as *the shift happens on our terms*, now applied to the shifts themselves.
+
+## "Org design, then AI." 
 
 Given its own line, sized between body copy and a section head (`.lede.creed`, page-scoped).
 Deliberately **not** a heading: headings on this page are navigation, and this is a sentence
