@@ -4,84 +4,74 @@
   "dir": "/cz/",
 
   "meta": {
-    "title": "Agentic Shift — profesionální agentní produktové inženýrství",
-    "description": "Celoodvětvový posun k agentnímu produktovému inženýrství vytváří radikálně nové organizace. Pět posunů v organizačním designu, které oddělují profesionální agentní produktové inženýrství od průměrnosti a marketingu.",
+    "title": "Agentic Shift — Nejdřív organizační design, pak AI",
+    "description": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami. Za čím stojíme, co odmítáme, kam se posouváme.",
     "keywords": "agentic shift, agentní produktové inženýrství, agentic product engineering, AI agenti, organizační design, produktové inženýrství, Alexey Krivitsky, Martin Westphal",
-    "ogTitle": "Agentic Shift — profesionální agentní produktové inženýrství",
-    "ogDescription": "Pět posunů v organizačním designu, které oddělují profesionální agentní produktové inženýrství od průměrnosti a marketingu.",
-    "schemaDescription": "Celoodvětvový posun k agentnímu produktovému inženýrství vytváří radikálně nové organizace — definované pěti posuny v organizačním designu.",
+    "ogTitle": "Agentic Shift — Nejdřív organizační design, pak AI",
+    "ogDescription": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami.",
+    "schemaDescription": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami.",
     "llmsTitle": "Agentic Shift — strojově čitelná (LLM) verze"
   },
 
   "hero": {
+    "kicker": "Zachovat zdravý rozum v závodě o AI",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "k profesionálnímu agentnímu produktovému inženýrství"
+    "subtitle": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami."
   },
 
-  "lede": [
-    "Celoodvětvový posun k <span class=\"definition\">agentnímu produktovému inženýrství</span> vytváří radikálně nové organizace. Většina lídrů dosud nepochopila, jak hluboko to jde. Ti, kdo to pochopili, jsou už o krok vpřed. A <em>rozdíl mezi nejlepšími a ostatními se každým dnem zvětšuje.</em>",
-    "Abychom těmto myšlenkám pomohli se šířit — a nastavili laťku dost vysoko, aby šlo odlišit skutečnou změnu od <span class=\"strike\">průměrnosti a čirého marketingu</span> — definujeme <span class=\"definition\"><strong>profesionální</strong> agentní produktové inženýrství</span> jako soubor zřetelných posunů v organizačním designu: v tom, jak se produktová inženýrská práce skutečně odvádí."
+  "standHead": "Za čím stojíme",
+  "stand": [
+    "<span class=\"definition\">Agentní posun</span> je skutečný. Zasahuje naše organizace do hloubky a mění, jak přemýšlíme o práci i o lidech, kteří ji dělají.",
+    "Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování lepších organizací, které nabízejí lepší produkty a služby. Na tom záleží.",
+    "Každý pro něco optimalizuje. Špičkové laboratoře optimalizují pro přijetí svých produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to legitimní byznys, a je jejich, ne náš.",
+    "Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu směřuje. Řídíme <span class=\"definition\">své</span> organizace a jsme souzeni podle toho, na čem záleží <span class=\"definition\">nám</span> — <span class=\"definition\">našim</span> zákazníkům, zaměstnancům a dalším zainteresovaným. Proto je pro nás jedna věc nesmlouvavá: <span class=\"definition\">agentní posun se děje za našich podmínek</span>."
   ],
 
-  "sectionHead": "Posuny <span class=\"lite\">k</span> profesionálnímu agentnímu produktovému inženýrství <span class=\"lite\">na</span> úrovni organizace",
-
-  "qaHead": "Co dál?",
-
-  "groups": [
+  "refuseHead": "Co odmítáme přijmout",
+  "refuseIntro": "Praktikováním kritického myšlení tvrdíme:",
+  "refusals": [
     {
-      "label": "Hlavní technické posuny",
-      "by": "S podporou",
-      "link": "Agentic Product Engineering Guide"
+      "from": "ztracený úsudek",
+      "to": "efektivita",
+      "note": "Ztrátu úsudku nad kódem, designem, architekturou, funkcemi, hodnotou nepovažujeme za efektivitu."
     },
     {
-      "label": "Hlavní organizační posuny",
-      "by": "S podporou",
-      "link": "Adaptive Topology od 10X ORG"
+      "from": "závislost na dodavatelích",
+      "to": "pokrok",
+      "note": "Závislost na dodavatelích AI, na jejich modelech a nástrojích nepřijímáme jako pokrok."
+    },
+    {
+      "from": "objem výstupů",
+      "to": "schopnost",
+      "note": "Nezaměňujeme schopnost generovat výstupy za strategickou organizační schopnost."
     }
   ],
+  "refuseOutro": "Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: <span class=\"definition\">„Nejdřív organizační design, pak AI.“</span> Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.",
 
+  "shiftHead": "Kam se posouváme",
+  "shiftIntro": "Organizace produktového inženýrství, které si drží udržitelnou kvalitu, hodnotu pro zákazníka a vysokou přizpůsobivost, dělají následující strategické posuny, s AI jako pákou, která je usnadňuje:",
   "shifts": [
-    {
-      "from": "funkce",
-      "to": "systémy",
-      "note": "Produktoví inženýři přestávají dodávat jednorázové funkce a přecházejí k budování agentních systémů — sebezdokonalujících se smyček, které mění záměr ve funkční řešení."
-    },
-    {
-      "from": "kontrola",
-      "to": "mantinely",
-      "note": "Produktoví inženýři přestávají kvalitu kontrolovat dodatečně a zabudovávají ji přímo do systému prostřednictvím dobře zkonstruovaného agentního harnessu."
-    },
     {
       "from": "specialisté",
       "to": "řemeslníci",
-      "note": "Produktoví inženýři se mění z úzce zaměřených specialistů na výrobní lince na řemeslníky, kteří zvládnou celou cestu od začátku do konce — AI v reálném čase doplňuje chybějící specializace a mentoruje produktové inženýry v nových oblastech a dovednostech."
+      "note": "Umožnit produktovým inženýrům přejít od úzkých specialistů na montážní lince k řemeslníkům, kteří zvládnou celý řetězec — s AI, která doplňuje chybějící specializace a nabízí doškolení pro vstup do nových domén."
     },
     {
       "from": "prostředníci",
       "to": "uživatelé",
-      "note": "Už žádná tichá pošta přes manažery-prostředníky, už žádné sezení ve sklepě — produktoví inženýři přecházejí k nulové vzdálenosti od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky."
+      "note": "Ukončit tichou poštu přes manažery-prostředníky i éru „IT sedícího ve sklepě“ — a místo toho postavit produktové inženýry na nulovou vzdálenost od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky."
     },
     {
       "from": "výstupy",
       "to": "dopady",
-      "note": "Produktoví inženýři přestávají být měřeni podle výstupů a přebírají vnější smyčku (outer loop) — zajišťují skutečný dopad na zákazníky a korigují kurz, jakmile přicházejí důkazy."
+      "note": "Povýšit produktové inženýry z toho, že jsou měřeni podle výstupů, na to, že vlastní celou hodnotovou smyčku — zajišťují skutečný dopad na zákazníky, experimentují a korigují kurz, jakmile přicházejí důkazy."
     }
   ],
+  "shiftOutro": "Které posuny vaše organizace pojme za své, je <span class=\"definition\">na vás</span>. Podstatné je, aby byly <span class=\"definition\">strategické, ne krátkozraké</span> — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.",
 
-  "systemNote": [
-    "<strong>Technické a organizační posuny tvoří <span class=\"definition\">jeden systém</span></strong>: navzájem se umožňují a posilují a nesmějí se řídit izolovaně."
-  ],
-
+  "qaHead": "Co dál?",
   "qa": [
-    {
-      "q": "Směrem k novému manifestu?",
-      "a": "Je možná <span class=\"amber\">příliš brzy psát manifesty</span>, protože půda se stále posouvá — ale chtěli bychom uznat ty silné změny, které už napříč odvětvím pozorujeme, nejvýrazněji u průkopníků."
-    },
-    {
-      "q": "Co to znamená pro lídry organizací?",
-      "a": "Zatímco kódování se automatizuje a stává se rutinou, řemeslo produktového inženýrství prochází zásadní proměnou — možnou jen díky výrazně lidským vlastnostem: <span class=\"definition\">touze po dokonalosti</span>, <span class=\"definition\">neomezené kreativitě</span> a <span class=\"definition\">bohaté ko-kreaci</span>. Úkolem každé organizace a každého lídra je navrhovat prostředí, která <span class=\"definition\">pozvedají lidskou inteligenci</span> do těchto nových výšin."
-    },
     {
       "q": "Chcete přispět?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Navrhněte vylepšení</a>. Sdílejte tuto stránku. Uveďte tyto myšlenky do praxe ve své organizaci."

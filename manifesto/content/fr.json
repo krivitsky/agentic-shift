@@ -4,84 +4,74 @@
   "dir": "/fr/",
 
   "meta": {
-    "title": "Agentic Shift — L'ingénierie produit agentique professionnelle",
-    "description": "Le basculement de toute l'industrie vers l'ingénierie produit agentique fait émerger des organisations radicalement nouvelles. Cinq basculements de design organisationnel qui séparent l'ingénierie produit agentique professionnelle de la médiocrité et du marketing.",
+    "title": "Agentic Shift — Le design organisationnel d'abord, l'IA ensuite",
+    "description": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents. Ce que nous défendons, ce que nous refusons, vers quoi nous basculons.",
     "keywords": "agentic shift, ingénierie produit agentique, agentic product engineering, agents IA, design organisationnel, ingénierie produit, Alexey Krivitsky, Martin Westphal",
-    "ogTitle": "Agentic Shift — L'ingénierie produit agentique professionnelle",
-    "ogDescription": "Cinq basculements de design organisationnel qui séparent l'ingénierie produit agentique professionnelle de la médiocrité et du marketing.",
-    "schemaDescription": "Le basculement de toute l'industrie vers l'ingénierie produit agentique fait émerger des organisations radicalement nouvelles — définies par cinq basculements de design organisationnel.",
+    "ogTitle": "Agentic Shift — Le design organisationnel d'abord, l'IA ensuite",
+    "ogDescription": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents.",
+    "schemaDescription": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents.",
     "llmsTitle": "Agentic Shift — version lisible par machine (LLM)"
   },
 
   "hero": {
+    "kicker": "Garder la tête froide dans la course à l'IA",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "vers une ingénierie produit agentique professionnelle"
+    "subtitle": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents."
   },
 
-  "lede": [
-    "Le basculement de toute l'industrie vers l'<span class=\"definition\">ingénierie produit agentique</span> fait émerger des organisations radicalement nouvelles. La plupart des dirigeants n'ont pas encore saisi la profondeur du phénomène. Ceux qui l'ont saisi ont déjà une longueur d'avance. Et <em>l'écart entre les meilleurs et les autres se creuse chaque jour.</em>",
-    "Pour aider ces idées à se répandre, et pour placer la barre assez haut pour distinguer le vrai changement de la <span class=\"strike\">médiocrité et du pur marketing</span>, nous définissons l'<span class=\"definition\">ingénierie produit agentique <strong>professionnelle</strong></span> comme un ensemble de basculements visibles dans le design organisationnel : dans la façon dont le travail d'ingénierie produit se fait réellement."
+  "standHead": "Ce que nous défendons",
+  "stand": [
+    "Le <span class=\"definition\">basculement agentique</span> est réel. Il touche nos organisations en profondeur et change notre façon de penser le travail et celles et ceux qui le font.",
+    "Ce que nous savons, en revanche, c'est qu'il ne s'agit ni d'outillage, ni de tokens, ni d'aucune autre métrique de production qui a simplement le mérite d'être facile à mesurer. Il s'agit de bâtir de meilleures organisations, qui proposent de meilleurs produits et services. C'est cela qui compte.",
+    "Chacun optimise quelque chose. Les laboratoires de pointe optimisent l'adoption de leurs produits, et la FOMO est le levier le plus puissant qu'ils actionnent sur nous. C'est une activité légitime, et elle est la leur, pas la nôtre.",
+    "Chaque organisation est unique par la manière dont elle a été bâtie et par ce à quoi elle aspire. Nous dirigeons <span class=\"definition\">nos</span> organisations, et nous sommes jugés sur ce qui compte pour <span class=\"definition\">nous</span> — <span class=\"definition\">nos</span> clients, nos salariés et nos autres parties prenantes. Alors pour nous, une chose n'est pas négociable : <span class=\"definition\">le basculement agentique se fait à nos conditions</span>."
   ],
 
-  "sectionHead": "Les basculements <span class=\"lite\">vers</span> une ingénierie produit agentique professionnelle <span class=\"lite\">à</span> l'échelle de l'organisation",
-
-  "qaHead": "Et maintenant ?",
-
-  "groups": [
+  "refuseHead": "Ce que nous refusons d'accepter",
+  "refuseIntro": "En pratiquant la pensée critique, nous affirmons :",
+  "refusals": [
     {
-      "label": "Principaux basculements techniques",
-      "by": "Soutenu par",
-      "link": "Agentic Product Engineering Guide"
+      "from": "jugement perdu",
+      "to": "efficacité",
+      "note": "Nous ne prenons pas la perte du jugement sur le code, le design, l'architecture, les fonctionnalités, la valeur pour de l'efficacité."
     },
     {
-      "label": "Principaux basculements organisationnels",
-      "by": "Soutenu par",
-      "link": "Adaptive Topology de 10X ORG"
+      "from": "dépendance aux fournisseurs",
+      "to": "progrès",
+      "note": "Nous n'acceptons pas la dépendance aux fournisseurs d'IA, à leurs modèles et à leur outillage comme un progrès."
+    },
+    {
+      "from": "volume produit",
+      "to": "capacité",
+      "note": "Nous ne confondons pas la capacité à générer de la production avec une capacité organisationnelle stratégique."
     }
   ],
+  "refuseOutro": "En bref, nous ne laissons pas une mode superficielle d'adoption de l'IA évincer notre réflexion de long terme sur les organisations que nous construisons. Nous disons donc : <span class=\"definition\">« Le design organisationnel d'abord, l'IA ensuite. »</span> Nous apprenons à agir stratégiquement : nous définissons ce que nous voulons faire basculer dans nos organisations pour le bien commun, puis nous mobilisons l'IA — et d'autres moyens — pour rendre ces basculements réels.",
 
+  "shiftHead": "Vers quoi nous basculons",
+  "shiftIntro": "Les organisations d'ingénierie produit qui tiennent à une qualité durable, à la valeur pour le client et à une forte adaptabilité opèrent les basculements stratégiques suivants, avec l'IA comme levier pour les faciliter :",
   "shifts": [
-    {
-      "from": "fonctionnalités",
-      "to": "systèmes",
-      "note": "Les ingénieurs produit cessent de livrer des fonctionnalités isolées et se tournent vers la construction de systèmes agentiques — des boucles qui s'améliorent d'elles-mêmes et transforment l'intention en solutions qui fonctionnent."
-    },
-    {
-      "from": "contrôle",
-      "to": "garde-fous",
-      "note": "Les ingénieurs produit cessent d'inspecter la qualité après coup et l'intègrent directement dans le système, grâce à des harnais agentiques bien conçus."
-    },
     {
       "from": "spécialistes",
       "to": "artisans",
-      "note": "Les ingénieurs produit passent de spécialistes cloisonnés, à la chaîne, à des artisans de bout en bout — l'IA comblant les lacunes de spécialité en temps réel et guidant les ingénieurs vers de nouveaux domaines et compétences."
+      "note": "Permettre aux ingénieurs produit de passer de spécialistes étroits, à la chaîne, à des artisans de bout en bout — l'IA comblant les manques de spécialité et offrant la montée en compétences nécessaire pour entrer dans de nouveaux domaines."
     },
     {
       "from": "intermédiaires",
       "to": "utilisateurs",
-      "note": "Fini le téléphone arabe via des managers intermédiaires, fini l'isolement au sous-sol — les ingénieurs produit passent à distance zéro avec les clients et les utilisateurs, pour comprendre, analyser et synthétiser de première main."
+      "note": "Mettre fin au téléphone arabe via des managers intermédiaires et à l'ère de « l'informatique reléguée au sous-sol » — et placer à la place les ingénieurs produit à distance zéro des clients et des utilisateurs, pour faire preuve d'empathie, analyser et synthétiser de première main."
     },
     {
       "from": "production",
       "to": "résultats",
-      "note": "Les ingénieurs produit ne sont plus mesurés à leur production mais s'approprient l'outer loop — garantissant un impact client réel et corrigeant le cap à mesure que les preuves arrivent."
+      "note": "Élever les ingénieurs produit du statut de personnes mesurées à leur production à celui de responsables de la boucle de valeur complète — garantir un impact client réel, expérimenter et corriger le cap à mesure que les preuves arrivent."
     }
   ],
+  "shiftOutro": "Les basculements que votre organisation entreprend, c'est <span class=\"definition\">à vous d'en décider</span>. Ce qui compte, c'est qu'ils soient <span class=\"definition\">stratégiques et non myopes</span> — qu'ils servent l'organisation que vous voulez avoir dans quelques années, et non les chiffres que la FOMO vous ferait courir après ce trimestre.",
 
-  "systemNote": [
-    "<strong>Les basculements techniques et organisationnels forment <span class=\"definition\">un seul système</span></strong> : ils se rendent possibles et se renforcent mutuellement, et ne doivent pas être gérés isolément."
-  ],
-
+  "qaHead": "Et maintenant ?",
   "qa": [
-    {
-      "q": "Vers un nouveau manifeste ?",
-      "a": "Il est peut-être <span class=\"amber\">trop tôt pour écrire des manifestes</span>, car le sol bouge encore — mais nous tenons à reconnaître les changements profonds que nous observons déjà dans toute l'industrie, surtout chez les pionniers."
-    },
-    {
-      "q": "Qu'est-ce que cela signifie pour les dirigeants ?",
-      "a": "Alors que le code est désormais automatisé et routinisé, l'artisanat de l'ingénierie produit connaît une réinvention majeure — rendue possible uniquement par des traits profondément humains : <span class=\"definition\">la quête de la perfection</span>, <span class=\"definition\">la créativité sans limites</span> et <span class=\"definition\">une co-création riche</span>. La tâche de chaque organisation et de chaque dirigeant est de concevoir des environnements qui <span class=\"definition\">élèvent l'intelligence humaine</span> à ces nouveaux sommets."
-    },
     {
       "q": "Envie de contribuer ?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Proposez des améliorations</a>. Partagez cette page. Mettez ces idées en œuvre dans votre organisation."

@@ -4,84 +4,74 @@
   "dir": "/it/",
 
   "meta": {
-    "title": "Agentic Shift — Ingegneria di prodotto agentica professionale",
-    "description": "Lo spostamento dell'intero settore verso l'ingegneria di prodotto agentica sta producendo organizzazioni radicalmente nuove. Cinque spostamenti nella progettazione organizzativa che separano l'ingegneria di prodotto agentica professionale dalla mediocrità e dal marketing.",
+    "title": "Agentic Shift — Prima la progettazione organizzativa, poi l'IA",
+    "description": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane con prodotti e servizi eccellenti. Ciò che sosteniamo, ciò che rifiutiamo, verso cosa ci spostiamo.",
     "keywords": "agentic shift, ingegneria di prodotto agentica, agentic product engineering, agenti IA, progettazione organizzativa, ingegneria di prodotto, Alexey Krivitsky, Martin Westphal",
-    "ogTitle": "Agentic Shift — Ingegneria di prodotto agentica professionale",
-    "ogDescription": "Cinque spostamenti nella progettazione organizzativa che separano l'ingegneria di prodotto agentica professionale dalla mediocrità e dal marketing.",
-    "schemaDescription": "Lo spostamento dell'intero settore verso l'ingegneria di prodotto agentica sta producendo organizzazioni radicalmente nuove — definite da cinque spostamenti nella progettazione organizzativa.",
+    "ogTitle": "Agentic Shift — Prima la progettazione organizzativa, poi l'IA",
+    "ogDescription": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane con prodotti e servizi eccellenti.",
+    "schemaDescription": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane con prodotti e servizi eccellenti.",
     "llmsTitle": "Agentic Shift — versione leggibile dalle macchine (LLM)"
   },
 
   "hero": {
+    "kicker": "Mantenere la lucidità nella corsa all'IA",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "verso un'ingegneria di prodotto agentica professionale"
+    "subtitle": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane con prodotti e servizi eccellenti."
   },
 
-  "lede": [
-    "Lo spostamento dell'intero settore verso l'<span class=\"definition\">ingegneria di prodotto agentica</span> sta producendo organizzazioni radicalmente nuove. La maggior parte dei leader non ha ancora colto quanto sia profondo. Chi l'ha colto è già avanti. E <em>il divario tra i migliori e gli altri si allarga ogni giorno.</em>",
-    "Per aiutare queste idee a diffondersi, e per alzare l'asticella abbastanza da distinguere il cambiamento vero dalla <span class=\"strike\">mediocrità e dal puro marketing</span>, definiamo l'<span class=\"definition\">ingegneria di prodotto agentica <strong>professionale</strong></span> come un insieme di spostamenti visibili nella progettazione organizzativa: nel modo in cui il lavoro di ingegneria di prodotto viene davvero svolto."
+  "standHead": "Ciò che sosteniamo",
+  "stand": [
+    "Lo <span class=\"definition\">spostamento agentico</span> è reale. Tocca in profondità le nostre organizzazioni e cambia il modo in cui pensiamo al lavoro e a chi lo fa.",
+    "Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire organizzazioni migliori, che offrano prodotti e servizi migliori. È questo che conta.",
+    "Tutti stanno ottimizzando qualcosa. I laboratori di frontiera ottimizzano l'adozione dei propri prodotti, e la FOMO è la leva più forte che tirano su di noi. È un business legittimo, ed è il loro, non il nostro.",
+    "Ogni organizzazione è unica per come è stata costruita e per ciò a cui aspira. Siamo noi a guidare le <span class=\"definition\">nostre</span> organizzazioni, e siamo giudicati su ciò che conta per <span class=\"definition\">noi</span> — i <span class=\"definition\">nostri</span> clienti, le persone che lavorano con noi e gli altri portatori di interesse. Perciò per noi una cosa non è negoziabile: <span class=\"definition\">lo spostamento agentico avviene alle nostre condizioni</span>."
   ],
 
-  "sectionHead": "Gli spostamenti <span class=\"lite\">verso</span> un'ingegneria di prodotto agentica professionale <span class=\"lite\">a</span> livello di organizzazione",
-
-  "qaHead": "E adesso?",
-
-  "groups": [
+  "refuseHead": "Ciò che ci rifiutiamo di accettare",
+  "refuseIntro": "Praticando il pensiero critico, affermiamo:",
+  "refusals": [
     {
-      "label": "Principali spostamenti tecnici",
-      "by": "Con il supporto di",
-      "link": "Agentic Product Engineering Guide"
+      "from": "giudizio perduto",
+      "to": "efficienza",
+      "note": "Non consideriamo efficienza la perdita del giudizio su codice, design, architettura, funzionalità, valore."
     },
     {
-      "label": "Principali spostamenti organizzativi",
-      "by": "Con il supporto di",
-      "link": "Adaptive Topology di 10X ORG"
+      "from": "dipendenza dai fornitori",
+      "to": "progresso",
+      "note": "Non accettiamo come progresso la dipendenza dai fornitori di IA, dai loro modelli e dal loro tooling."
+    },
+    {
+      "from": "volume di produzione",
+      "to": "capacità",
+      "note": "Non confondiamo la capacità di generare produzione con una capacità organizzativa strategica."
     }
   ],
+  "refuseOutro": "In breve, non lasciamo che una moda superficiale di adozione dell'IA soffochi il nostro pensiero di lungo periodo sulle organizzazioni che stiamo costruendo. Perciò diciamo: <span class=\"definition\">“Prima la progettazione organizzativa, poi l'IA.”</span> Impariamo ad agire in modo strategico: definiamo che cosa vogliamo spostare nelle nostre organizzazioni per il bene comune, e poi applichiamo l'IA — e altri mezzi — per rendere reali quegli spostamenti.",
 
+  "shiftHead": "Verso cosa ci spostiamo",
+  "shiftIntro": "Le organizzazioni di ingegneria di prodotto che tengono alla qualità sostenibile, al valore per il cliente e a un'elevata adattabilità compiono i seguenti spostamenti strategici, con l'IA come leva per renderli più facili:",
   "shifts": [
-    {
-      "from": "funzionalità",
-      "to": "sistemi",
-      "note": "Gli ingegneri di prodotto smettono di consegnare funzionalità isolate e passano a costruire sistemi agentici — cicli che si migliorano da soli e trasformano l'intento in soluzioni funzionanti."
-    },
-    {
-      "from": "controllo",
-      "to": "guardrail",
-      "note": "Gli ingegneri di prodotto smettono di ispezionare la qualità a posteriori e la integrano nel sistema, attraverso imbracature agentiche ben progettate."
-    },
     {
       "from": "specialisti",
       "to": "artigiani",
-      "note": "Gli ingegneri di prodotto passano da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma le lacune di specializzazione in tempo reale e li guida verso nuovi ambiti e competenze."
+      "note": "Permettere agli ingegneri di prodotto di passare da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma i vuoti di specializzazione e offre la riqualificazione necessaria per entrare in nuovi domini."
     },
     {
       "from": "intermediari",
       "to": "utenti",
-      "note": "Basta con il gioco del telefono senza fili attraverso manager-intermediari, basta con lo stare chiusi in cantina — gli ingegneri di prodotto passano a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona."
+      "note": "Mettere fine al gioco del telefono senza fili attraverso manager-intermediari e all'era dell'“IT chiusa in cantina” — e portare invece gli ingegneri di prodotto a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona."
     },
     {
       "from": "produzione",
       "to": "risultati",
-      "note": "Gli ingegneri di prodotto smettono di essere misurati sulla produzione e si fanno carico dell'outer loop — garantendo un impatto reale sui clienti e correggendo la rotta man mano che arrivano le evidenze."
+      "note": "Elevare gli ingegneri di prodotto dall'essere misurati sulla produzione al farsi carico dell'intero ciclo del valore — garantendo un impatto reale sui clienti, sperimentando e correggendo la rotta man mano che arrivano le evidenze."
     }
   ],
+  "shiftOutro": "Quali spostamenti la tua organizzazione decida di intraprendere sta <span class=\"definition\">a te deciderlo</span>. Ciò che conta è che siano <span class=\"definition\">strategici e non miopi</span> — che servano l'organizzazione che vuoi avere fra anni, e non i numeri che la FOMO ti farebbe rincorrere questo trimestre.",
 
-  "systemNote": [
-    "<strong>Gli spostamenti tecnici e organizzativi formano <span class=\"definition\">un solo sistema</span></strong>: si abilitano e si rafforzano a vicenda e non vanno gestiti isolatamente."
-  ],
-
+  "qaHead": "E adesso?",
   "qa": [
-    {
-      "q": "Verso un nuovo manifesto?",
-      "a": "Forse è <span class=\"amber\">troppo presto per scrivere manifesti</span>, perché il terreno è ancora in movimento — ma vogliamo riconoscere i forti cambiamenti che già osserviamo in tutto il settore, più visibili tra i pionieri."
-    },
-    {
-      "q": "Cosa significa per i leader delle organizzazioni?",
-      "a": "Mentre la programmazione viene ormai automatizzata e resa routine, l'artigianato dell'ingegneria di prodotto vive una grande reinvenzione — resa possibile solo da tratti profondamente umani: <span class=\"definition\">la spinta alla perfezione</span>, <span class=\"definition\">la creatività senza limiti</span> e <span class=\"definition\">una ricca co-creazione</span>. Il compito di ogni organizzazione e di ogni leader è progettare ambienti che <span class=\"definition\">elevino l'intelligenza umana</span> a queste nuove altezze."
-    },
     {
       "q": "Vuoi contribuire?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Proponi miglioramenti</a>. Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione."

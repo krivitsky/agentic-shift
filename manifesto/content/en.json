@@ -2,92 +2,70 @@
   "lang": "en",
   "name": "English",
   "dir": "/",
-
   "meta": {
-    "title": "Agentic Shift — Professional Agentic Product Engineering",
-    "description": "The industry-wide shift toward agentic product engineering is producing radically new organizations. Five org-design shifts that separate professional agentic product engineering from mediocrity and marketing.",
+    "title": "Agentic Shift — Org design, then AI",
+    "description": "From tokenmaxing and other AI theater towards healthy organizations with great products and services. Where we stand, what we refuse, what we shift.",
     "keywords": "agentic shift, agentic product engineering, agentic engineering, AI agents, organizational design, product engineering, professional agentic engineering, Alexey Krivitsky, Martin Westphal",
-    "ogTitle": "Agentic Shift — Professional Agentic Product Engineering",
-    "ogDescription": "Five org-design shifts that separate professional agentic product engineering from mediocrity and marketing.",
-    "schemaDescription": "The industry-wide shift toward agentic product engineering is producing radically new organizations — defined by five org-design shifts.",
+    "ogTitle": "Agentic Shift — Org design, then AI",
+    "ogDescription": "From tokenmaxing and other AI theater towards healthy organizations with great products and services.",
+    "schemaDescription": "From tokenmaxing and other AI theater towards healthy organizations with great products and services.",
     "llmsTitle": "Agentic Shift — machine-readable (LLM) version"
   },
-
   "hero": {
+    "kicker": "Staying sane in the AI race",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "towards professional agentic product engineering"
+    "subtitle": "From tokenmaxing and other AI theater towards healthy organizations with great products and services."
   },
-
-  "lede": [
-    "The industry-wide shift toward <span class=\"definition\">agentic product engineering</span> is producing radically new organizations. Most leaders haven't yet grasped how deep this goes. The ones who have are already ahead of the curve. And <em>the gap between the best and the rest widens every day.</em>",
-    "To help these ideas spread, and to set a bar high enough to tell real change from <span class=\"strike\">mediocrity and pure marketing</span>, we're defining the <span class=\"definition\"><strong>professional</strong> agentic product engineering</span> as a set of noticeable org-design shifts in how product engineering work gets done."
+  "standHead": "What we stand for",
+  "stand": [
+    "The <span class=\"definition\">agentic shift</span> is real. It affects our organizations deeply, changing how we think about the work and the workers.",
+    "What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building better organizations that offer better products and services. That's what matters.",
+    "Everyone is optimizing for something. The frontier labs optimize for the adoption of their products, and FOMO is the strongest lever they pull on us. That is a legitimate business, and it is theirs, not ours.",
+    "Every organization is unique in the way it was built and in what it aspires to. We run <span class=\"definition\">our</span> organizations, and we are judged on what matters to <span class=\"definition\">us</span> — <span class=\"definition\">our</span> customers, employees, and other stakeholders. So for us one thing is non-negotiable: <span class=\"definition\">the agentic shift happens on our terms</span>."
   ],
-
-  "sectionHead": "The shifts <span class=\"lite\">towards</span> professional agentic product engineering <span class=\"lite\">at</span> org-level",
-
-  "qaHead": "What's Next?",
-
-  "groups": [
+  "refuseHead": "What we refuse to accept",
+  "refuseIntro": "By practicing critical thinking, we claim:",
+  "refusals": [
     {
-      "label": "Major technical shifts",
-      "accent": "tech",
-      "count": 2,
-      "by": "Supported by",
-      "link": "Agentic Product Engineering Guide",
-      "href": "https://agentic-engineering.guide/"
+      "from": "lost judgment",
+      "to": "efficiency",
+      "note": "We do not treat the loss of judgment of code, design, architecture, features, value as efficiency."
     },
     {
-      "label": "Major organizational shifts",
-      "accent": "org",
-      "count": 3,
-      "by": "Supported by",
-      "link": "Adaptive Topology from 10X ORG",
-      "href": "https://10xorg.com/"
+      "from": "vendor dependence",
+      "to": "progress",
+      "note": "We do not accept dependence on AI vendors, their models and tooling, as progress."
+    },
+    {
+      "from": "output volume",
+      "to": "capability",
+      "note": "We do not confuse the ability to generate output with a strategic organizational capability."
     }
   ],
-
+  "refuseOutro": "In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: <span class=\"definition\">“Org design, then AI.”</span> We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.",
+  "shiftHead": "What we shift towards",
+  "shiftIntro": "Product engineering organizations that hold on to sustainable quality, customer value and high adaptability make the following strategic shifts, with AI as a lever to ease them:",
   "shifts": [
-    {
-      "from": "features",
-      "to": "systems",
-      "note": "Product engineers stop shipping one-off features and shift to building agentic systems — self-improving loops that turn intent into working solutions."
-    },
-    {
-      "from": "gatekeeping",
-      "to": "guardrails",
-      "note": "Product engineers stop inspecting for quality issues and shift to building quality into the system through well-engineered agentic harnesses."
-    },
     {
       "from": "specialists",
       "to": "craftspeople",
-      "note": "Product engineers shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps in real time and mentoring the product engineers into new domains and skills."
+      "note": "Enabling product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains."
     },
     {
       "from": "proxies",
       "to": "users",
-      "note": "No more telephone game through manager-proxies, no more sitting in the basement — product engineers shift to zero distance with the customers and users, to empathize, analyze, and synthesize firsthand."
+      "note": "Ending the telephone game through manager-proxies and the era of “IT sitting in the basement” — instead putting product engineers at zero distance with the customers and users, to empathize, analyze, and synthesize firsthand."
     },
     {
       "from": "output",
       "to": "outcomes",
-      "note": "Product engineers shift from being measured by output to owning the outer loop — ensuring real customer impact and course-correcting as the evidence comes in."
+      "note": "Elevating product engineers from being measured by output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in."
     }
   ],
-
-  "systemNote": [
-    "<strong>The technical and the organizational shifts form <span class=\"definition\">one system</span></strong>: they enable and reinforce one another, and must not be managed in isolation."
-  ],
-
+  "shiftOutro": "Which shifts your organization takes on is <span class=\"definition\">yours to decide</span>. What matters is that they are <span class=\"definition\">strategic, not shortsighted</span> — that they serve the organization you want to have in years rather than the numbers FOMO would have you chase this quarter.",
+  "qaHead": "What's Next?",
   "qa": [
-    {
-      "q": "Towards a new manifesto?",
-      "a": "It is perhaps <span class=\"amber\">too early to write manifestos</span>, as the ground is still shifting — but we'd like to acknowledge the strong changes we're already observing throughout the industry, most visible among the frontrunners."
-    },
-    {
-      "q": "What does it mean for org leaders?",
-      "a": "While coding is now being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: <span class=\"definition\">the drive for perfection</span>, <span class=\"definition\">unlimited creativity</span>, and <span class=\"definition\">rich co-creation</span>. The task of every organization and every leader is to design environments that <span class=\"definition\">elevate human intelligence</span> to these new heights."
-    },
     {
       "q": "Want to contribute?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Propose improvements</a>. Share this page. Put these ideas to work in your organization."
@@ -97,7 +75,6 @@
       "a": "<a href=\"/community\">Join the professional learning community</a> — a curated, application-only space for senior builders and leaders working on these shifts together."
     }
   ],
-
   "foot": {
     "by": "created and maintained by",
     "cta": "community and meetups in munich"

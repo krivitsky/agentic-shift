@@ -1,41 +1,48 @@
 # Agentic Shift
 
-_towards professional agentic product engineering_
+_From tokenmaxing and other AI theater towards healthy organizations with great products and services._
 
-The industry-wide shift toward **agentic product engineering** is producing radically new organizations. Most leaders haven't yet grasped how deep this goes. The ones who have are already ahead of the curve. And *the gap between the best and the rest widens every day.*
+## What we stand for
 
-To help these ideas spread, and to set a bar high enough to tell real change from ~~mediocrity and pure marketing~~, we're defining the **professional agentic product engineering** as a set of noticeable org-design shifts in how product engineering work gets done.
+The **agentic shift** is real. It affects our organizations deeply, changing how we think about the work and the workers.
 
-## The shifts towards professional agentic product engineering at org-level
+What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building better organizations that offer better products and services. That's what matters.
 
-**Major technical shifts** — Supported by [Agentic Product Engineering Guide](https://agentic-engineering.guide/)
+Everyone is optimizing for something. The frontier labs optimize for the adoption of their products, and FOMO is the strongest lever they pull on us. That is a legitimate business, and it is theirs, not ours.
 
-### 01. features → systems
-Product engineers stop shipping one-off features and shift to building agentic systems — self-improving loops that turn intent into working solutions.
+Every organization is unique in the way it was built and in what it aspires to. We run **our** organizations, and we are judged on what matters to **us** — **our** customers, employees, and other stakeholders. So for us one thing is non-negotiable: **the agentic shift happens on our terms**.
 
-### 02. gatekeeping → guardrails
-Product engineers stop inspecting for quality issues and shift to building quality into the system through well-engineered agentic harnesses.
+## What we refuse to accept
 
-**Major organizational shifts** — Supported by [Adaptive Topology from 10X ORG](https://10xorg.com/)
+By practicing critical thinking, we claim:
 
-### 03. specialists → craftspeople
-Product engineers shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps in real time and mentoring the product engineers into new domains and skills.
+### lost judgment ≠ efficiency
+We do not treat the loss of judgment of code, design, architecture, features, value as efficiency.
 
-### 04. proxies → users
-No more telephone game through manager-proxies, no more sitting in the basement — product engineers shift to zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.
+### vendor dependence ≠ progress
+We do not accept dependence on AI vendors, their models and tooling, as progress.
 
-### 05. output → outcomes
-Product engineers shift from being measured by output to owning the outer loop — ensuring real customer impact and course-correcting as the evidence comes in.
+### output volume ≠ capability
+We do not confuse the ability to generate output with a strategic organizational capability.
 
-**The technical and the organizational shifts form one system**: they enable and reinforce one another, and must not be managed in isolation.
+In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: **“Org design, then AI.”** We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.
+
+## What we shift towards
+
+Product engineering organizations that hold on to sustainable quality, customer value and high adaptability make the following strategic shifts, with AI as a lever to ease them:
+
+### specialists → craftspeople
+Enabling product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains.
+
+### proxies → users
+Ending the telephone game through manager-proxies and the era of “IT sitting in the basement” — instead putting product engineers at zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.
+
+### output → outcomes
+Elevating product engineers from being measured by output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in.
+
+Which shifts your organization takes on is **yours to decide**. What matters is that they are **strategic, not shortsighted** — that they serve the organization you want to have in years rather than the numbers FOMO would have you chase this quarter.
 
 ## What's Next?
-
-### Towards a new manifesto?
-It is perhaps *too early to write manifestos*, as the ground is still shifting — but we'd like to acknowledge the strong changes we're already observing throughout the industry, most visible among the frontrunners.
-
-### What does it mean for org leaders?
-While coding is now being automated and routinized, the craft of product engineering is undergoing a major reinvention — one made possible only by distinctly human traits: **the drive for perfection**, **unlimited creativity**, and **rich co-creation**. The task of every organization and every leader is to design environments that **elevate human intelligence** to these new heights.
 
 ### Want to contribute?
 [Propose improvements](https://github.com/krivitsky/agentic-shift). Share this page. Put these ideas to work in your organization.

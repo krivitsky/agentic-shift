@@ -4,84 +4,74 @@
   "dir": "/de/",
 
   "meta": {
-    "title": "Agentic Shift — Professionelles Agentic Product Engineering",
-    "description": "Der branchenweite Wandel hin zu agentic product engineering bringt radikal neue Organisationen hervor. Fünf Verschiebungen im Org-Design, die professionelles agentic product engineering von Mittelmaß und Marketing trennen.",
+    "title": "Agentic Shift — Erst Org-Design, dann KI",
+    "description": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services. Wofür wir stehen, was wir ablehnen, wohin wir uns bewegen.",
     "keywords": "agentic shift, agentic product engineering, agentisches Product Engineering, KI-Agenten, Organisationsdesign, Product Engineering, Alexey Krivitsky, Martin Westphal",
-    "ogTitle": "Agentic Shift — Professionelles Agentic Product Engineering",
-    "ogDescription": "Fünf Verschiebungen im Org-Design, die professionelles agentic product engineering von Mittelmaß und Marketing trennen.",
-    "schemaDescription": "Der branchenweite Wandel hin zu agentic product engineering bringt radikal neue Organisationen hervor — definiert durch fünf Verschiebungen im Org-Design.",
+    "ogTitle": "Agentic Shift — Erst Org-Design, dann KI",
+    "ogDescription": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services.",
+    "schemaDescription": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services.",
     "llmsTitle": "Agentic Shift — maschinenlesbare (LLM-)Fassung"
   },
 
   "hero": {
+    "kicker": "Im KI-Rennen bei Verstand bleiben",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "hin zu professionellem agentic product engineering"
+    "subtitle": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services."
   },
 
-  "lede": [
-    "Der branchenweite Wandel hin zu <span class=\"definition\">agentic product engineering</span> bringt radikal neue Organisationen hervor. Die meisten Führungskräfte haben noch nicht erfasst, wie tief das reicht. Wer es erfasst hat, ist der Kurve bereits voraus. Und <em>die Kluft zwischen den Besten und dem Rest wird täglich größer.</em>",
-    "Um diesen Ideen zur Verbreitung zu verhelfen — und die Latte hoch genug zu legen, um echten Wandel von <span class=\"strike\">Mittelmaß und reinem Marketing</span> zu unterscheiden — definieren wir <span class=\"definition\"><strong>professionelles</strong> agentic product engineering</span> als eine Reihe deutlich sichtbarer Verschiebungen im Org-Design: darin, wie Produktentwicklung tatsächlich geschieht."
+  "standHead": "Wofür wir stehen",
+  "stand": [
+    "Der <span class=\"definition\">agentic shift</span> ist real. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir über die Arbeit und die Arbeitenden denken.",
+    "Was wir aber wissen: Es geht nicht um Tooling, um Tokens oder um irgendeine andere Output-Kennzahl, die sich zufällig leicht messen lässt. Es geht darum, bessere Organisationen zu bauen, die bessere Produkte und Services anbieten. Darauf kommt es an.",
+    "Alle optimieren auf irgendetwas hin. Die führenden KI-Labore optimieren auf die Adoption ihrer Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist ein legitimes Geschäft, und es ist ihres, nicht unseres.",
+    "Jede Organisation ist einzigartig — darin, wie sie gebaut wurde, und darin, wonach sie strebt. Wir führen <span class=\"definition\">unsere</span> Organisationen, und wir werden daran gemessen, was für <span class=\"definition\">uns</span> zählt — <span class=\"definition\">unsere</span> Kundinnen und Kunden, Mitarbeitenden und weiteren Stakeholder. Deshalb ist für uns eines nicht verhandelbar: <span class=\"definition\">Der agentic shift geschieht zu unseren Bedingungen</span>."
   ],
 
-  "sectionHead": "Die Verschiebungen <span class=\"lite\">hin zu</span> professionellem agentic product engineering <span class=\"lite\">auf</span> Org-Ebene",
-
-  "qaHead": "Was kommt als Nächstes",
-
-  "groups": [
+  "refuseHead": "Was wir nicht akzeptieren",
+  "refuseIntro": "Indem wir kritisches Denken praktizieren, halten wir fest:",
+  "refusals": [
     {
-      "label": "Wichtigste technische Verschiebungen",
-      "by": "Unterstützt durch",
-      "link": "Agentic Product Engineering Guide"
+      "from": "verlorenes Urteilsvermögen",
+      "to": "Effizienz",
+      "note": "Wir behandeln den Verlust des Urteilsvermögens über Code, Design, Architektur, Features, Wert nicht als Effizienz."
     },
     {
-      "label": "Wichtigste organisatorische Verschiebungen",
-      "by": "Unterstützt durch",
-      "link": "Adaptive Topology von 10X ORG"
+      "from": "Anbieterabhängigkeit",
+      "to": "Fortschritt",
+      "note": "Wir akzeptieren die Abhängigkeit von KI-Anbietern, ihren Modellen und ihrem Tooling nicht als Fortschritt."
+    },
+    {
+      "from": "Output-Menge",
+      "to": "Fähigkeit",
+      "note": "Wir verwechseln die Fähigkeit, Output zu erzeugen, nicht mit einer strategischen Organisationsfähigkeit."
     }
   ],
+  "refuseOutro": "Kurz: Wir lassen nicht zu, dass eine oberflächliche KI-Adoptionsmode unser langfristiges Denken über die Organisationen verdrängt, die wir bauen. Deshalb sagen wir: <span class=\"definition\">„Erst Org-Design, dann KI.“</span> Wir lernen, strategisch zu handeln: Wir definieren, was wir in unseren Organisationen zum Wohle des Ganzen verschieben wollen, und setzen dann KI — und andere Mittel — ein, um diese Verschiebungen Wirklichkeit werden zu lassen.",
 
+  "shiftHead": "Wohin wir uns bewegen",
+  "shiftIntro": "Organisationen im Product Engineering, die an nachhaltiger Qualität, Kundennutzen und hoher Anpassungsfähigkeit festhalten, vollziehen die folgenden strategischen Verschiebungen, mit KI als Hebel, der sie erleichtert:",
   "shifts": [
-    {
-      "from": "Features",
-      "to": "Systeme",
-      "note": "Product Engineers liefern nicht länger einzelne Features aus, sondern bauen agentische Systeme — sich selbst verbessernde Loops, die Absicht in funktionierende Lösungen verwandeln."
-    },
-    {
-      "from": "Kontrolle",
-      "to": "Leitplanken",
-      "note": "Product Engineers prüfen Qualität nicht länger im Nachhinein, sondern bauen sie über gut konstruierte agentische Harnesses direkt ins System ein."
-    },
     {
       "from": "Spezialisten",
       "to": "Handwerker",
-      "note": "Product Engineers wandeln sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern — KI füllt die Spezialistenlücken in Echtzeit und führt die Product Engineers in neue Domänen und Fähigkeiten ein."
+      "note": "Product Engineers ermöglichen, sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern zu wandeln — wobei KI die Spezialistenlücken füllt und die Weiterqualifizierung für den Einstieg in neue Domänen anbietet."
     },
     {
       "from": "Stellvertreter",
       "to": "Nutzer",
-      "note": "Kein Stille-Post-Spiel mehr über Manager als Stellvertreter, kein Sitzen im Keller — Product Engineers gehen auf null Distanz zu Kundinnen und Nutzern, um aus erster Hand zu verstehen, zu analysieren und zu synthetisieren."
+      "note": "Das Stille-Post-Spiel über Manager als Stellvertreter beenden, und mit ihm die Ära der „IT im Keller“ — und stattdessen Product Engineers auf null Distanz zu Kundinnen und Nutzern bringen, um sich aus erster Hand einzufühlen, zu analysieren und zu synthetisieren."
     },
     {
       "from": "Output",
       "to": "Wirkung",
-      "note": "Product Engineers werden nicht länger am Output gemessen, sondern übernehmen den Outer Loop — sie sorgen für echte Kundenwirkung und korrigieren den Kurs, sobald die Evidenz eintrifft."
+      "note": "Product Engineers aus der Messung am Output herausheben, hin zur Verantwortung für den vollständigen Wertkreislauf — echte Kundenwirkung sicherstellen, experimentieren und den Kurs korrigieren, sobald die Evidenz eintrifft."
     }
   ],
+  "shiftOutro": "Welche Verschiebungen deine Organisation angeht, ist <span class=\"definition\">deine Entscheidung</span>. Entscheidend ist, dass sie <span class=\"definition\">strategisch und nicht kurzsichtig</span> sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.",
 
-  "systemNote": [
-    "<strong>Die technischen und die organisatorischen Verschiebungen bilden <span class=\"definition\">ein System</span></strong>: Sie ermöglichen und verstärken einander und dürfen nicht isoliert gesteuert werden."
-  ],
-
+  "qaHead": "Was kommt als Nächstes",
   "qa": [
-    {
-      "q": "Auf dem Weg zu einem neuen Manifest?",
-      "a": "Es ist vielleicht <span class=\"amber\">zu früh für Manifeste</span>, denn der Boden bewegt sich noch — aber wir möchten die starken Veränderungen anerkennen, die wir bereits in der ganzen Branche beobachten, am deutlichsten bei den Vorreitern."
-    },
-    {
-      "q": "Was bedeutet das für Führungskräfte?",
-      "a": "Während das Programmieren automatisiert und zur Routine wird, erlebt das Handwerk des Product Engineering eine grundlegende Neuerfindung — möglich allein durch zutiefst menschliche Eigenschaften: <span class=\"definition\">den Drang zur Perfektion</span>, <span class=\"definition\">grenzenlose Kreativität</span> und <span class=\"definition\">reiche Ko-Kreation</span>. Die Aufgabe jeder Organisation und jeder Führungskraft ist es, Umgebungen zu gestalten, die <span class=\"definition\">menschliche Intelligenz</span> auf diese neue Höhe heben."
-    },
     {
       "q": "Mitmachen?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Verbesserungen vorschlagen</a>. Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen."

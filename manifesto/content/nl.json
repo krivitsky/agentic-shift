@@ -4,84 +4,74 @@
   "dir": "/nl/",
 
   "meta": {
-    "title": "Agentic Shift — Professionele agentic product engineering",
-    "description": "De sectorbrede verschuiving naar agentic product engineering brengt radicaal nieuwe organisaties voort. Vijf verschuivingen in organisatieontwerp die professionele agentic product engineering scheiden van middelmaat en marketing.",
+    "title": "Agentic Shift — Eerst org-ontwerp, dan AI",
+    "description": "Van tokenmaxing en ander AI-theater naar gezonde organisaties met geweldige producten en diensten. Waar wij voor staan, wat wij afwijzen, waar wij naartoe bewegen.",
     "keywords": "agentic shift, agentic product engineering, AI-agents, organisatieontwerp, product engineering, Alexey Krivitsky, Martin Westphal",
-    "ogTitle": "Agentic Shift — Professionele agentic product engineering",
-    "ogDescription": "Vijf verschuivingen in organisatieontwerp die professionele agentic product engineering scheiden van middelmaat en marketing.",
-    "schemaDescription": "De sectorbrede verschuiving naar agentic product engineering brengt radicaal nieuwe organisaties voort — gedefinieerd door vijf verschuivingen in organisatieontwerp.",
+    "ogTitle": "Agentic Shift — Eerst org-ontwerp, dan AI",
+    "ogDescription": "Van tokenmaxing en ander AI-theater naar gezonde organisaties met geweldige producten en diensten.",
+    "schemaDescription": "Van tokenmaxing en ander AI-theater naar gezonde organisaties met geweldige producten en diensten.",
     "llmsTitle": "Agentic Shift — machineleesbare (LLM-)versie"
   },
 
   "hero": {
+    "kicker": "Bij je verstand blijven in de AI-race",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "naar professionele agentic product engineering"
+    "subtitle": "Van tokenmaxing en ander AI-theater naar gezonde organisaties met geweldige producten en diensten."
   },
 
-  "lede": [
-    "De sectorbrede verschuiving naar <span class=\"definition\">agentic product engineering</span> brengt radicaal nieuwe organisaties voort. De meeste leiders hebben nog niet doorgrond hoe diep dit gaat. Wie dat wel heeft, loopt al voorop. En <em>de kloof tussen de besten en de rest wordt met de dag groter.</em>",
-    "Om deze ideeën te helpen verspreiden, en om de lat hoog genoeg te leggen om echte verandering te onderscheiden van <span class=\"strike\">middelmaat en pure marketing</span>, definiëren we <span class=\"definition\"><strong>professionele</strong> agentic product engineering</span> als een reeks zichtbare verschuivingen in organisatieontwerp: in hoe het werk van product engineering daadwerkelijk gebeurt."
+  "standHead": "Waar wij voor staan",
+  "stand": [
+    "De <span class=\"definition\">agentic shift</span> is echt. Hij raakt onze organisaties diep en verandert hoe wij denken over het werk en over de mensen die het doen.",
+    "Wat wij wél weten, is dat het niet gaat om tooling, tokens of welke andere outputmaat dan ook die toevallig makkelijk te meten is. Het gaat om het bouwen van betere organisaties die betere producten en diensten leveren. Dát is wat telt.",
+    "Iedereen optimaliseert ergens voor. De frontier labs optimaliseren voor de adoptie van hun producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is een legitieme business, en het is de hunne, niet de onze.",
+    "Elke organisatie is uniek in de manier waarop ze is gebouwd en in waar ze naar streeft. Wij leiden <span class=\"definition\">onze</span> organisaties, en wij worden afgerekend op wat voor <span class=\"definition\">ons</span> telt — <span class=\"definition\">onze</span> klanten, medewerkers en andere belanghebbenden. Dus voor ons is één ding niet onderhandelbaar: <span class=\"definition\">de agentic shift gebeurt op onze voorwaarden</span>."
   ],
 
-  "sectionHead": "De verschuivingen <span class=\"lite\">naar</span> professionele agentic product engineering <span class=\"lite\">op</span> organisatieniveau",
-
-  "qaHead": "Wat nu?",
-
-  "groups": [
+  "refuseHead": "Wat wij niet accepteren",
+  "refuseIntro": "Door kritisch denken te beoefenen, stellen wij:",
+  "refusals": [
     {
-      "label": "Belangrijkste technische verschuivingen",
-      "by": "Ondersteund door",
-      "link": "Agentic Product Engineering Guide"
+      "from": "verloren oordeel",
+      "to": "efficiëntie",
+      "note": "Wij beschouwen het verlies van oordeel over code, ontwerp, architectuur, features, waarde niet als efficiëntie."
     },
     {
-      "label": "Belangrijkste organisatorische verschuivingen",
-      "by": "Ondersteund door",
-      "link": "Adaptive Topology van 10X ORG"
+      "from": "leveranciersafhankelijkheid",
+      "to": "vooruitgang",
+      "note": "Wij accepteren afhankelijkheid van AI-leveranciers, hun modellen en hun tooling niet als vooruitgang."
+    },
+    {
+      "from": "outputvolume",
+      "to": "vermogen",
+      "note": "Wij verwarren het vermogen om output te genereren niet met een strategisch organisatievermogen."
     }
   ],
+  "refuseOutro": "Kortom: wij laten niet toe dat een oppervlakkige AI-adoptiehype ons langetermijndenken verdringt over de organisaties die wij aan het bouwen zijn. Daarom zeggen wij: <span class=\"definition\">“Eerst org-ontwerp, dan AI.”</span> Wij leren strategisch te handelen: wij bepalen wat wij in onze organisaties willen verschuiven, ten goede van het geheel, en zetten daarna AI — en andere middelen — in om die verschuivingen waar te maken.",
 
+  "shiftHead": "Waar wij naartoe bewegen",
+  "shiftIntro": "Product-engineeringorganisaties die vasthouden aan duurzame kwaliteit, klantwaarde en hoge wendbaarheid maken de volgende strategische verschuivingen, met AI als hefboom die ze vergemakkelijkt:",
   "shifts": [
-    {
-      "from": "features",
-      "to": "systemen",
-      "note": "Product engineers leveren niet langer losse features, maar bouwen agentic systemen — zelfverbeterende loops die intentie omzetten in werkende oplossingen."
-    },
-    {
-      "from": "poortwachten",
-      "to": "vangrails",
-      "note": "Product engineers inspecteren kwaliteit niet langer achteraf, maar bouwen die in het systeem in, via goed ontworpen agentic harnassen."
-    },
     {
       "from": "specialisten",
       "to": "vakmensen",
-      "note": "Product engineers verschuiven van smalle, lopendebandspecialisten naar end-to-end vakmensen — waarbij AI de specialismegaten in realtime opvult en hen begeleidt naar nieuwe domeinen en vaardigheden."
+      "note": "Product engineers in staat stellen om van smalle, lopendebandspecialisten te veranderen in end-to-end vakmensen — waarbij AI de specialistische gaten opvult en bijscholing biedt om nieuwe domeinen binnen te gaan."
     },
     {
       "from": "tussenpersonen",
       "to": "gebruikers",
-      "note": "Geen doorgeefspel meer via manager-tussenpersonen, geen wegkwijnen meer in de kelder — product engineers gaan naar nul afstand tot klanten en gebruikers, om uit de eerste hand in te leven, te analyseren en te synthetiseren."
+      "note": "Een einde maken aan het doorgeefspel via manager-tussenpersonen en aan het tijdperk van “IT in de kelder” — en in plaats daarvan product engineers op nul afstand van klanten en gebruikers zetten, om zich uit de eerste hand in te leven, te analyseren en te synthetiseren."
     },
     {
       "from": "output",
       "to": "uitkomsten",
-      "note": "Product engineers worden niet langer afgerekend op output, maar nemen de outer loop in handen — ze zorgen voor echte impact bij klanten en sturen bij zodra het bewijs binnenkomt."
+      "note": "Product engineers optillen van afgerekend worden op output naar het bezitten van de volledige waardelus — echte klantimpact borgen, experimenteren en bijsturen zodra het bewijs binnenkomt."
     }
   ],
+  "shiftOutro": "Welke verschuivingen jouw organisatie oppakt, is <span class=\"definition\">aan jou</span>. Wat telt is dat ze <span class=\"definition\">strategisch zijn en niet kortzichtig</span> — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.",
 
-  "systemNote": [
-    "<strong>De technische en de organisatorische verschuivingen vormen <span class=\"definition\">één systeem</span></strong>: ze maken elkaar mogelijk en versterken elkaar, en mogen niet los van elkaar worden beheerd."
-  ],
-
+  "qaHead": "Wat nu?",
   "qa": [
-    {
-      "q": "Op weg naar een nieuw manifest?",
-      "a": "Het is misschien <span class=\"amber\">te vroeg om manifesten te schrijven</span>, want de grond beweegt nog — maar we willen de sterke veranderingen erkennen die we nu al in de hele sector zien, het duidelijkst bij de koplopers."
-    },
-    {
-      "q": "Wat betekent dit voor organisatieleiders?",
-      "a": "Terwijl het coderen nu wordt geautomatiseerd en tot routine wordt, ondergaat het vak van product engineering een grote heruitvinding — enkel mogelijk door uitgesproken menselijke eigenschappen: <span class=\"definition\">de drang naar perfectie</span>, <span class=\"definition\">onbegrensde creativiteit</span> en <span class=\"definition\">rijke co-creatie</span>. De taak van elke organisatie en elke leider is omgevingen te ontwerpen die <span class=\"definition\">de menselijke intelligentie</span> naar deze nieuwe hoogten tillen."
-    },
     {
       "q": "Wil je bijdragen?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Stel verbeteringen voor</a>. Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie."

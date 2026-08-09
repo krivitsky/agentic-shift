@@ -6,15 +6,15 @@
  *   node manifesto/build.js
  *
  * Generates (never hand-edit these):
- *   public/index.html            EN
- *   public/<lang>/index.html     each translation
+ *   public/index.html                      EN
+ *   public/<lang>/index.html               each translation
+ *   public/<lang>/agentic-shift-<lang>.md  downloadable Markdown, per language
+ *   public/sitemap.xml
+ *   the MANIFESTO-marked region of public/llms.txt (all languages)
+ *   the MANIFESTO-marked region of README.md (English)
  *
- * Deliberately does NOT generate public/llms.txt or the README manifesto
- * section. Both are hand-written and carry material that has no source in
- * these JSON files (llms.txt has its own summary, Meetups and Links
- * sections; the README has its own emphasis and structure). Generating them
- * would clobber good prose to solve a drift risk that only bites when the
- * manifesto text itself changes — which is rare, and caught by review.
+ * Everything outside the MANIFESTO markers (llms.txt's summary/Meetups/Links,
+ * the README's tech details) is hand-written and left alone.
  *
  * The canonical English pair shown under each translated pair is read from
  * en.json at build time — translations never restate it, so it cannot drift.
@@ -57,6 +57,17 @@ const load = (lang) => JSON.parse(read(path.join(CONTENT, `${lang}.json`)));
 
 const all = Object.fromEntries(LANGS.map((l) => [l, load(l)]));
 const en = all.en;
+
+// What the renderers read: a translation layered over English, so a language
+// that is mid-pass still ships a readable page instead of "undefined". The
+// parity check below reads the raw JSON, names every gap and exits 1 — the
+// fallback keeps you iterating, it does not let an incomplete language pass.
+const view = (c) => ({
+  ...en, ...c,
+  meta: { ...en.meta, ...c.meta },
+  hero: { ...en.hero, ...c.hero },
+  foot: { ...en.foot, ...c.foot },
+});
 const template = read(path.join(__dirname, 'template.html'));
 
 const esc = (s) => String(s)
@@ -126,11 +137,19 @@ function langbar(current) {
   }).join('\n');
 }
 
-function pair(s, ref, isEn) {
+// The two card lists differ only in their arrow and their group class:
+// refusals are equations being denied (≠, rose), shifts are moves (→, teal).
+const ARROW = { refusals: '≠', shifts: '→' };
+
+function pair(s, enRef, isEn, arrow) {
+  // A translation carrying more cards than en.json has no English pair to
+  // gloss; fall back to its own words rather than crashing. parityDrift names
+  // the count mismatch.
+  const ref = enRef || s;
   // English page: plain pair, no gloss (stays identical to the canonical page).
   if (isEn) {
     return `<p class="pair"><span class="from">${esc(s.from)}</span>`
-      + `<span class="arrow" aria-hidden="true">→</span>`
+      + `<span class="arrow" aria-hidden="true">${arrow}</span>`
       + `<span class="to">${esc(s.to)}</span></p>`;
   }
   // Translated page: each term stacks its canonical English word directly
@@ -140,65 +159,33 @@ function pair(s, ref, isEn) {
     + `<span class="pair-en" lang="en">${esc(gloss)}</span></span>`;
   return `<p class="pair">`
     + term('from', s.from, ref.from)
-    + `<span class="arrow" aria-hidden="true">→</span>`
+    + `<span class="arrow" aria-hidden="true">${arrow}</span>`
     + term('to', s.to, ref.to)
     + `</p>`;
 }
 
-// The shifts render in groups (technical → Field Guide, organizational →
-// 10X ORG). Grouping is structure, not copy: `accent`, `count` and `href`
-// live in en.json only and are read from there for every language, so a
-// translation supplies just the localized `label` + `link` text and the
-// grouping can never drift.
-// Missing fields fall back to English rather than rendering "undefined", so a
-// half-translated group still ships a readable page; parityDrift() names the
-// gap and fails the build.
-const localGroup = (c, gi) => ({ ...en.groups[gi], ...((c.groups && c.groups[gi]) || {}) });
-
-// Group index a shift opens, or -1 if it sits mid-group. Used by the Markdown
-// emitters to slot a group heading in front of the right shift.
-function groupOpening(i) {
-  let start = 0;
-  for (let gi = 0; gi < en.groups.length; gi++) {
-    if (i === start) return gi;
-    start += en.groups[gi].count;
-  }
-  return -1;
-}
-
-function shifts(c) {
+// One card list. No numbers and no group header: the cards are a set, not a
+// sequence — which shifts an organization takes on is its own call, so nothing
+// on the page may imply "do this one first".
+function cards(c, key) {
   const isEn = c.lang === 'en';
-  let start = 0;
-  return en.groups.map((g, gi) => {
-    const loc = localGroup(c, gi);
-    const first = start;
-    start += g.count;
-    const items = c.shifts.slice(first, first + g.count).map((s, k) => {
-      const n = String(first + k + 1).padStart(2, '0');
-      return `        <li class="shift">
-          <span class="n" aria-hidden="true">${n}</span>
+  const items = c[key].map((s, i) =>
+    `        <li class="shift">
           <div class="shift-body">
-            ${pair(s, en.shifts[first + k], isEn)}
+            ${pair(s, en[key][i], isEn, ARROW[key])}
             <p class="note">${s.note}</p>
           </div>
-        </li>`;
-    }).join('\n\n');
-    return `    <section class="group group-${g.accent}">
-      <p class="group-head">
-        <span class="group-label">${esc(loc.label)}</span>
-        <a class="group-src" href="${esc(g.href)}" target="_blank" rel="noopener"><span class="src-by">${esc(loc.by)}</span> ${esc(loc.link)}<span class="ext" aria-hidden="true">↗</span></a>
-      </p>
-
-      <ol class="shifts" start="${first + 1}">
+        </li>`).join('\n\n');
+  return `    <section class="group group-${key === 'refusals' ? 'refuse' : 'org'}">
+      <ul class="shifts">
 
 ${items}
 
-      </ol>
+      </ul>
     </section>`;
-  }).join('\n\n');
 }
 
-const lede = (c) => c.lede.map((p) => `    <p class="lede">${p}</p>`).join('\n\n');
+const paras = (list) => list.map((p) => `    <p class="lede">${p}</p>`).join('\n\n');
 
 const qa = (c) => c.qa.map((x) =>
   `    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> ${esc(x.q)}</p>\n\n    <p class="lede">${x.a}</p>`
@@ -219,19 +206,23 @@ function render(c) {
     META_OG_DESCRIPTION: esc(c.meta.ogDescription),
     META_SCHEMA_DESCRIPTION: esc(c.meta.schemaDescription),
     META_LLMS_TITLE: esc(c.meta.llmsTitle),
+    KICKER: esc(c.hero.kicker),
     HEADLINE_LEAD: esc(c.hero.headlineLead),
     HEADLINE_GLITCH: esc(c.hero.headlineGlitch),
     SUBTITLE: esc(c.hero.subtitle),
-    LEDE: lede(c),
-    SECTION_HEAD: c.sectionHead,
-    QA_HEAD: esc(c.qaHead),
-    SHIFTS: shifts(c),
-    // Synthesis note below the shifts (links the two technical + three
-    // structural shifts to the Field Guide). Array of paragraphs; absent until
-    // a language adds it.
-    SYSTEM_NOTE: c.systemNote
-      ? [].concat(c.systemNote).map((p) => `    <p class="lede system-note">${p}</p>`).join('\n')
-      : '',
+    // Section heads carry inline markup in some languages, so they pass
+    // through unescaped — same as the body copy.
+    STAND_HEAD: c.standHead,
+    STAND: paras(c.stand),
+    REFUSE_HEAD: c.refuseHead,
+    REFUSE_INTRO: c.refuseIntro,
+    REFUSALS: cards(c, 'refusals'),
+    REFUSE_OUTRO: c.refuseOutro,
+    SHIFT_HEAD: c.shiftHead,
+    SHIFT_INTRO: c.shiftIntro,
+    SHIFTS: cards(c, 'shifts'),
+    SHIFT_OUTRO: c.shiftOutro,
+    QA_HEAD: c.qaHead,
     QA: qa(c),
     FOOT_BY: esc(c.foot.by),
     FOOT_CTA: esc(c.foot.cta),
@@ -278,23 +269,29 @@ function sitemap() {
 // ── llms.txt / README manifesto blocks (between markers) ──
 const plain = (s) => inline(s, { emphasis: 'none', links: 'paren' });
 
+// The English gloss that follows a localized pair, in the same arrow as the
+// localized one. Empty on the English page.
+const glossOf = (c, key, i) => (c.lang === 'en' || !en[key][i]
+  ? ''
+  : ` (${en[key][i].from} ${ARROW[key]} ${en[key][i].to})`);
+
 // One language's manifesto in llms.txt plain-text style (no emphasis).
 function llmsLang(c, heading) {
   const L = [heading, ''];
-  c.lede.forEach((p) => { L.push(plain(p)); L.push(''); });
-  L.push(`### ${plain(c.sectionHead)}`, '');
-  c.shifts.forEach((s, i) => {
-    const gi = groupOpening(i);
-    if (gi >= 0) {
-      const loc = localGroup(c, gi);
-      L.push(`#### ${plain(loc.label)} — ${plain(loc.by)} ${plain(loc.link)} (${en.groups[gi].href})`, '');
-    }
-    const gloss = c.lang === 'en' ? '' : ` (${en.shifts[i].from} → ${en.shifts[i].to})`;
-    L.push(`${i + 1}. ${s.from} → ${s.to}${gloss} — ${plain(s.note)}`);
-    if (groupOpening(i + 1) >= 0) L.push('');
-  });
-  if (c.systemNote) [].concat(c.systemNote).forEach((p) => L.push('', plain(p)));
-  L.push('', `### ${plain(c.qaHead)}`, '');
+  L.push(`**Agentic Shift** — ${plain(c.hero.subtitle)}`, '');
+  L.push(`### ${plain(c.standHead)}`, '');
+  c.stand.forEach((p) => { L.push(plain(p)); L.push(''); });
+  L.push(`### ${plain(c.refuseHead)}`, '');
+  L.push(plain(c.refuseIntro), '');
+  c.refusals.forEach((s, i) =>
+    L.push(`- **${s.from} ≠ ${s.to}**${glossOf(c, 'refusals', i)} — ${plain(s.note)}`));
+  L.push('', plain(c.refuseOutro), '');
+  L.push(`### ${plain(c.shiftHead)}`, '');
+  L.push(plain(c.shiftIntro), '');
+  c.shifts.forEach((s, i) =>
+    L.push(`- **${s.from} → ${s.to}**${glossOf(c, 'shifts', i)} — ${plain(s.note)}`));
+  L.push('', plain(c.shiftOutro), '');
+  L.push(`### ${plain(c.qaHead)}`, '');
   c.qa.forEach((x) => L.push(`**${plain(x.q)}** ${plain(x.a)}`, ''));
   while (L[L.length - 1] === '') L.pop();
   return L.join('\n');
@@ -305,39 +302,46 @@ function llmsLang(c, heading) {
 function llmsBlock() {
   const parts = [llmsLang(en, '## Manifesto (English)')];
   LANGS.filter((l) => l !== 'en').forEach((lang) =>
-    parts.push(llmsLang(all[lang], `## Manifesto (${all[lang].name})`)));
+    parts.push(llmsLang(view(all[lang]), `## Manifesto (${all[lang].name})`)));
   return parts.join('\n\n');
 }
 
 function readmeBlock() {
+  const md = (s) => inline(s, { emphasis: 'md', links: 'md' });
   const L = [
     '> _Generated from [`manifesto/content/en.json`](manifesto/content/en.json) — edit the JSON '
     + '(and its siblings for other languages), then run `node manifesto/build.js`. Do not edit this section by hand._',
     '',
+    `_${md(en.hero.subtitle)}_`,
+    '',
   ];
-  en.lede.forEach((p) => { L.push(inline(p, { emphasis: 'md', links: 'md' })); L.push(''); });
-  L.push(`## ${inline(en.sectionHead, { emphasis: 'md', links: 'md' })}`, '');
-  en.shifts.forEach((s, i) => {
-    const gi = groupOpening(i);
-    if (gi >= 0) {
-      const g = en.groups[gi];
-      L.push(`**${g.label}** — ${g.by} [${g.link}](${g.href})`, '');
-    }
-    L.push(`### ${i + 1}. ${s.from} → ${s.to}`);
-    L.push(inline(s.note, { emphasis: 'md', links: 'md' }), '');
+  L.push(`## ${md(en.standHead)}`, '');
+  en.stand.forEach((p) => { L.push(md(p)); L.push(''); });
+  L.push(`## ${md(en.refuseHead)}`, '');
+  L.push(md(en.refuseIntro), '');
+  en.refusals.forEach((s) => {
+    L.push(`### ${s.from} ≠ ${s.to}`);
+    L.push(md(s.note), '');
   });
-  if (en.systemNote) [].concat(en.systemNote).forEach((p) => L.push(inline(p, { emphasis: 'md', links: 'md' }), ''));
-  L.push(`## ${inline(en.qaHead, { emphasis: 'md', links: 'md' })}`, '');
+  L.push(md(en.refuseOutro), '');
+  L.push(`## ${md(en.shiftHead)}`, '');
+  L.push(md(en.shiftIntro), '');
+  en.shifts.forEach((s) => {
+    L.push(`### ${s.from} → ${s.to}`);
+    L.push(md(s.note), '');
+  });
+  L.push(md(en.shiftOutro), '');
+  L.push(`## ${md(en.qaHead)}`, '');
   en.qa.forEach((x) => {
-    L.push(`> **${inline(x.q, { emphasis: 'md', links: 'md' })}**`, '');
-    L.push(inline(x.a, { emphasis: 'md', links: 'md' }), '');
+    L.push(`> **${md(x.q)}**`, '');
+    L.push(md(x.a), '');
   });
   while (L[L.length - 1] === '') L.pop();
   return L.join('\n');
 }
 
 // Standalone, downloadable Markdown of one language's manifesto — the whole
-// page as a clean .md (title, subtitle, lede, the five shifts, Q&A). On
+// page as a clean .md (title, subtitle, the three sections, Q&A). On
 // translated pages the canonical English pair follows each localized pair in
 // parens, mirroring the on-page gloss.
 function manifestoMd(c) {
@@ -345,20 +349,22 @@ function manifestoMd(c) {
   const L = [];
   L.push('# Agentic Shift', '');
   L.push(`_${md(c.hero.subtitle)}_`, '');
-  c.lede.forEach((p) => { L.push(md(p)); L.push(''); });
-  L.push(`## ${md(c.sectionHead)}`, '');
-  c.shifts.forEach((s, i) => {
-    const gi = groupOpening(i);
-    if (gi >= 0) {
-      const loc = localGroup(c, gi);
-      L.push(`**${md(loc.label)}** — ${md(loc.by)} [${md(loc.link)}](${en.groups[gi].href})`, '');
-    }
-    const n = String(i + 1).padStart(2, '0');
-    const gloss = c.lang === 'en' ? '' : ` (${en.shifts[i].from} → ${en.shifts[i].to})`;
-    L.push(`### ${n}. ${s.from} → ${s.to}${gloss}`);
+  L.push(`## ${md(c.standHead)}`, '');
+  c.stand.forEach((p) => { L.push(md(p)); L.push(''); });
+  L.push(`## ${md(c.refuseHead)}`, '');
+  L.push(md(c.refuseIntro), '');
+  c.refusals.forEach((s, i) => {
+    L.push(`### ${s.from} ≠ ${s.to}${glossOf(c, 'refusals', i)}`);
     L.push(md(s.note), '');
   });
-  if (c.systemNote) [].concat(c.systemNote).forEach((p) => L.push(md(p), ''));
+  L.push(md(c.refuseOutro), '');
+  L.push(`## ${md(c.shiftHead)}`, '');
+  L.push(md(c.shiftIntro), '');
+  c.shifts.forEach((s, i) => {
+    L.push(`### ${s.from} → ${s.to}${glossOf(c, 'shifts', i)}`);
+    L.push(md(s.note), '');
+  });
+  L.push(md(c.shiftOutro), '');
   L.push(`## ${md(c.qaHead)}`, '');
   c.qa.forEach((x) => {
     L.push(`### ${md(x.q)}`);
@@ -390,25 +396,31 @@ function writeMarked(rel, block) {
 // exits non-zero; the files are still written, so you can keep iterating while
 // the translations catch up.
 function parityDrift() {
-  const COUNTED = ['lede', 'groups', 'shifts', 'systemNote', 'qa'];
+  const COUNTED = ['stand', 'refusals', 'shifts', 'qa'];
+  const NESTED = ['meta', 'hero', 'foot'];
+  const filled = (v) => typeof v === 'string' && v.trim() !== '';
   const drift = [];
   for (const lang of LANGS.filter((l) => l !== 'en')) {
     const c = all[lang];
     const gaps = [];
     Object.keys(en).filter((k) => !(k in c)).forEach((k) => gaps.push(`no "${k}"`));
-    Object.keys(en.meta).filter((k) => !(k in (c.meta || {}))).forEach((k) => gaps.push(`no meta.${k}`));
+    // A key present but empty serves a blank paragraph — as bad as missing.
+    Object.keys(en).filter((k) => typeof en[k] === 'string' && k in c && !filled(c[k]))
+      .forEach((k) => gaps.push(`empty "${k}"`));
+    NESTED.forEach((n) => Object.keys(en[n])
+      .filter((k) => !filled((c[n] || {})[k]))
+      .forEach((k) => gaps.push(`no ${n}.${k}`)));
     COUNTED.forEach((k) => {
       const want = [].concat(en[k] || []).length;
       const got = [].concat(c[k] || []).length;
       if (got < want) gaps.push(`${k} ${got}/${want}`);
     });
-    // Groups also need their per-field copy — a group present but missing its
-    // localized `label`/`by`/`link` silently renders the English words.
-    en.groups.forEach((g, gi) => {
-      const loc = (c.groups || [])[gi];
-      if (!loc) return;
-      ['label', 'by', 'link'].filter((k) => !loc[k]).forEach((k) => gaps.push(`groups[${gi}].${k}`));
-    });
+    // Length alone is not parity: a card missing its `note`, or a Q&A missing
+    // its answer, renders the string "undefined" and would otherwise pass.
+    [['refusals', ['from', 'to', 'note']], ['shifts', ['from', 'to', 'note']], ['qa', ['q', 'a']]]
+      .forEach(([k, fields]) => (c[k] || []).forEach((item, i) => {
+        fields.filter((f) => !filled(item[f])).forEach((f) => gaps.push(`${k}[${i}].${f}`));
+      }));
     if (gaps.length) drift.push(`  ${lang}: ${gaps.join(' · ')}`);
   }
   return drift;
@@ -418,7 +430,7 @@ function parityDrift() {
 const written = [];
 
 for (const lang of LANGS) {
-  const c = all[lang];
+  const c = view(all[lang]);
   // Output path comes from `dir`, not from the language code — they usually
   // match (`de` → /de/) but need not. Czech ships at /cz/ (the country code
   // people recognise) while its language code stays the ISO 639-1 `cs` used by

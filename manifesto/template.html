@@ -66,6 +66,76 @@
 
     gtag('config', 'G-SJW53LEJGS');
   </script>
+
+  <style>
+    /* Page-scoped CSS for the manifesto pages — same pattern as /community.
+       It lives here rather than in the shared shift.css because it belongs to
+       this page only, and here every language inherits it. shift.css still
+       carries the design system and the markup the archived /v1 and /v12 use. */
+
+    /* Hero kicker. Sits above the name so the human promise lands before the
+       label does: what this is for, then what it is called, then where it goes.
+       Mono and small, the same voice the page already uses for its quiet labels
+       (community tag, group headings) — it must not compete with the headline. */
+    .hero-kicker {
+      font-family: var(--font-mono);
+      font-size: clamp(12px, 1.3vw, 15px);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: clamp(10px, 1.4vw, 16px);
+    }
+
+    /* Each card group is introduced by a plain .lede ("By practicing critical
+       thinking, we claim:") rather than by a .section-head, so the cards would
+       collide with the sentence above and the one below. Give the group its own
+       air on both sides. */
+    .manifesto .group {
+      margin-top: clamp(22px, 3vw, 32px);
+      margin-bottom: clamp(30px, 4.5vw, 52px);
+    }
+
+    /* The shift cards lost their 01/02/03. Numbering implied a sequence — do this
+       one first — which contradicts the line closing the section: which shifts you
+       take on is yours to decide. Three items, no order, so no numbers, and the
+       list is a <ul> rather than an <ol>. Dropping the marker means dropping its
+       gutter too, or every card keeps a 54px hole where the number used to be. */
+    .group-org .shifts { list-style: none; }
+    .group-org .shift { grid-template-columns: 1fr; }
+
+    /* "What we refuse" — identical to every other .section-head in size, family,
+       weight and rule; only the word colour changes. #e8617f is a rose-red
+       deliberately built off amber's red channel (#e8a33d) so it sits in the
+       same light family as the two existing accents instead of shouting over
+       them. NOTE: this is a FOURTH hue in a three-colour system (ink / teal /
+       amber) — it earns its place only if refusal is the one thing on the page
+       allowed to look different. Drop this rule to revert. */
+    .section-head-refuse .txt { color: #e8617f; }
+
+    /* The refusals reuse the shift-card markup so they read in the same visual
+       grammar as the shifts — but with ≠ instead of an arrow, so nothing
+       suggests "move from here to there". The ≠ already says "not", so there is
+       no marker either, and every card on the page is single-column. Same rose
+       as the section head; each pair keeps its full sentence as the .note,
+       exactly like a shift card, so the compressed pair is never the only
+       reading. */
+    .group-refuse .shifts { list-style: none; }
+    .group-refuse .pair .to,
+    .group-refuse .pair .arrow { color: #e8617f; }
+    .group-refuse .shift:hover { border-color: rgba(232, 97, 127, 0.4); }
+    .group-refuse .shift { grid-template-columns: 1fr; }
+
+    /* The card notes were capped at 46em for a readable measure, but the pair
+       headline above them runs the full box, so on a wide screen the note
+       stopped short and left a single word alone on its last line — it read as
+       a bug rather than as typography. Widened to fill the card, with an
+       ultra-wide guard still in place, and text-wrap: pretty so the last line
+       never orphans a word again. */
+    .manifesto .group .note {
+      max-width: 64em;
+      text-wrap: pretty;
+    }
+  </style>
 </head>
 <body>
 
@@ -91,6 +161,7 @@
     </svg>
 
     <div class="hero-mid">
+      <p class="hero-kicker">{{KICKER}}</p>
       <h1 class="headline">{{HEADLINE_LEAD}} <span class="glitch" data-text="{{HEADLINE_GLITCH}}">{{HEADLINE_GLITCH}}</span></h1>
       <div class="hero-rule" aria-hidden="true"></div>
       <p class="subtitle">{{SUBTITLE}}</p>
@@ -116,13 +187,31 @@
       <span class="cb-status">applications open →</span>
     </a>
 
-{{LEDE}}
+    <!-- ── Where we stand ───────────────────────────────────────────── -->
 
-    <h2 class="section-head" id="the-five"><span class="txt">{{SECTION_HEAD}}<span class="tick" aria-hidden="true">:</span></span></h2>
+    <h2 class="section-head" id="what-we-stand-for"><span class="txt">{{STAND_HEAD}}</span></h2>
+
+{{STAND}}
+
+    <!-- ── What we refuse ───────────────────────────────────────────── -->
+
+    <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">{{REFUSE_HEAD}}</span></h2>
+
+    <p class="lede">{{REFUSE_INTRO}}</p>
+
+{{REFUSALS}}
+
+    <p class="lede">{{REFUSE_OUTRO}}</p>
+
+    <!-- ── What we shift ────────────────────────────────────────────── -->
+
+    <h2 class="section-head" id="what-we-shift"><span class="txt">{{SHIFT_HEAD}}</span></h2>
+
+    <p class="lede">{{SHIFT_INTRO}}</p>
 
 {{SHIFTS}}
 
-{{SYSTEM_NOTE}}
+    <p class="lede">{{SHIFT_OUTRO}}</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">{{QA_HEAD}}</span></h2>
 

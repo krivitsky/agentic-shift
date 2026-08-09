@@ -1,21 +1,4 @@
 {
   "buildCommand": "",
-  "outputDirectory": "public",
-  "redirects": [
-    {
-      "source": "/:lang(de|nl|fr|it|es|pt|cz|uk|ru|zh|ja)",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/:lang(de|nl|fr|it|es|pt|cz|uk|ru|zh|ja)/",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/:lang(de|nl|fr|it|es|pt|cz|uk|ru|zh|ja)/:path+",
-      "destination": "/",
-      "permanent": false
-    }
-  ]
+  "outputDirectory": "public"
 }

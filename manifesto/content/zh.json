@@ -4,84 +4,74 @@
   "dir": "/zh/",
 
   "meta": {
-    "title": "Agentic Shift — 专业的智能体产品工程",
-    "description": "整个行业向智能体产品工程的转变，正在催生根本性全新的组织。五项组织设计转变，将专业的智能体产品工程与平庸和营销区分开来。",
+    "title": "Agentic Shift — 先做组织设计，再谈 AI",
+    "description": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。我们的立场，我们拒绝接受的，我们转向何处。",
     "keywords": "agentic shift, 智能体产品工程, agentic product engineering, AI 智能体, 组织设计, 产品工程, Alexey Krivitsky, Martin Westphal",
-    "ogTitle": "Agentic Shift — 专业的智能体产品工程",
-    "ogDescription": "五项组织设计转变，将专业的智能体产品工程与平庸和营销区分开来。",
-    "schemaDescription": "整个行业向智能体产品工程的转变，正在催生根本性全新的组织——由五项组织设计转变所定义。",
+    "ogTitle": "Agentic Shift — 先做组织设计，再谈 AI",
+    "ogDescription": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。",
+    "schemaDescription": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。",
     "llmsTitle": "Agentic Shift — 机器可读（LLM）版本"
   },
 
   "hero": {
+    "kicker": "在 AI 竞赛中保持清醒",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "迈向专业的智能体产品工程"
+    "subtitle": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。"
   },
 
-  "lede": [
-    "整个行业向<span class=\"definition\">智能体产品工程</span>的转变，正在催生根本性全新的组织。大多数领导者尚未领会这一转变有多深。领会者已然领先。而且<em>最优者与其余者之间的差距，正日益扩大。</em>",
-    "为帮助这些理念传播，并把标杆立得足够高，以便将真正的变革与<span class=\"strike\">平庸和纯粹的营销</span>区分开来，我们将<span class=\"definition\"><strong>专业的</strong>智能体产品工程</span>定义为一组显而易见的组织设计转变：即产品工程工作究竟如何完成。"
+  "standHead": "我们的立场",
+  "stand": [
+    "<span class=\"definition\">智能体转变</span>是真实的。它深刻影响着我们的组织，改变着我们如何看待这份工作，以及做这份工作的人。",
+    "但我们知道：这件事无关工具，无关 token，也无关任何一个恰好容易衡量的产出指标。它关乎建设更好的组织，让组织提供更好的产品与服务。这才是重要的。",
+    "每个人都在为某个目标做优化。前沿实验室优化的是自家产品的采用率，而 FOMO 是他们拉动我们时最强的那根杠杆。那是正当的生意，是他们的生意，不是我们的。",
+    "每个组织都是独一无二的——独特在它被建成的方式，也独特在它所追求的东西。我们经营的是<span class=\"definition\">我们自己的</span>组织，我们被评判的标准，是对<span class=\"definition\">我们</span>而言重要的事——<span class=\"definition\">我们的</span>客户、员工与其他利益相关方。所以对我们而言，有一件事没有商量余地：<span class=\"definition\">智能体转变按我们的条件发生</span>。"
   ],
 
-  "sectionHead": "<span class=\"lite\">面向</span>专业的智能体产品工程的<span class=\"lite\">组织级</span>转变",
-
-  "qaHead": "接下来",
-
-  "groups": [
+  "refuseHead": "我们拒绝接受的",
+  "refuseIntro": "通过践行批判性思考，我们主张：",
+  "refusals": [
     {
-      "label": "主要技术转变",
-      "by": "支持:",
-      "link": "Agentic Product Engineering Guide"
+      "from": "判断力的丧失",
+      "to": "效率",
+      "note": "我们不把对代码、设计、架构、功能、价值的判断力的丧失当作效率。"
     },
     {
-      "label": "主要组织转变",
-      "by": "支持:",
-      "link": "10X ORG 的 Adaptive Topology"
+      "from": "供应商依赖",
+      "to": "进步",
+      "note": "我们不接受把对 AI 供应商及其模型与工具的依赖当作进步。"
+    },
+    {
+      "from": "产出量",
+      "to": "能力",
+      "note": "我们不把生成产出的本事，混同为一项战略性的组织能力。"
     }
   ],
+  "refuseOutro": "简而言之，我们不会让一阵浅薄的 AI 采纳风潮，挤掉我们对正在建设的组织的长期思考。所以我们说：<span class=\"definition\">「先做组织设计，再谈 AI。」</span>我们学着以战略的方式行动：先定义我们希望在组织中为整体利益做出什么转变，然后再运用 AI——以及其他手段——把这些转变变成现实。",
 
+  "shiftHead": "我们转向何处",
+  "shiftIntro": "那些坚守可持续质量、客户价值与高度适应力的产品工程组织，会做出以下战略性转变，并以 AI 作为让转变更容易的杠杆：",
   "shifts": [
-    {
-      "from": "功能",
-      "to": "系统",
-      "note": "产品工程师不再交付零散的功能，而是转向构建智能体系统——将意图转化为可用方案的自我改进循环。"
-    },
-    {
-      "from": "把关",
-      "to": "护栏",
-      "note": "产品工程师不再事后检查质量问题，而是通过精心设计的智能体框架，将质量构建进系统之中。"
-    },
     {
       "from": "专才",
       "to": "匠人",
-      "note": "产品工程师从狭窄的流水线专才，转变为端到端的匠人——AI 实时填补专业空白，并引导工程师进入新的领域与技能。"
+      "note": "让产品工程师从流水线上的狭窄专才，转变为端到端的匠人——由 AI 补上专才的缺口，并提供进入新领域所需的技能提升。"
     },
     {
       "from": "代理人",
       "to": "用户",
-      "note": "不再有经由管理者代理人的传话游戏，不再蜷缩于地下室——产品工程师转向与客户和用户零距离，亲身去共情、分析与综合。"
+      "note": "终结经由管理者代理人的传话游戏，也终结「IT 蜷缩在地下室」的时代——转而把产品工程师放到与客户和用户零距离的位置，亲身去共情、分析与综合。"
     },
     {
       "from": "产出",
       "to": "成果",
-      "note": "产品工程师不再以产出被衡量，而是亲自承担外循环（outer loop）——确保真实的客户影响，并随着证据到来持续修正航向。"
+      "note": "把产品工程师从以产出被衡量，提升为拥有完整价值闭环——确保真实的客户影响，持续实验，并随着证据到来修正航向。"
     }
   ],
+  "shiftOutro": "你的组织要承担哪些转变，<span class=\"definition\">由你决定</span>。重要的是它们要<span class=\"definition\">具有战略性，而非目光短浅</span>——服务于你希望数年后拥有的那个组织，而不是 FOMO 会让你在这个季度追逐的数字。",
 
-  "systemNote": [
-    "<strong>技术转变与组织转变构成<span class=\"definition\">同一个系统</span></strong>：二者相互赋能、相互强化，不得孤立地加以管理。"
-  ],
-
+  "qaHead": "接下来",
   "qa": [
-    {
-      "q": "迈向一份新的宣言？",
-      "a": "或许<span class=\"amber\">现在写宣言还为时过早</span>，因为地面仍在移动——但我们仍愿承认，我们已在整个行业观察到的深刻变化，尤以先行者身上最为显著。"
-    },
-    {
-      "q": "这对组织领导者意味着什么？",
-      "a": "当编码正被自动化、常规化之际，产品工程这门手艺正经历一场重大的再造——这唯有凭借鲜明的人类特质方能实现：<span class=\"definition\">对完美的渴求</span>、<span class=\"definition\">无限的创造力</span>，以及<span class=\"definition\">丰富的共创</span>。每一个组织、每一位领导者的任务，是设计出能将<span class=\"definition\">人类智能</span>提升到这些新高度的环境。"
-    },
     {
       "q": "想要参与贡献？",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">提出改进建议</a>。分享此页。把这些理念在你的组织中付诸实践。"
