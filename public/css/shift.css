@@ -962,6 +962,35 @@ body::before {
   }
 }
 
+/* ── Phones ──────────────────────────────────────────────────────────
+   The 60% cap above keeps the dot-field clear of the headline by taking
+   width away from the text — on a 390px screen that left the hero copy
+   192px, under half the viewport, so the subtitle broke every four words.
+   Below 560px, clear the field VERTICALLY instead: shrink it and start the
+   text under it, then let the copy run the hero's full width. Side padding
+   also comes down — a phone has no width to spend on margins. */
+@media (max-width: 560px) {
+  .hero {
+    --col: 26px;
+  }
+
+  .hero-mid {
+    max-width: 100%;
+    /* Clears the dot-field: it is --gw wide (9 × --col) and 112/306 as tall. */
+    padding-top: calc(var(--gw) * 0.37 + 10px);
+  }
+
+  .manifesto {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .shift {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
