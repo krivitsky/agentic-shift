@@ -14,8 +14,6 @@ Chaque organisation est unique par la manière dont elle a été bâtie et par c
 
 ## Ce que nous refusons d'accepter
 
-En pratiquant la pensée critique, nous affirmons :
-
 ### jugement perdu ≠ efficacité (lost judgment ≠ efficiency)
 Nous n'assimilons pas la perte du jugement — sur le code, le design, l'architecture, les fonctionnalités ou la valeur — à de l'efficacité.
 

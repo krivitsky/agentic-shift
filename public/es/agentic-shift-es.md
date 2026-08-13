@@ -14,8 +14,6 @@ Cada organización es única por cómo fue construida y por aquello a lo que asp
 
 ## Lo que nos negamos a aceptar
 
-Al practicar el pensamiento crítico, afirmamos:
-
 ### juicio perdido ≠ eficiencia (lost judgment ≠ efficiency)
 No equiparamos la pérdida del juicio — sobre el código, el diseño, la arquitectura, las funcionalidades o el valor — con la eficiencia.
 

@@ -22,8 +22,6 @@ Every organization is unique in the way it was built and in what it aspires to. 
 
 ## What we refuse to accept
 
-By practicing critical thinking, we claim:
-
 ### lost judgment ≠ efficiency
 We do not equate the loss of judgment — in code, design, architecture, features, or value — with efficiency.
 

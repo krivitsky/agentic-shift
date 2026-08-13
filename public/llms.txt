@@ -21,8 +21,6 @@ Every organization is unique in the way it was built and in what it aspires to. 
 
 ### What we refuse to accept
 
-By practicing critical thinking, we claim:
-
 - **lost judgment ≠ efficiency** — We do not equate the loss of judgment — in code, design, architecture, features, or value — with efficiency.
 - **vendor dependence ≠ progress** — We do not accept dependence on AI vendors, their models and tooling, as progress.
 - **output volume ≠ capability** — We do not confuse producing more output with becoming a more capable organization.
@@ -62,8 +60,6 @@ Alle optimieren auf irgendetwas hin. Die führenden KI-Labore optimieren auf die
 Jede Organisation ist einzigartig — darin, wie sie gebaut wurde, und darin, wonach sie strebt. Wir führen unsere Organisationen, und wir werden daran gemessen, was für uns zählt — unsere Kundinnen und Kunden, Mitarbeitenden und weiteren Stakeholder. Deshalb ist für uns eines nicht verhandelbar: Der agentic shift geschieht zu unseren Bedingungen.
 
 ### Was wir nicht akzeptieren
-
-Indem wir kritisches Denken praktizieren, halten wir fest:
 
 - **verlorenes Urteilsvermögen ≠ Effizienz** (lost judgment ≠ efficiency) — Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features oder Wert — nicht mit Effizienz gleich.
 - **Anbieterabhängigkeit ≠ Fortschritt** (vendor dependence ≠ progress) — Wir akzeptieren die Abhängigkeit von KI-Anbietern, ihren Modellen und ihrem Tooling nicht als Fortschritt.
@@ -105,8 +101,6 @@ Elke organisatie is uniek in de manier waarop ze is gebouwd en in waar ze naar s
 
 ### Wat wij niet accepteren
 
-Door kritisch denken te beoefenen, stellen wij:
-
 - **verloren oordeel ≠ efficiëntie** (lost judgment ≠ efficiency) — Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features of waarde — niet gelijk aan efficiëntie.
 - **leveranciersafhankelijkheid ≠ vooruitgang** (vendor dependence ≠ progress) — Wij accepteren afhankelijkheid van AI-leveranciers, hun modellen en hun tooling niet als vooruitgang.
 - **outputvolume ≠ vermogen** (output volume ≠ capability) — Wij verwarren meer output produceren niet met een capabelere organisatie worden.
@@ -146,8 +140,6 @@ Chacun optimise quelque chose. Les laboratoires de pointe optimisent l'adoption 
 Chaque organisation est unique par la manière dont elle a été bâtie et par ce à quoi elle aspire. Nous dirigeons nos organisations, et nous sommes jugés sur ce qui compte pour nous — nos clients, nos salariés et nos autres parties prenantes. Alors pour nous, une chose n'est pas négociable : le basculement agentique se fait à nos conditions.
 
 ### Ce que nous refusons d'accepter
-
-En pratiquant la pensée critique, nous affirmons :
 
 - **jugement perdu ≠ efficacité** (lost judgment ≠ efficiency) — Nous n'assimilons pas la perte du jugement — sur le code, le design, l'architecture, les fonctionnalités ou la valeur — à de l'efficacité.
 - **dépendance aux fournisseurs ≠ progrès** (vendor dependence ≠ progress) — Nous n'acceptons pas la dépendance aux fournisseurs d'IA, à leurs modèles et à leur outillage comme un progrès.
@@ -189,8 +181,6 @@ Ogni organizzazione è unica per come è stata costruita e per ciò a cui aspira
 
 ### Ciò che ci rifiutiamo di accettare
 
-Praticando il pensiero critico, affermiamo:
-
 - **giudizio perduto ≠ efficienza** (lost judgment ≠ efficiency) — Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza.
 - **dipendenza dai fornitori ≠ progresso** (vendor dependence ≠ progress) — Non accettiamo come progresso la dipendenza dai fornitori di IA, dai loro modelli e dal loro tooling.
 - **volume di produzione ≠ capacità** (output volume ≠ capability) — Non confondiamo produrre di più con diventare un'organizzazione più capace.
@@ -230,8 +220,6 @@ Todo el mundo optimiza para algo. Los laboratorios de frontera optimizan la adop
 Cada organización es única por cómo fue construida y por aquello a lo que aspira. Nosotros dirigimos nuestras organizaciones, y se nos juzga por lo que nos importa a nosotros — nuestros clientes, empleados y demás partes interesadas. Por eso, para nosotros hay algo que no es negociable: el cambio agéntico ocurre en nuestros términos.
 
 ### Lo que nos negamos a aceptar
-
-Al practicar el pensamiento crítico, afirmamos:
 
 - **juicio perdido ≠ eficiencia** (lost judgment ≠ efficiency) — No equiparamos la pérdida del juicio — sobre el código, el diseño, la arquitectura, las funcionalidades o el valor — con la eficiencia.
 - **dependencia del proveedor ≠ progreso** (vendor dependence ≠ progress) — No aceptamos como progreso la dependencia de los proveedores de IA, de sus modelos y de su tooling.
@@ -273,8 +261,6 @@ Cada organização é única na forma como foi construída e naquilo a que aspir
 
 ### O que nos recusamos a aceitar
 
-Ao praticar o pensamento crítico, afirmamos:
-
 - **juízo perdido ≠ eficiência** (lost judgment ≠ efficiency) — Não equiparamos a perda do juízo — sobre o código, o design, a arquitetura, as funcionalidades ou o valor — à eficiência.
 - **dependência de fornecedores ≠ progresso** (vendor dependence ≠ progress) — Não aceitamos como progresso a dependência dos fornecedores de IA, dos seus modelos e do seu tooling.
 - **volume de produção ≠ capacidade** (output volume ≠ capability) — Não confundimos produzir mais com tornar-nos uma organização mais capaz.
@@ -314,8 +300,6 @@ Každý pro něco optimalizuje. Špičkové laboratoře optimalizují pro přije
 Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu směřuje. Řídíme své organizace a jsme souzeni podle toho, na čem záleží nám — našim zákazníkům, zaměstnancům a dalším zainteresovaným. Proto je pro nás jedna věc nesmlouvavá: agentní posun se děje za našich podmínek.
 
 ### Co odmítáme přijmout
-
-Praktikováním kritického myšlení tvrdíme:
 
 - **ztracený úsudek ≠ efektivita** (lost judgment ≠ efficiency) — Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou.
 - **závislost na dodavatelích ≠ pokrok** (vendor dependence ≠ progress) — Závislost na dodavatelích AI, na jejich modelech a nástrojích nepřijímáme jako pokrok.
@@ -357,8 +341,6 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 ### Чого ми не приймаємо
 
-Практикуючи критичне мислення, ми стверджуємо:
-
 - **втрачене судження ≠ ефективність** (lost judgment ≠ efficiency) — Ми не ототожнюємо втрату судження — щодо коду, дизайну, архітектури, функцій чи цінності — з ефективністю.
 - **залежність від вендорів ≠ прогрес** (vendor dependence ≠ progress) — Ми не приймаємо за прогрес залежність від ШІ-вендорів, їхніх моделей та інструментів.
 - **обсяг виробітку ≠ спроможність** (output volume ≠ capability) — Ми не плутаємо виробництво більшої кількості результатів зі становленням спроможнішої організації.
@@ -398,8 +380,6 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 Каждая организация уникальна тем, как она была построена, и тем, к чему стремится. Мы управляем своими организациями, и нас оценивают по тому, что важно нам — нашим клиентам, сотрудникам и другим заинтересованным сторонам. Поэтому для нас одно не обсуждается: агентный переход происходит на наших условиях.
 
 ### Чего мы не принимаем
-
-Практикуя критическое мышление, мы утверждаем:
 
 - **утраченное суждение ≠ эффективность** (lost judgment ≠ efficiency) — Мы не отождествляем утрату суждения — о коде, дизайне, архитектуре, функциях или ценности — с эффективностью.
 - **зависимость от вендоров ≠ прогресс** (vendor dependence ≠ progress) — Мы не принимаем за прогресс зависимость от ИИ-вендоров, их моделей и инструментов.
@@ -441,8 +421,6 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 ### 我们拒绝接受的
 
-通过践行批判性思考，我们主张：
-
 - **判断力的丧失 ≠ 效率** (lost judgment ≠ efficiency) — 我们不把判断力的丧失——无论是在代码、设计、架构、功能还是价值上——等同于效率。
 - **供应商依赖 ≠ 进步** (vendor dependence ≠ progress) — 我们不接受把对 AI 供应商及其模型与工具的依赖当作进步。
 - **产出量 ≠ 能力** (output volume ≠ capability) — 我们不把产出更多，混同为组织变得更有能力。
@@ -482,8 +460,6 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 どの組織も、築かれてきた道筋においても、目指すものにおいても、それぞれ固有です。私たちは自分たちの組織を経営しており、私たちにとって大切なもの——私たちの顧客、従業員、そのほかのステークホルダー——によって評価されます。だからこそ、私たちにとって譲れないことが一つあります。エージェンティック・シフトは私たちの条件で起きる、ということです。
 
 ### 私たちが受け入れないこと
-
-批判的思考を実践することで、私たちはこう主張します。
 
 - **失われた判断 ≠ 効率** (lost judgment ≠ efficiency) — コード、デザイン、アーキテクチャ、機能、価値のいずれにおいても、判断が失われることを私たちは効率と同一視しません。
 - **ベンダー依存 ≠ 進歩** (vendor dependence ≠ progress) — AI ベンダー、そのモデルとツールへの依存を、私たちは進歩として受け入れません。

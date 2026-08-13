@@ -14,8 +14,6 @@ Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu smě
 
 ## Co odmítáme přijmout
 
-Praktikováním kritického myšlení tvrdíme:
-
 ### ztracený úsudek ≠ efektivita (lost judgment ≠ efficiency)
 Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou.
 

@@ -14,8 +14,6 @@ Cada organização é única na forma como foi construída e naquilo a que aspir
 
 ## O que nos recusamos a aceitar
 
-Ao praticar o pensamento crítico, afirmamos:
-
 ### juízo perdido ≠ eficiência (lost judgment ≠ efficiency)
 Não equiparamos a perda do juízo — sobre o código, o design, a arquitetura, as funcionalidades ou o valor — à eficiência.
 

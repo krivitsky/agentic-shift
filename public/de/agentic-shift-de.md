@@ -14,8 +14,6 @@ Jede Organisation ist einzigartig — darin, wie sie gebaut wurde, und darin, wo
 
 ## Was wir nicht akzeptieren
 
-Indem wir kritisches Denken praktizieren, halten wir fest:
-
 ### verlorenes Urteilsvermögen ≠ Effizienz (lost judgment ≠ efficiency)
 Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features oder Wert — nicht mit Effizienz gleich.
 

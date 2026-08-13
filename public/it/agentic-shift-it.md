@@ -14,8 +14,6 @@ Ogni organizzazione è unica per come è stata costruita e per ciò a cui aspira
 
 ## Ciò che ci rifiutiamo di accettare
 
-Praticando il pensiero critico, affermiamo:
-
 ### giudizio perduto ≠ efficienza (lost judgment ≠ efficiency)
 Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza.
 

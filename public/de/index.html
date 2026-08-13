@@ -99,10 +99,10 @@
       margin-bottom: clamp(10px, 1.4vw, 16px);
     }
 
-    /* Each card group is introduced by a plain .lede ("By practicing critical
-       thinking, we claim:") rather than by a .section-head, so the cards would
-       collide with the sentence above and the one below. Give the group its own
-       air on both sides. */
+    /* A card group sits between plain paragraphs — a .section-head above, a
+       .lede outro below — with nothing but its own margins to separate it, so
+       without this the cards collide with the prose on both sides. Give the
+       group its own air. */
     .manifesto .group {
       margin-top: clamp(22px, 3vw, 32px);
       margin-bottom: clamp(30px, 4.5vw, 52px);
@@ -220,8 +220,6 @@
     <!-- ── What we refuse ───────────────────────────────────────────── -->
 
     <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">Was wir nicht akzeptieren</span></h2>
-
-    <p class="lede">Indem wir kritisches Denken praktizieren, halten wir fest:</p>
 
     <section class="group group-refuse">
       <ul class="shifts">

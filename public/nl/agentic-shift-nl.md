@@ -14,8 +14,6 @@ Elke organisatie is uniek in de manier waarop ze is gebouwd en in waar ze naar s
 
 ## Wat wij niet accepteren
 
-Door kritisch denken te beoefenen, stellen wij:
-
 ### verloren oordeel ≠ efficiëntie (lost judgment ≠ efficiency)
 Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features of waarde — niet gelijk aan efficiëntie.
 

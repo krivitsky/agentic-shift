@@ -215,7 +215,6 @@ function render(c) {
     STAND_HEAD: c.standHead,
     STAND: paras(c.stand),
     REFUSE_HEAD: c.refuseHead,
-    REFUSE_INTRO: c.refuseIntro,
     REFUSALS: cards(c, 'refusals'),
     REFUSE_OUTRO: c.refuseOutro,
     SHIFT_HEAD: c.shiftHead,
@@ -283,7 +282,6 @@ function llmsLang(c, heading) {
   L.push(`### ${plain(c.standHead)}`, '');
   c.stand.forEach((p) => { L.push(plain(p)); L.push(''); });
   L.push(`### ${plain(c.refuseHead)}`, '');
-  L.push(plain(c.refuseIntro), '');
   c.refusals.forEach((s, i) =>
     L.push(`- **${s.from} ≠ ${s.to}**${glossOf(c, 'refusals', i)} — ${plain(s.note)}`));
   L.push('', plain(c.refuseOutro), '');
@@ -320,7 +318,6 @@ function readmeBlock() {
   L.push(`## ${md(en.standHead)}`, '');
   en.stand.forEach((p) => { L.push(md(p)); L.push(''); });
   L.push(`## ${md(en.refuseHead)}`, '');
-  L.push(md(en.refuseIntro), '');
   en.refusals.forEach((s) => {
     L.push(`### ${s.from} ≠ ${s.to}`);
     L.push(md(s.note), '');
@@ -355,7 +352,6 @@ function manifestoMd(c) {
   L.push(`## ${md(c.standHead)}`, '');
   c.stand.forEach((p) => { L.push(md(p)); L.push(''); });
   L.push(`## ${md(c.refuseHead)}`, '');
-  L.push(md(c.refuseIntro), '');
   c.refusals.forEach((s, i) => {
     L.push(`### ${s.from} ≠ ${s.to}${glossOf(c, 'refusals', i)}`);
     L.push(md(s.note), '');
