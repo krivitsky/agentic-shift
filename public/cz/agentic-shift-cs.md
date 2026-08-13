@@ -17,13 +17,13 @@ Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu smě
 Praktikováním kritického myšlení tvrdíme:
 
 ### ztracený úsudek ≠ efektivita (lost judgment ≠ efficiency)
-Ztrátu úsudku nad kódem, designem, architekturou, funkcemi, hodnotou nepovažujeme za efektivitu.
+Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou.
 
 ### závislost na dodavatelích ≠ pokrok (vendor dependence ≠ progress)
 Závislost na dodavatelích AI, na jejich modelech a nástrojích nepřijímáme jako pokrok.
 
 ### objem výstupů ≠ schopnost (output volume ≠ capability)
-Nezaměňujeme schopnost generovat výstupy za strategickou organizační schopnost.
+Nezaměňujeme vyšší produkci výstupů za to, že se stáváme schopnější organizací.
 
 Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: **„Nejdřív organizační design, pak AI.“** Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.
 

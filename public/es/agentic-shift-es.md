@@ -17,13 +17,13 @@ Cada organización es única por cómo fue construida y por aquello a lo que asp
 Al practicar el pensamiento crítico, afirmamos:
 
 ### juicio perdido ≠ eficiencia (lost judgment ≠ efficiency)
-No tomamos por eficiencia la pérdida del juicio sobre el código, el diseño, la arquitectura, las funcionalidades, el valor.
+No equiparamos la pérdida del juicio — sobre el código, el diseño, la arquitectura, las funcionalidades o el valor — con la eficiencia.
 
 ### dependencia del proveedor ≠ progreso (vendor dependence ≠ progress)
 No aceptamos como progreso la dependencia de los proveedores de IA, de sus modelos y de su tooling.
 
 ### volumen de producción ≠ capacidad (output volume ≠ capability)
-No confundimos la capacidad de generar producción con una capacidad organizativa estratégica.
+No confundimos producir más con llegar a ser una organización más capaz.
 
 En resumen, no dejamos que una moda superficial de adopción de la IA desplace nuestro pensamiento a largo plazo sobre las organizaciones que estamos construyendo. Por eso decimos: **«Primero el diseño organizativo, después la IA.»** Aprendemos a actuar de forma estratégica: definimos qué queremos cambiar en nuestras organizaciones para el bien común, y luego aplicamos la IA — y otros medios — para hacer realidad esos cambios.
 

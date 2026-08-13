@@ -17,13 +17,13 @@ Elke organisatie is uniek in de manier waarop ze is gebouwd en in waar ze naar s
 Door kritisch denken te beoefenen, stellen wij:
 
 ### verloren oordeel ≠ efficiëntie (lost judgment ≠ efficiency)
-Wij beschouwen het verlies van oordeel over code, ontwerp, architectuur, features, waarde niet als efficiëntie.
+Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features of waarde — niet gelijk aan efficiëntie.
 
 ### leveranciersafhankelijkheid ≠ vooruitgang (vendor dependence ≠ progress)
 Wij accepteren afhankelijkheid van AI-leveranciers, hun modellen en hun tooling niet als vooruitgang.
 
 ### outputvolume ≠ vermogen (output volume ≠ capability)
-Wij verwarren het vermogen om output te genereren niet met een strategisch organisatievermogen.
+Wij verwarren meer output produceren niet met een capabelere organisatie worden.
 
 Kortom: wij laten niet toe dat een oppervlakkige AI-adoptiehype ons langetermijndenken verdringt over de organisaties die wij aan het bouwen zijn. Daarom zeggen wij: **“Eerst org-ontwerp, dan AI.”** Wij leren strategisch te handelen: wij bepalen wat wij in onze organisaties willen verschuiven, ten goede van het geheel, en zetten daarna AI — en andere middelen — in om die verschuivingen waar te maken.
 

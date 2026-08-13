@@ -30,7 +30,7 @@
     {
       "from": "verlorenes Urteilsvermögen",
       "to": "Effizienz",
-      "note": "Wir behandeln den Verlust des Urteilsvermögens über Code, Design, Architektur, Features, Wert nicht als Effizienz."
+      "note": "Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features oder Wert — nicht mit Effizienz gleich."
     },
     {
       "from": "Anbieterabhängigkeit",
@@ -40,7 +40,7 @@
     {
       "from": "Output-Menge",
       "to": "Fähigkeit",
-      "note": "Wir verwechseln die Fähigkeit, Output zu erzeugen, nicht mit einer strategischen Organisationsfähigkeit."
+      "note": "Wir verwechseln nicht, mehr Output zu erzeugen, mit einer handlungsfähigeren Organisation zu werden."
     }
   ],
   "refuseOutro": "Kurz: Wir lassen nicht zu, dass eine oberflächliche KI-Adoptionsmode unser langfristiges Denken über die Organisationen verdrängt, die wir bauen. Deshalb sagen wir: <span class=\"definition\">„Erst Org-Design, dann KI.“</span> Wir lernen, strategisch zu handeln: Wir definieren, was wir in unseren Organisationen zum Wohle des Ganzen verschieben wollen, und setzen dann KI — und andere Mittel — ein, um diese Verschiebungen Wirklichkeit werden zu lassen.",

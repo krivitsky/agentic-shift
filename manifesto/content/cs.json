@@ -30,7 +30,7 @@
     {
       "from": "ztracený úsudek",
       "to": "efektivita",
-      "note": "Ztrátu úsudku nad kódem, designem, architekturou, funkcemi, hodnotou nepovažujeme za efektivitu."
+      "note": "Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou."
     },
     {
       "from": "závislost na dodavatelích",
@@ -40,7 +40,7 @@
     {
       "from": "objem výstupů",
       "to": "schopnost",
-      "note": "Nezaměňujeme schopnost generovat výstupy za strategickou organizační schopnost."
+      "note": "Nezaměňujeme vyšší produkci výstupů za to, že se stáváme schopnější organizací."
     }
   ],
   "refuseOutro": "Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: <span class=\"definition\">„Nejdřív organizační design, pak AI.“</span> Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.",

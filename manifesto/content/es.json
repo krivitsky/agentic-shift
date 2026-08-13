@@ -30,7 +30,7 @@
     {
       "from": "juicio perdido",
       "to": "eficiencia",
-      "note": "No tomamos por eficiencia la pérdida del juicio sobre el código, el diseño, la arquitectura, las funcionalidades, el valor."
+      "note": "No equiparamos la pérdida del juicio — sobre el código, el diseño, la arquitectura, las funcionalidades o el valor — con la eficiencia."
     },
     {
       "from": "dependencia del proveedor",
@@ -40,7 +40,7 @@
     {
       "from": "volumen de producción",
       "to": "capacidad",
-      "note": "No confundimos la capacidad de generar producción con una capacidad organizativa estratégica."
+      "note": "No confundimos producir más con llegar a ser una organización más capaz."
     }
   ],
   "refuseOutro": "En resumen, no dejamos que una moda superficial de adopción de la IA desplace nuestro pensamiento a largo plazo sobre las organizaciones que estamos construyendo. Por eso decimos: <span class=\"definition\">«Primero el diseño organizativo, después la IA.»</span> Aprendemos a actuar de forma estratégica: definimos qué queremos cambiar en nuestras organizaciones para el bien común, y luego aplicamos la IA — y otros medios — para hacer realidad esos cambios.",

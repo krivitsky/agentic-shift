@@ -17,13 +17,13 @@ Every organization is unique in the way it was built and in what it aspires to. 
 By practicing critical thinking, we claim:
 
 ### lost judgment ≠ efficiency
-We do not treat the loss of judgment of code, design, architecture, features, value as efficiency.
+We do not equate the loss of judgment — in code, design, architecture, features, or value — with efficiency.
 
 ### vendor dependence ≠ progress
 We do not accept dependence on AI vendors, their models and tooling, as progress.
 
 ### output volume ≠ capability
-We do not confuse the ability to generate output with a strategic organizational capability.
+We do not confuse producing more output with becoming a more capable organization.
 
 In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: **“Org design, then AI.”** We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.
 

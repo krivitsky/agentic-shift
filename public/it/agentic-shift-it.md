@@ -17,13 +17,13 @@ Ogni organizzazione è unica per come è stata costruita e per ciò a cui aspira
 Praticando il pensiero critico, affermiamo:
 
 ### giudizio perduto ≠ efficienza (lost judgment ≠ efficiency)
-Non consideriamo efficienza la perdita del giudizio su codice, design, architettura, funzionalità, valore.
+Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza.
 
 ### dipendenza dai fornitori ≠ progresso (vendor dependence ≠ progress)
 Non accettiamo come progresso la dipendenza dai fornitori di IA, dai loro modelli e dal loro tooling.
 
 ### volume di produzione ≠ capacità (output volume ≠ capability)
-Non confondiamo la capacità di generare produzione con una capacità organizzativa strategica.
+Non confondiamo produrre di più con diventare un'organizzazione più capace.
 
 In breve, non lasciamo che una moda superficiale di adozione dell'IA soffochi il nostro pensiero di lungo periodo sulle organizzazioni che stiamo costruendo. Perciò diciamo: **“Prima la progettazione organizzativa, poi l'IA.”** Impariamo ad agire in modo strategico: definiamo che cosa vogliamo spostare nelle nostre organizzazioni per il bene comune, e poi applichiamo l'IA — e altri mezzi — per rendere reali quegli spostamenti.
 

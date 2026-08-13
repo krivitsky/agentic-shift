@@ -23,9 +23,9 @@ Every organization is unique in the way it was built and in what it aspires to. 
 
 By practicing critical thinking, we claim:
 
-- **lost judgment ≠ efficiency** — We do not treat the loss of judgment of code, design, architecture, features, value as efficiency.
+- **lost judgment ≠ efficiency** — We do not equate the loss of judgment — in code, design, architecture, features, or value — with efficiency.
 - **vendor dependence ≠ progress** — We do not accept dependence on AI vendors, their models and tooling, as progress.
-- **output volume ≠ capability** — We do not confuse the ability to generate output with a strategic organizational capability.
+- **output volume ≠ capability** — We do not confuse producing more output with becoming a more capable organization.
 
 In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: “Org design, then AI.” We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.
 
@@ -65,9 +65,9 @@ Jede Organisation ist einzigartig — darin, wie sie gebaut wurde, und darin, wo
 
 Indem wir kritisches Denken praktizieren, halten wir fest:
 
-- **verlorenes Urteilsvermögen ≠ Effizienz** (lost judgment ≠ efficiency) — Wir behandeln den Verlust des Urteilsvermögens über Code, Design, Architektur, Features, Wert nicht als Effizienz.
+- **verlorenes Urteilsvermögen ≠ Effizienz** (lost judgment ≠ efficiency) — Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features oder Wert — nicht mit Effizienz gleich.
 - **Anbieterabhängigkeit ≠ Fortschritt** (vendor dependence ≠ progress) — Wir akzeptieren die Abhängigkeit von KI-Anbietern, ihren Modellen und ihrem Tooling nicht als Fortschritt.
-- **Output-Menge ≠ Fähigkeit** (output volume ≠ capability) — Wir verwechseln die Fähigkeit, Output zu erzeugen, nicht mit einer strategischen Organisationsfähigkeit.
+- **Output-Menge ≠ Fähigkeit** (output volume ≠ capability) — Wir verwechseln nicht, mehr Output zu erzeugen, mit einer handlungsfähigeren Organisation zu werden.
 
 Kurz: Wir lassen nicht zu, dass eine oberflächliche KI-Adoptionsmode unser langfristiges Denken über die Organisationen verdrängt, die wir bauen. Deshalb sagen wir: „Erst Org-Design, dann KI.“ Wir lernen, strategisch zu handeln: Wir definieren, was wir in unseren Organisationen zum Wohle des Ganzen verschieben wollen, und setzen dann KI — und andere Mittel — ein, um diese Verschiebungen Wirklichkeit werden zu lassen.
 
@@ -107,9 +107,9 @@ Elke organisatie is uniek in de manier waarop ze is gebouwd en in waar ze naar s
 
 Door kritisch denken te beoefenen, stellen wij:
 
-- **verloren oordeel ≠ efficiëntie** (lost judgment ≠ efficiency) — Wij beschouwen het verlies van oordeel over code, ontwerp, architectuur, features, waarde niet als efficiëntie.
+- **verloren oordeel ≠ efficiëntie** (lost judgment ≠ efficiency) — Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features of waarde — niet gelijk aan efficiëntie.
 - **leveranciersafhankelijkheid ≠ vooruitgang** (vendor dependence ≠ progress) — Wij accepteren afhankelijkheid van AI-leveranciers, hun modellen en hun tooling niet als vooruitgang.
-- **outputvolume ≠ vermogen** (output volume ≠ capability) — Wij verwarren het vermogen om output te genereren niet met een strategisch organisatievermogen.
+- **outputvolume ≠ vermogen** (output volume ≠ capability) — Wij verwarren meer output produceren niet met een capabelere organisatie worden.
 
 Kortom: wij laten niet toe dat een oppervlakkige AI-adoptiehype ons langetermijndenken verdringt over de organisaties die wij aan het bouwen zijn. Daarom zeggen wij: “Eerst org-ontwerp, dan AI.” Wij leren strategisch te handelen: wij bepalen wat wij in onze organisaties willen verschuiven, ten goede van het geheel, en zetten daarna AI — en andere middelen — in om die verschuivingen waar te maken.
 
@@ -149,9 +149,9 @@ Chaque organisation est unique par la manière dont elle a été bâtie et par c
 
 En pratiquant la pensée critique, nous affirmons :
 
-- **jugement perdu ≠ efficacité** (lost judgment ≠ efficiency) — Nous ne prenons pas la perte du jugement sur le code, le design, l'architecture, les fonctionnalités, la valeur pour de l'efficacité.
+- **jugement perdu ≠ efficacité** (lost judgment ≠ efficiency) — Nous n'assimilons pas la perte du jugement — sur le code, le design, l'architecture, les fonctionnalités ou la valeur — à de l'efficacité.
 - **dépendance aux fournisseurs ≠ progrès** (vendor dependence ≠ progress) — Nous n'acceptons pas la dépendance aux fournisseurs d'IA, à leurs modèles et à leur outillage comme un progrès.
-- **volume produit ≠ capacité** (output volume ≠ capability) — Nous ne confondons pas la capacité à générer de la production avec une capacité organisationnelle stratégique.
+- **volume produit ≠ capacité** (output volume ≠ capability) — Nous ne confondons pas produire davantage avec devenir une organisation plus capable.
 
 En bref, nous ne laissons pas une mode superficielle d'adoption de l'IA évincer notre réflexion de long terme sur les organisations que nous construisons. Nous disons donc : « Le design organisationnel d'abord, l'IA ensuite. » Nous apprenons à agir stratégiquement : nous définissons ce que nous voulons faire basculer dans nos organisations pour le bien commun, puis nous mobilisons l'IA — et d'autres moyens — pour rendre ces basculements réels.
 
@@ -191,9 +191,9 @@ Ogni organizzazione è unica per come è stata costruita e per ciò a cui aspira
 
 Praticando il pensiero critico, affermiamo:
 
-- **giudizio perduto ≠ efficienza** (lost judgment ≠ efficiency) — Non consideriamo efficienza la perdita del giudizio su codice, design, architettura, funzionalità, valore.
+- **giudizio perduto ≠ efficienza** (lost judgment ≠ efficiency) — Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza.
 - **dipendenza dai fornitori ≠ progresso** (vendor dependence ≠ progress) — Non accettiamo come progresso la dipendenza dai fornitori di IA, dai loro modelli e dal loro tooling.
-- **volume di produzione ≠ capacità** (output volume ≠ capability) — Non confondiamo la capacità di generare produzione con una capacità organizzativa strategica.
+- **volume di produzione ≠ capacità** (output volume ≠ capability) — Non confondiamo produrre di più con diventare un'organizzazione più capace.
 
 In breve, non lasciamo che una moda superficiale di adozione dell'IA soffochi il nostro pensiero di lungo periodo sulle organizzazioni che stiamo costruendo. Perciò diciamo: “Prima la progettazione organizzativa, poi l'IA.” Impariamo ad agire in modo strategico: definiamo che cosa vogliamo spostare nelle nostre organizzazioni per il bene comune, e poi applichiamo l'IA — e altri mezzi — per rendere reali quegli spostamenti.
 
@@ -233,9 +233,9 @@ Cada organización es única por cómo fue construida y por aquello a lo que asp
 
 Al practicar el pensamiento crítico, afirmamos:
 
-- **juicio perdido ≠ eficiencia** (lost judgment ≠ efficiency) — No tomamos por eficiencia la pérdida del juicio sobre el código, el diseño, la arquitectura, las funcionalidades, el valor.
+- **juicio perdido ≠ eficiencia** (lost judgment ≠ efficiency) — No equiparamos la pérdida del juicio — sobre el código, el diseño, la arquitectura, las funcionalidades o el valor — con la eficiencia.
 - **dependencia del proveedor ≠ progreso** (vendor dependence ≠ progress) — No aceptamos como progreso la dependencia de los proveedores de IA, de sus modelos y de su tooling.
-- **volumen de producción ≠ capacidad** (output volume ≠ capability) — No confundimos la capacidad de generar producción con una capacidad organizativa estratégica.
+- **volumen de producción ≠ capacidad** (output volume ≠ capability) — No confundimos producir más con llegar a ser una organización más capaz.
 
 En resumen, no dejamos que una moda superficial de adopción de la IA desplace nuestro pensamiento a largo plazo sobre las organizaciones que estamos construyendo. Por eso decimos: «Primero el diseño organizativo, después la IA.» Aprendemos a actuar de forma estratégica: definimos qué queremos cambiar en nuestras organizaciones para el bien común, y luego aplicamos la IA — y otros medios — para hacer realidad esos cambios.
 
@@ -275,9 +275,9 @@ Cada organização é única na forma como foi construída e naquilo a que aspir
 
 Ao praticar o pensamento crítico, afirmamos:
 
-- **juízo perdido ≠ eficiência** (lost judgment ≠ efficiency) — Não tomamos por eficiência a perda do juízo sobre o código, o design, a arquitetura, as funcionalidades, o valor.
+- **juízo perdido ≠ eficiência** (lost judgment ≠ efficiency) — Não equiparamos a perda do juízo — sobre o código, o design, a arquitetura, as funcionalidades ou o valor — à eficiência.
 - **dependência de fornecedores ≠ progresso** (vendor dependence ≠ progress) — Não aceitamos como progresso a dependência dos fornecedores de IA, dos seus modelos e do seu tooling.
-- **volume de produção ≠ capacidade** (output volume ≠ capability) — Não confundimos a capacidade de gerar produção com uma capacidade organizacional estratégica.
+- **volume de produção ≠ capacidade** (output volume ≠ capability) — Não confundimos produzir mais com tornar-nos uma organização mais capaz.
 
 Em suma, não deixamos que uma moda superficial de adoção da IA sufoque o nosso pensamento de longo prazo sobre as organizações que estamos a construir. Por isso dizemos: «Primeiro o design organizacional, depois a IA.» Aprendemos a agir estrategicamente: definimos o que queremos mudar nas nossas organizações para o bem comum e, depois, aplicamos a IA — e outros meios — para tornar essas mudanças reais.
 
@@ -317,9 +317,9 @@ Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu smě
 
 Praktikováním kritického myšlení tvrdíme:
 
-- **ztracený úsudek ≠ efektivita** (lost judgment ≠ efficiency) — Ztrátu úsudku nad kódem, designem, architekturou, funkcemi, hodnotou nepovažujeme za efektivitu.
+- **ztracený úsudek ≠ efektivita** (lost judgment ≠ efficiency) — Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou.
 - **závislost na dodavatelích ≠ pokrok** (vendor dependence ≠ progress) — Závislost na dodavatelích AI, na jejich modelech a nástrojích nepřijímáme jako pokrok.
-- **objem výstupů ≠ schopnost** (output volume ≠ capability) — Nezaměňujeme schopnost generovat výstupy za strategickou organizační schopnost.
+- **objem výstupů ≠ schopnost** (output volume ≠ capability) — Nezaměňujeme vyšší produkci výstupů za to, že se stáváme schopnější organizací.
 
 Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: „Nejdřív organizační design, pak AI.“ Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.
 
@@ -359,9 +359,9 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 Практикуючи критичне мислення, ми стверджуємо:
 
-- **втрачене судження ≠ ефективність** (lost judgment ≠ efficiency) — Ми не вважаємо ефективністю втрату судження щодо коду, дизайну, архітектури, функцій, цінності.
+- **втрачене судження ≠ ефективність** (lost judgment ≠ efficiency) — Ми не ототожнюємо втрату судження — щодо коду, дизайну, архітектури, функцій чи цінності — з ефективністю.
 - **залежність від вендорів ≠ прогрес** (vendor dependence ≠ progress) — Ми не приймаємо за прогрес залежність від ШІ-вендорів, їхніх моделей та інструментів.
-- **обсяг виробітку ≠ спроможність** (output volume ≠ capability) — Ми не плутаємо здатність генерувати виробіток зі стратегічною організаційною спроможністю.
+- **обсяг виробітку ≠ спроможність** (output volume ≠ capability) — Ми не плутаємо виробництво більшої кількості результатів зі становленням спроможнішої організації.
 
 Коротко: ми не дозволяємо, щоб поверхнева мода на впровадження ШІ витіснила наше довгострокове мислення про організації, які ми будуємо. Тому ми кажемо: «Спершу організаційний дизайн, потім ШІ.» Ми вчимося діяти стратегічно: визначаємо, що саме хочемо зрушити у своїх організаціях задля спільного блага, а вже потім застосовуємо ШІ — та інші засоби — щоб втілити ці зрушення.
 
@@ -401,9 +401,9 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 Практикуя критическое мышление, мы утверждаем:
 
-- **утраченное суждение ≠ эффективность** (lost judgment ≠ efficiency) — Мы не считаем эффективностью утрату суждения о коде, дизайне, архитектуре, функциях, ценности.
+- **утраченное суждение ≠ эффективность** (lost judgment ≠ efficiency) — Мы не отождествляем утрату суждения — о коде, дизайне, архитектуре, функциях или ценности — с эффективностью.
 - **зависимость от вендоров ≠ прогресс** (vendor dependence ≠ progress) — Мы не принимаем за прогресс зависимость от ИИ-вендоров, их моделей и инструментов.
-- **объём выработки ≠ способность** (output volume ≠ capability) — Мы не путаем способность порождать выработку со стратегической организационной способностью.
+- **объём выработки ≠ способность** (output volume ≠ capability) — Мы не путаем производство большего объёма выработки со становлением более способной организации.
 
 Коротко: мы не позволяем поверхностной моде на внедрение ИИ вытеснить наше долгосрочное мышление об организациях, которые мы строим. Поэтому мы говорим: «Сначала организационный дизайн, потом ИИ.» Мы учимся действовать стратегически: определяем, что хотим сдвинуть в своих организациях ради общего блага, и только затем применяем ИИ — и другие средства — чтобы эти сдвиги состоялись.
 
@@ -443,9 +443,9 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 通过践行批判性思考，我们主张：
 
-- **判断力的丧失 ≠ 效率** (lost judgment ≠ efficiency) — 我们不把对代码、设计、架构、功能、价值的判断力的丧失当作效率。
+- **判断力的丧失 ≠ 效率** (lost judgment ≠ efficiency) — 我们不把判断力的丧失——无论是在代码、设计、架构、功能还是价值上——等同于效率。
 - **供应商依赖 ≠ 进步** (vendor dependence ≠ progress) — 我们不接受把对 AI 供应商及其模型与工具的依赖当作进步。
-- **产出量 ≠ 能力** (output volume ≠ capability) — 我们不把生成产出的本事，混同为一项战略性的组织能力。
+- **产出量 ≠ 能力** (output volume ≠ capability) — 我们不把产出更多，混同为组织变得更有能力。
 
 简而言之，我们不会让一阵浅薄的 AI 采纳风潮，挤掉我们对正在建设的组织的长期思考。所以我们说：「先做组织设计，再谈 AI。」我们学着以战略的方式行动：先定义我们希望在组织中为整体利益做出什么转变，然后再运用 AI——以及其他手段——把这些转变变成现实。
 
@@ -485,9 +485,9 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 批判的思考を実践することで、私たちはこう主張します。
 
-- **失われた判断 ≠ 効率** (lost judgment ≠ efficiency) — コード、デザイン、アーキテクチャ、機能、価値についての判断が失われることを、私たちは効率とは呼びません。
+- **失われた判断 ≠ 効率** (lost judgment ≠ efficiency) — コード、デザイン、アーキテクチャ、機能、価値のいずれにおいても、判断が失われることを私たちは効率と同一視しません。
 - **ベンダー依存 ≠ 進歩** (vendor dependence ≠ progress) — AI ベンダー、そのモデルとツールへの依存を、私たちは進歩として受け入れません。
-- **産出量 ≠ 能力** (output volume ≠ capability) — アウトプットを生み出せることを、戦略的な組織能力と取り違えません。
+- **産出量 ≠ 能力** (output volume ≠ capability) — より多くのアウトプットを出すことを、より力のある組織になることと取り違えません。
 
 要するに私たちは、浅い AI 導入の流行が、いま築こうとしている組織についての長期的な思考を押しのけることを許しません。だから私たちはこう言います。「まず組織デザイン、そのあとに AI。」私たちは戦略的に動くことを学びます。まず、全体のために組織の何を動かしたいのかを定め、そのうえで AI を——ほかの手段とともに——使って、その転換を現実にします。
 

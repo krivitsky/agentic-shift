@@ -17,13 +17,13 @@ Chaque organisation est unique par la manière dont elle a été bâtie et par c
 En pratiquant la pensée critique, nous affirmons :
 
 ### jugement perdu ≠ efficacité (lost judgment ≠ efficiency)
-Nous ne prenons pas la perte du jugement sur le code, le design, l'architecture, les fonctionnalités, la valeur pour de l'efficacité.
+Nous n'assimilons pas la perte du jugement — sur le code, le design, l'architecture, les fonctionnalités ou la valeur — à de l'efficacité.
 
 ### dépendance aux fournisseurs ≠ progrès (vendor dependence ≠ progress)
 Nous n'acceptons pas la dépendance aux fournisseurs d'IA, à leurs modèles et à leur outillage comme un progrès.
 
 ### volume produit ≠ capacité (output volume ≠ capability)
-Nous ne confondons pas la capacité à générer de la production avec une capacité organisationnelle stratégique.
+Nous ne confondons pas produire davantage avec devenir une organisation plus capable.
 
 En bref, nous ne laissons pas une mode superficielle d'adoption de l'IA évincer notre réflexion de long terme sur les organisations que nous construisons. Nous disons donc : **« Le design organisationnel d'abord, l'IA ensuite. »** Nous apprenons à agir stratégiquement : nous définissons ce que nous voulons faire basculer dans nos organisations pour le bien commun, puis nous mobilisons l'IA — et d'autres moyens — pour rendre ces basculements réels.
 

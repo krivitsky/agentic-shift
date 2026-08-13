@@ -30,7 +30,7 @@
     {
       "from": "verloren oordeel",
       "to": "efficiëntie",
-      "note": "Wij beschouwen het verlies van oordeel over code, ontwerp, architectuur, features, waarde niet als efficiëntie."
+      "note": "Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features of waarde — niet gelijk aan efficiëntie."
     },
     {
       "from": "leveranciersafhankelijkheid",
@@ -40,7 +40,7 @@
     {
       "from": "outputvolume",
       "to": "vermogen",
-      "note": "Wij verwarren het vermogen om output te genereren niet met een strategisch organisatievermogen."
+      "note": "Wij verwarren meer output produceren niet met een capabelere organisatie worden."
     }
   ],
   "refuseOutro": "Kortom: wij laten niet toe dat een oppervlakkige AI-adoptiehype ons langetermijndenken verdringt over de organisaties die wij aan het bouwen zijn. Daarom zeggen wij: <span class=\"definition\">“Eerst org-ontwerp, dan AI.”</span> Wij leren strategisch te handelen: wij bepalen wat wij in onze organisaties willen verschuiven, ten goede van het geheel, en zetten daarna AI — en andere middelen — in om die verschuivingen waar te maken.",

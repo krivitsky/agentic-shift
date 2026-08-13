@@ -17,13 +17,13 @@ Jede Organisation ist einzigartig — darin, wie sie gebaut wurde, und darin, wo
 Indem wir kritisches Denken praktizieren, halten wir fest:
 
 ### verlorenes Urteilsvermögen ≠ Effizienz (lost judgment ≠ efficiency)
-Wir behandeln den Verlust des Urteilsvermögens über Code, Design, Architektur, Features, Wert nicht als Effizienz.
+Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features oder Wert — nicht mit Effizienz gleich.
 
 ### Anbieterabhängigkeit ≠ Fortschritt (vendor dependence ≠ progress)
 Wir akzeptieren die Abhängigkeit von KI-Anbietern, ihren Modellen und ihrem Tooling nicht als Fortschritt.
 
 ### Output-Menge ≠ Fähigkeit (output volume ≠ capability)
-Wir verwechseln die Fähigkeit, Output zu erzeugen, nicht mit einer strategischen Organisationsfähigkeit.
+Wir verwechseln nicht, mehr Output zu erzeugen, mit einer handlungsfähigeren Organisation zu werden.
 
 Kurz: Wir lassen nicht zu, dass eine oberflächliche KI-Adoptionsmode unser langfristiges Denken über die Organisationen verdrängt, die wir bauen. Deshalb sagen wir: **„Erst Org-Design, dann KI.“** Wir lernen, strategisch zu handeln: Wir definieren, was wir in unseren Organisationen zum Wohle des Ganzen verschieben wollen, und setzen dann KI — und andere Mittel — ein, um diese Verschiebungen Wirklichkeit werden zu lassen.
 

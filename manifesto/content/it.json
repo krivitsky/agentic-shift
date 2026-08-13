@@ -30,7 +30,7 @@
     {
       "from": "giudizio perduto",
       "to": "efficienza",
-      "note": "Non consideriamo efficienza la perdita del giudizio su codice, design, architettura, funzionalità, valore."
+      "note": "Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza."
     },
     {
       "from": "dipendenza dai fornitori",
@@ -40,7 +40,7 @@
     {
       "from": "volume di produzione",
       "to": "capacità",
-      "note": "Non confondiamo la capacità di generare produzione con una capacità organizzativa strategica."
+      "note": "Non confondiamo produrre di più con diventare un'organizzazione più capace."
     }
   ],
   "refuseOutro": "In breve, non lasciamo che una moda superficiale di adozione dell'IA soffochi il nostro pensiero di lungo periodo sulle organizzazioni che stiamo costruendo. Perciò diciamo: <span class=\"definition\">“Prima la progettazione organizzativa, poi l'IA.”</span> Impariamo ad agire in modo strategico: definiamo che cosa vogliamo spostare nelle nostre organizzazioni per il bene comune, e poi applichiamo l'IA — e altri mezzi — per rendere reali quegli spostamenti.",

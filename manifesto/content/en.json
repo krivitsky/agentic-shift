@@ -30,7 +30,7 @@
     {
       "from": "lost judgment",
       "to": "efficiency",
-      "note": "We do not treat the loss of judgment of code, design, architecture, features, value as efficiency."
+      "note": "We do not equate the loss of judgment — in code, design, architecture, features, or value — with efficiency."
     },
     {
       "from": "vendor dependence",
@@ -40,7 +40,7 @@
     {
       "from": "output volume",
       "to": "capability",
-      "note": "We do not confuse the ability to generate output with a strategic organizational capability."
+      "note": "We do not confuse producing more output with becoming a more capable organization."
     }
   ],
   "refuseOutro": "In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: <span class=\"definition\">“Org design, then AI.”</span> We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.",
