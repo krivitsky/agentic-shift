@@ -4,27 +4,27 @@
   "dir": "/cz/",
   "meta": {
     "title": "Agentic Shift — Nejdřív organizační design, pak AI",
-    "description": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami. Za čím stojíme, co odmítáme, kam se posouváme.",
+    "description": "Ke zdravým organizacím se skvělými produkty a službami — pryč od tokenmaxingu a dalšího AI divadla. Za čím stojíme, kam se posouváme, co odmítáme.",
     "keywords": "agentic shift, agentní produktové inženýrství, agentic product engineering, AI agenti, organizační design, produktové inženýrství, Alexey Krivitsky, Martin Westphal",
     "ogTitle": "Agentic Shift — Nejdřív organizační design, pak AI",
-    "ogDescription": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami.",
-    "schemaDescription": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami.",
+    "ogDescription": "Ke zdravým organizacím se skvělými produkty a službami — pryč od tokenmaxingu a dalšího AI divadla.",
+    "schemaDescription": "Ke zdravým organizacím se skvělými produkty a službami — pryč od tokenmaxingu a dalšího AI divadla.",
     "llmsTitle": "Agentic Shift — strojově čitelná (LLM) verze"
   },
   "hero": {
     "kicker": "Zachovat zdravý rozum v závodě o AI",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami."
+    "subtitle": "Ke zdravým organizacím se skvělými produkty a službami — pryč od tokenmaxingu a dalšího AI divadla."
   },
   "standHead": "Za čím stojíme",
   "stand": [
-    "<span class=\"definition\">Agentní posun</span> je skutečný. Zasahuje naše organizace do hloubky a mění, jak přemýšlíme o práci i o lidech, kteří ji dělají.",
-    "Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování lepších organizací, které nabízejí lepší produkty a služby. Na tom záleží.",
-    "Každý pro něco optimalizuje. Špičkové laboratoře optimalizují pro přijetí svých produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to legitimní byznys, a je jejich, ne náš.",
+    "<span class=\"definition\">Agentní posun</span> je skutečný a je to skutečná příležitost. Zasahuje naše organizace do hloubky a mění, jak přemýšlíme o práci i o lidech, kteří ji dělají. Tyto nástroje používáme každý den a rádi s nimi pracujeme.",
+    "Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování <span class=\"definition\">lepších, zdravějších organizací</span>, které nabízejí lepší produkty a služby. Na tom záleží.",
     "Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu směřuje. Řídíme <span class=\"definition\">své</span> organizace a jsme souzeni podle toho, na čem záleží <span class=\"definition\">nám</span> — <span class=\"definition\">našim</span> zákazníkům, zaměstnancům a dalším zainteresovaným. Proto je pro nás jedna věc nesmlouvavá: <span class=\"definition\">agentní posun se děje za našich podmínek</span>."
   ],
   "refuseHead": "Co odmítáme přijmout",
+  "refuseIntro": "Špičkové laboratoře optimalizují pro přijetí svých produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to legitimní byznys, a je jejich, ne náš.",
   "refusals": [
     {
       "from": "ztracený úsudek",

@@ -4,27 +4,27 @@
   "dir": "/es/",
   "meta": {
     "title": "Agentic Shift — Primero el diseño organizativo, después la IA",
-    "description": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas con grandes productos y servicios. Lo que defendemos, lo que rechazamos, hacia dónde nos movemos.",
+    "description": "Hacia organizaciones sanas con grandes productos y servicios — lejos del tokenmaxing y del resto del teatro de la IA. Lo que defendemos, hacia dónde nos movemos, lo que rechazamos.",
     "keywords": "agentic shift, ingeniería de producto agéntica, agentic product engineering, agentes de IA, diseño organizativo, ingeniería de producto, Alexey Krivitsky, Martin Westphal",
     "ogTitle": "Agentic Shift — Primero el diseño organizativo, después la IA",
-    "ogDescription": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas con grandes productos y servicios.",
-    "schemaDescription": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas con grandes productos y servicios.",
+    "ogDescription": "Hacia organizaciones sanas con grandes productos y servicios — lejos del tokenmaxing y del resto del teatro de la IA.",
+    "schemaDescription": "Hacia organizaciones sanas con grandes productos y servicios — lejos del tokenmaxing y del resto del teatro de la IA.",
     "llmsTitle": "Agentic Shift — versión legible por máquina (LLM)"
   },
   "hero": {
     "kicker": "Mantener la cordura en la carrera de la IA",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas con grandes productos y servicios."
+    "subtitle": "Hacia organizaciones sanas con grandes productos y servicios — lejos del tokenmaxing y del resto del teatro de la IA."
   },
   "standHead": "Lo que defendemos",
   "stand": [
-    "El <span class=\"definition\">cambio agéntico</span> es real. Afecta a nuestras organizaciones en profundidad y transforma cómo pensamos sobre el trabajo y sobre quienes lo hacen.",
-    "Lo que sí sabemos es que no va de tooling, ni de tokens, ni de ninguna otra métrica de producción que resulte fácil de medir. Va de construir mejores organizaciones, que ofrezcan mejores productos y servicios. Eso es lo que importa.",
-    "Todo el mundo optimiza para algo. Los laboratorios de frontera optimizan la adopción de sus productos, y el FOMO es la palanca más fuerte de la que tiran sobre nosotros. Es un negocio legítimo, y es el suyo, no el nuestro.",
+    "El <span class=\"definition\">cambio agéntico</span> es real, y es una verdadera oportunidad. Afecta a nuestras organizaciones en profundidad y transforma cómo pensamos sobre el trabajo y sobre quienes lo hacen. Usamos estas herramientas cada día y disfrutamos usándolas.",
+    "Lo que sí sabemos es que no va de tooling, ni de tokens, ni de ninguna otra métrica de producción que resulte fácil de medir. Va de construir <span class=\"definition\">organizaciones mejores y más sanas</span>, que ofrezcan mejores productos y servicios. Eso es lo que importa.",
     "Cada organización es única por cómo fue construida y por aquello a lo que aspira. Nosotros dirigimos <span class=\"definition\">nuestras</span> organizaciones, y se nos juzga por lo que nos importa a <span class=\"definition\">nosotros</span> — <span class=\"definition\">nuestros</span> clientes, empleados y demás partes interesadas. Por eso, para nosotros hay algo que no es negociable: <span class=\"definition\">el cambio agéntico ocurre en nuestros términos</span>."
   ],
   "refuseHead": "Lo que nos negamos a aceptar",
+  "refuseIntro": "Los laboratorios de frontera optimizan la adopción de sus productos, y el FOMO es la palanca más fuerte de la que tiran sobre nosotros. Es un negocio legítimo, y es el suyo, no el nuestro.",
   "refusals": [
     {
       "from": "juicio perdido",

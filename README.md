@@ -8,32 +8,17 @@
 
 > _Generated from [`manifesto/content/en.json`](manifesto/content/en.json) — edit the JSON (and its siblings for other languages), then run `node manifesto/build.js`. Do not edit this section by hand._
 
-_From tokenmaxing and other AI theater towards healthy organizations with great products and services._
+_Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater._
 
 ## What we stand for
 
-The **agentic shift** is real. It affects our organizations deeply, changing how we think about the work and the workers.
+The **agentic shift** is real, and it is a real opportunity. It affects our organizations deeply, changing how we think about the work and the workers. We use these tools every day and enjoy them.
 
-What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building better organizations that offer better products and services. That's what matters.
-
-Everyone is optimizing for something. The frontier labs optimize for the adoption of their products, and FOMO is the strongest lever they pull on us. That is a legitimate business, and it is theirs, not ours.
+What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building **better, healthier organizations** that offer better products and services. That's what matters.
 
 Every organization is unique in the way it was built and in what it aspires to. We run **our** organizations, and we are judged on what matters to **us** — **our** customers, employees, and other stakeholders. So for us one thing is non-negotiable: **the agentic shift happens on our terms**.
 
-## What we refuse to accept
-
-### lost judgment ≠ efficiency
-We do not equate the loss of judgment — in code, design, architecture, features, or value — with efficiency.
-
-### vendor dependence ≠ progress
-We do not accept dependence on AI vendors, their models and tooling, as progress.
-
-### output volume ≠ capability
-We do not confuse producing more output with becoming a more capable organization.
-
-In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: **“Org design, then AI.”** We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.
-
-## What we shift towards
+## What we shift toward
 
 Product engineering organizations that hold on to sustainable quality, customer value and high adaptability make the following strategic shifts, with AI as a lever to ease them:
 
@@ -49,6 +34,21 @@ Elevating product engineers from being measured by output to owning the complete
 These shifts are not new. They were well documented and recommended long before AI. What AI changes is not whether they are right — only how hard they are to make.
 
 Now, which shifts your organization takes on is **yours to decide**. What matters is that they are **strategic, not shortsighted** — that they serve the organization you want to have in years rather than the numbers FOMO would have you chase this quarter.
+
+## What we refuse to accept
+
+The frontier labs optimize for the adoption of their products, and FOMO is the strongest lever they pull on us. That is a legitimate business, and it is theirs, not ours.
+
+### lost judgment ≠ efficiency
+We do not equate the loss of judgment — in code, design, architecture, features, or value — with efficiency.
+
+### vendor dependence ≠ progress
+We do not accept dependence on AI vendors, their models and tooling, as progress.
+
+### output volume ≠ capability
+We do not confuse producing more output with becoming a more capable organization.
+
+In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: **“Org design, then AI.”** We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.
 
 ## What's Next?
 

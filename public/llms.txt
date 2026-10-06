@@ -1,33 +1,23 @@
 # Agentic Shift
 
 > A manifesto for organizations going through the agentic shift on their own terms — where we stand,
-> what we refuse, what we shift — and the Agentic Shift Munich meetups. Live at https://agentic-shift.com
+> what we shift, what we refuse — and the Agentic Shift Munich meetups. Live at https://agentic-shift.com
 
 <!-- MANIFESTO:START -->
 
 ## Manifesto (English)
 
-**Agentic Shift** — From tokenmaxing and other AI theater towards healthy organizations with great products and services.
+**Agentic Shift** — Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater.
 
 ### What we stand for
 
-The agentic shift is real. It affects our organizations deeply, changing how we think about the work and the workers.
+The agentic shift is real, and it is a real opportunity. It affects our organizations deeply, changing how we think about the work and the workers. We use these tools every day and enjoy them.
 
-What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building better organizations that offer better products and services. That's what matters.
-
-Everyone is optimizing for something. The frontier labs optimize for the adoption of their products, and FOMO is the strongest lever they pull on us. That is a legitimate business, and it is theirs, not ours.
+What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building better, healthier organizations that offer better products and services. That's what matters.
 
 Every organization is unique in the way it was built and in what it aspires to. We run our organizations, and we are judged on what matters to us — our customers, employees, and other stakeholders. So for us one thing is non-negotiable: the agentic shift happens on our terms.
 
-### What we refuse to accept
-
-- **lost judgment ≠ efficiency** — We do not equate the loss of judgment — in code, design, architecture, features, or value — with efficiency.
-- **vendor dependence ≠ progress** — We do not accept dependence on AI vendors, their models and tooling, as progress.
-- **output volume ≠ capability** — We do not confuse producing more output with becoming a more capable organization.
-
-In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: “Org design, then AI.” We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.
-
-### What we shift towards
+### What we shift toward
 
 Product engineering organizations that hold on to sustainable quality, customer value and high adaptability make the following strategic shifts, with AI as a lever to ease them:
 
@@ -39,6 +29,16 @@ These shifts are not new. They were well documented and recommended long before 
 
 Now, which shifts your organization takes on is yours to decide. What matters is that they are strategic, not shortsighted — that they serve the organization you want to have in years rather than the numbers FOMO would have you chase this quarter.
 
+### What we refuse to accept
+
+The frontier labs optimize for the adoption of their products, and FOMO is the strongest lever they pull on us. That is a legitimate business, and it is theirs, not ours.
+
+- **lost judgment ≠ efficiency** — We do not equate the loss of judgment — in code, design, architecture, features, or value — with efficiency.
+- **vendor dependence ≠ progress** — We do not accept dependence on AI vendors, their models and tooling, as progress.
+- **output volume ≠ capability** — We do not confuse producing more output with becoming a more capable organization.
+
+In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: “Org design, then AI.” We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.
+
 ### What's Next?
 
 **Want to contribute?** Propose improvements (https://github.com/krivitsky/agentic-shift). Share this page. Put these ideas to work in your organization.
@@ -47,25 +47,15 @@ Now, which shifts your organization takes on is yours to decide. What matters is
 
 ## Manifesto (Deutsch)
 
-**Agentic Shift** — Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services.
+**Agentic Shift** — Hin zu gesunden Organisationen mit großartigen Produkten und Services — weg von Tokenmaxing und anderem KI-Theater.
 
 ### Wofür wir stehen
 
-Der agentic shift ist real. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir über die Arbeit und die Arbeitenden denken.
+Der agentic shift ist real, und er ist eine echte Chance. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir über die Arbeit und die Arbeitenden denken. Wir nutzen diese Tools jeden Tag und arbeiten gern damit.
 
-Was wir aber wissen: Es geht nicht um Tooling, um Tokens oder um irgendeine andere Output-Kennzahl, die sich zufällig leicht messen lässt. Es geht darum, bessere Organisationen zu bauen, die bessere Produkte und Services anbieten. Darauf kommt es an.
-
-Alle optimieren auf irgendetwas hin. Die führenden KI-Labore optimieren auf die Adoption ihrer Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist ein legitimes Geschäft, und es ist ihres, nicht unseres.
+Was wir aber wissen: Es geht nicht um Tooling, um Tokens oder um irgendeine andere Output-Kennzahl, die sich zufällig leicht messen lässt. Es geht darum, bessere, gesündere Organisationen zu bauen, die bessere Produkte und Services anbieten. Darauf kommt es an.
 
 Jede Organisation ist einzigartig — darin, wie sie gebaut wurde, und darin, wonach sie strebt. Wir führen unsere Organisationen, und wir werden daran gemessen, was für uns zählt — unsere Kundinnen und Kunden, Mitarbeitenden und weiteren Stakeholder. Deshalb ist für uns eines nicht verhandelbar: Der agentic shift geschieht zu unseren Bedingungen.
-
-### Was wir nicht akzeptieren
-
-- **verlorenes Urteilsvermögen ≠ Effizienz** (lost judgment ≠ efficiency) — Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features oder Wert — nicht mit Effizienz gleich.
-- **Anbieterabhängigkeit ≠ Fortschritt** (vendor dependence ≠ progress) — Wir akzeptieren die Abhängigkeit von KI-Anbietern, ihren Modellen und ihrem Tooling nicht als Fortschritt.
-- **Output-Menge ≠ Fähigkeit** (output volume ≠ capability) — Wir verwechseln nicht, mehr Output zu erzeugen, mit einer handlungsfähigeren Organisation zu werden.
-
-Kurz: Wir lassen nicht zu, dass eine oberflächliche KI-Adoptionsmode unser langfristiges Denken über die Organisationen verdrängt, die wir bauen. Deshalb sagen wir: „Erst Org-Design, dann KI.“ Wir lernen, strategisch zu handeln: Wir definieren, was wir in unseren Organisationen zum Wohle des Ganzen verschieben wollen, und setzen dann KI — und andere Mittel — ein, um diese Verschiebungen Wirklichkeit werden zu lassen.
 
 ### Wohin wir uns bewegen
 
@@ -79,6 +69,16 @@ Diese Verschiebungen sind nicht neu. Sie waren lange vor KI gut dokumentiert und
 
 Welche Verschiebungen deine Organisation nun angeht, ist deine Entscheidung. Entscheidend ist, dass sie strategisch und nicht kurzsichtig sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.
 
+### Was wir nicht akzeptieren
+
+Die führenden KI-Labore optimieren auf die Adoption ihrer Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist ein legitimes Geschäft, und es ist ihres, nicht unseres.
+
+- **verlorenes Urteilsvermögen ≠ Effizienz** (lost judgment ≠ efficiency) — Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features oder Wert — nicht mit Effizienz gleich.
+- **Anbieterabhängigkeit ≠ Fortschritt** (vendor dependence ≠ progress) — Wir akzeptieren die Abhängigkeit von KI-Anbietern, ihren Modellen und ihrem Tooling nicht als Fortschritt.
+- **Output-Menge ≠ Fähigkeit** (output volume ≠ capability) — Wir verwechseln nicht, mehr Output zu erzeugen, mit einer handlungsfähigeren Organisation zu werden.
+
+Kurz: Wir lassen nicht zu, dass eine oberflächliche KI-Adoptionsmode unser langfristiges Denken über die Organisationen verdrängt, die wir bauen. Deshalb sagen wir: „Erst Org-Design, dann KI.“ Wir lernen, strategisch zu handeln: Wir definieren, was wir in unseren Organisationen zum Wohle des Ganzen verschieben wollen, und setzen dann KI — und andere Mittel — ein, um diese Verschiebungen Wirklichkeit werden zu lassen.
+
 ### Was kommt als Nächstes
 
 **Mitmachen?** Verbesserungen vorschlagen (https://github.com/krivitsky/agentic-shift). Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen.
@@ -87,25 +87,15 @@ Welche Verschiebungen deine Organisation nun angeht, ist deine Entscheidung. Ent
 
 ## Manifesto (Nederlands)
 
-**Agentic Shift** — Van tokenmaxing en ander AI-theater naar gezonde organisaties met geweldige producten en diensten.
+**Agentic Shift** — Naar gezonde organisaties met geweldige producten en diensten — weg van tokenmaxing en ander AI-theater.
 
 ### Waar wij voor staan
 
-De agentic shift is echt. Hij raakt onze organisaties diep en verandert hoe wij denken over het werk en over de mensen die het doen.
+De agentic shift is echt, en hij is een echte kans. Hij raakt onze organisaties diep en verandert hoe wij denken over het werk en over de mensen die het doen. Wij gebruiken deze tools elke dag en werken er graag mee.
 
-Wat wij wél weten, is dat het niet gaat om tooling, tokens of welke andere outputmaat dan ook die toevallig makkelijk te meten is. Het gaat om het bouwen van betere organisaties die betere producten en diensten leveren. Dát is wat telt.
-
-Iedereen optimaliseert ergens voor. De frontier labs optimaliseren voor de adoptie van hun producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is een legitieme business, en het is de hunne, niet de onze.
+Wat wij wél weten, is dat het niet gaat om tooling, tokens of welke andere outputmaat dan ook die toevallig makkelijk te meten is. Het gaat om het bouwen van betere, gezondere organisaties die betere producten en diensten leveren. Dát is wat telt.
 
 Elke organisatie is uniek in de manier waarop ze is gebouwd en in waar ze naar streeft. Wij leiden onze organisaties, en wij worden afgerekend op wat voor ons telt — onze klanten, medewerkers en andere belanghebbenden. Dus voor ons is één ding niet onderhandelbaar: de agentic shift gebeurt op onze voorwaarden.
-
-### Wat wij niet accepteren
-
-- **verloren oordeel ≠ efficiëntie** (lost judgment ≠ efficiency) — Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features of waarde — niet gelijk aan efficiëntie.
-- **leveranciersafhankelijkheid ≠ vooruitgang** (vendor dependence ≠ progress) — Wij accepteren afhankelijkheid van AI-leveranciers, hun modellen en hun tooling niet als vooruitgang.
-- **outputvolume ≠ vermogen** (output volume ≠ capability) — Wij verwarren meer output produceren niet met een capabelere organisatie worden.
-
-Kortom: wij laten niet toe dat een oppervlakkige AI-adoptiehype ons langetermijndenken verdringt over de organisaties die wij aan het bouwen zijn. Daarom zeggen wij: “Eerst org-ontwerp, dan AI.” Wij leren strategisch te handelen: wij bepalen wat wij in onze organisaties willen verschuiven, ten goede van het geheel, en zetten daarna AI — en andere middelen — in om die verschuivingen waar te maken.
 
 ### Waar wij naartoe bewegen
 
@@ -119,6 +109,16 @@ Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór AI goed gedocumente
 
 Welke verschuivingen jouw organisatie nu oppakt, is aan jou. Wat telt is dat ze strategisch zijn en niet kortzichtig — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.
 
+### Wat wij niet accepteren
+
+De frontier labs optimaliseren voor de adoptie van hun producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is een legitieme business, en het is de hunne, niet de onze.
+
+- **verloren oordeel ≠ efficiëntie** (lost judgment ≠ efficiency) — Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features of waarde — niet gelijk aan efficiëntie.
+- **leveranciersafhankelijkheid ≠ vooruitgang** (vendor dependence ≠ progress) — Wij accepteren afhankelijkheid van AI-leveranciers, hun modellen en hun tooling niet als vooruitgang.
+- **outputvolume ≠ vermogen** (output volume ≠ capability) — Wij verwarren meer output produceren niet met een capabelere organisatie worden.
+
+Kortom: wij laten niet toe dat een oppervlakkige AI-adoptiehype ons langetermijndenken verdringt over de organisaties die wij aan het bouwen zijn. Daarom zeggen wij: “Eerst org-ontwerp, dan AI.” Wij leren strategisch te handelen: wij bepalen wat wij in onze organisaties willen verschuiven, ten goede van het geheel, en zetten daarna AI — en andere middelen — in om die verschuivingen waar te maken.
+
 ### Wat nu?
 
 **Wil je bijdragen?** Stel verbeteringen voor (https://github.com/krivitsky/agentic-shift). Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie.
@@ -127,25 +127,15 @@ Welke verschuivingen jouw organisatie nu oppakt, is aan jou. Wat telt is dat ze 
 
 ## Manifesto (Français)
 
-**Agentic Shift** — Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents.
+**Agentic Shift** — Vers des organisations saines aux produits et services excellents — loin du tokenmaxing et des autres formes de théâtre de l'IA.
 
 ### Ce que nous défendons
 
-Le basculement agentique est réel. Il touche nos organisations en profondeur et change notre façon de penser le travail et celles et ceux qui le font.
+Le basculement agentique est réel, et c'est une vraie opportunité. Il touche nos organisations en profondeur et change notre façon de penser le travail et celles et ceux qui le font. Nous utilisons ces outils tous les jours, et avec plaisir.
 
-Ce que nous savons, en revanche, c'est qu'il ne s'agit ni d'outillage, ni de tokens, ni d'aucune autre métrique de production qui a simplement le mérite d'être facile à mesurer. Il s'agit de bâtir de meilleures organisations, qui proposent de meilleurs produits et services. C'est cela qui compte.
-
-Chacun optimise quelque chose. Les laboratoires de pointe optimisent l'adoption de leurs produits, et la FOMO est le levier le plus puissant qu'ils actionnent sur nous. C'est une activité légitime, et elle est la leur, pas la nôtre.
+Ce que nous savons, en revanche, c'est qu'il ne s'agit ni d'outillage, ni de tokens, ni d'aucune autre métrique de production qui a simplement le mérite d'être facile à mesurer. Il s'agit de bâtir des organisations meilleures et plus saines, qui proposent de meilleurs produits et services. C'est cela qui compte.
 
 Chaque organisation est unique par la manière dont elle a été bâtie et par ce à quoi elle aspire. Nous dirigeons nos organisations, et nous sommes jugés sur ce qui compte pour nous — nos clients, nos salariés et nos autres parties prenantes. Alors pour nous, une chose n'est pas négociable : le basculement agentique se fait à nos conditions.
-
-### Ce que nous refusons d'accepter
-
-- **jugement perdu ≠ efficacité** (lost judgment ≠ efficiency) — Nous n'assimilons pas la perte du jugement — sur le code, le design, l'architecture, les fonctionnalités ou la valeur — à de l'efficacité.
-- **dépendance aux fournisseurs ≠ progrès** (vendor dependence ≠ progress) — Nous n'acceptons pas la dépendance aux fournisseurs d'IA, à leurs modèles et à leur outillage comme un progrès.
-- **volume produit ≠ capacité** (output volume ≠ capability) — Nous ne confondons pas produire davantage avec devenir une organisation plus capable.
-
-En bref, nous ne laissons pas une mode superficielle d'adoption de l'IA évincer notre réflexion de long terme sur les organisations que nous construisons. Nous disons donc : « Le design organisationnel d'abord, l'IA ensuite. » Nous apprenons à agir stratégiquement : nous définissons ce que nous voulons faire basculer dans nos organisations pour le bien commun, puis nous mobilisons l'IA — et d'autres moyens — pour rendre ces basculements réels.
 
 ### Vers quoi nous basculons
 
@@ -159,6 +149,16 @@ Ces basculements ne sont pas nouveaux. Ils étaient bien documentés et recomman
 
 Maintenant, les basculements que votre organisation entreprend, c'est à vous d'en décider. Ce qui compte, c'est qu'ils soient stratégiques et non myopes — qu'ils servent l'organisation que vous voulez avoir dans quelques années, et non les chiffres que la FOMO vous ferait courir après ce trimestre.
 
+### Ce que nous refusons d'accepter
+
+Les laboratoires de pointe optimisent l'adoption de leurs produits, et la FOMO est le levier le plus puissant qu'ils actionnent sur nous. C'est une activité légitime, et elle est la leur, pas la nôtre.
+
+- **jugement perdu ≠ efficacité** (lost judgment ≠ efficiency) — Nous n'assimilons pas la perte du jugement — sur le code, le design, l'architecture, les fonctionnalités ou la valeur — à de l'efficacité.
+- **dépendance aux fournisseurs ≠ progrès** (vendor dependence ≠ progress) — Nous n'acceptons pas la dépendance aux fournisseurs d'IA, à leurs modèles et à leur outillage comme un progrès.
+- **volume produit ≠ capacité** (output volume ≠ capability) — Nous ne confondons pas produire davantage avec devenir une organisation plus capable.
+
+En bref, nous ne laissons pas une mode superficielle d'adoption de l'IA évincer notre réflexion de long terme sur les organisations que nous construisons. Nous disons donc : « Le design organisationnel d'abord, l'IA ensuite. » Nous apprenons à agir stratégiquement : nous définissons ce que nous voulons faire basculer dans nos organisations pour le bien commun, puis nous mobilisons l'IA — et d'autres moyens — pour rendre ces basculements réels.
+
 ### Et maintenant ?
 
 **Envie de contribuer ?** Proposez des améliorations (https://github.com/krivitsky/agentic-shift). Partagez cette page. Mettez ces idées en œuvre dans votre organisation.
@@ -167,25 +167,15 @@ Maintenant, les basculements que votre organisation entreprend, c'est à vous d'
 
 ## Manifesto (Italiano)
 
-**Agentic Shift** — Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane con prodotti e servizi eccellenti.
+**Agentic Shift** — Verso organizzazioni sane con prodotti e servizi eccellenti — lontano dal tokenmaxing e dalle altre forme di teatro dell'IA.
 
 ### Ciò che sosteniamo
 
-Lo spostamento agentico è reale. Tocca in profondità le nostre organizzazioni e cambia il modo in cui pensiamo al lavoro e a chi lo fa.
+Lo spostamento agentico è reale, ed è una vera opportunità. Tocca in profondità le nostre organizzazioni e cambia il modo in cui pensiamo al lavoro e a chi lo fa. Usiamo questi strumenti ogni giorno, e con piacere.
 
-Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire organizzazioni migliori, che offrano prodotti e servizi migliori. È questo che conta.
-
-Tutti stanno ottimizzando qualcosa. I laboratori di frontiera ottimizzano l'adozione dei propri prodotti, e la FOMO è la leva più forte che tirano su di noi. È un business legittimo, ed è il loro, non il nostro.
+Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire organizzazioni migliori e più sane, che offrano prodotti e servizi migliori. È questo che conta.
 
 Ogni organizzazione è unica per come è stata costruita e per ciò a cui aspira. Siamo noi a guidare le nostre organizzazioni, e siamo giudicati su ciò che conta per noi — i nostri clienti, le persone che lavorano con noi e gli altri portatori di interesse. Perciò per noi una cosa non è negoziabile: lo spostamento agentico avviene alle nostre condizioni.
-
-### Ciò che ci rifiutiamo di accettare
-
-- **giudizio perduto ≠ efficienza** (lost judgment ≠ efficiency) — Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza.
-- **dipendenza dai fornitori ≠ progresso** (vendor dependence ≠ progress) — Non accettiamo come progresso la dipendenza dai fornitori di IA, dai loro modelli e dal loro tooling.
-- **volume di produzione ≠ capacità** (output volume ≠ capability) — Non confondiamo produrre di più con diventare un'organizzazione più capace.
-
-In breve, non lasciamo che una moda superficiale di adozione dell'IA soffochi il nostro pensiero di lungo periodo sulle organizzazioni che stiamo costruendo. Perciò diciamo: “Prima la progettazione organizzativa, poi l'IA.” Impariamo ad agire in modo strategico: definiamo che cosa vogliamo spostare nelle nostre organizzazioni per il bene comune, e poi applichiamo l'IA — e altri mezzi — per rendere reali quegli spostamenti.
 
 ### Verso cosa ci spostiamo
 
@@ -199,6 +189,16 @@ Questi spostamenti non sono nuovi. Erano ben documentati e raccomandati molto pr
 
 Ora, quali spostamenti la tua organizzazione intraprenda sta a te deciderlo. Ciò che conta è che siano strategici e non miopi — che servano l'organizzazione che vuoi avere fra anni, e non i numeri che la FOMO ti farebbe rincorrere questo trimestre.
 
+### Ciò che ci rifiutiamo di accettare
+
+I laboratori di frontiera ottimizzano l'adozione dei propri prodotti, e la FOMO è la leva più forte che tirano su di noi. È un business legittimo, ed è il loro, non il nostro.
+
+- **giudizio perduto ≠ efficienza** (lost judgment ≠ efficiency) — Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza.
+- **dipendenza dai fornitori ≠ progresso** (vendor dependence ≠ progress) — Non accettiamo come progresso la dipendenza dai fornitori di IA, dai loro modelli e dal loro tooling.
+- **volume di produzione ≠ capacità** (output volume ≠ capability) — Non confondiamo produrre di più con diventare un'organizzazione più capace.
+
+In breve, non lasciamo che una moda superficiale di adozione dell'IA soffochi il nostro pensiero di lungo periodo sulle organizzazioni che stiamo costruendo. Perciò diciamo: “Prima la progettazione organizzativa, poi l'IA.” Impariamo ad agire in modo strategico: definiamo che cosa vogliamo spostare nelle nostre organizzazioni per il bene comune, e poi applichiamo l'IA — e altri mezzi — per rendere reali quegli spostamenti.
+
 ### E adesso?
 
 **Vuoi contribuire?** Proponi miglioramenti (https://github.com/krivitsky/agentic-shift). Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione.
@@ -207,25 +207,15 @@ Ora, quali spostamenti la tua organizzazione intraprenda sta a te deciderlo. Ci�
 
 ## Manifesto (Español)
 
-**Agentic Shift** — Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas con grandes productos y servicios.
+**Agentic Shift** — Hacia organizaciones sanas con grandes productos y servicios — lejos del tokenmaxing y del resto del teatro de la IA.
 
 ### Lo que defendemos
 
-El cambio agéntico es real. Afecta a nuestras organizaciones en profundidad y transforma cómo pensamos sobre el trabajo y sobre quienes lo hacen.
+El cambio agéntico es real, y es una verdadera oportunidad. Afecta a nuestras organizaciones en profundidad y transforma cómo pensamos sobre el trabajo y sobre quienes lo hacen. Usamos estas herramientas cada día y disfrutamos usándolas.
 
-Lo que sí sabemos es que no va de tooling, ni de tokens, ni de ninguna otra métrica de producción que resulte fácil de medir. Va de construir mejores organizaciones, que ofrezcan mejores productos y servicios. Eso es lo que importa.
-
-Todo el mundo optimiza para algo. Los laboratorios de frontera optimizan la adopción de sus productos, y el FOMO es la palanca más fuerte de la que tiran sobre nosotros. Es un negocio legítimo, y es el suyo, no el nuestro.
+Lo que sí sabemos es que no va de tooling, ni de tokens, ni de ninguna otra métrica de producción que resulte fácil de medir. Va de construir organizaciones mejores y más sanas, que ofrezcan mejores productos y servicios. Eso es lo que importa.
 
 Cada organización es única por cómo fue construida y por aquello a lo que aspira. Nosotros dirigimos nuestras organizaciones, y se nos juzga por lo que nos importa a nosotros — nuestros clientes, empleados y demás partes interesadas. Por eso, para nosotros hay algo que no es negociable: el cambio agéntico ocurre en nuestros términos.
-
-### Lo que nos negamos a aceptar
-
-- **juicio perdido ≠ eficiencia** (lost judgment ≠ efficiency) — No equiparamos la pérdida del juicio — sobre el código, el diseño, la arquitectura, las funcionalidades o el valor — con la eficiencia.
-- **dependencia del proveedor ≠ progreso** (vendor dependence ≠ progress) — No aceptamos como progreso la dependencia de los proveedores de IA, de sus modelos y de su tooling.
-- **volumen de producción ≠ capacidad** (output volume ≠ capability) — No confundimos producir más con llegar a ser una organización más capaz.
-
-En resumen, no dejamos que una moda superficial de adopción de la IA desplace nuestro pensamiento a largo plazo sobre las organizaciones que estamos construyendo. Por eso decimos: «Primero el diseño organizativo, después la IA.» Aprendemos a actuar de forma estratégica: definimos qué queremos cambiar en nuestras organizaciones para el bien común, y luego aplicamos la IA — y otros medios — para hacer realidad esos cambios.
 
 ### Hacia dónde nos movemos
 
@@ -239,6 +229,16 @@ Estos cambios no son nuevos. Estaban bien documentados y recomendados mucho ante
 
 Ahora bien, qué cambios asume tu organización es cosa tuya. Lo que importa es que sean estratégicos y no cortos de miras — que sirvan a la organización que quieres tener dentro de años, y no a las cifras que el FOMO te haría perseguir este trimestre.
 
+### Lo que nos negamos a aceptar
+
+Los laboratorios de frontera optimizan la adopción de sus productos, y el FOMO es la palanca más fuerte de la que tiran sobre nosotros. Es un negocio legítimo, y es el suyo, no el nuestro.
+
+- **juicio perdido ≠ eficiencia** (lost judgment ≠ efficiency) — No equiparamos la pérdida del juicio — sobre el código, el diseño, la arquitectura, las funcionalidades o el valor — con la eficiencia.
+- **dependencia del proveedor ≠ progreso** (vendor dependence ≠ progress) — No aceptamos como progreso la dependencia de los proveedores de IA, de sus modelos y de su tooling.
+- **volumen de producción ≠ capacidad** (output volume ≠ capability) — No confundimos producir más con llegar a ser una organización más capaz.
+
+En resumen, no dejamos que una moda superficial de adopción de la IA desplace nuestro pensamiento a largo plazo sobre las organizaciones que estamos construyendo. Por eso decimos: «Primero el diseño organizativo, después la IA.» Aprendemos a actuar de forma estratégica: definimos qué queremos cambiar en nuestras organizaciones para el bien común, y luego aplicamos la IA — y otros medios — para hacer realidad esos cambios.
+
 ### ¿Qué sigue?
 
 **¿Quieres contribuir?** Propón mejoras (https://github.com/krivitsky/agentic-shift). Comparte esta página. Pon estas ideas a trabajar en tu organización.
@@ -247,25 +247,15 @@ Ahora bien, qué cambios asume tu organización es cosa tuya. Lo que importa es 
 
 ## Manifesto (Português)
 
-**Agentic Shift** — Do tokenmaxing e do restante teatro da IA rumo a organizações saudáveis com excelentes produtos e serviços.
+**Agentic Shift** — Rumo a organizações saudáveis com excelentes produtos e serviços — longe do tokenmaxing e do restante teatro da IA.
 
 ### O que defendemos
 
-A mudança agêntica é real. Afeta profundamente as nossas organizações e altera a forma como pensamos sobre o trabalho e sobre quem o faz.
+A mudança agêntica é real, e é uma verdadeira oportunidade. Afeta profundamente as nossas organizações e altera a forma como pensamos sobre o trabalho e sobre quem o faz. Usamos estas ferramentas todos os dias e gostamos de as usar.
 
-O que sabemos, porém, é que isto não é sobre tooling, sobre tokens nem sobre qualquer outra métrica de produção que por acaso seja fácil de medir. É sobre construir melhores organizações, que ofereçam melhores produtos e serviços. É isso que importa.
-
-Toda a gente está a otimizar para alguma coisa. Os laboratórios de fronteira otimizam a adoção dos seus produtos, e o FOMO é a alavanca mais forte que puxam sobre nós. É um negócio legítimo, e é deles, não nosso.
+O que sabemos, porém, é que isto não é sobre tooling, sobre tokens nem sobre qualquer outra métrica de produção que por acaso seja fácil de medir. É sobre construir organizações melhores e mais saudáveis, que ofereçam melhores produtos e serviços. É isso que importa.
 
 Cada organização é única na forma como foi construída e naquilo a que aspira. Somos nós que dirigimos as nossas organizações, e somos julgados por aquilo que importa a nós — os nossos clientes, colaboradores e restantes partes interessadas. Por isso, para nós há algo que não é negociável: a mudança agêntica acontece nos nossos termos.
-
-### O que nos recusamos a aceitar
-
-- **juízo perdido ≠ eficiência** (lost judgment ≠ efficiency) — Não equiparamos a perda do juízo — sobre o código, o design, a arquitetura, as funcionalidades ou o valor — à eficiência.
-- **dependência de fornecedores ≠ progresso** (vendor dependence ≠ progress) — Não aceitamos como progresso a dependência dos fornecedores de IA, dos seus modelos e do seu tooling.
-- **volume de produção ≠ capacidade** (output volume ≠ capability) — Não confundimos produzir mais com tornar-nos uma organização mais capaz.
-
-Em suma, não deixamos que uma moda superficial de adoção da IA sufoque o nosso pensamento de longo prazo sobre as organizações que estamos a construir. Por isso dizemos: «Primeiro o design organizacional, depois a IA.» Aprendemos a agir estrategicamente: definimos o que queremos mudar nas nossas organizações para o bem comum e, depois, aplicamos a IA — e outros meios — para tornar essas mudanças reais.
 
 ### Para onde nos movemos
 
@@ -279,6 +269,16 @@ Estas mudanças não são novas. Estavam bem documentadas e recomendadas muito a
 
 Agora, que mudanças a sua organização assume é consigo. O que importa é que sejam estratégicas e não de vista curta — que sirvam a organização que quer ter daqui a anos, e não os números que o FOMO o levaria a perseguir neste trimestre.
 
+### O que nos recusamos a aceitar
+
+Os laboratórios de fronteira otimizam a adoção dos seus produtos, e o FOMO é a alavanca mais forte que puxam sobre nós. É um negócio legítimo, e é deles, não nosso.
+
+- **juízo perdido ≠ eficiência** (lost judgment ≠ efficiency) — Não equiparamos a perda do juízo — sobre o código, o design, a arquitetura, as funcionalidades ou o valor — à eficiência.
+- **dependência de fornecedores ≠ progresso** (vendor dependence ≠ progress) — Não aceitamos como progresso a dependência dos fornecedores de IA, dos seus modelos e do seu tooling.
+- **volume de produção ≠ capacidade** (output volume ≠ capability) — Não confundimos produzir mais com tornar-nos uma organização mais capaz.
+
+Em suma, não deixamos que uma moda superficial de adoção da IA sufoque o nosso pensamento de longo prazo sobre as organizações que estamos a construir. Por isso dizemos: «Primeiro o design organizacional, depois a IA.» Aprendemos a agir estrategicamente: definimos o que queremos mudar nas nossas organizações para o bem comum e, depois, aplicamos a IA — e outros meios — para tornar essas mudanças reais.
+
 ### O que se segue
 
 **Quer contribuir?** Proponha melhorias (https://github.com/krivitsky/agentic-shift). Partilhe esta página. Ponha estas ideias a trabalhar na sua organização.
@@ -287,25 +287,15 @@ Agora, que mudanças a sua organização assume é consigo. O que importa é que
 
 ## Manifesto (Čeština)
 
-**Agentic Shift** — Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami.
+**Agentic Shift** — Ke zdravým organizacím se skvělými produkty a službami — pryč od tokenmaxingu a dalšího AI divadla.
 
 ### Za čím stojíme
 
-Agentní posun je skutečný. Zasahuje naše organizace do hloubky a mění, jak přemýšlíme o práci i o lidech, kteří ji dělají.
+Agentní posun je skutečný a je to skutečná příležitost. Zasahuje naše organizace do hloubky a mění, jak přemýšlíme o práci i o lidech, kteří ji dělají. Tyto nástroje používáme každý den a rádi s nimi pracujeme.
 
-Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování lepších organizací, které nabízejí lepší produkty a služby. Na tom záleží.
-
-Každý pro něco optimalizuje. Špičkové laboratoře optimalizují pro přijetí svých produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to legitimní byznys, a je jejich, ne náš.
+Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování lepších, zdravějších organizací, které nabízejí lepší produkty a služby. Na tom záleží.
 
 Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu směřuje. Řídíme své organizace a jsme souzeni podle toho, na čem záleží nám — našim zákazníkům, zaměstnancům a dalším zainteresovaným. Proto je pro nás jedna věc nesmlouvavá: agentní posun se děje za našich podmínek.
-
-### Co odmítáme přijmout
-
-- **ztracený úsudek ≠ efektivita** (lost judgment ≠ efficiency) — Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou.
-- **závislost na dodavatelích ≠ pokrok** (vendor dependence ≠ progress) — Závislost na dodavatelích AI, na jejich modelech a nástrojích nepřijímáme jako pokrok.
-- **objem výstupů ≠ schopnost** (output volume ≠ capability) — Nezaměňujeme vyšší produkci výstupů za to, že se stáváme schopnější organizací.
-
-Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: „Nejdřív organizační design, pak AI.“ Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.
 
 ### Kam se posouváme
 
@@ -319,6 +309,16 @@ Tyto posuny nejsou nové. Byly dobře zdokumentované a doporučované dávno p�
 
 Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, aby byly strategické, ne krátkozraké — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.
 
+### Co odmítáme přijmout
+
+Špičkové laboratoře optimalizují pro přijetí svých produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to legitimní byznys, a je jejich, ne náš.
+
+- **ztracený úsudek ≠ efektivita** (lost judgment ≠ efficiency) — Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou.
+- **závislost na dodavatelích ≠ pokrok** (vendor dependence ≠ progress) — Závislost na dodavatelích AI, na jejich modelech a nástrojích nepřijímáme jako pokrok.
+- **objem výstupů ≠ schopnost** (output volume ≠ capability) — Nezaměňujeme vyšší produkci výstupů za to, že se stáváme schopnější organizací.
+
+Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: „Nejdřív organizační design, pak AI.“ Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.
+
 ### Co dál?
 
 **Chcete přispět?** Navrhněte vylepšení (https://github.com/krivitsky/agentic-shift). Sdílejte tuto stránku. Uveďte tyto myšlenky do praxe ve své organizaci.
@@ -327,25 +327,15 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 ## Manifesto (Українська)
 
-**Agentic Shift** — Від tokenmaxing та іншого ШІ-театру до здорових організацій із чудовими продуктами та послугами.
+**Agentic Shift** — До здорових організацій із чудовими продуктами та послугами — подалі від tokenmaxing та іншого ШІ-театру.
 
 ### Що ми обстоюємо
 
-Агентний перехід — це реальність. Він глибоко впливає на наші організації та змінює те, як ми думаємо про роботу і про тих, хто її виконує.
+Агентний перехід — це реальність, і це справжня можливість. Він глибоко впливає на наші організації та змінює те, як ми думаємо про роботу і про тих, хто її виконує. Ми користуємося цими інструментами щодня, і нам подобається з ними працювати.
 
-Проте ми знаємо ось що: справа не в інструментах, не в токенах і не в будь-якій іншій метриці виробітку, яку просто зручно вимірювати. Справа в тому, щоб будувати кращі організації, які пропонують кращі продукти та послуги. Саме це має значення.
-
-Кожен щось оптимізує. Провідні лабораторії оптимізують упровадження своїх продуктів, і FOMO — найсильніший важіль, за який вони тягнуть нас. Це легітимний бізнес, і він їхній, а не наш.
+Проте ми знаємо ось що: справа не в інструментах, не в токенах і не в будь-якій іншій метриці виробітку, яку просто зручно вимірювати. Справа в тому, щоб будувати кращі, здоровіші організації, які пропонують кращі продукти та послуги. Саме це має значення.
 
 Кожна організація унікальна тим, як її було збудовано, і тим, до чого вона прагне. Ми керуємо своїми організаціями, і нас оцінюють за тим, що важливо нам — нашим клієнтам, працівникам та іншим зацікавленим сторонам. Тож для нас одна річ не підлягає обговоренню: агентний перехід відбувається на наших умовах.
-
-### Чого ми не приймаємо
-
-- **втрачене судження ≠ ефективність** (lost judgment ≠ efficiency) — Ми не ототожнюємо втрату судження — щодо коду, дизайну, архітектури, функцій чи цінності — з ефективністю.
-- **залежність від вендорів ≠ прогрес** (vendor dependence ≠ progress) — Ми не приймаємо за прогрес залежність від ШІ-вендорів, їхніх моделей та інструментів.
-- **обсяг виробітку ≠ спроможність** (output volume ≠ capability) — Ми не плутаємо виробництво більшої кількості результатів зі становленням спроможнішої організації.
-
-Коротко: ми не дозволяємо, щоб поверхнева мода на впровадження ШІ витіснила наше довгострокове мислення про організації, які ми будуємо. Тому ми кажемо: «Спершу організаційний дизайн, потім ШІ.» Ми вчимося діяти стратегічно: визначаємо, що саме хочемо зрушити у своїх організаціях задля спільного блага, а вже потім застосовуємо ШІ — та інші засоби — щоб втілити ці зрушення.
 
 ### Куди ми рухаємося
 
@@ -359,6 +349,16 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 Які ж зрушення візьме на себе ваша організація — вирішувати вам. Важливо, щоб вони були стратегічними, а не короткозорими — щоб вони служили тій організації, яку ви хочете мати за кілька років, а не цифрам, за якими FOMO змусило б вас гнатися цього кварталу.
 
+### Чого ми не приймаємо
+
+Провідні лабораторії оптимізують упровадження своїх продуктів, і FOMO — найсильніший важіль, за який вони тягнуть нас. Це легітимний бізнес, і він їхній, а не наш.
+
+- **втрачене судження ≠ ефективність** (lost judgment ≠ efficiency) — Ми не ототожнюємо втрату судження — щодо коду, дизайну, архітектури, функцій чи цінності — з ефективністю.
+- **залежність від вендорів ≠ прогрес** (vendor dependence ≠ progress) — Ми не приймаємо за прогрес залежність від ШІ-вендорів, їхніх моделей та інструментів.
+- **обсяг виробітку ≠ спроможність** (output volume ≠ capability) — Ми не плутаємо виробництво більшої кількості результатів зі становленням спроможнішої організації.
+
+Коротко: ми не дозволяємо, щоб поверхнева мода на впровадження ШІ витіснила наше довгострокове мислення про організації, які ми будуємо. Тому ми кажемо: «Спершу організаційний дизайн, потім ШІ.» Ми вчимося діяти стратегічно: визначаємо, що саме хочемо зрушити у своїх організаціях задля спільного блага, а вже потім застосовуємо ШІ — та інші засоби — щоб втілити ці зрушення.
+
 ### Що далі
 
 **Хочете долучитися?** Запропонуйте покращення (https://github.com/krivitsky/agentic-shift). Поділіться цією сторінкою. Застосуйте ці ідеї у своїй організації.
@@ -367,25 +367,15 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 ## Manifesto (Русский)
 
-**Agentic Shift** — От tokenmaxing и прочего ИИ-театра к здоровым организациям с отличными продуктами и услугами.
+**Agentic Shift** — К здоровым организациям с отличными продуктами и услугами — подальше от tokenmaxing и прочего ИИ-театра.
 
 ### Что мы отстаиваем
 
-Агентный переход реален. Он глубоко затрагивает наши организации и меняет то, как мы думаем о работе и о тех, кто её делает.
+Агентный переход реален, и это настоящая возможность. Он глубоко затрагивает наши организации и меняет то, как мы думаем о работе и о тех, кто её делает. Мы пользуемся этими инструментами каждый день, и нам нравится с ними работать.
 
-Но вот что мы знаем: дело не в инструментах, не в токенах и не в любой другой метрике выработки, которую просто удобно измерять. Дело в том, чтобы строить лучшие организации, предлагающие лучшие продукты и услуги. Именно это имеет значение.
-
-Каждый под что-то оптимизируется. Передовые лаборатории оптимизируются под внедрение своих продуктов, и FOMO — самый сильный рычаг, за который они тянут нас. Это законный бизнес, и он их, а не наш.
+Но вот что мы знаем: дело не в инструментах, не в токенах и не в любой другой метрике выработки, которую просто удобно измерять. Дело в том, чтобы строить лучшие, более здоровые организации, предлагающие лучшие продукты и услуги. Именно это имеет значение.
 
 Каждая организация уникальна тем, как она была построена, и тем, к чему стремится. Мы управляем своими организациями, и нас оценивают по тому, что важно нам — нашим клиентам, сотрудникам и другим заинтересованным сторонам. Поэтому для нас одно не обсуждается: агентный переход происходит на наших условиях.
-
-### Чего мы не принимаем
-
-- **утраченное суждение ≠ эффективность** (lost judgment ≠ efficiency) — Мы не отождествляем утрату суждения — о коде, дизайне, архитектуре, функциях или ценности — с эффективностью.
-- **зависимость от вендоров ≠ прогресс** (vendor dependence ≠ progress) — Мы не принимаем за прогресс зависимость от ИИ-вендоров, их моделей и инструментов.
-- **объём выработки ≠ способность** (output volume ≠ capability) — Мы не путаем производство большего объёма выработки со становлением более способной организации.
-
-Коротко: мы не позволяем поверхностной моде на внедрение ИИ вытеснить наше долгосрочное мышление об организациях, которые мы строим. Поэтому мы говорим: «Сначала организационный дизайн, потом ИИ.» Мы учимся действовать стратегически: определяем, что хотим сдвинуть в своих организациях ради общего блага, и только затем применяем ИИ — и другие средства — чтобы эти сдвиги состоялись.
 
 ### Куда мы движемся
 
@@ -399,6 +389,16 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 Какие же сдвиги возьмёт на себя ваша организация — решать вам. Важно, чтобы они были стратегическими, а не близорукими — чтобы они служили той организации, которую вы хотите иметь через годы, а не цифрам, за которыми FOMO заставило бы вас гнаться в этом квартале.
 
+### Чего мы не принимаем
+
+Передовые лаборатории оптимизируются под внедрение своих продуктов, и FOMO — самый сильный рычаг, за который они тянут нас. Это законный бизнес, и он их, а не наш.
+
+- **утраченное суждение ≠ эффективность** (lost judgment ≠ efficiency) — Мы не отождествляем утрату суждения — о коде, дизайне, архитектуре, функциях или ценности — с эффективностью.
+- **зависимость от вендоров ≠ прогресс** (vendor dependence ≠ progress) — Мы не принимаем за прогресс зависимость от ИИ-вендоров, их моделей и инструментов.
+- **объём выработки ≠ способность** (output volume ≠ capability) — Мы не путаем производство большего объёма выработки со становлением более способной организации.
+
+Коротко: мы не позволяем поверхностной моде на внедрение ИИ вытеснить наше долгосрочное мышление об организациях, которые мы строим. Поэтому мы говорим: «Сначала организационный дизайн, потом ИИ.» Мы учимся действовать стратегически: определяем, что хотим сдвинуть в своих организациях ради общего блага, и только затем применяем ИИ — и другие средства — чтобы эти сдвиги состоялись.
+
 ### Что дальше?
 
 **Хотите внести вклад?** Предложите улучшения (https://github.com/krivitsky/agentic-shift). Поделитесь этой страницей. Примените эти идеи в своей организации.
@@ -407,25 +407,15 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 ## Manifesto (中文)
 
-**Agentic Shift** — 从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。
+**Agentic Shift** — 走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。
 
 ### 我们的立场
 
-智能体转变是真实的。它深刻影响着我们的组织，改变着我们如何看待这份工作，以及做这份工作的人。
+智能体转变是真实的，也是一个真正的机会。它深刻影响着我们的组织，改变着我们如何看待这份工作，以及做这份工作的人。我们每天都在使用这些工具，并且乐在其中。
 
-但我们知道：这件事无关工具，无关 token，也无关任何一个恰好容易衡量的产出指标。它关乎建设更好的组织，让组织提供更好的产品与服务。这才是重要的。
-
-每个人都在为某个目标做优化。前沿实验室优化的是自家产品的采用率，而 FOMO 是他们拉动我们时最强的那根杠杆。那是正当的生意，是他们的生意，不是我们的。
+但我们知道：这件事无关工具，无关 token，也无关任何一个恰好容易衡量的产出指标。它关乎建设更好、更健康的组织，让组织提供更好的产品与服务。这才是重要的。
 
 每个组织都是独一无二的——独特在它被建成的方式，也独特在它所追求的东西。我们经营的是我们自己的组织，我们被评判的标准，是对我们而言重要的事——我们的客户、员工与其他利益相关方。所以对我们而言，有一件事没有商量余地：智能体转变按我们的条件发生。
-
-### 我们拒绝接受的
-
-- **判断力的丧失 ≠ 效率** (lost judgment ≠ efficiency) — 我们不把判断力的丧失——无论是在代码、设计、架构、功能还是价值上——等同于效率。
-- **供应商依赖 ≠ 进步** (vendor dependence ≠ progress) — 我们不接受把对 AI 供应商及其模型与工具的依赖当作进步。
-- **产出量 ≠ 能力** (output volume ≠ capability) — 我们不把产出更多，混同为组织变得更有能力。
-
-简而言之，我们不会让一阵浅薄的 AI 采纳风潮，挤掉我们对正在建设的组织的长期思考。所以我们说：「先做组织设计，再谈 AI。」我们学着以战略的方式行动：先定义我们希望在组织中为整体利益做出什么转变，然后再运用 AI——以及其他手段——把这些转变变成现实。
 
 ### 我们转向何处
 
@@ -439,6 +429,16 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 那么，你的组织要承担哪些转变，由你决定。重要的是它们要具有战略性，而非目光短浅——服务于你希望数年后拥有的那个组织，而不是 FOMO 会让你在这个季度追逐的数字。
 
+### 我们拒绝接受的
+
+前沿实验室优化的是自家产品的采用率，而 FOMO 是他们拉动我们时最强的那根杠杆。那是正当的生意，是他们的生意，不是我们的。
+
+- **判断力的丧失 ≠ 效率** (lost judgment ≠ efficiency) — 我们不把判断力的丧失——无论是在代码、设计、架构、功能还是价值上——等同于效率。
+- **供应商依赖 ≠ 进步** (vendor dependence ≠ progress) — 我们不接受把对 AI 供应商及其模型与工具的依赖当作进步。
+- **产出量 ≠ 能力** (output volume ≠ capability) — 我们不把产出更多，混同为组织变得更有能力。
+
+简而言之，我们不会让一阵浅薄的 AI 采纳风潮，挤掉我们对正在建设的组织的长期思考。所以我们说：「先做组织设计，再谈 AI。」我们学着以战略的方式行动：先定义我们希望在组织中为整体利益做出什么转变，然后再运用 AI——以及其他手段——把这些转变变成现实。
+
 ### 接下来
 
 **想要参与贡献？** 提出改进建议 (https://github.com/krivitsky/agentic-shift)。分享此页。把这些理念在你的组织中付诸实践。
@@ -447,25 +447,15 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 
 ## Manifesto (日本語)
 
-**Agentic Shift** — tokenmaxing やその他の AI シアターから、優れた製品とサービスを持つ健全な組織へ。
+**Agentic Shift** — 優れた製品とサービスを持つ健全な組織へ——tokenmaxing やその他の AI シアターから離れて。
 
 ### 私たちの立場
 
-エージェンティック・シフトは現実です。それは私たちの組織を深いところで揺さぶり、仕事についての、そして働く人についての考え方を変えていきます。
+エージェンティック・シフトは現実であり、本物のチャンスでもあります。それは私たちの組織を深いところで揺さぶり、仕事についての、そして働く人についての考え方を変えていきます。私たちはこうしたツールを毎日使い、楽しんでいます。
 
-しかし私たちが分かっているのは、これはツールの話でも、トークンの話でも、たまたま測りやすいだけのアウトプット指標の話でもない、ということです。より良い製品とサービスを届ける、より良い組織をつくる話です。重要なのはそこです。
-
-誰もが何かに向けて最適化しています。フロンティアの研究所は自社製品の採用に向けて最適化しており、FOMO は彼らが私たちに対して引く最も強いレバーです。それは正当なビジネスであり、彼らのものであって、私たちのものではありません。
+しかし私たちが分かっているのは、これはツールの話でも、トークンの話でも、たまたま測りやすいだけのアウトプット指標の話でもない、ということです。より良い製品とサービスを届ける、より良く、より健全な組織をつくる話です。重要なのはそこです。
 
 どの組織も、築かれてきた道筋においても、目指すものにおいても、それぞれ固有です。私たちは自分たちの組織を経営しており、私たちにとって大切なもの——私たちの顧客、従業員、そのほかのステークホルダー——によって評価されます。だからこそ、私たちにとって譲れないことが一つあります。エージェンティック・シフトは私たちの条件で起きる、ということです。
-
-### 私たちが受け入れないこと
-
-- **失われた判断 ≠ 効率** (lost judgment ≠ efficiency) — コード、デザイン、アーキテクチャ、機能、価値のいずれにおいても、判断が失われることを私たちは効率と同一視しません。
-- **ベンダー依存 ≠ 進歩** (vendor dependence ≠ progress) — AI ベンダー、そのモデルとツールへの依存を、私たちは進歩として受け入れません。
-- **産出量 ≠ 能力** (output volume ≠ capability) — より多くのアウトプットを出すことを、より力のある組織になることと取り違えません。
-
-要するに私たちは、浅い AI 導入の流行が、いま築こうとしている組織についての長期的な思考を押しのけることを許しません。だから私たちはこう言います。「まず組織デザイン、そのあとに AI。」私たちは戦略的に動くことを学びます。まず、全体のために組織の何を動かしたいのかを定め、そのうえで AI を——ほかの手段とともに——使って、その転換を現実にします。
 
 ### 私たちが向かう先
 
@@ -478,6 +468,16 @@ Které posuny tedy vaše organizace pojme za své, je na vás. Podstatné je, ab
 これらの転換は新しいものではありません。AI よりはるか前から、十分に記録され、推奨されてきました。AI が変えるのは、それが正しいかどうかではなく、実行がどれだけ難しいか、だけです。
 
 さて、どの転換に取り組むかは、あなたの組織が決めることです。大切なのは、それが戦略的であり、近視眼的でないこと——数年後にあなたが持ちたい組織のためになることであって、FOMO が今四半期に追わせようとする数字のためではない、ということです。
+
+### 私たちが受け入れないこと
+
+フロンティアの研究所は自社製品の採用に向けて最適化しており、FOMO は彼らが私たちに対して引く最も強いレバーです。それは正当なビジネスであり、彼らのものであって、私たちのものではありません。
+
+- **失われた判断 ≠ 効率** (lost judgment ≠ efficiency) — コード、デザイン、アーキテクチャ、機能、価値のいずれにおいても、判断が失われることを私たちは効率と同一視しません。
+- **ベンダー依存 ≠ 進歩** (vendor dependence ≠ progress) — AI ベンダー、そのモデルとツールへの依存を、私たちは進歩として受け入れません。
+- **産出量 ≠ 能力** (output volume ≠ capability) — より多くのアウトプットを出すことを、より力のある組織になることと取り違えません。
+
+要するに私たちは、浅い AI 導入の流行が、いま築こうとしている組織についての長期的な思考を押しのけることを許しません。だから私たちはこう言います。「まず組織デザイン、そのあとに AI。」私たちは戦略的に動くことを学びます。まず、全体のために組織の何を動かしたいのかを定め、そのうえで AI を——ほかの手段とともに——使って、その転換を現実にします。
 
 ### 次に来るもの
 

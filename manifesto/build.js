@@ -215,6 +215,7 @@ function render(c) {
     STAND_HEAD: c.standHead,
     STAND: paras(c.stand),
     REFUSE_HEAD: c.refuseHead,
+    REFUSE_INTRO: c.refuseIntro,
     REFUSALS: cards(c, 'refusals'),
     REFUSE_OUTRO: c.refuseOutro,
     SHIFT_HEAD: c.shiftHead,
@@ -281,16 +282,17 @@ function llmsLang(c, heading) {
   L.push(`**Agentic Shift** — ${plain(c.hero.subtitle)}`, '');
   L.push(`### ${plain(c.standHead)}`, '');
   c.stand.forEach((p) => { L.push(plain(p)); L.push(''); });
-  L.push(`### ${plain(c.refuseHead)}`, '');
-  c.refusals.forEach((s, i) =>
-    L.push(`- **${s.from} ≠ ${s.to}**${glossOf(c, 'refusals', i)} — ${plain(s.note)}`));
-  L.push('', plain(c.refuseOutro), '');
   L.push(`### ${plain(c.shiftHead)}`, '');
   L.push(plain(c.shiftIntro), '');
   c.shifts.forEach((s, i) =>
     L.push(`- **${s.from} → ${s.to}**${glossOf(c, 'shifts', i)} — ${plain(s.note)}`));
   L.push('', plain(c.shiftNotNew), '');
   L.push(plain(c.shiftOutro), '');
+  L.push(`### ${plain(c.refuseHead)}`, '');
+  L.push(plain(c.refuseIntro), '');
+  c.refusals.forEach((s, i) =>
+    L.push(`- **${s.from} ≠ ${s.to}**${glossOf(c, 'refusals', i)} — ${plain(s.note)}`));
+  L.push('', plain(c.refuseOutro), '');
   L.push(`### ${plain(c.qaHead)}`, '');
   c.qa.forEach((x) => L.push(`**${plain(x.q)}** ${plain(x.a)}`, ''));
   while (L[L.length - 1] === '') L.pop();
@@ -317,12 +319,6 @@ function readmeBlock() {
   ];
   L.push(`## ${md(en.standHead)}`, '');
   en.stand.forEach((p) => { L.push(md(p)); L.push(''); });
-  L.push(`## ${md(en.refuseHead)}`, '');
-  en.refusals.forEach((s) => {
-    L.push(`### ${s.from} ≠ ${s.to}`);
-    L.push(md(s.note), '');
-  });
-  L.push(md(en.refuseOutro), '');
   L.push(`## ${md(en.shiftHead)}`, '');
   L.push(md(en.shiftIntro), '');
   en.shifts.forEach((s) => {
@@ -331,6 +327,13 @@ function readmeBlock() {
   });
   L.push(md(en.shiftNotNew), '');
   L.push(md(en.shiftOutro), '');
+  L.push(`## ${md(en.refuseHead)}`, '');
+  L.push(md(en.refuseIntro), '');
+  en.refusals.forEach((s) => {
+    L.push(`### ${s.from} ≠ ${s.to}`);
+    L.push(md(s.note), '');
+  });
+  L.push(md(en.refuseOutro), '');
   L.push(`## ${md(en.qaHead)}`, '');
   en.qa.forEach((x) => {
     L.push(`> **${md(x.q)}**`, '');
@@ -351,12 +354,6 @@ function manifestoMd(c) {
   L.push(`_${md(c.hero.subtitle)}_`, '');
   L.push(`## ${md(c.standHead)}`, '');
   c.stand.forEach((p) => { L.push(md(p)); L.push(''); });
-  L.push(`## ${md(c.refuseHead)}`, '');
-  c.refusals.forEach((s, i) => {
-    L.push(`### ${s.from} ≠ ${s.to}${glossOf(c, 'refusals', i)}`);
-    L.push(md(s.note), '');
-  });
-  L.push(md(c.refuseOutro), '');
   L.push(`## ${md(c.shiftHead)}`, '');
   L.push(md(c.shiftIntro), '');
   c.shifts.forEach((s, i) => {
@@ -365,6 +362,13 @@ function manifestoMd(c) {
   });
   L.push(md(c.shiftNotNew), '');
   L.push(md(c.shiftOutro), '');
+  L.push(`## ${md(c.refuseHead)}`, '');
+  L.push(md(c.refuseIntro), '');
+  c.refusals.forEach((s, i) => {
+    L.push(`### ${s.from} ≠ ${s.to}${glossOf(c, 'refusals', i)}`);
+    L.push(md(s.note), '');
+  });
+  L.push(md(c.refuseOutro), '');
   L.push(`## ${md(c.qaHead)}`, '');
   c.qa.forEach((x) => {
     L.push(`### ${md(x.q)}`);

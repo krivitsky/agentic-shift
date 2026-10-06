@@ -1,29 +1,14 @@
 # Agentic Shift
 
-_Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas con grandes productos y servicios._
+_Hacia organizaciones sanas con grandes productos y servicios — lejos del tokenmaxing y del resto del teatro de la IA._
 
 ## Lo que defendemos
 
-El **cambio agéntico** es real. Afecta a nuestras organizaciones en profundidad y transforma cómo pensamos sobre el trabajo y sobre quienes lo hacen.
+El **cambio agéntico** es real, y es una verdadera oportunidad. Afecta a nuestras organizaciones en profundidad y transforma cómo pensamos sobre el trabajo y sobre quienes lo hacen. Usamos estas herramientas cada día y disfrutamos usándolas.
 
-Lo que sí sabemos es que no va de tooling, ni de tokens, ni de ninguna otra métrica de producción que resulte fácil de medir. Va de construir mejores organizaciones, que ofrezcan mejores productos y servicios. Eso es lo que importa.
-
-Todo el mundo optimiza para algo. Los laboratorios de frontera optimizan la adopción de sus productos, y el FOMO es la palanca más fuerte de la que tiran sobre nosotros. Es un negocio legítimo, y es el suyo, no el nuestro.
+Lo que sí sabemos es que no va de tooling, ni de tokens, ni de ninguna otra métrica de producción que resulte fácil de medir. Va de construir **organizaciones mejores y más sanas**, que ofrezcan mejores productos y servicios. Eso es lo que importa.
 
 Cada organización es única por cómo fue construida y por aquello a lo que aspira. Nosotros dirigimos **nuestras** organizaciones, y se nos juzga por lo que nos importa a **nosotros** — **nuestros** clientes, empleados y demás partes interesadas. Por eso, para nosotros hay algo que no es negociable: **el cambio agéntico ocurre en nuestros términos**.
-
-## Lo que nos negamos a aceptar
-
-### juicio perdido ≠ eficiencia (lost judgment ≠ efficiency)
-No equiparamos la pérdida del juicio — sobre el código, el diseño, la arquitectura, las funcionalidades o el valor — con la eficiencia.
-
-### dependencia del proveedor ≠ progreso (vendor dependence ≠ progress)
-No aceptamos como progreso la dependencia de los proveedores de IA, de sus modelos y de su tooling.
-
-### volumen de producción ≠ capacidad (output volume ≠ capability)
-No confundimos producir más con llegar a ser una organización más capaz.
-
-En resumen, no dejamos que una moda superficial de adopción de la IA desplace nuestro pensamiento a largo plazo sobre las organizaciones que estamos construyendo. Por eso decimos: **«Primero el diseño organizativo, después la IA.»** Aprendemos a actuar de forma estratégica: definimos qué queremos cambiar en nuestras organizaciones para el bien común, y luego aplicamos la IA — y otros medios — para hacer realidad esos cambios.
 
 ## Hacia dónde nos movemos
 
@@ -41,6 +26,21 @@ Elevar a los ingenieros de producto de ser medidos por su producción a hacerse 
 Estos cambios no son nuevos. Estaban bien documentados y recomendados mucho antes de la IA. Lo que la IA cambia no es si son acertados — solo lo difíciles que son de hacer.
 
 Ahora bien, qué cambios asume tu organización es **cosa tuya**. Lo que importa es que sean **estratégicos y no cortos de miras** — que sirvan a la organización que quieres tener dentro de años, y no a las cifras que el FOMO te haría perseguir este trimestre.
+
+## Lo que nos negamos a aceptar
+
+Los laboratorios de frontera optimizan la adopción de sus productos, y el FOMO es la palanca más fuerte de la que tiran sobre nosotros. Es un negocio legítimo, y es el suyo, no el nuestro.
+
+### juicio perdido ≠ eficiencia (lost judgment ≠ efficiency)
+No equiparamos la pérdida del juicio — sobre el código, el diseño, la arquitectura, las funcionalidades o el valor — con la eficiencia.
+
+### dependencia del proveedor ≠ progreso (vendor dependence ≠ progress)
+No aceptamos como progreso la dependencia de los proveedores de IA, de sus modelos y de su tooling.
+
+### volumen de producción ≠ capacidad (output volume ≠ capability)
+No confundimos producir más con llegar a ser una organización más capaz.
+
+En resumen, no dejamos que una moda superficial de adopción de la IA desplace nuestro pensamiento a largo plazo sobre las organizaciones que estamos construyendo. Por eso decimos: **«Primero el diseño organizativo, después la IA.»** Aprendemos a actuar de forma estratégica: definimos qué queremos cambiar en nuestras organizaciones para el bien común, y luego aplicamos la IA — y otros medios — para hacer realidad esos cambios.
 
 ## ¿Qué sigue?
 

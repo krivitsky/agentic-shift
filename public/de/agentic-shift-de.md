@@ -1,29 +1,14 @@
 # Agentic Shift
 
-_Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services._
+_Hin zu gesunden Organisationen mit großartigen Produkten und Services — weg von Tokenmaxing und anderem KI-Theater._
 
 ## Wofür wir stehen
 
-Der **agentic shift** ist real. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir über die Arbeit und die Arbeitenden denken.
+Der **agentic shift** ist real, und er ist eine echte Chance. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir über die Arbeit und die Arbeitenden denken. Wir nutzen diese Tools jeden Tag und arbeiten gern damit.
 
-Was wir aber wissen: Es geht nicht um Tooling, um Tokens oder um irgendeine andere Output-Kennzahl, die sich zufällig leicht messen lässt. Es geht darum, bessere Organisationen zu bauen, die bessere Produkte und Services anbieten. Darauf kommt es an.
-
-Alle optimieren auf irgendetwas hin. Die führenden KI-Labore optimieren auf die Adoption ihrer Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist ein legitimes Geschäft, und es ist ihres, nicht unseres.
+Was wir aber wissen: Es geht nicht um Tooling, um Tokens oder um irgendeine andere Output-Kennzahl, die sich zufällig leicht messen lässt. Es geht darum, **bessere, gesündere Organisationen** zu bauen, die bessere Produkte und Services anbieten. Darauf kommt es an.
 
 Jede Organisation ist einzigartig — darin, wie sie gebaut wurde, und darin, wonach sie strebt. Wir führen **unsere** Organisationen, und wir werden daran gemessen, was für **uns** zählt — **unsere** Kundinnen und Kunden, Mitarbeitenden und weiteren Stakeholder. Deshalb ist für uns eines nicht verhandelbar: **Der agentic shift geschieht zu unseren Bedingungen**.
-
-## Was wir nicht akzeptieren
-
-### verlorenes Urteilsvermögen ≠ Effizienz (lost judgment ≠ efficiency)
-Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features oder Wert — nicht mit Effizienz gleich.
-
-### Anbieterabhängigkeit ≠ Fortschritt (vendor dependence ≠ progress)
-Wir akzeptieren die Abhängigkeit von KI-Anbietern, ihren Modellen und ihrem Tooling nicht als Fortschritt.
-
-### Output-Menge ≠ Fähigkeit (output volume ≠ capability)
-Wir verwechseln nicht, mehr Output zu erzeugen, mit einer handlungsfähigeren Organisation zu werden.
-
-Kurz: Wir lassen nicht zu, dass eine oberflächliche KI-Adoptionsmode unser langfristiges Denken über die Organisationen verdrängt, die wir bauen. Deshalb sagen wir: **„Erst Org-Design, dann KI.“** Wir lernen, strategisch zu handeln: Wir definieren, was wir in unseren Organisationen zum Wohle des Ganzen verschieben wollen, und setzen dann KI — und andere Mittel — ein, um diese Verschiebungen Wirklichkeit werden zu lassen.
 
 ## Wohin wir uns bewegen
 
@@ -41,6 +26,21 @@ Product Engineers aus der Messung am Output herausheben, hin zur Verantwortung f
 Diese Verschiebungen sind nicht neu. Sie waren lange vor KI gut dokumentiert und empfohlen. Was KI ändert, ist nicht, ob sie richtig sind — nur, wie schwer sie zu vollziehen sind.
 
 Welche Verschiebungen deine Organisation nun angeht, ist **deine Entscheidung**. Entscheidend ist, dass sie **strategisch und nicht kurzsichtig** sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.
+
+## Was wir nicht akzeptieren
+
+Die führenden KI-Labore optimieren auf die Adoption ihrer Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist ein legitimes Geschäft, und es ist ihres, nicht unseres.
+
+### verlorenes Urteilsvermögen ≠ Effizienz (lost judgment ≠ efficiency)
+Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features oder Wert — nicht mit Effizienz gleich.
+
+### Anbieterabhängigkeit ≠ Fortschritt (vendor dependence ≠ progress)
+Wir akzeptieren die Abhängigkeit von KI-Anbietern, ihren Modellen und ihrem Tooling nicht als Fortschritt.
+
+### Output-Menge ≠ Fähigkeit (output volume ≠ capability)
+Wir verwechseln nicht, mehr Output zu erzeugen, mit einer handlungsfähigeren Organisation zu werden.
+
+Kurz: Wir lassen nicht zu, dass eine oberflächliche KI-Adoptionsmode unser langfristiges Denken über die Organisationen verdrängt, die wir bauen. Deshalb sagen wir: **„Erst Org-Design, dann KI.“** Wir lernen, strategisch zu handeln: Wir definieren, was wir in unseren Organisationen zum Wohle des Ganzen verschieben wollen, und setzen dann KI — und andere Mittel — ein, um diese Verschiebungen Wirklichkeit werden zu lassen.
 
 ## Was kommt als Nächstes
 

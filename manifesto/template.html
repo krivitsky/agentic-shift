@@ -86,8 +86,8 @@
       margin-bottom: clamp(10px, 1.4vw, 16px);
     }
 
-    /* A card group sits between plain paragraphs — a .section-head above, a
-       .lede outro below — with nothing but its own margins to separate it, so
+    /* A card group sits between plain paragraphs — an intro .lede above, an
+       outro .lede below — with nothing but its own margins to separate it, so
        without this the cards collide with the prose on both sides. Give the
        group its own air. */
     .manifesto .group {
@@ -187,14 +187,6 @@
 
 {{STAND}}
 
-    <!-- ── What we refuse ───────────────────────────────────────────── -->
-
-    <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">{{REFUSE_HEAD}}</span></h2>
-
-{{REFUSALS}}
-
-    <p class="lede">{{REFUSE_OUTRO}}</p>
-
     <!-- ── What we shift ────────────────────────────────────────────── -->
 
     <h2 class="section-head" id="what-we-shift"><span class="txt">{{SHIFT_HEAD}}</span></h2>
@@ -206,6 +198,18 @@
     <p class="lede">{{SHIFT_NOT_NEW}}</p>
 
     <p class="lede">{{SHIFT_OUTRO}}</p>
+
+    <!-- ── What we refuse ───────────────────────────────────────────── -->
+    <!-- After the shifts, not before: the positive side leads, and the
+         refusals then read as what keeps those shifts healthy. -->
+
+    <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">{{REFUSE_HEAD}}</span></h2>
+
+    <p class="lede">{{REFUSE_INTRO}}</p>
+
+{{REFUSALS}}
+
+    <p class="lede">{{REFUSE_OUTRO}}</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">{{QA_HEAD}}</span></h2>
 

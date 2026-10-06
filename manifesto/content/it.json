@@ -4,27 +4,27 @@
   "dir": "/it/",
   "meta": {
     "title": "Agentic Shift — Prima la progettazione organizzativa, poi l'IA",
-    "description": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane con prodotti e servizi eccellenti. Ciò che sosteniamo, ciò che rifiutiamo, verso cosa ci spostiamo.",
+    "description": "Verso organizzazioni sane con prodotti e servizi eccellenti — lontano dal tokenmaxing e dalle altre forme di teatro dell'IA. Ciò che sosteniamo, verso cosa ci spostiamo, ciò che rifiutiamo.",
     "keywords": "agentic shift, ingegneria di prodotto agentica, agentic product engineering, agenti IA, progettazione organizzativa, ingegneria di prodotto, Alexey Krivitsky, Martin Westphal",
     "ogTitle": "Agentic Shift — Prima la progettazione organizzativa, poi l'IA",
-    "ogDescription": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane con prodotti e servizi eccellenti.",
-    "schemaDescription": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane con prodotti e servizi eccellenti.",
+    "ogDescription": "Verso organizzazioni sane con prodotti e servizi eccellenti — lontano dal tokenmaxing e dalle altre forme di teatro dell'IA.",
+    "schemaDescription": "Verso organizzazioni sane con prodotti e servizi eccellenti — lontano dal tokenmaxing e dalle altre forme di teatro dell'IA.",
     "llmsTitle": "Agentic Shift — versione leggibile dalle macchine (LLM)"
   },
   "hero": {
     "kicker": "Mantenere la lucidità nella corsa all'IA",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane con prodotti e servizi eccellenti."
+    "subtitle": "Verso organizzazioni sane con prodotti e servizi eccellenti — lontano dal tokenmaxing e dalle altre forme di teatro dell'IA."
   },
   "standHead": "Ciò che sosteniamo",
   "stand": [
-    "Lo <span class=\"definition\">spostamento agentico</span> è reale. Tocca in profondità le nostre organizzazioni e cambia il modo in cui pensiamo al lavoro e a chi lo fa.",
-    "Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire organizzazioni migliori, che offrano prodotti e servizi migliori. È questo che conta.",
-    "Tutti stanno ottimizzando qualcosa. I laboratori di frontiera ottimizzano l'adozione dei propri prodotti, e la FOMO è la leva più forte che tirano su di noi. È un business legittimo, ed è il loro, non il nostro.",
+    "Lo <span class=\"definition\">spostamento agentico</span> è reale, ed è una vera opportunità. Tocca in profondità le nostre organizzazioni e cambia il modo in cui pensiamo al lavoro e a chi lo fa. Usiamo questi strumenti ogni giorno, e con piacere.",
+    "Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire <span class=\"definition\">organizzazioni migliori e più sane</span>, che offrano prodotti e servizi migliori. È questo che conta.",
     "Ogni organizzazione è unica per come è stata costruita e per ciò a cui aspira. Siamo noi a guidare le <span class=\"definition\">nostre</span> organizzazioni, e siamo giudicati su ciò che conta per <span class=\"definition\">noi</span> — i <span class=\"definition\">nostri</span> clienti, le persone che lavorano con noi e gli altri portatori di interesse. Perciò per noi una cosa non è negoziabile: <span class=\"definition\">lo spostamento agentico avviene alle nostre condizioni</span>."
   ],
   "refuseHead": "Ciò che ci rifiutiamo di accettare",
+  "refuseIntro": "I laboratori di frontiera ottimizzano l'adozione dei propri prodotti, e la FOMO è la leva più forte che tirano su di noi. È un business legittimo, ed è il loro, non il nostro.",
   "refusals": [
     {
       "from": "giudizio perduto",

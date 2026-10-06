@@ -1,29 +1,14 @@
 # Agentic Shift
 
-_Od tokenmaxingu a dalšího AI divadla k zdravým organizacím se skvělými produkty a službami._
+_Ke zdravým organizacím se skvělými produkty a službami — pryč od tokenmaxingu a dalšího AI divadla._
 
 ## Za čím stojíme
 
-**Agentní posun** je skutečný. Zasahuje naše organizace do hloubky a mění, jak přemýšlíme o práci i o lidech, kteří ji dělají.
+**Agentní posun** je skutečný a je to skutečná příležitost. Zasahuje naše organizace do hloubky a mění, jak přemýšlíme o práci i o lidech, kteří ji dělají. Tyto nástroje používáme každý den a rádi s nimi pracujeme.
 
-Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování lepších organizací, které nabízejí lepší produkty a služby. Na tom záleží.
-
-Každý pro něco optimalizuje. Špičkové laboratoře optimalizují pro přijetí svých produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to legitimní byznys, a je jejich, ne náš.
+Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování **lepších, zdravějších organizací**, které nabízejí lepší produkty a služby. Na tom záleží.
 
 Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu směřuje. Řídíme **své** organizace a jsme souzeni podle toho, na čem záleží **nám** — **našim** zákazníkům, zaměstnancům a dalším zainteresovaným. Proto je pro nás jedna věc nesmlouvavá: **agentní posun se děje za našich podmínek**.
-
-## Co odmítáme přijmout
-
-### ztracený úsudek ≠ efektivita (lost judgment ≠ efficiency)
-Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou.
-
-### závislost na dodavatelích ≠ pokrok (vendor dependence ≠ progress)
-Závislost na dodavatelích AI, na jejich modelech a nástrojích nepřijímáme jako pokrok.
-
-### objem výstupů ≠ schopnost (output volume ≠ capability)
-Nezaměňujeme vyšší produkci výstupů za to, že se stáváme schopnější organizací.
-
-Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: **„Nejdřív organizační design, pak AI.“** Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.
 
 ## Kam se posouváme
 
@@ -41,6 +26,21 @@ Povýšit produktové inženýry z toho, že jsou měřeni podle výstupů, na t
 Tyto posuny nejsou nové. Byly dobře zdokumentované a doporučované dávno před AI. Co AI mění, není to, zda jsou správné — jen to, jak těžké je je uskutečnit.
 
 Které posuny tedy vaše organizace pojme za své, je **na vás**. Podstatné je, aby byly **strategické, ne krátkozraké** — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.
+
+## Co odmítáme přijmout
+
+Špičkové laboratoře optimalizují pro přijetí svých produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to legitimní byznys, a je jejich, ne náš.
+
+### ztracený úsudek ≠ efektivita (lost judgment ≠ efficiency)
+Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou.
+
+### závislost na dodavatelích ≠ pokrok (vendor dependence ≠ progress)
+Závislost na dodavatelích AI, na jejich modelech a nástrojích nepřijímáme jako pokrok.
+
+### objem výstupů ≠ schopnost (output volume ≠ capability)
+Nezaměňujeme vyšší produkci výstupů za to, že se stáváme schopnější organizací.
+
+Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: **„Nejdřív organizační design, pak AI.“** Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.
 
 ## Co dál?
 

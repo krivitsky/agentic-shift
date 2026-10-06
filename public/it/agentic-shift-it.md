@@ -1,29 +1,14 @@
 # Agentic Shift
 
-_Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane con prodotti e servizi eccellenti._
+_Verso organizzazioni sane con prodotti e servizi eccellenti — lontano dal tokenmaxing e dalle altre forme di teatro dell'IA._
 
 ## Ciò che sosteniamo
 
-Lo **spostamento agentico** è reale. Tocca in profondità le nostre organizzazioni e cambia il modo in cui pensiamo al lavoro e a chi lo fa.
+Lo **spostamento agentico** è reale, ed è una vera opportunità. Tocca in profondità le nostre organizzazioni e cambia il modo in cui pensiamo al lavoro e a chi lo fa. Usiamo questi strumenti ogni giorno, e con piacere.
 
-Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire organizzazioni migliori, che offrano prodotti e servizi migliori. È questo che conta.
-
-Tutti stanno ottimizzando qualcosa. I laboratori di frontiera ottimizzano l'adozione dei propri prodotti, e la FOMO è la leva più forte che tirano su di noi. È un business legittimo, ed è il loro, non il nostro.
+Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire **organizzazioni migliori e più sane**, che offrano prodotti e servizi migliori. È questo che conta.
 
 Ogni organizzazione è unica per come è stata costruita e per ciò a cui aspira. Siamo noi a guidare le **nostre** organizzazioni, e siamo giudicati su ciò che conta per **noi** — i **nostri** clienti, le persone che lavorano con noi e gli altri portatori di interesse. Perciò per noi una cosa non è negoziabile: **lo spostamento agentico avviene alle nostre condizioni**.
-
-## Ciò che ci rifiutiamo di accettare
-
-### giudizio perduto ≠ efficienza (lost judgment ≠ efficiency)
-Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza.
-
-### dipendenza dai fornitori ≠ progresso (vendor dependence ≠ progress)
-Non accettiamo come progresso la dipendenza dai fornitori di IA, dai loro modelli e dal loro tooling.
-
-### volume di produzione ≠ capacità (output volume ≠ capability)
-Non confondiamo produrre di più con diventare un'organizzazione più capace.
-
-In breve, non lasciamo che una moda superficiale di adozione dell'IA soffochi il nostro pensiero di lungo periodo sulle organizzazioni che stiamo costruendo. Perciò diciamo: **“Prima la progettazione organizzativa, poi l'IA.”** Impariamo ad agire in modo strategico: definiamo che cosa vogliamo spostare nelle nostre organizzazioni per il bene comune, e poi applichiamo l'IA — e altri mezzi — per rendere reali quegli spostamenti.
 
 ## Verso cosa ci spostiamo
 
@@ -41,6 +26,21 @@ Elevare gli ingegneri di prodotto dall'essere misurati sulla produzione al farsi
 Questi spostamenti non sono nuovi. Erano ben documentati e raccomandati molto prima dell'IA. Ciò che l'IA cambia non è se siano giusti — solo quanto siano difficili da compiere.
 
 Ora, quali spostamenti la tua organizzazione intraprenda sta **a te deciderlo**. Ciò che conta è che siano **strategici e non miopi** — che servano l'organizzazione che vuoi avere fra anni, e non i numeri che la FOMO ti farebbe rincorrere questo trimestre.
+
+## Ciò che ci rifiutiamo di accettare
+
+I laboratori di frontiera ottimizzano l'adozione dei propri prodotti, e la FOMO è la leva più forte che tirano su di noi. È un business legittimo, ed è il loro, non il nostro.
+
+### giudizio perduto ≠ efficienza (lost judgment ≠ efficiency)
+Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza.
+
+### dipendenza dai fornitori ≠ progresso (vendor dependence ≠ progress)
+Non accettiamo come progresso la dipendenza dai fornitori di IA, dai loro modelli e dal loro tooling.
+
+### volume di produzione ≠ capacità (output volume ≠ capability)
+Non confondiamo produrre di più con diventare un'organizzazione più capace.
+
+In breve, non lasciamo che una moda superficiale di adozione dell'IA soffochi il nostro pensiero di lungo periodo sulle organizzazioni che stiamo costruendo. Perciò diciamo: **“Prima la progettazione organizzativa, poi l'IA.”** Impariamo ad agire in modo strategico: definiamo che cosa vogliamo spostare nelle nostre organizzazioni per il bene comune, e poi applichiamo l'IA — e altri mezzi — per rendere reali quegli spostamenti.
 
 ## E adesso?
 

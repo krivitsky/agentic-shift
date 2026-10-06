@@ -4,27 +4,27 @@
   "dir": "/fr/",
   "meta": {
     "title": "Agentic Shift — Le design organisationnel d'abord, l'IA ensuite",
-    "description": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents. Ce que nous défendons, ce que nous refusons, vers quoi nous basculons.",
+    "description": "Vers des organisations saines aux produits et services excellents — loin du tokenmaxing et des autres formes de théâtre de l'IA. Ce que nous défendons, vers quoi nous basculons, ce que nous refusons.",
     "keywords": "agentic shift, ingénierie produit agentique, agentic product engineering, agents IA, design organisationnel, ingénierie produit, Alexey Krivitsky, Martin Westphal",
     "ogTitle": "Agentic Shift — Le design organisationnel d'abord, l'IA ensuite",
-    "ogDescription": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents.",
-    "schemaDescription": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents.",
+    "ogDescription": "Vers des organisations saines aux produits et services excellents — loin du tokenmaxing et des autres formes de théâtre de l'IA.",
+    "schemaDescription": "Vers des organisations saines aux produits et services excellents — loin du tokenmaxing et des autres formes de théâtre de l'IA.",
     "llmsTitle": "Agentic Shift — version lisible par machine (LLM)"
   },
   "hero": {
     "kicker": "Garder la tête froide dans la course à l'IA",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines aux produits et services excellents."
+    "subtitle": "Vers des organisations saines aux produits et services excellents — loin du tokenmaxing et des autres formes de théâtre de l'IA."
   },
   "standHead": "Ce que nous défendons",
   "stand": [
-    "Le <span class=\"definition\">basculement agentique</span> est réel. Il touche nos organisations en profondeur et change notre façon de penser le travail et celles et ceux qui le font.",
-    "Ce que nous savons, en revanche, c'est qu'il ne s'agit ni d'outillage, ni de tokens, ni d'aucune autre métrique de production qui a simplement le mérite d'être facile à mesurer. Il s'agit de bâtir de meilleures organisations, qui proposent de meilleurs produits et services. C'est cela qui compte.",
-    "Chacun optimise quelque chose. Les laboratoires de pointe optimisent l'adoption de leurs produits, et la FOMO est le levier le plus puissant qu'ils actionnent sur nous. C'est une activité légitime, et elle est la leur, pas la nôtre.",
+    "Le <span class=\"definition\">basculement agentique</span> est réel, et c'est une vraie opportunité. Il touche nos organisations en profondeur et change notre façon de penser le travail et celles et ceux qui le font. Nous utilisons ces outils tous les jours, et avec plaisir.",
+    "Ce que nous savons, en revanche, c'est qu'il ne s'agit ni d'outillage, ni de tokens, ni d'aucune autre métrique de production qui a simplement le mérite d'être facile à mesurer. Il s'agit de bâtir <span class=\"definition\">des organisations meilleures et plus saines</span>, qui proposent de meilleurs produits et services. C'est cela qui compte.",
     "Chaque organisation est unique par la manière dont elle a été bâtie et par ce à quoi elle aspire. Nous dirigeons <span class=\"definition\">nos</span> organisations, et nous sommes jugés sur ce qui compte pour <span class=\"definition\">nous</span> — <span class=\"definition\">nos</span> clients, nos salariés et nos autres parties prenantes. Alors pour nous, une chose n'est pas négociable : <span class=\"definition\">le basculement agentique se fait à nos conditions</span>."
   ],
   "refuseHead": "Ce que nous refusons d'accepter",
+  "refuseIntro": "Les laboratoires de pointe optimisent l'adoption de leurs produits, et la FOMO est le levier le plus puissant qu'ils actionnent sur nous. C'est une activité légitime, et elle est la leur, pas la nôtre.",
   "refusals": [
     {
       "from": "jugement perdu",

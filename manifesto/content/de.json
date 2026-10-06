@@ -4,27 +4,27 @@
   "dir": "/de/",
   "meta": {
     "title": "Agentic Shift — Erst Org-Design, dann KI",
-    "description": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services. Wofür wir stehen, was wir ablehnen, wohin wir uns bewegen.",
+    "description": "Hin zu gesunden Organisationen mit großartigen Produkten und Services — weg von Tokenmaxing und anderem KI-Theater. Wofür wir stehen, wohin wir uns bewegen, was wir ablehnen.",
     "keywords": "agentic shift, agentic product engineering, agentisches Product Engineering, KI-Agenten, Organisationsdesign, Product Engineering, Alexey Krivitsky, Martin Westphal",
     "ogTitle": "Agentic Shift — Erst Org-Design, dann KI",
-    "ogDescription": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services.",
-    "schemaDescription": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services.",
+    "ogDescription": "Hin zu gesunden Organisationen mit großartigen Produkten und Services — weg von Tokenmaxing und anderem KI-Theater.",
+    "schemaDescription": "Hin zu gesunden Organisationen mit großartigen Produkten und Services — weg von Tokenmaxing und anderem KI-Theater.",
     "llmsTitle": "Agentic Shift — maschinenlesbare (LLM-)Fassung"
   },
   "hero": {
     "kicker": "Im KI-Rennen bei Verstand bleiben",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen mit großartigen Produkten und Services."
+    "subtitle": "Hin zu gesunden Organisationen mit großartigen Produkten und Services — weg von Tokenmaxing und anderem KI-Theater."
   },
   "standHead": "Wofür wir stehen",
   "stand": [
-    "Der <span class=\"definition\">agentic shift</span> ist real. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir über die Arbeit und die Arbeitenden denken.",
-    "Was wir aber wissen: Es geht nicht um Tooling, um Tokens oder um irgendeine andere Output-Kennzahl, die sich zufällig leicht messen lässt. Es geht darum, bessere Organisationen zu bauen, die bessere Produkte und Services anbieten. Darauf kommt es an.",
-    "Alle optimieren auf irgendetwas hin. Die führenden KI-Labore optimieren auf die Adoption ihrer Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist ein legitimes Geschäft, und es ist ihres, nicht unseres.",
+    "Der <span class=\"definition\">agentic shift</span> ist real, und er ist eine echte Chance. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir über die Arbeit und die Arbeitenden denken. Wir nutzen diese Tools jeden Tag und arbeiten gern damit.",
+    "Was wir aber wissen: Es geht nicht um Tooling, um Tokens oder um irgendeine andere Output-Kennzahl, die sich zufällig leicht messen lässt. Es geht darum, <span class=\"definition\">bessere, gesündere Organisationen</span> zu bauen, die bessere Produkte und Services anbieten. Darauf kommt es an.",
     "Jede Organisation ist einzigartig — darin, wie sie gebaut wurde, und darin, wonach sie strebt. Wir führen <span class=\"definition\">unsere</span> Organisationen, und wir werden daran gemessen, was für <span class=\"definition\">uns</span> zählt — <span class=\"definition\">unsere</span> Kundinnen und Kunden, Mitarbeitenden und weiteren Stakeholder. Deshalb ist für uns eines nicht verhandelbar: <span class=\"definition\">Der agentic shift geschieht zu unseren Bedingungen</span>."
   ],
   "refuseHead": "Was wir nicht akzeptieren",
+  "refuseIntro": "Die führenden KI-Labore optimieren auf die Adoption ihrer Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist ein legitimes Geschäft, und es ist ihres, nicht unseres.",
   "refusals": [
     {
       "from": "verlorenes Urteilsvermögen",

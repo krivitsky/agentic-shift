@@ -4,27 +4,27 @@
   "dir": "/zh/",
   "meta": {
     "title": "Agentic Shift — 先做组织设计，再谈 AI",
-    "description": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。我们的立场，我们拒绝接受的，我们转向何处。",
+    "description": "走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。我们的立场，我们转向何处，我们拒绝接受的。",
     "keywords": "agentic shift, 智能体产品工程, agentic product engineering, AI 智能体, 组织设计, 产品工程, Alexey Krivitsky, Martin Westphal",
     "ogTitle": "Agentic Shift — 先做组织设计，再谈 AI",
-    "ogDescription": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。",
-    "schemaDescription": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。",
+    "ogDescription": "走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。",
+    "schemaDescription": "走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。",
     "llmsTitle": "Agentic Shift — 机器可读（LLM）版本"
   },
   "hero": {
     "kicker": "在 AI 竞赛中保持清醒",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "从 tokenmaxing 与其他 AI 表演，走向拥有优秀产品与服务的健康组织。"
+    "subtitle": "走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。"
   },
   "standHead": "我们的立场",
   "stand": [
-    "<span class=\"definition\">智能体转变</span>是真实的。它深刻影响着我们的组织，改变着我们如何看待这份工作，以及做这份工作的人。",
-    "但我们知道：这件事无关工具，无关 token，也无关任何一个恰好容易衡量的产出指标。它关乎建设更好的组织，让组织提供更好的产品与服务。这才是重要的。",
-    "每个人都在为某个目标做优化。前沿实验室优化的是自家产品的采用率，而 FOMO 是他们拉动我们时最强的那根杠杆。那是正当的生意，是他们的生意，不是我们的。",
+    "<span class=\"definition\">智能体转变</span>是真实的，也是一个真正的机会。它深刻影响着我们的组织，改变着我们如何看待这份工作，以及做这份工作的人。我们每天都在使用这些工具，并且乐在其中。",
+    "但我们知道：这件事无关工具，无关 token，也无关任何一个恰好容易衡量的产出指标。它关乎建设<span class=\"definition\">更好、更健康的组织</span>，让组织提供更好的产品与服务。这才是重要的。",
     "每个组织都是独一无二的——独特在它被建成的方式，也独特在它所追求的东西。我们经营的是<span class=\"definition\">我们自己的</span>组织，我们被评判的标准，是对<span class=\"definition\">我们</span>而言重要的事——<span class=\"definition\">我们的</span>客户、员工与其他利益相关方。所以对我们而言，有一件事没有商量余地：<span class=\"definition\">智能体转变按我们的条件发生</span>。"
   ],
   "refuseHead": "我们拒绝接受的",
+  "refuseIntro": "前沿实验室优化的是自家产品的采用率，而 FOMO 是他们拉动我们时最强的那根杠杆。那是正当的生意，是他们的生意，不是我们的。",
   "refusals": [
     {
       "from": "判断力的丧失",

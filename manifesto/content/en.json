@@ -4,27 +4,27 @@
   "dir": "/",
   "meta": {
     "title": "Agentic Shift — Org design, then AI",
-    "description": "From tokenmaxing and other AI theater towards healthy organizations with great products and services. Where we stand, what we refuse, what we shift.",
+    "description": "Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater. Where we stand, what we shift, what we refuse.",
     "keywords": "agentic shift, agentic product engineering, agentic engineering, AI agents, organizational design, product engineering, professional agentic engineering, Alexey Krivitsky, Martin Westphal",
     "ogTitle": "Agentic Shift — Org design, then AI",
-    "ogDescription": "From tokenmaxing and other AI theater towards healthy organizations with great products and services.",
-    "schemaDescription": "From tokenmaxing and other AI theater towards healthy organizations with great products and services.",
+    "ogDescription": "Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater.",
+    "schemaDescription": "Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater.",
     "llmsTitle": "Agentic Shift — machine-readable (LLM) version"
   },
   "hero": {
     "kicker": "Staying sane in the AI race",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "From tokenmaxing and other AI theater towards healthy organizations with great products and services."
+    "subtitle": "Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater."
   },
   "standHead": "What we stand for",
   "stand": [
-    "The <span class=\"definition\">agentic shift</span> is real. It affects our organizations deeply, changing how we think about the work and the workers.",
-    "What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building better organizations that offer better products and services. That's what matters.",
-    "Everyone is optimizing for something. The frontier labs optimize for the adoption of their products, and FOMO is the strongest lever they pull on us. That is a legitimate business, and it is theirs, not ours.",
+    "The <span class=\"definition\">agentic shift</span> is real, and it is a real opportunity. It affects our organizations deeply, changing how we think about the work and the workers. We use these tools every day and enjoy them.",
+    "What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building <span class=\"definition\">better, healthier organizations</span> that offer better products and services. That's what matters.",
     "Every organization is unique in the way it was built and in what it aspires to. We run <span class=\"definition\">our</span> organizations, and we are judged on what matters to <span class=\"definition\">us</span> — <span class=\"definition\">our</span> customers, employees, and other stakeholders. So for us one thing is non-negotiable: <span class=\"definition\">the agentic shift happens on our terms</span>."
   ],
   "refuseHead": "What we refuse to accept",
+  "refuseIntro": "The frontier labs optimize for the adoption of their products, and FOMO is the strongest lever they pull on us. That is a legitimate business, and it is theirs, not ours.",
   "refusals": [
     {
       "from": "lost judgment",
@@ -43,7 +43,7 @@
     }
   ],
   "refuseOutro": "In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: <span class=\"definition\">“Org design, then AI.”</span> We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.",
-  "shiftHead": "What we shift towards",
+  "shiftHead": "What we shift toward",
   "shiftIntro": "Product engineering organizations that hold on to sustainable quality, customer value and high adaptability make the following strategic shifts, with AI as a lever to ease them:",
   "shifts": [
     {
