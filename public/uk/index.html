@@ -67,7 +67,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/shift.css">
 
   <!-- Google tag (gtag.js) -->
@@ -148,6 +148,24 @@
       max-width: 64em;
       text-wrap: pretty;
     }
+
+    /* <em> in the copy is a spoken stress ("the adoption of their products"),
+       so it is set in real italics: Poppins 400 italic is loaded above for it.
+       shift.css draws .lede em upright and white for /munich and the archives;
+       this overrides it on the manifesto only. Chinese and Japanese have no
+       italics, so they get their native emphasis dots instead (under the
+       glyph in Chinese, over it in Japanese). */
+    .manifesto .lede em { font-style: italic; color: inherit; }
+    .manifesto .lede em:lang(zh),
+    .manifesto .lede em:lang(ja) {
+      font-style: normal;
+      -webkit-text-emphasis: filled dot;
+      text-emphasis: filled dot;
+    }
+    .manifesto .lede em:lang(zh) {
+      -webkit-text-emphasis-position: under right;
+      text-emphasis-position: under right;
+    }
   </style>
 </head>
 <body>
@@ -209,11 +227,13 @@
 
     <h2 class="section-head" id="what-we-stand-for"><span class="txt">Що ми обстоюємо</span></h2>
 
-    <p class="lede"><span class="definition">Агентний перехід</span> — це реальність, і це справжня можливість. Він глибоко впливає на наші організації та змінює те, як ми думаємо про роботу і про тих, хто її виконує. Ми користуємося цими інструментами щодня, і нам подобається з ними працювати.</p>
+    <p class="lede"><span class="definition">Агентний перехід</span> — це реальність, і це справжня можливість. Він глибоко впливає на наші організації та змінює те, як ми працюємо і як працюємо разом. Ми користуємося цими інструментами щодня, і нам це подобається.</p>
 
-    <p class="lede">Проте ми знаємо ось що: справа не в інструментах, не в токенах і не в будь-якій іншій метриці виробітку, яку просто зручно вимірювати. Справа в тому, щоб будувати <span class="definition">кращі, здоровіші організації</span>, які пропонують кращі продукти та послуги. Саме це має значення.</p>
+    <p class="lede">Проте ми знаємо ось що: справа не в інструментах, не в токенах і не в будь-якій іншій метриці виробітку, яку просто зручно вимірювати. Справа в тому, щоб будувати <span class="definition">кращі, здоровіші організації</span>, які пропонують кращі продукти та послуги і в яких процвітають звичайні люди. Саме це має значення.</p>
 
-    <p class="lede">Кожна організація унікальна тим, як її було збудовано, і тим, до чого вона прагне. Ми керуємо <span class="definition">своїми</span> організаціями, і нас оцінюють за тим, що важливо <span class="definition">нам</span> — <span class="definition">нашим</span> клієнтам, працівникам та іншим зацікавленим сторонам. Тож для нас одна річ не підлягає обговоренню: <span class="definition">агентний перехід відбувається на наших умовах</span>.</p>
+    <p class="lede">Кожна організація унікальна тим, як її збудували і чого вона хоче досягти. Ми керуємо <span class="definition">своїми</span> організаціями, і нас оцінюють за тим, що важливо нам — нашим клієнтам, працівникам та іншим зацікавленим сторонам.</p>
+
+    <p class="lede">Тож для нас одна річ не підлягає обговоренню: <span class="definition">агентний перехід відбувається на наших умовах</span> і оптимізує те, що нам небайдуже, — а не на умовах ШІ-вендорів та ажіотажу навколо ШІ-моделей.</p>
 
     <!-- ── What we shift ────────────────────────────────────────────── -->
 
@@ -248,7 +268,7 @@
       </ul>
     </section>
 
-    <p class="lede">Ці зрушення не нові. Вони були добре задокументовані й рекомендовані задовго до ШІ. ШІ змінює не те, чи вони правильні, — лише те, наскільки важко їх здійснити.</p>
+    <p class="lede">Ці зрушення не нові. Вони були добре задокументовані й рекомендовані задовго до нинішньої хвилі ШІ. ШІ не змінює того, чому ці зрушення важливі. Він робить їх більш здійсненними, більш актуальними й більш нагальними.</p>
 
     <p class="lede">Які ж зрушення візьме на себе ваша організація — <span class="definition">вирішувати вам</span>. Важливо, щоб вони були <span class="definition">стратегічними, а не короткозорими</span> — щоб вони служили тій організації, яку ви хочете мати за кілька років, а не цифрам, за якими FOMO змусило б вас гнатися цього кварталу.</p>
 
@@ -258,7 +278,9 @@
 
     <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">Чого ми не приймаємо</span></h2>
 
-    <p class="lede">Провідні лабораторії оптимізують упровадження своїх продуктів, і FOMO — найсильніший важіль, за який вони тягнуть нас. Це легітимний бізнес, і він їхній, а не наш.</p>
+    <p class="lede">Провідні лабораторії оптимізують упровадження <em>своїх</em> продуктів, і FOMO — найсильніший важіль, за який вони тягнуть нас. Можливо, це легітимна бізнес-стратегія, але вона їхня, а не наша.</p>
+
+    <p class="lede">Щоб перехід залишався здоровим, хоч би що казав ажіотаж, є три речі, які ми не проміняємо на короткострокову вигоду:</p>
 
     <section class="group group-refuse">
       <ul class="shifts">
@@ -266,38 +288,34 @@
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">втрачене судження</span><span class="pair-en" lang="en">lost judgment</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">ефективність</span><span class="pair-en" lang="en">efficiency</span></span></p>
-            <p class="note">Ми не ототожнюємо втрату судження — щодо коду, дизайну, архітектури, функцій чи цінності — з ефективністю.</p>
+            <p class="note">Ми не ототожнюємо втрату судження — щодо коду, дизайну, архітектури, функцій, цінності чи смаку — з ефективністю.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">залежність від вендорів</span><span class="pair-en" lang="en">vendor dependence</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">прогрес</span><span class="pair-en" lang="en">progress</span></span></p>
-            <p class="note">Ми не приймаємо за прогрес залежність від ШІ-вендорів, їхніх моделей та інструментів.</p>
+            <p class="note">Ми не приймаємо за прогрес залежність від ШІ-вендорів — їхніх моделей, інструментів і запропонованих ними життєвих циклів.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">обсяг виробітку</span><span class="pair-en" lang="en">output volume</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">спроможність</span><span class="pair-en" lang="en">capability</span></span></p>
-            <p class="note">Ми не плутаємо виробництво більшої кількості результатів зі становленням спроможнішої організації.</p>
+            <p class="note">Ми не плутаємо більший виробіток — більше коду, функцій чи токенів — зі спроможнішою організацією.</p>
           </div>
         </li>
 
       </ul>
     </section>
 
-    <p class="lede">Коротко: ми не дозволяємо, щоб поверхнева мода на впровадження ШІ витіснила наше довгострокове мислення про організації, які ми будуємо. Тому ми кажемо: <span class="definition">«Спершу організаційний дизайн, потім ШІ.»</span> Ми вчимося діяти стратегічно: визначаємо, що саме хочемо зрушити у своїх організаціях задля спільного блага, а вже потім застосовуємо ШІ — та інші засоби — щоб втілити ці зрушення.</p>
+    <p class="lede">Коротко: ми не дозволяємо, щоб ажіотаж навколо ШІ витіснив довгострокове мислення про наші організації та про те, що добре для наших людей і наших компаній. Тому ми кажемо: <span class="definition">«Спершу організаційний дизайн, потім ШІ.»</span> Ми відштовхуємося від зрушень, описаних вище, а потім застосовуємо ШІ та інші засоби, щоб утілити їх.</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">Що далі</span></h2>
 
     <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Хочете долучитися?</p>
 
     <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Запропонуйте покращення</a>. Поділіться цією сторінкою. Застосуйте ці ідеї у своїй організації.</p>
-
-    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Хочете зануритися глибше?</p>
-
-    <p class="lede"><a href="/community">Приєднуйтеся до професійної навчальної спільноти</a> — ретельно відібраний простір із доступом лише за заявкою, для senior builders &amp; leaders, які разом працюють над цими зрушеннями.</p>
 
     <footer class="foot">
       <div class="foot-line">

@@ -19,30 +19,32 @@
   },
   "standHead": "Wofür wir stehen",
   "stand": [
-    "Der <span class=\"definition\">agentic shift</span> ist real, und er ist eine echte Chance. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir über die Arbeit und die Arbeitenden denken. Wir nutzen diese Tools jeden Tag und arbeiten gern damit.",
-    "Was wir aber wissen: Es geht nicht um Tooling, um Tokens oder um irgendeine andere Output-Kennzahl, die sich zufällig leicht messen lässt. Es geht darum, <span class=\"definition\">bessere, gesündere Organisationen</span> zu bauen, die bessere Produkte und Services anbieten. Darauf kommt es an.",
-    "Jede Organisation ist einzigartig — darin, wie sie gebaut wurde, und darin, wonach sie strebt. Wir führen <span class=\"definition\">unsere</span> Organisationen, und wir werden daran gemessen, was für <span class=\"definition\">uns</span> zählt — <span class=\"definition\">unsere</span> Kundinnen und Kunden, Mitarbeitenden und weiteren Stakeholder. Deshalb ist für uns eines nicht verhandelbar: <span class=\"definition\">Der agentic shift geschieht zu unseren Bedingungen</span>."
+    "Der <span class=\"definition\">agentic shift</span> ist real, und er ist eine echte Chance. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir arbeiten und wie wir zusammenarbeiten. Wir nutzen diese Tools jeden Tag und haben Freude daran.",
+    "Was wir aber wissen: Es geht nicht um Tooling, um Tokens oder um irgendeine andere Output-Kennzahl, die sich zufällig leicht messen lässt. Es geht darum, <span class=\"definition\">bessere, gesündere Organisationen</span> zu bauen, die bessere Produkte und Services anbieten und in denen ganz normale Menschen aufblühen. Darauf kommt es an.",
+    "Jede Organisation ist einzigartig darin, wie sie gebaut wurde und was sie anstrebt. Wir führen <span class=\"definition\">unsere</span> Organisationen, und wir werden daran gemessen, was für uns zählt — unsere Kundinnen und Kunden, Mitarbeitenden und weiteren Stakeholder.",
+    "Deshalb ist für uns eines nicht verhandelbar: <span class=\"definition\">Der agentic shift geschieht zu unseren Bedingungen</span> und optimiert auf das, was uns am Herzen liegt — nicht zu den Bedingungen der KI-Anbieter und des Hypes um KI-Modelle."
   ],
   "refuseHead": "Was wir nicht akzeptieren",
-  "refuseIntro": "Die führenden KI-Labore optimieren auf die Adoption ihrer Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist ein legitimes Geschäft, und es ist ihres, nicht unseres.",
+  "refuseIntro": "Die führenden KI-Labore optimieren auf die Adoption <em>ihrer</em> Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist vielleicht eine legitime Geschäftsstrategie, aber es ist ihre, nicht unsere.",
+  "refuseLead": "Damit der agentic shift gesund bleibt, gibt es — egal, was der Hype sagt — drei Dinge, die wir nicht gegen kurzfristige Gewinne eintauschen:",
   "refusals": [
     {
       "from": "verlorenes Urteilsvermögen",
       "to": "Effizienz",
-      "note": "Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features oder Wert — nicht mit Effizienz gleich."
+      "note": "Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features, Wert oder Geschmack — nicht mit Effizienz gleich."
     },
     {
       "from": "Anbieterabhängigkeit",
       "to": "Fortschritt",
-      "note": "Wir akzeptieren die Abhängigkeit von KI-Anbietern, ihren Modellen und ihrem Tooling nicht als Fortschritt."
+      "note": "Wir akzeptieren die Abhängigkeit von KI-Anbietern — ihren Modellen, ihrem Tooling und den von ihnen vorgeschlagenen Lebenszyklen — nicht als Fortschritt."
     },
     {
       "from": "Output-Menge",
       "to": "Fähigkeit",
-      "note": "Wir verwechseln nicht, mehr Output zu erzeugen, mit einer handlungsfähigeren Organisation zu werden."
+      "note": "Wir verwechseln mehr Output — mehr Code, Features oder Tokens — nicht mit einer handlungsfähigeren Organisation."
     }
   ],
-  "refuseOutro": "Kurz: Wir lassen nicht zu, dass eine oberflächliche KI-Adoptionsmode unser langfristiges Denken über die Organisationen verdrängt, die wir bauen. Deshalb sagen wir: <span class=\"definition\">„Erst Org-Design, dann KI.“</span> Wir lernen, strategisch zu handeln: Wir definieren, was wir in unseren Organisationen zum Wohle des Ganzen verschieben wollen, und setzen dann KI — und andere Mittel — ein, um diese Verschiebungen Wirklichkeit werden zu lassen.",
+  "refuseOutro": "Kurz: Wir lassen nicht zu, dass der KI-Hype das langfristige Denken über unsere Organisationen und darüber, was für unsere Leute und unsere Unternehmen gut ist, verdrängt. Deshalb sagen wir: <span class=\"definition\">„Erst Org-Design, dann KI.“</span> Wir gehen von den Verschiebungen oben aus und setzen dann KI und andere Mittel ein, um sie Wirklichkeit werden zu lassen.",
   "shiftHead": "Wohin wir uns bewegen",
   "shiftIntro": "Organisationen im Product Engineering, die an nachhaltiger Qualität, Kundennutzen und hoher Anpassungsfähigkeit festhalten, vollziehen die folgenden strategischen Verschiebungen, mit KI als Hebel, der sie erleichtert:",
   "shifts": [
@@ -62,17 +64,13 @@
       "note": "Product Engineers aus der Messung am Output herausheben, hin zur Verantwortung für den vollständigen Wertkreislauf — echte Kundenwirkung sicherstellen, experimentieren und den Kurs korrigieren, sobald die Evidenz eintrifft."
     }
   ],
-  "shiftNotNew": "Diese Verschiebungen sind nicht neu. Sie waren lange vor KI gut dokumentiert und empfohlen. Was KI ändert, ist nicht, ob sie richtig sind — nur, wie schwer sie zu vollziehen sind.",
+  "shiftNotNew": "Diese Verschiebungen sind nicht neu. Sie waren lange vor der aktuellen KI-Welle gut dokumentiert und empfohlen. KI ändert nichts daran, warum diese Verschiebungen wichtig sind. Sie macht sie machbarer, relevanter und dringlicher.",
   "shiftOutro": "Welche Verschiebungen deine Organisation nun angeht, ist <span class=\"definition\">deine Entscheidung</span>. Entscheidend ist, dass sie <span class=\"definition\">strategisch und nicht kurzsichtig</span> sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.",
   "qaHead": "Was kommt als Nächstes",
   "qa": [
     {
       "q": "Mitmachen?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Verbesserungen vorschlagen</a>. Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen."
-    },
-    {
-      "q": "Tiefer einsteigen?",
-      "a": "<a href=\"/community\">Der professionellen Lern-Community beitreten</a> — ein kuratierter Raum, Zugang nur auf Bewerbung, für senior builders &amp; leaders, die gemeinsam an diesen Verschiebungen arbeiten."
     }
   ],
   "foot": {

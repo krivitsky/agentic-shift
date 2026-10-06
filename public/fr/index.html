@@ -67,7 +67,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/shift.css">
 
   <!-- Google tag (gtag.js) -->
@@ -148,6 +148,24 @@
       max-width: 64em;
       text-wrap: pretty;
     }
+
+    /* <em> in the copy is a spoken stress ("the adoption of their products"),
+       so it is set in real italics: Poppins 400 italic is loaded above for it.
+       shift.css draws .lede em upright and white for /munich and the archives;
+       this overrides it on the manifesto only. Chinese and Japanese have no
+       italics, so they get their native emphasis dots instead (under the
+       glyph in Chinese, over it in Japanese). */
+    .manifesto .lede em { font-style: italic; color: inherit; }
+    .manifesto .lede em:lang(zh),
+    .manifesto .lede em:lang(ja) {
+      font-style: normal;
+      -webkit-text-emphasis: filled dot;
+      text-emphasis: filled dot;
+    }
+    .manifesto .lede em:lang(zh) {
+      -webkit-text-emphasis-position: under right;
+      text-emphasis-position: under right;
+    }
   </style>
 </head>
 <body>
@@ -209,11 +227,13 @@
 
     <h2 class="section-head" id="what-we-stand-for"><span class="txt">Ce que nous défendons</span></h2>
 
-    <p class="lede">Le <span class="definition">basculement agentique</span> est réel, et c'est une vraie opportunité. Il touche nos organisations en profondeur et change notre façon de penser le travail et celles et ceux qui le font. Nous utilisons ces outils tous les jours, et avec plaisir.</p>
+    <p class="lede">Le <span class="definition">basculement agentique</span> est réel, et c'est une vraie opportunité. Il touche nos organisations en profondeur et change notre façon de travailler et de travailler ensemble. Nous utilisons ces outils tous les jours, et avec plaisir.</p>
 
-    <p class="lede">Ce que nous savons, en revanche, c'est qu'il ne s'agit ni d'outillage, ni de tokens, ni d'aucune autre métrique de production qui a simplement le mérite d'être facile à mesurer. Il s'agit de bâtir <span class="definition">des organisations meilleures et plus saines</span>, qui proposent de meilleurs produits et services. C'est cela qui compte.</p>
+    <p class="lede">Ce que nous savons, en revanche, c'est qu'il ne s'agit ni d'outillage, ni de tokens, ni d'aucune autre métrique de production qui a simplement le mérite d'être facile à mesurer. Il s'agit de bâtir <span class="definition">des organisations meilleures et plus saines</span>, qui proposent de meilleurs produits et services, et où les gens ordinaires s'épanouissent. C'est cela qui compte.</p>
 
-    <p class="lede">Chaque organisation est unique par la manière dont elle a été bâtie et par ce à quoi elle aspire. Nous dirigeons <span class="definition">nos</span> organisations, et nous sommes jugés sur ce qui compte pour <span class="definition">nous</span> — <span class="definition">nos</span> clients, nos salariés et nos autres parties prenantes. Alors pour nous, une chose n'est pas négociable : <span class="definition">le basculement agentique se fait à nos conditions</span>.</p>
+    <p class="lede">Chaque organisation est unique par la façon dont elle a été bâtie et par ce qu'elle vise. Nous dirigeons <span class="definition">nos</span> organisations, et nous sommes jugés sur ce qui compte pour nous — nos clients, nos salariés et nos autres parties prenantes.</p>
+
+    <p class="lede">Alors pour nous, une chose n'est pas négociable : <span class="definition">le basculement agentique se fait à nos conditions</span> et optimise ce qui nous tient à cœur — pas aux conditions des fournisseurs d'IA ni du battage autour des modèles d'IA.</p>
 
     <!-- ── What we shift ────────────────────────────────────────────── -->
 
@@ -248,7 +268,7 @@
       </ul>
     </section>
 
-    <p class="lede">Ces basculements ne sont pas nouveaux. Ils étaient bien documentés et recommandés bien avant l'IA. Ce que l'IA change, ce n'est pas s'ils sont justes — seulement à quel point ils sont difficiles à opérer.</p>
+    <p class="lede">Ces basculements ne sont pas nouveaux. Ils étaient bien documentés et recommandés bien avant la vague actuelle de l'IA. L'IA ne change pas les raisons pour lesquelles ces basculements comptent. Elle les rend plus faisables, plus pertinents et plus urgents.</p>
 
     <p class="lede">Maintenant, les basculements que votre organisation entreprend, c'est <span class="definition">à vous d'en décider</span>. Ce qui compte, c'est qu'ils soient <span class="definition">stratégiques et non myopes</span> — qu'ils servent l'organisation que vous voulez avoir dans quelques années, et non les chiffres que la FOMO vous ferait courir après ce trimestre.</p>
 
@@ -258,7 +278,9 @@
 
     <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">Ce que nous refusons d'accepter</span></h2>
 
-    <p class="lede">Les laboratoires de pointe optimisent l'adoption de leurs produits, et la FOMO est le levier le plus puissant qu'ils actionnent sur nous. C'est une activité légitime, et elle est la leur, pas la nôtre.</p>
+    <p class="lede">Les laboratoires de pointe optimisent l'adoption de <em>leurs</em> produits, et la FOMO est le levier le plus puissant qu'ils actionnent sur nous. C'est peut-être une stratégie commerciale légitime, mais c'est la leur, pas la nôtre.</p>
+
+    <p class="lede">Pour que le basculement reste sain, quoi qu'en dise le battage, il y a trois choses que nous n'échangerons pas contre des gains à court terme :</p>
 
     <section class="group group-refuse">
       <ul class="shifts">
@@ -266,38 +288,34 @@
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">jugement perdu</span><span class="pair-en" lang="en">lost judgment</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">efficacité</span><span class="pair-en" lang="en">efficiency</span></span></p>
-            <p class="note">Nous n'assimilons pas la perte du jugement — sur le code, le design, l'architecture, les fonctionnalités ou la valeur — à de l'efficacité.</p>
+            <p class="note">Nous n'assimilons pas la perte du jugement — sur le code, le design, l'architecture, les fonctionnalités, la valeur ou le goût — à de l'efficacité.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">dépendance aux fournisseurs</span><span class="pair-en" lang="en">vendor dependence</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">progrès</span><span class="pair-en" lang="en">progress</span></span></p>
-            <p class="note">Nous n'acceptons pas la dépendance aux fournisseurs d'IA, à leurs modèles et à leur outillage comme un progrès.</p>
+            <p class="note">Nous n'acceptons pas la dépendance aux fournisseurs d'IA — à leurs modèles, à leur outillage et aux cycles de vie qu'ils proposent — comme un progrès.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">volume produit</span><span class="pair-en" lang="en">output volume</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">capacité</span><span class="pair-en" lang="en">capability</span></span></p>
-            <p class="note">Nous ne confondons pas produire davantage avec devenir une organisation plus capable.</p>
+            <p class="note">Nous ne confondons pas une production accrue — plus de code, de fonctionnalités ou de tokens — avec une organisation plus capable.</p>
           </div>
         </li>
 
       </ul>
     </section>
 
-    <p class="lede">En bref, nous ne laissons pas une mode superficielle d'adoption de l'IA évincer notre réflexion de long terme sur les organisations que nous construisons. Nous disons donc : <span class="definition">« Le design organisationnel d'abord, l'IA ensuite. »</span> Nous apprenons à agir stratégiquement : nous définissons ce que nous voulons faire basculer dans nos organisations pour le bien commun, puis nous mobilisons l'IA — et d'autres moyens — pour rendre ces basculements réels.</p>
+    <p class="lede">En bref, nous ne laissons pas le battage autour de l'IA évincer la réflexion de long terme sur nos organisations et sur ce qui est bon pour nos équipes et nos entreprises. Nous disons donc : <span class="definition">« Le design organisationnel d'abord, l'IA ensuite. »</span> Nous partons des basculements ci-dessus, puis nous mobilisons l'IA, et d'autres moyens, pour les rendre réels.</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">Et maintenant ?</span></h2>
 
     <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Envie de contribuer ?</p>
 
     <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Proposez des améliorations</a>. Partagez cette page. Mettez ces idées en œuvre dans votre organisation.</p>
-
-    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Envie d'aller plus loin ?</p>
-
-    <p class="lede"><a href="/community">Rejoignez la communauté d'apprentissage professionnelle</a> — un espace sélectif, accessible uniquement sur candidature, pour les senior builders &amp; leaders qui travaillent ensemble sur ces basculements.</p>
 
     <footer class="foot">
       <div class="foot-line">

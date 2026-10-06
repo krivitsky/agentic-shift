@@ -19,30 +19,32 @@
   },
   "standHead": "Za čím stojíme",
   "stand": [
-    "<span class=\"definition\">Agentní posun</span> je skutečný a je to skutečná příležitost. Zasahuje naše organizace do hloubky a mění, jak přemýšlíme o práci i o lidech, kteří ji dělají. Tyto nástroje používáme každý den a rádi s nimi pracujeme.",
-    "Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování <span class=\"definition\">lepších, zdravějších organizací</span>, které nabízejí lepší produkty a služby. Na tom záleží.",
-    "Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu směřuje. Řídíme <span class=\"definition\">své</span> organizace a jsme souzeni podle toho, na čem záleží <span class=\"definition\">nám</span> — <span class=\"definition\">našim</span> zákazníkům, zaměstnancům a dalším zainteresovaným. Proto je pro nás jedna věc nesmlouvavá: <span class=\"definition\">agentní posun se děje za našich podmínek</span>."
+    "<span class=\"definition\">Agentní posun</span> je skutečný a je to skutečná příležitost. Zasahuje naše organizace do hloubky a mění, jak pracujeme a jak spolupracujeme. Tyto nástroje používáme každý den a baví nás to.",
+    "Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování <span class=\"definition\">lepších, zdravějších organizací</span>, které nabízejí lepší produkty a služby a v nichž se obyčejným lidem daří. Na tom záleží.",
+    "Každá organizace je jedinečná tím, jak byla postavena a kam míří. Řídíme <span class=\"definition\">své</span> organizace a jsme souzeni podle toho, na čem záleží nám — našim zákazníkům, zaměstnancům a dalším zainteresovaným.",
+    "Proto je pro nás jedna věc nesmlouvavá: <span class=\"definition\">agentní posun se děje za našich podmínek</span> a optimalizuje pro to, co je pro nás důležité — ne za podmínek dodavatelů AI a humbuku kolem AI modelů."
   ],
   "refuseHead": "Co odmítáme přijmout",
-  "refuseIntro": "Špičkové laboratoře optimalizují pro přijetí svých produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to legitimní byznys, a je jejich, ne náš.",
+  "refuseIntro": "Špičkové laboratoře optimalizují pro přijetí <em>svých</em> produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to možná legitimní obchodní strategie, ale je jejich, ne naše.",
+  "refuseLead": "Aby posun zůstal zdravý, ať si humbuk říká, co chce, jsou tři věci, které nevyměníme za krátkodobé zisky:",
   "refusals": [
     {
       "from": "ztracený úsudek",
       "to": "efektivita",
-      "note": "Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou."
+      "note": "Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi, hodnotou či vkusem — neztotožňujeme s efektivitou."
     },
     {
       "from": "závislost na dodavatelích",
       "to": "pokrok",
-      "note": "Závislost na dodavatelích AI, na jejich modelech a nástrojích nepřijímáme jako pokrok."
+      "note": "Závislost na dodavatelích AI — na jejich modelech, nástrojích a navrhovaných životních cyklech — nepřijímáme jako pokrok."
     },
     {
       "from": "objem výstupů",
       "to": "schopnost",
-      "note": "Nezaměňujeme vyšší produkci výstupů za to, že se stáváme schopnější organizací."
+      "note": "Nezaměňujeme více výstupů — více kódu, funkcí či tokenů — za schopnější organizaci."
     }
   ],
-  "refuseOutro": "Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: <span class=\"definition\">„Nejdřív organizační design, pak AI.“</span> Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.",
+  "refuseOutro": "Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o našich organizacích a o tom, co je dobré pro naše lidi a naše firmy. Proto říkáme: <span class=\"definition\">„Nejdřív organizační design, pak AI.“</span> Vycházíme z posunů popsaných výše a pak používáme AI a další prostředky, abychom je uskutečnili.",
   "shiftHead": "Kam se posouváme",
   "shiftIntro": "Organizace produktového inženýrství, které si drží udržitelnou kvalitu, hodnotu pro zákazníka a vysokou přizpůsobivost, dělají následující strategické posuny, s AI jako pákou, která je usnadňuje:",
   "shifts": [
@@ -62,17 +64,13 @@
       "note": "Povýšit produktové inženýry z toho, že jsou měřeni podle výstupů, na to, že vlastní celou hodnotovou smyčku — zajišťují skutečný dopad na zákazníky, experimentují a korigují kurz, jakmile přicházejí důkazy."
     }
   ],
-  "shiftNotNew": "Tyto posuny nejsou nové. Byly dobře zdokumentované a doporučované dávno před AI. Co AI mění, není to, zda jsou správné — jen to, jak těžké je je uskutečnit.",
+  "shiftNotNew": "Tyto posuny nejsou nové. Byly dobře zdokumentované a doporučované dávno před současnou vlnou AI. AI nemění to, proč na těchto posunech záleží. Činí je proveditelnějšími, relevantnějšími a naléhavějšími.",
   "shiftOutro": "Které posuny tedy vaše organizace pojme za své, je <span class=\"definition\">na vás</span>. Podstatné je, aby byly <span class=\"definition\">strategické, ne krátkozraké</span> — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.",
   "qaHead": "Co dál?",
   "qa": [
     {
       "q": "Chcete přispět?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Navrhněte vylepšení</a>. Sdílejte tuto stránku. Uveďte tyto myšlenky do praxe ve své organizaci."
-    },
-    {
-      "q": "Chcete jít do hloubky?",
-      "a": "<a href=\"/community\">Přidejte se do profesionální učící se komunity</a> — kurátorovaný prostor se vstupem pouze na základě přihlášky, pro senior builders &amp; leaders, kteří na těchto posunech pracují společně."
     }
   ],
   "foot": {

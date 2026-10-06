@@ -67,7 +67,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/shift.css">
 
   <!-- Google tag (gtag.js) -->
@@ -148,6 +148,24 @@
       max-width: 64em;
       text-wrap: pretty;
     }
+
+    /* <em> in the copy is a spoken stress ("the adoption of their products"),
+       so it is set in real italics: Poppins 400 italic is loaded above for it.
+       shift.css draws .lede em upright and white for /munich and the archives;
+       this overrides it on the manifesto only. Chinese and Japanese have no
+       italics, so they get their native emphasis dots instead (under the
+       glyph in Chinese, over it in Japanese). */
+    .manifesto .lede em { font-style: italic; color: inherit; }
+    .manifesto .lede em:lang(zh),
+    .manifesto .lede em:lang(ja) {
+      font-style: normal;
+      -webkit-text-emphasis: filled dot;
+      text-emphasis: filled dot;
+    }
+    .manifesto .lede em:lang(zh) {
+      -webkit-text-emphasis-position: under right;
+      text-emphasis-position: under right;
+    }
   </style>
 </head>
 <body>
@@ -209,11 +227,13 @@
 
     <h2 class="section-head" id="what-we-stand-for"><span class="txt">Waar wij voor staan</span></h2>
 
-    <p class="lede">De <span class="definition">agentic shift</span> is echt, en hij is een echte kans. Hij raakt onze organisaties diep en verandert hoe wij denken over het werk en over de mensen die het doen. Wij gebruiken deze tools elke dag en werken er graag mee.</p>
+    <p class="lede">De <span class="definition">agentic shift</span> is echt, en hij is een echte kans. Hij raakt onze organisaties diep en verandert hoe wij werken en hoe wij samenwerken. Wij gebruiken deze tools elke dag en genieten ervan.</p>
 
-    <p class="lede">Wat wij wél weten, is dat het niet gaat om tooling, tokens of welke andere outputmaat dan ook die toevallig makkelijk te meten is. Het gaat om het bouwen van <span class="definition">betere, gezondere organisaties</span> die betere producten en diensten leveren. Dát is wat telt.</p>
+    <p class="lede">Wat wij wél weten, is dat het niet gaat om tooling, tokens of welke andere outputmaat dan ook die toevallig makkelijk te meten is. Het gaat om het bouwen van <span class="definition">betere, gezondere organisaties</span> die betere producten en diensten leveren, en waarin gewone mensen floreren. Dát is wat telt.</p>
 
-    <p class="lede">Elke organisatie is uniek in de manier waarop ze is gebouwd en in waar ze naar streeft. Wij leiden <span class="definition">onze</span> organisaties, en wij worden afgerekend op wat voor <span class="definition">ons</span> telt — <span class="definition">onze</span> klanten, medewerkers en andere belanghebbenden. Dus voor ons is één ding niet onderhandelbaar: <span class="definition">de agentic shift gebeurt op onze voorwaarden</span>.</p>
+    <p class="lede">Elke organisatie is uniek in hoe ze is gebouwd en wat ze nastreeft. Wij leiden <span class="definition">onze</span> organisaties, en wij worden afgerekend op wat voor ons telt — onze klanten, medewerkers en andere belanghebbenden.</p>
+
+    <p class="lede">Dus voor ons is één ding niet onderhandelbaar: <span class="definition">de agentic shift gebeurt op onze voorwaarden</span> en optimaliseert voor wat wij belangrijk vinden — niet op de voorwaarden van AI-leveranciers en de hype rond AI-modellen.</p>
 
     <!-- ── What we shift ────────────────────────────────────────────── -->
 
@@ -248,7 +268,7 @@
       </ul>
     </section>
 
-    <p class="lede">Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór AI goed gedocumenteerd en aanbevolen. Wat AI verandert, is niet óf ze juist zijn — alleen hoe moeilijk ze te maken zijn.</p>
+    <p class="lede">Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór de huidige AI-golf goed gedocumenteerd en aanbevolen. AI verandert niet waarom deze verschuivingen belangrijk zijn. AI maakt ze haalbaarder, relevanter en urgenter.</p>
 
     <p class="lede">Welke verschuivingen jouw organisatie nu oppakt, is <span class="definition">aan jou</span>. Wat telt is dat ze <span class="definition">strategisch zijn en niet kortzichtig</span> — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.</p>
 
@@ -258,7 +278,9 @@
 
     <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">Wat wij niet accepteren</span></h2>
 
-    <p class="lede">De frontier labs optimaliseren voor de adoptie van hun producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is een legitieme business, en het is de hunne, niet de onze.</p>
+    <p class="lede">De frontier labs optimaliseren voor de adoptie van <em>hun</em> producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is misschien een legitieme bedrijfsstrategie, maar het is de hunne, niet de onze.</p>
+
+    <p class="lede">Om de agentic shift gezond te houden, wat de hype ook zegt, zijn er drie dingen die wij niet inruilen voor kortetermijnwinst:</p>
 
     <section class="group group-refuse">
       <ul class="shifts">
@@ -266,38 +288,34 @@
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">verloren oordeel</span><span class="pair-en" lang="en">lost judgment</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">efficiëntie</span><span class="pair-en" lang="en">efficiency</span></span></p>
-            <p class="note">Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features of waarde — niet gelijk aan efficiëntie.</p>
+            <p class="note">Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features, waarde of smaak — niet gelijk aan efficiëntie.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">leveranciersafhankelijkheid</span><span class="pair-en" lang="en">vendor dependence</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">vooruitgang</span><span class="pair-en" lang="en">progress</span></span></p>
-            <p class="note">Wij accepteren afhankelijkheid van AI-leveranciers, hun modellen en hun tooling niet als vooruitgang.</p>
+            <p class="note">Wij accepteren afhankelijkheid van AI-leveranciers — hun modellen, tooling en voorgestelde levenscycli — niet als vooruitgang.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">outputvolume</span><span class="pair-en" lang="en">output volume</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">vermogen</span><span class="pair-en" lang="en">capability</span></span></p>
-            <p class="note">Wij verwarren meer output produceren niet met een capabelere organisatie worden.</p>
+            <p class="note">Wij verwarren meer output — meer code, features of tokens — niet met een capabelere organisatie.</p>
           </div>
         </li>
 
       </ul>
     </section>
 
-    <p class="lede">Kortom: wij laten niet toe dat een oppervlakkige AI-adoptiehype ons langetermijndenken verdringt over de organisaties die wij aan het bouwen zijn. Daarom zeggen wij: <span class="definition">“Eerst org-ontwerp, dan AI.”</span> Wij leren strategisch te handelen: wij bepalen wat wij in onze organisaties willen verschuiven, ten goede van het geheel, en zetten daarna AI — en andere middelen — in om die verschuivingen waar te maken.</p>
+    <p class="lede">Kortom: wij laten niet toe dat AI-hype het langetermijndenken verdringt over onze organisaties en over wat goed is voor onze mensen en onze bedrijven. Daarom zeggen wij: <span class="definition">“Eerst org-ontwerp, dan AI.”</span> Wij vertrekken vanuit de verschuivingen hierboven en zetten daarna AI, en andere middelen, in om ze waar te maken.</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">Wat nu?</span></h2>
 
     <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Wil je bijdragen?</p>
 
     <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Stel verbeteringen voor</a>. Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie.</p>
-
-    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Wil je de diepte in?</p>
-
-    <p class="lede"><a href="/community">Sluit je aan bij de professionele leercommunity</a> — een zorgvuldig samengestelde ruimte, alleen op aanmelding, voor senior builders &amp; leaders die samen aan deze verschuivingen werken.</p>
 
     <footer class="foot">
       <div class="foot-line">

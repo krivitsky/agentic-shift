@@ -19,30 +19,32 @@
   },
   "standHead": "Ciò che sosteniamo",
   "stand": [
-    "Lo <span class=\"definition\">spostamento agentico</span> è reale, ed è una vera opportunità. Tocca in profondità le nostre organizzazioni e cambia il modo in cui pensiamo al lavoro e a chi lo fa. Usiamo questi strumenti ogni giorno, e con piacere.",
-    "Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire <span class=\"definition\">organizzazioni migliori e più sane</span>, che offrano prodotti e servizi migliori. È questo che conta.",
-    "Ogni organizzazione è unica per come è stata costruita e per ciò a cui aspira. Siamo noi a guidare le <span class=\"definition\">nostre</span> organizzazioni, e siamo giudicati su ciò che conta per <span class=\"definition\">noi</span> — i <span class=\"definition\">nostri</span> clienti, le persone che lavorano con noi e gli altri portatori di interesse. Perciò per noi una cosa non è negoziabile: <span class=\"definition\">lo spostamento agentico avviene alle nostre condizioni</span>."
+    "Lo <span class=\"definition\">spostamento agentico</span> è reale, ed è una vera opportunità. Tocca in profondità le nostre organizzazioni e cambia il nostro modo di lavorare e di collaborare. Usiamo questi strumenti ogni giorno, e con piacere.",
+    "Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire <span class=\"definition\">organizzazioni migliori e più sane</span>, che offrano prodotti e servizi migliori, e in cui le persone comuni prosperino. È questo che conta.",
+    "Ogni organizzazione è unica per come è stata costruita e per ciò a cui mira. Siamo noi a guidare le <span class=\"definition\">nostre</span> organizzazioni, e siamo giudicati su ciò che conta per noi — i nostri clienti, le persone che lavorano con noi e gli altri portatori di interesse.",
+    "Perciò per noi una cosa non è negoziabile: <span class=\"definition\">lo spostamento agentico avviene alle nostre condizioni</span> e ottimizza ciò che ci sta a cuore — non alle condizioni dei fornitori di IA né dell'hype intorno ai modelli di IA."
   ],
   "refuseHead": "Ciò che ci rifiutiamo di accettare",
-  "refuseIntro": "I laboratori di frontiera ottimizzano l'adozione dei propri prodotti, e la FOMO è la leva più forte che tirano su di noi. È un business legittimo, ed è il loro, non il nostro.",
+  "refuseIntro": "I laboratori di frontiera ottimizzano l'adozione dei <em>propri</em> prodotti, e la FOMO è la leva più forte che tirano su di noi. È forse una strategia di business legittima, ma è la loro, non la nostra.",
+  "refuseLead": "Perché lo spostamento resti sano, qualunque cosa dica l'hype, ci sono tre cose che non baratteremo con guadagni a breve termine:",
   "refusals": [
     {
       "from": "giudizio perduto",
       "to": "efficienza",
-      "note": "Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza."
+      "note": "Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità, valore o gusto — all'efficienza."
     },
     {
       "from": "dipendenza dai fornitori",
       "to": "progresso",
-      "note": "Non accettiamo come progresso la dipendenza dai fornitori di IA, dai loro modelli e dal loro tooling."
+      "note": "Non accettiamo come progresso la dipendenza dai fornitori di IA — dai loro modelli, dal loro tooling e dai cicli di vita che propongono."
     },
     {
       "from": "volume di produzione",
       "to": "capacità",
-      "note": "Non confondiamo produrre di più con diventare un'organizzazione più capace."
+      "note": "Non scambiamo una produzione maggiore — più codice, funzionalità o token — per un'organizzazione più capace."
     }
   ],
-  "refuseOutro": "In breve, non lasciamo che una moda superficiale di adozione dell'IA soffochi il nostro pensiero di lungo periodo sulle organizzazioni che stiamo costruendo. Perciò diciamo: <span class=\"definition\">“Prima la progettazione organizzativa, poi l'IA.”</span> Impariamo ad agire in modo strategico: definiamo che cosa vogliamo spostare nelle nostre organizzazioni per il bene comune, e poi applichiamo l'IA — e altri mezzi — per rendere reali quegli spostamenti.",
+  "refuseOutro": "In breve, non lasciamo che l'hype dell'IA soffochi il pensiero di lungo periodo sulle nostre organizzazioni e su ciò che è bene per le nostre persone e le nostre aziende. Perciò diciamo: <span class=\"definition\">“Prima la progettazione organizzativa, poi l'IA.”</span> Partiamo dagli spostamenti descritti sopra, poi usiamo l'IA, e altri mezzi, per renderli reali.",
   "shiftHead": "Verso cosa ci spostiamo",
   "shiftIntro": "Le organizzazioni di ingegneria di prodotto che tengono alla qualità sostenibile, al valore per il cliente e a un'elevata adattabilità compiono i seguenti spostamenti strategici, con l'IA come leva per renderli più facili:",
   "shifts": [
@@ -62,17 +64,13 @@
       "note": "Elevare gli ingegneri di prodotto dall'essere misurati sulla produzione al farsi carico dell'intero ciclo del valore — garantendo un impatto reale sui clienti, sperimentando e correggendo la rotta man mano che arrivano le evidenze."
     }
   ],
-  "shiftNotNew": "Questi spostamenti non sono nuovi. Erano ben documentati e raccomandati molto prima dell'IA. Ciò che l'IA cambia non è se siano giusti — solo quanto siano difficili da compiere.",
+  "shiftNotNew": "Questi spostamenti non sono nuovi. Erano ben documentati e raccomandati molto prima dell'attuale ondata di IA. L'IA non cambia il motivo per cui questi spostamenti contano. Li rende più fattibili, più rilevanti e più urgenti.",
   "shiftOutro": "Ora, quali spostamenti la tua organizzazione intraprenda sta <span class=\"definition\">a te deciderlo</span>. Ciò che conta è che siano <span class=\"definition\">strategici e non miopi</span> — che servano l'organizzazione che vuoi avere fra anni, e non i numeri che la FOMO ti farebbe rincorrere questo trimestre.",
   "qaHead": "E adesso?",
   "qa": [
     {
       "q": "Vuoi contribuire?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Proponi miglioramenti</a>. Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione."
-    },
-    {
-      "q": "Vuoi approfondire?",
-      "a": "<a href=\"/community\">Unisciti alla community di apprendimento professionale</a> — uno spazio curato, ad accesso solo su candidatura, per senior builders &amp; leaders che lavorano insieme su questi spostamenti."
     }
   ],
   "foot": {

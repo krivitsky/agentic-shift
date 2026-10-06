@@ -67,7 +67,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/shift.css">
 
   <!-- Google tag (gtag.js) -->
@@ -148,6 +148,24 @@
       max-width: 64em;
       text-wrap: pretty;
     }
+
+    /* <em> in the copy is a spoken stress ("the adoption of their products"),
+       so it is set in real italics: Poppins 400 italic is loaded above for it.
+       shift.css draws .lede em upright and white for /munich and the archives;
+       this overrides it on the manifesto only. Chinese and Japanese have no
+       italics, so they get their native emphasis dots instead (under the
+       glyph in Chinese, over it in Japanese). */
+    .manifesto .lede em { font-style: italic; color: inherit; }
+    .manifesto .lede em:lang(zh),
+    .manifesto .lede em:lang(ja) {
+      font-style: normal;
+      -webkit-text-emphasis: filled dot;
+      text-emphasis: filled dot;
+    }
+    .manifesto .lede em:lang(zh) {
+      -webkit-text-emphasis-position: under right;
+      text-emphasis-position: under right;
+    }
   </style>
 </head>
 <body>
@@ -209,11 +227,13 @@
 
     <h2 class="section-head" id="what-we-stand-for"><span class="txt">Za čím stojíme</span></h2>
 
-    <p class="lede"><span class="definition">Agentní posun</span> je skutečný a je to skutečná příležitost. Zasahuje naše organizace do hloubky a mění, jak přemýšlíme o práci i o lidech, kteří ji dělají. Tyto nástroje používáme každý den a rádi s nimi pracujeme.</p>
+    <p class="lede"><span class="definition">Agentní posun</span> je skutečný a je to skutečná příležitost. Zasahuje naše organizace do hloubky a mění, jak pracujeme a jak spolupracujeme. Tyto nástroje používáme každý den a baví nás to.</p>
 
-    <p class="lede">Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování <span class="definition">lepších, zdravějších organizací</span>, které nabízejí lepší produkty a služby. Na tom záleží.</p>
+    <p class="lede">Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování <span class="definition">lepších, zdravějších organizací</span>, které nabízejí lepší produkty a služby a v nichž se obyčejným lidem daří. Na tom záleží.</p>
 
-    <p class="lede">Každá organizace je jedinečná tím, jak byla postavena, i tím, k čemu směřuje. Řídíme <span class="definition">své</span> organizace a jsme souzeni podle toho, na čem záleží <span class="definition">nám</span> — <span class="definition">našim</span> zákazníkům, zaměstnancům a dalším zainteresovaným. Proto je pro nás jedna věc nesmlouvavá: <span class="definition">agentní posun se děje za našich podmínek</span>.</p>
+    <p class="lede">Každá organizace je jedinečná tím, jak byla postavena a kam míří. Řídíme <span class="definition">své</span> organizace a jsme souzeni podle toho, na čem záleží nám — našim zákazníkům, zaměstnancům a dalším zainteresovaným.</p>
+
+    <p class="lede">Proto je pro nás jedna věc nesmlouvavá: <span class="definition">agentní posun se děje za našich podmínek</span> a optimalizuje pro to, co je pro nás důležité — ne za podmínek dodavatelů AI a humbuku kolem AI modelů.</p>
 
     <!-- ── What we shift ────────────────────────────────────────────── -->
 
@@ -248,7 +268,7 @@
       </ul>
     </section>
 
-    <p class="lede">Tyto posuny nejsou nové. Byly dobře zdokumentované a doporučované dávno před AI. Co AI mění, není to, zda jsou správné — jen to, jak těžké je je uskutečnit.</p>
+    <p class="lede">Tyto posuny nejsou nové. Byly dobře zdokumentované a doporučované dávno před současnou vlnou AI. AI nemění to, proč na těchto posunech záleží. Činí je proveditelnějšími, relevantnějšími a naléhavějšími.</p>
 
     <p class="lede">Které posuny tedy vaše organizace pojme za své, je <span class="definition">na vás</span>. Podstatné je, aby byly <span class="definition">strategické, ne krátkozraké</span> — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.</p>
 
@@ -258,7 +278,9 @@
 
     <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">Co odmítáme přijmout</span></h2>
 
-    <p class="lede">Špičkové laboratoře optimalizují pro přijetí svých produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to legitimní byznys, a je jejich, ne náš.</p>
+    <p class="lede">Špičkové laboratoře optimalizují pro přijetí <em>svých</em> produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to možná legitimní obchodní strategie, ale je jejich, ne naše.</p>
+
+    <p class="lede">Aby posun zůstal zdravý, ať si humbuk říká, co chce, jsou tři věci, které nevyměníme za krátkodobé zisky:</p>
 
     <section class="group group-refuse">
       <ul class="shifts">
@@ -266,38 +288,34 @@
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">ztracený úsudek</span><span class="pair-en" lang="en">lost judgment</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">efektivita</span><span class="pair-en" lang="en">efficiency</span></span></p>
-            <p class="note">Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi či hodnotou — neztotožňujeme s efektivitou.</p>
+            <p class="note">Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi, hodnotou či vkusem — neztotožňujeme s efektivitou.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">závislost na dodavatelích</span><span class="pair-en" lang="en">vendor dependence</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">pokrok</span><span class="pair-en" lang="en">progress</span></span></p>
-            <p class="note">Závislost na dodavatelích AI, na jejich modelech a nástrojích nepřijímáme jako pokrok.</p>
+            <p class="note">Závislost na dodavatelích AI — na jejich modelech, nástrojích a navrhovaných životních cyklech — nepřijímáme jako pokrok.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">objem výstupů</span><span class="pair-en" lang="en">output volume</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">schopnost</span><span class="pair-en" lang="en">capability</span></span></p>
-            <p class="note">Nezaměňujeme vyšší produkci výstupů za to, že se stáváme schopnější organizací.</p>
+            <p class="note">Nezaměňujeme více výstupů — více kódu, funkcí či tokenů — za schopnější organizaci.</p>
           </div>
         </li>
 
       </ul>
     </section>
 
-    <p class="lede">Zkrátka, nedovolíme, aby povrchní móda zavádění AI vytlačila naše dlouhodobé uvažování o organizacích, které stavíme. Proto říkáme: <span class="definition">„Nejdřív organizační design, pak AI.“</span> Učíme se jednat strategicky: definujeme, co chceme ve svých organizacích posunout pro společné dobro, a teprve pak nasazujeme AI — a další prostředky — abychom ty posuny uskutečnili.</p>
+    <p class="lede">Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o našich organizacích a o tom, co je dobré pro naše lidi a naše firmy. Proto říkáme: <span class="definition">„Nejdřív organizační design, pak AI.“</span> Vycházíme z posunů popsaných výše a pak používáme AI a další prostředky, abychom je uskutečnili.</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">Co dál?</span></h2>
 
     <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Chcete přispět?</p>
 
     <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Navrhněte vylepšení</a>. Sdílejte tuto stránku. Uveďte tyto myšlenky do praxe ve své organizaci.</p>
-
-    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Chcete jít do hloubky?</p>
-
-    <p class="lede"><a href="/community">Přidejte se do profesionální učící se komunity</a> — kurátorovaný prostor se vstupem pouze na základě přihlášky, pro senior builders &amp; leaders, kteří na těchto posunech pracují společně.</p>
 
     <footer class="foot">
       <div class="foot-line">

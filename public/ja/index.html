@@ -67,7 +67,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/shift.css">
 
   <!-- Google tag (gtag.js) -->
@@ -148,6 +148,24 @@
       max-width: 64em;
       text-wrap: pretty;
     }
+
+    /* <em> in the copy is a spoken stress ("the adoption of their products"),
+       so it is set in real italics: Poppins 400 italic is loaded above for it.
+       shift.css draws .lede em upright and white for /munich and the archives;
+       this overrides it on the manifesto only. Chinese and Japanese have no
+       italics, so they get their native emphasis dots instead (under the
+       glyph in Chinese, over it in Japanese). */
+    .manifesto .lede em { font-style: italic; color: inherit; }
+    .manifesto .lede em:lang(zh),
+    .manifesto .lede em:lang(ja) {
+      font-style: normal;
+      -webkit-text-emphasis: filled dot;
+      text-emphasis: filled dot;
+    }
+    .manifesto .lede em:lang(zh) {
+      -webkit-text-emphasis-position: under right;
+      text-emphasis-position: under right;
+    }
   </style>
 </head>
 <body>
@@ -209,11 +227,13 @@
 
     <h2 class="section-head" id="what-we-stand-for"><span class="txt">私たちの立場</span></h2>
 
-    <p class="lede"><span class="definition">エージェンティック・シフト</span>は現実であり、本物のチャンスでもあります。それは私たちの組織を深いところで揺さぶり、仕事についての、そして働く人についての考え方を変えていきます。私たちはこうしたツールを毎日使い、楽しんでいます。</p>
+    <p class="lede"><span class="definition">エージェンティック・シフト</span>は現実であり、本物のチャンスでもあります。それは私たちの組織を深いところで揺さぶり、私たちの働き方も、一緒に働くやり方も変えていきます。私たちはこうしたツールを毎日使い、楽しんでいます。</p>
 
-    <p class="lede">しかし私たちが分かっているのは、これはツールの話でも、トークンの話でも、たまたま測りやすいだけのアウトプット指標の話でもない、ということです。より良い製品とサービスを届ける、<span class="definition">より良く、より健全な組織</span>をつくる話です。重要なのはそこです。</p>
+    <p class="lede">しかし私たちが分かっているのは、これはツールの話でも、トークンの話でも、たまたま測りやすいだけのアウトプット指標の話でもない、ということです。より良い製品とサービスを届け、普通の人たちがいきいきと活躍できる、<span class="definition">より良く、より健全な組織</span>をつくる話です。重要なのはそこです。</p>
 
-    <p class="lede">どの組織も、築かれてきた道筋においても、目指すものにおいても、それぞれ固有です。私たちは<span class="definition">自分たちの</span>組織を経営しており、<span class="definition">私たち</span>にとって大切なもの——<span class="definition">私たちの</span>顧客、従業員、そのほかのステークホルダー——によって評価されます。だからこそ、私たちにとって譲れないことが一つあります。<span class="definition">エージェンティック・シフトは私たちの条件で起きる</span>、ということです。</p>
+    <p class="lede">どの組織も、成り立ちも目指すものも、それぞれ固有です。私たちは<span class="definition">自分たちの</span>組織を経営しており、私たちにとって大切なもの——私たちの顧客、従業員、そのほかのステークホルダー——によって評価されます。</p>
+
+    <p class="lede">だからこそ、私たちにとって譲れないことが一つあります。<span class="definition">エージェンティック・シフトは私たちの条件で起きる</span>のであり、私たちが重視することに向けて最適化される——AI ベンダーや AI モデルをめぐる熱狂の条件で起きるのではない、ということです。</p>
 
     <!-- ── What we shift ────────────────────────────────────────────── -->
 
@@ -248,7 +268,7 @@
       </ul>
     </section>
 
-    <p class="lede">これらの転換は新しいものではありません。AI よりはるか前から、十分に記録され、推奨されてきました。AI が変えるのは、それが正しいかどうかではなく、実行がどれだけ難しいか、だけです。</p>
+    <p class="lede">これらの転換は新しいものではありません。今回の AI の波よりはるか前から、十分に記録され、推奨されてきました。これらの転換がなぜ重要なのかは、AI によって変わりません。AI はそれらを、より実現しやすく、より今日的で、より差し迫ったものにします。</p>
 
     <p class="lede">さて、どの転換に取り組むかは、<span class="definition">あなたの組織が決めること</span>です。大切なのは、それが<span class="definition">戦略的であり、近視眼的でない</span>こと——数年後にあなたが持ちたい組織のためになることであって、FOMO が今四半期に追わせようとする数字のためではない、ということです。</p>
 
@@ -258,7 +278,9 @@
 
     <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">私たちが受け入れないこと</span></h2>
 
-    <p class="lede">フロンティアの研究所は自社製品の採用に向けて最適化しており、FOMO は彼らが私たちに対して引く最も強いレバーです。それは正当なビジネスであり、彼らのものであって、私たちのものではありません。</p>
+    <p class="lede">フロンティアの研究所は<em>自社</em>製品の採用に向けて最適化しており、FOMO は彼らが私たちに対して引く最も強いレバーです。それは正当なビジネス戦略なのかもしれませんが、彼らのものであって、私たちのものではありません。</p>
+
+    <p class="lede">このシフトを健全に保つために、熱狂がどうであれ、短期的な利益と引き換えにしないものが三つあります。</p>
 
     <section class="group group-refuse">
       <ul class="shifts">
@@ -266,38 +288,34 @@
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">失われた判断</span><span class="pair-en" lang="en">lost judgment</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">効率</span><span class="pair-en" lang="en">efficiency</span></span></p>
-            <p class="note">コード、デザイン、アーキテクチャ、機能、価値のいずれにおいても、判断が失われることを私たちは効率と同一視しません。</p>
+            <p class="note">コード、デザイン、アーキテクチャ、機能、価値、センスのいずれにおいても、判断が失われることを私たちは効率と同一視しません。</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">ベンダー依存</span><span class="pair-en" lang="en">vendor dependence</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">進歩</span><span class="pair-en" lang="en">progress</span></span></p>
-            <p class="note">AI ベンダー、そのモデルとツールへの依存を、私たちは進歩として受け入れません。</p>
+            <p class="note">AI ベンダー——そのモデル、ツール、そして彼らが提案するライフサイクル——への依存を、私たちは進歩として受け入れません。</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">産出量</span><span class="pair-en" lang="en">output volume</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">能力</span><span class="pair-en" lang="en">capability</span></span></p>
-            <p class="note">より多くのアウトプットを出すことを、より力のある組織になることと取り違えません。</p>
+            <p class="note">より多くのアウトプット——より多くのコード、機能、トークン——を、より力のある組織と取り違えません。</p>
           </div>
         </li>
 
       </ul>
     </section>
 
-    <p class="lede">要するに私たちは、浅い AI 導入の流行が、いま築こうとしている組織についての長期的な思考を押しのけることを許しません。だから私たちはこう言います。<span class="definition">「まず組織デザイン、そのあとに AI。」</span>私たちは戦略的に動くことを学びます。まず、全体のために組織の何を動かしたいのかを定め、そのうえで AI を——ほかの手段とともに——使って、その転換を現実にします。</p>
+    <p class="lede">要するに私たちは、AI をめぐる熱狂によって、自分たちの組織について、そしてそこで働く人々と事業にとって何が良いのかについての長期的な思考が押しのけられることを許しません。だから私たちはこう言います。<span class="definition">「まず組織デザイン、そのあとに AI。」</span>私たちは上に挙げた転換から出発し、そのうえで AI やほかの手段を使って、それらを現実にします。</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">次に来るもの</span></h2>
 
     <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> 貢献したいですか？</p>
 
     <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">改善を提案してください</a>。このページを共有してください。これらの考えを、あなたの組織で実践してください。</p>
-
-    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> さらに深く学びたいですか？</p>
-
-    <p class="lede"><a href="/community">プロフェッショナルな学びのコミュニティに参加する</a>——選抜制で、申し込みによってのみ参加できる場です。これらの転換に共に取り組む senior builders &amp; leaders のために。</p>
 
     <footer class="foot">
       <div class="foot-line">

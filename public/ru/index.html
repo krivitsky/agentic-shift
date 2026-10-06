@@ -67,7 +67,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/shift.css">
 
   <!-- Google tag (gtag.js) -->
@@ -148,6 +148,24 @@
       max-width: 64em;
       text-wrap: pretty;
     }
+
+    /* <em> in the copy is a spoken stress ("the adoption of their products"),
+       so it is set in real italics: Poppins 400 italic is loaded above for it.
+       shift.css draws .lede em upright and white for /munich and the archives;
+       this overrides it on the manifesto only. Chinese and Japanese have no
+       italics, so they get their native emphasis dots instead (under the
+       glyph in Chinese, over it in Japanese). */
+    .manifesto .lede em { font-style: italic; color: inherit; }
+    .manifesto .lede em:lang(zh),
+    .manifesto .lede em:lang(ja) {
+      font-style: normal;
+      -webkit-text-emphasis: filled dot;
+      text-emphasis: filled dot;
+    }
+    .manifesto .lede em:lang(zh) {
+      -webkit-text-emphasis-position: under right;
+      text-emphasis-position: under right;
+    }
   </style>
 </head>
 <body>
@@ -209,11 +227,13 @@
 
     <h2 class="section-head" id="what-we-stand-for"><span class="txt">Что мы отстаиваем</span></h2>
 
-    <p class="lede"><span class="definition">Агентный переход</span> реален, и это настоящая возможность. Он глубоко затрагивает наши организации и меняет то, как мы думаем о работе и о тех, кто её делает. Мы пользуемся этими инструментами каждый день, и нам нравится с ними работать.</p>
+    <p class="lede"><span class="definition">Агентный переход</span> реален, и это настоящая возможность. Он глубоко затрагивает наши организации и меняет то, как мы работаем и как работаем вместе. Мы пользуемся этими инструментами каждый день, и нам это нравится.</p>
 
-    <p class="lede">Но вот что мы знаем: дело не в инструментах, не в токенах и не в любой другой метрике выработки, которую просто удобно измерять. Дело в том, чтобы строить <span class="definition">лучшие, более здоровые организации</span>, предлагающие лучшие продукты и услуги. Именно это имеет значение.</p>
+    <p class="lede">Но вот что мы знаем: дело не в инструментах, не в токенах и не в любой другой метрике выработки, которую просто удобно измерять. Дело в том, чтобы строить <span class="definition">лучшие, более здоровые организации</span>, которые предлагают лучшие продукты и услуги и в которых процветают обычные люди. Именно это имеет значение.</p>
 
-    <p class="lede">Каждая организация уникальна тем, как она была построена, и тем, к чему стремится. Мы управляем <span class="definition">своими</span> организациями, и нас оценивают по тому, что важно <span class="definition">нам</span> — <span class="definition">нашим</span> клиентам, сотрудникам и другим заинтересованным сторонам. Поэтому для нас одно не обсуждается: <span class="definition">агентный переход происходит на наших условиях</span>.</p>
+    <p class="lede">Каждая организация уникальна тем, как её построили и чего она хочет достичь. Мы управляем <span class="definition">своими</span> организациями, и нас оценивают по тому, что важно нам — нашим клиентам, сотрудникам и другим заинтересованным сторонам.</p>
+
+    <p class="lede">Поэтому для нас одно не обсуждается: <span class="definition">агентный переход происходит на наших условиях</span> и оптимизируется под то, что нам небезразлично, — а не на условиях ИИ-вендоров и ажиотажа вокруг ИИ-моделей.</p>
 
     <!-- ── What we shift ────────────────────────────────────────────── -->
 
@@ -248,7 +268,7 @@
       </ul>
     </section>
 
-    <p class="lede">Эти сдвиги не новы. Они были хорошо задокументированы и рекомендованы задолго до ИИ. ИИ меняет не то, верны ли они, — только то, насколько трудно их осуществить.</p>
+    <p class="lede">Эти сдвиги не новы. Они были хорошо задокументированы и рекомендованы задолго до нынешней волны ИИ. ИИ не меняет того, почему эти сдвиги важны. Он делает их более осуществимыми, более актуальными и более неотложными.</p>
 
     <p class="lede">Какие же сдвиги возьмёт на себя ваша организация — <span class="definition">решать вам</span>. Важно, чтобы они были <span class="definition">стратегическими, а не близорукими</span> — чтобы они служили той организации, которую вы хотите иметь через годы, а не цифрам, за которыми FOMO заставило бы вас гнаться в этом квартале.</p>
 
@@ -258,7 +278,9 @@
 
     <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">Чего мы не принимаем</span></h2>
 
-    <p class="lede">Передовые лаборатории оптимизируются под внедрение своих продуктов, и FOMO — самый сильный рычаг, за который они тянут нас. Это законный бизнес, и он их, а не наш.</p>
+    <p class="lede">Передовые лаборатории оптимизируются под внедрение <em>своих</em> продуктов, и FOMO — самый сильный рычаг, за который они тянут нас. Возможно, это законная бизнес-стратегия, но она их, а не наша.</p>
+
+    <p class="lede">Чтобы переход оставался здоровым, что бы ни говорил ажиотаж, есть три вещи, которые мы не променяем на краткосрочную выгоду:</p>
 
     <section class="group group-refuse">
       <ul class="shifts">
@@ -266,38 +288,34 @@
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">утраченное суждение</span><span class="pair-en" lang="en">lost judgment</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">эффективность</span><span class="pair-en" lang="en">efficiency</span></span></p>
-            <p class="note">Мы не отождествляем утрату суждения — о коде, дизайне, архитектуре, функциях или ценности — с эффективностью.</p>
+            <p class="note">Мы не отождествляем утрату суждения — о коде, дизайне, архитектуре, функциях, ценности или вкусе — с эффективностью.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">зависимость от вендоров</span><span class="pair-en" lang="en">vendor dependence</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">прогресс</span><span class="pair-en" lang="en">progress</span></span></p>
-            <p class="note">Мы не принимаем за прогресс зависимость от ИИ-вендоров, их моделей и инструментов.</p>
+            <p class="note">Мы не принимаем за прогресс зависимость от ИИ-вендоров — их моделей, инструментов и предлагаемых ими жизненных циклов.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">объём выработки</span><span class="pair-en" lang="en">output volume</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">способность</span><span class="pair-en" lang="en">capability</span></span></p>
-            <p class="note">Мы не путаем производство большего объёма выработки со становлением более способной организации.</p>
+            <p class="note">Мы не принимаем больший объём выработки — больше кода, функций или токенов — за более способную организацию.</p>
           </div>
         </li>
 
       </ul>
     </section>
 
-    <p class="lede">Коротко: мы не позволяем поверхностной моде на внедрение ИИ вытеснить наше долгосрочное мышление об организациях, которые мы строим. Поэтому мы говорим: <span class="definition">«Сначала организационный дизайн, потом ИИ.»</span> Мы учимся действовать стратегически: определяем, что хотим сдвинуть в своих организациях ради общего блага, и только затем применяем ИИ — и другие средства — чтобы эти сдвиги состоялись.</p>
+    <p class="lede">Коротко: мы не позволяем ажиотажу вокруг ИИ вытеснить долгосрочное мышление о наших организациях и о том, что хорошо для наших людей и наших компаний. Поэтому мы говорим: <span class="definition">«Сначала организационный дизайн, потом ИИ.»</span> Мы отталкиваемся от сдвигов, описанных выше, а затем применяем ИИ и другие средства, чтобы воплотить их.</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">Что дальше?</span></h2>
 
     <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Хотите внести вклад?</p>
 
     <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Предложите улучшения</a>. Поделитесь этой страницей. Примените эти идеи в своей организации.</p>
-
-    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Хотите копнуть глубже?</p>
-
-    <p class="lede"><a href="/community">Присоединяйтесь к профессиональному обучающему сообществу</a> — отобранное пространство с доступом только по заявке, для senior builders &amp; leaders, которые вместе работают над этими сдвигами.</p>
 
     <footer class="foot">
       <div class="foot-line">

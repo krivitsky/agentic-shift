@@ -67,7 +67,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/shift.css">
 
   <!-- Google tag (gtag.js) -->
@@ -148,6 +148,24 @@
       max-width: 64em;
       text-wrap: pretty;
     }
+
+    /* <em> in the copy is a spoken stress ("the adoption of their products"),
+       so it is set in real italics: Poppins 400 italic is loaded above for it.
+       shift.css draws .lede em upright and white for /munich and the archives;
+       this overrides it on the manifesto only. Chinese and Japanese have no
+       italics, so they get their native emphasis dots instead (under the
+       glyph in Chinese, over it in Japanese). */
+    .manifesto .lede em { font-style: italic; color: inherit; }
+    .manifesto .lede em:lang(zh),
+    .manifesto .lede em:lang(ja) {
+      font-style: normal;
+      -webkit-text-emphasis: filled dot;
+      text-emphasis: filled dot;
+    }
+    .manifesto .lede em:lang(zh) {
+      -webkit-text-emphasis-position: under right;
+      text-emphasis-position: under right;
+    }
   </style>
 </head>
 <body>
@@ -209,11 +227,13 @@
 
     <h2 class="section-head" id="what-we-stand-for"><span class="txt">Ciò che sosteniamo</span></h2>
 
-    <p class="lede">Lo <span class="definition">spostamento agentico</span> è reale, ed è una vera opportunità. Tocca in profondità le nostre organizzazioni e cambia il modo in cui pensiamo al lavoro e a chi lo fa. Usiamo questi strumenti ogni giorno, e con piacere.</p>
+    <p class="lede">Lo <span class="definition">spostamento agentico</span> è reale, ed è una vera opportunità. Tocca in profondità le nostre organizzazioni e cambia il nostro modo di lavorare e di collaborare. Usiamo questi strumenti ogni giorno, e con piacere.</p>
 
-    <p class="lede">Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire <span class="definition">organizzazioni migliori e più sane</span>, che offrano prodotti e servizi migliori. È questo che conta.</p>
+    <p class="lede">Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire <span class="definition">organizzazioni migliori e più sane</span>, che offrano prodotti e servizi migliori, e in cui le persone comuni prosperino. È questo che conta.</p>
 
-    <p class="lede">Ogni organizzazione è unica per come è stata costruita e per ciò a cui aspira. Siamo noi a guidare le <span class="definition">nostre</span> organizzazioni, e siamo giudicati su ciò che conta per <span class="definition">noi</span> — i <span class="definition">nostri</span> clienti, le persone che lavorano con noi e gli altri portatori di interesse. Perciò per noi una cosa non è negoziabile: <span class="definition">lo spostamento agentico avviene alle nostre condizioni</span>.</p>
+    <p class="lede">Ogni organizzazione è unica per come è stata costruita e per ciò a cui mira. Siamo noi a guidare le <span class="definition">nostre</span> organizzazioni, e siamo giudicati su ciò che conta per noi — i nostri clienti, le persone che lavorano con noi e gli altri portatori di interesse.</p>
+
+    <p class="lede">Perciò per noi una cosa non è negoziabile: <span class="definition">lo spostamento agentico avviene alle nostre condizioni</span> e ottimizza ciò che ci sta a cuore — non alle condizioni dei fornitori di IA né dell'hype intorno ai modelli di IA.</p>
 
     <!-- ── What we shift ────────────────────────────────────────────── -->
 
@@ -248,7 +268,7 @@
       </ul>
     </section>
 
-    <p class="lede">Questi spostamenti non sono nuovi. Erano ben documentati e raccomandati molto prima dell'IA. Ciò che l'IA cambia non è se siano giusti — solo quanto siano difficili da compiere.</p>
+    <p class="lede">Questi spostamenti non sono nuovi. Erano ben documentati e raccomandati molto prima dell'attuale ondata di IA. L'IA non cambia il motivo per cui questi spostamenti contano. Li rende più fattibili, più rilevanti e più urgenti.</p>
 
     <p class="lede">Ora, quali spostamenti la tua organizzazione intraprenda sta <span class="definition">a te deciderlo</span>. Ciò che conta è che siano <span class="definition">strategici e non miopi</span> — che servano l'organizzazione che vuoi avere fra anni, e non i numeri che la FOMO ti farebbe rincorrere questo trimestre.</p>
 
@@ -258,7 +278,9 @@
 
     <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">Ciò che ci rifiutiamo di accettare</span></h2>
 
-    <p class="lede">I laboratori di frontiera ottimizzano l'adozione dei propri prodotti, e la FOMO è la leva più forte che tirano su di noi. È un business legittimo, ed è il loro, non il nostro.</p>
+    <p class="lede">I laboratori di frontiera ottimizzano l'adozione dei <em>propri</em> prodotti, e la FOMO è la leva più forte che tirano su di noi. È forse una strategia di business legittima, ma è la loro, non la nostra.</p>
+
+    <p class="lede">Perché lo spostamento resti sano, qualunque cosa dica l'hype, ci sono tre cose che non baratteremo con guadagni a breve termine:</p>
 
     <section class="group group-refuse">
       <ul class="shifts">
@@ -266,38 +288,34 @@
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">giudizio perduto</span><span class="pair-en" lang="en">lost judgment</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">efficienza</span><span class="pair-en" lang="en">efficiency</span></span></p>
-            <p class="note">Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità o valore — all'efficienza.</p>
+            <p class="note">Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità, valore o gusto — all'efficienza.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">dipendenza dai fornitori</span><span class="pair-en" lang="en">vendor dependence</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">progresso</span><span class="pair-en" lang="en">progress</span></span></p>
-            <p class="note">Non accettiamo come progresso la dipendenza dai fornitori di IA, dai loro modelli e dal loro tooling.</p>
+            <p class="note">Non accettiamo come progresso la dipendenza dai fornitori di IA — dai loro modelli, dal loro tooling e dai cicli di vita che propongono.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="term"><span class="from">volume di produzione</span><span class="pair-en" lang="en">output volume</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">capacità</span><span class="pair-en" lang="en">capability</span></span></p>
-            <p class="note">Non confondiamo produrre di più con diventare un'organizzazione più capace.</p>
+            <p class="note">Non scambiamo una produzione maggiore — più codice, funzionalità o token — per un'organizzazione più capace.</p>
           </div>
         </li>
 
       </ul>
     </section>
 
-    <p class="lede">In breve, non lasciamo che una moda superficiale di adozione dell'IA soffochi il nostro pensiero di lungo periodo sulle organizzazioni che stiamo costruendo. Perciò diciamo: <span class="definition">“Prima la progettazione organizzativa, poi l'IA.”</span> Impariamo ad agire in modo strategico: definiamo che cosa vogliamo spostare nelle nostre organizzazioni per il bene comune, e poi applichiamo l'IA — e altri mezzi — per rendere reali quegli spostamenti.</p>
+    <p class="lede">In breve, non lasciamo che l'hype dell'IA soffochi il pensiero di lungo periodo sulle nostre organizzazioni e su ciò che è bene per le nostre persone e le nostre aziende. Perciò diciamo: <span class="definition">“Prima la progettazione organizzativa, poi l'IA.”</span> Partiamo dagli spostamenti descritti sopra, poi usiamo l'IA, e altri mezzi, per renderli reali.</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">E adesso?</span></h2>
 
     <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Vuoi contribuire?</p>
 
     <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Proponi miglioramenti</a>. Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione.</p>
-
-    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Vuoi approfondire?</p>
-
-    <p class="lede"><a href="/community">Unisciti alla community di apprendimento professionale</a> — uno spazio curato, ad accesso solo su candidatura, per senior builders &amp; leaders che lavorano insieme su questi spostamenti.</p>
 
     <footer class="foot">
       <div class="foot-line">

@@ -4,11 +4,13 @@ _Naar gezonde organisaties met geweldige producten en diensten — weg van token
 
 ## Waar wij voor staan
 
-De **agentic shift** is echt, en hij is een echte kans. Hij raakt onze organisaties diep en verandert hoe wij denken over het werk en over de mensen die het doen. Wij gebruiken deze tools elke dag en werken er graag mee.
+De **agentic shift** is echt, en hij is een echte kans. Hij raakt onze organisaties diep en verandert hoe wij werken en hoe wij samenwerken. Wij gebruiken deze tools elke dag en genieten ervan.
 
-Wat wij wél weten, is dat het niet gaat om tooling, tokens of welke andere outputmaat dan ook die toevallig makkelijk te meten is. Het gaat om het bouwen van **betere, gezondere organisaties** die betere producten en diensten leveren. Dát is wat telt.
+Wat wij wél weten, is dat het niet gaat om tooling, tokens of welke andere outputmaat dan ook die toevallig makkelijk te meten is. Het gaat om het bouwen van **betere, gezondere organisaties** die betere producten en diensten leveren, en waarin gewone mensen floreren. Dát is wat telt.
 
-Elke organisatie is uniek in de manier waarop ze is gebouwd en in waar ze naar streeft. Wij leiden **onze** organisaties, en wij worden afgerekend op wat voor **ons** telt — **onze** klanten, medewerkers en andere belanghebbenden. Dus voor ons is één ding niet onderhandelbaar: **de agentic shift gebeurt op onze voorwaarden**.
+Elke organisatie is uniek in hoe ze is gebouwd en wat ze nastreeft. Wij leiden **onze** organisaties, en wij worden afgerekend op wat voor ons telt — onze klanten, medewerkers en andere belanghebbenden.
+
+Dus voor ons is één ding niet onderhandelbaar: **de agentic shift gebeurt op onze voorwaarden** en optimaliseert voor wat wij belangrijk vinden — niet op de voorwaarden van AI-leveranciers en de hype rond AI-modellen.
 
 ## Waar wij naartoe bewegen
 
@@ -23,32 +25,31 @@ Een einde maken aan het doorgeefspel via manager-tussenpersonen en aan het tijdp
 ### output → uitkomsten (output → outcomes)
 Product engineers optillen van afgerekend worden op output naar het bezitten van de volledige waardelus — echte klantimpact borgen, experimenteren en bijsturen zodra het bewijs binnenkomt.
 
-Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór AI goed gedocumenteerd en aanbevolen. Wat AI verandert, is niet óf ze juist zijn — alleen hoe moeilijk ze te maken zijn.
+Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór de huidige AI-golf goed gedocumenteerd en aanbevolen. AI verandert niet waarom deze verschuivingen belangrijk zijn. AI maakt ze haalbaarder, relevanter en urgenter.
 
 Welke verschuivingen jouw organisatie nu oppakt, is **aan jou**. Wat telt is dat ze **strategisch zijn en niet kortzichtig** — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.
 
 ## Wat wij niet accepteren
 
-De frontier labs optimaliseren voor de adoptie van hun producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is een legitieme business, en het is de hunne, niet de onze.
+De frontier labs optimaliseren voor de adoptie van *hun* producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is misschien een legitieme bedrijfsstrategie, maar het is de hunne, niet de onze.
+
+Om de agentic shift gezond te houden, wat de hype ook zegt, zijn er drie dingen die wij niet inruilen voor kortetermijnwinst:
 
 ### verloren oordeel ≠ efficiëntie (lost judgment ≠ efficiency)
-Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features of waarde — niet gelijk aan efficiëntie.
+Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features, waarde of smaak — niet gelijk aan efficiëntie.
 
 ### leveranciersafhankelijkheid ≠ vooruitgang (vendor dependence ≠ progress)
-Wij accepteren afhankelijkheid van AI-leveranciers, hun modellen en hun tooling niet als vooruitgang.
+Wij accepteren afhankelijkheid van AI-leveranciers — hun modellen, tooling en voorgestelde levenscycli — niet als vooruitgang.
 
 ### outputvolume ≠ vermogen (output volume ≠ capability)
-Wij verwarren meer output produceren niet met een capabelere organisatie worden.
+Wij verwarren meer output — meer code, features of tokens — niet met een capabelere organisatie.
 
-Kortom: wij laten niet toe dat een oppervlakkige AI-adoptiehype ons langetermijndenken verdringt over de organisaties die wij aan het bouwen zijn. Daarom zeggen wij: **“Eerst org-ontwerp, dan AI.”** Wij leren strategisch te handelen: wij bepalen wat wij in onze organisaties willen verschuiven, ten goede van het geheel, en zetten daarna AI — en andere middelen — in om die verschuivingen waar te maken.
+Kortom: wij laten niet toe dat AI-hype het langetermijndenken verdringt over onze organisaties en over wat goed is voor onze mensen en onze bedrijven. Daarom zeggen wij: **“Eerst org-ontwerp, dan AI.”** Wij vertrekken vanuit de verschuivingen hierboven en zetten daarna AI, en andere middelen, in om ze waar te maken.
 
 ## Wat nu?
 
 ### Wil je bijdragen?
 [Stel verbeteringen voor](https://github.com/krivitsky/agentic-shift). Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie.
-
-### Wil je de diepte in?
-[Sluit je aan bij de professionele leercommunity](/community) — een zorgvuldig samengestelde ruimte, alleen op aanmelding, voor senior builders & leaders die samen aan deze verschuivingen werken.
 
 ---
 

@@ -19,30 +19,32 @@
   },
   "standHead": "Waar wij voor staan",
   "stand": [
-    "De <span class=\"definition\">agentic shift</span> is echt, en hij is een echte kans. Hij raakt onze organisaties diep en verandert hoe wij denken over het werk en over de mensen die het doen. Wij gebruiken deze tools elke dag en werken er graag mee.",
-    "Wat wij wél weten, is dat het niet gaat om tooling, tokens of welke andere outputmaat dan ook die toevallig makkelijk te meten is. Het gaat om het bouwen van <span class=\"definition\">betere, gezondere organisaties</span> die betere producten en diensten leveren. Dát is wat telt.",
-    "Elke organisatie is uniek in de manier waarop ze is gebouwd en in waar ze naar streeft. Wij leiden <span class=\"definition\">onze</span> organisaties, en wij worden afgerekend op wat voor <span class=\"definition\">ons</span> telt — <span class=\"definition\">onze</span> klanten, medewerkers en andere belanghebbenden. Dus voor ons is één ding niet onderhandelbaar: <span class=\"definition\">de agentic shift gebeurt op onze voorwaarden</span>."
+    "De <span class=\"definition\">agentic shift</span> is echt, en hij is een echte kans. Hij raakt onze organisaties diep en verandert hoe wij werken en hoe wij samenwerken. Wij gebruiken deze tools elke dag en genieten ervan.",
+    "Wat wij wél weten, is dat het niet gaat om tooling, tokens of welke andere outputmaat dan ook die toevallig makkelijk te meten is. Het gaat om het bouwen van <span class=\"definition\">betere, gezondere organisaties</span> die betere producten en diensten leveren, en waarin gewone mensen floreren. Dát is wat telt.",
+    "Elke organisatie is uniek in hoe ze is gebouwd en wat ze nastreeft. Wij leiden <span class=\"definition\">onze</span> organisaties, en wij worden afgerekend op wat voor ons telt — onze klanten, medewerkers en andere belanghebbenden.",
+    "Dus voor ons is één ding niet onderhandelbaar: <span class=\"definition\">de agentic shift gebeurt op onze voorwaarden</span> en optimaliseert voor wat wij belangrijk vinden — niet op de voorwaarden van AI-leveranciers en de hype rond AI-modellen."
   ],
   "refuseHead": "Wat wij niet accepteren",
-  "refuseIntro": "De frontier labs optimaliseren voor de adoptie van hun producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is een legitieme business, en het is de hunne, niet de onze.",
+  "refuseIntro": "De frontier labs optimaliseren voor de adoptie van <em>hun</em> producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is misschien een legitieme bedrijfsstrategie, maar het is de hunne, niet de onze.",
+  "refuseLead": "Om de agentic shift gezond te houden, wat de hype ook zegt, zijn er drie dingen die wij niet inruilen voor kortetermijnwinst:",
   "refusals": [
     {
       "from": "verloren oordeel",
       "to": "efficiëntie",
-      "note": "Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features of waarde — niet gelijk aan efficiëntie."
+      "note": "Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features, waarde of smaak — niet gelijk aan efficiëntie."
     },
     {
       "from": "leveranciersafhankelijkheid",
       "to": "vooruitgang",
-      "note": "Wij accepteren afhankelijkheid van AI-leveranciers, hun modellen en hun tooling niet als vooruitgang."
+      "note": "Wij accepteren afhankelijkheid van AI-leveranciers — hun modellen, tooling en voorgestelde levenscycli — niet als vooruitgang."
     },
     {
       "from": "outputvolume",
       "to": "vermogen",
-      "note": "Wij verwarren meer output produceren niet met een capabelere organisatie worden."
+      "note": "Wij verwarren meer output — meer code, features of tokens — niet met een capabelere organisatie."
     }
   ],
-  "refuseOutro": "Kortom: wij laten niet toe dat een oppervlakkige AI-adoptiehype ons langetermijndenken verdringt over de organisaties die wij aan het bouwen zijn. Daarom zeggen wij: <span class=\"definition\">“Eerst org-ontwerp, dan AI.”</span> Wij leren strategisch te handelen: wij bepalen wat wij in onze organisaties willen verschuiven, ten goede van het geheel, en zetten daarna AI — en andere middelen — in om die verschuivingen waar te maken.",
+  "refuseOutro": "Kortom: wij laten niet toe dat AI-hype het langetermijndenken verdringt over onze organisaties en over wat goed is voor onze mensen en onze bedrijven. Daarom zeggen wij: <span class=\"definition\">“Eerst org-ontwerp, dan AI.”</span> Wij vertrekken vanuit de verschuivingen hierboven en zetten daarna AI, en andere middelen, in om ze waar te maken.",
   "shiftHead": "Waar wij naartoe bewegen",
   "shiftIntro": "Product-engineeringorganisaties die vasthouden aan duurzame kwaliteit, klantwaarde en hoge wendbaarheid maken de volgende strategische verschuivingen, met AI als hefboom die ze vergemakkelijkt:",
   "shifts": [
@@ -62,17 +64,13 @@
       "note": "Product engineers optillen van afgerekend worden op output naar het bezitten van de volledige waardelus — echte klantimpact borgen, experimenteren en bijsturen zodra het bewijs binnenkomt."
     }
   ],
-  "shiftNotNew": "Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór AI goed gedocumenteerd en aanbevolen. Wat AI verandert, is niet óf ze juist zijn — alleen hoe moeilijk ze te maken zijn.",
+  "shiftNotNew": "Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór de huidige AI-golf goed gedocumenteerd en aanbevolen. AI verandert niet waarom deze verschuivingen belangrijk zijn. AI maakt ze haalbaarder, relevanter en urgenter.",
   "shiftOutro": "Welke verschuivingen jouw organisatie nu oppakt, is <span class=\"definition\">aan jou</span>. Wat telt is dat ze <span class=\"definition\">strategisch zijn en niet kortzichtig</span> — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.",
   "qaHead": "Wat nu?",
   "qa": [
     {
       "q": "Wil je bijdragen?",
       "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Stel verbeteringen voor</a>. Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie."
-    },
-    {
-      "q": "Wil je de diepte in?",
-      "a": "<a href=\"/community\">Sluit je aan bij de professionele leercommunity</a> — een zorgvuldig samengestelde ruimte, alleen op aanmelding, voor senior builders &amp; leaders die samen aan deze verschuivingen werken."
     }
   ],
   "foot": {

@@ -67,7 +67,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/shift.css">
 
   <!-- Google tag (gtag.js) -->
@@ -148,6 +148,24 @@
       max-width: 64em;
       text-wrap: pretty;
     }
+
+    /* <em> in the copy is a spoken stress ("the adoption of their products"),
+       so it is set in real italics: Poppins 400 italic is loaded above for it.
+       shift.css draws .lede em upright and white for /munich and the archives;
+       this overrides it on the manifesto only. Chinese and Japanese have no
+       italics, so they get their native emphasis dots instead (under the
+       glyph in Chinese, over it in Japanese). */
+    .manifesto .lede em { font-style: italic; color: inherit; }
+    .manifesto .lede em:lang(zh),
+    .manifesto .lede em:lang(ja) {
+      font-style: normal;
+      -webkit-text-emphasis: filled dot;
+      text-emphasis: filled dot;
+    }
+    .manifesto .lede em:lang(zh) {
+      -webkit-text-emphasis-position: under right;
+      text-emphasis-position: under right;
+    }
   </style>
 </head>
 <body>
@@ -209,11 +227,13 @@
 
     <h2 class="section-head" id="what-we-stand-for"><span class="txt">What we stand for</span></h2>
 
-    <p class="lede">The <span class="definition">agentic shift</span> is real, and it is a real opportunity. It affects our organizations deeply, changing how we think about the work and the workers. We use these tools every day and enjoy them.</p>
+    <p class="lede">The <span class="definition">agentic shift</span> is real, and it is a real opportunity. It affects our organizations deeply, changing how we work and how we work together. We use these tools every day and enjoy them.</p>
 
-    <p class="lede">What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building <span class="definition">better, healthier organizations</span> that offer better products and services. That's what matters.</p>
+    <p class="lede">What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building <span class="definition">better, healthier organizations</span> that offer better products and services, and where ordinary people thrive. That's what matters.</p>
 
-    <p class="lede">Every organization is unique in the way it was built and in what it aspires to. We run <span class="definition">our</span> organizations, and we are judged on what matters to <span class="definition">us</span> — <span class="definition">our</span> customers, employees, and other stakeholders. So for us one thing is non-negotiable: <span class="definition">the agentic shift happens on our terms</span>.</p>
+    <p class="lede">Every organization is unique in how it was built and what it aims for. We run <span class="definition">our</span> organizations, and we are judged on what matters to us — our customers, employees, and other stakeholders.</p>
+
+    <p class="lede">So for us one thing is non-negotiable: <span class="definition">the agentic shift happens on our terms</span> and optimizes for what we care about — not on the terms of AI vendors and the hype around AI models.</p>
 
     <!-- ── What we shift ────────────────────────────────────────────── -->
 
@@ -248,7 +268,7 @@
       </ul>
     </section>
 
-    <p class="lede">These shifts are not new. They were well documented and recommended long before AI. What AI changes is not whether they are right — only how hard they are to make.</p>
+    <p class="lede">These shifts are not new. They were well documented and recommended long before the current AI wave. AI does not change why these shifts matter. It makes them more feasible, more relevant and more urgent.</p>
 
     <p class="lede">Now, which shifts your organization takes on is <span class="definition">yours to decide</span>. What matters is that they are <span class="definition">strategic, not shortsighted</span> — that they serve the organization you want to have in years rather than the numbers FOMO would have you chase this quarter.</p>
 
@@ -258,7 +278,9 @@
 
     <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">What we refuse to accept</span></h2>
 
-    <p class="lede">The frontier labs optimize for the adoption of their products, and FOMO is the strongest lever they pull on us. That is a legitimate business, and it is theirs, not ours.</p>
+    <p class="lede">The frontier labs optimize for the adoption of <em>their</em> products, and FOMO is the strongest lever they pull on us. That is a legitimate business strategy, perhaps, but it is theirs, not ours.</p>
+
+    <p class="lede">To keep the shift healthy, whatever the hype says, there are three things we will not trade for short-term gains:</p>
 
     <section class="group group-refuse">
       <ul class="shifts">
@@ -266,38 +288,34 @@
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="from">lost judgment</span><span class="arrow" aria-hidden="true">≠</span><span class="to">efficiency</span></p>
-            <p class="note">We do not equate the loss of judgment — in code, design, architecture, features, or value — with efficiency.</p>
+            <p class="note">We do not equate the loss of judgment — in code, design, architecture, features, value or taste — with efficiency.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="from">vendor dependence</span><span class="arrow" aria-hidden="true">≠</span><span class="to">progress</span></p>
-            <p class="note">We do not accept dependence on AI vendors, their models and tooling, as progress.</p>
+            <p class="note">We do not accept dependence on AI vendors — their models, tooling and proposed lifecycles — as progress.</p>
           </div>
         </li>
 
         <li class="shift">
           <div class="shift-body">
             <p class="pair"><span class="from">output volume</span><span class="arrow" aria-hidden="true">≠</span><span class="to">capability</span></p>
-            <p class="note">We do not confuse producing more output with becoming a more capable organization.</p>
+            <p class="note">We do not mistake more output — more code, features or tokens — for a more capable organization.</p>
           </div>
         </li>
 
       </ul>
     </section>
 
-    <p class="lede">In short, we do not let a shallow AI-adoption fad crowd out our long-term thinking about the organizations we are building. So we say: <span class="definition">“Org design, then AI.”</span> We learn to act strategically: we define what we want to shift in our organizations for the greater good, and then we apply AI — and other means — to make those shifts real.</p>
+    <p class="lede">In short, we do not let AI hype crowd out long-term thinking about our organizations and what is good for our people and businesses. So we say: <span class="definition">“Org design, then AI.”</span> We start from the shifts above, then use AI, and other means, to make them real.</p>
 
     <h2 class="section-head" id="whats-next"><span class="txt">What's Next?</span></h2>
 
     <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Want to contribute?</p>
 
     <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Propose improvements</a>. Share this page. Put these ideas to work in your organization.</p>
-
-    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Want to go deeper?</p>
-
-    <p class="lede"><a href="/community">Join the professional learning community</a> — a curated, application-only space for senior builders and leaders working on these shifts together.</p>
 
     <footer class="foot">
       <div class="foot-line">
