@@ -4,18 +4,18 @@
   "dir": "/ja/",
   "meta": {
     "title": "Agentic Shift — まず組織デザイン、そのあとに AI",
-    "description": "優れた製品とサービスを持つ健全な組織へ——tokenmaxing やその他の AI シアターから離れて。私たちの立場、私たちが向かう先、私たちが受け入れないこと。",
+    "description": "tokenmaxing やその他の AI シアターから、人がいきいきと活躍し、優れた製品とサービスをつくる健全な組織へ。私たちの立場、私たちが向かう先、私たちが受け入れないこと。",
     "keywords": "agentic shift, エージェンティック・プロダクトエンジニアリング, agentic product engineering, AIエージェント, 組織デザイン, プロダクトエンジニアリング, Alexey Krivitsky, Martin Westphal",
     "ogTitle": "Agentic Shift — まず組織デザイン、そのあとに AI",
-    "ogDescription": "優れた製品とサービスを持つ健全な組織へ——tokenmaxing やその他の AI シアターから離れて。",
-    "schemaDescription": "優れた製品とサービスを持つ健全な組織へ——tokenmaxing やその他の AI シアターから離れて。",
+    "ogDescription": "tokenmaxing やその他の AI シアターから、人がいきいきと活躍し、優れた製品とサービスをつくる健全な組織へ。",
+    "schemaDescription": "tokenmaxing やその他の AI シアターから、人がいきいきと活躍し、優れた製品とサービスをつくる健全な組織へ。",
     "llmsTitle": "Agentic Shift — 機械可読（LLM）版"
   },
   "hero": {
     "kicker": "AI 競争のなかで正気を保つ",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "優れた製品とサービスを持つ健全な組織へ——tokenmaxing やその他の AI シアターから離れて。"
+    "subtitle": "tokenmaxing やその他の AI シアターから、人がいきいきと活躍し、優れた製品とサービスをつくる健全な組織へ。"
   },
   "standHead": "私たちの立場",
   "stand": [

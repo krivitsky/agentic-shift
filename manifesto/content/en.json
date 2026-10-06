@@ -4,18 +4,18 @@
   "dir": "/",
   "meta": {
     "title": "Agentic Shift — Org design, then AI",
-    "description": "Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater. Where we stand, what we shift, what we refuse.",
+    "description": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services. Where we stand, what we shift, what we refuse.",
     "keywords": "agentic shift, agentic product engineering, agentic engineering, AI agents, organizational design, product engineering, professional agentic engineering, Alexey Krivitsky, Martin Westphal",
     "ogTitle": "Agentic Shift — Org design, then AI",
-    "ogDescription": "Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater.",
-    "schemaDescription": "Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater.",
+    "ogDescription": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.",
+    "schemaDescription": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.",
     "llmsTitle": "Agentic Shift — machine-readable (LLM) version"
   },
   "hero": {
     "kicker": "Staying sane in the AI race",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater."
+    "subtitle": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services."
   },
   "standHead": "What we stand for",
   "stand": [

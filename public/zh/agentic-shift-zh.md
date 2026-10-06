@@ -1,6 +1,6 @@
 # Agentic Shift
 
-_走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。_
+_从 tokenmaxing 与其他 AI 表演，走向让人们茁壮成长、打造优秀产品与服务的健康组织。_
 
 ## 我们的立场
 

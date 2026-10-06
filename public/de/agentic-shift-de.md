@@ -1,6 +1,6 @@
 # Agentic Shift
 
-_Hin zu gesunden Organisationen mit großartigen Produkten und Services — weg von Tokenmaxing und anderem KI-Theater._
+_Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen, in denen Menschen aufblühen und großartige Produkte und Services entwickeln._
 
 ## Wofür wir stehen
 

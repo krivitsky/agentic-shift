@@ -1,6 +1,6 @@
 # Agentic Shift
 
-_Verso organizzazioni sane con prodotti e servizi eccellenti — lontano dal tokenmaxing e dalle altre forme di teatro dell'IA._
+_Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti._
 
 ## Ciò che sosteniamo
 

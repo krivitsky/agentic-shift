@@ -1,6 +1,6 @@
 # Agentic Shift
 
-_Ke zdravým organizacím se skvělými produkty a službami — pryč od tokenmaxingu a dalšího AI divadla._
+_Od tokenmaxingu a dalšího AI divadla ke zdravým organizacím, v nichž lidé vzkvétají a tvoří skvělé produkty a služby._
 
 ## Za čím stojíme
 

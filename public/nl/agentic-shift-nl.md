@@ -1,6 +1,6 @@
 # Agentic Shift
 
-_Naar gezonde organisaties met geweldige producten en diensten — weg van tokenmaxing en ander AI-theater._
+_Van tokenmaxing en ander AI-theater naar gezonde organisaties waarin mensen floreren en geweldige producten en diensten bouwen._
 
 ## Waar wij voor staan
 

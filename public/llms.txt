@@ -7,7 +7,7 @@
 
 ## Manifesto (English)
 
-**Agentic Shift** — Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater.
+**Agentic Shift** — From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.
 
 ### What we stand for
 
@@ -49,7 +49,7 @@ In short, we do not let AI hype crowd out long-term thinking about our organizat
 
 ## Manifesto (Deutsch)
 
-**Agentic Shift** — Hin zu gesunden Organisationen mit großartigen Produkten und Services — weg von Tokenmaxing und anderem KI-Theater.
+**Agentic Shift** — Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen, in denen Menschen aufblühen und großartige Produkte und Services entwickeln.
 
 ### Wofür wir stehen
 
@@ -91,7 +91,7 @@ Kurz: Wir lassen nicht zu, dass der KI-Hype das langfristige Denken über unsere
 
 ## Manifesto (Nederlands)
 
-**Agentic Shift** — Naar gezonde organisaties met geweldige producten en diensten — weg van tokenmaxing en ander AI-theater.
+**Agentic Shift** — Van tokenmaxing en ander AI-theater naar gezonde organisaties waarin mensen floreren en geweldige producten en diensten bouwen.
 
 ### Waar wij voor staan
 
@@ -133,7 +133,7 @@ Kortom: wij laten niet toe dat AI-hype het langetermijndenken verdringt over onz
 
 ## Manifesto (Français)
 
-**Agentic Shift** — Vers des organisations saines aux produits et services excellents — loin du tokenmaxing et des autres formes de théâtre de l'IA.
+**Agentic Shift** — Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines où les gens s'épanouissent et créent d'excellents produits et services.
 
 ### Ce que nous défendons
 
@@ -175,7 +175,7 @@ En bref, nous ne laissons pas le battage autour de l'IA évincer la réflexion d
 
 ## Manifesto (Italiano)
 
-**Agentic Shift** — Verso organizzazioni sane con prodotti e servizi eccellenti — lontano dal tokenmaxing e dalle altre forme di teatro dell'IA.
+**Agentic Shift** — Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti.
 
 ### Ciò che sosteniamo
 
@@ -217,7 +217,7 @@ In breve, non lasciamo che l'hype dell'IA soffochi il pensiero di lungo periodo 
 
 ## Manifesto (Español)
 
-**Agentic Shift** — Hacia organizaciones sanas con grandes productos y servicios — lejos del tokenmaxing y del resto del teatro de la IA.
+**Agentic Shift** — Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas donde las personas prosperan y crean grandes productos y servicios.
 
 ### Lo que defendemos
 
@@ -259,7 +259,7 @@ En resumen, no dejamos que el hype de la IA desplace el pensamiento a largo plaz
 
 ## Manifesto (Português)
 
-**Agentic Shift** — Rumo a organizações saudáveis com excelentes produtos e serviços — longe do tokenmaxing e do restante teatro da IA.
+**Agentic Shift** — Do tokenmaxing e do restante teatro da IA rumo a organizações saudáveis onde as pessoas prosperam e criam excelentes produtos e serviços.
 
 ### O que defendemos
 
@@ -301,7 +301,7 @@ Em suma, não deixamos que o hype da IA sufoque o pensamento de longo prazo sobr
 
 ## Manifesto (Čeština)
 
-**Agentic Shift** — Ke zdravým organizacím se skvělými produkty a službami — pryč od tokenmaxingu a dalšího AI divadla.
+**Agentic Shift** — Od tokenmaxingu a dalšího AI divadla ke zdravým organizacím, v nichž lidé vzkvétají a tvoří skvělé produkty a služby.
 
 ### Za čím stojíme
 
@@ -343,7 +343,7 @@ Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o 
 
 ## Manifesto (Українська)
 
-**Agentic Shift** — До здорових організацій із чудовими продуктами та послугами — подалі від tokenmaxing та іншого ШІ-театру.
+**Agentic Shift** — Від tokenmaxing та іншого ШІ-театру до здорових організацій, у яких люди процвітають і створюють чудові продукти та послуги.
 
 ### Що ми обстоюємо
 
@@ -385,7 +385,7 @@ Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o 
 
 ## Manifesto (Русский)
 
-**Agentic Shift** — К здоровым организациям с отличными продуктами и услугами — подальше от tokenmaxing и прочего ИИ-театра.
+**Agentic Shift** — От tokenmaxing и прочего ИИ-театра к здоровым организациям, в которых люди процветают и создают отличные продукты и услуги.
 
 ### Что мы отстаиваем
 
@@ -427,7 +427,7 @@ Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o 
 
 ## Manifesto (中文)
 
-**Agentic Shift** — 走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。
+**Agentic Shift** — 从 tokenmaxing 与其他 AI 表演，走向让人们茁壮成长、打造优秀产品与服务的健康组织。
 
 ### 我们的立场
 
@@ -469,7 +469,7 @@ Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o 
 
 ## Manifesto (日本語)
 
-**Agentic Shift** — 優れた製品とサービスを持つ健全な組織へ——tokenmaxing やその他の AI シアターから離れて。
+**Agentic Shift** — tokenmaxing やその他の AI シアターから、人がいきいきと活躍し、優れた製品とサービスをつくる健全な組織へ。
 
 ### 私たちの立場
 

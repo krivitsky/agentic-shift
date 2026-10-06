@@ -8,7 +8,7 @@
 
 > _Generated from [`manifesto/content/en.json`](manifesto/content/en.json) — edit the JSON (and its siblings for other languages), then run `node manifesto/build.js`. Do not edit this section by hand._
 
-_Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater._
+_From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services._
 
 ## What we stand for
 

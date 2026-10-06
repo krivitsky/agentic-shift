@@ -1,6 +1,6 @@
 # Agentic Shift
 
-_Toward healthy organizations with great products and services — away from tokenmaxing and other AI theater._
+_From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services._
 
 ## What we stand for
 

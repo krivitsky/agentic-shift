@@ -4,18 +4,18 @@
   "dir": "/zh/",
   "meta": {
     "title": "Agentic Shift — 先做组织设计，再谈 AI",
-    "description": "走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。我们的立场，我们转向何处，我们拒绝接受的。",
+    "description": "从 tokenmaxing 与其他 AI 表演，走向让人们茁壮成长、打造优秀产品与服务的健康组织。我们的立场，我们转向何处，我们拒绝接受的。",
     "keywords": "agentic shift, 智能体产品工程, agentic product engineering, AI 智能体, 组织设计, 产品工程, Alexey Krivitsky, Martin Westphal",
     "ogTitle": "Agentic Shift — 先做组织设计，再谈 AI",
-    "ogDescription": "走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。",
-    "schemaDescription": "走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。",
+    "ogDescription": "从 tokenmaxing 与其他 AI 表演，走向让人们茁壮成长、打造优秀产品与服务的健康组织。",
+    "schemaDescription": "从 tokenmaxing 与其他 AI 表演，走向让人们茁壮成长、打造优秀产品与服务的健康组织。",
     "llmsTitle": "Agentic Shift — 机器可读（LLM）版本"
   },
   "hero": {
     "kicker": "在 AI 竞赛中保持清醒",
     "headlineLead": "Agentic",
     "headlineGlitch": "Shift",
-    "subtitle": "走向拥有优秀产品与服务的健康组织，远离 tokenmaxing 与其他 AI 表演。"
+    "subtitle": "从 tokenmaxing 与其他 AI 表演，走向让人们茁壮成长、打造优秀产品与服务的健康组织。"
   },
   "standHead": "我们的立场",
   "stand": [
