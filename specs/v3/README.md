@@ -60,13 +60,28 @@ No change.
 ## v4 (later, not now): the interactive "Own your shift" block
 
 Alexey has already decided the following, so record it here for v4:
-- **The 6 shift rows are themselves the interactive block** (Alexey's mock, 2026-10-25): each row has a horizontal slider with "from" at the left end and the bold "to" title at the right end, plus the note. Above the rows: the headline **"Own your shift"** (singular, no period), the reset button and the "Try a sample mix" button.
+- **The 6 shift rows are themselves the interactive block** (Alexey's mock, 2026-10-25): each row has a horizontal slider with "from" at the left end and the bold "to" title at the right end, plus the note. Above the rows: only the headline **"Own your shift"** (singular, no period). **No buttons:** no reset and no "Try a sample mix" (Alexey, 2026-10-25: "no use, remove").
 - There is one horizontal slider per shift, with the "from" side on the left and the "to" side on the right. This is the layout of board #21 on the design canvas https://claude.ai/artifact/RsUjUpNnmqTFavY2czdcu3.
-- The sliders start fully left and show no numbers, and there is a reset button (behavior from #22). A "Try a sample mix" button sets an example mix (from #23).
-- **The knobs travel right on their own when the block comes into view** (Alexey, 2026-10-25, with a screenshot of the 6-slider mock). Each knob slides from the "from" end to the "to" end the first time its row scrolls into view (IntersectionObserver). The rows go one after another in a short stagger, the animation is smooth and eases out, and it plays once per page load. After that the visitor can drag freely. Reset puts the knobs back to the left without replaying the animation. With `prefers-reduced-motion`, show the knobs at the right end with no animation.
+- The sliders start fully left and show no numbers (behavior from #22).
+- **The knobs travel right on their own when the block comes into view** (Alexey, 2026-10-25, with a screenshot of the 6-slider mock). Each knob slides from the "from" end to the "to" end the first time its row scrolls into view (IntersectionObserver). The rows go one after another in a short stagger, the animation is smooth and eases out, and it plays once per page load. After that the visitor can drag freely. With `prefers-reduced-motion`, show the knobs at the right end with no animation.
 - A "mixer view" toggle with vertical faders (#23) may come later.
 - The canvas boards still show the old 9 shifts on 3 levels, so redraw everything with the 6 flat shifts.
-- **Type sizes. The mocks were too small (Alexey, 2026-10-25), so these are minimums.** Intro paragraphs: 18 px on desktop and 17 px on mobile, line-height 1.55. Shift notes: 16 px everywhere, line-height 1.5. "from" labels: 15 px. "to" titles: 22 px or more on desktop and 19 px on mobile, bold. Buttons: 16 px. Footer and captions: 14 px or more, nothing smaller. Keep text columns at 60–75 characters wide. Big headlines (the hero, "Own your shift") stay as large as in the mocks.
+- **Type scale. Use these exact sizes, not smaller (Alexey, 2026-10-25: the mocks were too small twice; the second mock had the intro at ~13 px, notes at ~11 px and "from" labels at ~10 px).** Before delivering, measure every text style in the design and list it next to this table.
+
+  | Text | Desktop | Mobile | Weight / line-height |
+  |---|---|---|---|
+  | Hero "Agentic Shift" | as in the mock | as in the mock | black |
+  | Hero subtitle (italic) | 26 px | 20 px | 1.35 |
+  | Section heads ("What we shift toward", "Own your shift", "What's Next?") | as in the mock | as in the mock | black |
+  | Intro paragraphs 1–2 | 20 px | 18 px | 1.55 |
+  | Intro paragraph 3 ("Use them as inspiration…") | 24 px | 20 px | 1.4. The same style as 1–2 is fine too; never larger than 24 px |
+  | Shift "to" title | 24 px | 20 px | bold |
+  | Shift "from" label | 16 px | 15 px | regular, `--muted` |
+  | Shift note | 17 px | 16 px | 1.5 |
+  | What's Next body | 20 px | 18 px | 1.5 |
+  | Footer | 14 px | 14 px | nothing on the page is smaller |
+
+  Keep text columns 60–75 characters wide. The note column next to the sliders must be wide enough for that at 17 px; if it isn't, put the note under the slider on desktop too. Turn hyphenation off everywhere (`hyphens: none`): no "prod-ucts" or "organi-zation" breaks.
 - **Palette, decided 2026-10-25: two themes, dark and light, from the same brand (ink + teal + amber). No red anywhere.** The page follows the visitor's system setting (`prefers-color-scheme`) by default and has a small sun/moon toggle in the header that overrides it and is remembered. Both themes use the same tokens:
 
 | Token | Dark | Light | Use |
@@ -75,7 +90,7 @@ Alexey has already decided the following, so record it here for v4:
 | `--text` | `#EDF1EF` (17.5:1) | `#05090D` (20:1) | Body text, headlines, slider knobs |
 | `--accent` | `#3DDC9A` (11.3:1) | `#0E7A55` (5.3:1) | Teal as text or thin line: the bold "to" title of each shift, links, focus ring |
 | `--fill` | `#3DDC9A` | `#3DDC9A` | Teal as a surface: the filled part of each slider track, the "Own your shift" band. Text on it is always `#05090D` (11.3:1). |
-| `--amber` | `#E8A33D` | `#E8A33D` | One highlight only: the "Try a sample mix" button, with `#05090D` text (9.3:1) |
+| `--amber` | `#E8A33D` | `#E8A33D` | Not used for now: its only use, the "Try a sample mix" button, was removed. If it comes back, text on it is `#05090D` (9.3:1) |
 | `--muted` | `#9AA4AC` (7.9:1) | `#5B6670` (5.9:1) | Secondary text: the "from" labels, captions |
 | `--line` | `#2A333A` | `#E3E7E5` | Hairlines, the empty part of the slider track, ticks |
 | `--panel` | `#1C2329` | `#F4F6F5` | Optional card or panel background |
