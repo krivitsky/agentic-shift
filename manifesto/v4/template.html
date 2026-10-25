@@ -67,7 +67,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,800;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;0,800;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJW53LEJGS"></script>
@@ -99,9 +99,15 @@
       margin: 0;
       background: var(--bg);
       color: var(--text);
-      font-family: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
+      font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
       overflow-x: hidden;
     }
+    /* Inter Tight only for display type (headlines, "to" titles, subtitle);
+       running text is regular Inter, which is wider and softer to read
+       (Alexey, 2026-10-25: Inter Tight in the notes was "too sharpy"). */
+    h1, h2, .to, .subtitle, .prose .q { font-family: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif; }
     .wrap {
       padding-left: max(16px, calc((100% - 1200px) / 2));
       padding-right: max(16px, calc((100% - 1200px) / 2));
