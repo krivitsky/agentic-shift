@@ -1,8 +1,7 @@
 # agentic-shift.com
 
 The website for **agentic-shift.com** — a short manifesto for organizations going through the
-agentic shift on their own terms, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky
-and Martin Westphal.
+agentic shift on their own terms, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky.
 
 - Production: https://agentic-shift.com/
 - GitHub: git@github.com:krivitsky/agentic-shift.git (branch: `main`, public repo)
@@ -46,6 +45,7 @@ and Martin Westphal.
 - **Crawler/LLM files** in `public/` (served at site root): `robots.txt`, `sitemap.xml`, `llms.txt`, `ai.txt`, `site.webmanifest`. These use **absolute `https://agentic-shift.com` URLs** (required by their specs — the relative-only rule is `<head>`-meta only). Pages carry `<link rel="alternate" type="text/markdown" href="/llms.txt">` + `<link rel="manifest">`.
 
 ## Manifesto i18n
+- **Two English sources until BACKLOG item 3 ships (2026-10-25).** The live English page `/` (plus `agentic-shift-en.md` and the English blocks of `llms.txt` and README) renders from `manifesto/v4/en.json` + `manifesto/v4/template.html` (the six-shift slider design). The 11 translations still render from `content/<lang>.json` + `template.html` and are checked and glossed against the OLD `content/en.json`. Do not "fix" the mismatch by editing `content/en.json` — retranslate each language onto v4, then retire the old path.
 - **Pipeline lives in `manifesto/`:** `content/*.json` (one per language, content only), `template.html` (markup, once), `build.js` (zero-dep Node generator). Languages: en (canonical) · de · nl · fr · it · es · pt · cs · uk · ru · zh · ja.
 - **Edit content → `node manifesto/build.js` → generates** `public/index.html`, `public/<lang>/index.html`, `public/<lang>/agentic-shift-<lang>.md` (downloadable per-language Markdown — locale in the filename so mobile Safari saves it right even when it ignores the `download` attr; linked from the language switcher via a Markdown-mark icon + the current lang code in brackets, e.g. `[DE]`), `public/sitemap.xml`, and the `MANIFESTO`-marked regions of `README.md` + `public/llms.txt`. Generated files carry a `GENERATED … do not edit` banner (or `MANIFESTO` markers). **Never hand-edit them** — the next build overwrites.
 - **`en.json` is canonical — every change to it propagates to all 11 translations in the same session.** Adding or editing a lede paragraph, shift, Q&A, or meta field on the homepage is **not done** until each `content/<lang>.json` carries it; a partly-translated set means those pages silently serve an older manifesto. `build.js` enforces this: it prints `✗ TRANSLATION DRIFT` naming each language and exactly what it lacks, and **exits 1** (files are still written, so you can iterate). A green run ends with `✓ all 11 translations match en.json` — never commit a red one. (Added 2026-07-30, after the `/community` Q&A ran English-only for weeks.)
