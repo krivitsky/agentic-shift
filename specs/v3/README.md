@@ -20,15 +20,13 @@ Drop the whole section (`standHead`, `stand[]`). The subtitle and the new shifts
 
 ### What we shift toward
 
-Alexey's wording, 2026-10-25 22:02, proofread. Three paragraphs come before the cards. They replace the current `shiftIntro`, and they replace the FOMO paragraph that sits in the refuse section today:
+Alexey's wording, 2026-10-25 22:02, proofread. Two paragraphs come before the cards (the third moved below the cards on 2026-10-25 22:28). They replace the current `shiftIntro`, and they replace the FOMO paragraph that sits in the refuse section today:
 
 1. > We use AI tools every day, and we enjoy them. AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So it is important to know your competitive advantage and how to amplify it with a strategic AI adoption, instead of sprinkling AI around because of the FOMO the AI vendors spread.
 
 2. > Below are the shifts that organizations wanting sustainable quality, real customer value and high adaptability make.
 
-3. > Use them as inspiration to define your strategy, so that you own the agentic shift and make it happen on your terms.
-
-4. Six `→` cards, in this order. They replace all current `shifts[]`. Titles stay lowercase:
+3. Six `→` cards, in this order. They replace all current `shifts[]`. Titles stay lowercase:
 
 | # | from | to | note |
 |---|---|---|---|
@@ -39,7 +37,13 @@ Alexey's wording, 2026-10-25 22:02, proofread. Three paragraphs come before the 
 | 5 | counting output | owning outcomes | Elevating product engineers from counting output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in. |
 | 6 | work follows people | people follow value | Organizing around value instead of around existing roles and team boundaries — product engineers move to where the most valuable work is as priorities shift, which keeps the whole organization adaptable. |
 
-Nothing comes after the cards in this section.
+### Closing section, after the cards (Alexey, 2026-10-25 22:28)
+
+Its own section with a big head like "What we shift toward" and "What's Next?", for symmetry. Head: [HEADER PENDING: Alexey to pick, 2026-10-25]. Text (Aidy's expansion of his "Use them as inspiration…" line, used by Alexey in his mock):
+
+> These shifts are not a checklist. Not every organization needs all six, and not all to the same depth. Which ones matter, and how far you take each one, depends on your product, your customers and the competitive advantage you want to build.
+
+> Use them as inspiration to define your strategy. Pick the shifts that strengthen your advantage, decide how far to go with each, and only then choose where AI amplifies them. Revisit the mix as you learn. That is how you own the agentic shift and make it happen on your terms.
 
 ### Removed
 
@@ -73,8 +77,8 @@ Alexey has already decided the following, so record it here for v4:
   | Hero "Agentic Shift" | as in the mock | as in the mock | black |
   | Hero subtitle (italic) | 26 px | 20 px | 1.35 |
   | Section heads ("What we shift toward", "Own your shift", "What's Next?") | as in the mock | as in the mock | black |
-  | Intro paragraphs 1–2 | 20 px | 18 px | 1.55 |
-  | Intro paragraph 3 ("Use them as inspiration…") | 24 px | 20 px | 1.4. The same style as 1–2 is fine too; never larger than 24 px |
+  | Intro paragraphs | 20 px | 18 px | 1.55 |
+  | Closing section paragraphs | 20 px | 18 px | 1.55, same style as the intro |
   | Shift "to" title | 24 px | 20 px | bold |
   | Shift "from" label | 16 px | 15 px | regular, `--muted` |
   | Shift note | 17 px | 16 px | 1.5 |
