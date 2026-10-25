@@ -16,6 +16,12 @@ Dus voor ons is één ding niet onderhandelbaar: **de agentic shift gebeurt op o
 
 Product-engineeringorganisaties die vasthouden aan duurzame kwaliteit, klantwaarde en hoge wendbaarheid maken de volgende strategische verschuivingen, met AI als hefboom die ze vergemakkelijkt:
 
+### features → systemen (features → systems)
+Product engineers meenemen van het één voor één coderen van features naar het ontwerpen van de agentic systemen die de features bouwen — zelfverbeterende loops die intentie omzetten in geteste, werkende software.
+
+### inspectie → verificatie (inspection → verification)
+Kwaliteit in het systeem inbouwen in plaats van die aan het eind handmatig te inspecteren — geautomatiseerde verificatie toetst elke wijziging aan tests en specificaties, terwijl product engineers de tests reviewen en eigenaar zijn van de waardelus.
+
 ### specialisten → vakmensen (specialists → craftspeople)
 Product engineers in staat stellen om van smalle, lopendebandspecialisten te veranderen in end-to-end vakmensen — waarbij AI de specialistische gaten opvult en bijscholing biedt om nieuwe domeinen binnen te gaan.
 

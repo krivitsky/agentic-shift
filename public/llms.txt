@@ -23,6 +23,8 @@ So for us one thing is non-negotiable: the agentic shift happens on our terms an
 
 Product engineering organizations that hold on to sustainable quality, customer value and high adaptability make the following strategic shifts, with AI as a lever to ease them:
 
+- **features → systems** — Moving product engineers from coding features one by one to designing the agentic systems that build them — self-improving loops that turn intent into tested, working software.
+- **inspection → verification** — Building quality into the system instead of manually inspecting for it at the end — automated verification checks every change against tests and specs, while product engineers review the tests and own the value loop.
 - **specialists → craftspeople** — Enabling product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains.
 - **proxies → users** — Ending the telephone game through manager-proxies and the era of “IT sitting in the basement” — instead putting product engineers at zero distance with the customers and users, to empathize, analyze, and synthesize firsthand.
 - **output → outcomes** — Elevating product engineers from being measured by output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in.
@@ -65,6 +67,8 @@ Deshalb ist für uns eines nicht verhandelbar: Der agentic shift geschieht zu un
 
 Organisationen im Product Engineering, die an nachhaltiger Qualität, Kundennutzen und hoher Anpassungsfähigkeit festhalten, vollziehen die folgenden strategischen Verschiebungen, mit KI als Hebel, der sie erleichtert:
 
+- **Features → Systeme** (features → systems) — Product Engineers vom Programmieren eines Features nach dem anderen zum Entwerfen der agentischen Systeme führen, die diese Features bauen — sich selbst verbessernde Loops, die Absicht in getestete, funktionierende Software verwandeln.
+- **Inspektion → Verifikation** (inspection → verification) — Qualität ins System einbauen, statt sie am Ende manuell zu prüfen — automatisierte Verifikation gleicht jede Änderung mit Tests und Spezifikationen ab, während Product Engineers die Tests reviewen und den Wertkreislauf verantworten.
 - **Spezialisten → Handwerker** (specialists → craftspeople) — Product Engineers ermöglichen, sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern zu wandeln — wobei KI die Spezialistenlücken füllt und die Weiterqualifizierung für den Einstieg in neue Domänen anbietet.
 - **Stellvertreter → Nutzer** (proxies → users) — Das Stille-Post-Spiel über Manager als Stellvertreter beenden, und mit ihm die Ära der „IT im Keller“ — und stattdessen Product Engineers auf null Distanz zu Kundinnen und Nutzern bringen, um sich aus erster Hand einzufühlen, zu analysieren und zu synthetisieren.
 - **Output → Wirkung** (output → outcomes) — Product Engineers aus der Messung am Output herausheben, hin zur Verantwortung für den vollständigen Wertkreislauf — echte Kundenwirkung sicherstellen, experimentieren und den Kurs korrigieren, sobald die Evidenz eintrifft.
@@ -107,6 +111,8 @@ Dus voor ons is één ding niet onderhandelbaar: de agentic shift gebeurt op onz
 
 Product-engineeringorganisaties die vasthouden aan duurzame kwaliteit, klantwaarde en hoge wendbaarheid maken de volgende strategische verschuivingen, met AI als hefboom die ze vergemakkelijkt:
 
+- **features → systemen** (features → systems) — Product engineers meenemen van het één voor één coderen van features naar het ontwerpen van de agentic systemen die de features bouwen — zelfverbeterende loops die intentie omzetten in geteste, werkende software.
+- **inspectie → verificatie** (inspection → verification) — Kwaliteit in het systeem inbouwen in plaats van die aan het eind handmatig te inspecteren — geautomatiseerde verificatie toetst elke wijziging aan tests en specificaties, terwijl product engineers de tests reviewen en eigenaar zijn van de waardelus.
 - **specialisten → vakmensen** (specialists → craftspeople) — Product engineers in staat stellen om van smalle, lopendebandspecialisten te veranderen in end-to-end vakmensen — waarbij AI de specialistische gaten opvult en bijscholing biedt om nieuwe domeinen binnen te gaan.
 - **tussenpersonen → gebruikers** (proxies → users) — Een einde maken aan het doorgeefspel via manager-tussenpersonen en aan het tijdperk van “IT in de kelder” — en in plaats daarvan product engineers op nul afstand van klanten en gebruikers zetten, om zich uit de eerste hand in te leven, te analyseren en te synthetiseren.
 - **output → uitkomsten** (output → outcomes) — Product engineers optillen van afgerekend worden op output naar het bezitten van de volledige waardelus — echte klantimpact borgen, experimenteren en bijsturen zodra het bewijs binnenkomt.
@@ -149,6 +155,8 @@ Alors pour nous, une chose n'est pas négociable : le basculement agentique se f
 
 Les organisations d'ingénierie produit qui tiennent à une qualité durable, à la valeur pour le client et à une forte adaptabilité opèrent les basculements stratégiques suivants, avec l'IA comme levier pour les faciliter :
 
+- **fonctionnalités → systèmes** (features → systems) — Faire passer les ingénieurs produit du codage des fonctionnalités une à une à la conception des systèmes agentiques qui les construisent — des boucles qui s'améliorent d'elles-mêmes et transforment l'intention en logiciel testé et opérationnel.
+- **inspection → vérification** (inspection → verification) — Intégrer la qualité dans le système au lieu de l'inspecter manuellement à la fin — une vérification automatisée confronte chaque modification aux tests et aux spécifications, tandis que les ingénieurs produit relisent les tests et sont responsables de la boucle de valeur.
 - **spécialistes → artisans** (specialists → craftspeople) — Permettre aux ingénieurs produit de passer de spécialistes étroits, à la chaîne, à des artisans de bout en bout — l'IA comblant les manques de spécialité et offrant la montée en compétences nécessaire pour entrer dans de nouveaux domaines.
 - **intermédiaires → utilisateurs** (proxies → users) — Mettre fin au téléphone arabe via des managers intermédiaires et à l'ère de « l'informatique reléguée au sous-sol » — et placer à la place les ingénieurs produit à distance zéro des clients et des utilisateurs, pour faire preuve d'empathie, analyser et synthétiser de première main.
 - **production → résultats** (output → outcomes) — Élever les ingénieurs produit du statut de personnes mesurées à leur production à celui de responsables de la boucle de valeur complète — garantir un impact client réel, expérimenter et corriger le cap à mesure que les preuves arrivent.
@@ -191,6 +199,8 @@ Perciò per noi una cosa non è negoziabile: lo spostamento agentico avviene all
 
 Le organizzazioni di ingegneria di prodotto che tengono alla qualità sostenibile, al valore per il cliente e a un'elevata adattabilità compiono i seguenti spostamenti strategici, con l'IA come leva per renderli più facili:
 
+- **funzionalità → sistemi** (features → systems) — Portare gli ingegneri di prodotto dal programmare le funzionalità una per una al progettare i sistemi agentici che le costruiscono — cicli che si migliorano da soli e trasformano l'intento in software testato e funzionante.
+- **ispezione → verifica** (inspection → verification) — Integrare la qualità nel sistema invece di ispezionarla manualmente alla fine — la verifica automatizzata controlla ogni modifica rispetto ai test e alle specifiche, mentre gli ingegneri di prodotto rivedono i test e si fanno carico del ciclo del valore.
 - **specialisti → artigiani** (specialists → craftspeople) — Permettere agli ingegneri di prodotto di passare da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma i vuoti di specializzazione e offre la riqualificazione necessaria per entrare in nuovi domini.
 - **intermediari → utenti** (proxies → users) — Mettere fine al gioco del telefono senza fili attraverso manager-intermediari e all'era dell'“IT chiusa in cantina” — e portare invece gli ingegneri di prodotto a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona.
 - **produzione → risultati** (output → outcomes) — Elevare gli ingegneri di prodotto dall'essere misurati sulla produzione al farsi carico dell'intero ciclo del valore — garantendo un impatto reale sui clienti, sperimentando e correggendo la rotta man mano che arrivano le evidenze.
@@ -233,6 +243,8 @@ Por eso, para nosotros hay algo que no es negociable: el cambio agéntico ocurre
 
 Las organizaciones de ingeniería de producto que se aferran a la calidad sostenible, al valor para el cliente y a una alta adaptabilidad realizan los siguientes cambios estratégicos, con la IA como palanca para facilitarlos:
 
+- **funciones → sistemas** (features → systems) — Llevar a los ingenieros de producto de programar las funciones de una en una a diseñar los sistemas agénticos que las construyen — bucles que se mejoran a sí mismos y convierten la intención en software probado que funciona.
+- **inspección → verificación** (inspection → verification) — Integrar la calidad en el sistema en lugar de inspeccionarla manualmente al final — la verificación automatizada contrasta cada cambio con las pruebas y las especificaciones, mientras los ingenieros de producto revisan las pruebas y se hacen cargo del ciclo de valor.
 - **especialistas → artesanos** (specialists → craftspeople) — Permitir que los ingenieros de producto pasen de ser especialistas estrechos, de cadena de montaje, a artesanos de extremo a extremo — con la IA cubriendo los huecos de especialidad y ofreciendo la recualificación necesaria para entrar en nuevos dominios.
 - **intermediarios → usuarios** (proxies → users) — Poner fin al teléfono escacharrado a través de mánagers intermediarios y a la era del «IT encerrado en el sótano» — y situar en su lugar a los ingenieros de producto a distancia cero de clientes y usuarios, para empatizar, analizar y sintetizar de primera mano.
 - **producción → resultados** (output → outcomes) — Elevar a los ingenieros de producto de ser medidos por su producción a hacerse cargo del ciclo de valor completo — asegurando un impacto real en los clientes, experimentando y corrigiendo el rumbo a medida que llegan las evidencias.
@@ -275,6 +287,8 @@ Por isso, para nós há algo que não é negociável: a mudança agêntica acont
 
 As organizações de engenharia de produto que se mantêm fiéis à qualidade sustentável, ao valor para o cliente e a uma elevada adaptabilidade fazem as seguintes mudanças estratégicas, com a IA como alavanca para as facilitar:
 
+- **funcionalidades → sistemas** (features → systems) — Levar os engenheiros de produto a deixarem de programar funcionalidades uma a uma e a passarem a desenhar os sistemas agênticos que as constroem — ciclos que se aprimoram a si próprios e transformam a intenção em software testado e em funcionamento.
+- **inspeção → verificação** (inspection → verification) — Incorporar a qualidade diretamente ao sistema, em vez de a inspecionar manualmente ao final do processo — a verificação automatizada confronta cada alteração com os testes e as especificações, enquanto os engenheiros de produto reveem os testes e assumem o ciclo de valor.
 - **especialistas → artesãos** (specialists → craftspeople) — Permitir que os engenheiros de produto deixem de ser especialistas estreitos, de linha de montagem, e passem a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade e a oferecer a requalificação necessária para entrar em novos domínios.
 - **intermediários → utilizadores** (proxies → users) — Acabar com a comunicação indireta por meio de gestores intermediários e com a era da «TI fechada na cave» — e colocar, em vez disso, os engenheiros de produto em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte.
 - **produção → resultados** (output → outcomes) — Elevar os engenheiros de produto de serem medidos pela produção a assumirem o ciclo de valor completo — garantindo um impacto real nos clientes, experimentando e corrigindo o rumo à medida que surgem as evidências.
@@ -317,6 +331,8 @@ Proto je pro nás jedna věc nesmlouvavá: agentní posun se děje za našich po
 
 Organizace produktového inženýrství, které si drží udržitelnou kvalitu, hodnotu pro zákazníka a vysokou přizpůsobivost, dělají následující strategické posuny, s AI jako pákou, která je usnadňuje:
 
+- **funkce → systémy** (features → systems) — Posunout produktové inženýry od programování funkce za funkcí k navrhování agentních systémů, které tyto funkce stavějí — sebezdokonalujících se smyček, které mění záměr v otestovaný, fungující software.
+- **kontrola → verifikace** (inspection → verification) — Zabudovat kvalitu do systému místo její ruční kontroly na konci — automatizovaná verifikace prověřuje každou změnu vůči testům a specifikacím, zatímco produktoví inženýři revidují testy a vlastní hodnotovou smyčku.
 - **specialisté → řemeslníci** (specialists → craftspeople) — Umožnit produktovým inženýrům přejít od úzkých specialistů na montážní lince k řemeslníkům, kteří zvládnou celý řetězec — s AI, která doplňuje chybějící specializace a nabízí doškolení pro vstup do nových domén.
 - **prostředníci → uživatelé** (proxies → users) — Ukončit tichou poštu přes manažery-prostředníky i éru „IT sedícího ve sklepě“ — a místo toho postavit produktové inženýry na nulovou vzdálenost od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky.
 - **výstupy → dopady** (output → outcomes) — Povýšit produktové inženýry z toho, že jsou měřeni podle výstupů, na to, že vlastní celou hodnotovou smyčku — zajišťují skutečný dopad na zákazníky, experimentují a korigují kurz, jakmile přicházejí důkazy.
@@ -359,6 +375,8 @@ Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o 
 
 Організації продуктової інженерії, які тримаються сталої якості, цінності для клієнта та високої адаптивності, роблять такі стратегічні зрушення, де ШІ є важелем, що їх полегшує:
 
+- **функції → системи** (features → systems) — Переводити продуктових інженерів від програмування функцій по одній до проєктування агентних систем, які їх будують, — самовдосконалюваних циклів, що перетворюють намір на протестоване, робоче програмне забезпечення.
+- **контроль → верифікація** (inspection → verification) — Убудовувати якість у систему замість того, щоб наприкінці вручну її контролювати, — автоматизована верифікація перевіряє кожну зміну на відповідність тестам і специфікаціям, тоді як продуктові інженери проводять рев’ю тестів і володіють циклом цінності.
 - **спеціалісти → майстри** (specialists → craftspeople) — Давати продуктовим інженерам змогу перейти від вузьких спеціалістів на конвеєрі до майстрів, які ведуть справу з початку до кінця — де ШІ закриває прогалини у вузьких спеціалізаціях і пропонує перекваліфікацію для входу в нові домени.
 - **посередники → користувачі** (proxies → users) — Припиняти зіпсований телефон через менеджерів-посередників і добу «ІТ, що сидить у підвалі» — і натомість ставити продуктових інженерів на нульову дистанцію до клієнтів і користувачів, щоб співпереживати, аналізувати й синтезувати з перших вуст.
 - **результат праці → результати** (output → outcomes) — Підносити продуктових інженерів від вимірювання за обсягом зробленого до володіння повним циклом цінності — забезпечувати реальний вплив на клієнтів, експериментувати й коригувати курс, щойно надходять свідчення.
@@ -401,6 +419,8 @@ Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o 
 
 Организации продуктовой инженерии, которые держатся за устойчивое качество, ценность для клиента и высокую адаптивность, совершают следующие стратегические сдвиги, где ИИ служит рычагом, облегчающим их:
 
+- **функции → системы** (features → systems) — Переводить продуктовых инженеров от программирования функций по одной к проектированию агентных систем, которые их строят, — самосовершенствующихся циклов, превращающих замысел в протестированное, работающее программное обеспечение.
+- **контроль → верификация** (inspection → verification) — Встраивать качество в систему вместо того, чтобы вручную контролировать его в конце, — автоматизированная верификация проверяет каждое изменение на соответствие тестам и спецификациям, тогда как продуктовые инженеры проводят ревью тестов и владеют циклом ценности.
 - **специалисты → мастера** (specialists → craftspeople) — Давать продуктовым инженерам возможность перейти от узких конвейерных специалистов к мастерам, ведущим дело от начала до конца — где ИИ закрывает пробелы в узких специализациях и предлагает переобучение для входа в новые домены.
 - **посредники → пользователи** (proxies → users) — Прекращать испорченный телефон через менеджеров-посредников и эпоху «ИТ, сидящего в подвале» — и вместо этого ставить продуктовых инженеров на нулевую дистанцию к клиентам и пользователям, чтобы сопереживать, анализировать и синтезировать из первых рук.
 - **выработка → результаты** (output → outcomes) — Поднимать продуктовых инженеров от измерения по выработке до владения полным циклом ценности — обеспечивать реальное влияние на клиентов, экспериментировать и корректировать курс по мере поступления свидетельств.
@@ -443,6 +463,8 @@ Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o 
 
 那些坚守可持续质量、客户价值与高度适应力的产品工程组织，会做出以下战略性转变，并以 AI 作为让转变更容易的杠杆：
 
+- **功能 → 系统** (features → systems) — 让产品工程师从逐个编写功能，转向设计构建这些功能的智能体系统——将意图转化为经过测试、可工作的软件的自我改进循环。
+- **检验 → 验证** (inspection → verification) — 将质量构建进系统，而不是在最后靠人工检验——自动化验证依据测试与规范检查每一处变更，同时由产品工程师审查测试、拥有价值闭环。
 - **专才 → 匠人** (specialists → craftspeople) — 让产品工程师从流水线上的狭窄专才，转变为端到端的匠人——由 AI 补上专才的缺口，并提供进入新领域所需的技能提升。
 - **代理人 → 用户** (proxies → users) — 终结经由管理者代理人的传话游戏，也终结「IT 蜷缩在地下室」的时代——转而把产品工程师放到与客户和用户零距离的位置，亲身去共情、分析与综合。
 - **产出 → 成果** (output → outcomes) — 把产品工程师从以产出被衡量，提升为拥有完整价值闭环——确保真实的客户影响，持续实验，并随着证据到来修正航向。
@@ -485,6 +507,8 @@ Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o 
 
 持続可能な品質、顧客価値、高い適応力を手放さないプロダクトエンジニアリング組織は、次の戦略的な転換を進めます。AI は、その転換を後押しするレバーです。
 
+- **機能 → システム** (features → systems) — プロダクトエンジニアを、機能を一つずつコーディングする役割から、それらの機能を構築するエージェンティックなシステムを設計する役割へと移すこと——そのシステムとは、意図をテスト済みの動くソフトウェアへと変える、自己改善型のループです。
+- **検査 → 検証** (inspection → verification) — 品質を最後に手作業で検査するのではなく、システムに作り込むこと——自動化された検証があらゆる変更をテストと仕様に照らしてチェックし、その一方でプロダクトエンジニアはテストをレビューし、価値のループを引き受けます。
 - **専門家 → 職人** (specialists → craftspeople) — プロダクトエンジニアが、流れ作業のなかの狭い専門家から、端から端まで担う職人へと移れるようにすること——AI が専門性の空白を埋め、新しい領域に入るためのスキル習得を提供します。
 - **代理人 → ユーザー** (proxies → users) — マネージャーという代理人を介した伝言ゲームを終わらせ、「IT が地下にこもる」時代も終わらせること——代わりにプロダクトエンジニアを顧客とユーザーへの距離ゼロに置き、直接に共感し、分析し、統合できるようにします。
 - **アウトプット → 成果** (output → outcomes) — プロダクトエンジニアを、アウトプットで測られる立場から、価値のループ全体を引き受ける立場へと引き上げること——顧客への実際のインパクトを担保し、実験し、証拠が集まるにつれて針路を修正します。

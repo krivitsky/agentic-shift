@@ -16,6 +16,12 @@ So for us one thing is non-negotiable: **the agentic shift happens on our terms*
 
 Product engineering organizations that hold on to sustainable quality, customer value and high adaptability make the following strategic shifts, with AI as a lever to ease them:
 
+### features → systems
+Moving product engineers from coding features one by one to designing the agentic systems that build them — self-improving loops that turn intent into tested, working software.
+
+### inspection → verification
+Building quality into the system instead of manually inspecting for it at the end — automated verification checks every change against tests and specs, while product engineers review the tests and own the value loop.
+
 ### specialists → craftspeople
 Enabling product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains.
 

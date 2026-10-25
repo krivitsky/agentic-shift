@@ -49,6 +49,16 @@
   "shiftIntro": "Organizace produktového inženýrství, které si drží udržitelnou kvalitu, hodnotu pro zákazníka a vysokou přizpůsobivost, dělají následující strategické posuny, s AI jako pákou, která je usnadňuje:",
   "shifts": [
     {
+      "from": "funkce",
+      "to": "systémy",
+      "note": "Posunout produktové inženýry od programování funkce za funkcí k navrhování agentních systémů, které tyto funkce stavějí — sebezdokonalujících se smyček, které mění záměr v otestovaný, fungující software."
+    },
+    {
+      "from": "kontrola",
+      "to": "verifikace",
+      "note": "Zabudovat kvalitu do systému místo její ruční kontroly na konci — automatizovaná verifikace prověřuje každou změnu vůči testům a specifikacím, zatímco produktoví inženýři revidují testy a vlastní hodnotovou smyčku."
+    },
+    {
       "from": "specialisté",
       "to": "řemeslníci",
       "note": "Umožnit produktovým inženýrům přejít od úzkých specialistů na montážní lince k řemeslníkům, kteří zvládnou celý řetězec — s AI, která doplňuje chybějící specializace a nabízí doškolení pro vstup do nových domén."

@@ -16,6 +16,12 @@ Alors pour nous, une chose n'est pas négociable : **le basculement agentique se
 
 Les organisations d'ingénierie produit qui tiennent à une qualité durable, à la valeur pour le client et à une forte adaptabilité opèrent les basculements stratégiques suivants, avec l'IA comme levier pour les faciliter :
 
+### fonctionnalités → systèmes (features → systems)
+Faire passer les ingénieurs produit du codage des fonctionnalités une à une à la conception des systèmes agentiques qui les construisent — des boucles qui s'améliorent d'elles-mêmes et transforment l'intention en logiciel testé et opérationnel.
+
+### inspection → vérification (inspection → verification)
+Intégrer la qualité dans le système au lieu de l'inspecter manuellement à la fin — une vérification automatisée confronte chaque modification aux tests et aux spécifications, tandis que les ingénieurs produit relisent les tests et sont responsables de la boucle de valeur.
+
 ### spécialistes → artisans (specialists → craftspeople)
 Permettre aux ingénieurs produit de passer de spécialistes étroits, à la chaîne, à des artisans de bout en bout — l'IA comblant les manques de spécialité et offrant la montée en compétences nécessaire pour entrer dans de nouveaux domaines.
 

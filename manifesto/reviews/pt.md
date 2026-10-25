@@ -19,7 +19,7 @@ this review, and what did not:
 
 | Reviewer correction | Status |
 |---|---|
-| Shift 2 — `guardrails` kept in English | **Lapsed.** The `gatekeeping → guardrails` shift was cut from the manifesto; the word no longer appears on any page. Nothing to re-apply. |
+| Shift 2 — `guardrails` kept in English | **Lapsed.** The `gatekeeping → guardrails` shift was cut from the manifesto; the word no longer appears on any page. Nothing to re-apply. The quality shift returned on 2026-10-25 as `inspection → verification` — see the last section. |
 | Shift 4 — `utilizadores` + the reworded note | **Carried over, adapted.** The pair is still `intermediários → utilizadores`, but the English sentence was rewritten this morning, so the reviewer's phrasing was fitted to the new sentence rather than pasted (see below). |
 
 ---
@@ -72,6 +72,26 @@ Current text on the page:
 > a era da «TI fechada na cave» — e colocar, em vez disso, os engenheiros de
 > produto em distância zero dos clientes e utilizadores, para compreender,
 > analisar e sintetizar necessidades diretamente da fonte.
+
+---
+
+## Returned 2026-10-25 — inspeção → verificação — reviewer wording CARRIED OVER
+
+The two technical shifts came back as the first two cards, rewritten in
+English. The quality shift is now `inspection → verification`, not
+`gatekeeping → guardrails`, so the reviewer's keep-it-in-English call has no
+term to attach to: `inspeção → verificação` are words Portuguese engineers use
+natively. The reviewer's note wording did carry over — *incorporá-la
+diretamente ao sistema* and *ao final do processo* were fitted into the new
+gerund-led sentence:
+
+> Incorporar a qualidade diretamente ao sistema, em vez de a inspecionar
+> manualmente ao final do processo — a verificação automatizada confronta cada
+> alteração com os testes e as especificações, enquanto os engenheiros de
+> produto reveem os testes e assumem o ciclo de valor.
+
+The `features → systems` card (`funcionalidades → sistemas`) is a first-pass
+draft.
 
 The rest of `pt.json` is a first-pass draft and has **not** been reviewed by a
 native speaker.

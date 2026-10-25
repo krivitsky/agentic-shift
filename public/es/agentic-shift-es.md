@@ -16,6 +16,12 @@ Por eso, para nosotros hay algo que no es negociable: **el cambio agéntico ocur
 
 Las organizaciones de ingeniería de producto que se aferran a la calidad sostenible, al valor para el cliente y a una alta adaptabilidad realizan los siguientes cambios estratégicos, con la IA como palanca para facilitarlos:
 
+### funciones → sistemas (features → systems)
+Llevar a los ingenieros de producto de programar las funciones de una en una a diseñar los sistemas agénticos que las construyen — bucles que se mejoran a sí mismos y convierten la intención en software probado que funciona.
+
+### inspección → verificación (inspection → verification)
+Integrar la calidad en el sistema en lugar de inspeccionarla manualmente al final — la verificación automatizada contrasta cada cambio con las pruebas y las especificaciones, mientras los ingenieros de producto revisan las pruebas y se hacen cargo del ciclo de valor.
+
 ### especialistas → artesanos (specialists → craftspeople)
 Permitir que los ingenieros de producto pasen de ser especialistas estrechos, de cadena de montaje, a artesanos de extremo a extremo — con la IA cubriendo los huecos de especialidad y ofreciendo la recualificación necesaria para entrar en nuevos dominios.
 

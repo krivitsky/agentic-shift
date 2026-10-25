@@ -16,6 +16,12 @@ Deshalb ist für uns eines nicht verhandelbar: **Der agentic shift geschieht zu 
 
 Organisationen im Product Engineering, die an nachhaltiger Qualität, Kundennutzen und hoher Anpassungsfähigkeit festhalten, vollziehen die folgenden strategischen Verschiebungen, mit KI als Hebel, der sie erleichtert:
 
+### Features → Systeme (features → systems)
+Product Engineers vom Programmieren eines Features nach dem anderen zum Entwerfen der agentischen Systeme führen, die diese Features bauen — sich selbst verbessernde Loops, die Absicht in getestete, funktionierende Software verwandeln.
+
+### Inspektion → Verifikation (inspection → verification)
+Qualität ins System einbauen, statt sie am Ende manuell zu prüfen — automatisierte Verifikation gleicht jede Änderung mit Tests und Spezifikationen ab, während Product Engineers die Tests reviewen und den Wertkreislauf verantworten.
+
 ### Spezialisten → Handwerker (specialists → craftspeople)
 Product Engineers ermöglichen, sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern zu wandeln — wobei KI die Spezialistenlücken füllt und die Weiterqualifizierung für den Einstieg in neue Domänen anbietet.
 

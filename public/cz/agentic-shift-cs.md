@@ -16,6 +16,12 @@ Proto je pro nás jedna věc nesmlouvavá: **agentní posun se děje za našich 
 
 Organizace produktového inženýrství, které si drží udržitelnou kvalitu, hodnotu pro zákazníka a vysokou přizpůsobivost, dělají následující strategické posuny, s AI jako pákou, která je usnadňuje:
 
+### funkce → systémy (features → systems)
+Posunout produktové inženýry od programování funkce za funkcí k navrhování agentních systémů, které tyto funkce stavějí — sebezdokonalujících se smyček, které mění záměr v otestovaný, fungující software.
+
+### kontrola → verifikace (inspection → verification)
+Zabudovat kvalitu do systému místo její ruční kontroly na konci — automatizovaná verifikace prověřuje každou změnu vůči testům a specifikacím, zatímco produktoví inženýři revidují testy a vlastní hodnotovou smyčku.
+
 ### specialisté → řemeslníci (specialists → craftspeople)
 Umožnit produktovým inženýrům přejít od úzkých specialistů na montážní lince k řemeslníkům, kteří zvládnou celý řetězec — s AI, která doplňuje chybějící specializace a nabízí doškolení pro vstup do nových domén.
 

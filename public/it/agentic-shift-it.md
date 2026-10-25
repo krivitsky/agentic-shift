@@ -16,6 +16,12 @@ Perciò per noi una cosa non è negoziabile: **lo spostamento agentico avviene a
 
 Le organizzazioni di ingegneria di prodotto che tengono alla qualità sostenibile, al valore per il cliente e a un'elevata adattabilità compiono i seguenti spostamenti strategici, con l'IA come leva per renderli più facili:
 
+### funzionalità → sistemi (features → systems)
+Portare gli ingegneri di prodotto dal programmare le funzionalità una per una al progettare i sistemi agentici che le costruiscono — cicli che si migliorano da soli e trasformano l'intento in software testato e funzionante.
+
+### ispezione → verifica (inspection → verification)
+Integrare la qualità nel sistema invece di ispezionarla manualmente alla fine — la verifica automatizzata controlla ogni modifica rispetto ai test e alle specifiche, mentre gli ingegneri di prodotto rivedono i test e si fanno carico del ciclo del valore.
+
 ### specialisti → artigiani (specialists → craftspeople)
 Permettere agli ingegneri di prodotto di passare da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma i vuoti di specializzazione e offre la riqualificazione necessaria per entrare in nuovi domini.
 
