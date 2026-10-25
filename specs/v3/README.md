@@ -20,14 +20,13 @@ No change. Keep the current four `stand[]` paragraphs as they are.
 
 ### What we shift toward
 
-1. Opener, new. It replaces the FOMO paragraph that sits in the refuse section today:
-   > Everyone has an AI strategy for your organization. The frontier labs optimize for the adoption of *their* products, and FOMO is the strongest lever they pull on us. That is a legitimate business strategy, perhaps, but it is theirs. What's yours?
+Alexey's wording, 2026-10-25 22:02, proofread. Three paragraphs come before the cards. They replace the current `shiftIntro`, and they replace the FOMO paragraph that sits in the refuse section today:
 
-2. Why order matters, new:
-   > AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has, the healthy ones and the unhealthy ones alike. That is why the order matters. First **know your competitive advantage** and choose which of these shifts build it. Then amplify it with a strategic AI adoption, instead of sprinkling AI on top of the organization you already have.
+1. > AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So it is important to know your competitive advantage and how to amplify it with a strategic AI adoption, instead of sprinkling AI around because of the FOMO the AI vendors spread.
 
-3. The intro line. It replaces the current `shiftIntro` ("Product engineering organizations that hold on to … with AI as a lever to ease them:"):
-   > Organizations that want sustainable quality, real customer value and high adaptability as competitive advantages make these shifts:
+2. > Below are the shifts that organizations wanting sustainable quality, real customer value and high adaptability make.
+
+3. > Use them as inspiration to define your strategy, so that you own the agentic shift and make it happen on your terms.
 
 4. Six `→` cards, in this order. They replace all current `shifts[]`. Titles stay lowercase:
 
@@ -53,7 +52,7 @@ No change.
 
 ## JSON key mapping (suggestion)
 
-- Add `shiftOpener` (1) and `shiftOrder` (2), and rewrite `shiftIntro` (3) and `shifts[]` (4).
+- Turn `shiftIntro` into the three paragraphs above (an array, or three keys), and rewrite `shifts[]`.
 - Drop `shiftNotNew`, `shiftOutro` and every `refuse*` key from the English page, and remove their blocks from `template.html` and the Markdown emitters in `build.js`. This must work together with the English-only plan from Scope.
 - Update CLAUDE.md §Routes and §Manifesto i18n "Page shape" so they describe the new structure.
 
