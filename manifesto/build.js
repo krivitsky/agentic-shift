@@ -126,7 +126,6 @@ function renderV4(c) {
     QA_HEAD: c.qaHead,
     QA: c.qa.map((x) => `          <p class="q">${esc(x.q)}</p>\n          <p>${x.a}</p>`).join('\n'),
     FOOT_BY: esc(c.foot.by),
-    FOOT_CTA: esc(c.foot.cta),
     MD_HREF: `${c.dir}agentic-shift-${c.lang}.md`,
     MD_DOWNLOAD: `agentic-shift-${c.lang}.md`,
     MD_LANG: c.lang.toUpperCase(),
