@@ -25,7 +25,7 @@ Below are the shifts that organizations wanting sustainable quality, real custom
 - **counting output → owning outcomes** — Elevating product engineers from counting output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in.
 - **work follows people → people follow value** — Organizing around value instead of around existing roles and team boundaries — product engineers move to where the most valuable work is as priorities shift, which keeps the whole organization adaptable.
 
-## How to use the shifts
+## How far to shift?
 
 These shifts are not a checklist. Not every organization needs all six, and not all to the same depth. Which ones matter, and how far you take each one, depends on your product, your customers and the competitive advantage you want to build.
 
