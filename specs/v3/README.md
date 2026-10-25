@@ -15,14 +15,14 @@
 
 The hero (headline + subtitle) stays as it is.
 
-### What we stand for
-No change. Keep the current four `stand[]` paragraphs as they are.
+### What we stand for: removed (Alexey, 2026-10-25)
+Drop the whole section (`standHead`, `stand[]`). The subtitle and the new shifts intro say the same things. Its one unique line moves into the intro (see 1 below).
 
 ### What we shift toward
 
 Alexey's wording, 2026-10-25 22:02, proofread. Three paragraphs come before the cards. They replace the current `shiftIntro`, and they replace the FOMO paragraph that sits in the refuse section today:
 
-1. > AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So it is important to know your competitive advantage and how to amplify it with a strategic AI adoption, instead of sprinkling AI around because of the FOMO the AI vendors spread.
+1. > We use AI tools every day, and we enjoy them. AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So it is important to know your competitive advantage and how to amplify it with a strategic AI adoption, instead of sprinkling AI around because of the FOMO the AI vendors spread.
 
 2. > Below are the shifts that organizations wanting sustainable quality, real customer value and high adaptability make.
 
@@ -54,6 +54,7 @@ No change.
 
 - Turn `shiftIntro` into the three paragraphs above (an array, or three keys), and rewrite `shifts[]`.
 - Drop `shiftNotNew`, `shiftOutro` and every `refuse*` key from the English page, and remove their blocks from `template.html` and the Markdown emitters in `build.js`. This must work together with the English-only plan from Scope.
+- Drop `standHead` and `stand[]` and their template block.
 - Update CLAUDE.md §Routes and §Manifesto i18n "Page shape" so they describe the new structure.
 
 ## v4 (later, not now): the interactive "Own your shift" block
@@ -65,17 +66,18 @@ Alexey has already decided the following, so record it here for v4:
 - **The knobs travel right on their own when the block comes into view** (Alexey, 2026-10-25, with a screenshot of the 6-slider mock). Each knob slides from the "from" end to the "to" end the first time its row scrolls into view (IntersectionObserver). The rows go one after another in a short stagger, the animation is smooth and eases out, and it plays once per page load. After that the visitor can drag freely. Reset puts the knobs back to the left without replaying the animation. With `prefers-reduced-motion`, show the knobs at the right end with no animation.
 - A "mixer view" toggle with vertical faders (#23) may come later.
 - The canvas boards still show the old 9 shifts on 3 levels, so redraw everything with the 6 flat shifts.
-- **Palette, decided 2026-10-25: dark brand theme, as on Alexey's reference board (teal bands on near-black). No red anywhere.** This matches the live site's brand (ink + teal + amber). Define these as tokens:
+- **Palette, decided 2026-10-25: two themes, dark and light, from the same brand (ink + teal + amber). No red anywhere.** The page follows the visitor's system setting (`prefers-color-scheme`) by default and has a small sun/moon toggle in the header that overrides it and is remembered. Both themes use the same tokens:
 
-| Token | Hex | Use | Contrast on `--bg` |
+| Token | Dark | Light | Use |
 |---|---|---|---|
-| `--bg` | `#05090D` | Page background (near-black ink) | — |
-| `--text` | `#EDF1EF` | Body text, headlines, slider knobs | 17.5:1 |
-| `--teal` | `#3DDC9A` | The brand accent: the filled part of each slider track, section bands (e.g. the "Own your shift" band with `--bg`-colored text on it), the "to" end of each shift, links | 11.3:1 · `--bg` text on teal is 11.3:1 |
-| `--amber` | `#E8A33D` | One highlight only: the "Try a sample mix" button (amber background, `--bg` text) | 9.3:1 |
-| `--muted` | `#9AA4AC` | Secondary text: the "from" labels, captions | 7.9:1 |
-| `--line` | `#2A333A` | Hairlines, the empty part of the slider track, ticks | decorative |
-| `--panel` | `#1C2329` | Optional card or panel background | decorative |
+| `--bg` | `#05090D` | `#FFFFFF` | Page background |
+| `--text` | `#EDF1EF` (17.5:1) | `#05090D` (20:1) | Body text, headlines, slider knobs |
+| `--accent` | `#3DDC9A` (11.3:1) | `#0E7A55` (5.3:1) | Teal as text or thin line: the bold "to" title of each shift, links, focus ring |
+| `--fill` | `#3DDC9A` | `#3DDC9A` | Teal as a surface: the filled part of each slider track, the "Own your shift" band. Text on it is always `#05090D` (11.3:1). |
+| `--amber` | `#E8A33D` | `#E8A33D` | One highlight only: the "Try a sample mix" button, with `#05090D` text (9.3:1) |
+| `--muted` | `#9AA4AC` (7.9:1) | `#5B6670` (5.9:1) | Secondary text: the "from" labels, captions |
+| `--line` | `#2A333A` | `#E3E7E5` | Hairlines, the empty part of the slider track, ticks |
+| `--panel` | `#1C2329` | `#F4F6F5` | Optional card or panel background |
 
-  On a slider row, "from" is `--muted` regular, "to" is `--teal` bold, the track fills with `--teal` from the left up to the knob, and the knob is `--text`. Pink, yellow, lavender and red are out. Keep the Swiss typography and grid from #21, just on the dark theme.
+  On a slider row, "from" is `--muted`, "to" is `--accent` bold, the track fills with `--fill` up to the knob, and the knob is `--text`. Keep the Swiss typography and grid from #21. Deliver both themes.
 - The design source of truth will be `specs/v4/design/`, which Alexey provides.
