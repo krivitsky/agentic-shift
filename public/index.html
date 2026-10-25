@@ -80,7 +80,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;0,800;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,800;1,500&display=swap" rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJW53LEJGS"></script>
@@ -117,10 +117,9 @@
       -moz-osx-font-smoothing: grayscale;
       overflow-x: hidden;
     }
-    /* Inter Tight only for display type (headlines, "to" titles, subtitle);
-       running text is regular Inter, which is wider and softer to read
-       (Alexey, 2026-10-25: Inter Tight in the notes was "too sharpy"). */
-    h1, h2, .to, .subtitle, .prose .q { font-family: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif; }
+    /* One family, Inter, for everything. The design used Inter Tight, which
+       read "too sharpy" in running text and "too condensed" in the headlines
+       (Alexey, 2026-10-25), so letter-spacing is looser than the design too. */
     .wrap {
       padding-left: max(16px, calc((100% - 1200px) / 2));
       padding-right: max(16px, calc((100% - 1200px) / 2));
@@ -134,9 +133,9 @@
     /* ── Header ─────────────────────────────────────────── */
     .top { padding-top: 48px; padding-bottom: 56px; }
     .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
-    /* The bar spans the word "Agentic" below it (3.34em of the headline size),
+    /* The bar spans the word "Agentic" below it (3.63em of the headline size),
        so it reads as part of the title (Alexey, 2026-10-25: 72px was too short). */
-    .mark { width: calc(clamp(52px, 11vw, 144px) * 3.34); height: 12px; background: var(--fill); flex: none; margin-left: 0.04em; }
+    .mark { width: calc(clamp(52px, 11vw, 144px) * 3.63); height: 12px; background: var(--fill); flex: none; margin-left: 0.04em; }
     .tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
     .theme-toggle {
       width: 48px; height: 48px; padding: 0; flex: none;
@@ -165,8 +164,8 @@
     .langs-list a[aria-current="page"] { color: var(--accent); font-weight: 800; }
     .langs-list .md-dl { border-top: 2px solid var(--line); margin-top: 6px; padding-top: 14px; color: var(--muted); }
     h1 {
-      margin: 28px 0 0; font-size: clamp(52px, 11vw, 144px); line-height: 0.86;
-      font-weight: 800; letter-spacing: -0.05em;
+      margin: 28px 0 0; font-size: clamp(52px, 11vw, 144px); line-height: 0.92;
+      font-weight: 800; letter-spacing: -0.03em;
     }
     .subtitle {
       margin: 32px 0 0; max-width: 780px;
@@ -181,7 +180,7 @@
     }
     .sec h2 {
       flex: 1 1 260px; min-width: 0; margin: 0;
-      font-size: clamp(32px, 4vw, 52px); line-height: 0.95; font-weight: 800; letter-spacing: -0.035em;
+      font-size: clamp(32px, 4vw, 52px); line-height: 1; font-weight: 800; letter-spacing: -0.02em;
     }
     .prose {
       flex: 2 1 420px; min-width: 0; max-width: 68ch;
@@ -195,7 +194,7 @@
     .band { background: var(--fill); color: #05090D; }
     .band h2 {
       margin: 0; padding: 40px 0;
-      font-size: clamp(52px, 11vw, 144px); line-height: 0.9; font-weight: 800; letter-spacing: -0.045em;
+      font-size: clamp(52px, 11vw, 144px); line-height: 0.95; font-weight: 800; letter-spacing: -0.03em;
     }
     .rows { list-style: none; margin: 0; padding: 0; border-bottom: 2px solid var(--line); }
     .rows-wrap { padding-top: 40px; padding-bottom: 8px; }
@@ -212,7 +211,7 @@
     .to {
       min-width: 0; max-width: 100%; margin-left: auto; text-align: right;
       font-size: clamp(20px, calc(18.25px + 0.449vw), 24px); line-height: 1.15;
-      font-weight: 800; color: var(--accent); letter-spacing: -0.02em;
+      font-weight: 800; color: var(--accent); letter-spacing: -0.01em;
     }
     .note {
       flex: 0 1 520px; min-width: 0; max-width: 72ch; margin: 0;
@@ -303,8 +302,8 @@
 
   <main>
     <div class="wrap">
-      <section class="sec" id="what-we-shift">
-        <h2>What we shift toward</h2>
+      <section class="sec" id="why-shift">
+        <h2>Why shift?</h2>
         <div class="prose">
           <p>We use AI tools every day, and we enjoy them. AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So it is important to know your competitive advantage and how to amplify it with a strategic AI adoption, instead of sprinkling AI around because of the FOMO the AI vendors spread.</p>
           <p>Below are the shifts that organizations wanting sustainable quality, real customer value and high adaptability make.</p>
