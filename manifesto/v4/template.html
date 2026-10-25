@@ -9,8 +9,7 @@
   <meta name="keywords" content="{{META_KEYWORDS}}">
   <meta name="author" content="Alexey Krivitsky">
   <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#05090d" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="{{DIR}}">
   <link rel="alternate" type="text/markdown" href="/llms.txt" title="{{META_LLMS_TITLE}}">
   <link rel="manifest" href="/site.webmanifest">
@@ -51,15 +50,13 @@
   }
   </script>
 
-  <!-- Theme before first paint: a stored choice wins, else the OS setting.
-       Set on <html> so the page never flashes dark in light mode. -->
+  <!-- Theme before first paint: a stored choice wins, else light (Alexey,
+       2026-10-25: light is the default, whatever the OS says). -->
   <script>
     (function () {
       var t = null;
       try { t = localStorage.getItem('agentic-theme'); } catch (e) {}
-      if (t !== 'dark' && t !== 'light') {
-        t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
-      }
+      if (t !== 'dark' && t !== 'light') t = 'light';
       document.documentElement.setAttribute('data-theme', t);
     })();
   </script>
@@ -83,12 +80,12 @@
     /* v4 homepage (spec: specs/v3/README.md §v4, design: specs/v4/design).
        Self-contained on purpose: shift.css still serves /munich, /v1, /v12
        and the 11 translated pages, so nothing here may leak into it. */
-    :root, [data-theme="dark"] {
+    :root[data-theme="dark"] {
       --bg: #05090D; --text: #EDF1EF; --accent: #3DDC9A; --fill: #3DDC9A;
       --muted: #9AA4AC; --line: #2A333A; --panel: #1C2329;
       color-scheme: dark;
     }
-    [data-theme="light"] {
+    :root, [data-theme="light"] {
       --bg: #FFFFFF; --text: #05090D; --accent: #0E7A55; --fill: #3DDC9A;
       --muted: #5B6670; --line: #E3E7E5; --panel: #F4F6F5;
       color-scheme: light;
