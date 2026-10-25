@@ -134,7 +134,9 @@
     /* ── Header ─────────────────────────────────────────── */
     .top { padding-top: 48px; padding-bottom: 56px; }
     .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
-    .mark { width: 72px; height: 12px; background: var(--fill); flex: none; }
+    /* The bar spans the word "Agentic" below it (3.34em of the headline size),
+       so it reads as part of the title (Alexey, 2026-10-25: 72px was too short). */
+    .mark { width: calc(clamp(52px, 11vw, 144px) * 3.34); height: 12px; background: var(--fill); flex: none; margin-left: 0.04em; }
     .tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
     .theme-toggle {
       width: 48px; height: 48px; padding: 0; flex: none;
