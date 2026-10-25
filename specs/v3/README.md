@@ -59,7 +59,7 @@ No change.
 ## v4 (later, not now): the interactive "Own your shift" block
 
 Alexey has already decided the following, so record it here for v4:
-- After the 6 cards comes an interactive block headed **"Own your shift"** (singular, no period).
+- **The 6 shift rows are themselves the interactive block** (Alexey's mock, 2026-10-25): each row has a horizontal slider with "from" at the left end and the bold "to" title at the right end, plus the note. Above the rows: the headline **"Own your shift"** (singular, no period), the reset button and the "Try a sample mix" button.
 - There is one horizontal slider per shift, with the "from" side on the left and the "to" side on the right. This is the layout of board #21 on the design canvas https://claude.ai/artifact/RsUjUpNnmqTFavY2czdcu3.
 - The sliders start fully left and show no numbers, and there is a reset button (behavior from #22). A "Try a sample mix" button sets an example mix (from #23).
 - **The knobs travel right on their own when the block comes into view** (Alexey, 2026-10-25, with a screenshot of the 6-slider mock). Each knob slides from the "from" end to the "to" end the first time its row scrolls into view (IntersectionObserver). The rows go one after another in a short stagger, the animation is smooth and eases out, and it plays once per page load. After that the visitor can drag freely. Reset puts the knobs back to the left without replaying the animation. With `prefers-reduced-motion`, show the knobs at the right end with no animation.
