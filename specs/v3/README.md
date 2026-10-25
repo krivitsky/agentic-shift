@@ -18,7 +18,7 @@ The hero (headline + subtitle) stays as it is.
 ### What we stand for: removed (Alexey, 2026-10-25)
 Drop the whole section (`standHead`, `stand[]`). The subtitle and the new shifts intro say the same things. Its one unique line moves into the intro (see 1 below).
 
-### Why shift?
+### What we shift toward
 
 Alexey's wording, 2026-10-25 22:02, proofread. Two paragraphs come before the cards (the third moved below the cards on 2026-10-25 22:28). They replace the current `shiftIntro`, and they replace the FOMO paragraph that sits in the refuse section today:
 
@@ -39,7 +39,7 @@ Alexey's wording, 2026-10-25 22:02, proofread. Two paragraphs come before the ca
 
 ### Closing section, after the cards (Alexey, 2026-10-25 22:28)
 
-Its own section with a big head like "Why shift?" and "What's Next?", for symmetry. Head: **How far to shift?**. Text (Aidy's expansion of his "Use them as inspiration…" line, used by Alexey in his mock):
+Its own section with a big head like "What we shift toward" and "What's Next?", for symmetry. Head: **How to use the shifts**. Text (Aidy's expansion of his "Use them as inspiration…" line, used by Alexey in his mock):
 
 > These shifts are not a checklist. Not every organization needs all six, and not all to the same depth. Which ones matter, and how far you take each one, depends on your product, your customers and the competitive advantage you want to build.
 
