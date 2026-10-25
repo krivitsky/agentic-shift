@@ -7,6 +7,9 @@ and Martin Westphal.
 - Production: https://agentic-shift.com/
 - GitHub: git@github.com:krivitsky/agentic-shift.git (branch: `main`, public repo)
 
+## Start here: the backlog
+- **[`BACKLOG.md`](BACKLOG.md) is the work queue.** Read it first, take the top open item, and follow its spec in `specs/`. Specs are versioned: `specs/v3/` is the current copy rework, and `specs/v4/design/` will hold the design archive Alexey provides.
+
 ## Workflow
 - Always create a task list (TaskCreate) for any multi-step request and follow it — mark in_progress when starting, completed when done.
 
