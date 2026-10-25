@@ -65,18 +65,17 @@ Alexey has already decided the following, so record it here for v4:
 - **The knobs travel right on their own when the block comes into view** (Alexey, 2026-10-25, with a screenshot of the 6-slider mock). Each knob slides from the "from" end to the "to" end the first time its row scrolls into view (IntersectionObserver). The rows go one after another in a short stagger, the animation is smooth and eases out, and it plays once per page load. After that the visitor can drag freely. Reset puts the knobs back to the left without replaying the animation. With `prefers-reduced-motion`, show the knobs at the right end with no animation.
 - A "mixer view" toggle with vertical faders (#23) may come later.
 - The canvas boards still show the old 9 shifts on 3 levels, so redraw everything with the 6 flat shifts.
-- **Palette, decided 2026-10-25 (no red anywhere):** keep the black-and-white Swiss layout from #21 and use the brand teal as the single accent. Define these as tokens:
+- **Palette, decided 2026-10-25: dark brand theme, as on Alexey's reference board (teal bands on near-black). No red anywhere.** This matches the live site's brand (ink + teal + amber). Define these as tokens:
 
-| Token | Hex | Use | Contrast |
+| Token | Hex | Use | Contrast on `--bg` |
 |---|---|---|---|
-| `--ink` | `#05090D` | Text, headlines, slider knobs, strong rules | 20:1 on white |
-| `--paper` | `#FFFFFF` | Page background | — |
-| `--teal` | `#3DDC9A` | Brand accent, **for fills only**: the filled part of each slider track, the "Own your shift" band background, the small top kicker bar. Never use it for text on white. | ink on teal 11.3:1 · teal on white only 1.8:1 |
-| `--teal-deep` | `#0E7A55` | Teal when it has to be text or a thin line on white: links, focus ring, hover | 5.3:1 on white |
-| `--amber` | `#E8A33D` | One highlight only: the "Try a sample mix" button (amber background, ink text) | ink on amber 9.3:1 |
-| `--muted` | `#5B6670` | Secondary text: the "from" labels, captions | 5.9:1 on white |
-| `--track` | `#E3E7E5` | The empty part of the slider track, hairlines | decorative |
-| `--tick` | `#9AA4AC` | Slider tick marks | decorative |
+| `--bg` | `#05090D` | Page background (near-black ink) | — |
+| `--text` | `#EDF1EF` | Body text, headlines, slider knobs | 17.5:1 |
+| `--teal` | `#3DDC9A` | The brand accent: the filled part of each slider track, section bands (e.g. the "Own your shift" band with `--bg`-colored text on it), the "to" end of each shift, links | 11.3:1 · `--bg` text on teal is 11.3:1 |
+| `--amber` | `#E8A33D` | One highlight only: the "Try a sample mix" button (amber background, `--bg` text) | 9.3:1 |
+| `--muted` | `#9AA4AC` | Secondary text: the "from" labels, captions | 7.9:1 |
+| `--line` | `#2A333A` | Hairlines, the empty part of the slider track, ticks | decorative |
+| `--panel` | `#1C2329` | Optional card or panel background | decorative |
 
-  On a slider row, "from" is `--muted` regular, "to" is `--ink` bold, the track fills with `--teal` from the left up to the knob, and the knob is `--ink`. Pink, yellow and lavender are out. So is the old red.
+  On a slider row, "from" is `--muted` regular, "to" is `--teal` bold, the track fills with `--teal` from the left up to the knob, and the knob is `--text`. Pink, yellow, lavender and red are out. Keep the Swiss typography and grid from #21, just on the dark theme.
 - The design source of truth will be `specs/v4/design/`, which Alexey provides.
