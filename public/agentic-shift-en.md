@@ -23,10 +23,6 @@ These shifts are not a checklist. Not every organization needs all six, and not 
 
 Use them as inspiration to define your strategy. Pick the shifts that strengthen your advantage, decide how far to go with each, and only then choose where AI amplifies them. Revisit the mix as you learn. That is how you own the agentic shift and make it happen on your terms.
 
-## What's Next?
-
-**Want to contribute?** [Propose improvements](https://github.com/krivitsky/agentic-shift). Share this page. Put these ideas to work in your organization.
-
 ---
 
 created and maintained by [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/

@@ -123,8 +123,6 @@ function renderV4(c) {
     ROWS: v4Rows(c),
     USE_HEAD: c.useHead,
     USE: p(c.use),
-    QA_HEAD: c.qaHead,
-    QA: c.qa.map((x) => `          <p class="q">${esc(x.q)}</p>\n          <p>${x.a}</p>`).join('\n'),
     FOOT_BY: esc(c.foot.by),
     FOOT_CTA: esc(c.foot.cta),
     MD_HREF: `${c.dir}agentic-shift-${c.lang}.md`,
@@ -149,8 +147,6 @@ function v4Md(c, fmt, level) {
   c.shifts.forEach((s) => L.push(`- **${s.from} → ${s.to}** — ${fmt(s.note)}`));
   L.push('', `${h} ${fmt(c.useHead)}`, '');
   c.use.forEach((x) => L.push(fmt(x), ''));
-  L.push(`${h} ${fmt(c.qaHead)}`, '');
-  c.qa.forEach((x) => L.push(`**${fmt(x.q)}** ${fmt(x.a)}`, ''));
   while (L[L.length - 1] === '') L.pop();
   return L.join('\n');
 }
