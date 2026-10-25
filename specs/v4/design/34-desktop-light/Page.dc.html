@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Agentic Shift page</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,800;1,500&amp;display=swap" rel="stylesheet">
+<style>
+.th-dark{--bg:#05090D;--text:#EDF1EF;--accent:#3DDC9A;--fill:#3DDC9A;--amber:#E8A33D;--muted:#9AA4AC;--line:#2A333A;--panel:#1C2329}
+.th-light{--bg:#FFFFFF;--text:#05090D;--accent:#0E7A55;--fill:#3DDC9A;--amber:#E8A33D;--muted:#5B6670;--line:#E3E7E5;--panel:#F4F6F5}
+.th-auto{--bg:#05090D;--text:#EDF1EF;--accent:#3DDC9A;--fill:#3DDC9A;--amber:#E8A33D;--muted:#9AA4AC;--line:#2A333A;--panel:#1C2329}
+@media (prefers-color-scheme: light){.th-auto{--bg:#FFFFFF;--text:#05090D;--accent:#0E7A55;--fill:#3DDC9A;--amber:#E8A33D;--muted:#5B6670;--line:#E3E7E5;--panel:#F4F6F5}}
+body{margin:0}
+.wrap{box-sizing:border-box;padding-left:max(16px,calc((100% - 1200px)/2));padding-right:max(16px,calc((100% - 1200px)/2))}
+.txt{overflow-wrap:anywhere;hyphens:none}
+a{color:var(--accent)}
+a:hover{color:var(--text)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+</style>
+</helmet>
+<div class="th-{{theme}}" style="width: 100%; background: var(--bg); color: var(--text); font-family: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;">
+
+<div class="wrap" style="padding-top: 48px; padding-bottom: 56px;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="width: 72px; height: 12px; background: var(--fill);"></div>
+<button onClick="{{toggle}}" aria-label="[COPY NEEDED: theme toggle]" style="width: 48px; height: 48px; padding: 0; display: flex; align-items: center; justify-content: center; border: 2px solid var(--line); border-radius: 0; background: transparent; color: var(--text); cursor: pointer;">
+<sc-if value="{{isDark}}" hint-placeholder-val="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"></path></svg></sc-if>
+<sc-if value="{{isLight}}" hint-placeholder-val="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"></path></svg></sc-if>
+</button>
+</div>
+<h1 class="txt" style="margin: 28px 0 0; font-size: clamp(52px, 11vw, 144px); line-height: 0.86; font-weight: 800; letter-spacing: -0.05em;">Agentic<br>Shift</h1>
+<p class="txt" style="margin: 32px 0 0; max-width: 780px; font-size: clamp(20px, calc(17.37px + 0.674vw), 26px); line-height: 1.35; font-weight: 500; font-style: italic;">From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.</p>
+</div>
+
+<div class="wrap">
+<div style="border-top: 2px solid var(--line); padding: 40px 0 48px; display: flex; flex-wrap: wrap; gap: 24px 56px;">
+<h2 class="txt" style="flex: 1 1 260px; min-width: 0; margin: 0; font-size: clamp(32px, 4vw, 52px); line-height: 0.95; font-weight: 800; letter-spacing: -0.035em;">What we shift toward</h2>
+<div style="flex: 2 1 420px; min-width: 0; max-width: 68ch; font-size: clamp(18px, calc(15.9px + 0.54vw), 20px); line-height: 1.55;">
+<p class="txt" style="margin: 0;">We use AI tools every day, and we enjoy them. AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So it is important to know your competitive advantage and how to amplify it with a strategic AI adoption, instead of sprinkling AI around because of the FOMO the AI vendors spread.</p>
+<p class="txt" style="margin: 20px 0 0;">Below are the shifts that organizations wanting sustainable quality, real customer value and high adaptability make.</p>
+</div>
+</div>
+</div>
+
+<dc-import name="ShiftList" mode="{{mode}}" theme="{{theme}}" hint-size="100%,1900px"></dc-import>
+
+<div class="wrap">
+<div style="border-top: 2px solid var(--line); padding: 40px 0 48px; display: flex; flex-wrap: wrap; gap: 24px 56px;">
+<h2 class="txt" style="flex: 1 1 260px; min-width: 0; margin: 0; font-size: clamp(32px, 4vw, 52px); line-height: 0.95; font-weight: 800; letter-spacing: -0.035em;">How to use the shifts</h2>
+<div style="flex: 2 1 420px; min-width: 0; max-width: 68ch; font-size: clamp(18px, calc(15.9px + 0.54vw), 20px); line-height: 1.55;">
+<p class="txt" style="margin: 0;">These shifts are not a checklist. Not every organization needs all six, and not all to the same depth. Which ones matter, and how far you take each one, depends on your product, your customers and the competitive advantage you want to build.</p>
+<p class="txt" style="margin: 20px 0 0;">Use them as inspiration to define your strategy. Pick the shifts that strengthen your advantage, decide how far to go with each, and only then choose where AI amplifies them. Revisit the mix as you learn. That is how you own the agentic shift and make it happen on your terms.</p>
+</div>
+</div>
+</div>
+
+<div class="wrap">
+<div class="txt" style="border-top: 4px solid var(--text); padding: 28px 0 56px; font-size: 14px; line-height: 1.6; color: var(--muted);">created and maintained by <a href="https://www.linkedin.com/in/alexeykrivitsky/" style="display: inline-block; padding: 8px 0;">Alexey Krivitsky</a> · <a href="https://agentic-shift.com/" style="display: inline-block; padding: 8px 0;">https://agentic-shift.com/</a></div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"mode":{"editor":"enum","options":["live","start","travel","drag"],"default":"live"},"theme":{"editor":"enum","options":["dark","light","auto"],"default":"dark"},"$preview":{"width":1440,"height":4300}}'>
+class Component extends DCLogic {
+constructor(props) {
+super(props);
+this.state = { theme: props.theme ?? 'dark' };
+}
+componentDidMount() {
+if ((this.props.theme ?? 'dark') === 'auto') {
+try {
+const t = window.localStorage.getItem('agentic-theme');
+if (t === 'dark' || t === 'light') this.setState({ theme: t });
+} catch (e) {}
+}
+}
+componentDidUpdate(prev) {
+if (prev.theme !== this.props.theme) this.setState({ theme: this.props.theme ?? 'dark' });
+}
+effective() {
+const t = this.state.theme;
+if (t !== 'auto') return t;
+try {
+return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+} catch (e) {
+return 'dark';
+}
+}
+renderVals() {
+const eff = this.effective();
+return {
+mode: this.props.mode ?? 'live',
+theme: this.state.theme,
+isDark: eff === 'dark',
+isLight: eff === 'light',
+toggle: () => {
+const next = this.effective() === 'dark' ? 'light' : 'dark';
+this.setState({ theme: next });
+try { window.localStorage.setItem('agentic-theme', next); } catch (e) {}
+}
+};
+}
+}
+</script>
+</body>
+</html>

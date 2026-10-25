@@ -1,8 +1,7 @@
 # agentic-shift.com
 
 The website for **agentic-shift.com** — a short manifesto for organizations going through the
-agentic shift on their own terms, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky
-and Martin Westphal.
+agentic shift on their own terms, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky.
 
 - Production: https://agentic-shift.com/
 - GitHub: git@github.com:krivitsky/agentic-shift.git (branch: `main`, public repo)

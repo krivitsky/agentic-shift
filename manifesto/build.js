@@ -70,6 +70,91 @@ const view = (c) => ({
 });
 const template = read(path.join(__dirname, 'template.html'));
 
+// ── v4 English homepage ───────────────────────────────────────────────
+// Until the 11 translations are redone (BACKLOG item 3), English has two
+// sources: manifesto/v4/en.json renders the live English page ("/", its .md,
+// and the English blocks of llms.txt and README), while content/en.json stays
+// the base the translations are checked against and glossed from. Delete
+// content/en.json's role here once every language has moved to v4.
+const V4_DIR = path.join(__dirname, 'v4');
+const v4 = fs.existsSync(path.join(V4_DIR, 'en.json')) ? JSON.parse(read(path.join(V4_DIR, 'en.json'))) : null;
+const v4Template = v4 ? read(path.join(V4_DIR, 'template.html')) : null;
+
+function v4Rows(c) {
+  return c.shifts.map((s, i) => `          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">${esc(s.from)}</div>
+                <div class="to">${esc(s.to)}</div>
+              </div>
+              <div class="fader" data-i="${i}">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="${esc(`${s.from} → ${s.to}`)}">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">${s.note}</p>
+          </li>`).join('\n');
+}
+
+function renderV4(c) {
+  const p = (list) => list.map((x) => `          <p>${x}</p>`).join('\n');
+  const map = {
+    LANG: c.lang,
+    DIR: c.dir,
+    OG_LOCALE: OG_LOCALE[c.lang],
+    LANGBAR_LABEL: esc(LANGBAR_LABEL[c.lang]),
+    LANGBAR: langbar(c.lang),
+    HREFLANG: hreflang(),
+    META_TITLE: esc(c.meta.title),
+    META_DESCRIPTION: esc(c.meta.description),
+    META_KEYWORDS: esc(c.meta.keywords),
+    META_OG_TITLE: esc(c.meta.ogTitle),
+    META_OG_DESCRIPTION: esc(c.meta.ogDescription),
+    META_SCHEMA_DESCRIPTION: esc(c.meta.schemaDescription),
+    META_LLMS_TITLE: esc(c.meta.llmsTitle),
+    HEADLINE_LEAD: esc(c.hero.headlineLead),
+    HEADLINE_TAIL: esc(c.hero.headlineTail),
+    SUBTITLE: esc(c.hero.subtitle),
+    SHIFT_HEAD: c.shiftHead,
+    SHIFT_INTRO: p(c.shiftIntro),
+    OWN_HEAD: esc(c.ownHead),
+    ROWS: v4Rows(c),
+    USE_HEAD: c.useHead,
+    USE: p(c.use),
+    QA_HEAD: c.qaHead,
+    QA: c.qa.map((x) => `          <p class="q">${esc(x.q)}</p>\n          <p>${x.a}</p>`).join('\n'),
+    FOOT_BY: esc(c.foot.by),
+    FOOT_CTA: esc(c.foot.cta),
+    MD_HREF: `${c.dir}agentic-shift-${c.lang}.md`,
+    MD_DOWNLOAD: `agentic-shift-${c.lang}.md`,
+    MD_LANG: c.lang.toUpperCase(),
+  };
+  let out = v4Template;
+  for (const [k, v] of Object.entries(map)) out = out.split(`{{${k}}}`).join(v);
+  const left = out.match(/\{\{[A-Z_]+\}\}/g);
+  if (left) throw new Error(`v4 ${c.lang}: unreplaced placeholders: ${[...new Set(left)].join(', ')}`);
+  return out.replace('<!DOCTYPE html>', `<!DOCTYPE html>\n${BANNER.replace('content/{lang}.json', 'v4/{lang}.json').replace('{lang}', c.lang)}`);
+}
+
+// The v4 page as Markdown, in the order the page reads. `level` is the depth
+// of the section headings (2 for the .md download, 3 inside llms.txt).
+function v4Md(c, fmt, level) {
+  const h = '#'.repeat(level);
+  const L = [];
+  L.push(`${h} ${fmt(c.shiftHead)}`, '');
+  c.shiftIntro.forEach((x) => L.push(fmt(x), ''));
+  L.push(`${h} ${fmt(c.ownHead)}`, '');
+  c.shifts.forEach((s) => L.push(`- **${s.from} → ${s.to}** — ${fmt(s.note)}`));
+  L.push('', `${h} ${fmt(c.useHead)}`, '');
+  c.use.forEach((x) => L.push(fmt(x), ''));
+  L.push(`${h} ${fmt(c.qaHead)}`, '');
+  c.qa.forEach((x) => L.push(`**${fmt(x.q)}** ${fmt(x.a)}`, ''));
+  while (L[L.length - 1] === '') L.pop();
+  return L.join('\n');
+}
+
 const esc = (s) => String(s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   .replace(/"/g, '&quot;');
@@ -304,7 +389,9 @@ function llmsLang(c, heading) {
 // llms.txt manifesto region: English first, then every translation, so an LLM
 // reading the file sees all languages. Translated pairs carry the English pair.
 function llmsBlock() {
-  const parts = [llmsLang(en, '## Manifesto (English)')];
+  const parts = [v4
+    ? ['## Manifesto (English)', '', `**Agentic Shift** — ${plain(v4.hero.subtitle)}`, '', v4Md(v4, plain, 3)].join('\n')
+    : llmsLang(en, '## Manifesto (English)')];
   LANGS.filter((l) => l !== 'en').forEach((lang) =>
     parts.push(llmsLang(view(all[lang]), `## Manifesto (${all[lang].name})`)));
   return parts.join('\n\n');
@@ -312,6 +399,11 @@ function llmsBlock() {
 
 function readmeBlock() {
   const md = (s) => inline(s, { emphasis: 'md', links: 'md' });
+  if (v4) {
+    return ['> _Generated from [`manifesto/v4/en.json`](manifesto/v4/en.json) — edit the JSON, then run '
+      + '`node manifesto/build.js`. Do not edit this section by hand._', '',
+    `_${md(v4.hero.subtitle)}_`, '', v4Md(v4, md, 2)].join('\n');
+  }
   const L = [
     '> _Generated from [`manifesto/content/en.json`](manifesto/content/en.json) — edit the JSON '
     + '(and its siblings for other languages), then run `node manifesto/build.js`. Do not edit this section by hand._',
@@ -445,10 +537,15 @@ for (const lang of LANGS) {
   // lang=/hreflang=. `dir: "/"` (en) lands at public/index.html.
   const dest = path.join(PUBLIC, c.dir.replace(/^\/+|\/+$/g, ''), 'index.html');
   fs.mkdirSync(path.dirname(dest), { recursive: true });
-  fs.writeFileSync(dest, render(c));
+  const useV4 = lang === 'en' && v4;
+  fs.writeFileSync(dest, useV4 ? renderV4(v4) : render(c));
   written.push(path.relative(ROOT, dest));
   const mdDest = path.join(path.dirname(dest), `agentic-shift-${c.lang}.md`);
-  fs.writeFileSync(mdDest, manifestoMd(c));
+  fs.writeFileSync(mdDest, useV4
+    ? ['# Agentic Shift', '', `_${inline(v4.hero.subtitle, { emphasis: 'md', links: 'md' })}_`, '',
+      v4Md(v4, (x) => inline(x, { emphasis: 'md', links: 'md' }), 2), '', '---', '',
+      `${v4.foot.by} [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · ${ORIGIN}${v4.dir}`, ''].join('\n')
+    : manifestoMd(c));
   written.push(path.relative(ROOT, mdDest));
 }
 
