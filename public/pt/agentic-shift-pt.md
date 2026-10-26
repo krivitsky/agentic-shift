@@ -4,7 +4,7 @@ _Do tokenmaxing e do restante teatro da IA rumo a organizações saudáveis onde
 
 ## Porquê mudar?
 
-Usamos ferramentas de IA todos os dias, e gostamos delas. A IA é uma tecnologia democratizada. Toda a gente a tem, pelo que, por si só, não dá vantagem a ninguém. Acelera as tendências que uma organização já tem. Por isso é importante conhecer a sua vantagem competitiva e saber como amplificá-la com uma adoção estratégica da IA, em vez de espalhar IA por todo o lado por causa do FOMO que os fornecedores de IA difundem.
+Usamos ferramentas de IA todos os dias, e gostamos delas. A IA é uma tecnologia democratizada. Toda a gente a tem, pelo que, por si só, não dá vantagem a ninguém. Acelera as tendências que uma organização já tem. Por isso, conheça primeiro a sua vantagem competitiva e depois amplifique-a com uma adoção estratégica da IA. Resista à tentação de espalhar IA sobre estruturas antigas só porque os fornecedores de IA difundem o FOMO.
 
 Seguem-se as mudanças que fazem as organizações que querem qualidade sustentável, valor real para o cliente e elevada adaptabilidade.
 

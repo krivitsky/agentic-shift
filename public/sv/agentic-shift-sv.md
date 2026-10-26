@@ -4,7 +4,7 @@ _Från tokenmaxing och annan AI-teater mot sunda organisationer där människor 
 
 ## Varför skifta?
 
-Vi använder AI-verktyg varje dag, och vi gillar dem. AI är en demokratiserad teknik. Alla har den, så i sig själv ger den ingen ett försprång. Den accelererar de tendenser som en organisation redan har. Därför är det viktigt att känna till sin konkurrensfördel och veta hur man förstärker den med ett strategiskt AI-införande, i stället för att strö ut AI överallt på grund av den FOMO som AI-leverantörerna sprider.
+Vi använder AI-verktyg varje dag, och vi gillar dem. AI är en demokratiserad teknik. Alla har den, så i sig själv ger den ingen ett försprång. Den accelererar de tendenser som en organisation redan har. Så känn först till din konkurrensfördel, och förstärk den sedan med ett strategiskt AI-införande. Motstå frestelsen att strö ut AI över gamla strukturer bara för att AI-leverantörerna sprider FOMO.
 
 Nedan följer de skiften som organisationer gör när de vill ha hållbar kvalitet, verkligt kundvärde och hög anpassningsförmåga.
 
