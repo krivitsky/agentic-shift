@@ -19,7 +19,7 @@ Nedenfor er de skift, som organisationer foretager, når de stræber efter bære
 
 ## Hvor langt skal du gå?
 
-Disse skift er ikke en tjekliste. Ikke alle organisationer har brug for alle seks, og ikke alle i samme dybde. Hvilke der betyder noget, og hvor langt du går med hvert enkelt, afhænger af dit produkt, dine kunder og den konkurrencefordel, du vil opbygge.
+Disse skift er ikke en tjekliste. Ikke alle organisationer har brug for alle seks, og ikke alle i samme dybde. Hvilke der betyder noget, og hvor langt og hvor hurtigt du går med hvert enkelt, afhænger af, hvor modigt din organisation vil forstærke sin konkurrencefordel.
 
 Brug dem som inspiration til at definere din strategi. Vælg de skift, der styrker din fordel, beslut hvor langt du vil gå med hvert, og vælg først derefter, hvor AI skal forstærke dem. Revurder dit valg, efterhånden som du lærer. Sådan gør du agentic shift til dit eget og får det til at ske på dine præmisser.
 

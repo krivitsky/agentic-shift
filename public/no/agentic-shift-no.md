@@ -19,7 +19,7 @@ Nedenfor er skiftene som organisasjoner gjør når de streber etter bærekraftig
 
 ## Hvor langt skal du gå?
 
-Disse skiftene er ingen sjekkliste. Ikke alle organisasjoner trenger alle seks, og ikke alle i samme dybde. Hvilke som betyr noe, og hvor langt du tar hvert av dem, avhenger av produktet ditt, kundene dine og konkurransefortrinnet du vil bygge.
+Disse skiftene er ingen sjekkliste. Ikke alle organisasjoner trenger alle seks, og ikke alle i samme dybde. Hvilke som betyr noe, og hvor langt og hvor raskt du tar hvert av dem, avhenger av hvor modig organisasjonen din vil forsterke konkurransefortrinnet sitt.
 
 Bruk dem som inspirasjon til å definere strategien din. Velg skiftene som styrker fortrinnet ditt, bestem hvor langt du vil gå med hvert, og velg først da hvor AI skal forsterke dem. Vurder miksen på nytt etter hvert som du lærer. Slik gjør du agentic shift til ditt eget og får det til å skje på dine premisser.
 

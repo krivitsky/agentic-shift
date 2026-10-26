@@ -19,7 +19,7 @@ A continuación, los cambios que hacen las organizaciones que aspiran a calidad 
 
 ## ¿Hasta dónde llegar?
 
-Estos cambios no son una lista de verificación. No todas las organizaciones necesitan los seis, ni todos con la misma profundidad. Cuáles importan, y hasta dónde llevas cada uno, depende de tu producto, de tus clientes y de la ventaja competitiva que quieres construir.
+Estos cambios no son una lista de verificación. No todas las organizaciones necesitan los seis, ni todos con la misma profundidad. Cuáles importan, y hasta dónde y a qué ritmo llevas cada uno, depende de con cuánta audacia quiere tu organización amplificar su ventaja competitiva.
 
 Úsalos como inspiración para definir tu estrategia. Elige los cambios que refuercen tu ventaja, decide hasta dónde llegar con cada uno y solo entonces elige dónde los amplifica la IA. Revisa la combinación a medida que aprendes. Así te apropias del Agentic Shift y lo haces realidad en tus propios términos.
 

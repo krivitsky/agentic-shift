@@ -19,7 +19,7 @@ Im Folgenden die Shifts, die Organisationen vollziehen, wenn sie nachhaltige Qua
 
 ## Wie weit gehen?
 
-Diese Shifts sind keine Checkliste. Nicht jede Organisation braucht alle sechs, und nicht alle in derselben Tiefe. Welche zählen und wie weit du jeden einzelnen treibst, hängt von deinem Produkt, deinen Kunden und dem Wettbewerbsvorteil ab, den du aufbauen willst.
+Diese Shifts sind keine Checkliste. Nicht jede Organisation braucht alle sechs, und nicht alle in derselben Tiefe. Welche zählen und wie weit und wie schnell du jeden einzelnen treibst, hängt davon ab, wie mutig deine Organisation ihren Wettbewerbsvorteil verstärken will.
 
 Nutze sie als Inspiration, um deine Strategie zu definieren. Wähle die Shifts, die deinen Vorteil stärken, entscheide, wie weit du bei jedem gehst, und wähle erst dann, wo KI sie verstärkt. Überprüfe die Mischung, während du lernst. So machst du den Agentic Shift zu deinem eigenen und setzt ihn zu deinen Bedingungen um.
 

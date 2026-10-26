@@ -19,7 +19,7 @@ Ecco i cambiamenti che compiono le organizzazioni che puntano a qualità sosteni
 
 ## Fin dove arrivare?
 
-Questi cambiamenti non sono una checklist. Non tutte le organizzazioni hanno bisogno di tutti e sei, né tutti con la stessa profondità. Quali contano, e fin dove porti ciascuno, dipende dal tuo prodotto, dai tuoi clienti e dal vantaggio competitivo che vuoi costruire.
+Questi cambiamenti non sono una checklist. Non tutte le organizzazioni hanno bisogno di tutti e sei, né tutti con la stessa profondità. Quali contano, e fin dove e con quale rapidità porti ciascuno, dipende da quanto audacemente la tua organizzazione vuole amplificare il proprio vantaggio competitivo.
 
 Usali come ispirazione per definire la tua strategia. Scegli i cambiamenti che rafforzano il tuo vantaggio, decidi fin dove arrivare con ciascuno, e solo allora scegli dove l'IA li amplifica. Rivedi il mix man mano che impari. È così che fai tuo il cambiamento agentico e lo realizzi alle tue condizioni.
 

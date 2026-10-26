@@ -19,7 +19,7 @@ Below are the shifts made by organizations that aim for sustainable quality, rea
 
 ## How far to shift?
 
-These shifts are not a checklist. Not every organization needs all six, and not all to the same depth. Which ones matter, and how far you take each one, depends on your product, your customers and the competitive advantage you want to build.
+These shifts are not a checklist. Not every organization needs all six, and not all to the same depth. Which ones matter, and how far and how fast you take each, depends on how boldly your organization wants to amplify its competitive advantage.
 
 Use them as inspiration to define your strategy. Pick the shifts that strengthen your advantage, decide how far to go with each, and only then choose where AI amplifies them. Revisit the mix as you learn. That is how you own the agentic shift and make it happen on your terms.
 

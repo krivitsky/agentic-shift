@@ -19,7 +19,7 @@ Nedan följer de skiften som organisationer gör när de strävar efter hållbar
 
 ## Hur långt ska du gå?
 
-Dessa skiften är ingen checklista. Inte alla organisationer behöver alla sex, och inte alla på samma djup. Vilka som spelar roll, och hur långt du tar vart och ett, beror på din produkt, dina kunder och den konkurrensfördel du vill bygga.
+Dessa skiften är ingen checklista. Inte alla organisationer behöver alla sex, och inte alla på samma djup. Vilka som spelar roll, och hur långt och hur snabbt du tar vart och ett, beror på hur djärvt din organisation vill förstärka sin konkurrensfördel.
 
 Använd dem som inspiration för att definiera din strategi. Välj de skiften som stärker din fördel, bestäm hur långt du vill gå med vart och ett, och välj först därefter var AI ska förstärka dem. Se över mixen allteftersom du lär dig. Så gör du agentic shift till ditt eget och får det att hända på dina villkor.
 

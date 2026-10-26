@@ -19,7 +19,7 @@ Poniżej opisujemy zmiany, które przeprowadzają organizacje dążące do trwa�
 
 ## Jak daleko iść?
 
-Te zmiany to nie lista kontrolna. Nie każda organizacja potrzebuje wszystkich sześciu i nie każdej w tym samym stopniu. To, które z nich mają znaczenie i jak daleko pójdziesz z każdą, zależy od twojego produktu, twoich klientów i przewagi konkurencyjnej, którą chcesz zbudować.
+Te zmiany to nie lista kontrolna. Nie każda organizacja potrzebuje wszystkich sześciu i nie każdej w tym samym stopniu. To, które z nich mają znaczenie oraz jak daleko i jak szybko pójdziesz z każdą, zależy od tego, jak odważnie twoja organizacja chce wzmocnić swoją przewagę konkurencyjną.
 
 Traktuj je jako inspirację do zdefiniowania swojej strategii. Wybierz zmiany, które wzmacniają twoją przewagę, zdecyduj, jak daleko pójść z każdą z nich, i dopiero wtedy wybierz, gdzie AI ma je wzmocnić. Wracaj do tego zestawu w miarę, jak się uczysz. Tak sprawiasz, że agentic shift staje się twój, i przeprowadzasz go na własnych warunkach.
 
