@@ -1,10 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- v4 (2026-10-26): white, ink and teal, matching the page and og-shift-v4.png.
-       One slider: teal track filled to 9/10, ink knob — the page's signature. -->
+  <!-- v4 (2026-10-26): one slider — teal track, ink knob — on white, matching the page and og-shift-v4.png. -->
   <rect width="32" height="32" rx="7" fill="#FFFFFF"/>
   <rect x="0.5" y="0.5" width="31" height="31" rx="6.5" fill="none" stroke="#E3E7E5"/>
-  <rect x="5" y="5" width="15" height="3.5" fill="#3DDC9A"/>
-  <rect x="5" y="18.5" width="22" height="4" rx="2" fill="#E3E7E5"/>
-  <rect x="5" y="18.5" width="19" height="4" rx="2" fill="#3DDC9A"/>
-  <rect x="20.5" y="13" width="6" height="15" rx="1.5" fill="#05090D"/>
+  <rect x="4" y="14" width="24" height="4" rx="2" fill="#E3E7E5"/>
+  <rect x="4" y="14" width="16" height="4" rx="2" fill="#3DDC9A"/>
+  <rect x="16.3" y="7" width="7" height="18" rx="2" fill="#05090D"/>
 </svg>
