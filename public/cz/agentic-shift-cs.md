@@ -21,7 +21,7 @@ Níže jsou posuny, které dělají organizace usilující o udržitelnou kvalit
 
 Tyto posuny nejsou kontrolní seznam. Ne každá organizace potřebuje všech šest a ne všechny do stejné hloubky. Které z nich jsou důležité a jak daleko a jak rychle který dovedete, závisí na tom, jak odvážně chce vaše organizace zesílit svou konkurenční výhodu.
 
-Použijte je jako inspiraci k definování své strategie. Vyberte posuny, které posilují vaši výhodu, rozhodněte, jak daleko s každým půjdete, a teprve pak zvolte, kde je AI zesílí. Kombinaci průběžně revidujte podle toho, co se naučíte. Tak se Agentic Shift stane vaším a uskutečníte ho za vlastních podmínek.
+Své volby průběžně revidujte podle toho, co se naučíte. Tak řídíte Agentic Shift a uskutečňujete ho za vlastních podmínek, ve prospěch své firmy.
 
 ## Co dál?
 

@@ -21,7 +21,7 @@ Hieronder staan de shifts die organisaties maken die streven naar duurzame kwali
 
 Deze shifts zijn geen checklist. Niet elke organisatie heeft ze alle zes nodig, en niet allemaal even diep. Welke ertoe doen, en hoe ver en hoe snel je met elk ervan gaat, hangt af van hoe gedurfd je organisatie haar concurrentievoordeel wil versterken.
 
-Gebruik ze als inspiratie om je strategie te bepalen. Kies de shifts die je voordeel verstevigen, beslis hoe ver je met elk ervan gaat, en kies pas dan waar AI ze versterkt. Herzie de mix terwijl je leert. Zo maak je de agentic shift tot de jouwe en maak je hem waar op jouw voorwaarden.
+Herzie je keuzes terwijl je leert. Zo geef je richting aan de agentic shift en maak je hem waar op jouw voorwaarden, in het belang van je bedrijf.
 
 ## Wat nu?
 
