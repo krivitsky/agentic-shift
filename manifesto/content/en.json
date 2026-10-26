@@ -26,32 +26,32 @@
     {
       "from": "narrow specialists",
       "to": "complete craftspeople",
-      "note": "Enabling product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains."
+      "note": "This shift enables product engineers to move from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains."
     },
     {
       "from": "coordinating dependencies",
       "to": "extreme cocreation",
-      "note": "Instead of coordinating fragments through handoffs and integration meetings, complete craftspeople work in flow with their agents and with each other, alternating between focused work and looking at the whole product together, improving it as a whole."
+      "note": "This shift replaces coordinating fragments through handoffs and integration meetings: complete craftspeople work in flow with their agents and with each other, alternating between focused work and looking at the whole product together, improving it as a whole."
     },
     {
       "from": "coding features",
       "to": "designing agentic systems",
-      "note": "Moving product engineers from coding features one by one to designing the agentic systems that build them — self-improving loops that turn intent into tested, working software and verify every change against tests and specs, while product engineers own the tests and the value loop."
+      "note": "This shift moves product engineers from coding features one by one to designing the agentic systems that build them — self-improving loops that turn intent into tested, working software and verify every change against tests and specs, while product engineers own the tests and the value loop."
     },
     {
       "from": "the telephone game",
       "to": "zero distance to users",
-      "note": "Ending the telephone game through manager-proxies and the era of “IT sitting in the basement” — instead putting product engineers at zero distance with the customers and users, to empathize, analyze, and synthesize firsthand."
+      "note": "This shift ends the telephone game through manager-proxies and the era of “IT sitting in the basement” — putting product engineers at zero distance with customers and users, to empathize, analyze, and synthesize firsthand."
     },
     {
       "from": "counting output",
       "to": "owning outcomes",
-      "note": "Elevating product engineers from counting output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in."
+      "note": "This shift elevates product engineers from counting output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in."
     },
     {
       "from": "work follows people",
       "to": "people follow value",
-      "note": "Organizing around value instead of around existing roles and team boundaries — product engineers move to where the most valuable work is as priorities shift, which keeps the whole organization adaptable."
+      "note": "This shift organizes work around value instead of existing roles and static team boundaries — product engineers move to where the most valuable work is as priorities change, which keeps the whole organization adaptable."
     }
   ],
   "useHead": "How far to shift?",

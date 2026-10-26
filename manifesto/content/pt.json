@@ -26,32 +26,32 @@
     {
       "from": "especialistas de nicho",
       "to": "artesãos completos",
-      "note": "Permitir que os engenheiros de produto deixem de ser especialistas estreitos, de linha de montagem, e passem a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade e a oferecer requalificação para entrar em novos domínios."
+      "note": "Esta mudança permite que os engenheiros de produto deixem de ser especialistas estreitos, de linha de montagem, e passem a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade e a oferecer requalificação para entrar em novos domínios."
     },
     {
       "from": "coordenar dependências",
       "to": "cocriação extrema",
-      "note": "Em vez de coordenarem fragmentos através de passagens de trabalho e reuniões de integração, os artesãos completos trabalham em fluxo com os seus agentes e uns com os outros, alternando entre o trabalho concentrado e o olhar conjunto sobre o produto inteiro, melhorando-o como um todo."
+      "note": "Esta mudança substitui a coordenação de fragmentos através de passagens de trabalho e reuniões de integração: os artesãos completos trabalham em fluxo com os seus agentes e uns com os outros, alternando entre o trabalho concentrado e o olhar conjunto sobre o produto inteiro, melhorando-o como um todo."
     },
     {
       "from": "programar funcionalidades",
       "to": "desenhar sistemas agênticos",
-      "note": "Levar os engenheiros de produto a deixarem de programar funcionalidades uma a uma e a passarem a desenhar os sistemas agênticos que as constroem — ciclos que se aprimoram a si próprios, transformam a intenção em software testado e em funcionamento e confrontam cada alteração com os testes e as especificações, enquanto os engenheiros de produto assumem os testes e o ciclo de valor."
+      "note": "Esta mudança leva os engenheiros de produto a deixarem de programar funcionalidades uma a uma e a passarem a desenhar os sistemas agênticos que as constroem — ciclos que se aprimoram a si próprios, transformam a intenção em software testado e em funcionamento e confrontam cada alteração com os testes e as especificações, enquanto os engenheiros de produto assumem os testes e o ciclo de valor."
     },
     {
       "from": "comunicação indireta",
       "to": "distância zero dos utilizadores",
-      "note": "Acabar com a comunicação indireta por meio de gestores intermediários e com a era da «TI fechada na cave» — e colocar, em vez disso, os engenheiros de produto em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte."
+      "note": "Esta mudança acaba com a comunicação indireta por meio de gestores intermediários e com a era da «TI fechada na cave» — e coloca os engenheiros de produto em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte."
     },
     {
       "from": "contar a produção",
       "to": "assumir resultados",
-      "note": "Elevar os engenheiros de produto de contarem a produção a assumirem o ciclo de valor completo — garantindo um impacto real nos clientes, experimentando e corrigindo o rumo à medida que surgem as evidências."
+      "note": "Esta mudança eleva os engenheiros de produto de contarem a produção a assumirem o ciclo de valor completo — garantindo um impacto real nos clientes, experimentando e corrigindo o rumo à medida que surgem as evidências."
     },
     {
       "from": "o trabalho segue as pessoas",
       "to": "as pessoas seguem o valor",
-      "note": "Organizar-se em torno do valor, em vez de em torno dos papéis e das fronteiras de equipa existentes — os engenheiros de produto deslocam-se para onde está o trabalho mais valioso à medida que as prioridades mudam, o que mantém toda a organização adaptável."
+      "note": "Esta mudança organiza o trabalho em torno do valor, em vez de em torno dos papéis existentes e das fronteiras rígidas de equipa — os engenheiros de produto deslocam-se para onde está o trabalho mais valioso à medida que as prioridades se alteram, o que mantém toda a organização adaptável."
     }
   ],
   "useHead": "Até onde ir?",

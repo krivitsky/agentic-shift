@@ -26,32 +26,32 @@
     {
       "from": "smale spesialister",
       "to": "ende-til-ende-håndverkere",
-      "note": "Gjøre product engineers i stand til å gå fra smale samlebåndsspesialister til ende-til-ende-håndverkere — der AI fyller spesialisthullene og hjelper med kompetanseheving når de går inn i nye domener."
+      "note": "Dette skiftet gjør product engineers i stand til å gå fra smale samlebåndsspesialister til ende-til-ende-håndverkere — der AI fyller spesialisthullene og hjelper med kompetanseheving når de går inn i nye domener."
     },
     {
       "from": "koordinere avhengigheter",
       "to": "ekstrem samskaping",
-      "note": "I stedet for å koordinere fragmenter gjennom overleveringer og integrasjonsmøter jobber ende-til-ende-håndverkere i flyt med agentene sine og med hverandre, veksler mellom fokusert arbeid og å se på hele produktet sammen og forbedre det som helhet."
+      "note": "Dette skiftet erstatter koordinering av fragmenter gjennom overleveringer og integrasjonsmøter: ende-til-ende-håndverkere jobber i flyt med agentene sine og med hverandre, veksler mellom fokusert arbeid og å se på hele produktet sammen og forbedrer det som helhet."
     },
     {
       "from": "kode funksjoner",
       "to": "designe agentiske systemer",
-      "note": "Flytte product engineers fra å kode funksjoner én etter én til å designe de agentiske systemene som bygger dem — selvforbedrende looper som gjør intensjon om til testet, fungerende programvare og verifiserer hver endring mot tester og spesifikasjoner, mens product engineers har ansvaret for testene og verdiloopen."
+      "note": "Dette skiftet flytter product engineers fra å kode funksjoner én etter én til å designe de agentiske systemene som bygger dem — selvforbedrende looper som gjør intensjon om til testet, fungerende programvare og verifiserer hver endring mot tester og spesifikasjoner, mens product engineers har ansvaret for testene og verdiloopen."
     },
     {
       "from": "hviskeleken",
       "to": "null avstand til brukerne",
-      "note": "Gjøre slutt på hviskeleken via ledere som mellomledd og på æraen med «IT i kjelleren» — og i stedet sette product engineers på null avstand til kundene og brukerne, slik at de på første hånd kan leve seg inn i situasjonen deres, analysere og syntetisere."
+      "note": "Dette skiftet gjør slutt på hviskeleken via ledere som mellomledd og på æraen med «IT i kjelleren» — og setter product engineers på null avstand til kundene og brukerne, slik at de på første hånd kan leve seg inn i situasjonen deres, analysere og syntetisere."
     },
     {
       "from": "telle output",
       "to": "ta ansvar for resultater",
-      "note": "Løfte product engineers fra å telle output til å ta ansvar for hele verdiloopen — sikre reell effekt for kundene, eksperimentere og korrigere kursen etter hvert som ny innsikt kommer inn."
+      "note": "Dette skiftet løfter product engineers fra å telle output til å ta ansvar for hele verdiloopen — sikre reell effekt for kundene, eksperimentere og korrigere kursen etter hvert som ny innsikt kommer inn."
     },
     {
       "from": "arbeid følger mennesker",
       "to": "mennesker følger verdi",
-      "note": "Organisere seg rundt verdi i stedet for rundt eksisterende roller og teamgrenser — product engineers flytter dit det mest verdifulle arbeidet er når prioriteringene endrer seg, og det holder hele organisasjonen omstillingsdyktig."
+      "note": "Dette skiftet organiserer arbeidet rundt verdi i stedet for rundt eksisterende roller og faste teamgrenser — product engineers flytter dit det mest verdifulle arbeidet er når prioriteringene endrer seg, og det holder hele organisasjonen omstillingsdyktig."
     }
   ],
   "useHead": "Hvor langt skal du gå?",

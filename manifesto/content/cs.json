@@ -26,32 +26,32 @@
     {
       "from": "úzcí specialisté",
       "to": "všestranní řemeslníci",
-      "note": "Umožnit produktovým inženýrům přejít od úzkých specialistů na montážní lince k řemeslníkům, kteří zvládnou celý řetězec — s AI, která doplňuje chybějící specializace a nabízí doškolení pro vstup do nových domén."
+      "note": "Tento posun umožňuje produktovým inženýrům přejít od úzkých specialistů na montážní lince k řemeslníkům, kteří zvládnou celý řetězec — s AI, která doplňuje chybějící specializace a nabízí doškolení pro vstup do nových domén."
     },
     {
       "from": "koordinace závislostí",
       "to": "extrémní spolutvorba",
-      "note": "Místo koordinace fragmentů přes předávky a integrační schůzky pracují všestranní řemeslníci v plynulém toku se svými agenty i mezi sebou, střídají soustředěnou práci se společným pohledem na celý produkt a zlepšují ho jako celek."
+      "note": "Tento posun nahrazuje koordinaci fragmentů přes předávky a integrační schůzky: všestranní řemeslníci pracují v plynulém toku se svými agenty i mezi sebou, střídají soustředěnou práci se společným pohledem na celý produkt a zlepšují ho jako celek."
     },
     {
       "from": "programování funkcí",
       "to": "navrhování agentních systémů",
-      "note": "Posunout produktové inženýry od programování funkce za funkcí k navrhování agentních systémů, které tyto funkce stavějí — sebezdokonalujících se smyček, které mění záměr v otestovaný, fungující software a prověřují každou změnu vůči testům a specifikacím, zatímco produktoví inženýři odpovídají za testy a hodnotovou smyčku."
+      "note": "Tento posun vede produktové inženýry od programování funkce za funkcí k navrhování agentních systémů, které tyto funkce stavějí — sebezdokonalujících se smyček, které mění záměr v otestovaný, fungující software a prověřují každou změnu vůči testům a specifikacím, zatímco produktoví inženýři odpovídají za testy a hodnotovou smyčku."
     },
     {
       "from": "tichá pošta",
       "to": "nulová vzdálenost od uživatelů",
-      "note": "Ukončit tichou poštu přes manažery-prostředníky i éru „IT sedícího ve sklepě“ — a místo toho postavit produktové inženýry na nulovou vzdálenost od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky."
+      "note": "Tento posun ukončuje tichou poštu přes manažery-prostředníky i éru „IT sedícího ve sklepě“ — a staví produktové inženýry na nulovou vzdálenost od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky."
     },
     {
       "from": "počítání výstupů",
       "to": "odpovědnost za výsledky",
-      "note": "Přivést produktové inženýry od počítání výstupů k odpovědnosti za celé hodnotové smyčky — zajišťují skutečný dopad na zákazníky, experimentují a korigují kurz, jakmile přicházejí důkazy."
+      "note": "Tento posun pozvedá produktové inženýry od počítání výstupů k odpovědnosti za celé hodnotové smyčky — zajišťují skutečný dopad na zákazníky, experimentují a korigují kurz, jakmile přicházejí důkazy."
     },
     {
       "from": "práce jde za lidmi",
       "to": "lidé jdou za hodnotou",
-      "note": "Organizovat se kolem hodnoty místo kolem stávajících rolí a hranic týmů — produktoví inženýři se přesouvají tam, kde je právě nejhodnotnější práce, když se mění priority, a to udržuje celou organizaci přizpůsobivou."
+      "note": "Tento posun organizuje práci kolem hodnoty místo kolem stávajících rolí a pevných hranic týmů — produktoví inženýři se přesouvají tam, kde je právě nejhodnotnější práce, když se mění priority, a to udržuje celou organizaci přizpůsobivou."
     }
   ],
   "useHead": "Jak daleko zajít?",

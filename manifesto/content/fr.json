@@ -26,32 +26,32 @@
     {
       "from": "spécialistes étroits",
       "to": "artisans complets",
-      "note": "Permettre aux ingénieurs produit de passer de spécialistes étroits, à la chaîne, à des artisans de bout en bout — l'IA comblant les manques de spécialité et offrant la montée en compétences nécessaire pour entrer dans de nouveaux domaines."
+      "note": "Ce virage permet aux ingénieurs produit de passer de spécialistes étroits, à la chaîne, à des artisans de bout en bout — l'IA comblant les manques de spécialité et offrant la montée en compétences nécessaire pour entrer dans de nouveaux domaines."
     },
     {
       "from": "coordonner les dépendances",
       "to": "cocréation extrême",
-      "note": "Au lieu de coordonner des fragments par des passations et des réunions d'intégration, les artisans complets travaillent en flux avec leurs agents et entre eux, alternant travail concentré et regard commun sur l'ensemble du produit, qu'ils améliorent comme un tout."
+      "note": "Ce virage remplace la coordination de fragments par des passations et des réunions d'intégration : les artisans complets travaillent en flux avec leurs agents et entre eux, alternant travail concentré et regard commun sur l'ensemble du produit, qu'ils améliorent comme un tout."
     },
     {
       "from": "coder des fonctionnalités",
       "to": "concevoir des systèmes agentiques",
-      "note": "Faire passer les ingénieurs produit du codage des fonctionnalités une à une à la conception des systèmes agentiques qui les construisent — des boucles qui s'améliorent d'elles-mêmes, transforment l'intention en logiciel testé et opérationnel et vérifient chaque modification par rapport aux tests et aux spécifications, tandis que les ingénieurs produit sont responsables des tests et de la boucle de valeur."
+      "note": "Ce virage fait passer les ingénieurs produit du codage des fonctionnalités une à une à la conception des systèmes agentiques qui les construisent — des boucles qui s'améliorent d'elles-mêmes, transforment l'intention en logiciel testé et opérationnel et vérifient chaque modification par rapport aux tests et aux spécifications, tandis que les ingénieurs produit sont responsables des tests et de la boucle de valeur."
     },
     {
       "from": "le téléphone sans fil",
       "to": "distance zéro avec les utilisateurs",
-      "note": "Mettre fin au téléphone sans fil via des managers intermédiaires et à l'ère de « l'informatique reléguée au sous-sol » — et placer à la place les ingénieurs produit à distance zéro des clients et des utilisateurs, pour faire preuve d'empathie, analyser et synthétiser de première main."
+      "note": "Ce virage met fin au téléphone sans fil via des managers intermédiaires et à l'ère de « l'informatique reléguée au sous-sol » — et place les ingénieurs produit à distance zéro des clients et des utilisateurs, pour faire preuve d'empathie, analyser et synthétiser de première main."
     },
     {
       "from": "compter la production",
       "to": "répondre des résultats",
-      "note": "Élever les ingénieurs produit du comptage de la production à la responsabilité de la boucle de valeur complète — garantir un impact client réel, expérimenter et corriger le cap à mesure que les preuves arrivent."
+      "note": "Ce virage élève les ingénieurs produit du comptage de la production à la responsabilité de la boucle de valeur complète — garantir un impact client réel, expérimenter et corriger le cap à mesure que les preuves arrivent."
     },
     {
       "from": "le travail suit les personnes",
       "to": "les personnes suivent la valeur",
-      "note": "S'organiser autour de la valeur plutôt qu'autour des rôles existants et des frontières d'équipe — les ingénieurs produit vont là où se trouve le travail le plus précieux à mesure que les priorités évoluent, ce qui garde toute l'organisation adaptable."
+      "note": "Ce virage organise le travail autour de la valeur plutôt qu'autour des rôles existants et des frontières d'équipe figées — les ingénieurs produit vont là où se trouve le travail le plus précieux à mesure que les priorités évoluent, ce qui garde toute l'organisation adaptable."
     }
   ],
   "useHead": "Jusqu'où aller ?",

@@ -26,32 +26,32 @@
     {
       "from": "specialisti ristretti",
       "to": "artigiani completi",
-      "note": "Permettere agli ingegneri di prodotto di passare da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma i vuoti di specializzazione e offre l'aggiornamento delle competenze necessaria per entrare in nuovi domini."
+      "note": "Questo cambiamento permette agli ingegneri di prodotto di passare da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma i vuoti di specializzazione e offre l'aggiornamento delle competenze necessaria per entrare in nuovi domini."
     },
     {
       "from": "coordinare dipendenze",
       "to": "co-creazione estrema",
-      "note": "Invece di coordinare frammenti tramite passaggi di consegne e riunioni di integrazione, gli artigiani completi lavorano in flusso con i propri agenti e tra loro, alternando lavoro concentrato e uno sguardo condiviso sull'intero prodotto, che migliorano nel suo insieme."
+      "note": "Questo cambiamento sostituisce il coordinamento di frammenti tramite passaggi di consegne e riunioni di integrazione: gli artigiani completi lavorano in flusso con i propri agenti e tra loro, alternando lavoro concentrato e uno sguardo condiviso sull'intero prodotto, che migliorano nel suo insieme."
     },
     {
       "from": "programmare funzionalità",
       "to": "progettare sistemi agentici",
-      "note": "Portare gli ingegneri di prodotto dal programmare le funzionalità una per una al progettare i sistemi agentici che le costruiscono — cicli che si migliorano da soli, trasformano l'intento in software testato e funzionante e verificano ogni modifica rispetto ai test e alle specifiche, mentre gli ingegneri di prodotto si fanno carico dei test e del ciclo del valore."
+      "note": "Questo cambiamento porta gli ingegneri di prodotto dal programmare le funzionalità una per una al progettare i sistemi agentici che le costruiscono — cicli che si migliorano da soli, trasformano l'intento in software testato e funzionante e verificano ogni modifica rispetto ai test e alle specifiche, mentre gli ingegneri di prodotto si fanno carico dei test e del ciclo del valore."
     },
     {
       "from": "il telefono senza fili",
       "to": "distanza zero dagli utenti",
-      "note": "Mettere fine al gioco del telefono senza fili attraverso manager-intermediari e all'era dell'“IT chiusa in cantina” — e portare invece gli ingegneri di prodotto a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona."
+      "note": "Questo cambiamento mette fine al gioco del telefono senza fili attraverso manager-intermediari e all'era dell'“IT chiusa in cantina” — e porta gli ingegneri di prodotto a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona."
     },
     {
       "from": "contare la produzione",
       "to": "farsi carico dei risultati",
-      "note": "Elevare gli ingegneri di prodotto dal contare la produzione al farsi carico dell'intero ciclo del valore — garantendo un impatto reale sui clienti, sperimentando e correggendo la rotta man mano che arrivano le evidenze."
+      "note": "Questo cambiamento eleva gli ingegneri di prodotto dal contare la produzione al farsi carico dell'intero ciclo del valore — garantendo un impatto reale sui clienti, sperimentando e correggendo la rotta man mano che arrivano le evidenze."
     },
     {
       "from": "il lavoro segue le persone",
       "to": "le persone seguono il valore",
-      "note": "Organizzarsi intorno al valore anziché intorno ai ruoli esistenti e ai confini dei team — gli ingegneri di prodotto si spostano dove si trova il lavoro di maggior valore man mano che le priorità cambiano, e questo mantiene adattabile l'intera organizzazione."
+      "note": "Questo cambiamento organizza il lavoro intorno al valore anziché intorno ai ruoli esistenti e ai confini statici dei team — gli ingegneri di prodotto si spostano dove si trova il lavoro di maggior valore man mano che le priorità mutano, e questo mantiene adattabile l'intera organizzazione."
     }
   ],
   "useHead": "Fin dove arrivare?",
