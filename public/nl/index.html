@@ -212,22 +212,32 @@
     }
     .row-main { flex: 1 1 560px; min-width: 0; }
     .ends { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 6px 16px; }
+    /* The two ends trade size as the knob moves: the side the knob is heading
+       to grows, the other shrinks (Alexey, 2026-10-26). --f lives on the row,
+       0 = knob at "from", 1 = knob at "to". */
+    .row {
+      --f: 0;
+      --small: clamp(15px, calc(14.56px + 0.112vw), 16px);
+      --big: clamp(20px, calc(18.25px + 0.449vw), 24px);
+    }
+    .from, .to { transition: font-size .12s linear; }
+    .row.travel .from, .row.travel .to { transition: font-size 1.5s cubic-bezier(.22,.8,.2,1); }
     .from {
       min-width: 0; max-width: 100%;
-      font-size: clamp(15px, calc(14.56px + 0.112vw), 16px); line-height: 1.2; color: var(--muted);
+      font-size: calc(var(--big) - (var(--big) - var(--small)) * var(--f)); line-height: 1.2; color: var(--muted);
     }
     /* Translated pages: the canonical English words under each localized term. */
     .gloss { display: block; margin-top: 4px; font-size: 14px; font-weight: 400; line-height: 1.2; letter-spacing: 0; color: var(--muted); }
     .to {
       min-width: 0; max-width: 100%; margin-left: auto; text-align: right;
-      font-size: clamp(20px, calc(18.25px + 0.449vw), 24px); line-height: 1.15;
+      font-size: calc(var(--small) + (var(--big) - var(--small)) * var(--f)); line-height: 1.15;
       font-weight: 800; color: var(--accent); letter-spacing: -0.01em;
     }
     .note {
       flex: 0 1 520px; min-width: 0; max-width: 72ch; margin: 0;
       font-size: clamp(16px, calc(15.56px + 0.112vw), 17px); line-height: 1.5;
     }
-    .fader { position: relative; height: 64px; margin-top: 16px; --f: 0; }
+    .fader { position: relative; height: 64px; margin-top: 16px; }
     .ticks { position: absolute; left: 0; right: 0; height: 6px;
       background: repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px 20px); }
     .ticks.t1 { top: 9px; } .ticks.t2 { bottom: 9px; }
@@ -263,7 +273,7 @@
     .hit::-moz-range-thumb { width: 36px; height: 64px; border: none; }
     .hit:focus-visible ~ .cap { outline: 3px solid var(--accent); outline-offset: 4px; }
     @media (prefers-reduced-motion: reduce) {
-      .fader.travel .cap, .fader.travel .bar { transition: none; }
+      .fader.travel .cap, .fader.travel .bar, .from, .to, .row.travel .from, .row.travel .to { transition: none; }
     }
 
     /* ── Footer ─────────────────────────────────────────── */
@@ -472,21 +482,22 @@
       // first cancels its travel. Reduced motion: knobs already at 9/10.
       var STOP = 90;
       var faders = Array.prototype.slice.call(document.querySelectorAll('.fader'));
+      var rows = faders.map(function (f) { return f.closest('.row'); });
       var touched = faders.map(function () { return false; });
       function set(i, v) {
-        faders[i].style.setProperty('--f', v / 100);
+        rows[i].style.setProperty('--f', v / 100);
         faders[i].querySelector('.hit').value = v;
       }
       faders.forEach(function (f, i) {
         var hit = f.querySelector('.hit');
         hit.addEventListener('input', function () {
           touched[i] = true;
-          f.classList.remove('travel');
+          f.classList.remove('travel'); rows[i].classList.remove('travel');
           set(i, Number(hit.value));
         });
         hit.addEventListener('pointerdown', function () {
           touched[i] = true;
-          f.classList.remove('travel');
+          f.classList.remove('travel'); rows[i].classList.remove('travel');
           f.classList.add('drag');
         });
       });
@@ -500,12 +511,12 @@
       function travel(i) {
         if (touched[i]) return;
         var f = faders[i];
-        f.classList.add('travel');
+        f.classList.add('travel'); rows[i].classList.add('travel');
         // Next frame, so the transition starts from 0.
         requestAnimationFrame(function () { requestAnimationFrame(function () {
           if (!touched[i]) set(i, STOP);
         }); });
-        setTimeout(function () { f.classList.remove('travel'); }, 1700);
+        setTimeout(function () { f.classList.remove('travel'); rows[i].classList.remove('travel'); }, 1700);
       }
       if (!('IntersectionObserver' in window)) {
         faders.forEach(function (f, i) { setTimeout(function () { travel(i); }, i * 200); });
