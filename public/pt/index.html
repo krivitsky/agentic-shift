@@ -43,7 +43,7 @@
   <meta property="og:description" content="Do tokenmaxing e do restante teatro da IA rumo a organizações saudáveis onde as pessoas prosperam e criam excelentes produtos e serviços.">
   <meta property="og:locale" content="pt_PT">
   <meta property="og:url" content="/pt/">
-  <meta property="og:image" content="/images/og-shift-v4.png">
+  <meta property="og:image" content="/images/og-shift-v5.png">
   <meta property="og:image:alt" content="Agentic Shift: three shift sliders moved toward complete craftspeople, zero distance to users and owning outcomes">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -52,7 +52,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Agentic Shift">
   <meta name="twitter:description" content="Do tokenmaxing e do restante teatro da IA rumo a organizações saudáveis onde as pessoas prosperam e criam excelentes produtos e serviços.">
-  <meta name="twitter:image" content="/images/og-shift-v4.png">
+  <meta name="twitter:image" content="/images/og-shift-v5.png">
 
   <!-- Structured data -->
   <script type="application/ld+json">
@@ -138,7 +138,20 @@
     .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
     /* The bar spans the word "Agentic" below it (3.63em of the headline size),
        so it reads as part of the title (Alexey, 2026-10-25: 72px was too short). */
-    .mark { width: calc(clamp(52px, 11vw, 144px) * 3.63); height: 12px; background: var(--fill); flex: none; margin-left: 0.04em; }
+    /* The hero mark is a slider, like the favicon (Alexey, 2026-10-26): teal fill
+       up to an ink knob at ~2/3, grey track after it. The knob slides in on load. */
+    .mark {
+      --k: 0.66; --kw: clamp(14px, 1.6vw, 20px);
+      position: relative; flex: none; margin-left: 0.04em;
+      width: calc(clamp(52px, 11vw, 144px) * 3.63); height: calc(var(--kw) * 2.2);
+    }
+    .mark::before, .mark::after, .mark i { content: ""; position: absolute; top: 50%; transform: translateY(-50%); }
+    .mark::before { left: 0; right: 0; height: 12px; background: var(--line); }
+    .mark::after { left: 0; height: 12px; background: var(--fill); width: calc((100% - var(--kw)) * var(--k) + var(--kw) / 2); animation: mark-fill 1.5s cubic-bezier(.22,.8,.2,1) both; }
+    .mark i { left: calc((100% - var(--kw)) * var(--k)); width: var(--kw); height: 100%; border-radius: 4px; background: var(--text); animation: mark-knob 1.5s cubic-bezier(.22,.8,.2,1) both; }
+    @keyframes mark-fill { from { width: calc(var(--kw) / 2); } }
+    @keyframes mark-knob { from { left: 0; } }
+    @media (prefers-reduced-motion: reduce) { .mark::after, .mark i { animation: none; } }
     .tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
     .theme-toggle {
       width: 48px; height: 48px; padding: 0; flex: none;
@@ -291,7 +304,7 @@
 
   <header class="wrap top">
     <div class="topbar">
-      <div class="mark" aria-hidden="true"></div>
+      <div class="mark" aria-hidden="true"><i></i></div>
       <div class="tools">
         <details class="langs">
           <summary aria-label="Idioma">PT</summary>
