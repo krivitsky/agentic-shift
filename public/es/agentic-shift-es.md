@@ -29,4 +29,4 @@ Revisa tus decisiones a medida que aprendes. Así lideras el Agentic Shift y lo 
 
 ---
 
-creado y mantenido por [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/es/
+creado y mantenido por [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/es/

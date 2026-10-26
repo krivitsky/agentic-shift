@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Machine-readable overview for LLMs: /llms.txt
-Sitemap: https://agentic-shift.com/sitemap.xml
+Sitemap: https://agenticshift.org/sitemap.xml

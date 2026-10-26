@@ -29,4 +29,4 @@ Se över dina val allteftersom du lär dig. Så leder du agentic shift och får 
 
 ---
 
-skapad och underhållen av [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/sv/
+skapad och underhållen av [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/sv/

@@ -29,4 +29,4 @@ Revurder dine valg, efterhånden som du lærer. Sådan leder du agentic shift og
 
 ---
 
-skabt og vedligeholdt af [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/da/
+skabt og vedligeholdt af [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/da/

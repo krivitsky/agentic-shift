@@ -29,4 +29,4 @@ _От tokenmaxing и прочего ИИ-театра к здоровым орг
 
 ---
 
-создано и поддерживается [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/ru/
+создано и поддерживается [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/ru/

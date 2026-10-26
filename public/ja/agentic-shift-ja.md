@@ -29,4 +29,4 @@ _tokenmaxing やその他の AI シアターから、人がいきいきと活躍
 
 ---
 
-作成・維持： [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/ja/
+作成・維持： [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/ja/

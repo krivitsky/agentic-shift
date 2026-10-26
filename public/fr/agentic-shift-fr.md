@@ -29,4 +29,4 @@ Revoyez vos choix à mesure que vous apprenez. C'est ainsi que vous menez le vir
 
 ---
 
-créé et maintenu par [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/fr/
+créé et maintenu par [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/fr/

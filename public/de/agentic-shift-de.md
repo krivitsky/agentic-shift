@@ -29,4 +29,4 @@ Diese Shifts sind keine Checkliste. Nicht jede Organisation braucht alle sechs, 
 
 ---
 
-erstellt und gepflegt von [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/de/
+erstellt und gepflegt von [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/de/

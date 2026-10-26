@@ -29,4 +29,4 @@ Revisit your choices as you learn. That is how you lead the agentic shift and ma
 
 ---
 
-created and maintained by [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/
+created and maintained by [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/

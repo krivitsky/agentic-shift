@@ -29,4 +29,4 @@ Reveja as suas escolhas à medida que aprende. É assim que lidera o Agentic Shi
 
 ---
 
-criado e mantido por [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/pt/
+criado e mantido por [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/pt/

@@ -29,4 +29,4 @@ Své volby průběžně revidujte podle toho, co se naučíte. Tak řídíte Age
 
 ---
 
-vytvořil a spravuje [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/cz/
+vytvořil a spravuje [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/cz/

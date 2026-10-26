@@ -29,4 +29,4 @@ Wracaj do swoich wyborów w miarę, jak się uczysz. Tak kierujesz agentic shift
 
 ---
 
-stworzone i rozwijane przez [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/pl/
+stworzone i rozwijane przez [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/pl/

@@ -29,4 +29,4 @@ Herzie je keuzes terwijl je leert. Zo geef je richting aan de agentic shift en m
 
 ---
 
-gemaakt en onderhouden door [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/nl/
+gemaakt en onderhouden door [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/nl/

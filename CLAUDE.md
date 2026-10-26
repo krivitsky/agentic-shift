@@ -1,9 +1,9 @@
-# agentic-shift.com
+# agenticshift.org
 
-The website for **agentic-shift.com** — a short manifesto for organizations going through the
+The website for **agenticshift.org** (canonical since 2026-10-26; agentic-shift.com, agentic-shift.eu, agenticshifts.org are secondary domains on the same Vercel project) — a short manifesto for organizations going through the
 agentic shift on their own terms, plus the Agentic Shift Munich meetups. Run by Alexey Krivitsky.
 
-- Production: https://agentic-shift.com/
+- Production: https://agenticshift.org/ (canonical — Alexey, 2026-10-26: "save agenticshift.org as the real url")
 - GitHub: git@github.com:krivitsky/agentic-shift.git (branch: `main`, public repo)
 
 ## Start here: the backlog
@@ -42,9 +42,9 @@ agentic shift on their own terms, plus the Agentic Shift Munich meetups. Run by 
 
 ## Content & SEO
 - **Manifesto copy is edited in `manifesto/content/*.json`, never in the HTML** (see §Manifesto i18n). `en.json` is canonical. The `MANIFESTO`-marked regions are generated: `README.md` gets the **English** manifesto (from `en.json`); `public/llms.txt` gets **all languages** (English first, then every translation, each with the English gloss on shift pairs). Everything *outside* the markers (llms.txt summary/Meetups/Links, README Tech Details) stays hand-written.
-- Full `<head>` meta on every page (title, description, OG, Twitter, JSON-LD Organization). **Relative URLs only in the page `<head>`** — no absolute URLs, no `.eu` — **except `hreflang` alternates**, which the spec requires to be absolute (same carve-out as `sitemap.xml`/`robots.txt`). OG images: English `/` → `og-shift-v5.png` (white, source `specs/v4/og/og.html`, render 1200×630 with Playwright; new filename on every redesign to bust LinkedIn/Telegram caches), every manifesto language uses it (`og-shift.png` is the old dark image, kept for the archives), `/munich` → `event1-cover.jpg`.
+- Full `<head>` meta on every page (title, description, OG, Twitter, JSON-LD Organization). **Relative URLs only in the page `<head>`** — no absolute URLs, no `.eu` — **except `hreflang` alternates**, which the spec requires to be absolute (same carve-out as `sitemap.xml`/`robots.txt`). OG images: English `/` → `og-shift-v6.png` (white, source `specs/v4/og/og.html`, render 1200×630 with Playwright; new filename on every redesign to bust LinkedIn/Telegram caches), every manifesto language uses it (`og-shift.png` is the old dark image, kept for the archives), `/munich` → `event1-cover.jpg`.
 - **OG image and favicon move together (Alexey, 2026-10-26: "always sync og image and favicon when building sites").** Any redesign that changes the look ships a new `og-*.png` (new filename) **and** an updated `public/favicon.svg` + `public/apple-touch-icon.png` (180×180, rendered from the SVG) in the same change. Current: one slider — teal track, ink knob at ~6/10, on white (Alexey picked 2026-10-26).
-- **Crawler/LLM files** in `public/` (served at site root): `robots.txt`, `sitemap.xml`, `llms.txt`, `ai.txt`, `site.webmanifest`. These use **absolute `https://agentic-shift.com` URLs** (required by their specs — the relative-only rule is `<head>`-meta only). Pages carry `<link rel="alternate" type="text/markdown" href="/llms.txt">` + `<link rel="manifest">`.
+- **Crawler/LLM files** in `public/` (served at site root): `robots.txt`, `sitemap.xml`, `llms.txt`, `ai.txt`, `site.webmanifest`. These use **absolute `https://agenticshift.org` URLs** (required by their specs — the relative-only rule is `<head>`-meta only). Pages carry `<link rel="alternate" type="text/markdown" href="/llms.txt">` + `<link rel="manifest">`.
 
 ## Manifesto i18n
 - **One source per language since 2026-10-26.** All 12 pages render from `content/<lang>.json` + `template.html` (the v4 slider design). The pre-v4 translation files are in git history before that date; `/v1` and `/v12` stay hand-written.

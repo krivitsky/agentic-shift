@@ -37,22 +37,22 @@ Revisit your choices as you learn. That is how you lead the agentic shift and ma
 
 <!-- MANIFESTO:END -->
 
-Live at **[agentic-shift.com](https://agentic-shift.com)**.
+Live at **[agenticshift.org](https://agenticshift.org)**.
 
 ---
 
 ## Tech Details
 
-The website for agentic-shift.com — the manifesto above, and the Agentic Shift Munich meetups.
+The website for agenticshift.org — the manifesto above, and the Agentic Shift Munich meetups.
 
 ### Pages
 - **`/`** — the manifesto (English). Also in
-  [German](https://agentic-shift.com/de/), [Dutch](https://agentic-shift.com/nl/),
-  [French](https://agentic-shift.com/fr/), [Italian](https://agentic-shift.com/it/),
-  [Spanish](https://agentic-shift.com/es/), [Portuguese](https://agentic-shift.com/pt/),
-  [Czech](https://agentic-shift.com/cz/), [Ukrainian](https://agentic-shift.com/uk/),
-  [Russian](https://agentic-shift.com/ru/), [Chinese](https://agentic-shift.com/zh/), and
-  [Japanese](https://agentic-shift.com/ja/) — one directory each under `public/`.
+  [German](https://agenticshift.org/de/), [Dutch](https://agenticshift.org/nl/),
+  [French](https://agenticshift.org/fr/), [Italian](https://agenticshift.org/it/),
+  [Spanish](https://agenticshift.org/es/), [Portuguese](https://agenticshift.org/pt/),
+  [Czech](https://agenticshift.org/cz/), [Ukrainian](https://agenticshift.org/uk/),
+  [Russian](https://agenticshift.org/ru/), [Chinese](https://agenticshift.org/zh/), and
+  [Japanese](https://agenticshift.org/ja/) — one directory each under `public/`.
 - **`/munich`** — the Munich meetups: next event, Luma calendar, organizers, community, past
   events (`public/munich/index.html`).
 

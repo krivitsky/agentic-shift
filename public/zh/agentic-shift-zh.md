@@ -29,4 +29,4 @@ _从 tokenmaxing 与其他 AI 表演，走向让人们茁壮成长、打造优�
 
 ---
 
-创建与维护： [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/zh/
+创建与维护： [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/zh/

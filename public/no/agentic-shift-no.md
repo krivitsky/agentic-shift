@@ -29,4 +29,4 @@ Vurder valgene dine på nytt etter hvert som du lærer. Slik leder du agentic sh
 
 ---
 
-laget og vedlikeholdt av [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/no/
+laget og vedlikeholdt av [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/no/

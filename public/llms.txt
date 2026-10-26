@@ -1,7 +1,7 @@
 # Agentic Shift
 
 > A manifesto for organizations going through the agentic shift on their own terms — where we stand,
-> what we shift, what we refuse — and the Agentic Shift Munich meetups. Live at https://agentic-shift.com
+> what we shift, what we refuse — and the Agentic Shift Munich meetups. Live at https://agenticshift.org
 
 <!-- MANIFESTO:START -->
 
@@ -475,11 +475,11 @@ Se över dina val allteftersom du lär dig. Så leder du agentic shift och får 
 
 Agentic Shift runs monthly meetups in Munich on agentic engineering and its organizational impact,
 hosted by Alexey Krivitsky. Next meetup, calendar, organizers, community, and
-past events: https://agentic-shift.com/munich
+past events: https://agenticshift.org/munich
 
 ## Links
 
-- Manifesto (home): https://agentic-shift.com/
-- Munich meetups: https://agentic-shift.com/munich
+- Manifesto (home): https://agenticshift.org/
+- Munich meetups: https://agenticshift.org/munich
 - Source (open-source — read, fork, propose improvements): https://github.com/krivitsky/agentic-shift
 - Luma calendar: https://luma.com/calendar/cal-MbzaaU1GVYLS8TM

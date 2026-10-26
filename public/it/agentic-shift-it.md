@@ -29,4 +29,4 @@ Rivedi le tue scelte man mano che impari. È così che guidi il cambiamento agen
 
 ---
 
-creato e mantenuto da [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agentic-shift.com/it/
+creato e mantenuto da [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · https://agenticshift.org/it/
