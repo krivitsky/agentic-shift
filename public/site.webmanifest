@@ -1,12 +1,17 @@
 {
   "name": "Agentic Shift",
   "short_name": "Agentic Shift",
-  "description": "Professional agentic product engineering — five org-design shifts, and the Agentic Shift Munich meetups.",
+  "description": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#05090d",
-  "theme_color": "#05090d",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "icons": [
-    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" }
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    }
   ]
 }
