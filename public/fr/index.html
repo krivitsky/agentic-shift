@@ -165,6 +165,12 @@
     .langs-list a:hover { color: var(--accent); }
     .langs-list a[aria-current="page"] { color: var(--accent); font-weight: 800; }
     .langs-list .md-dl { border-top: 2px solid var(--line); margin-top: 6px; padding-top: 14px; color: var(--muted); }
+    /* Kicker: the human promise, above the name (kept 2026-10-26, Alexey). */
+    .kicker {
+      margin: 28px 0 0; font-size: clamp(14px, calc(12.6px + 0.36vw), 17px); line-height: 1.3;
+      font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent);
+    }
+    .kicker + h1 { margin-top: 14px; }
     h1 {
       margin: 28px 0 0; font-size: clamp(52px, 11vw, 144px); line-height: 0.92;
       font-weight: 800; letter-spacing: -0.03em;
@@ -304,6 +310,7 @@
         </button>
       </div>
     </div>
+    <p class="kicker">Garder la tête froide dans la course à l'IA</p>
     <h1>Agentic<br>Shift</h1>
     <p class="subtitle">Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines où les gens s'épanouissent et créent d'excellents produits et services.</p>
   </header>

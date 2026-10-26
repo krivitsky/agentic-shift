@@ -186,6 +186,7 @@ function render(c) {
     META_OG_DESCRIPTION: esc(c.meta.ogDescription),
     META_SCHEMA_DESCRIPTION: esc(c.meta.schemaDescription),
     META_LLMS_TITLE: esc(c.meta.llmsTitle),
+    KICKER: esc(c.hero.kicker),
     HEADLINE_LEAD: esc(c.hero.headlineLead),
     HEADLINE_TAIL: esc(c.hero.headlineTail),
     SUBTITLE: esc(c.hero.subtitle),
