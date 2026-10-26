@@ -2,60 +2,30 @@
 
 _Do tokenmaxing e do restante teatro da IA rumo a organizações saudáveis onde as pessoas prosperam e criam excelentes produtos e serviços._
 
-## O que defendemos
+## Porquê mudar?
 
-A **mudança agêntica** é real, e é uma verdadeira oportunidade. Afeta profundamente as nossas organizações e altera a forma como trabalhamos e como trabalhamos em conjunto. Usamos estas ferramentas todos os dias e gostamos de as usar.
+Usamos ferramentas de IA todos os dias, e gostamos delas. A IA é uma tecnologia democratizada. Toda a gente a tem, pelo que, por si só, não dá vantagem a ninguém. Acelera as tendências que uma organização já tem. Por isso é importante conhecer a sua vantagem competitiva e saber como amplificá-la com uma adoção estratégica da IA, em vez de espalhar IA por todo o lado por causa do FOMO que os fornecedores de IA difundem.
 
-O que sabemos, porém, é que isto não é sobre tooling, sobre tokens nem sobre qualquer outra métrica de produção que por acaso seja fácil de medir. É sobre construir **organizações melhores e mais saudáveis**, que ofereçam melhores produtos e serviços, e onde as pessoas comuns prosperem. É isso que importa.
+Seguem-se as mudanças que fazem as organizações que querem qualidade sustentável, valor real para o cliente e elevada adaptabilidade.
 
-Cada organização é única na forma como foi construída e no que quer alcançar. Somos nós que dirigimos as **nossas** organizações, e somos julgados por aquilo que importa a nós — os nossos clientes, colaboradores e restantes partes interessadas.
+## A sua mudança
 
-Por isso, para nós há algo que não é negociável: **a mudança agêntica acontece nos nossos termos** e otimiza aquilo que valorizamos — não nos termos dos fornecedores de IA nem do hype em torno dos modelos de IA.
+- **especialistas de nicho → artesãos completos** (narrow specialists → complete craftspeople) — Permitir que os engenheiros de produto deixem de ser especialistas estreitos, de linha de montagem, e passem a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade e a oferecer requalificação para entrar em novos domínios.
+- **coordenar dependências → cocriação extrema** (coordinating dependencies → extreme cocreation) — Em vez de coordenarem fragmentos através de passagens de trabalho e reuniões de integração, os artesãos completos trabalham em fluxo com os seus agentes e uns com os outros, alternando entre o trabalho concentrado e o olhar conjunto sobre o produto inteiro, melhorando-o como um todo.
+- **programar funcionalidades → desenhar sistemas agênticos** (coding features → designing agentic systems) — Levar os engenheiros de produto a deixarem de programar funcionalidades uma a uma e a passarem a desenhar os sistemas agênticos que as constroem — ciclos que se aprimoram a si próprios, transformam a intenção em software testado e em funcionamento e confrontam cada alteração com os testes e as especificações, enquanto os engenheiros de produto assumem os testes e o ciclo de valor.
+- **comunicação indireta → distância zero dos utilizadores** (the telephone game → zero distance to users) — Acabar com a comunicação indireta por meio de gestores intermediários e com a era da «TI fechada na cave» — e colocar, em vez disso, os engenheiros de produto em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte.
+- **contar a produção → assumir resultados** (counting output → owning outcomes) — Elevar os engenheiros de produto de contarem a produção a assumirem o ciclo de valor completo — garantindo um impacto real nos clientes, experimentando e corrigindo o rumo à medida que surgem as evidências.
+- **o trabalho segue as pessoas → as pessoas seguem o valor** (work follows people → people follow value) — Organizar-se em torno do valor, em vez de em torno dos papéis e das fronteiras de equipa existentes — os engenheiros de produto deslocam-se para onde está o trabalho mais valioso à medida que as prioridades mudam, o que mantém toda a organização adaptável.
 
-## Para onde nos movemos
+## Até onde ir?
 
-As organizações de engenharia de produto que se mantêm fiéis à qualidade sustentável, ao valor para o cliente e a uma elevada adaptabilidade fazem as seguintes mudanças estratégicas, com a IA como alavanca para as facilitar:
+Estas mudanças não são uma lista de verificação. Nem todas as organizações precisam das seis, nem de todas com a mesma profundidade. Quais importam, e até onde leva cada uma, depende do seu produto, dos seus clientes e da vantagem competitiva que quer construir.
 
-### funcionalidades → sistemas (features → systems)
-Levar os engenheiros de produto a deixarem de programar funcionalidades uma a uma e a passarem a desenhar os sistemas agênticos que as constroem — ciclos que se aprimoram a si próprios e transformam a intenção em software testado e em funcionamento.
+Use-as como inspiração para definir a sua estratégia. Escolha as mudanças que reforçam a sua vantagem, decida até onde ir com cada uma e só então escolha onde a IA as amplifica. Reveja a combinação à medida que aprende. É assim que faz seu o Agentic Shift e o concretiza nos seus próprios termos.
 
-### inspeção → verificação (inspection → verification)
-Incorporar a qualidade diretamente ao sistema, em vez de a inspecionar manualmente ao final do processo — a verificação automatizada confronta cada alteração com os testes e as especificações, enquanto os engenheiros de produto reveem os testes e assumem o ciclo de valor.
+## O que se segue?
 
-### especialistas → artesãos (specialists → craftspeople)
-Permitir que os engenheiros de produto deixem de ser especialistas estreitos, de linha de montagem, e passem a artesãos de ponta a ponta — com a IA a preencher as lacunas de especialidade e a oferecer a requalificação necessária para entrar em novos domínios.
-
-### intermediários → utilizadores (proxies → users)
-Acabar com a comunicação indireta por meio de gestores intermediários e com a era da «TI fechada na cave» — e colocar, em vez disso, os engenheiros de produto em distância zero dos clientes e utilizadores, para compreender, analisar e sintetizar necessidades diretamente da fonte.
-
-### produção → resultados (output → outcomes)
-Elevar os engenheiros de produto de serem medidos pela produção a assumirem o ciclo de valor completo — garantindo um impacto real nos clientes, experimentando e corrigindo o rumo à medida que surgem as evidências.
-
-Estas mudanças não são novas. Estavam bem documentadas e recomendadas muito antes da atual vaga de IA. A IA não muda a razão pela qual estas mudanças importam. Torna-as mais viáveis, mais relevantes e mais urgentes.
-
-Agora, que mudanças a sua organização assume é **consigo**. O que importa é que sejam **estratégicas e não de vista curta** — que sirvam a organização que quer ter daqui a anos, e não os números que o FOMO o levaria a perseguir neste trimestre.
-
-## O que nos recusamos a aceitar
-
-Os laboratórios de fronteira otimizam a adoção dos *seus* produtos, e o FOMO é a alavanca mais forte que puxam sobre nós. É talvez uma estratégia de negócio legítima, mas é deles, não nossa.
-
-Para que a mudança se mantenha saudável, diga o hype o que disser, há três coisas que não trocaremos por ganhos de curto prazo:
-
-### juízo perdido ≠ eficiência (lost judgment ≠ efficiency)
-Não equiparamos a perda do juízo — sobre o código, o design, a arquitetura, as funcionalidades, o valor ou o gosto — à eficiência.
-
-### dependência de fornecedores ≠ progresso (vendor dependence ≠ progress)
-Não aceitamos como progresso a dependência dos fornecedores de IA — dos seus modelos, do seu tooling e dos ciclos de vida que propõem.
-
-### volume de produção ≠ capacidade (output volume ≠ capability)
-Não confundimos mais produção — mais código, funcionalidades ou tokens — com uma organização mais capaz.
-
-Em suma, não deixamos que o hype da IA sufoque o pensamento de longo prazo sobre as nossas organizações e sobre o que é bom para as nossas pessoas e os nossos negócios. Por isso dizemos: **«Primeiro o design organizacional, depois a IA.»** Partimos das mudanças acima e depois usamos a IA, e outros meios, para as tornar reais.
-
-## O que se segue
-
-### Quer contribuir?
-[Proponha melhorias](https://github.com/krivitsky/agentic-shift). Partilhe esta página. Ponha estas ideias a trabalhar na sua organização.
+**Quer contribuir?** [Proponha melhorias](https://github.com/krivitsky/agentic-shift). Partilhe esta página. Ponha estas ideias a trabalhar na sua organização.
 
 ---
 

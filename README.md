@@ -6,7 +6,7 @@
 
 <!-- MANIFESTO:START -->
 
-> _Generated from [`manifesto/v4/en.json`](manifesto/v4/en.json) — edit the JSON, then run `node manifesto/build.js`. Do not edit this section by hand._
+> _Generated from [`manifesto/content/en.json`](manifesto/content/en.json) — edit the JSON (and its siblings for other languages), then run `node manifesto/build.js`. Do not edit this section by hand._
 
 _From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services._
 

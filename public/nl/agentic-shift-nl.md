@@ -2,60 +2,30 @@
 
 _Van tokenmaxing en ander AI-theater naar gezonde organisaties waarin mensen floreren en geweldige producten en diensten bouwen._
 
-## Waar wij voor staan
+## Waarom veranderen?
 
-De **agentic shift** is echt, en hij is een echte kans. Hij raakt onze organisaties diep en verandert hoe wij werken en hoe wij samenwerken. Wij gebruiken deze tools elke dag en genieten ervan.
+Wij gebruiken AI-tools elke dag, en we genieten ervan. AI is een gedemocratiseerde technologie. Iedereen heeft het, dus op zichzelf geeft het niemand een voorsprong. Het versnelt de neigingen die een organisatie al heeft. Daarom is het belangrijk om je concurrentievoordeel te kennen en te weten hoe je het versterkt met een strategische AI-adoptie, in plaats van overal AI rond te strooien vanwege de FOMO die de AI-leveranciers verspreiden.
 
-Wat wij wél weten, is dat het niet gaat om tooling, tokens of welke andere outputmaat dan ook die toevallig makkelijk te meten is. Het gaat om het bouwen van **betere, gezondere organisaties** die betere producten en diensten leveren, en waarin gewone mensen floreren. Dát is wat telt.
+Hieronder staan de shifts die organisaties maken die duurzame kwaliteit, echte klantwaarde en hoge wendbaarheid willen.
 
-Elke organisatie is uniek in hoe ze is gebouwd en wat ze nastreeft. Wij leiden **onze** organisaties, en wij worden afgerekend op wat voor ons telt — onze klanten, medewerkers en andere belanghebbenden.
+## Jouw shift
 
-Dus voor ons is één ding niet onderhandelbaar: **de agentic shift gebeurt op onze voorwaarden** en optimaliseert voor wat wij belangrijk vinden — niet op de voorwaarden van AI-leveranciers en de hype rond AI-modellen.
+- **smalle specialisten → complete vakmensen** (narrow specialists → complete craftspeople) — Product engineers in staat stellen om van smalle lopendebandspecialisten te veranderen in end-to-end vakmensen — waarbij AI de specialistische gaten opvult en bijscholing biedt om nieuwe domeinen binnen te gaan.
+- **afhankelijkheden coördineren → extreme cocreatie** (coordinating dependencies → extreme cocreation) — In plaats van fragmenten te coördineren via overdrachten en integratiemeetings, werken complete vakmensen in flow met hun agents en met elkaar, wisselen ze gefocust werk af met samen naar het hele product kijken, en verbeteren ze het als geheel.
+- **features coderen → agentic systemen ontwerpen** (coding features → designing agentic systems) — Product engineers meenemen van het één voor één coderen van features naar het ontwerpen van de agentic systemen die ze bouwen — zelfverbeterende loops die intentie omzetten in geteste, werkende software en elke wijziging toetsen aan tests en specificaties, terwijl product engineers eigenaar zijn van de tests en de waardelus.
+- **het doorfluisteren → nul afstand tot gebruikers** (the telephone game → zero distance to users) — Een einde maken aan het doorfluisteren via manager-tussenpersonen en aan het tijdperk van “IT in de kelder” — en in plaats daarvan product engineers op nul afstand van klanten en gebruikers zetten, om zich uit de eerste hand in te leven, te analyseren en te synthetiseren.
+- **output tellen → eigenaar van uitkomsten** (counting output → owning outcomes) — Product engineers optillen van output tellen naar eigenaarschap van de volledige waardelus — echte klantimpact borgen, experimenteren en bijsturen zodra het bewijs binnenkomt.
+- **werk volgt mensen → mensen volgen waarde** (work follows people → people follow value) — Organiseren rond waarde in plaats van rond bestaande rollen en teamgrenzen — product engineers gaan naar waar het waardevolste werk ligt wanneer prioriteiten verschuiven, en dat houdt de hele organisatie wendbaar.
 
-## Waar wij naartoe bewegen
+## Hoe ver ga je?
 
-Product-engineeringorganisaties die vasthouden aan duurzame kwaliteit, klantwaarde en hoge wendbaarheid maken de volgende strategische verschuivingen, met AI als hefboom die ze vergemakkelijkt:
+Deze shifts zijn geen checklist. Niet elke organisatie heeft ze alle zes nodig, en niet allemaal even diep. Welke ertoe doen, en hoe ver je met elk ervan gaat, hangt af van je product, je klanten en het concurrentievoordeel dat je wilt opbouwen.
 
-### features → systemen (features → systems)
-Product engineers meenemen van het één voor één coderen van features naar het ontwerpen van de agentic systemen die de features bouwen — zelfverbeterende loops die intentie omzetten in geteste, werkende software.
-
-### inspectie → verificatie (inspection → verification)
-Kwaliteit in het systeem inbouwen in plaats van die aan het eind handmatig te inspecteren — geautomatiseerde verificatie toetst elke wijziging aan tests en specificaties, terwijl product engineers de tests reviewen en eigenaar zijn van de waardelus.
-
-### specialisten → vakmensen (specialists → craftspeople)
-Product engineers in staat stellen om van smalle, lopendebandspecialisten te veranderen in end-to-end vakmensen — waarbij AI de specialistische gaten opvult en bijscholing biedt om nieuwe domeinen binnen te gaan.
-
-### tussenpersonen → gebruikers (proxies → users)
-Een einde maken aan het doorgeefspel via manager-tussenpersonen en aan het tijdperk van “IT in de kelder” — en in plaats daarvan product engineers op nul afstand van klanten en gebruikers zetten, om zich uit de eerste hand in te leven, te analyseren en te synthetiseren.
-
-### output → uitkomsten (output → outcomes)
-Product engineers optillen van afgerekend worden op output naar het bezitten van de volledige waardelus — echte klantimpact borgen, experimenteren en bijsturen zodra het bewijs binnenkomt.
-
-Deze verschuivingen zijn niet nieuw. Ze waren al ruim vóór de huidige AI-golf goed gedocumenteerd en aanbevolen. AI verandert niet waarom deze verschuivingen belangrijk zijn. AI maakt ze haalbaarder, relevanter en urgenter.
-
-Welke verschuivingen jouw organisatie nu oppakt, is **aan jou**. Wat telt is dat ze **strategisch zijn en niet kortzichtig** — dat ze de organisatie dienen die je over jaren wilt hebben, en niet de cijfers die FOMO je dit kwartaal wil laten najagen.
-
-## Wat wij niet accepteren
-
-De frontier labs optimaliseren voor de adoptie van *hun* producten, en FOMO is de sterkste hefboom waaraan ze bij ons trekken. Dat is misschien een legitieme bedrijfsstrategie, maar het is de hunne, niet de onze.
-
-Om de agentic shift gezond te houden, wat de hype ook zegt, zijn er drie dingen die wij niet inruilen voor kortetermijnwinst:
-
-### verloren oordeel ≠ efficiëntie (lost judgment ≠ efficiency)
-Wij stellen het verlies van oordeelsvermogen — in code, ontwerp, architectuur, features, waarde of smaak — niet gelijk aan efficiëntie.
-
-### leveranciersafhankelijkheid ≠ vooruitgang (vendor dependence ≠ progress)
-Wij accepteren afhankelijkheid van AI-leveranciers — hun modellen, tooling en voorgestelde levenscycli — niet als vooruitgang.
-
-### outputvolume ≠ vermogen (output volume ≠ capability)
-Wij verwarren meer output — meer code, features of tokens — niet met een capabelere organisatie.
-
-Kortom: wij laten niet toe dat AI-hype het langetermijndenken verdringt over onze organisaties en over wat goed is voor onze mensen en onze bedrijven. Daarom zeggen wij: **“Eerst org-ontwerp, dan AI.”** Wij vertrekken vanuit de verschuivingen hierboven en zetten daarna AI, en andere middelen, in om ze waar te maken.
+Gebruik ze als inspiratie om je strategie te bepalen. Kies de shifts die je voordeel verstevigen, beslis hoe ver je met elk ervan gaat, en kies pas dan waar AI ze versterkt. Herzie de mix terwijl je leert. Zo maak je de agentic shift tot de jouwe en maak je hem waar op jouw voorwaarden.
 
 ## Wat nu?
 
-### Wil je bijdragen?
-[Stel verbeteringen voor](https://github.com/krivitsky/agentic-shift). Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie.
+**Wil je bijdragen?** [Stel verbeteringen voor](https://github.com/krivitsky/agentic-shift). Deel deze pagina. Zet deze ideeën aan het werk in je eigen organisatie.
 
 ---
 

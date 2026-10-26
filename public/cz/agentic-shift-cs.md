@@ -2,60 +2,30 @@
 
 _Od tokenmaxingu a dalšího AI divadla ke zdravým organizacím, v nichž lidé vzkvétají a tvoří skvělé produkty a služby._
 
-## Za čím stojíme
+## Proč se měnit?
 
-**Agentní posun** je skutečný a je to skutečná příležitost. Zasahuje naše organizace do hloubky a mění, jak pracujeme a jak spolupracujeme. Tyto nástroje používáme každý den a baví nás to.
+AI nástroje používáme každý den a baví nás. AI je demokratizovaná technologie. Má ji každý, takže sama o sobě nikomu náskok nedává. Urychluje tendence, které organizace už má. Proto je důležité znát svou konkurenční výhodu a vědět, jak ji zesílit strategickým zaváděním AI, místo abyste AI rozsévali všude kolem kvůli FOMO, které šíří dodavatelé AI.
 
-Co ale víme, je, že nejde o tooling, o tokeny ani o žádnou jinou metriku výstupu, která se shodou okolností snadno měří. Jde o budování **lepších, zdravějších organizací**, které nabízejí lepší produkty a služby a v nichž se obyčejným lidem daří. Na tom záleží.
+Níže jsou posuny, které dělají organizace, jež chtějí udržitelnou kvalitu, skutečnou hodnotu pro zákazníky a vysokou přizpůsobivost.
 
-Každá organizace je jedinečná tím, jak byla postavena a kam míří. Řídíme **své** organizace a jsme souzeni podle toho, na čem záleží nám — našim zákazníkům, zaměstnancům a dalším zainteresovaným.
+## Váš posun
 
-Proto je pro nás jedna věc nesmlouvavá: **agentní posun se děje za našich podmínek** a optimalizuje pro to, co je pro nás důležité — ne za podmínek dodavatelů AI a humbuku kolem AI modelů.
+- **úzcí specialisté → všestranní řemeslníci** (narrow specialists → complete craftspeople) — Umožnit produktovým inženýrům přejít od úzkých specialistů na montážní lince k řemeslníkům, kteří zvládnou celý řetězec — s AI, která doplňuje chybějící specializace a nabízí doškolení pro vstup do nových domén.
+- **koordinace závislostí → extrémní spolutvorba** (coordinating dependencies → extreme cocreation) — Místo koordinace fragmentů přes předávky a integrační schůzky pracují všestranní řemeslníci v plynulém toku se svými agenty i mezi sebou, střídají soustředěnou práci se společným pohledem na celý produkt a zlepšují ho jako celek.
+- **programování funkcí → navrhování agentních systémů** (coding features → designing agentic systems) — Posunout produktové inženýry od programování funkce za funkcí k navrhování agentních systémů, které tyto funkce stavějí — sebezdokonalujících se smyček, které mění záměr v otestovaný, fungující software a prověřují každou změnu vůči testům a specifikacím, zatímco produktoví inženýři odpovídají za testy a hodnotovou smyčku.
+- **tichá pošta → nulová vzdálenost od uživatelů** (the telephone game → zero distance to users) — Ukončit tichou poštu přes manažery-prostředníky i éru „IT sedícího ve sklepě“ — a místo toho postavit produktové inženýry na nulovou vzdálenost od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky.
+- **počítání výstupů → odpovědnost za výsledky** (counting output → owning outcomes) — Přivést produktové inženýry od počítání výstupů k odpovědnosti za celé hodnotové smyčky — zajišťují skutečný dopad na zákazníky, experimentují a korigují kurz, jakmile přicházejí důkazy.
+- **práce jde za lidmi → lidé jdou za hodnotou** (work follows people → people follow value) — Organizovat se kolem hodnoty místo kolem stávajících rolí a hranic týmů — produktoví inženýři se přesouvají tam, kde je právě nejhodnotnější práce, když se mění priority, a to udržuje celou organizaci přizpůsobivou.
 
-## Kam se posouváme
+## Jak daleko zajít?
 
-Organizace produktového inženýrství, které si drží udržitelnou kvalitu, hodnotu pro zákazníka a vysokou přizpůsobivost, dělají následující strategické posuny, s AI jako pákou, která je usnadňuje:
+Tyto posuny nejsou kontrolní seznam. Ne každá organizace potřebuje všech šest a ne všechny do stejné hloubky. Které z nich jsou důležité a jak daleko který dovedete, závisí na vašem produktu, vašich zákaznících a konkurenční výhodě, kterou chcete vybudovat.
 
-### funkce → systémy (features → systems)
-Posunout produktové inženýry od programování funkce za funkcí k navrhování agentních systémů, které tyto funkce stavějí — sebezdokonalujících se smyček, které mění záměr v otestovaný, fungující software.
-
-### kontrola → verifikace (inspection → verification)
-Zabudovat kvalitu do systému místo její ruční kontroly na konci — automatizovaná verifikace prověřuje každou změnu vůči testům a specifikacím, zatímco produktoví inženýři revidují testy a vlastní hodnotovou smyčku.
-
-### specialisté → řemeslníci (specialists → craftspeople)
-Umožnit produktovým inženýrům přejít od úzkých specialistů na montážní lince k řemeslníkům, kteří zvládnou celý řetězec — s AI, která doplňuje chybějící specializace a nabízí doškolení pro vstup do nových domén.
-
-### prostředníci → uživatelé (proxies → users)
-Ukončit tichou poštu přes manažery-prostředníky i éru „IT sedícího ve sklepě“ — a místo toho postavit produktové inženýry na nulovou vzdálenost od zákazníků a uživatelů, aby se do nich vcítili, analyzovali a syntetizovali z první ruky.
-
-### výstupy → dopady (output → outcomes)
-Povýšit produktové inženýry z toho, že jsou měřeni podle výstupů, na to, že vlastní celou hodnotovou smyčku — zajišťují skutečný dopad na zákazníky, experimentují a korigují kurz, jakmile přicházejí důkazy.
-
-Tyto posuny nejsou nové. Byly dobře zdokumentované a doporučované dávno před současnou vlnou AI. AI nemění to, proč na těchto posunech záleží. Činí je proveditelnějšími, relevantnějšími a naléhavějšími.
-
-Které posuny tedy vaše organizace pojme za své, je **na vás**. Podstatné je, aby byly **strategické, ne krátkozraké** — aby sloužily organizaci, kterou chcete mít za pár let, a ne číslům, za kterými by vás FOMO hnalo v tomto kvartálu.
-
-## Co odmítáme přijmout
-
-Špičkové laboratoře optimalizují pro přijetí *svých* produktů a FOMO je nejsilnější páka, kterou na nás tahají. Je to možná legitimní obchodní strategie, ale je jejich, ne naše.
-
-Aby posun zůstal zdravý, ať si humbuk říká, co chce, jsou tři věci, které nevyměníme za krátkodobé zisky:
-
-### ztracený úsudek ≠ efektivita (lost judgment ≠ efficiency)
-Ztrátu úsudku — nad kódem, designem, architekturou, funkcemi, hodnotou či vkusem — neztotožňujeme s efektivitou.
-
-### závislost na dodavatelích ≠ pokrok (vendor dependence ≠ progress)
-Závislost na dodavatelích AI — na jejich modelech, nástrojích a navrhovaných životních cyklech — nepřijímáme jako pokrok.
-
-### objem výstupů ≠ schopnost (output volume ≠ capability)
-Nezaměňujeme více výstupů — více kódu, funkcí či tokenů — za schopnější organizaci.
-
-Zkrátka, nedovolíme, aby humbuk kolem AI vytlačil dlouhodobé uvažování o našich organizacích a o tom, co je dobré pro naše lidi a naše firmy. Proto říkáme: **„Nejdřív organizační design, pak AI.“** Vycházíme z posunů popsaných výše a pak používáme AI a další prostředky, abychom je uskutečnili.
+Použijte je jako inspiraci k definování své strategie. Vyberte posuny, které posilují vaši výhodu, rozhodněte, jak daleko s každým půjdete, a teprve pak zvolte, kde je AI zesílí. Kombinaci průběžně revidujte podle toho, co se naučíte. Tak se Agentic Shift stane vaším a uskutečníte ho za vlastních podmínek.
 
 ## Co dál?
 
-### Chcete přispět?
-[Navrhněte vylepšení](https://github.com/krivitsky/agentic-shift). Sdílejte tuto stránku. Uveďte tyto myšlenky do praxe ve své organizaci.
+**Chcete přispět?** [Navrhněte vylepšení](https://github.com/krivitsky/agentic-shift). Sdílejte tuto stránku. Uveďte tyto myšlenky do praxe ve své organizaci.
 
 ---
 

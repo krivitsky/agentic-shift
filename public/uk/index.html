@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Agentic Shift — Спершу організаційний дизайн, потім ШІ</title>
-  <meta name="description" content="Від tokenmaxing та іншого ШІ-театру до здорових організацій, у яких люди процвітають і створюють чудові продукти та послуги. Що ми обстоюємо, куди рухаємося, чого не приймаємо.">
+  <title>Agentic Shift</title>
+  <meta name="description" content="Від tokenmaxing та іншого ШІ-театру до здорових організацій, у яких люди процвітають і створюють чудові продукти та послуги.">
   <meta name="keywords" content="agentic shift, агентна продуктова інженерія, agentic product engineering, ШІ-агенти, організаційний дизайн, продуктова інженерія, Alexey Krivitsky">
   <meta name="author" content="Alexey Krivitsky">
   <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#05090d">
+  <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="/uk/">
   <link rel="alternate" type="text/markdown" href="/llms.txt" title="Agentic Shift — машиночитна (LLM) версія">
   <link rel="manifest" href="/site.webmanifest">
@@ -35,19 +35,20 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Agentic Shift">
-  <meta property="og:title" content="Agentic Shift — Спершу організаційний дизайн, потім ШІ">
+  <meta property="og:title" content="Agentic Shift">
   <meta property="og:description" content="Від tokenmaxing та іншого ШІ-театру до здорових організацій, у яких люди процвітають і створюють чудові продукти та послуги.">
   <meta property="og:locale" content="uk_UA">
   <meta property="og:url" content="/uk/">
-  <meta property="og:image" content="/images/og-shift.png">
+  <meta property="og:image" content="/images/og-shift-v4.png">
+  <meta property="og:image:alt" content="Agentic Shift: three shift sliders moved toward complete craftspeople, zero distance to users and owning outcomes">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Agentic Shift — Спершу організаційний дизайн, потім ШІ">
+  <meta name="twitter:title" content="Agentic Shift">
   <meta name="twitter:description" content="Від tokenmaxing та іншого ШІ-театру до здорових організацій, у яких люди процвітають і створюють чудові продукти та послуги.">
-  <meta name="twitter:image" content="/images/og-shift.png">
+  <meta name="twitter:image" content="/images/og-shift-v4.png">
 
   <!-- Structured data -->
   <script type="application/ld+json">
@@ -63,11 +64,21 @@
   }
   </script>
 
+  <!-- Theme before first paint: a stored choice wins, else light (Alexey,
+       2026-10-25: light is the default, whatever the OS says). -->
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('agentic-theme'); } catch (e) {}
+      if (t !== 'dark' && t !== 'light') t = 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/shift.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,800;1,500&display=swap" rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJW53LEJGS"></script>
@@ -80,124 +91,190 @@
   </script>
 
   <style>
-    /* Page-scoped CSS for the manifesto pages — same pattern as /community.
-       It lives here rather than in the shared shift.css because it belongs to
-       this page only, and here every language inherits it. shift.css still
-       carries the design system and the markup the archived /v1 and /v12 use. */
+    /* v4 homepage (spec: specs/v3/README.md §v4, design: specs/v4/design).
+       Self-contained on purpose: shift.css still serves /munich, /v1, /v12
+       and the 11 translated pages, so nothing here may leak into it. */
+    :root[data-theme="dark"] {
+      --bg: #05090D; --text: #EDF1EF; --accent: #3DDC9A; --fill: #3DDC9A;
+      --muted: #9AA4AC; --line: #2A333A; --panel: #1C2329;
+      color-scheme: dark;
+    }
+    :root, [data-theme="light"] {
+      --bg: #FFFFFF; --text: #05090D; --accent: #0E7A55; --fill: #3DDC9A;
+      --muted: #5B6670; --line: #E3E7E5; --panel: #F4F6F5;
+      color-scheme: light;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+    /* One family, Inter, for everything. The design used Inter Tight, which
+       read "too sharpy" in running text and "too condensed" in the headlines
+       (Alexey, 2026-10-25), so letter-spacing is looser than the design too. */
+    .wrap {
+      padding-left: max(16px, calc((100% - 1200px) / 2));
+      padding-right: max(16px, calc((100% - 1200px) / 2));
+    }
+    /* No hyphenation anywhere (Alexey, 2026-10-25: no "prod-ucts"). */
+    .txt, p, h1, h2, li { overflow-wrap: break-word; hyphens: none; -webkit-hyphens: none; }
+    a { color: var(--accent); }
+    a:hover { color: var(--text); }
+    a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 
-    /* Hero kicker. Sits above the name so the human promise lands before the
-       label does: what this is for, then what it is called, then where it goes.
-       Mono and small, the same voice the page already uses for its quiet labels
-       (community tag, group headings) — it must not compete with the headline. */
-    .hero-kicker {
-      font-family: var(--font-mono);
-      font-size: clamp(12px, 1.3vw, 15px);
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--teal);
-      margin-bottom: clamp(10px, 1.4vw, 16px);
+    /* ── Header ─────────────────────────────────────────── */
+    .top { padding-top: 48px; padding-bottom: 56px; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    /* The bar spans the word "Agentic" below it (3.63em of the headline size),
+       so it reads as part of the title (Alexey, 2026-10-25: 72px was too short). */
+    .mark { width: calc(clamp(52px, 11vw, 144px) * 3.63); height: 12px; background: var(--fill); flex: none; margin-left: 0.04em; }
+    .tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .theme-toggle {
+      width: 48px; height: 48px; padding: 0; flex: none;
+      display: flex; align-items: center; justify-content: center;
+      border: 2px solid var(--line); border-radius: 0;
+      background: transparent; color: var(--text); cursor: pointer;
+    }
+    .theme-toggle .sun { display: none; }
+    [data-theme="dark"] .theme-toggle .sun { display: block; }
+    [data-theme="light"] .theme-toggle .moon { display: block; }
+    .theme-toggle .moon { display: none; }
+    .langs { position: relative; }
+    .langs summary {
+      list-style: none; cursor: pointer; height: 48px; padding: 0 14px;
+      display: flex; align-items: center; border: 2px solid var(--line);
+      font-size: 16px; font-weight: 500; color: var(--text);
+    }
+    .langs summary::-webkit-details-marker { display: none; }
+    .langs-list {
+      position: absolute; right: 0; top: 54px; z-index: 5; min-width: 180px;
+      background: var(--bg); border: 2px solid var(--line); padding: 8px 0;
+      display: flex; flex-direction: column;
+    }
+    .langs-list a { padding: 10px 16px; font-size: 16px; text-decoration: none; color: var(--text); }
+    .langs-list a:hover { color: var(--accent); }
+    .langs-list a[aria-current="page"] { color: var(--accent); font-weight: 800; }
+    .langs-list .md-dl { border-top: 2px solid var(--line); margin-top: 6px; padding-top: 14px; color: var(--muted); }
+    h1 {
+      margin: 28px 0 0; font-size: clamp(52px, 11vw, 144px); line-height: 0.92;
+      font-weight: 800; letter-spacing: -0.03em;
+    }
+    .subtitle {
+      margin: 32px 0 0; max-width: 780px;
+      font-size: clamp(20px, calc(17.37px + 0.674vw), 26px); line-height: 1.35;
+      font-weight: 500; font-style: italic;
     }
 
-    /* A card group sits between plain paragraphs — an intro .lede above, an
-       outro .lede below — with nothing but its own margins to separate it, so
-       without this the cards collide with the prose on both sides. Give the
-       group its own air. */
-    .manifesto .group {
-      margin-top: clamp(22px, 3vw, 32px);
-      margin-bottom: clamp(30px, 4.5vw, 52px);
+    /* ── Text sections (head left, prose right) ─────────── */
+    .sec {
+      border-top: 2px solid var(--line); padding: 40px 0 48px;
+      display: flex; flex-wrap: wrap; gap: 24px 56px;
+    }
+    .sec h2 {
+      flex: 1 1 260px; min-width: 0; margin: 0;
+      font-size: clamp(32px, 4vw, 52px); line-height: 1; font-weight: 800; letter-spacing: -0.02em;
+    }
+    .prose {
+      flex: 2 1 420px; min-width: 0; max-width: 68ch;
+      font-size: clamp(18px, calc(15.9px + 0.54vw), 20px); line-height: 1.55;
+    }
+    .prose p { margin: 0; }
+    .prose p + p { margin-top: 20px; }
+    .prose .q { font-weight: 800; }
+
+    /* ── Own your shift ─────────────────────────────────── */
+    .band { background: var(--fill); color: #05090D; }
+    .band h2 {
+      margin: 0; padding: 40px 0;
+      font-size: clamp(52px, 11vw, 144px); line-height: 0.95; font-weight: 800; letter-spacing: -0.03em;
+    }
+    .rows { list-style: none; margin: 0; padding: 0; border-bottom: 2px solid var(--line); }
+    .rows-wrap { padding-top: 40px; padding-bottom: 8px; }
+    .row {
+      border-top: 2px solid var(--line); padding: 28px 0;
+      display: flex; flex-wrap: wrap; gap: 20px 56px; align-items: flex-start;
+    }
+    .row-main { flex: 1 1 560px; min-width: 0; }
+    .ends { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 6px 16px; }
+    .from {
+      min-width: 0; max-width: 100%;
+      font-size: clamp(15px, calc(14.56px + 0.112vw), 16px); line-height: 1.2; color: var(--muted);
+    }
+    /* Translated pages: the canonical English words under each localized term. */
+    .gloss { display: block; margin-top: 4px; font-size: 14px; font-weight: 400; line-height: 1.2; letter-spacing: 0; color: var(--muted); }
+    .to {
+      min-width: 0; max-width: 100%; margin-left: auto; text-align: right;
+      font-size: clamp(20px, calc(18.25px + 0.449vw), 24px); line-height: 1.15;
+      font-weight: 800; color: var(--accent); letter-spacing: -0.01em;
+    }
+    .note {
+      flex: 0 1 520px; min-width: 0; max-width: 72ch; margin: 0;
+      font-size: clamp(16px, calc(15.56px + 0.112vw), 17px); line-height: 1.5;
+    }
+    .fader { position: relative; height: 64px; margin-top: 16px; --f: 0; }
+    .ticks { position: absolute; left: 0; right: 0; height: 6px;
+      background: repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px 20px); }
+    .ticks.t1 { top: 9px; } .ticks.t2 { bottom: 9px; }
+    .track { position: absolute; left: 0; right: 0; top: 28px; height: 8px; border-radius: 4px; background: var(--line); }
+    .bar {
+      position: absolute; left: 0; top: 28px; height: 8px; border-radius: 4px; background: var(--fill);
+      width: calc((100% - 36px) * var(--f) + 18px);
+    }
+    .cap {
+      position: absolute; top: 6px; width: 36px; height: 52px; border-radius: 4px;
+      background: var(--text); pointer-events: none;
+      left: calc((100% - 36px) * var(--f));
+      box-shadow: 0 3px 0 var(--muted), 0 6px 8px rgba(0,0,0,0.35);
+    }
+    .cap::before {
+      content: ""; position: absolute; inset: 0; border-radius: 4px;
+      background: repeating-linear-gradient(0deg, rgba(0,0,0,0.22) 0 1px, transparent 1px 5px);
+    }
+    .cap::after {
+      content: ""; position: absolute; left: 16px; top: 5px; bottom: 5px; width: 4px;
+      border-radius: 2px; background: var(--bg);
+    }
+    .fader.travel .cap { transition: left 1.5s cubic-bezier(.22,.8,.2,1), transform .15s ease, box-shadow .15s ease; }
+    .fader.travel .bar { transition: width 1.5s cubic-bezier(.22,.8,.2,1); }
+    .fader.drag .cap { transform: scale(1.12); box-shadow: 0 0 0 4px var(--accent), 0 10px 14px rgba(0,0,0,0.35); transition: transform .15s ease, box-shadow .15s ease; }
+    .hit {
+      -webkit-appearance: none; appearance: none; position: absolute; left: 0; top: 0;
+      width: 100%; height: 100%; margin: 0; padding: 0; opacity: 0;
+      cursor: grab; z-index: 2; background: transparent; touch-action: pan-y;
+    }
+    .hit:active { cursor: grabbing; }
+    .hit::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 36px; height: 64px; }
+    .hit::-moz-range-thumb { width: 36px; height: 64px; border: none; }
+    .hit:focus-visible ~ .cap { outline: 3px solid var(--accent); outline-offset: 4px; }
+    @media (prefers-reduced-motion: reduce) {
+      .fader.travel .cap, .fader.travel .bar { transition: none; }
     }
 
-    /* The shift cards lost their 01/02/03. Numbering implied a sequence — do this
-       one first — which contradicts the line closing the section: which shifts you
-       take on is yours to decide. Three items, no order, so no numbers, and the
-       list is a <ul> rather than an <ol>. Dropping the marker means dropping its
-       gutter too, or every card keeps a 54px hole where the number used to be. */
-    .group-org .shifts { list-style: none; }
-    .group-org .shift { grid-template-columns: 1fr; }
-
-    /* "What we refuse" — identical to every other .section-head in size, family,
-       weight and rule; only the word colour changes. #e8617f is a rose-red
-       deliberately built off amber's red channel (#e8a33d) so it sits in the
-       same light family as the two existing accents instead of shouting over
-       them. NOTE: this is a FOURTH hue in a three-colour system (ink / teal /
-       amber) — it earns its place only if refusal is the one thing on the page
-       allowed to look different. Drop this rule to revert. */
-    .section-head-refuse .txt { color: #e8617f; }
-
-    /* The refusals reuse the shift-card markup so they read in the same visual
-       grammar as the shifts — but with ≠ instead of an arrow, so nothing
-       suggests "move from here to there". The ≠ already says "not", so there is
-       no marker either, and every card on the page is single-column. Same rose
-       as the section head; each pair keeps its full sentence as the .note,
-       exactly like a shift card, so the compressed pair is never the only
-       reading. */
-    .group-refuse .shifts { list-style: none; }
-    .group-refuse .pair .to,
-    .group-refuse .pair .arrow { color: #e8617f; }
-    .group-refuse .shift:hover { border-color: rgba(232, 97, 127, 0.4); }
-    .group-refuse .shift { grid-template-columns: 1fr; }
-
-    /* The card notes were capped at 46em for a readable measure, but the pair
-       headline above them runs the full box, so on a wide screen the note
-       stopped short and left a single word alone on its last line — it read as
-       a bug rather than as typography. Widened to fill the card, with an
-       ultra-wide guard still in place, and text-wrap: pretty so the last line
-       never orphans a word again. */
-    .manifesto .group .note {
-      max-width: 64em;
-      text-wrap: pretty;
+    /* ── Footer ─────────────────────────────────────────── */
+    .foot {
+      border-top: 4px solid var(--text); padding: 28px 0 56px;
+      font-size: 14px; line-height: 1.6; color: var(--muted);
+      display: flex; flex-direction: column; gap: 4px;
     }
-
-    /* <em> in the copy is a spoken stress ("the adoption of their products"),
-       so it is set in real italics: Poppins 400 italic is loaded above for it.
-       shift.css draws .lede em upright and white for /munich and the archives;
-       this overrides it on the manifesto only. Chinese and Japanese have no
-       italics, so they get their native emphasis dots instead (under the
-       glyph in Chinese, over it in Japanese). */
-    .manifesto .lede em { font-style: italic; color: inherit; }
-    .manifesto .lede em:lang(zh),
-    .manifesto .lede em:lang(ja) {
-      font-style: normal;
-      -webkit-text-emphasis: filled dot;
-      text-emphasis: filled dot;
-    }
-    .manifesto .lede em:lang(zh) {
-      -webkit-text-emphasis-position: under right;
-      text-emphasis-position: under right;
-    }
+    .foot a { display: inline-block; padding: 8px 0; }
+    .foot .ctas { display: flex; flex-wrap: wrap; gap: 0 24px; font-size: 16px; }
   </style>
 </head>
 <body>
 
-  <!-- ── Hero ─────────────────────────────────────────────────────── -->
-  <header class="hero">
-
-    <!-- Rising dot-field: the mediocre grid dims into the background while a
-         diagonal of live nodes climbs to the top-right — the shift, made literal.
-         Adapted from the CTO-book cover motif. -->
-    <svg class="graph" viewBox="0 0 306 112" fill="none" aria-hidden="true">
-      <g class="grid">
-        <circle cx="0" cy="28" r="4.2"/><circle cx="34" cy="28" r="4.2"/><circle cx="68" cy="28" r="4.2"/><circle cx="102" cy="28" r="4.2"/><circle cx="136" cy="28" r="4.2"/><circle cx="170" cy="28" r="4.2"/><circle cx="204" cy="28" r="4.2"/>
-        <circle cx="0" cy="56" r="4.2"/><circle cx="34" cy="56" r="4.2"/><circle cx="68" cy="56" r="4.2"/><circle cx="102" cy="56" r="4.2"/><circle cx="136" cy="56" r="4.2"/><circle cx="170" cy="56" r="4.2"/><circle cx="306" cy="56" r="4.2"/>
-        <circle cx="0" cy="84" r="4.2"/><circle cx="34" cy="84" r="4.2"/><circle cx="68" cy="84" r="4.2"/><circle cx="102" cy="84" r="4.2"/><circle cx="136" cy="84" r="4.2"/><circle cx="238" cy="84" r="4.2"/><circle cx="272" cy="84" r="4.2"/><circle cx="306" cy="84" r="4.2"/>
-        <circle cx="0" cy="112" r="4.2"/><circle cx="34" cy="112" r="4.2"/><circle cx="68" cy="112" r="4.2"/><circle cx="170" cy="112" r="4.2"/><circle cx="204" cy="112" r="4.2"/><circle cx="238" cy="112" r="4.2"/><circle cx="272" cy="112" r="4.2"/><circle cx="306" cy="112" r="4.2"/>
-      </g>
-      <g class="rise">
-        <circle cx="102" cy="112" r="4.7"/><circle cx="136" cy="112" r="5.1"/><circle cx="170" cy="84" r="5.6"/><circle cx="204" cy="84" r="6"/><circle cx="204" cy="56" r="5"/><circle cx="238" cy="56" r="6.8"/><circle cx="238" cy="28" r="5.2"/><circle cx="272" cy="56" r="7.2"/><circle cx="272" cy="28" r="5.8"/><circle cx="306" cy="28" r="8.4"/>
-      </g>
-      <g class="peak">
-        <circle cx="272" cy="0" r="3.4"/><circle cx="306" cy="0" r="4.2"/>
-      </g>
-    </svg>
-
-    <div class="hero-mid">
-      <p class="hero-kicker">Зберігати здоровий глузд у гонці за ШІ</p>
-      <h1 class="headline">Agentic <span class="glitch" data-text="Shift">Shift</span></h1>
-      <div class="hero-rule" aria-hidden="true"></div>
-      <p class="subtitle">Від tokenmaxing та іншого ШІ-театру до здорових організацій, у яких люди процвітають і створюють чудові продукти та послуги.</p>
-    </div>
-
-    <nav class="langbar" aria-label="Мова">
+  <header class="wrap top">
+    <div class="topbar">
+      <div class="mark" aria-hidden="true"></div>
+      <div class="tools">
+        <details class="langs">
+          <summary aria-label="Мова">UK</summary>
+          <nav class="langs-list" aria-label="Мова">
       <a href="/" hreflang="en" lang="en">English</a>
       <a href="/de/" hreflang="de" lang="de">Deutsch</a>
       <a href="/nl/" hreflang="nl" lang="nl">Nederlands</a>
@@ -210,148 +287,226 @@
       <a href="/ru/" hreflang="ru" lang="ru">Русский</a>
       <a href="/zh/" hreflang="zh" lang="zh">中文</a>
       <a href="/ja/" hreflang="ja" lang="ja">日本語</a>
-      <span class="langbar-div" aria-hidden="true"></span>
-      <a class="md-dl" href="/uk/agentic-shift-uk.md" download="agentic-shift-uk.md" title="Download this page as Markdown (.md)" aria-label="Download this page as Markdown">
-        <svg viewBox="0 0 208 128" aria-hidden="true" focusable="false"><rect x="5" y="5" width="198" height="118" rx="10" fill="none" stroke="currentColor" stroke-width="10"/><path fill="currentColor" d="M30 98V30h20l20 25 20-25h20v68H90V59L70 84 50 59v39zm125 0l-30-33h20V30h20v35h20z"/></svg>
-        <span class="md-code">[UK]</span>
-      </a>
-    </nav>
-
+            <a class="md-dl" href="/uk/agentic-shift-uk.md" download="agentic-shift-uk.md">Завантажити як Markdown</a>
+          </nav>
+        </details>
+        <button class="theme-toggle" type="button" aria-label="Увімкнути темну тему" data-to-light="Увімкнути світлу тему" data-to-dark="Увімкнути темну тему">
+          <svg class="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"></path></svg>
+          <svg class="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"></path></svg>
+        </button>
+      </div>
+    </div>
+    <h1>Agentic<br>Shift</h1>
+    <p class="subtitle">Від tokenmaxing та іншого ШІ-театру до здорових організацій, у яких люди процвітають і створюють чудові продукти та послуги.</p>
   </header>
 
-  <!-- ── Manifesto ────────────────────────────────────────────────── -->
-  <main class="wrap manifesto">
+  <main>
+    <div class="wrap">
+      <section class="sec" id="why-shift">
+        <h2>Навіщо змінюватися?</h2>
+        <div class="prose">
+          <p>Ми щодня користуємося інструментами ШІ, і нам це подобається. ШІ — демократизована технологія. Він є в усіх, тож сам по собі нікому не дає переваги. Він прискорює ті тенденції, які в організації вже є. Тому важливо знати свою конкурентну перевагу і те, як підсилити її стратегічним упровадженням ШІ, замість того щоб розсипати ШІ всюди через FOMO, який поширюють постачальники ШІ.</p>
+          <p>Нижче — зрушення, які роблять організації, що прагнуть сталої якості, реальної цінності для клієнтів і високої адаптивності.</p>
+        </div>
+      </section>
+    </div>
 
-    <!-- ── Where we stand ───────────────────────────────────────────── -->
-
-    <h2 class="section-head" id="what-we-stand-for"><span class="txt">Що ми обстоюємо</span></h2>
-
-    <p class="lede"><span class="definition">Агентний перехід</span> — це реальність, і це справжня можливість. Він глибоко впливає на наші організації та змінює те, як ми працюємо і як працюємо разом. Ми користуємося цими інструментами щодня, і нам це подобається.</p>
-
-    <p class="lede">Проте ми знаємо ось що: справа не в інструментах, не в токенах і не в будь-якій іншій метриці виробітку, яку просто зручно вимірювати. Справа в тому, щоб будувати <span class="definition">кращі, здоровіші організації</span>, які пропонують кращі продукти та послуги і в яких процвітають звичайні люди. Саме це має значення.</p>
-
-    <p class="lede">Кожна організація унікальна тим, як її збудували і чого вона хоче досягти. Ми керуємо <span class="definition">своїми</span> організаціями, і нас оцінюють за тим, що важливо нам — нашим клієнтам, працівникам та іншим зацікавленим сторонам.</p>
-
-    <p class="lede">Тож для нас одна річ не підлягає обговоренню: <span class="definition">агентний перехід відбувається на наших умовах</span> і оптимізує те, що нам небайдуже, — а не на умовах ШІ-вендорів та ажіотажу навколо ШІ-моделей.</p>
-
-    <!-- ── What we shift ────────────────────────────────────────────── -->
-
-    <h2 class="section-head" id="what-we-shift"><span class="txt">Куди ми рухаємося</span></h2>
-
-    <p class="lede">Організації продуктової інженерії, які тримаються сталої якості, цінності для клієнта та високої адаптивності, роблять такі стратегічні зрушення, де ШІ є важелем, що їх полегшує:</p>
-
-    <section class="group group-org">
-      <ul class="shifts">
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">функції</span><span class="pair-en" lang="en">features</span></span><span class="arrow" aria-hidden="true">→</span><span class="term"><span class="to">системи</span><span class="pair-en" lang="en">systems</span></span></p>
-            <p class="note">Переводити продуктових інженерів від програмування функцій по одній до проєктування агентних систем, які їх будують, — самовдосконалюваних циклів, що перетворюють намір на протестоване, робоче програмне забезпечення.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">контроль</span><span class="pair-en" lang="en">inspection</span></span><span class="arrow" aria-hidden="true">→</span><span class="term"><span class="to">верифікація</span><span class="pair-en" lang="en">verification</span></span></p>
-            <p class="note">Убудовувати якість у систему замість того, щоб наприкінці вручну її контролювати, — автоматизована верифікація перевіряє кожну зміну на відповідність тестам і специфікаціям, тоді як продуктові інженери проводять рев’ю тестів і володіють циклом цінності.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">спеціалісти</span><span class="pair-en" lang="en">specialists</span></span><span class="arrow" aria-hidden="true">→</span><span class="term"><span class="to">майстри</span><span class="pair-en" lang="en">craftspeople</span></span></p>
-            <p class="note">Давати продуктовим інженерам змогу перейти від вузьких спеціалістів на конвеєрі до майстрів, які ведуть справу з початку до кінця — де ШІ закриває прогалини у вузьких спеціалізаціях і пропонує перекваліфікацію для входу в нові домени.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">посередники</span><span class="pair-en" lang="en">proxies</span></span><span class="arrow" aria-hidden="true">→</span><span class="term"><span class="to">користувачі</span><span class="pair-en" lang="en">users</span></span></p>
-            <p class="note">Припиняти зіпсований телефон через менеджерів-посередників і добу «ІТ, що сидить у підвалі» — і натомість ставити продуктових інженерів на нульову дистанцію до клієнтів і користувачів, щоб співпереживати, аналізувати й синтезувати з перших вуст.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">результат праці</span><span class="pair-en" lang="en">output</span></span><span class="arrow" aria-hidden="true">→</span><span class="term"><span class="to">результати</span><span class="pair-en" lang="en">outcomes</span></span></p>
-            <p class="note">Підносити продуктових інженерів від вимірювання за обсягом зробленого до володіння повним циклом цінності — забезпечувати реальний вплив на клієнтів, експериментувати й коригувати курс, щойно надходять свідчення.</p>
-          </div>
-        </li>
-
-      </ul>
+    <section id="own-your-shift" aria-labelledby="own-head">
+      <div class="band"><div class="wrap"><h2 id="own-head">Ваше зрушення</h2></div></div>
+      <div class="wrap rows-wrap">
+        <ul class="rows">
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">вузькі спеціалісти<span class="gloss" lang="en">narrow specialists</span></div>
+                <div class="to">майстри повного циклу<span class="gloss" lang="en">complete craftspeople</span></div>
+              </div>
+              <div class="fader" data-i="0">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="вузькі спеціалісти → майстри повного циклу">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Давати продуктовим інженерам змогу перейти від вузьких спеціалістів на конвеєрі до майстрів, які ведуть справу від початку до кінця, — де ШІ закриває прогалини у спеціалізаціях і пропонує навчання для входу в нові домени.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">координація залежностей<span class="gloss" lang="en">coordinating dependencies</span></div>
+                <div class="to">екстремальна співтворчість<span class="gloss" lang="en">extreme cocreation</span></div>
+              </div>
+              <div class="fader" data-i="1">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="координація залежностей → екстремальна співтворчість">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Замість координувати фрагменти через передачі робіт та інтеграційні зустрічі, майстри повного циклу працюють у потоці зі своїми агентами й одне з одним, чергуючи зосереджену роботу й спільний погляд на весь продукт, і вдосконалюють його як ціле.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">програмування фіч<span class="gloss" lang="en">coding features</span></div>
+                <div class="to">проєктування агентних систем<span class="gloss" lang="en">designing agentic systems</span></div>
+              </div>
+              <div class="fader" data-i="2">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="програмування фіч → проєктування агентних систем">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Переводити продуктових інженерів від програмування фіч по одній до проєктування агентних систем, які їх будують, — самовдосконалюваних циклів, що перетворюють намір на протестоване, робоче програмне забезпечення й перевіряють кожну зміну на відповідність тестам і специфікаціям, тоді як продуктові інженери володіють тестами й циклом цінності.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">зіпсований телефон<span class="gloss" lang="en">the telephone game</span></div>
+                <div class="to">нульова дистанція до користувачів<span class="gloss" lang="en">zero distance to users</span></div>
+              </div>
+              <div class="fader" data-i="3">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="зіпсований телефон → нульова дистанція до користувачів">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Припиняти зіпсований телефон через менеджерів-посередників і добу «ІТ, що сидить у підвалі» — і натомість ставити продуктових інженерів на нульову дистанцію до клієнтів і користувачів, щоб співпереживати, аналізувати й синтезувати з перших рук.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">підрахунок обсягу<span class="gloss" lang="en">counting output</span></div>
+                <div class="to">володіння результатами<span class="gloss" lang="en">owning outcomes</span></div>
+              </div>
+              <div class="fader" data-i="4">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="підрахунок обсягу → володіння результатами">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Підносити продуктових інженерів від підрахунку обсягу зробленого до володіння повним циклом цінності — забезпечувати реальний вплив на клієнтів, експериментувати й коригувати курс, щойно з’являються нові дані.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">робота йде за людьми<span class="gloss" lang="en">work follows people</span></div>
+                <div class="to">люди йдуть за цінністю<span class="gloss" lang="en">people follow value</span></div>
+              </div>
+              <div class="fader" data-i="5">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="робота йде за людьми → люди йдуть за цінністю">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Організовуватися навколо цінності, а не навколо наявних ролей і меж команд, — продуктові інженери переходять туди, де зараз найцінніша робота, коли змінюються пріоритети, і це зберігає адаптивність усієї організації.</p>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <p class="lede">Ці зрушення не нові. Вони були добре задокументовані й рекомендовані задовго до нинішньої хвилі ШІ. ШІ не змінює того, чому ці зрушення важливі. Він робить їх більш здійсненними, більш актуальними й більш нагальними.</p>
+    <div class="wrap">
+      <section class="sec" id="how-far">
+        <h2>Наскільки далеко йти?</h2>
+        <div class="prose">
+          <p>Ці зрушення — не чекліст. Не кожній організації потрібні всі шість, і не всі однаково глибоко. Які з них важливі й наскільки далеко ви зайдете в кожному, залежить від вашого продукту, ваших клієнтів і конкурентної переваги, яку ви хочете збудувати.</p>
+          <p>Використовуйте їх як натхнення, щоб визначити свою стратегію. Оберіть зрушення, які посилюють вашу перевагу, вирішіть, наскільки далеко йти з кожним, і лише тоді обирайте, де ШІ їх підсилить. Переглядайте свій вибір у міру того, як навчаєтеся. Так Agentic Shift стає вашим, і ви здійснюєте його на власних умовах.</p>
+        </div>
+      </section>
 
-    <p class="lede">Які ж зрушення візьме на себе ваша організація — <span class="definition">вирішувати вам</span>. Важливо, щоб вони були <span class="definition">стратегічними, а не короткозорими</span> — щоб вони служили тій організації, яку ви хочете мати за кілька років, а не цифрам, за якими FOMO змусило б вас гнатися цього кварталу.</p>
-
-    <!-- ── What we refuse ───────────────────────────────────────────── -->
-    <!-- After the shifts, not before: the positive side leads, and the
-         refusals then read as what keeps those shifts healthy. -->
-
-    <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">Чого ми не приймаємо</span></h2>
-
-    <p class="lede">Провідні лабораторії оптимізують упровадження <em>своїх</em> продуктів, і FOMO — найсильніший важіль, за який вони тягнуть нас. Можливо, це легітимна бізнес-стратегія, але вона їхня, а не наша.</p>
-
-    <p class="lede">Щоб перехід залишався здоровим, хоч би що казав ажіотаж, є три речі, які ми не проміняємо на короткострокову вигоду:</p>
-
-    <section class="group group-refuse">
-      <ul class="shifts">
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">втрачене судження</span><span class="pair-en" lang="en">lost judgment</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">ефективність</span><span class="pair-en" lang="en">efficiency</span></span></p>
-            <p class="note">Ми не ототожнюємо втрату судження — щодо коду, дизайну, архітектури, функцій, цінності чи смаку — з ефективністю.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">залежність від вендорів</span><span class="pair-en" lang="en">vendor dependence</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">прогрес</span><span class="pair-en" lang="en">progress</span></span></p>
-            <p class="note">Ми не приймаємо за прогрес залежність від ШІ-вендорів — їхніх моделей, інструментів і запропонованих ними життєвих циклів.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">обсяг виробітку</span><span class="pair-en" lang="en">output volume</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">спроможність</span><span class="pair-en" lang="en">capability</span></span></p>
-            <p class="note">Ми не плутаємо більший виробіток — більше коду, функцій чи токенів — зі спроможнішою організацією.</p>
-          </div>
-        </li>
-
-      </ul>
-    </section>
-
-    <p class="lede">Коротко: ми не дозволяємо, щоб ажіотаж навколо ШІ витіснив довгострокове мислення про наші організації та про те, що добре для наших людей і наших компаній. Тому ми кажемо: <span class="definition">«Спершу організаційний дизайн, потім ШІ.»</span> Ми відштовхуємося від зрушень, описаних вище, а потім застосовуємо ШІ та інші засоби, щоб утілити їх.</p>
-
-    <h2 class="section-head" id="whats-next"><span class="txt">Що далі</span></h2>
-
-    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Хочете долучитися?</p>
-
-    <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Запропонуйте покращення</a>. Поділіться цією сторінкою. Застосуйте ці ідеї у своїй організації.</p>
-
-    <footer class="foot">
-      <div class="foot-line">
-        <span>2026, <a href="/uk/">agentic-shift.com</a></span>
-        <span class="sep" aria-hidden="true">·</span>
-        <span class="by">створено та підтримується <a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">Alexey Krivitsky</a></span>
-        <span class="sep" aria-hidden="true">·</span>
-        <a href="mailto:alexey@krivitsky.com">alexey@krivitsky.com</a>
-      </div>
-      <a class="foot-cta" href="/community">join the professional learning community</a>
-      <a class="foot-cta" href="/munich">спільнота та зустрічі в мюнхені</a>
-      <div class="foot-meta">
-        <a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">github</a>
-        <span class="sep" aria-hidden="true">·</span>
-        <a href="/sitemap.xml">sitemap</a>
-        <span class="sep" aria-hidden="true">·</span>
-        <a href="/llms.txt">llms.txt</a>
-        <span class="sep" aria-hidden="true">·</span>
-        <a href="/ai.txt">ai.txt</a>
-      </div>
-    </footer>
-
+      <section class="sec" id="whats-next">
+        <h2>Що далі?</h2>
+        <div class="prose">
+          <p class="q">Хочете долучитися?</p>
+          <p><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Запропонуйте покращення</a>. Поділіться цією сторінкою. Застосуйте ці ідеї у своїй організації.</p>
+        </div>
+      </section>
+    </div>
   </main>
+
+  <footer class="wrap">
+    <div class="foot">
+      <div>створено та підтримується <a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">Alexey Krivitsky</a> · <a href="mailto:alexey@krivitsky.com">alexey@krivitsky.com</a></div>
+      <div><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">github</a> · <a href="/sitemap.xml">sitemap</a> · <a href="/llms.txt">llms.txt</a> · <a href="/ai.txt">ai.txt</a></div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+
+      // Theme toggle: overrides the OS setting and is remembered.
+      var btn = document.querySelector('.theme-toggle');
+      function label() {
+        btn.setAttribute('aria-label', root.getAttribute('data-theme') === 'dark' ? btn.getAttribute('data-to-light') : btn.getAttribute('data-to-dark'));
+      }
+      label();
+      btn.addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('agentic-theme', next); } catch (e) {}
+        label();
+      });
+
+      // Sliders. Each knob starts left and travels to 9/10 the first time its
+      // row scrolls into view (staggered, once per page load). Dragging a row
+      // first cancels its travel. Reduced motion: knobs already at 9/10.
+      var STOP = 90;
+      var faders = Array.prototype.slice.call(document.querySelectorAll('.fader'));
+      var touched = faders.map(function () { return false; });
+      function set(i, v) {
+        faders[i].style.setProperty('--f', v / 100);
+        faders[i].querySelector('.hit').value = v;
+      }
+      faders.forEach(function (f, i) {
+        var hit = f.querySelector('.hit');
+        hit.addEventListener('input', function () {
+          touched[i] = true;
+          f.classList.remove('travel');
+          set(i, Number(hit.value));
+        });
+        hit.addEventListener('pointerdown', function () {
+          touched[i] = true;
+          f.classList.remove('travel');
+          f.classList.add('drag');
+        });
+      });
+      function up() { faders.forEach(function (f) { f.classList.remove('drag'); }); }
+      document.addEventListener('pointerup', up);
+      document.addEventListener('pointercancel', up);
+
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reduced) { faders.forEach(function (f, i) { set(i, STOP); }); return; }
+
+      function travel(i) {
+        if (touched[i]) return;
+        var f = faders[i];
+        f.classList.add('travel');
+        // Next frame, so the transition starts from 0.
+        requestAnimationFrame(function () { requestAnimationFrame(function () {
+          if (!touched[i]) set(i, STOP);
+        }); });
+        setTimeout(function () { f.classList.remove('travel'); }, 1700);
+      }
+      if (!('IntersectionObserver' in window)) {
+        faders.forEach(function (f, i) { setTimeout(function () { travel(i); }, i * 200); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        var idx = [];
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { idx.push(Number(e.target.getAttribute('data-i'))); io.unobserve(e.target); }
+        });
+        idx.sort(function (a, b) { return a - b; });
+        idx.forEach(function (i, j) { setTimeout(function () { travel(i); }, j * 200); });
+      }, { threshold: 0.5 });
+      faders.forEach(function (f) { io.observe(f); });
+    })();
+  </script>
 
 </body>
 </html>

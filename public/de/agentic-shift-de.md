@@ -2,60 +2,30 @@
 
 _Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen, in denen Menschen aufblühen und großartige Produkte und Services entwickeln._
 
-## Wofür wir stehen
+## Warum der Shift?
 
-Der **agentic shift** ist real, und er ist eine echte Chance. Er wirkt tief in unsere Organisationen hinein und verändert, wie wir arbeiten und wie wir zusammenarbeiten. Wir nutzen diese Tools jeden Tag und haben Freude daran.
+Wir nutzen KI-Werkzeuge jeden Tag, und wir mögen sie. KI ist eine demokratisierte Technologie. Alle haben sie, also verschafft sie für sich allein niemandem einen Vorsprung. Sie beschleunigt die Tendenzen, die eine Organisation ohnehin schon hat. Deshalb ist es wichtig, den eigenen Wettbewerbsvorteil zu kennen und zu wissen, wie man ihn mit einer strategischen KI-Einführung verstärkt — statt KI überall zu verstreuen, getrieben von der FOMO, die die KI-Anbieter verbreiten.
 
-Was wir aber wissen: Es geht nicht um Tooling, um Tokens oder um irgendeine andere Output-Kennzahl, die sich zufällig leicht messen lässt. Es geht darum, **bessere, gesündere Organisationen** zu bauen, die bessere Produkte und Services anbieten und in denen ganz normale Menschen aufblühen. Darauf kommt es an.
+Im Folgenden die Shifts, die Organisationen vollziehen, wenn sie nachhaltige Qualität, echten Kundennutzen und hohe Anpassungsfähigkeit wollen.
 
-Jede Organisation ist einzigartig darin, wie sie gebaut wurde und was sie anstrebt. Wir führen **unsere** Organisationen, und wir werden daran gemessen, was für uns zählt — unsere Kundinnen und Kunden, Mitarbeitenden und weiteren Stakeholder.
+## Gestalte deinen Shift
 
-Deshalb ist für uns eines nicht verhandelbar: **Der agentic shift geschieht zu unseren Bedingungen** und optimiert auf das, was uns am Herzen liegt — nicht zu den Bedingungen der KI-Anbieter und des Hypes um KI-Modelle.
+- **Nischenspezialisten → ganzheitliche Handwerker** (narrow specialists → complete craftspeople) — Product Engineers befähigen, sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern zu entwickeln — wobei KI die Spezialistenlücken füllt und Weiterqualifizierung für den Einstieg in neue Domänen bietet.
+- **Abhängigkeiten koordinieren → extreme Ko-Kreation** (coordinating dependencies → extreme cocreation) — Statt Fragmente über Übergaben und Integrationsmeetings zu koordinieren, arbeiten ganzheitliche Handwerker im Flow mit ihren Agenten und miteinander — im Wechsel zwischen fokussierter Arbeit und dem gemeinsamen Blick auf das ganze Produkt, das sie als Ganzes verbessern.
+- **Features programmieren → agentische Systeme entwerfen** (coding features → designing agentic systems) — Product Engineers vom Programmieren eines Features nach dem anderen zum Entwerfen der agentischen Systeme führen, die diese Features bauen — sich selbst verbessernde Loops, die Absicht in getestete, funktionierende Software verwandeln und jede Änderung gegen Tests und Spezifikationen prüfen, während Product Engineers die Tests und den Wertkreislauf verantworten.
+- **Stille Post → null Distanz zu Nutzern** (the telephone game → zero distance to users) — Das Stille-Post-Spiel über Manager als Stellvertreter beenden, und mit ihm die Ära der „IT im Keller“ — und stattdessen Product Engineers auf null Distanz zu Kunden und Nutzern bringen, um sich aus erster Hand einzufühlen, zu analysieren und zu synthetisieren.
+- **Output zählen → Ergebnisse verantworten** (counting output → owning outcomes) — Product Engineers vom Zählen des Outputs dahin heben, den vollständigen Wertkreislauf zu verantworten — echte Wirkung bei Kunden sicherstellen, experimentieren und den Kurs korrigieren, sobald neue Erkenntnisse vorliegen.
+- **Arbeit folgt Menschen → Menschen folgen dem Wert** (work follows people → people follow value) — Sich um Wert herum organisieren statt um bestehende Rollen und Teamgrenzen — Product Engineers gehen dorthin, wo gerade die wertvollste Arbeit liegt, wenn sich Prioritäten verschieben, und das hält die ganze Organisation anpassungsfähig.
 
-## Wohin wir uns bewegen
+## Wie weit gehen?
 
-Organisationen im Product Engineering, die an nachhaltiger Qualität, Kundennutzen und hoher Anpassungsfähigkeit festhalten, vollziehen die folgenden strategischen Verschiebungen, mit KI als Hebel, der sie erleichtert:
+Diese Shifts sind keine Checkliste. Nicht jede Organisation braucht alle sechs, und nicht alle in derselben Tiefe. Welche zählen und wie weit du jeden einzelnen treibst, hängt von deinem Produkt, deinen Kunden und dem Wettbewerbsvorteil ab, den du aufbauen willst.
 
-### Features → Systeme (features → systems)
-Product Engineers vom Programmieren eines Features nach dem anderen zum Entwerfen der agentischen Systeme führen, die diese Features bauen — sich selbst verbessernde Loops, die Absicht in getestete, funktionierende Software verwandeln.
+Nutze sie als Inspiration, um deine Strategie zu definieren. Wähle die Shifts, die deinen Vorteil stärken, entscheide, wie weit du bei jedem gehst, und wähle erst dann, wo KI sie verstärkt. Überprüfe die Mischung, während du lernst. So machst du den Agentic Shift zu deinem eigenen und setzt ihn zu deinen Bedingungen um.
 
-### Inspektion → Verifikation (inspection → verification)
-Qualität ins System einbauen, statt sie am Ende manuell zu prüfen — automatisierte Verifikation gleicht jede Änderung mit Tests und Spezifikationen ab, während Product Engineers die Tests reviewen und den Wertkreislauf verantworten.
+## Was kommt als Nächstes?
 
-### Spezialisten → Handwerker (specialists → craftspeople)
-Product Engineers ermöglichen, sich von eng gefassten Fließband-Spezialisten zu End-to-End-Handwerkern zu wandeln — wobei KI die Spezialistenlücken füllt und die Weiterqualifizierung für den Einstieg in neue Domänen anbietet.
-
-### Stellvertreter → Nutzer (proxies → users)
-Das Stille-Post-Spiel über Manager als Stellvertreter beenden, und mit ihm die Ära der „IT im Keller“ — und stattdessen Product Engineers auf null Distanz zu Kundinnen und Nutzern bringen, um sich aus erster Hand einzufühlen, zu analysieren und zu synthetisieren.
-
-### Output → Wirkung (output → outcomes)
-Product Engineers aus der Messung am Output herausheben, hin zur Verantwortung für den vollständigen Wertkreislauf — echte Kundenwirkung sicherstellen, experimentieren und den Kurs korrigieren, sobald die Evidenz eintrifft.
-
-Diese Verschiebungen sind nicht neu. Sie waren lange vor der aktuellen KI-Welle gut dokumentiert und empfohlen. KI ändert nichts daran, warum diese Verschiebungen wichtig sind. Sie macht sie machbarer, relevanter und dringlicher.
-
-Welche Verschiebungen deine Organisation nun angeht, ist **deine Entscheidung**. Entscheidend ist, dass sie **strategisch und nicht kurzsichtig** sind — dass sie der Organisation dienen, die du in Jahren haben willst, und nicht den Zahlen, die FOMO dich in diesem Quartal jagen lassen würde.
-
-## Was wir nicht akzeptieren
-
-Die führenden KI-Labore optimieren auf die Adoption *ihrer* Produkte, und FOMO ist der stärkste Hebel, an dem sie bei uns ziehen. Das ist vielleicht eine legitime Geschäftsstrategie, aber es ist ihre, nicht unsere.
-
-Damit der agentic shift gesund bleibt, gibt es — egal, was der Hype sagt — drei Dinge, die wir nicht gegen kurzfristige Gewinne eintauschen:
-
-### verlorenes Urteilsvermögen ≠ Effizienz (lost judgment ≠ efficiency)
-Wir setzen den Verlust des Urteilsvermögens — bei Code, Design, Architektur, Features, Wert oder Geschmack — nicht mit Effizienz gleich.
-
-### Anbieterabhängigkeit ≠ Fortschritt (vendor dependence ≠ progress)
-Wir akzeptieren die Abhängigkeit von KI-Anbietern — ihren Modellen, ihrem Tooling und den von ihnen vorgeschlagenen Lebenszyklen — nicht als Fortschritt.
-
-### Output-Menge ≠ Fähigkeit (output volume ≠ capability)
-Wir verwechseln mehr Output — mehr Code, Features oder Tokens — nicht mit einer handlungsfähigeren Organisation.
-
-Kurz: Wir lassen nicht zu, dass der KI-Hype das langfristige Denken über unsere Organisationen und darüber, was für unsere Leute und unsere Unternehmen gut ist, verdrängt. Deshalb sagen wir: **„Erst Org-Design, dann KI.“** Wir gehen von den Verschiebungen oben aus und setzen dann KI und andere Mittel ein, um sie Wirklichkeit werden zu lassen.
-
-## Was kommt als Nächstes
-
-### Mitmachen?
-[Verbesserungen vorschlagen](https://github.com/krivitsky/agentic-shift). Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen.
+**Mitmachen?** [Verbesserungen vorschlagen](https://github.com/krivitsky/agentic-shift). Diese Seite teilen. Diese Ideen in deiner Organisation wirksam machen.
 
 ---
 

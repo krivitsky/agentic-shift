@@ -3,79 +3,62 @@
   "name": "English",
   "dir": "/",
   "meta": {
-    "title": "Agentic Shift — Org design, then AI",
-    "description": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services. Where we stand, what we shift, what we refuse.",
+    "title": "Agentic Shift",
+    "description": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.",
     "keywords": "agentic shift, agentic product engineering, agentic engineering, AI agents, organizational design, product engineering, professional agentic engineering, Alexey Krivitsky",
-    "ogTitle": "Agentic Shift — Org design, then AI",
+    "ogTitle": "Agentic Shift",
     "ogDescription": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.",
     "schemaDescription": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.",
     "llmsTitle": "Agentic Shift — machine-readable (LLM) version"
   },
   "hero": {
-    "kicker": "Staying sane in the AI race",
     "headlineLead": "Agentic",
-    "headlineGlitch": "Shift",
+    "headlineTail": "Shift",
     "subtitle": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services."
   },
-  "standHead": "What we stand for",
-  "stand": [
-    "The <span class=\"definition\">agentic shift</span> is real, and it is a real opportunity. It affects our organizations deeply, changing how we work and how we work together. We use these tools every day and enjoy them.",
-    "What we know, though, is that it is not about tooling, tokens, or any other output metric that happens to be easy to measure. It is about building <span class=\"definition\">better, healthier organizations</span> that offer better products and services, and where ordinary people thrive. That's what matters.",
-    "Every organization is unique in how it was built and what it aims for. We run <span class=\"definition\">our</span> organizations, and we are judged on what matters to us — our customers, employees, and other stakeholders.",
-    "So for us one thing is non-negotiable: <span class=\"definition\">the agentic shift happens on our terms</span> and optimizes for what we care about — not on the terms of AI vendors and the hype around AI models."
+  "shiftHead": "Why shift?",
+  "shiftIntro": [
+    "We use AI tools every day, and we enjoy them. AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So it is important to know your competitive advantage and how to amplify it with a strategic AI adoption, instead of sprinkling AI around because of the FOMO the AI vendors spread.",
+    "Below are the shifts that organizations wanting sustainable quality, real customer value and high adaptability make."
   ],
-  "refuseHead": "What we refuse to accept",
-  "refuseIntro": "The frontier labs optimize for the adoption of <em>their</em> products, and FOMO is the strongest lever they pull on us. That is a legitimate business strategy, perhaps, but it is theirs, not ours.",
-  "refuseLead": "To keep the shift healthy, whatever the hype says, there are three things we will not trade for short-term gains:",
-  "refusals": [
-    {
-      "from": "lost judgment",
-      "to": "efficiency",
-      "note": "We do not equate the loss of judgment — in code, design, architecture, features, value or taste — with efficiency."
-    },
-    {
-      "from": "vendor dependence",
-      "to": "progress",
-      "note": "We do not accept dependence on AI vendors — their models, tooling and proposed lifecycles — as progress."
-    },
-    {
-      "from": "output volume",
-      "to": "capability",
-      "note": "We do not mistake more output — more code, features or tokens — for a more capable organization."
-    }
-  ],
-  "refuseOutro": "In short, we do not let AI hype crowd out long-term thinking about our organizations and what is good for our people and businesses. So we say: <span class=\"definition\">“Org design, then AI.”</span> We start from the shifts above, then use AI, and other means, to make them real.",
-  "shiftHead": "What we shift toward",
-  "shiftIntro": "Product engineering organizations that hold on to sustainable quality, customer value and high adaptability make the following strategic shifts, with AI as a lever to ease them:",
+  "ownHead": "Own your shift",
   "shifts": [
     {
-      "from": "features",
-      "to": "systems",
-      "note": "Moving product engineers from coding features one by one to designing the agentic systems that build them — self-improving loops that turn intent into tested, working software."
-    },
-    {
-      "from": "inspection",
-      "to": "verification",
-      "note": "Building quality into the system instead of manually inspecting for it at the end — automated verification checks every change against tests and specs, while product engineers review the tests and own the value loop."
-    },
-    {
-      "from": "specialists",
-      "to": "craftspeople",
+      "from": "narrow specialists",
+      "to": "complete craftspeople",
       "note": "Enabling product engineers to shift from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains."
     },
     {
-      "from": "proxies",
-      "to": "users",
+      "from": "coordinating dependencies",
+      "to": "extreme cocreation",
+      "note": "Instead of coordinating fragments through handoffs and integration meetings, complete craftspeople work in flow with their agents and with each other, alternating between focused work and looking at the whole product together, improving it as a whole."
+    },
+    {
+      "from": "coding features",
+      "to": "designing agentic systems",
+      "note": "Moving product engineers from coding features one by one to designing the agentic systems that build them — self-improving loops that turn intent into tested, working software and verify every change against tests and specs, while product engineers own the tests and the value loop."
+    },
+    {
+      "from": "the telephone game",
+      "to": "zero distance to users",
       "note": "Ending the telephone game through manager-proxies and the era of “IT sitting in the basement” — instead putting product engineers at zero distance with the customers and users, to empathize, analyze, and synthesize firsthand."
     },
     {
-      "from": "output",
-      "to": "outcomes",
-      "note": "Elevating product engineers from being measured by output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in."
+      "from": "counting output",
+      "to": "owning outcomes",
+      "note": "Elevating product engineers from counting output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in."
+    },
+    {
+      "from": "work follows people",
+      "to": "people follow value",
+      "note": "Organizing around value instead of around existing roles and team boundaries — product engineers move to where the most valuable work is as priorities shift, which keeps the whole organization adaptable."
     }
   ],
-  "shiftNotNew": "These shifts are not new. They were well documented and recommended long before the current AI wave. AI does not change why these shifts matter. It makes them more feasible, more relevant and more urgent.",
-  "shiftOutro": "Now, which shifts your organization takes on is <span class=\"definition\">yours to decide</span>. What matters is that they are <span class=\"definition\">strategic, not shortsighted</span> — that they serve the organization you want to have in years rather than the numbers FOMO would have you chase this quarter.",
+  "useHead": "How far to shift?",
+  "use": [
+    "These shifts are not a checklist. Not every organization needs all six, and not all to the same depth. Which ones matter, and how far you take each one, depends on your product, your customers and the competitive advantage you want to build.",
+    "Use them as inspiration to define your strategy. Pick the shifts that strengthen your advantage, decide how far to go with each, and only then choose where AI amplifies them. Revisit the mix as you learn. That is how you own the agentic shift and make it happen on your terms."
+  ],
   "qaHead": "What's Next?",
   "qa": [
     {
@@ -84,7 +67,11 @@
     }
   ],
   "foot": {
-    "by": "created and maintained by",
-    "cta": "community and meetups in munich"
+    "by": "created and maintained by"
+  },
+  "ui": {
+    "download": "Download as Markdown",
+    "themeToLight": "Switch to light theme",
+    "themeToDark": "Switch to dark theme"
   }
 }

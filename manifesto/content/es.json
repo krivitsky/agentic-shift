@@ -3,79 +3,62 @@
   "name": "Español",
   "dir": "/es/",
   "meta": {
-    "title": "Agentic Shift — Primero el diseño organizativo, después la IA",
-    "description": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas donde las personas prosperan y crean grandes productos y servicios. Lo que defendemos, hacia dónde nos movemos, lo que rechazamos.",
+    "title": "Agentic Shift",
+    "description": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas donde las personas prosperan y crean grandes productos y servicios.",
     "keywords": "agentic shift, ingeniería de producto agéntica, agentic product engineering, agentes de IA, diseño organizativo, ingeniería de producto, Alexey Krivitsky",
-    "ogTitle": "Agentic Shift — Primero el diseño organizativo, después la IA",
+    "ogTitle": "Agentic Shift",
     "ogDescription": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas donde las personas prosperan y crean grandes productos y servicios.",
     "schemaDescription": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas donde las personas prosperan y crean grandes productos y servicios.",
     "llmsTitle": "Agentic Shift — versión legible por máquina (LLM)"
   },
   "hero": {
-    "kicker": "Mantener la cordura en la carrera de la IA",
     "headlineLead": "Agentic",
-    "headlineGlitch": "Shift",
+    "headlineTail": "Shift",
     "subtitle": "Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas donde las personas prosperan y crean grandes productos y servicios."
   },
-  "standHead": "Lo que defendemos",
-  "stand": [
-    "El <span class=\"definition\">cambio agéntico</span> es real, y es una verdadera oportunidad. Afecta a nuestras organizaciones en profundidad y transforma cómo trabajamos y cómo trabajamos juntos. Usamos estas herramientas cada día y disfrutamos usándolas.",
-    "Lo que sí sabemos es que no va de tooling, ni de tokens, ni de ninguna otra métrica de producción que resulte fácil de medir. Va de construir <span class=\"definition\">organizaciones mejores y más sanas</span>, que ofrezcan mejores productos y servicios, y donde la gente común prospere. Eso es lo que importa.",
-    "Cada organización es única por cómo fue construida y por lo que busca. Nosotros dirigimos <span class=\"definition\">nuestras</span> organizaciones, y se nos juzga por lo que nos importa a nosotros — nuestros clientes, empleados y demás partes interesadas.",
-    "Por eso, para nosotros hay algo que no es negociable: <span class=\"definition\">el cambio agéntico ocurre en nuestros términos</span> y optimiza aquello que valoramos — no en los términos de los proveedores de IA ni del hype en torno a los modelos de IA."
+  "shiftHead": "¿Por qué el cambio?",
+  "shiftIntro": [
+    "Usamos herramientas de IA cada día, y las disfrutamos. La IA es una tecnología democratizada. Todo el mundo la tiene, así que por sí sola no da ventaja a nadie. Acelera las tendencias que una organización ya tiene. Por eso es importante conocer tu ventaja competitiva y cómo amplificarla con una adopción estratégica de la IA, en lugar de esparcir IA por todas partes por el FOMO que difunden los proveedores de IA.",
+    "A continuación, los cambios que hacen las organizaciones que quieren calidad sostenible, valor real para el cliente y una alta adaptabilidad."
   ],
-  "refuseHead": "Lo que nos negamos a aceptar",
-  "refuseIntro": "Los laboratorios de frontera optimizan la adopción de <em>sus</em> productos, y el FOMO es la palanca más fuerte de la que tiran sobre nosotros. Quizá sea una estrategia de negocio legítima, pero es la suya, no la nuestra.",
-  "refuseLead": "Para que el cambio siga siendo sano, diga lo que diga el hype, hay tres cosas que no canjearemos por ganancias a corto plazo:",
-  "refusals": [
-    {
-      "from": "juicio perdido",
-      "to": "eficiencia",
-      "note": "No equiparamos la pérdida del juicio — sobre el código, el diseño, la arquitectura, las funcionalidades, el valor o el gusto — con la eficiencia."
-    },
-    {
-      "from": "dependencia del proveedor",
-      "to": "progreso",
-      "note": "No aceptamos como progreso la dependencia de los proveedores de IA — de sus modelos, de su tooling y de los ciclos de vida que proponen."
-    },
-    {
-      "from": "volumen de producción",
-      "to": "capacidad",
-      "note": "No confundimos más producción — más código, funcionalidades o tokens — con una organización más capaz."
-    }
-  ],
-  "refuseOutro": "En resumen, no dejamos que el hype de la IA desplace el pensamiento a largo plazo sobre nuestras organizaciones y sobre lo que es bueno para nuestra gente y nuestros negocios. Por eso decimos: <span class=\"definition\">«Primero el diseño organizativo, después la IA.»</span> Partimos de los cambios de arriba y luego usamos la IA, y otros medios, para hacerlos realidad.",
-  "shiftHead": "Hacia dónde nos movemos",
-  "shiftIntro": "Las organizaciones de ingeniería de producto que se aferran a la calidad sostenible, al valor para el cliente y a una alta adaptabilidad realizan los siguientes cambios estratégicos, con la IA como palanca para facilitarlos:",
+  "ownHead": "Tu cambio",
   "shifts": [
     {
-      "from": "funciones",
-      "to": "sistemas",
-      "note": "Llevar a los ingenieros de producto de programar las funciones de una en una a diseñar los sistemas agénticos que las construyen — bucles que se mejoran a sí mismos y convierten la intención en software probado que funciona."
+      "from": "especialistas de nicho",
+      "to": "artesanos completos",
+      "note": "Permitir que los ingenieros de producto pasen de ser especialistas estrechos, de cadena de montaje, a artesanos de extremo a extremo — con la IA cubriendo los huecos de especialidad y ofreciendo recualificación para entrar en nuevos dominios."
     },
     {
-      "from": "inspección",
-      "to": "verificación",
-      "note": "Integrar la calidad en el sistema en lugar de inspeccionarla manualmente al final — la verificación automatizada contrasta cada cambio con las pruebas y las especificaciones, mientras los ingenieros de producto revisan las pruebas y se hacen cargo del ciclo de valor."
+      "from": "coordinar dependencias",
+      "to": "cocreación extrema",
+      "note": "En lugar de coordinar fragmentos mediante entregas y reuniones de integración, los artesanos completos trabajan en flujo con sus agentes y entre sí, alternando el trabajo concentrado con la mirada conjunta al producto entero, y mejorándolo como un todo."
     },
     {
-      "from": "especialistas",
-      "to": "artesanos",
-      "note": "Permitir que los ingenieros de producto pasen de ser especialistas estrechos, de cadena de montaje, a artesanos de extremo a extremo — con la IA cubriendo los huecos de especialidad y ofreciendo la recualificación necesaria para entrar en nuevos dominios."
+      "from": "programar funcionalidades",
+      "to": "diseñar sistemas agénticos",
+      "note": "Llevar a los ingenieros de producto de programar las funcionalidades de una en una a diseñar los sistemas agénticos que las construyen — bucles que se mejoran a sí mismos, convierten la intención en software probado que funciona y contrastan cada cambio con las pruebas y las especificaciones, mientras los ingenieros de producto se hacen cargo de las pruebas y del ciclo de valor."
     },
     {
-      "from": "intermediarios",
-      "to": "usuarios",
+      "from": "el teléfono escacharrado",
+      "to": "distancia cero con los usuarios",
       "note": "Poner fin al teléfono escacharrado a través de mánagers intermediarios y a la era del «IT encerrado en el sótano» — y situar en su lugar a los ingenieros de producto a distancia cero de clientes y usuarios, para empatizar, analizar y sintetizar de primera mano."
     },
     {
-      "from": "producción",
-      "to": "resultados",
-      "note": "Elevar a los ingenieros de producto de ser medidos por su producción a hacerse cargo del ciclo de valor completo — asegurando un impacto real en los clientes, experimentando y corrigiendo el rumbo a medida que llegan las evidencias."
+      "from": "contar la producción",
+      "to": "asumir los resultados",
+      "note": "Elevar a los ingenieros de producto de contar la producción a hacerse cargo del ciclo de valor completo — asegurando un impacto real en los clientes, experimentando y corrigiendo el rumbo a medida que llegan las evidencias."
+    },
+    {
+      "from": "el trabajo sigue a las personas",
+      "to": "las personas siguen al valor",
+      "note": "Organizarse en torno al valor en lugar de en torno a los roles y los límites de equipo existentes — los ingenieros de producto se mueven hacia donde está el trabajo más valioso a medida que cambian las prioridades, lo que mantiene adaptable a toda la organización."
     }
   ],
-  "shiftNotNew": "Estos cambios no son nuevos. Estaban bien documentados y recomendados mucho antes de la actual ola de IA. La IA no cambia por qué importan estos cambios. Los hace más factibles, más relevantes y más urgentes.",
-  "shiftOutro": "Ahora bien, qué cambios asume tu organización es <span class=\"definition\">cosa tuya</span>. Lo que importa es que sean <span class=\"definition\">estratégicos y no cortos de miras</span> — que sirvan a la organización que quieres tener dentro de años, y no a las cifras que el FOMO te haría perseguir este trimestre.",
+  "useHead": "¿Hasta dónde llegar?",
+  "use": [
+    "Estos cambios no son una lista de verificación. No todas las organizaciones necesitan los seis, ni todos con la misma profundidad. Cuáles importan, y hasta dónde llevas cada uno, depende de tu producto, de tus clientes y de la ventaja competitiva que quieres construir.",
+    "Úsalos como inspiración para definir tu estrategia. Elige los cambios que refuercen tu ventaja, decide hasta dónde llegar con cada uno y solo entonces elige dónde los amplifica la IA. Revisa la combinación a medida que aprendes. Así te apropias del Agentic Shift y lo haces realidad en tus propios términos."
+  ],
   "qaHead": "¿Qué sigue?",
   "qa": [
     {
@@ -84,7 +67,11 @@
     }
   ],
   "foot": {
-    "by": "creado y mantenido por",
-    "cta": "comunidad y encuentros en múnich"
+    "by": "creado y mantenido por"
+  },
+  "ui": {
+    "download": "Descargar como Markdown",
+    "themeToLight": "Cambiar al tema claro",
+    "themeToDark": "Cambiar al tema oscuro"
   }
 }

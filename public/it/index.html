@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Agentic Shift — Prima la progettazione organizzativa, poi l'IA</title>
-  <meta name="description" content="Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti. Ciò che sosteniamo, verso cosa ci spostiamo, ciò che rifiutiamo.">
+  <title>Agentic Shift</title>
+  <meta name="description" content="Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti.">
   <meta name="keywords" content="agentic shift, ingegneria di prodotto agentica, agentic product engineering, agenti IA, progettazione organizzativa, ingegneria di prodotto, Alexey Krivitsky">
   <meta name="author" content="Alexey Krivitsky">
   <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#05090d">
+  <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="/it/">
   <link rel="alternate" type="text/markdown" href="/llms.txt" title="Agentic Shift — versione leggibile dalle macchine (LLM)">
   <link rel="manifest" href="/site.webmanifest">
@@ -35,19 +35,20 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Agentic Shift">
-  <meta property="og:title" content="Agentic Shift — Prima la progettazione organizzativa, poi l'IA">
+  <meta property="og:title" content="Agentic Shift">
   <meta property="og:description" content="Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti.">
   <meta property="og:locale" content="it_IT">
   <meta property="og:url" content="/it/">
-  <meta property="og:image" content="/images/og-shift.png">
+  <meta property="og:image" content="/images/og-shift-v4.png">
+  <meta property="og:image:alt" content="Agentic Shift: three shift sliders moved toward complete craftspeople, zero distance to users and owning outcomes">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Agentic Shift — Prima la progettazione organizzativa, poi l'IA">
+  <meta name="twitter:title" content="Agentic Shift">
   <meta name="twitter:description" content="Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti.">
-  <meta name="twitter:image" content="/images/og-shift.png">
+  <meta name="twitter:image" content="/images/og-shift-v4.png">
 
   <!-- Structured data -->
   <script type="application/ld+json">
@@ -63,11 +64,21 @@
   }
   </script>
 
+  <!-- Theme before first paint: a stored choice wins, else light (Alexey,
+       2026-10-25: light is the default, whatever the OS says). -->
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('agentic-theme'); } catch (e) {}
+      if (t !== 'dark' && t !== 'light') t = 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/shift.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,800;1,500&display=swap" rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJW53LEJGS"></script>
@@ -80,124 +91,190 @@
   </script>
 
   <style>
-    /* Page-scoped CSS for the manifesto pages — same pattern as /community.
-       It lives here rather than in the shared shift.css because it belongs to
-       this page only, and here every language inherits it. shift.css still
-       carries the design system and the markup the archived /v1 and /v12 use. */
+    /* v4 homepage (spec: specs/v3/README.md §v4, design: specs/v4/design).
+       Self-contained on purpose: shift.css still serves /munich, /v1, /v12
+       and the 11 translated pages, so nothing here may leak into it. */
+    :root[data-theme="dark"] {
+      --bg: #05090D; --text: #EDF1EF; --accent: #3DDC9A; --fill: #3DDC9A;
+      --muted: #9AA4AC; --line: #2A333A; --panel: #1C2329;
+      color-scheme: dark;
+    }
+    :root, [data-theme="light"] {
+      --bg: #FFFFFF; --text: #05090D; --accent: #0E7A55; --fill: #3DDC9A;
+      --muted: #5B6670; --line: #E3E7E5; --panel: #F4F6F5;
+      color-scheme: light;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+    /* One family, Inter, for everything. The design used Inter Tight, which
+       read "too sharpy" in running text and "too condensed" in the headlines
+       (Alexey, 2026-10-25), so letter-spacing is looser than the design too. */
+    .wrap {
+      padding-left: max(16px, calc((100% - 1200px) / 2));
+      padding-right: max(16px, calc((100% - 1200px) / 2));
+    }
+    /* No hyphenation anywhere (Alexey, 2026-10-25: no "prod-ucts"). */
+    .txt, p, h1, h2, li { overflow-wrap: break-word; hyphens: none; -webkit-hyphens: none; }
+    a { color: var(--accent); }
+    a:hover { color: var(--text); }
+    a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 
-    /* Hero kicker. Sits above the name so the human promise lands before the
-       label does: what this is for, then what it is called, then where it goes.
-       Mono and small, the same voice the page already uses for its quiet labels
-       (community tag, group headings) — it must not compete with the headline. */
-    .hero-kicker {
-      font-family: var(--font-mono);
-      font-size: clamp(12px, 1.3vw, 15px);
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--teal);
-      margin-bottom: clamp(10px, 1.4vw, 16px);
+    /* ── Header ─────────────────────────────────────────── */
+    .top { padding-top: 48px; padding-bottom: 56px; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    /* The bar spans the word "Agentic" below it (3.63em of the headline size),
+       so it reads as part of the title (Alexey, 2026-10-25: 72px was too short). */
+    .mark { width: calc(clamp(52px, 11vw, 144px) * 3.63); height: 12px; background: var(--fill); flex: none; margin-left: 0.04em; }
+    .tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .theme-toggle {
+      width: 48px; height: 48px; padding: 0; flex: none;
+      display: flex; align-items: center; justify-content: center;
+      border: 2px solid var(--line); border-radius: 0;
+      background: transparent; color: var(--text); cursor: pointer;
+    }
+    .theme-toggle .sun { display: none; }
+    [data-theme="dark"] .theme-toggle .sun { display: block; }
+    [data-theme="light"] .theme-toggle .moon { display: block; }
+    .theme-toggle .moon { display: none; }
+    .langs { position: relative; }
+    .langs summary {
+      list-style: none; cursor: pointer; height: 48px; padding: 0 14px;
+      display: flex; align-items: center; border: 2px solid var(--line);
+      font-size: 16px; font-weight: 500; color: var(--text);
+    }
+    .langs summary::-webkit-details-marker { display: none; }
+    .langs-list {
+      position: absolute; right: 0; top: 54px; z-index: 5; min-width: 180px;
+      background: var(--bg); border: 2px solid var(--line); padding: 8px 0;
+      display: flex; flex-direction: column;
+    }
+    .langs-list a { padding: 10px 16px; font-size: 16px; text-decoration: none; color: var(--text); }
+    .langs-list a:hover { color: var(--accent); }
+    .langs-list a[aria-current="page"] { color: var(--accent); font-weight: 800; }
+    .langs-list .md-dl { border-top: 2px solid var(--line); margin-top: 6px; padding-top: 14px; color: var(--muted); }
+    h1 {
+      margin: 28px 0 0; font-size: clamp(52px, 11vw, 144px); line-height: 0.92;
+      font-weight: 800; letter-spacing: -0.03em;
+    }
+    .subtitle {
+      margin: 32px 0 0; max-width: 780px;
+      font-size: clamp(20px, calc(17.37px + 0.674vw), 26px); line-height: 1.35;
+      font-weight: 500; font-style: italic;
     }
 
-    /* A card group sits between plain paragraphs — an intro .lede above, an
-       outro .lede below — with nothing but its own margins to separate it, so
-       without this the cards collide with the prose on both sides. Give the
-       group its own air. */
-    .manifesto .group {
-      margin-top: clamp(22px, 3vw, 32px);
-      margin-bottom: clamp(30px, 4.5vw, 52px);
+    /* ── Text sections (head left, prose right) ─────────── */
+    .sec {
+      border-top: 2px solid var(--line); padding: 40px 0 48px;
+      display: flex; flex-wrap: wrap; gap: 24px 56px;
+    }
+    .sec h2 {
+      flex: 1 1 260px; min-width: 0; margin: 0;
+      font-size: clamp(32px, 4vw, 52px); line-height: 1; font-weight: 800; letter-spacing: -0.02em;
+    }
+    .prose {
+      flex: 2 1 420px; min-width: 0; max-width: 68ch;
+      font-size: clamp(18px, calc(15.9px + 0.54vw), 20px); line-height: 1.55;
+    }
+    .prose p { margin: 0; }
+    .prose p + p { margin-top: 20px; }
+    .prose .q { font-weight: 800; }
+
+    /* ── Own your shift ─────────────────────────────────── */
+    .band { background: var(--fill); color: #05090D; }
+    .band h2 {
+      margin: 0; padding: 40px 0;
+      font-size: clamp(52px, 11vw, 144px); line-height: 0.95; font-weight: 800; letter-spacing: -0.03em;
+    }
+    .rows { list-style: none; margin: 0; padding: 0; border-bottom: 2px solid var(--line); }
+    .rows-wrap { padding-top: 40px; padding-bottom: 8px; }
+    .row {
+      border-top: 2px solid var(--line); padding: 28px 0;
+      display: flex; flex-wrap: wrap; gap: 20px 56px; align-items: flex-start;
+    }
+    .row-main { flex: 1 1 560px; min-width: 0; }
+    .ends { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 6px 16px; }
+    .from {
+      min-width: 0; max-width: 100%;
+      font-size: clamp(15px, calc(14.56px + 0.112vw), 16px); line-height: 1.2; color: var(--muted);
+    }
+    /* Translated pages: the canonical English words under each localized term. */
+    .gloss { display: block; margin-top: 4px; font-size: 14px; font-weight: 400; line-height: 1.2; letter-spacing: 0; color: var(--muted); }
+    .to {
+      min-width: 0; max-width: 100%; margin-left: auto; text-align: right;
+      font-size: clamp(20px, calc(18.25px + 0.449vw), 24px); line-height: 1.15;
+      font-weight: 800; color: var(--accent); letter-spacing: -0.01em;
+    }
+    .note {
+      flex: 0 1 520px; min-width: 0; max-width: 72ch; margin: 0;
+      font-size: clamp(16px, calc(15.56px + 0.112vw), 17px); line-height: 1.5;
+    }
+    .fader { position: relative; height: 64px; margin-top: 16px; --f: 0; }
+    .ticks { position: absolute; left: 0; right: 0; height: 6px;
+      background: repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px 20px); }
+    .ticks.t1 { top: 9px; } .ticks.t2 { bottom: 9px; }
+    .track { position: absolute; left: 0; right: 0; top: 28px; height: 8px; border-radius: 4px; background: var(--line); }
+    .bar {
+      position: absolute; left: 0; top: 28px; height: 8px; border-radius: 4px; background: var(--fill);
+      width: calc((100% - 36px) * var(--f) + 18px);
+    }
+    .cap {
+      position: absolute; top: 6px; width: 36px; height: 52px; border-radius: 4px;
+      background: var(--text); pointer-events: none;
+      left: calc((100% - 36px) * var(--f));
+      box-shadow: 0 3px 0 var(--muted), 0 6px 8px rgba(0,0,0,0.35);
+    }
+    .cap::before {
+      content: ""; position: absolute; inset: 0; border-radius: 4px;
+      background: repeating-linear-gradient(0deg, rgba(0,0,0,0.22) 0 1px, transparent 1px 5px);
+    }
+    .cap::after {
+      content: ""; position: absolute; left: 16px; top: 5px; bottom: 5px; width: 4px;
+      border-radius: 2px; background: var(--bg);
+    }
+    .fader.travel .cap { transition: left 1.5s cubic-bezier(.22,.8,.2,1), transform .15s ease, box-shadow .15s ease; }
+    .fader.travel .bar { transition: width 1.5s cubic-bezier(.22,.8,.2,1); }
+    .fader.drag .cap { transform: scale(1.12); box-shadow: 0 0 0 4px var(--accent), 0 10px 14px rgba(0,0,0,0.35); transition: transform .15s ease, box-shadow .15s ease; }
+    .hit {
+      -webkit-appearance: none; appearance: none; position: absolute; left: 0; top: 0;
+      width: 100%; height: 100%; margin: 0; padding: 0; opacity: 0;
+      cursor: grab; z-index: 2; background: transparent; touch-action: pan-y;
+    }
+    .hit:active { cursor: grabbing; }
+    .hit::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 36px; height: 64px; }
+    .hit::-moz-range-thumb { width: 36px; height: 64px; border: none; }
+    .hit:focus-visible ~ .cap { outline: 3px solid var(--accent); outline-offset: 4px; }
+    @media (prefers-reduced-motion: reduce) {
+      .fader.travel .cap, .fader.travel .bar { transition: none; }
     }
 
-    /* The shift cards lost their 01/02/03. Numbering implied a sequence — do this
-       one first — which contradicts the line closing the section: which shifts you
-       take on is yours to decide. Three items, no order, so no numbers, and the
-       list is a <ul> rather than an <ol>. Dropping the marker means dropping its
-       gutter too, or every card keeps a 54px hole where the number used to be. */
-    .group-org .shifts { list-style: none; }
-    .group-org .shift { grid-template-columns: 1fr; }
-
-    /* "What we refuse" — identical to every other .section-head in size, family,
-       weight and rule; only the word colour changes. #e8617f is a rose-red
-       deliberately built off amber's red channel (#e8a33d) so it sits in the
-       same light family as the two existing accents instead of shouting over
-       them. NOTE: this is a FOURTH hue in a three-colour system (ink / teal /
-       amber) — it earns its place only if refusal is the one thing on the page
-       allowed to look different. Drop this rule to revert. */
-    .section-head-refuse .txt { color: #e8617f; }
-
-    /* The refusals reuse the shift-card markup so they read in the same visual
-       grammar as the shifts — but with ≠ instead of an arrow, so nothing
-       suggests "move from here to there". The ≠ already says "not", so there is
-       no marker either, and every card on the page is single-column. Same rose
-       as the section head; each pair keeps its full sentence as the .note,
-       exactly like a shift card, so the compressed pair is never the only
-       reading. */
-    .group-refuse .shifts { list-style: none; }
-    .group-refuse .pair .to,
-    .group-refuse .pair .arrow { color: #e8617f; }
-    .group-refuse .shift:hover { border-color: rgba(232, 97, 127, 0.4); }
-    .group-refuse .shift { grid-template-columns: 1fr; }
-
-    /* The card notes were capped at 46em for a readable measure, but the pair
-       headline above them runs the full box, so on a wide screen the note
-       stopped short and left a single word alone on its last line — it read as
-       a bug rather than as typography. Widened to fill the card, with an
-       ultra-wide guard still in place, and text-wrap: pretty so the last line
-       never orphans a word again. */
-    .manifesto .group .note {
-      max-width: 64em;
-      text-wrap: pretty;
+    /* ── Footer ─────────────────────────────────────────── */
+    .foot {
+      border-top: 4px solid var(--text); padding: 28px 0 56px;
+      font-size: 14px; line-height: 1.6; color: var(--muted);
+      display: flex; flex-direction: column; gap: 4px;
     }
-
-    /* <em> in the copy is a spoken stress ("the adoption of their products"),
-       so it is set in real italics: Poppins 400 italic is loaded above for it.
-       shift.css draws .lede em upright and white for /munich and the archives;
-       this overrides it on the manifesto only. Chinese and Japanese have no
-       italics, so they get their native emphasis dots instead (under the
-       glyph in Chinese, over it in Japanese). */
-    .manifesto .lede em { font-style: italic; color: inherit; }
-    .manifesto .lede em:lang(zh),
-    .manifesto .lede em:lang(ja) {
-      font-style: normal;
-      -webkit-text-emphasis: filled dot;
-      text-emphasis: filled dot;
-    }
-    .manifesto .lede em:lang(zh) {
-      -webkit-text-emphasis-position: under right;
-      text-emphasis-position: under right;
-    }
+    .foot a { display: inline-block; padding: 8px 0; }
+    .foot .ctas { display: flex; flex-wrap: wrap; gap: 0 24px; font-size: 16px; }
   </style>
 </head>
 <body>
 
-  <!-- ── Hero ─────────────────────────────────────────────────────── -->
-  <header class="hero">
-
-    <!-- Rising dot-field: the mediocre grid dims into the background while a
-         diagonal of live nodes climbs to the top-right — the shift, made literal.
-         Adapted from the CTO-book cover motif. -->
-    <svg class="graph" viewBox="0 0 306 112" fill="none" aria-hidden="true">
-      <g class="grid">
-        <circle cx="0" cy="28" r="4.2"/><circle cx="34" cy="28" r="4.2"/><circle cx="68" cy="28" r="4.2"/><circle cx="102" cy="28" r="4.2"/><circle cx="136" cy="28" r="4.2"/><circle cx="170" cy="28" r="4.2"/><circle cx="204" cy="28" r="4.2"/>
-        <circle cx="0" cy="56" r="4.2"/><circle cx="34" cy="56" r="4.2"/><circle cx="68" cy="56" r="4.2"/><circle cx="102" cy="56" r="4.2"/><circle cx="136" cy="56" r="4.2"/><circle cx="170" cy="56" r="4.2"/><circle cx="306" cy="56" r="4.2"/>
-        <circle cx="0" cy="84" r="4.2"/><circle cx="34" cy="84" r="4.2"/><circle cx="68" cy="84" r="4.2"/><circle cx="102" cy="84" r="4.2"/><circle cx="136" cy="84" r="4.2"/><circle cx="238" cy="84" r="4.2"/><circle cx="272" cy="84" r="4.2"/><circle cx="306" cy="84" r="4.2"/>
-        <circle cx="0" cy="112" r="4.2"/><circle cx="34" cy="112" r="4.2"/><circle cx="68" cy="112" r="4.2"/><circle cx="170" cy="112" r="4.2"/><circle cx="204" cy="112" r="4.2"/><circle cx="238" cy="112" r="4.2"/><circle cx="272" cy="112" r="4.2"/><circle cx="306" cy="112" r="4.2"/>
-      </g>
-      <g class="rise">
-        <circle cx="102" cy="112" r="4.7"/><circle cx="136" cy="112" r="5.1"/><circle cx="170" cy="84" r="5.6"/><circle cx="204" cy="84" r="6"/><circle cx="204" cy="56" r="5"/><circle cx="238" cy="56" r="6.8"/><circle cx="238" cy="28" r="5.2"/><circle cx="272" cy="56" r="7.2"/><circle cx="272" cy="28" r="5.8"/><circle cx="306" cy="28" r="8.4"/>
-      </g>
-      <g class="peak">
-        <circle cx="272" cy="0" r="3.4"/><circle cx="306" cy="0" r="4.2"/>
-      </g>
-    </svg>
-
-    <div class="hero-mid">
-      <p class="hero-kicker">Mantenere la lucidità nella corsa all'IA</p>
-      <h1 class="headline">Agentic <span class="glitch" data-text="Shift">Shift</span></h1>
-      <div class="hero-rule" aria-hidden="true"></div>
-      <p class="subtitle">Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti.</p>
-    </div>
-
-    <nav class="langbar" aria-label="Lingua">
+  <header class="wrap top">
+    <div class="topbar">
+      <div class="mark" aria-hidden="true"></div>
+      <div class="tools">
+        <details class="langs">
+          <summary aria-label="Lingua">IT</summary>
+          <nav class="langs-list" aria-label="Lingua">
       <a href="/" hreflang="en" lang="en">English</a>
       <a href="/de/" hreflang="de" lang="de">Deutsch</a>
       <a href="/nl/" hreflang="nl" lang="nl">Nederlands</a>
@@ -210,148 +287,226 @@
       <a href="/ru/" hreflang="ru" lang="ru">Русский</a>
       <a href="/zh/" hreflang="zh" lang="zh">中文</a>
       <a href="/ja/" hreflang="ja" lang="ja">日本語</a>
-      <span class="langbar-div" aria-hidden="true"></span>
-      <a class="md-dl" href="/it/agentic-shift-it.md" download="agentic-shift-it.md" title="Download this page as Markdown (.md)" aria-label="Download this page as Markdown">
-        <svg viewBox="0 0 208 128" aria-hidden="true" focusable="false"><rect x="5" y="5" width="198" height="118" rx="10" fill="none" stroke="currentColor" stroke-width="10"/><path fill="currentColor" d="M30 98V30h20l20 25 20-25h20v68H90V59L70 84 50 59v39zm125 0l-30-33h20V30h20v35h20z"/></svg>
-        <span class="md-code">[IT]</span>
-      </a>
-    </nav>
-
+            <a class="md-dl" href="/it/agentic-shift-it.md" download="agentic-shift-it.md">Scarica in Markdown</a>
+          </nav>
+        </details>
+        <button class="theme-toggle" type="button" aria-label="Passa al tema scuro" data-to-light="Passa al tema chiaro" data-to-dark="Passa al tema scuro">
+          <svg class="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"></path></svg>
+          <svg class="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"></path></svg>
+        </button>
+      </div>
+    </div>
+    <h1>Agentic<br>Shift</h1>
+    <p class="subtitle">Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti.</p>
   </header>
 
-  <!-- ── Manifesto ────────────────────────────────────────────────── -->
-  <main class="wrap manifesto">
+  <main>
+    <div class="wrap">
+      <section class="sec" id="why-shift">
+        <h2>Perché cambiare?</h2>
+        <div class="prose">
+          <p>Usiamo strumenti di IA ogni giorno, e ci piacciono. L'IA è una tecnologia democratizzata. Ce l'hanno tutti, quindi da sola non dà un vantaggio a nessuno. Accelera le tendenze che un'organizzazione ha già. Per questo è importante conoscere il proprio vantaggio competitivo e sapere come amplificarlo con un'adozione strategica dell'IA, invece di spargere IA qua e là per via della FOMO diffusa dai fornitori di IA.</p>
+          <p>Ecco i cambiamenti che compiono le organizzazioni che vogliono qualità sostenibile, valore reale per il cliente e un'elevata adattabilità.</p>
+        </div>
+      </section>
+    </div>
 
-    <!-- ── Where we stand ───────────────────────────────────────────── -->
-
-    <h2 class="section-head" id="what-we-stand-for"><span class="txt">Ciò che sosteniamo</span></h2>
-
-    <p class="lede">Lo <span class="definition">spostamento agentico</span> è reale, ed è una vera opportunità. Tocca in profondità le nostre organizzazioni e cambia il nostro modo di lavorare e di collaborare. Usiamo questi strumenti ogni giorno, e con piacere.</p>
-
-    <p class="lede">Quello che sappiamo, però, è che non si tratta di tooling, di token o di qualunque altra metrica di produzione che si dà il caso sia facile da misurare. Si tratta di costruire <span class="definition">organizzazioni migliori e più sane</span>, che offrano prodotti e servizi migliori, e in cui le persone comuni prosperino. È questo che conta.</p>
-
-    <p class="lede">Ogni organizzazione è unica per come è stata costruita e per ciò a cui mira. Siamo noi a guidare le <span class="definition">nostre</span> organizzazioni, e siamo giudicati su ciò che conta per noi — i nostri clienti, le persone che lavorano con noi e gli altri portatori di interesse.</p>
-
-    <p class="lede">Perciò per noi una cosa non è negoziabile: <span class="definition">lo spostamento agentico avviene alle nostre condizioni</span> e ottimizza ciò che ci sta a cuore — non alle condizioni dei fornitori di IA né dell'hype intorno ai modelli di IA.</p>
-
-    <!-- ── What we shift ────────────────────────────────────────────── -->
-
-    <h2 class="section-head" id="what-we-shift"><span class="txt">Verso cosa ci spostiamo</span></h2>
-
-    <p class="lede">Le organizzazioni di ingegneria di prodotto che tengono alla qualità sostenibile, al valore per il cliente e a un'elevata adattabilità compiono i seguenti spostamenti strategici, con l'IA come leva per renderli più facili:</p>
-
-    <section class="group group-org">
-      <ul class="shifts">
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">funzionalità</span><span class="pair-en" lang="en">features</span></span><span class="arrow" aria-hidden="true">→</span><span class="term"><span class="to">sistemi</span><span class="pair-en" lang="en">systems</span></span></p>
-            <p class="note">Portare gli ingegneri di prodotto dal programmare le funzionalità una per una al progettare i sistemi agentici che le costruiscono — cicli che si migliorano da soli e trasformano l'intento in software testato e funzionante.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">ispezione</span><span class="pair-en" lang="en">inspection</span></span><span class="arrow" aria-hidden="true">→</span><span class="term"><span class="to">verifica</span><span class="pair-en" lang="en">verification</span></span></p>
-            <p class="note">Integrare la qualità nel sistema invece di ispezionarla manualmente alla fine — la verifica automatizzata controlla ogni modifica rispetto ai test e alle specifiche, mentre gli ingegneri di prodotto rivedono i test e si fanno carico del ciclo del valore.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">specialisti</span><span class="pair-en" lang="en">specialists</span></span><span class="arrow" aria-hidden="true">→</span><span class="term"><span class="to">artigiani</span><span class="pair-en" lang="en">craftspeople</span></span></p>
-            <p class="note">Permettere agli ingegneri di prodotto di passare da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma i vuoti di specializzazione e offre la riqualificazione necessaria per entrare in nuovi domini.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">intermediari</span><span class="pair-en" lang="en">proxies</span></span><span class="arrow" aria-hidden="true">→</span><span class="term"><span class="to">utenti</span><span class="pair-en" lang="en">users</span></span></p>
+    <section id="own-your-shift" aria-labelledby="own-head">
+      <div class="band"><div class="wrap"><h2 id="own-head">Il tuo cambiamento</h2></div></div>
+      <div class="wrap rows-wrap">
+        <ul class="rows">
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">specialisti ristretti<span class="gloss" lang="en">narrow specialists</span></div>
+                <div class="to">artigiani completi<span class="gloss" lang="en">complete craftspeople</span></div>
+              </div>
+              <div class="fader" data-i="0">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="specialisti ristretti → artigiani completi">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Permettere agli ingegneri di prodotto di passare da specialisti ristretti, da catena di montaggio, ad artigiani end-to-end — con l'IA che colma i vuoti di specializzazione e offre l'aggiornamento delle competenze necessaria per entrare in nuovi domini.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">coordinare dipendenze<span class="gloss" lang="en">coordinating dependencies</span></div>
+                <div class="to">co-creazione estrema<span class="gloss" lang="en">extreme cocreation</span></div>
+              </div>
+              <div class="fader" data-i="1">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="coordinare dipendenze → co-creazione estrema">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Invece di coordinare frammenti tramite passaggi di consegne e riunioni di integrazione, gli artigiani completi lavorano in flusso con i propri agenti e tra loro, alternando lavoro concentrato e uno sguardo condiviso sull'intero prodotto, che migliorano nel suo insieme.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">programmare funzionalità<span class="gloss" lang="en">coding features</span></div>
+                <div class="to">progettare sistemi agentici<span class="gloss" lang="en">designing agentic systems</span></div>
+              </div>
+              <div class="fader" data-i="2">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="programmare funzionalità → progettare sistemi agentici">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Portare gli ingegneri di prodotto dal programmare le funzionalità una per una al progettare i sistemi agentici che le costruiscono — cicli che si migliorano da soli, trasformano l'intento in software testato e funzionante e verificano ogni modifica rispetto ai test e alle specifiche, mentre gli ingegneri di prodotto si fanno carico dei test e del ciclo del valore.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">il telefono senza fili<span class="gloss" lang="en">the telephone game</span></div>
+                <div class="to">distanza zero dagli utenti<span class="gloss" lang="en">zero distance to users</span></div>
+              </div>
+              <div class="fader" data-i="3">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="il telefono senza fili → distanza zero dagli utenti">
+                <div class="cap"></div>
+              </div>
+            </div>
             <p class="note">Mettere fine al gioco del telefono senza fili attraverso manager-intermediari e all'era dell'“IT chiusa in cantina” — e portare invece gli ingegneri di prodotto a distanza zero da clienti e utenti, per entrare in empatia, analizzare e sintetizzare in prima persona.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">produzione</span><span class="pair-en" lang="en">output</span></span><span class="arrow" aria-hidden="true">→</span><span class="term"><span class="to">risultati</span><span class="pair-en" lang="en">outcomes</span></span></p>
-            <p class="note">Elevare gli ingegneri di prodotto dall'essere misurati sulla produzione al farsi carico dell'intero ciclo del valore — garantendo un impatto reale sui clienti, sperimentando e correggendo la rotta man mano che arrivano le evidenze.</p>
-          </div>
-        </li>
-
-      </ul>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">contare la produzione<span class="gloss" lang="en">counting output</span></div>
+                <div class="to">farsi carico dei risultati<span class="gloss" lang="en">owning outcomes</span></div>
+              </div>
+              <div class="fader" data-i="4">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="contare la produzione → farsi carico dei risultati">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Elevare gli ingegneri di prodotto dal contare la produzione al farsi carico dell'intero ciclo del valore — garantendo un impatto reale sui clienti, sperimentando e correggendo la rotta man mano che arrivano le evidenze.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">il lavoro segue le persone<span class="gloss" lang="en">work follows people</span></div>
+                <div class="to">le persone seguono il valore<span class="gloss" lang="en">people follow value</span></div>
+              </div>
+              <div class="fader" data-i="5">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="il lavoro segue le persone → le persone seguono il valore">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">Organizzarsi intorno al valore anziché intorno ai ruoli esistenti e ai confini dei team — gli ingegneri di prodotto si spostano dove si trova il lavoro di maggior valore man mano che le priorità cambiano, e questo mantiene adattabile l'intera organizzazione.</p>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <p class="lede">Questi spostamenti non sono nuovi. Erano ben documentati e raccomandati molto prima dell'attuale ondata di IA. L'IA non cambia il motivo per cui questi spostamenti contano. Li rende più fattibili, più rilevanti e più urgenti.</p>
+    <div class="wrap">
+      <section class="sec" id="how-far">
+        <h2>Fin dove arrivare?</h2>
+        <div class="prose">
+          <p>Questi cambiamenti non sono una checklist. Non tutte le organizzazioni hanno bisogno di tutti e sei, né tutti con la stessa profondità. Quali contano, e fin dove porti ciascuno, dipende dal tuo prodotto, dai tuoi clienti e dal vantaggio competitivo che vuoi costruire.</p>
+          <p>Usali come ispirazione per definire la tua strategia. Scegli i cambiamenti che rafforzano il tuo vantaggio, decidi fin dove arrivare con ciascuno, e solo allora scegli dove l'IA li amplifica. Rivedi il mix man mano che impari. È così che fai tuo il cambiamento agentico e lo realizzi alle tue condizioni.</p>
+        </div>
+      </section>
 
-    <p class="lede">Ora, quali spostamenti la tua organizzazione intraprenda sta <span class="definition">a te deciderlo</span>. Ciò che conta è che siano <span class="definition">strategici e non miopi</span> — che servano l'organizzazione che vuoi avere fra anni, e non i numeri che la FOMO ti farebbe rincorrere questo trimestre.</p>
-
-    <!-- ── What we refuse ───────────────────────────────────────────── -->
-    <!-- After the shifts, not before: the positive side leads, and the
-         refusals then read as what keeps those shifts healthy. -->
-
-    <h2 class="section-head section-head-refuse" id="refuse"><span class="txt">Ciò che ci rifiutiamo di accettare</span></h2>
-
-    <p class="lede">I laboratori di frontiera ottimizzano l'adozione dei <em>propri</em> prodotti, e la FOMO è la leva più forte che tirano su di noi. È forse una strategia di business legittima, ma è la loro, non la nostra.</p>
-
-    <p class="lede">Perché lo spostamento resti sano, qualunque cosa dica l'hype, ci sono tre cose che non baratteremo con guadagni a breve termine:</p>
-
-    <section class="group group-refuse">
-      <ul class="shifts">
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">giudizio perduto</span><span class="pair-en" lang="en">lost judgment</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">efficienza</span><span class="pair-en" lang="en">efficiency</span></span></p>
-            <p class="note">Non equipariamo la perdita del giudizio — su codice, design, architettura, funzionalità, valore o gusto — all'efficienza.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">dipendenza dai fornitori</span><span class="pair-en" lang="en">vendor dependence</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">progresso</span><span class="pair-en" lang="en">progress</span></span></p>
-            <p class="note">Non accettiamo come progresso la dipendenza dai fornitori di IA — dai loro modelli, dal loro tooling e dai cicli di vita che propongono.</p>
-          </div>
-        </li>
-
-        <li class="shift">
-          <div class="shift-body">
-            <p class="pair"><span class="term"><span class="from">volume di produzione</span><span class="pair-en" lang="en">output volume</span></span><span class="arrow" aria-hidden="true">≠</span><span class="term"><span class="to">capacità</span><span class="pair-en" lang="en">capability</span></span></p>
-            <p class="note">Non scambiamo una produzione maggiore — più codice, funzionalità o token — per un'organizzazione più capace.</p>
-          </div>
-        </li>
-
-      </ul>
-    </section>
-
-    <p class="lede">In breve, non lasciamo che l'hype dell'IA soffochi il pensiero di lungo periodo sulle nostre organizzazioni e su ciò che è bene per le nostre persone e le nostre aziende. Perciò diciamo: <span class="definition">“Prima la progettazione organizzativa, poi l'IA.”</span> Partiamo dagli spostamenti descritti sopra, poi usiamo l'IA, e altri mezzi, per renderli reali.</p>
-
-    <h2 class="section-head" id="whats-next"><span class="txt">E adesso?</span></h2>
-
-    <p class="q-head"><span class="p" aria-hidden="true">&gt;</span> Vuoi contribuire?</p>
-
-    <p class="lede"><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Proponi miglioramenti</a>. Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione.</p>
-
-    <footer class="foot">
-      <div class="foot-line">
-        <span>2026, <a href="/it/">agentic-shift.com</a></span>
-        <span class="sep" aria-hidden="true">·</span>
-        <span class="by">creato e mantenuto da <a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">Alexey Krivitsky</a></span>
-        <span class="sep" aria-hidden="true">·</span>
-        <a href="mailto:alexey@krivitsky.com">alexey@krivitsky.com</a>
-      </div>
-      <a class="foot-cta" href="/community">join the professional learning community</a>
-      <a class="foot-cta" href="/munich">community e incontri a monaco</a>
-      <div class="foot-meta">
-        <a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">github</a>
-        <span class="sep" aria-hidden="true">·</span>
-        <a href="/sitemap.xml">sitemap</a>
-        <span class="sep" aria-hidden="true">·</span>
-        <a href="/llms.txt">llms.txt</a>
-        <span class="sep" aria-hidden="true">·</span>
-        <a href="/ai.txt">ai.txt</a>
-      </div>
-    </footer>
-
+      <section class="sec" id="whats-next">
+        <h2>E adesso?</h2>
+        <div class="prose">
+          <p class="q">Vuoi contribuire?</p>
+          <p><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Proponi miglioramenti</a>. Condividi questa pagina. Metti al lavoro queste idee nella tua organizzazione.</p>
+        </div>
+      </section>
+    </div>
   </main>
+
+  <footer class="wrap">
+    <div class="foot">
+      <div>creato e mantenuto da <a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">Alexey Krivitsky</a> · <a href="mailto:alexey@krivitsky.com">alexey@krivitsky.com</a></div>
+      <div><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">github</a> · <a href="/sitemap.xml">sitemap</a> · <a href="/llms.txt">llms.txt</a> · <a href="/ai.txt">ai.txt</a></div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+
+      // Theme toggle: overrides the OS setting and is remembered.
+      var btn = document.querySelector('.theme-toggle');
+      function label() {
+        btn.setAttribute('aria-label', root.getAttribute('data-theme') === 'dark' ? btn.getAttribute('data-to-light') : btn.getAttribute('data-to-dark'));
+      }
+      label();
+      btn.addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('agentic-theme', next); } catch (e) {}
+        label();
+      });
+
+      // Sliders. Each knob starts left and travels to 9/10 the first time its
+      // row scrolls into view (staggered, once per page load). Dragging a row
+      // first cancels its travel. Reduced motion: knobs already at 9/10.
+      var STOP = 90;
+      var faders = Array.prototype.slice.call(document.querySelectorAll('.fader'));
+      var touched = faders.map(function () { return false; });
+      function set(i, v) {
+        faders[i].style.setProperty('--f', v / 100);
+        faders[i].querySelector('.hit').value = v;
+      }
+      faders.forEach(function (f, i) {
+        var hit = f.querySelector('.hit');
+        hit.addEventListener('input', function () {
+          touched[i] = true;
+          f.classList.remove('travel');
+          set(i, Number(hit.value));
+        });
+        hit.addEventListener('pointerdown', function () {
+          touched[i] = true;
+          f.classList.remove('travel');
+          f.classList.add('drag');
+        });
+      });
+      function up() { faders.forEach(function (f) { f.classList.remove('drag'); }); }
+      document.addEventListener('pointerup', up);
+      document.addEventListener('pointercancel', up);
+
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reduced) { faders.forEach(function (f, i) { set(i, STOP); }); return; }
+
+      function travel(i) {
+        if (touched[i]) return;
+        var f = faders[i];
+        f.classList.add('travel');
+        // Next frame, so the transition starts from 0.
+        requestAnimationFrame(function () { requestAnimationFrame(function () {
+          if (!touched[i]) set(i, STOP);
+        }); });
+        setTimeout(function () { f.classList.remove('travel'); }, 1700);
+      }
+      if (!('IntersectionObserver' in window)) {
+        faders.forEach(function (f, i) { setTimeout(function () { travel(i); }, i * 200); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        var idx = [];
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { idx.push(Number(e.target.getAttribute('data-i'))); io.unobserve(e.target); }
+        });
+        idx.sort(function (a, b) { return a - b; });
+        idx.forEach(function (i, j) { setTimeout(function () { travel(i); }, j * 200); });
+      }, { threshold: 0.5 });
+      faders.forEach(function (f) { io.observe(f); });
+    })();
+  </script>
 
 </body>
 </html>

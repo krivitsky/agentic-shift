@@ -95,3 +95,27 @@ draft.
 
 The rest of `pt.json` is a first-pass draft and has **not** been reviewed by a
 native speaker.
+
+---
+
+## 2026-10-26 v4 retranslation
+
+The page was rewritten again in English (v4: six shifts, "Why shift?" /
+"How far to shift?") and `pt.json` was re-translated. What carried over:
+
+- **`utilizadores`** — kept everywhere (European Portuguese), including the
+  new pair title `comunicação indireta → distância zero dos utilizadores`.
+- **Telephone-game / zero-distance note** — the English sentence is unchanged
+  from the 2026-08-09 version, so the adapted reviewer text is kept verbatim:
+  *comunicação indireta por meio de gestores intermediários*, *em distância
+  zero dos clientes e utilizadores*, *compreender, analisar e sintetizar
+  necessidades diretamente da fonte*. The "from" title follows the reviewer
+  too: `comunicação indireta`, not a literal "jogo do telefone".
+- **Inspection/verification card** — cut in v4; its idea moved into the
+  `coding features → designing agentic systems` note, which has no
+  "inspect at the end" clause, so the reviewer's *incorporá-la diretamente ao
+  sistema* / *ao final do processo* have nothing to attach to. Lapsed. (The
+  phrase *confrontam cada alteração com os testes e as especificações* is
+  reused from the 2026-10-25 draft, not from the reviewer.)
+
+Everything else in v4 is a first-pass draft, not reviewed by a native speaker.
