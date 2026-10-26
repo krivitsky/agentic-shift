@@ -6,7 +6,7 @@ _Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane
 
 Usiamo strumenti di IA ogni giorno, e ci piacciono. L'IA è una tecnologia democratizzata. Ce l'hanno tutti, quindi da sola non dà un vantaggio a nessuno. Accelera le tendenze che un'organizzazione ha già. Quindi conosci prima il tuo vantaggio competitivo, e poi amplificalo con un'adozione strategica dell'IA. Resisti alla tentazione di spargere in fretta IA sulle vecchie strutture solo perché i fornitori di IA diffondono la FOMO.
 
-Ecco i cambiamenti che compiono le organizzazioni che vogliono qualità sostenibile, valore reale per il cliente e un'elevata adattabilità.
+Ecco i cambiamenti che compiono le organizzazioni che puntano a qualità sostenibile, valore reale per il cliente, un forte coinvolgimento delle persone e un'elevata adattabilità.
 
 ## Il tuo cambiamento
 

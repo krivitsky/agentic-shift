@@ -6,7 +6,7 @@ _Fra tokenmaxing og annet AI-teater mot sunne organisasjoner der mennesker trive
 
 Vi bruker AI-verktøy hver dag, og vi liker dem. AI er en demokratisert teknologi. Alle har den, så alene gir den ingen et fortrinn. Den akselererer de tendensene en organisasjon allerede har. Så kjenn først konkurransefortrinnet ditt, og forsterk det deretter med en strategisk innføring av AI. Motstå fristelsen til å strø AI over gamle strukturer i all hast bare fordi AI-leverandørene sprer FOMO.
 
-Nedenfor er skiftene som organisasjoner gjør når de vil ha bærekraftig kvalitet, reell kundeverdi og høy tilpasningsevne.
+Nedenfor er skiftene som organisasjoner gjør når de streber etter bærekraftig kvalitet, reell kundeverdi, sterkt engasjement blant medarbeiderne og høy tilpasningsevne.
 
 ## Ditt skifte
 

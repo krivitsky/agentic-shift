@@ -13,7 +13,7 @@
 
 We use AI tools every day, and we enjoy them. AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So know your competitive advantage first, and then amplify it through strategic AI adoption. Resist sprinkling AI over old structures in a rush just because AI vendors spread FOMO.
 
-Below are the shifts that organizations wanting sustainable quality, real customer value and high adaptability make.
+Below are the shifts made by organizations that aim for sustainable quality, real customer value, great employee engagement and high adaptability.
 
 ### Own your shift
 
@@ -42,7 +42,7 @@ Use them as inspiration to define your strategy. Pick the shifts that strengthen
 
 Wir nutzen KI-Werkzeuge jeden Tag, und wir mögen sie. KI ist eine demokratisierte Technologie. Alle haben sie, also verschafft sie für sich allein niemandem einen Vorsprung. Sie beschleunigt die Tendenzen, die eine Organisation ohnehin schon hat. Kenne also zuerst deinen Wettbewerbsvorteil und verstärke ihn dann durch eine strategische KI-Einführung. Widersteh der Versuchung, KI überstürzt über alte Strukturen zu streuen, nur weil KI-Anbieter FOMO verbreiten.
 
-Im Folgenden die Shifts, die Organisationen vollziehen, wenn sie nachhaltige Qualität, echten Kundennutzen und hohe Anpassungsfähigkeit wollen.
+Im Folgenden die Shifts, die Organisationen vollziehen, wenn sie nachhaltige Qualität, echten Kundennutzen, hohes Engagement der Mitarbeitenden und hohe Anpassungsfähigkeit anstreben.
 
 ### Gestalte deinen Shift
 
@@ -71,7 +71,7 @@ Nutze sie als Inspiration, um deine Strategie zu definieren. Wähle die Shifts, 
 
 Wij gebruiken AI-tools elke dag, en we genieten ervan. AI is een gedemocratiseerde technologie. Iedereen heeft het, dus op zichzelf geeft het niemand een voorsprong. Het versnelt de neigingen die een organisatie al heeft. Ken dus eerst je concurrentievoordeel en versterk het daarna met een strategische AI-adoptie. Weersta de verleiding om AI haastig over oude structuren te strooien, alleen omdat AI-leveranciers FOMO verspreiden.
 
-Hieronder staan de shifts die organisaties maken die duurzame kwaliteit, echte klantwaarde en hoge wendbaarheid willen.
+Hieronder staan de shifts die organisaties maken die streven naar duurzame kwaliteit, echte klantwaarde, sterke betrokkenheid van medewerkers en hoge wendbaarheid.
 
 ### Jouw shift
 
@@ -100,7 +100,7 @@ Gebruik ze als inspiratie om je strategie te bepalen. Kies de shifts die je voor
 
 Nous utilisons des outils d'IA tous les jours, et nous les apprécions. L'IA est une technologie démocratisée. Tout le monde y a accès, donc à elle seule elle ne donne d'avantage à personne. Elle accélère les tendances qu'une organisation a déjà. Commencez donc par connaître votre avantage concurrentiel, puis amplifiez-le par une adoption stratégique de l'IA. Résistez à la tentation de saupoudrer à la hâte de l'IA sur d'anciennes structures simplement parce que les fournisseurs d'IA répandent la FOMO.
 
-Voici les virages qu'opèrent les organisations qui veulent une qualité durable, une réelle valeur pour le client et une forte adaptabilité.
+Voici les virages qu'opèrent les organisations qui visent une qualité durable, une réelle valeur pour le client, un fort engagement des collaborateurs et une forte adaptabilité.
 
 ### Votre virage
 
@@ -129,7 +129,7 @@ Servez-vous-en comme source d'inspiration pour définir votre stratégie. Choisi
 
 Usiamo strumenti di IA ogni giorno, e ci piacciono. L'IA è una tecnologia democratizzata. Ce l'hanno tutti, quindi da sola non dà un vantaggio a nessuno. Accelera le tendenze che un'organizzazione ha già. Quindi conosci prima il tuo vantaggio competitivo, e poi amplificalo con un'adozione strategica dell'IA. Resisti alla tentazione di spargere in fretta IA sulle vecchie strutture solo perché i fornitori di IA diffondono la FOMO.
 
-Ecco i cambiamenti che compiono le organizzazioni che vogliono qualità sostenibile, valore reale per il cliente e un'elevata adattabilità.
+Ecco i cambiamenti che compiono le organizzazioni che puntano a qualità sostenibile, valore reale per il cliente, un forte coinvolgimento delle persone e un'elevata adattabilità.
 
 ### Il tuo cambiamento
 
@@ -158,7 +158,7 @@ Usali come ispirazione per definire la tua strategia. Scegli i cambiamenti che r
 
 Usamos herramientas de IA cada día, y las disfrutamos. La IA es una tecnología democratizada. Todo el mundo la tiene, así que por sí sola no da ventaja a nadie. Acelera las tendencias que una organización ya tiene. Así que conoce primero tu ventaja competitiva y luego amplifícala con una adopción estratégica de la IA. Resiste la tentación de esparcir IA a toda prisa sobre viejas estructuras solo porque los proveedores de IA difunden el FOMO.
 
-A continuación, los cambios que hacen las organizaciones que quieren calidad sostenible, valor real para el cliente y una alta adaptabilidad.
+A continuación, los cambios que hacen las organizaciones que aspiran a calidad sostenible, valor real para el cliente, un alto compromiso de las personas y una alta adaptabilidad.
 
 ### Tu cambio
 
@@ -187,7 +187,7 @@ Estos cambios no son una lista de verificación. No todas las organizaciones nec
 
 Usamos ferramentas de IA todos os dias, e gostamos delas. A IA é uma tecnologia democratizada. Toda a gente a tem, pelo que, por si só, não dá vantagem a ninguém. Acelera as tendências que uma organização já tem. Por isso, conheça primeiro a sua vantagem competitiva e depois amplifique-a com uma adoção estratégica da IA. Resista à tentação de espalhar IA à pressa sobre estruturas antigas só porque os fornecedores de IA difundem o FOMO.
 
-Seguem-se as mudanças que fazem as organizações que querem qualidade sustentável, valor real para o cliente e elevada adaptabilidade.
+Seguem-se as mudanças que fazem as organizações que procuram qualidade sustentável, valor real para o cliente, elevado envolvimento dos colaboradores e elevada adaptabilidade.
 
 ### A sua mudança
 
@@ -216,7 +216,7 @@ Use-as como inspiração para definir a sua estratégia. Escolha as mudanças qu
 
 Codziennie korzystamy z narzędzi AI i lubimy je. AI to technologia zdemokratyzowana. Ma ją każdy, więc sama w sobie nikomu nie daje przewagi. Przyspiesza te tendencje, które organizacja już ma. Dlatego najpierw poznaj swoją przewagę konkurencyjną, a potem wzmocnij ją strategicznym wdrażaniem AI. Nie ulegaj pokusie pospiesznego rozsypywania AI po starych strukturach tylko dlatego, że dostawcy AI szerzą FOMO.
 
-Poniżej opisujemy zmiany, które przeprowadzają organizacje dążące do trwałej jakości, realnej wartości dla klientów i wysokiej zdolności adaptacji.
+Poniżej opisujemy zmiany, które przeprowadzają organizacje dążące do trwałej jakości, realnej wartości dla klientów, wysokiego zaangażowania pracowników i wysokiej zdolności adaptacji.
 
 ### Twoja zmiana
 
@@ -245,7 +245,7 @@ Traktuj je jako inspirację do zdefiniowania swojej strategii. Wybierz zmiany, k
 
 AI nástroje používáme každý den a baví nás. AI je demokratizovaná technologie. Má ji každý, takže sama o sobě nikomu náskok nedává. Urychluje tendence, které organizace už má. Nejprve tedy poznejte svou konkurenční výhodu a pak ji zesilte strategickým zaváděním AI. Odolejte pokušení ukvapeně rozsévat AI po starých strukturách jen proto, že dodavatelé AI šíří FOMO.
 
-Níže jsou posuny, které dělají organizace, jež chtějí udržitelnou kvalitu, skutečnou hodnotu pro zákazníky a vysokou přizpůsobivost.
+Níže jsou posuny, které dělají organizace usilující o udržitelnou kvalitu, skutečnou hodnotu pro zákazníky, vysokou angažovanost zaměstnanců a vysokou přizpůsobivost.
 
 ### Váš posun
 
@@ -274,7 +274,7 @@ Použijte je jako inspiraci k definování své strategie. Vyberte posuny, kter�
 
 Vi bruger AI-værktøjer hver dag, og vi kan godt lide dem. AI er en demokratiseret teknologi. Alle har den, så i sig selv giver den ingen et forspring. Den accelererer de tendenser, en organisation allerede har. Så kend først din konkurrencefordel, og forstærk den derefter med en strategisk AI-adoption. Modstå fristelsen til at drysse AI ud over gamle strukturer i hast, bare fordi AI-leverandørerne spreder FOMO.
 
-Nedenfor er de skift, som organisationer foretager, når de vil have bæredygtig kvalitet, reel kundeværdi og høj tilpasningsevne.
+Nedenfor er de skift, som organisationer foretager, når de stræber efter bæredygtig kvalitet, reel kundeværdi, højt medarbejderengagement og høj tilpasningsevne.
 
 ### Dit skifte
 
@@ -303,7 +303,7 @@ Brug dem som inspiration til at definere din strategi. Vælg de skift, der styrk
 
 Vi bruker AI-verktøy hver dag, og vi liker dem. AI er en demokratisert teknologi. Alle har den, så alene gir den ingen et fortrinn. Den akselererer de tendensene en organisasjon allerede har. Så kjenn først konkurransefortrinnet ditt, og forsterk det deretter med en strategisk innføring av AI. Motstå fristelsen til å strø AI over gamle strukturer i all hast bare fordi AI-leverandørene sprer FOMO.
 
-Nedenfor er skiftene som organisasjoner gjør når de vil ha bærekraftig kvalitet, reell kundeverdi og høy tilpasningsevne.
+Nedenfor er skiftene som organisasjoner gjør når de streber etter bærekraftig kvalitet, reell kundeverdi, sterkt engasjement blant medarbeiderne og høy tilpasningsevne.
 
 ### Ditt skifte
 
@@ -332,7 +332,7 @@ Bruk dem som inspirasjon til å definere strategien din. Velg skiftene som styrk
 
 Vi använder AI-verktyg varje dag, och vi gillar dem. AI är en demokratiserad teknik. Alla har den, så i sig själv ger den ingen ett försprång. Den accelererar de tendenser som en organisation redan har. Så känn först till din konkurrensfördel, och förstärk den sedan med ett strategiskt AI-införande. Motstå frestelsen att i all hast strö ut AI över gamla strukturer bara för att AI-leverantörerna sprider FOMO.
 
-Nedan följer de skiften som organisationer gör när de vill ha hållbar kvalitet, verkligt kundvärde och hög anpassningsförmåga.
+Nedan följer de skiften som organisationer gör när de strävar efter hållbar kvalitet, verkligt kundvärde, starkt medarbetarengagemang och hög anpassningsförmåga.
 
 ### Ditt skifte
 
@@ -361,7 +361,7 @@ Använd dem som inspiration för att definiera din strategi. Välj de skiften so
 
 Ми щодня користуємося інструментами ШІ, і нам це подобається. ШІ — демократизована технологія. Він є в усіх, тож сам по собі нікому не дає переваги. Він прискорює ті тенденції, які в організації вже є. Тож спершу усвідомте свою конкурентну перевагу, а потім підсильте її стратегічним упровадженням ШІ. Не піддавайтеся спокусі поспіхом розсипати ШІ по старих структурах лише тому, що постачальники ШІ поширюють FOMO.
 
-Нижче — зрушення, які роблять організації, що прагнуть сталої якості, реальної цінності для клієнтів і високої адаптивності.
+Нижче — зрушення, які роблять організації, що прагнуть сталої якості, реальної цінності для клієнтів, високої залученості працівників і високої адаптивності.
 
 ### Ваше зрушення
 
@@ -390,7 +390,7 @@ Använd dem som inspiration för att definiera din strategi. Välj de skiften so
 
 Мы каждый день пользуемся инструментами ИИ, и нам это нравится. ИИ — демократизированная технология. Он есть у всех, так что сам по себе никому не даёт преимущества. Он ускоряет те тенденции, которые в организации уже есть. Так что сначала осознайте своё конкурентное преимущество, а затем усильте его стратегическим внедрением ИИ. Не поддавайтесь соблазну второпях рассыпать ИИ по старым структурам только потому, что поставщики ИИ распространяют FOMO.
 
-Ниже — сдвиги, которые совершают организации, стремящиеся к устойчивому качеству, реальной ценности для клиентов и высокой адаптивности.
+Ниже — сдвиги, которые совершают организации, стремящиеся к устойчивому качеству, реальной ценности для клиентов, высокой вовлечённости сотрудников и высокой адаптивности.
 
 ### Ваш сдвиг
 
@@ -419,7 +419,7 @@ Använd dem som inspiration för att definiera din strategi. Välj de skiften so
 
 我们每天都在使用 AI 工具，并且乐在其中。AI 是一项民主化的技术。人人都有，所以它本身不会给任何人带来优势。它会加速组织中已有的倾向。因此，先认清自己的竞争优势，再通过有战略的 AI 采用来放大它。不要因为 AI 供应商散播 FOMO，就忍不住匆忙把 AI 撒在旧有的组织结构上。
 
-以下是那些追求可持续质量、真实客户价值与高度适应力的组织所做出的转变。
+以下是那些追求可持续质量、真实客户价值、高度员工敬业度与高度适应力的组织所做出的转变。
 
 ### 你的转变
 
@@ -448,7 +448,7 @@ Använd dem som inspiration för att definiera din strategi. Välj de skiften so
 
 私たちは AI ツールを毎日使い、楽しんでいます。AI は民主化された技術です。誰もが持っているので、それだけでは誰にも優位をもたらしません。AI は、組織がすでに持っている傾向を加速させます。だからこそ、まず自社の競争優位を見極め、そのうえで戦略的な AI 導入によってそれを増幅することです。AI ベンダーが FOMO を広めているからといって、古い組織構造に AI を慌ててふりかけたくなる誘惑に流されないようにしましょう。
 
-以下は、持続可能な品質、顧客にとっての本当の価値、そして高い適応力を求める組織が進めるシフトです。
+以下は、持続可能な品質、顧客にとっての本当の価値、社員の高いエンゲージメント、そして高い適応力を目指す組織が進めるシフトです。
 
 ### シフトを自分のものに
 
