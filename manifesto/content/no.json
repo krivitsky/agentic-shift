@@ -1,0 +1,77 @@
+{
+  "lang": "no",
+  "name": "Norsk",
+  "dir": "/no/",
+  "meta": {
+    "title": "Agentic Shift",
+    "description": "Fra tokenmaxing og annet AI-teater mot sunne organisasjoner der mennesker trives og bygger fremragende produkter og tjenester.",
+    "keywords": "agentic shift, agentic product engineering, agentisk produktutvikling, AI-agenter, organisasjonsdesign, product engineering, Alexey Krivitsky",
+    "ogTitle": "Agentic Shift",
+    "ogDescription": "Fra tokenmaxing og annet AI-teater mot sunne organisasjoner der mennesker trives og bygger fremragende produkter og tjenester.",
+    "schemaDescription": "Fra tokenmaxing og annet AI-teater mot sunne organisasjoner der mennesker trives og bygger fremragende produkter og tjenester.",
+    "llmsTitle": "Agentic Shift — maskinlesbar (LLM-)versjon"
+  },
+  "hero": {
+    "headlineLead": "Agentic",
+    "headlineTail": "Shift",
+    "subtitle": "Fra tokenmaxing og annet AI-teater mot sunne organisasjoner der mennesker trives og bygger fremragende produkter og tjenester."
+  },
+  "shiftHead": "Hvorfor skifte?",
+  "shiftIntro": [
+    "Vi bruker AI-verktøy hver dag, og vi liker dem. AI er en demokratisert teknologi. Alle har den, så alene gir den ingen et fortrinn. Den akselererer de tendensene en organisasjon allerede har. Derfor er det viktig å kjenne sitt konkurransefortrinn og vite hvordan man forsterker det med en strategisk innføring av AI, i stedet for å strø AI rundt omkring på grunn av FOMO-en som AI-leverandørene sprer.",
+    "Nedenfor er skiftene som organisasjoner gjør når de vil ha bærekraftig kvalitet, reell kundeverdi og høy tilpasningsevne."
+  ],
+  "ownHead": "Ditt skifte",
+  "shifts": [
+    {
+      "from": "smale spesialister",
+      "to": "ende-til-ende-håndverkere",
+      "note": "Gjøre product engineers i stand til å gå fra smale samlebåndsspesialister til ende-til-ende-håndverkere — der AI fyller spesialisthullene og hjelper med kompetanseheving når de går inn i nye domener."
+    },
+    {
+      "from": "koordinere avhengigheter",
+      "to": "ekstrem samskaping",
+      "note": "I stedet for å koordinere fragmenter gjennom overleveringer og integrasjonsmøter jobber ende-til-ende-håndverkere i flyt med agentene sine og med hverandre, veksler mellom fokusert arbeid og å se på hele produktet sammen og forbedre det som helhet."
+    },
+    {
+      "from": "kode funksjoner",
+      "to": "designe agentiske systemer",
+      "note": "Flytte product engineers fra å kode funksjoner én etter én til å designe de agentiske systemene som bygger dem — selvforbedrende looper som gjør intensjon om til testet, fungerende programvare og verifiserer hver endring mot tester og spesifikasjoner, mens product engineers har ansvaret for testene og verdiloopen."
+    },
+    {
+      "from": "hviskeleken",
+      "to": "null avstand til brukerne",
+      "note": "Gjøre slutt på hviskeleken via ledere som mellomledd og på æraen med «IT i kjelleren» — og i stedet sette product engineers på null avstand til kundene og brukerne, slik at de på første hånd kan leve seg inn i situasjonen deres, analysere og syntetisere."
+    },
+    {
+      "from": "telle output",
+      "to": "ta ansvar for resultater",
+      "note": "Løfte product engineers fra å telle output til å ta ansvar for hele verdiloopen — sikre reell effekt for kundene, eksperimentere og korrigere kursen etter hvert som ny innsikt kommer inn."
+    },
+    {
+      "from": "arbeid følger mennesker",
+      "to": "mennesker følger verdi",
+      "note": "Organisere seg rundt verdi i stedet for rundt eksisterende roller og teamgrenser — product engineers flytter dit det mest verdifulle arbeidet er når prioriteringene endrer seg, og det holder hele organisasjonen omstillingsdyktig."
+    }
+  ],
+  "useHead": "Hvor langt skal du gå?",
+  "use": [
+    "Disse skiftene er ingen sjekkliste. Ikke alle organisasjoner trenger alle seks, og ikke alle i samme dybde. Hvilke som betyr noe, og hvor langt du tar hvert av dem, avhenger av produktet ditt, kundene dine og konkurransefortrinnet du vil bygge.",
+    "Bruk dem som inspirasjon til å definere strategien din. Velg skiftene som styrker fortrinnet ditt, bestem hvor langt du vil gå med hvert, og velg først da hvor AI skal forsterke dem. Vurder miksen på nytt etter hvert som du lærer. Slik gjør du agentic shift til ditt eget og får det til å skje på dine premisser."
+  ],
+  "qaHead": "Hva nå?",
+  "qa": [
+    {
+      "q": "Vil du bidra?",
+      "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Foreslå forbedringer</a>. Del denne siden. Sett disse ideene ut i livet i organisasjonen din."
+    }
+  ],
+  "foot": {
+    "by": "laget og vedlikeholdt av"
+  },
+  "ui": {
+    "download": "Last ned som Markdown",
+    "themeToLight": "Bytt til lyst tema",
+    "themeToDark": "Bytt til mørkt tema"
+  }
+}

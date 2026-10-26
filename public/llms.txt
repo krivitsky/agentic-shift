@@ -208,6 +208,35 @@ Use-as como inspiração para definir a sua estratégia. Escolha as mudanças qu
 
 **Quer contribuir?** Proponha melhorias (https://github.com/krivitsky/agentic-shift). Partilhe esta página. Ponha estas ideias a trabalhar na sua organização.
 
+## Manifesto (Polski)
+
+**Agentic Shift** — Od tokenmaxingu i innego teatru AI do zdrowych organizacji, w których ludzie się rozwijają i tworzą świetne produkty i usługi.
+
+### Po co zmiana?
+
+Codziennie korzystamy z narzędzi AI i lubimy je. AI to technologia zdemokratyzowana. Ma ją każdy, więc sama w sobie nikomu nie daje przewagi. Przyspiesza te tendencje, które organizacja już ma. Dlatego ważne jest, by znać swoją przewagę konkurencyjną i wiedzieć, jak ją wzmocnić strategicznym wdrażaniem AI — zamiast rozsypywać AI wszędzie pod wpływem FOMO, które szerzą dostawcy AI.
+
+Poniżej opisujemy zmiany, które przeprowadzają organizacje dążące do trwałej jakości, realnej wartości dla klientów i wysokiej zdolności adaptacji.
+
+### Twoja zmiana
+
+- **wąscy specjaliści → rzemieślnicy pełnego cyklu** (narrow specialists → complete craftspeople) — Umożliwienie inżynierom produktu przejścia od roli wąskich specjalistów z linii montażowej do rzemieślników pełnego cyklu — przy czym AI wypełnia luki specjalistyczne i wspiera podnoszenie kompetencji przy wchodzeniu w nowe domeny.
+- **koordynacja zależności → ekstremalne współtworzenie** (coordinating dependencies → extreme cocreation) — Zamiast koordynować fragmenty przez przekazania i spotkania integracyjne, rzemieślnicy pełnego cyklu pracują we flow ze swoimi agentami i ze sobą nawzajem, przeplatając skupioną pracę ze wspólnym spojrzeniem na cały produkt i ulepszając go jako całość.
+- **kodowanie funkcji → projektowanie systemów agentowych** (coding features → designing agentic systems) — Przeprowadzenie inżynierów produktu od kodowania funkcji jedna po drugiej do projektowania systemów agentowych, które je budują — samodoskonalących się pętli, które zamieniają intencję w przetestowane, działające oprogramowanie i weryfikują każdą zmianę względem testów i specyfikacji, podczas gdy inżynierowie produktu odpowiadają za testy i pętlę wartości.
+- **głuchy telefon → zero dystansu do użytkowników** (the telephone game → zero distance to users) — Koniec z głuchym telefonem przez menedżerów-pośredników i z erą „IT siedzącego w piwnicy” — zamiast tego inżynierowie produktu pracują bezpośrednio przy klientach i użytkowników, by z pierwszej ręki wczuwać się w ich sytuację, analizować i syntetyzować.
+- **liczenie outputu → odpowiedzialność za rezultaty** (counting output → owning outcomes) — Przeprowadzenie inżynierów produktu od liczenia outputu do odpowiedzialności za całą pętlę wartości — zapewniania realnego wpływu na klientów, eksperymentowania i korygowania kursu w miarę napływu nowych danych.
+- **praca idzie za ludźmi → ludzie idą za wartością** (work follows people → people follow value) — Organizowanie się wokół wartości zamiast wokół istniejących ról i granic zespołów — inżynierowie produktu przechodzą tam, gdzie jest najcenniejsza praca, gdy zmieniają się priorytety, dzięki czemu cała organizacja pozostaje zdolna do adaptacji.
+
+### Jak daleko iść?
+
+Te zmiany to nie lista kontrolna. Nie każda organizacja potrzebuje wszystkich sześciu i nie każdej w tym samym stopniu. To, które z nich mają znaczenie i jak daleko pójdziesz z każdą, zależy od twojego produktu, twoich klientów i przewagi konkurencyjnej, którą chcesz zbudować.
+
+Traktuj je jako inspirację do zdefiniowania swojej strategii. Wybierz zmiany, które wzmacniają twoją przewagę, zdecyduj, jak daleko pójść z każdą z nich, i dopiero wtedy wybierz, gdzie AI ma je wzmocnić. Wracaj do tego zestawu w miarę, jak się uczysz. Tak sprawiasz, że agentic shift staje się twój, i przeprowadzasz go na własnych warunkach.
+
+### Co dalej?
+
+**Chcesz współtworzyć?** Zaproponuj ulepszenia (https://github.com/krivitsky/agentic-shift). Udostępnij tę stronę. Wprowadź te idee w życie w swojej organizacji.
+
 ## Manifesto (Čeština)
 
 **Agentic Shift** — Od tokenmaxingu a dalšího AI divadla ke zdravým organizacím, v nichž lidé vzkvétají a tvoří skvělé produkty a služby.
@@ -236,6 +265,93 @@ Použijte je jako inspiraci k definování své strategie. Vyberte posuny, kter�
 ### Co dál?
 
 **Chcete přispět?** Navrhněte vylepšení (https://github.com/krivitsky/agentic-shift). Sdílejte tuto stránku. Uveďte tyto myšlenky do praxe ve své organizaci.
+
+## Manifesto (Dansk)
+
+**Agentic Shift** — Fra tokenmaxing og andet AI-teater mod sunde organisationer, hvor mennesker trives og bygger fremragende produkter og services.
+
+### Hvorfor skifte?
+
+Vi bruger AI-værktøjer hver dag, og vi kan godt lide dem. AI er en demokratiseret teknologi. Alle har den, så i sig selv giver den ingen et forspring. Den accelererer de tendenser, en organisation allerede har. Derfor er det vigtigt at kende sin konkurrencefordel og vide, hvordan man forstærker den med en strategisk AI-adoption, i stedet for at drysse AI ud over det hele på grund af den FOMO, AI-leverandørerne spreder.
+
+Nedenfor er de skift, som organisationer foretager, når de vil have bæredygtig kvalitet, reel kundeværdi og høj tilpasningsevne.
+
+### Dit skifte
+
+- **snævre specialister → end-to-end-håndværkere** (narrow specialists → complete craftspeople) — At sætte product engineers i stand til at gå fra snævre samlebåndsspecialister til end-to-end-håndværkere — hvor AI udfylder specialisthullerne og hjælper med opkvalificering, når de går ind i nye domæner.
+- **koordinere afhængigheder → ekstrem samskabelse** (coordinating dependencies → extreme cocreation) — I stedet for at koordinere fragmenter gennem overleveringer og integrationsmøder arbejder end-to-end-håndværkere i flow med deres agenter og med hinanden, skifter mellem fokuseret arbejde og at se på hele produktet sammen og forbedre det som helhed.
+- **kode features → designe agentiske systemer** (coding features → designing agentic systems) — At flytte product engineers fra at kode features én ad gangen til at designe de agentiske systemer, der bygger dem — selvforbedrende loops, der omsætter intention til testet, fungerende software og verificerer hver ændring mod tests og specifikationer, mens product engineers har ansvaret for testene og værdiloopet.
+- **hviskelegen → nul afstand til brugerne** (the telephone game → zero distance to users) — At gøre en ende på hviskelegen gennem ledere som mellemmænd og på æraen med »IT i kælderen« — og i stedet placere product engineers tæt på kunderne og brugerne, så de på første hånd kan sætte sig i deres sted, analysere og syntetisere.
+- **tælle output → tage ansvar for resultater** (counting output → owning outcomes) — At løfte product engineers fra at tælle output til at tage ansvar for hele værdiloopet — sikre reel effekt for kunderne, eksperimentere og justere kursen, efterhånden som ny indsigt kommer ind.
+- **arbejde følger mennesker → mennesker følger værdi** (work follows people → people follow value) — At organisere sig om værdi i stedet for om eksisterende roller og teamgrænser — product engineers bevæger sig derhen, hvor det mest værdifulde arbejde er, når prioriteterne ændrer sig, og det holder hele organisationen omstillingsparat.
+
+### Hvor langt skal du gå?
+
+Disse skift er ikke en tjekliste. Ikke alle organisationer har brug for alle seks, og ikke alle i samme dybde. Hvilke der betyder noget, og hvor langt du går med hvert enkelt, afhænger af dit produkt, dine kunder og den konkurrencefordel, du vil opbygge.
+
+Brug dem som inspiration til at definere din strategi. Vælg de skift, der styrker din fordel, beslut hvor langt du vil gå med hvert, og vælg først derefter, hvor AI skal forstærke dem. Revurder dit valg, efterhånden som du lærer. Sådan gør du agentic shift til dit eget og får det til at ske på dine præmisser.
+
+### Hvad nu?
+
+**Vil du bidrage?** Foreslå forbedringer (https://github.com/krivitsky/agentic-shift). Del denne side. Sæt disse idéer i spil i din organisation.
+
+## Manifesto (Norsk)
+
+**Agentic Shift** — Fra tokenmaxing og annet AI-teater mot sunne organisasjoner der mennesker trives og bygger fremragende produkter og tjenester.
+
+### Hvorfor skifte?
+
+Vi bruker AI-verktøy hver dag, og vi liker dem. AI er en demokratisert teknologi. Alle har den, så alene gir den ingen et fortrinn. Den akselererer de tendensene en organisasjon allerede har. Derfor er det viktig å kjenne sitt konkurransefortrinn og vite hvordan man forsterker det med en strategisk innføring av AI, i stedet for å strø AI rundt omkring på grunn av FOMO-en som AI-leverandørene sprer.
+
+Nedenfor er skiftene som organisasjoner gjør når de vil ha bærekraftig kvalitet, reell kundeverdi og høy tilpasningsevne.
+
+### Ditt skifte
+
+- **smale spesialister → ende-til-ende-håndverkere** (narrow specialists → complete craftspeople) — Gjøre product engineers i stand til å gå fra smale samlebåndsspesialister til ende-til-ende-håndverkere — der AI fyller spesialisthullene og hjelper med kompetanseheving når de går inn i nye domener.
+- **koordinere avhengigheter → ekstrem samskaping** (coordinating dependencies → extreme cocreation) — I stedet for å koordinere fragmenter gjennom overleveringer og integrasjonsmøter jobber ende-til-ende-håndverkere i flyt med agentene sine og med hverandre, veksler mellom fokusert arbeid og å se på hele produktet sammen og forbedre det som helhet.
+- **kode funksjoner → designe agentiske systemer** (coding features → designing agentic systems) — Flytte product engineers fra å kode funksjoner én etter én til å designe de agentiske systemene som bygger dem — selvforbedrende looper som gjør intensjon om til testet, fungerende programvare og verifiserer hver endring mot tester og spesifikasjoner, mens product engineers har ansvaret for testene og verdiloopen.
+- **hviskeleken → null avstand til brukerne** (the telephone game → zero distance to users) — Gjøre slutt på hviskeleken via ledere som mellomledd og på æraen med «IT i kjelleren» — og i stedet sette product engineers på null avstand til kundene og brukerne, slik at de på første hånd kan leve seg inn i situasjonen deres, analysere og syntetisere.
+- **telle output → ta ansvar for resultater** (counting output → owning outcomes) — Løfte product engineers fra å telle output til å ta ansvar for hele verdiloopen — sikre reell effekt for kundene, eksperimentere og korrigere kursen etter hvert som ny innsikt kommer inn.
+- **arbeid følger mennesker → mennesker følger verdi** (work follows people → people follow value) — Organisere seg rundt verdi i stedet for rundt eksisterende roller og teamgrenser — product engineers flytter dit det mest verdifulle arbeidet er når prioriteringene endrer seg, og det holder hele organisasjonen omstillingsdyktig.
+
+### Hvor langt skal du gå?
+
+Disse skiftene er ingen sjekkliste. Ikke alle organisasjoner trenger alle seks, og ikke alle i samme dybde. Hvilke som betyr noe, og hvor langt du tar hvert av dem, avhenger av produktet ditt, kundene dine og konkurransefortrinnet du vil bygge.
+
+Bruk dem som inspirasjon til å definere strategien din. Velg skiftene som styrker fortrinnet ditt, bestem hvor langt du vil gå med hvert, og velg først da hvor AI skal forsterke dem. Vurder miksen på nytt etter hvert som du lærer. Slik gjør du agentic shift til ditt eget og får det til å skje på dine premisser.
+
+### Hva nå?
+
+**Vil du bidra?** Foreslå forbedringer (https://github.com/krivitsky/agentic-shift). Del denne siden. Sett disse ideene ut i livet i organisasjonen din.
+
+## Manifesto (Svenska)
+
+**Agentic Shift** — Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster.
+
+### Varför skifta?
+
+Vi använder AI-verktyg varje dag, och vi gillar dem. AI är en demokratiserad teknik. Alla har den, så i sig själv ger den ingen ett försprång. Den accelererar de tendenser som en organisation redan har. Därför är det viktigt att känna till sin konkurrensfördel och veta hur man förstärker den med ett strategiskt AI-införande, i stället för att strö ut AI överallt på grund av den FOMO som AI-leverantörerna sprider.
+
+Nedan följer de skiften som organisationer gör när de vill ha hållbar kvalitet, verkligt kundvärde och hög anpassningsförmåga.
+
+### Ditt skifte
+
+- **smala specialister → end-to-end-hantverkare** (narrow specialists → complete craftspeople) — Att göra det möjligt för product engineers att gå från smala löpandebandsspecialister till end-to-end-hantverkare — där AI fyller specialistluckorna och hjälper med kompetensutveckling när de ger sig in i nya domäner.
+- **koordinera beroenden → extremt samskapande** (coordinating dependencies → extreme cocreation) — I stället för att koordinera fragment genom överlämningar och integrationsmöten arbetar end-to-end-hantverkare i flow med sina agenter och med varandra, och växlar mellan fokuserat arbete och att tillsammans se på hela produkten och förbättra den som helhet.
+- **koda funktioner → designa agentiska system** (coding features → designing agentic systems) — Att flytta product engineers från att koda funktioner en i taget till att designa de agentiska system som bygger dem — självförbättrande loopar som omvandlar avsikt till testad, fungerande mjukvara och verifierar varje ändring mot tester och specifikationer, medan product engineers ansvarar för testerna och värdeloopen.
+- **viskleken → noll avstånd till användarna** (the telephone game → zero distance to users) — Att göra slut på viskleken via chefer som mellanhänder och på eran av ”IT i källaren” — och i stället placera product engineers på noll avstånd från kunderna och användarna, så att de själva, på nära håll, kan leva sig in i deras situation, analysera och syntetisera.
+- **räkna output → ta ansvar för resultat** (counting output → owning outcomes) — Att lyfta product engineers från att räkna output till att ta ansvar för hela värdeloopen — säkerställa verklig kundeffekt, experimentera och korrigera kursen allteftersom nya insikter kommer in.
+- **arbete följer människor → människor följer värde** (work follows people → people follow value) — Att organisera sig kring värde i stället för kring befintliga roller och teamgränser — product engineers går dit det mest värdefulla arbetet finns när prioriteringarna ändras, vilket håller hela organisationen anpassningsbar.
+
+### Hur långt ska du gå?
+
+Dessa skiften är ingen checklista. Inte alla organisationer behöver alla sex, och inte alla på samma djup. Vilka som spelar roll, och hur långt du tar vart och ett, beror på din produkt, dina kunder och den konkurrensfördel du vill bygga.
+
+Använd dem som inspiration för att definiera din strategi. Välj de skiften som stärker din fördel, bestäm hur långt du vill gå med vart och ett, och välj först därefter var AI ska förstärka dem. Se över mixen allteftersom du lär dig. Så gör du agentic shift till ditt eget och får det att hända på dina villkor.
+
+### Vad härnäst?
+
+**Vill du bidra?** Föreslå förbättringar (https://github.com/krivitsky/agentic-shift). Dela den här sidan. Omsätt de här idéerna i praktiken i din organisation.
 
 ## Manifesto (Українська)
 

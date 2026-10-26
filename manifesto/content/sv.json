@@ -1,0 +1,77 @@
+{
+  "lang": "sv",
+  "name": "Svenska",
+  "dir": "/sv/",
+  "meta": {
+    "title": "Agentic Shift",
+    "description": "Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster.",
+    "keywords": "agentic shift, agentic product engineering, agentisk produktutveckling, AI-agenter, organisationsdesign, product engineering, Alexey Krivitsky",
+    "ogTitle": "Agentic Shift",
+    "ogDescription": "Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster.",
+    "schemaDescription": "Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster.",
+    "llmsTitle": "Agentic Shift — maskinläsbar (LLM-)version"
+  },
+  "hero": {
+    "headlineLead": "Agentic",
+    "headlineTail": "Shift",
+    "subtitle": "Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster."
+  },
+  "shiftHead": "Varför skifta?",
+  "shiftIntro": [
+    "Vi använder AI-verktyg varje dag, och vi gillar dem. AI är en demokratiserad teknik. Alla har den, så i sig själv ger den ingen ett försprång. Den accelererar de tendenser som en organisation redan har. Därför är det viktigt att känna till sin konkurrensfördel och veta hur man förstärker den med ett strategiskt AI-införande, i stället för att strö ut AI överallt på grund av den FOMO som AI-leverantörerna sprider.",
+    "Nedan följer de skiften som organisationer gör när de vill ha hållbar kvalitet, verkligt kundvärde och hög anpassningsförmåga."
+  ],
+  "ownHead": "Ditt skifte",
+  "shifts": [
+    {
+      "from": "smala specialister",
+      "to": "end-to-end-hantverkare",
+      "note": "Att göra det möjligt för product engineers att gå från smala löpandebandsspecialister till end-to-end-hantverkare — där AI fyller specialistluckorna och hjälper med kompetensutveckling när de ger sig in i nya domäner."
+    },
+    {
+      "from": "koordinera beroenden",
+      "to": "extremt samskapande",
+      "note": "I stället för att koordinera fragment genom överlämningar och integrationsmöten arbetar end-to-end-hantverkare i flow med sina agenter och med varandra, och växlar mellan fokuserat arbete och att tillsammans se på hela produkten och förbättra den som helhet."
+    },
+    {
+      "from": "koda funktioner",
+      "to": "designa agentiska system",
+      "note": "Att flytta product engineers från att koda funktioner en i taget till att designa de agentiska system som bygger dem — självförbättrande loopar som omvandlar avsikt till testad, fungerande mjukvara och verifierar varje ändring mot tester och specifikationer, medan product engineers ansvarar för testerna och värdeloopen."
+    },
+    {
+      "from": "viskleken",
+      "to": "noll avstånd till användarna",
+      "note": "Att göra slut på viskleken via chefer som mellanhänder och på eran av ”IT i källaren” — och i stället placera product engineers på noll avstånd från kunderna och användarna, så att de själva, på nära håll, kan leva sig in i deras situation, analysera och syntetisera."
+    },
+    {
+      "from": "räkna output",
+      "to": "ta ansvar för resultat",
+      "note": "Att lyfta product engineers från att räkna output till att ta ansvar för hela värdeloopen — säkerställa verklig kundeffekt, experimentera och korrigera kursen allteftersom nya insikter kommer in."
+    },
+    {
+      "from": "arbete följer människor",
+      "to": "människor följer värde",
+      "note": "Att organisera sig kring värde i stället för kring befintliga roller och teamgränser — product engineers går dit det mest värdefulla arbetet finns när prioriteringarna ändras, vilket håller hela organisationen anpassningsbar."
+    }
+  ],
+  "useHead": "Hur långt ska du gå?",
+  "use": [
+    "Dessa skiften är ingen checklista. Inte alla organisationer behöver alla sex, och inte alla på samma djup. Vilka som spelar roll, och hur långt du tar vart och ett, beror på din produkt, dina kunder och den konkurrensfördel du vill bygga.",
+    "Använd dem som inspiration för att definiera din strategi. Välj de skiften som stärker din fördel, bestäm hur långt du vill gå med vart och ett, och välj först därefter var AI ska förstärka dem. Se över mixen allteftersom du lär dig. Så gör du agentic shift till ditt eget och får det att hända på dina villkor."
+  ],
+  "qaHead": "Vad härnäst?",
+  "qa": [
+    {
+      "q": "Vill du bidra?",
+      "a": "<a href=\"https://github.com/krivitsky/agentic-shift\" target=\"_blank\" rel=\"noopener\">Föreslå förbättringar</a>. Dela den här sidan. Omsätt de här idéerna i praktiken i din organisation."
+    }
+  ],
+  "foot": {
+    "by": "skapad och underhållen av"
+  },
+  "ui": {
+    "download": "Ladda ner som Markdown",
+    "themeToLight": "Byt till ljust tema",
+    "themeToDark": "Byt till mörkt tema"
+  }
+}
