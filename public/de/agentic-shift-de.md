@@ -4,7 +4,7 @@ _Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen, in denen
 
 ## Warum der Shift?
 
-Wir nutzen KI-Werkzeuge jeden Tag, und wir mögen sie. KI ist eine demokratisierte Technologie. Alle haben sie, also verschafft sie für sich allein niemandem einen Vorsprung. Sie beschleunigt die Tendenzen, die eine Organisation ohnehin schon hat. Kenne also zuerst deinen Wettbewerbsvorteil und verstärke ihn dann durch eine strategische KI-Einführung. Widersteh der Versuchung, KI über alte Strukturen zu streuen, nur weil KI-Anbieter FOMO verbreiten.
+Wir nutzen KI-Werkzeuge jeden Tag, und wir mögen sie. KI ist eine demokratisierte Technologie. Alle haben sie, also verschafft sie für sich allein niemandem einen Vorsprung. Sie beschleunigt die Tendenzen, die eine Organisation ohnehin schon hat. Kenne also zuerst deinen Wettbewerbsvorteil und verstärke ihn dann durch eine strategische KI-Einführung. Widersteh der Versuchung, KI überstürzt über alte Strukturen zu streuen, nur weil KI-Anbieter FOMO verbreiten.
 
 Im Folgenden die Shifts, die Organisationen vollziehen, wenn sie nachhaltige Qualität, echten Kundennutzen und hohe Anpassungsfähigkeit wollen.
 

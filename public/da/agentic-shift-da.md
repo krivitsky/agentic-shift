@@ -4,7 +4,7 @@ _Fra tokenmaxing og andet AI-teater mod sunde organisationer, hvor mennesker tri
 
 ## Hvorfor skifte?
 
-Vi bruger AI-værktøjer hver dag, og vi kan godt lide dem. AI er en demokratiseret teknologi. Alle har den, så i sig selv giver den ingen et forspring. Den accelererer de tendenser, en organisation allerede har. Så kend først din konkurrencefordel, og forstærk den derefter med en strategisk AI-adoption. Modstå fristelsen til at drysse AI ud over gamle strukturer, bare fordi AI-leverandørerne spreder FOMO.
+Vi bruger AI-værktøjer hver dag, og vi kan godt lide dem. AI er en demokratiseret teknologi. Alle har den, så i sig selv giver den ingen et forspring. Den accelererer de tendenser, en organisation allerede har. Så kend først din konkurrencefordel, og forstærk den derefter med en strategisk AI-adoption. Modstå fristelsen til at drysse AI ud over gamle strukturer i hast, bare fordi AI-leverandørerne spreder FOMO.
 
 Nedenfor er de skift, som organisationer foretager, når de vil have bæredygtig kvalitet, reel kundeværdi og høj tilpasningsevne.
 

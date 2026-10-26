@@ -4,7 +4,7 @@ _Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations
 
 ## Pourquoi ce virage ?
 
-Nous utilisons des outils d'IA tous les jours, et nous les apprécions. L'IA est une technologie démocratisée. Tout le monde y a accès, donc à elle seule elle ne donne d'avantage à personne. Elle accélère les tendances qu'une organisation a déjà. Commencez donc par connaître votre avantage concurrentiel, puis amplifiez-le par une adoption stratégique de l'IA. Résistez à la tentation de saupoudrer de l'IA sur d'anciennes structures simplement parce que les fournisseurs d'IA répandent la FOMO.
+Nous utilisons des outils d'IA tous les jours, et nous les apprécions. L'IA est une technologie démocratisée. Tout le monde y a accès, donc à elle seule elle ne donne d'avantage à personne. Elle accélère les tendances qu'une organisation a déjà. Commencez donc par connaître votre avantage concurrentiel, puis amplifiez-le par une adoption stratégique de l'IA. Résistez à la tentation de saupoudrer à la hâte de l'IA sur d'anciennes structures simplement parce que les fournisseurs d'IA répandent la FOMO.
 
 Voici les virages qu'opèrent les organisations qui veulent une qualité durable, une réelle valeur pour le client et une forte adaptabilité.
 

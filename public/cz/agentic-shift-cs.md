@@ -4,7 +4,7 @@ _Od tokenmaxingu a dalšího AI divadla ke zdravým organizacím, v nichž lidé
 
 ## Proč se měnit?
 
-AI nástroje používáme každý den a baví nás. AI je demokratizovaná technologie. Má ji každý, takže sama o sobě nikomu náskok nedává. Urychluje tendence, které organizace už má. Nejprve tedy poznejte svou konkurenční výhodu a pak ji zesilte strategickým zaváděním AI. Odolejte pokušení rozsévat AI po starých strukturách jen proto, že dodavatelé AI šíří FOMO.
+AI nástroje používáme každý den a baví nás. AI je demokratizovaná technologie. Má ji každý, takže sama o sobě nikomu náskok nedává. Urychluje tendence, které organizace už má. Nejprve tedy poznejte svou konkurenční výhodu a pak ji zesilte strategickým zaváděním AI. Odolejte pokušení ukvapeně rozsévat AI po starých strukturách jen proto, že dodavatelé AI šíří FOMO.
 
 Níže jsou posuny, které dělají organizace, jež chtějí udržitelnou kvalitu, skutečnou hodnotu pro zákazníky a vysokou přizpůsobivost.
 
