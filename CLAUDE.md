@@ -5,7 +5,7 @@ agentic shift on their own terms, plus the Agentic Shift Munich meetups. Run by 
 
 - Production: https://agenticshift.org/ (canonical — Alexey, 2026-10-26: "save agenticshift.org as the real url")
 - GitHub: git@github.com:krivitsky/agentic-shift.git (branch: `main`, public repo)
-- Google Search Console (alexeykrivitsky@gmail.com): domain property `sc-domain:agenticshift.org` (DNS TXT at Joker) + URL-prefix `https://agenticshift.org/` (GA-verified); sitemap submitted 2026-10-27. Change of address agentic-shift.com → agenticshift.org filed 2026-10-27 — keep the agentic-shift.com property verified until ~late April 2027.
+- Google Search Console (alexeykrivitsky@gmail.com): domain property `sc-domain:agenticshift.org` (DNS TXT at Joker) + URL-prefix `https://agenticshift.org/` (GA-verified); sitemap submitted 2026-10-27. Change of address agentic-shift.com → `sc-domain:agenticshift.org` active since 2026-10-27 (the URL-prefix property is optional; remove it any time) — keep the agentic-shift.com property verified until ~late April 2027.
 
 ## Start here: the backlog
 - **[`BACKLOG.md`](BACKLOG.md) is the work queue.** Read it first, take the top open item, and follow its spec in `specs/`. Specs are versioned: `specs/v3/` is the current copy rework, and `specs/v4/design/` will hold the design archive Alexey provides.
