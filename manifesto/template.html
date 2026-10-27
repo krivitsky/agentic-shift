@@ -10,13 +10,14 @@
   <meta name="author" content="Alexey Krivitsky">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#ffffff">
-  <link rel="canonical" href="{{DIR}}">
+  <!-- Canonical, og:url, og:image, twitter:image and the JSON-LD url are
+       absolute on agenticshift.org: a relative canonical resolves to whichever
+       domain served the page, and social scrapers need absolute images. -->
+  <link rel="canonical" href="{{URL}}">
   <link rel="alternate" type="text/markdown" href="/llms.txt" title="{{META_LLMS_TITLE}}">
   <link rel="manifest" href="/site.webmanifest">
 
-  <!-- Language alternates. Absolute URLs are required here by the hreflang
-       spec — this is a deliberate carve-out from the relative-URLs-only rule
-       for <head> meta (same as sitemap.xml / robots.txt). -->
+  <!-- Language alternates -->
 {{HREFLANG}}
 
   <!-- Open Graph -->
@@ -25,8 +26,8 @@
   <meta property="og:title" content="{{META_OG_TITLE}}">
   <meta property="og:description" content="{{META_OG_DESCRIPTION}}">
   <meta property="og:locale" content="{{OG_LOCALE}}">
-  <meta property="og:url" content="{{DIR}}">
-  <meta property="og:image" content="/images/og-shift-v6.png">
+  <meta property="og:url" content="{{URL}}">
+  <meta property="og:image" content="{{ORIGIN}}/images/og-shift-v6.png">
   <meta property="og:image:alt" content="Agentic Shift: three shift sliders moved toward complete craftspeople, zero distance to users and owning outcomes">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -35,7 +36,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{META_OG_TITLE}}">
   <meta name="twitter:description" content="{{META_OG_DESCRIPTION}}">
-  <meta name="twitter:image" content="/images/og-shift-v6.png">
+  <meta name="twitter:image" content="{{ORIGIN}}/images/og-shift-v6.png">
 
   <!-- Structured data -->
   <script type="application/ld+json">
@@ -44,7 +45,7 @@
     "@type": "Organization",
     "name": "Agentic Shift",
     "description": "{{META_SCHEMA_DESCRIPTION}}",
-    "url": "{{DIR}}",
+    "url": "{{URL}}",
     "founder": [
       { "@type": "Person", "name": "Alexey Krivitsky", "url": "https://www.linkedin.com/in/alexeykrivitsky/" }
     ]

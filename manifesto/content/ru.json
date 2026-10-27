@@ -3,10 +3,10 @@
   "name": "Русский",
   "dir": "/ru/",
   "meta": {
-    "title": "Agentic Shift",
+    "title": "Agentic Shift — продуманное внедрение ИИ",
     "description": "От tokenmaxing и прочего ИИ-театра к здоровым организациям, в которых люди процветают и создают отличные продукты и услуги.",
     "keywords": "agentic shift, агентная продуктовая инженерия, agentic product engineering, ИИ-агенты, организационный дизайн, продуктовая инженерия, Alexey Krivitsky",
-    "ogTitle": "Agentic Shift",
+    "ogTitle": "Agentic Shift — продуманное внедрение ИИ",
     "ogDescription": "От tokenmaxing и прочего ИИ-театра к здоровым организациям, в которых люди процветают и создают отличные продукты и услуги.",
     "schemaDescription": "От tokenmaxing и прочего ИИ-театра к здоровым организациям, в которых люди процветают и создают отличные продукты и услуги.",
     "llmsTitle": "Agentic Shift — машиночитаемая (LLM) версия"

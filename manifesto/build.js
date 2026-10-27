@@ -174,7 +174,8 @@ function render(c) {
   const p = (list) => list.map((x) => `          <p>${x}</p>`).join('\n');
   const map = {
     LANG: c.lang,
-    DIR: c.dir,
+    ORIGIN,
+    URL: `${ORIGIN}${c.dir}`,
     OG_LOCALE: OG_LOCALE[c.lang],
     LANGBAR_LABEL: esc(LANGBAR_LABEL[c.lang]),
     LANGBAR: langbar(c.lang),
