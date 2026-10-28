@@ -1,0 +1,1050 @@
+/* ── Agentic Shift — site theme ─────────────────────────────────────
+   The dark-teal palette for the manifesto homepage; /munich layers
+   meetups.css on top of this.
+   ------------------------------------------------------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ink: #05090d;
+  --ink-2: #0b1620;
+  --teal: #3ddc9a;
+  --teal-deep: #1c8f63;
+  --teal-ghost: rgba(61, 220, 154, 0.14);
+  --amber: #e8a33d;
+  --text: #e9eff3;
+  --muted: #8395a1;
+  --line: rgba(137, 180, 190, 0.16);
+  --font-sans: "Poppins", "Montserrat", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Berkeley Mono", "JetBrains Mono", "Fira Code", "SF Mono", "Consolas", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  background:
+    radial-gradient(150% 55% at 50% 0%, rgba(15, 32, 41, 0.55) 0%, transparent 44%),
+    var(--ink);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Faint dot-field echoing the hero motif — carries the texture down through
+   the manifesto so the page doesn't fall off a cliff into flat black below
+   the hero. Fixed, behind everything; the opaque hero covers it up top. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(126, 160, 172, 0.06) 1.1px, transparent 1.4px);
+  background-size: 34px 34px;
+  mask-image: linear-gradient(to bottom, transparent 0, #000 34%, #000 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 34%, #000 100%);
+}
+
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* ── Language switcher ───────────────────────────────────────────── */
+
+/* Bottom-left of the hero, aligned to the headline's left edge: the top is
+   reserved for the headline + dot-field composition, and the reading order
+   lands on it last — headline, subtitle, then language.
+   Native names, not ISO codes: "UK" reads as United Kingdom, not Ukrainian.
+   Scoped as `.hero .langbar` so it outweighs `.hero > *`, which would
+   otherwise force position:relative on this child and break the placement. */
+.hero .langbar {
+  position: absolute;
+  bottom: clamp(14px, 2vw, 24px);
+  left: var(--pad);
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: clamp(9px, 1.3vw, 17px);
+  font-family: var(--font-mono);
+  font-size: clamp(10px, 1vw, 12px);
+  letter-spacing: 0.08em;
+}
+
+.langbar a {
+  color: var(--muted);
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.16s ease, border-color 0.16s ease;
+}
+
+.langbar a:hover {
+  color: #fff;
+  border-bottom-color: rgba(61, 220, 154, 0.5);
+}
+
+.langbar a[aria-current="page"] {
+  color: var(--teal);
+  border-bottom-color: var(--teal);
+}
+
+/* ── Hero banner ─────────────────────────────────────────────────── */
+
+.hero {
+  /* Shared geometry so the dot-field and the background grid stay locked:
+     the grid cell === one dot pitch, both anchored to the padded top-right
+     corner. --gw is the on-screen width of the dot SVG (viewBox 306 wide =
+     9 column-pitches, rows step 28/34 of a column). */
+  --pad: clamp(22px, 4vw, 52px);
+  --col: 62px;                           /* fixed dot column pitch — dots look identical on every screen */
+  --row: calc(var(--col) * 28 / 34);     /* dot row pitch (dots sit 28/34 as far apart vertically) */
+  --gw: calc(var(--col) * 9);            /* dot SVG width (viewBox 306 = 9 column-pitches) */
+  position: relative;
+  overflow: hidden;
+  margin: 24px auto;
+  max-width: 1440px;
+  border-radius: 18px;
+  border: 1px solid rgba(137, 180, 190, 0.1);
+  background:
+    radial-gradient(120% 90% at 78% 8%, rgba(28, 143, 99, 0.16) 0%, transparent 58%),
+    linear-gradient(168deg, #0f2029 0%, #091420 46%, #04080c 100%);
+  min-height: min(52vh, 400px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Extra bottom padding reserves a clear band for the language switcher,
+     which sits absolutely at bottom-left; the centered headline block shifts
+     up so the two never overlap. */
+  padding: var(--pad) var(--pad) calc(var(--pad) + 34px);
+}
+
+/* Faint grid — cell size matches the dot pitch and the tile is anchored so a
+   line passes through the top-right dot (which sits at the padded corner). */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: var(--col) var(--row);
+  background-position: right var(--pad) top var(--pad);
+  opacity: 0.35;
+  mask-image: radial-gradient(120% 100% at 60% 30%, #000 20%, transparent 92%);
+  pointer-events: none;
+}
+
+/* Content sits above the absolute grid + dot layers. */
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Eyebrow */
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: var(--font-mono);
+  font-size: clamp(10px, 1.05vw, 13px);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  flex-wrap: wrap;
+}
+
+.eyebrow .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--teal);
+  box-shadow: 0 0 12px 3px rgba(61, 220, 154, 0.55);
+  flex: none;
+}
+
+.eyebrow .sep {
+  color: rgba(137, 180, 190, 0.5);
+}
+
+.eyebrow .lead {
+  color: #c4d2da;
+}
+
+.eyebrow .tail {
+  color: #fff;
+}
+
+/* Headline block */
+.hero-mid {
+  padding: clamp(20px, 5vw, 56px) 0 0;
+}
+
+.headline {
+  font-size: clamp(46px, 9vw, 128px);
+  font-weight: 600;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.subtitle {
+  margin-top: clamp(10px, 1.6vw, 20px);
+  font-size: clamp(18px, 2.5vw, 34px);
+  font-weight: 500;
+  color: #c8d5dd;
+  letter-spacing: -0.01em;
+}
+
+.subtitle .slash {
+  color: var(--amber);
+  margin: 0 0.15em;
+}
+
+.hero-rule {
+  margin: clamp(20px, 3vw, 38px) 0 0;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(137, 180, 190, 0.3), rgba(137, 180, 190, 0.06) 70%, transparent);
+}
+
+/* Bottom row: meta + CTAs */
+.hero-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-top: clamp(18px, 2.5vw, 26px);
+}
+
+.meta {
+  font-family: var(--font-mono);
+  font-size: clamp(12px, 1.2vw, 15px);
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+/* Footnote asterisk — in both the eyebrow and the footnote itself. */
+.star {
+  color: var(--teal);
+}
+
+/* Hero → meetups link (bottom-right of the hero foot) */
+.hero-link {
+  font-family: var(--font-mono);
+  font-size: clamp(13px, 1.2vw, 15px);
+  letter-spacing: 0.02em;
+  color: #dbe6ec;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 11px 22px;
+  border: 1px solid rgba(137, 180, 190, 0.4);
+  border-radius: 999px;
+  transition: border-color 0.16s ease, color 0.16s ease, transform 0.16s ease;
+}
+
+.hero-link span { color: var(--amber); transition: transform 0.16s ease; display: inline-block; }
+.hero-link:hover { border-color: var(--teal); color: #fff; transform: translateY(-1px); }
+.hero-link:hover span { transform: translateX(3px); }
+
+/* keep the link on the right now that the footnote no longer shares the row */
+.hero-foot .hero-link { margin-left: auto; }
+
+/* Hero footnote (keyed to the * on "a manifesto"). Small print, bottom-left. */
+.footnote {
+  font-family: var(--font-mono);
+  font-size: clamp(11px, 1.05vw, 13px);
+  line-height: 1.55;
+  color: #7f929d;
+  max-width: 62ch;
+  letter-spacing: 0.01em;
+}
+
+/* ── Glitched word ───────────────────────────────────────────────── */
+/* An interlace smear, not a torn-band glitch: copies of the word are
+   sliced into thin VERTICAL stripes and offset sideways. The echoes slide
+   in from a wide offset on load and SETTLE — the shift happens once, then
+   the word rests as a static double-exposure (no perpetual motion, which
+   read as a font glitch). All offsets/widths in `em` so they track the
+   clamped font-size. */
+
+.glitch {
+  position: relative;
+  display: inline-block;
+  color: var(--teal);
+  /* Layers sit on top; keep them from bleeding into layout. */
+  isolation: isolate;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* The stripes are a repeating gradient clipped to the glyphs, and the
+   motion is `background-position` — NOT `mask-position`, which Chrome
+   refuses to interpolate on a pseudo-element (it snaps to the end value
+   and sits there, animation reported "running" but visually frozen).
+   The mask here is only the static left/right fade. */
+.glitch::before,
+.glitch::after {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: repeat;
+}
+
+/* Light echo — settles pushed right, densest at the trailing edge. */
+.glitch::before {
+  opacity: 0.9;
+  transform: translateX(0.055em);
+  background-image: repeating-linear-gradient(90deg, #b6f0d5 0 0.03em, transparent 0.03em 0.075em);
+  -webkit-mask-image: linear-gradient(90deg, transparent 18%, #000 82%);
+  mask-image: linear-gradient(90deg, transparent 18%, #000 82%);
+  animation: settle-right 0.9s cubic-bezier(0.2, 0.75, 0.2, 1) 0.15s both;
+}
+
+/* Dark echo — settles pushed left and slightly down, on the leading letters.
+   Reads as the depth/shadow edge in the reference. */
+.glitch::after {
+  opacity: 0.85;
+  transform: translate(-0.04em, 0.018em);
+  background-image: repeating-linear-gradient(90deg, #2e8060 0 0.022em, transparent 0.022em 0.1em);
+  -webkit-mask-image: linear-gradient(90deg, #000 12%, transparent 78%);
+  mask-image: linear-gradient(90deg, #000 12%, transparent 78%);
+  animation: settle-left 1.1s cubic-bezier(0.2, 0.75, 0.2, 1) 0.05s both;
+}
+
+/* The shift happens ONCE: each echo slides in from a wide offset and comes
+   to rest at its final (static) position. No looping. */
+@keyframes settle-right {
+  from { transform: translateX(0.5em); opacity: 0; }
+  to   { transform: translateX(0.055em); opacity: 0.9; }
+}
+
+@keyframes settle-left {
+  from { transform: translate(-0.5em, 0.018em); opacity: 0; }
+  to   { transform: translate(-0.04em, 0.018em); opacity: 0.85; }
+}
+
+/* The base glyphs stay anchored — only the echoes move, once, on load. */
+
+/* ── Node graph (upper right) ────────────────────────────────────── */
+
+/* Sized to stay inside the upper-right quadrant — it must not reach the
+   CTA row at the bottom of the hero.
+   Sizing note: a single fluid corner element at ALL widths. It scales with the
+   viewport (width tracks 30vw) so it always sits to the RIGHT of the headline
+   text and clears it — the headline text width also scales with vw, so the two
+   never collide. (A previous grid-locked 612px version could not: the hero
+   caps at 1440px, so a field that big always dropped onto the headline.) */
+.graph {
+  position: absolute;
+  /* Anchored to the padded top-right corner (the same origin the grid tiles
+     from), and sized to --gw so its dot pitch === the grid cell. The top-right
+     dot therefore lands exactly on a grid intersection at every width. */
+  top: 0;
+  right: 0;
+  width: var(--gw);
+  height: auto;
+  overflow: visible;
+  pointer-events: none;
+}
+
+/* The dimmed grid — mediocrity, the background everyone sits in.
+   Sits exactly on the hero's grid intersections. */
+.graph .grid circle {
+  fill: rgba(126, 160, 172, 0.18);
+}
+
+/* The live diagonal — the climb. Each live dot blinks by growing and fading
+   around its OWN centre (transform-box: fill-box), so relative sizes are kept
+   and no dot ever leaves its grid point. */
+.graph .rise circle,
+.graph .peak circle {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: dot-grow 3.4s ease-in-out infinite;
+}
+
+.graph .rise circle {
+  fill: var(--teal);
+}
+
+.graph .peak circle {
+  fill: #8ff0c4;
+}
+
+/* Delays climb along the diagonal, so the shimmer reads bottom-left → top-right. */
+.graph .rise circle:nth-child(1) { animation-delay: 0s; }
+.graph .rise circle:nth-child(2) { animation-delay: 0.18s; }
+.graph .rise circle:nth-child(3) { animation-delay: 0.36s; }
+.graph .rise circle:nth-child(4) { animation-delay: 0.5s; }
+.graph .rise circle:nth-child(5) { animation-delay: 0.68s; }
+.graph .rise circle:nth-child(6) { animation-delay: 0.82s; }
+.graph .rise circle:nth-child(7) { animation-delay: 0.9s; }
+.graph .rise circle:nth-child(8) { animation-delay: 1s; }
+.graph .rise circle:nth-child(9) { animation-delay: 1.1s; }
+.graph .rise circle:nth-child(10) { animation-delay: 1.18s; }
+.graph .rise circle:nth-child(11) { animation-delay: 1.26s; }
+.graph .rise circle:nth-child(12) { animation-delay: 1.4s; }
+.graph .peak circle:nth-child(1) { animation-delay: 1.5s; }
+.graph .peak circle:nth-child(2) { animation-delay: 1.6s; }
+
+@keyframes dot-grow {
+  0%, 100% { opacity: 0.5; transform: scale(0.62); }
+  50% { opacity: 1; transform: scale(1.18); }
+}
+
+/* ── Buttons ─────────────────────────────────────────────────────── */
+
+.ctas {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  font-family: var(--font-mono);
+  font-size: clamp(13px, 1.15vw, 16px);
+  letter-spacing: 0.02em;
+  padding: 13px 26px;
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease, color 0.16s ease;
+}
+
+.btn-ghost {
+  color: #dbe6ec;
+  border: 1px solid rgba(137, 180, 190, 0.45);
+  background: transparent;
+}
+
+.btn-ghost:hover {
+  border-color: var(--teal);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  color: #06120d;
+  font-weight: 700;
+  border: 1px solid transparent;
+  background: linear-gradient(95deg, var(--teal) 0%, #7fd07a 48%, var(--amber) 100%);
+  box-shadow: 0 6px 26px rgba(61, 220, 154, 0.22);
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 34px rgba(61, 220, 154, 0.34);
+}
+
+/* ── Manifesto body ──────────────────────────────────────────────── */
+
+/* Match the hero's box exactly (max-width + horizontal padding) so the
+   manifesto spans the full hero width and its left edge lines up under the
+   headline, instead of floating as a narrow centred column. */
+.manifesto {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: clamp(24px, 3vw, 44px) clamp(26px, 4vw, 52px) clamp(30px, 4vw, 48px);
+}
+
+.lede {
+  font-size: clamp(18px, 1.95vw, 22px);
+  line-height: 1.55;
+  color: #d3dee5;
+  letter-spacing: -0.01em;
+}
+
+.lede + .lede {
+  margin-top: clamp(20px, 2.4vw, 30px);
+}
+
+.lede em {
+  font-style: normal;
+  color: #fff;
+}
+
+.lede .amber {
+  color: var(--amber);
+}
+
+/* Struck-through aside — the thing the bar is set against, visibly crossed
+   out rather than merely named. Grey, so it recedes from the live text. */
+.lede .strike {
+  color: var(--muted);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(131, 149, 161, 0.75);
+}
+
+.lede a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(61, 220, 154, 0.5);
+  transition: border-color 0.16s ease;
+}
+
+.lede a:hover {
+  border-color: var(--teal);
+}
+
+/* Must wrap — the term is longer than a phone viewport. */
+.definition {
+  color: var(--teal);
+}
+
+/* Prompt-style sub-question label introducing a closing thought. */
+.q-head {
+  font-family: var(--font-mono);
+  font-size: clamp(15px, 1.7vw, 20px);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: #eef3f5;
+  margin: clamp(40px, 6vw, 66px) 0 clamp(14px, 1.8vw, 20px);
+}
+
+.q-head .p {
+  color: var(--teal);
+  margin-right: 0.4em;
+}
+
+/* Section label, mono, matching the eyebrow */
+.label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: clamp(44px, 6vw, 76px) 0 clamp(20px, 3vw, 32px);
+}
+
+.label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(137, 180, 190, 0.28), transparent);
+}
+
+/* Section thesis — "product engineers shift:". This is the argument of the
+   page, so it reads as a real heading, not a tiny mono label. */
+.section-head {
+  font-family: var(--font-sans);
+  font-size: clamp(21px, 2.7vw, 31px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: #eef3f5;
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 2vw, 24px);
+  margin: clamp(40px, 6vw, 68px) 0 clamp(24px, 3.5vw, 38px);
+}
+
+.section-head .tick {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.section-head .lite {
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.section-head::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(137, 180, 190, 0.3), transparent);
+}
+
+/* ── Shift groups ────────────────────────────────────────────────── */
+/* The five shifts split into two labelled groups: technical (amber, drawing
+   on the Agentic Engineer's Field Guide) and organizational (teal, drawing on
+   10X ORG). The header carries the source link that used to sit in a
+   paragraph under the whole list — attribution now reads right next to the
+   shifts it belongs to, and the group's colour runs through its numbers,
+   arrows and `to` words. */
+
+.group + .group {
+  margin-top: clamp(32px, 4.5vw, 54px);
+}
+
+.group-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 24px;
+  padding-bottom: clamp(10px, 1.2vw, 14px);
+  margin-bottom: clamp(16px, 2vw, 22px);
+  border-bottom: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: clamp(12px, 1.25vw, 15px);
+  line-height: 1.4;
+}
+
+.group-label {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+}
+
+.group-src {
+  color: var(--muted);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: opacity 0.2s ease;
+}
+
+/* "Supported by" stays muted so the source name keeps the group's accent. */
+.group-src .src-by {
+  color: var(--muted);
+}
+
+.group-src .ext {
+  margin-left: 0.45em;
+}
+
+.group-src:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Technical group — amber. */
+.group-tech .group-head {
+  border-bottom-color: rgba(232, 163, 61, 0.26);
+}
+
+.group-tech .group-label,
+.group-tech .shift .n,
+.group-tech .pair .to {
+  color: var(--amber);
+}
+
+.group-tech .group-src {
+  color: var(--amber);
+  opacity: 0.82;
+}
+
+.group-tech .shift:hover {
+  border-color: rgba(232, 163, 61, 0.4);
+}
+
+/* Organizational group — teal. */
+.group-org .group-head {
+  border-bottom-color: rgba(61, 220, 154, 0.24);
+}
+
+.group-org .group-label,
+.group-org .shift .n,
+.group-org .pair .to,
+.group-org .pair .arrow {
+  color: var(--teal);
+}
+
+.group-org .group-src {
+  color: var(--teal);
+  opacity: 0.82;
+}
+
+/* ── The five shifts ─────────────────────────────────────────────── */
+
+.shifts {
+  list-style: none;
+  display: grid;
+  gap: 14px;
+  counter-reset: shift;
+}
+
+.shift {
+  position: relative;
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  gap: clamp(12px, 2vw, 26px);
+  align-items: start;
+  padding: clamp(20px, 2.6vw, 30px);
+  border: 1px solid rgba(137, 180, 190, 0.14);
+  border-radius: 14px;
+  background: linear-gradient(150deg, rgba(18, 40, 52, 0.75), rgba(7, 13, 18, 0.6));
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.shift:hover {
+  border-color: rgba(61, 220, 154, 0.4);
+  transform: translateY(-2px);
+}
+
+.shift .n {
+  font-family: var(--font-mono);
+  font-size: clamp(20px, 2.2vw, 27px);
+  font-weight: 500;
+  color: var(--teal);
+  line-height: 1.1;
+  opacity: 0.9;
+}
+
+.shift-body {
+  display: grid;
+  gap: clamp(8px, 1vw, 12px);
+  align-content: center;
+}
+
+/* The punchy pair — the shift IS the headline. from muted, to teal. */
+.pair {
+  display: flex;
+  align-items: baseline;
+  gap: clamp(12px, 1.6vw, 22px);
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  flex-wrap: wrap;
+}
+
+.pair .from {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* On translated pages each term stacks its canonical English word directly
+   beneath it (word-under-word), so the shared vocabulary reads inline with
+   the localized headline. Generated from en.json; absent on the English page.
+   The column's baseline is its first row (the big word), so the arrow between
+   terms still aligns to the headline, not to the gloss. */
+.pair .term {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pair-en {
+  margin-top: 3px;
+  font-family: var(--font-mono);
+  font-size: clamp(13px, 1.5vw, 17px);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  color: var(--muted);
+  opacity: 0.75;
+}
+
+.pair .arrow {
+  color: var(--amber);
+  font-weight: 400;
+  font-size: 0.82em;
+  transform: translateY(-0.02em);
+  transition: transform 0.2s ease;
+}
+
+.pair .to {
+  color: var(--teal);
+}
+
+.shift:hover .arrow {
+  transform: translateX(3px) translateY(-0.02em);
+}
+
+.note {
+  color: #9fb0ba;
+  font-size: clamp(14px, 1.35vw, 17px);
+  line-height: 1.5;
+  max-width: 46em;
+}
+
+/* Closing note — moved out of the hero footnote; same .lede style as the
+   opening paragraphs, just needs top spacing below the shifts. */
+.closing {
+  margin-top: clamp(40px, 6vw, 72px);
+}
+
+/* Synthesis note under the shifts — same style as the ledes above the shifts
+   (it carries the .lede class, so its link matches the body links); this only
+   adds spacing between the shift cards and the first note paragraph. Paragraph
+   gaps between note lines come from `.lede + .lede`. */
+.system-note {
+  margin-top: clamp(30px, 4.5vw, 52px);
+}
+
+/* ── Footer ──────────────────────────────────────────────────────── */
+
+.foot {
+  border-top: 1px solid rgba(137, 180, 190, 0.12);
+  margin-top: clamp(40px, 6vw, 72px);
+  padding: 28px 0 56px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+}
+
+/* Identity items on one line, dot-separated; wraps on narrow screens. */
+.foot-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+}
+
+.foot .sep {
+  color: rgba(137, 180, 190, 0.4);
+}
+
+/* The community/meetups link sits below the identity line, set a little apart. */
+.foot .foot-cta {
+  margin-top: 7px;
+  color: #dbe6ec;
+}
+
+/* Machine-readable / crawler files — subtle fine print at the very bottom. */
+.foot-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+/* Clearly dimmer than the rest of the footer (which is ~#8395a1 / #c3d2da).
+   Uses `.foot .foot-meta a` specificity so it wins over the later `.foot a`. */
+.foot .foot-meta a {
+  color: #4e5860;
+  border-bottom-color: rgba(137, 180, 190, 0.12);
+}
+
+.foot .foot-meta a:hover {
+  color: var(--teal);
+}
+
+.foot .foot-meta .sep {
+  color: #333c42;
+}
+
+/* Markdown download in the language switcher — the CommonMark mark
+   (M + down-arrow) plus the current language code in brackets, so it reads
+   as "download the Markdown for THIS language". Sits after the language
+   links; inherits the langbar's muted color, brightens on hover. */
+/* Thin vertical pipe separating the language list from the download link. */
+.langbar .langbar-div {
+  width: 1px;
+  height: 13px;
+  background: rgba(137, 180, 190, 0.35);
+  flex: none;
+}
+
+.langbar .md-dl {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  /* Always styled "active" (teal + underline) so it reads as a live download
+     affordance, mirroring the current-language item. The [XX] code stays the
+     same size as the language labels; only the icon is enlarged (below). */
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 1px solid var(--teal);
+  padding-bottom: 3px;
+  transition: color 0.16s ease, border-color 0.16s ease;
+}
+
+.langbar .md-dl svg {
+  width: 25px;
+  height: auto;
+  display: block;
+}
+
+.langbar .md-dl .md-code {
+  letter-spacing: 0.06em;
+}
+
+.langbar .md-dl:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.foot a {
+  color: #c3d2da;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(61, 220, 154, 0.35);
+}
+
+.foot a:hover {
+  color: var(--teal);
+}
+
+/* ── Small screens ───────────────────────────────────────────────── */
+
+@media (max-width: 760px) {
+  .hero {
+    min-height: 0;
+    margin: 12px;
+    /* Smaller dot pitch so the field sits to the RIGHT of the title on
+       narrow screens instead of running behind it. */
+    --col: 34px;
+    border-radius: 14px;
+    /* Drop the desktop reserved band (+34px under the absolute switcher);
+       here the switcher is in normal flow, so the space below it is just
+       this padding. Placed after the base .hero so it actually wins. */
+    padding-bottom: var(--pad);
+  }
+
+  /* The subtitle and the 11-language switcher each wrap to several lines on
+     phones; absolute bottom-pinning collided with the subtitle. Put the
+     switcher in normal flow under the subtitle with a clear gap instead. */
+  .hero .langbar {
+    position: static;
+    margin-top: clamp(20px, 5vw, 30px);
+  }
+
+  /* Keep the headline/subtitle on the left (let the title wrap) so the
+     dot-field stays clearly to their right and the text remains readable. */
+  .hero-mid {
+    max-width: 60%;
+  }
+
+
+  /* Tighten the gap between the hero and the first paragraph on phones. */
+  .manifesto {
+    padding-top: clamp(20px, 5vw, 34px);
+  }
+
+  .hero-foot {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .ctas {
+    width: 100%;
+  }
+
+  .btn {
+    flex: 1;
+    text-align: center;
+    padding: 13px 16px;
+  }
+
+  .shift {
+    grid-template-columns: 32px 1fr;
+    padding: 20px 18px;
+  }
+
+  .pair {
+    font-size: clamp(24px, 8vw, 34px);
+    gap: 12px;
+  }
+}
+
+/* ── Phones ──────────────────────────────────────────────────────────
+   The 60% cap above keeps the dot-field clear of the headline by taking
+   width away from the text — on a 390px screen that left the hero copy
+   192px, under half the viewport, so the subtitle broke every four words.
+   Below 560px, clear the field VERTICALLY instead: shrink it and start the
+   text under it, then let the copy run the hero's full width. Side padding
+   also comes down — a phone has no width to spend on margins. */
+@media (max-width: 560px) {
+  .hero {
+    --col: 26px;
+  }
+
+  .hero-mid {
+    max-width: 100%;
+    /* Clears the dot-field: it is --gw wide (9 × --col) and 112/306 as tall. */
+    padding-top: calc(var(--gw) * 0.37 + 10px);
+  }
+
+  .manifesto {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .shift {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .glitch::before,
+  .glitch::after,
+  .graph .rise circle,
+  .graph .peak circle {
+    animation: none;
+  }
+}
+
+/* ── Community banner (manifesto top CTA) ─────────────────────────── */
+.community-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 12px 18px;
+  margin-bottom: clamp(32px, 4vw, 52px);
+  border: 1px solid rgba(61, 220, 154, 0.22);
+  border-radius: 10px;
+  background: linear-gradient(150deg, rgba(10,30,22,0.55), rgba(7,16,14,0.38));
+  text-decoration: none;
+  transition: border-color 0.18s ease, background 0.18s ease;
+}
+.community-banner:hover {
+  border-color: rgba(61, 220, 154, 0.5);
+  background: linear-gradient(150deg, rgba(10,30,22,0.72), rgba(7,16,14,0.52));
+}
+.cb-tag {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #05090d;
+  background: var(--teal);
+  border-radius: 999px;
+  padding: 3px 11px;
+  font-weight: 600;
+}
+.cb-desc {
+  flex: 1;
+  color: #c6d2d9;
+  font-size: clamp(13px, 1.35vw, 15.5px);
+  line-height: 1.4;
+  min-width: 160px;
+}
+.cb-status {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--teal);
+  letter-spacing: 0.02em;
+}

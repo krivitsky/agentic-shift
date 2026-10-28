@@ -1,0 +1,4 @@
+{
+  "//": "Which version page is the homepage. Change \"live\", run node manifesto/build.js, commit, push. See CLAUDE.md §Versions.",
+  "live": "v3"
+}

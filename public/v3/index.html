@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<!-- ARCHIVE v3 — the homepage since 2026-10-26: six shift sliders, the
+     slider design from specs/v4/design. public/index.html at commit b467525,
+     frozen; hand-kept, NOT generated. Hidden: noindex, nofollow, out of
+     sitemap.xml, no GA, not linked. Favicon, touch icon, OG image and the
+     Markdown download are copies in this folder, so later homepage changes
+     cannot alter it. When
+     manifesto/live.json names v3, build.js derives / from this file: robots
+     → index, the /v3 URLs → /, and the LIVE:HREFLANG and LIVE:ANALYTICS
+     lines filled in. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Agentic Shift — thoughtful AI adoption</title>
+  <meta name="description" content="From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.">
+  <meta name="keywords" content="agentic shift, agentic product engineering, agentic engineering, AI agents, organizational design, product engineering, professional agentic engineering, Alexey Krivitsky">
+  <meta name="author" content="Alexey Krivitsky">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Canonical, og:url, og:image, twitter:image and the JSON-LD url are
+       absolute on agenticshift.org: a relative canonical resolves to whichever
+       domain served the page, and social scrapers need absolute images. -->
+  <link rel="canonical" href="https://agenticshift.org/v3">
+  <link rel="alternate" type="text/markdown" href="/llms.txt" title="Agentic Shift — machine-readable (LLM) version">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- LIVE:HREFLANG -->
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Agentic Shift">
+  <meta property="og:title" content="Agentic Shift — thoughtful AI adoption">
+  <meta property="og:description" content="From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://agenticshift.org/v3">
+  <meta property="og:image" content="https://agenticshift.org/v3/og-shift-v6.png">
+  <meta property="og:image:alt" content="Agentic Shift: three shift sliders moved toward complete craftspeople, zero distance to users and owning outcomes">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Agentic Shift — thoughtful AI adoption">
+  <meta name="twitter:description" content="From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.">
+  <meta name="twitter:image" content="https://agenticshift.org/v3/og-shift-v6.png">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Agentic Shift",
+    "description": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.",
+    "url": "https://agenticshift.org/v3",
+    "founder": [
+      { "@type": "Person", "name": "Alexey Krivitsky", "url": "https://www.linkedin.com/in/alexeykrivitsky/" }
+    ]
+  }
+  </script>
+
+  <!-- Theme before first paint: a stored choice wins, else light (Alexey,
+       2026-10-25: light is the default, whatever the OS says). -->
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('agentic-theme'); } catch (e) {}
+      if (t !== 'dark' && t !== 'light') t = 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="/v3/favicon.svg">
+  <link rel="apple-touch-icon" href="/v3/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,800;1,500&display=swap" rel="stylesheet">
+
+  <!-- LIVE:ANALYTICS -->
+
+  <style>
+    /* v4 homepage (spec: specs/v3/README.md §v4, design: specs/v4/design).
+       Self-contained on purpose: shift.css still serves /munich, /v1, /v12
+       and the 11 translated pages, so nothing here may leak into it. */
+    :root[data-theme="dark"] {
+      --bg: #05090D; --text: #EDF1EF; --accent: #3DDC9A; --fill: #3DDC9A;
+      --muted: #9AA4AC; --line: #2A333A; --panel: #1C2329;
+      color-scheme: dark;
+    }
+    :root, [data-theme="light"] {
+      --bg: #FFFFFF; --text: #05090D; --accent: #0E7A55; --fill: #3DDC9A;
+      --muted: #5B6670; --line: #E3E7E5; --panel: #F4F6F5;
+      color-scheme: light;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+    /* One family, Inter, for everything. The design used Inter Tight, which
+       read "too sharpy" in running text and "too condensed" in the headlines
+       (Alexey, 2026-10-25), so letter-spacing is looser than the design too. */
+    .wrap {
+      padding-left: max(16px, calc((100% - 1200px) / 2));
+      padding-right: max(16px, calc((100% - 1200px) / 2));
+    }
+    /* No hyphenation anywhere (Alexey, 2026-10-25: no "prod-ucts"). */
+    .txt, p, h1, h2, li { overflow-wrap: break-word; hyphens: none; -webkit-hyphens: none; }
+    a { color: var(--accent); }
+    a:hover { color: var(--text); }
+    a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+    /* ── Header ─────────────────────────────────────────── */
+    .top { padding-top: 48px; padding-bottom: 56px; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    /* The bar spans the word "Agentic" below it (3.63em of the headline size),
+       so it reads as part of the title (Alexey, 2026-10-25: 72px was too short). */
+    /* The hero mark is a slider, like the favicon (Alexey, 2026-10-26): teal fill
+       up to an ink knob at ~2/3, grey track after it. The knob slides in on load. */
+    .mark {
+      --k: 0.8; --kw: clamp(14px, 1.6vw, 20px);
+      position: relative; flex: none; margin-left: 0.04em;
+      width: calc(clamp(52px, 11vw, 144px) * 3.63); height: calc(var(--kw) * 2.2);
+    }
+    .mark::before, .mark::after, .mark i { content: ""; position: absolute; top: 50%; transform: translateY(-50%); }
+    .mark::before { left: 0; right: 0; height: 12px; background: var(--line); }
+    .mark::after { left: 0; height: 12px; background: var(--fill); width: calc((100% - var(--kw)) * var(--k) + var(--kw) / 2); animation: mark-fill 1.5s cubic-bezier(.22,.8,.2,1) both; }
+    .mark i { left: calc((100% - var(--kw)) * var(--k)); width: var(--kw); height: 100%; border-radius: 4px; background: var(--text); z-index: 1; animation: mark-knob 1.5s cubic-bezier(.22,.8,.2,1) both; }
+    @keyframes mark-fill { from { width: calc(var(--kw) / 2); } }
+    @keyframes mark-knob { from { left: 0; } }
+    @media (prefers-reduced-motion: reduce) { .mark::after, .mark i { animation: none; } }
+    .tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .theme-toggle {
+      width: 48px; height: 48px; padding: 0; flex: none;
+      display: flex; align-items: center; justify-content: center;
+      border: 2px solid var(--line); border-radius: 0;
+      background: transparent; color: var(--text); cursor: pointer;
+    }
+    .theme-toggle .sun { display: none; }
+    [data-theme="dark"] .theme-toggle .sun { display: block; }
+    [data-theme="light"] .theme-toggle .moon { display: block; }
+    .theme-toggle .moon { display: none; }
+    .langs { position: relative; }
+    .langs summary {
+      list-style: none; cursor: pointer; height: 48px; padding: 0 14px;
+      display: flex; align-items: center; border: 2px solid var(--line);
+      font-size: 16px; font-weight: 500; color: var(--text);
+    }
+    .langs summary::-webkit-details-marker { display: none; }
+    .langs-list {
+      position: absolute; right: 0; top: 54px; z-index: 5; min-width: 180px;
+      background: var(--bg); border: 2px solid var(--line); padding: 8px 0;
+      display: flex; flex-direction: column;
+    }
+    .langs-list a { padding: 10px 16px; font-size: 16px; text-decoration: none; color: var(--text); }
+    .langs-list a:hover { color: var(--accent); }
+    .langs-list a[aria-current="page"] { color: var(--accent); font-weight: 800; }
+    .langs-list .md-dl { border-top: 2px solid var(--line); margin-top: 6px; padding-top: 14px; color: var(--muted); }
+    /* Kicker: the human promise, above the name (kept 2026-10-26, Alexey). */
+    .kicker {
+      margin: 28px 0 0; font-size: clamp(14px, calc(12.6px + 0.36vw), 17px); line-height: 1.3;
+      font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent);
+    }
+    .kicker + h1 { margin-top: 14px; }
+    h1 {
+      margin: 28px 0 0; font-size: clamp(52px, 11vw, 144px); line-height: 0.92;
+      font-weight: 800; letter-spacing: -0.03em;
+    }
+    .subtitle {
+      margin: 32px 0 0; max-width: 780px;
+      font-size: clamp(20px, calc(17.37px + 0.674vw), 26px); line-height: 1.35;
+      font-weight: 500; font-style: italic;
+    }
+
+    /* ── Text sections (head left, prose right) ─────────── */
+    .sec {
+      border-top: 2px solid var(--line); padding: 40px 0 48px;
+      display: flex; flex-wrap: wrap; gap: 24px 56px;
+    }
+    .sec h2 {
+      flex: 1 1 260px; min-width: 0; margin: 0;
+      font-size: clamp(32px, 4vw, 52px); line-height: 1; font-weight: 800; letter-spacing: -0.02em;
+    }
+    .prose {
+      flex: 2 1 420px; min-width: 0; max-width: 68ch;
+      font-size: clamp(18px, calc(15.9px + 0.54vw), 20px); line-height: 1.55;
+    }
+    .prose p { margin: 0; }
+    .prose p + p { margin-top: 20px; }
+    .prose .q { font-weight: 800; }
+
+    /* ── Own your shift ─────────────────────────────────── */
+    .band { background: var(--fill); color: #05090D; }
+    .band h2 {
+      margin: 0; padding: 40px 0;
+      font-size: clamp(52px, 11vw, 144px); line-height: 0.95; font-weight: 800; letter-spacing: -0.03em;
+    }
+    .rows { list-style: none; margin: 0; padding: 0; }
+    .rows-wrap { padding-top: 40px; padding-bottom: 8px; }
+    .row {
+      border-top: 2px solid var(--line); padding: 28px 0;
+      display: flex; flex-wrap: wrap; gap: 20px 56px; align-items: flex-start;
+    }
+    .row-main { flex: 1 1 560px; min-width: 0; }
+    .ends { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 6px 16px; }
+    /* The two ends trade size as the knob moves: the side the knob is heading
+       to grows, the other shrinks (Alexey, 2026-10-26). --f lives on the row,
+       0 = knob at "from", 1 = knob at "to". */
+    .row {
+      --f: 0;
+      --small: clamp(15px, calc(14.56px + 0.112vw), 16px);
+      --big: clamp(20px, calc(18.25px + 0.449vw), 24px);
+    }
+    .from, .to { transition: font-size .12s linear; }
+    .row.travel .from, .row.travel .to { transition: font-size 1.5s cubic-bezier(.22,.8,.2,1); }
+    .from {
+      min-width: 0; max-width: 100%;
+      font-size: calc(var(--big) - (var(--big) - var(--small)) * var(--f)); line-height: 1.2; color: var(--muted);
+    }
+    /* Translated pages: the canonical English words under each localized term. */
+    .gloss { display: block; margin-top: 4px; font-size: 14px; font-weight: 400; line-height: 1.2; letter-spacing: 0; color: var(--muted); }
+    .to {
+      min-width: 0; max-width: 100%; margin-left: auto; text-align: right;
+      font-size: calc(var(--small) + (var(--big) - var(--small)) * var(--f)); line-height: 1.15;
+      font-weight: 800; color: var(--accent); letter-spacing: -0.01em;
+    }
+    .note {
+      flex: 0 1 520px; min-width: 0; max-width: 72ch; margin: 0;
+      font-size: clamp(16px, calc(15.56px + 0.112vw), 17px); line-height: 1.5;
+    }
+    .fader { position: relative; height: 64px; margin-top: 16px; }
+    .ticks { position: absolute; left: 0; right: 0; height: 6px;
+      background: repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px 20px); }
+    .ticks.t1 { top: 9px; } .ticks.t2 { bottom: 9px; }
+    .track { position: absolute; left: 0; right: 0; top: 28px; height: 8px; border-radius: 4px; background: var(--line); }
+    .bar {
+      position: absolute; left: 0; top: 28px; height: 8px; border-radius: 4px; background: var(--fill);
+      width: calc((100% - 36px) * var(--f) + 18px);
+    }
+    .cap {
+      position: absolute; top: 6px; width: 36px; height: 52px; border-radius: 4px;
+      background: var(--text); pointer-events: none;
+      left: calc((100% - 36px) * var(--f));
+      box-shadow: 0 3px 0 var(--muted), 0 6px 8px rgba(0,0,0,0.35);
+    }
+    .cap::before {
+      content: ""; position: absolute; inset: 0; border-radius: 4px;
+      background: repeating-linear-gradient(0deg, rgba(0,0,0,0.22) 0 1px, transparent 1px 5px);
+    }
+    .cap::after {
+      content: ""; position: absolute; left: 16px; top: 5px; bottom: 5px; width: 4px;
+      border-radius: 2px; background: var(--bg);
+    }
+    .fader.travel .cap { transition: left 1.5s cubic-bezier(.22,.8,.2,1), transform .15s ease, box-shadow .15s ease; }
+    .fader.travel .bar { transition: width 1.5s cubic-bezier(.22,.8,.2,1); }
+    .fader.drag .cap { transform: scale(1.12); box-shadow: 0 0 0 4px var(--accent), 0 10px 14px rgba(0,0,0,0.35); transition: transform .15s ease, box-shadow .15s ease; }
+    .hit {
+      -webkit-appearance: none; appearance: none; position: absolute; left: 0; top: 0;
+      width: 100%; height: 100%; margin: 0; padding: 0; opacity: 0;
+      cursor: grab; z-index: 2; background: transparent; touch-action: pan-y;
+    }
+    .hit:active { cursor: grabbing; }
+    .hit::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 36px; height: 64px; }
+    .hit::-moz-range-thumb { width: 36px; height: 64px; border: none; }
+    .hit:focus-visible ~ .cap { outline: 3px solid var(--accent); outline-offset: 4px; }
+    @media (prefers-reduced-motion: reduce) {
+      .fader.travel .cap, .fader.travel .bar, .from, .to, .row.travel .from, .row.travel .to { transition: none; }
+    }
+
+    /* ── Footer ─────────────────────────────────────────── */
+    .foot {
+      border-top: 4px solid var(--text); padding: 28px 0 56px;
+      font-size: 14px; line-height: 1.6; color: var(--muted);
+      display: flex; flex-direction: column; gap: 4px;
+    }
+    .foot a { display: inline-block; padding: 8px 0; }
+    .foot .ctas { display: flex; flex-wrap: wrap; gap: 0 24px; font-size: 16px; }
+  </style>
+</head>
+<body>
+
+  <header class="wrap top">
+    <div class="topbar">
+      <div class="mark" aria-hidden="true"><i></i></div>
+      <div class="tools">
+        <details class="langs">
+          <summary aria-label="Language">EN</summary>
+          <nav class="langs-list" aria-label="Language">
+      <a href="/" hreflang="en" lang="en" aria-current="page">English</a>
+      <a href="/de/" hreflang="de" lang="de">Deutsch</a>
+      <a href="/nl/" hreflang="nl" lang="nl">Nederlands</a>
+      <a href="/fr/" hreflang="fr" lang="fr">Français</a>
+      <a href="/it/" hreflang="it" lang="it">Italiano</a>
+      <a href="/es/" hreflang="es" lang="es">Español</a>
+      <a href="/pt/" hreflang="pt" lang="pt">Português</a>
+      <a href="/pl/" hreflang="pl" lang="pl">Polski</a>
+      <a href="/cz/" hreflang="cs" lang="cs">Čeština</a>
+      <a href="/da/" hreflang="da" lang="da">Dansk</a>
+      <a href="/no/" hreflang="no" lang="no">Norsk</a>
+      <a href="/sv/" hreflang="sv" lang="sv">Svenska</a>
+      <a href="/uk/" hreflang="uk" lang="uk">Українська</a>
+      <a href="/ru/" hreflang="ru" lang="ru">Русский</a>
+      <a href="/zh/" hreflang="zh" lang="zh">中文</a>
+      <a href="/ja/" hreflang="ja" lang="ja">日本語</a>
+            <a class="md-dl" href="/v3/agentic-shift-en.md" download="agentic-shift-en.md">Download as Markdown</a>
+          </nav>
+        </details>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" data-to-light="Switch to light theme" data-to-dark="Switch to dark theme">
+          <svg class="sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"></path></svg>
+          <svg class="moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"></path></svg>
+        </button>
+      </div>
+    </div>
+    <p class="kicker">Staying sane in the AI race</p>
+    <h1>Agentic<br>Shift</h1>
+    <p class="subtitle">From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.</p>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <section class="sec" id="why-shift">
+        <h2>Why shift?</h2>
+        <div class="prose">
+          <p>We use AI tools every day, and we enjoy them. AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So know your competitive advantage first, and then amplify it through strategic AI adoption. Resist sprinkling AI over old structures in a rush just because AI vendors spread FOMO.</p>
+          <p>Below are the shifts made by organizations that aim for sustainable quality, real customer value, great employee engagement and high adaptability.</p>
+        </div>
+      </section>
+    </div>
+
+    <section id="own-your-shift" aria-labelledby="own-head">
+      <div class="band"><div class="wrap"><h2 id="own-head">Own your shift</h2></div></div>
+      <div class="wrap rows-wrap">
+        <ul class="rows">
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">narrow specialists</div>
+                <div class="to">complete craftspeople</div>
+              </div>
+              <div class="fader" data-i="0">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="narrow specialists → complete craftspeople">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">This shift enables product engineers to move from narrow, assembly-line specialists to end-to-end craftspeople — with AI filling the specialist gaps and offering upskilling for entering new domains.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">coordinating dependencies</div>
+                <div class="to">extreme cocreation</div>
+              </div>
+              <div class="fader" data-i="1">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="coordinating dependencies → extreme cocreation">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">This shift replaces coordinating fragments through handoffs and integration meetings: complete craftspeople work in flow with their agents and with each other, alternating between focused work and looking at the whole product together, improving it as a whole.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">coding features</div>
+                <div class="to">designing agentic systems</div>
+              </div>
+              <div class="fader" data-i="2">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="coding features → designing agentic systems">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">This shift moves product engineers from coding features one by one to designing the agentic systems that build them — self-improving loops that turn intent into tested, working software and verify every change against tests and specs, while product engineers own the tests and the value loop.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">the telephone game</div>
+                <div class="to">zero distance to users</div>
+              </div>
+              <div class="fader" data-i="3">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="the telephone game → zero distance to users">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">This shift ends the telephone game through manager-proxies and the era of “IT sitting in the basement” — putting product engineers at zero distance with customers and users, to empathize, analyze, and synthesize firsthand.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">counting output</div>
+                <div class="to">owning outcomes</div>
+              </div>
+              <div class="fader" data-i="4">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="counting output → owning outcomes">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">This shift elevates product engineers from counting output to owning the complete value loop — ensuring real customer impact, experimenting and course-correcting as the evidence comes in.</p>
+          </li>
+          <li class="row">
+            <div class="row-main">
+              <div class="ends">
+                <div class="from">work follows people</div>
+                <div class="to">people follow value</div>
+              </div>
+              <div class="fader" data-i="5">
+                <div class="ticks t1"></div><div class="ticks t2"></div>
+                <div class="track"></div><div class="bar"></div>
+                <input class="hit" type="range" min="0" max="100" step="1" value="0" aria-label="work follows people → people follow value">
+                <div class="cap"></div>
+              </div>
+            </div>
+            <p class="note">This shift organizes work around value instead of existing roles and static team boundaries — product engineers move to where the most valuable work is as priorities change, which keeps the whole organization adaptable.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="sec" id="how-far">
+        <h2>How far to shift?</h2>
+        <div class="prose">
+          <p>These shifts are not a checklist. Not every organization needs all six, and not all to the same depth. Which ones matter, and how far and how fast you take each, depends on how boldly your organization wants to amplify its competitive advantage.</p>
+          <p>Revisit your choices as you learn. That is how you lead the agentic shift and make it happen on your terms, for the benefit of your business.</p>
+        </div>
+      </section>
+
+      <section class="sec" id="whats-next">
+        <h2>What's Next?</h2>
+        <div class="prose">
+          <p class="q">Want to contribute?</p>
+          <p><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">Propose improvements</a>. Share this page. Put these ideas to work in your organization.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="wrap">
+    <div class="foot">
+      <div>created and maintained by <a href="https://www.linkedin.com/in/alexeykrivitsky/" target="_blank" rel="noopener">Alexey Krivitsky</a> · <a href="mailto:alexey@krivitsky.com">alexey@krivitsky.com</a></div>
+      <div><a href="https://github.com/krivitsky/agentic-shift" target="_blank" rel="noopener">github</a> · <a href="/sitemap.xml">sitemap</a> · <a href="/llms.txt">llms.txt</a> · <a href="/ai.txt">ai.txt</a></div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+
+      // Theme toggle: overrides the OS setting and is remembered.
+      var btn = document.querySelector('.theme-toggle');
+      function label() {
+        btn.setAttribute('aria-label', root.getAttribute('data-theme') === 'dark' ? btn.getAttribute('data-to-light') : btn.getAttribute('data-to-dark'));
+      }
+      label();
+      btn.addEventListener('click', function () {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('agentic-theme', next); } catch (e) {}
+        label();
+      });
+
+      // Sliders. Each knob starts left and travels to 9/10 the first time its
+      // row scrolls into view (staggered, once per page load). Dragging a row
+      // first cancels its travel. Reduced motion: knobs already at 9/10.
+      var STOP = 90;
+      var faders = Array.prototype.slice.call(document.querySelectorAll('.fader'));
+      var rows = faders.map(function (f) { return f.closest('.row'); });
+      var touched = faders.map(function () { return false; });
+      function set(i, v) {
+        rows[i].style.setProperty('--f', v / 100);
+        faders[i].querySelector('.hit').value = v;
+      }
+      faders.forEach(function (f, i) {
+        var hit = f.querySelector('.hit');
+        hit.addEventListener('input', function () {
+          touched[i] = true;
+          f.classList.remove('travel'); rows[i].classList.remove('travel');
+          set(i, Number(hit.value));
+        });
+        hit.addEventListener('pointerdown', function () {
+          touched[i] = true;
+          f.classList.remove('travel'); rows[i].classList.remove('travel');
+          f.classList.add('drag');
+        });
+      });
+      function up() { faders.forEach(function (f) { f.classList.remove('drag'); }); }
+      document.addEventListener('pointerup', up);
+      document.addEventListener('pointercancel', up);
+
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reduced) { faders.forEach(function (f, i) { set(i, STOP); }); return; }
+
+      function travel(i) {
+        if (touched[i]) return;
+        var f = faders[i];
+        f.classList.add('travel'); rows[i].classList.add('travel');
+        // Next frame, so the transition starts from 0.
+        requestAnimationFrame(function () { requestAnimationFrame(function () {
+          if (!touched[i]) set(i, STOP);
+        }); });
+        setTimeout(function () { f.classList.remove('travel'); rows[i].classList.remove('travel'); }, 1700);
+      }
+      if (!('IntersectionObserver' in window)) {
+        faders.forEach(function (f, i) { setTimeout(function () { travel(i); }, i * 200); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        var idx = [];
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { idx.push(Number(e.target.getAttribute('data-i'))); io.unobserve(e.target); }
+        });
+        idx.sort(function (a, b) { return a - b; });
+        idx.forEach(function (i, j) { setTimeout(function () { travel(i); }, j * 200); });
+      }, { threshold: 0.5 });
+      faders.forEach(function (f) { io.observe(f); });
+    })();
+  </script>
+
+</body>
+</html>

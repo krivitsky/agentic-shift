@@ -96,9 +96,10 @@ To change wording or fix a translation, edit the relevant `content/*.json`, then
 node manifesto/build.js
 ```
 
-The build regenerates every language page plus `public/sitemap.xml`, and the manifesto sections of
-this README and `public/llms.txt` (all between `MANIFESTO` markers) — so the English copy has a
-single source: `en.json`.
+The build regenerates every translated page plus `public/sitemap.xml`, and the manifesto sections of
+this README and `public/llms.txt` (all between `MANIFESTO` markers). The English homepage is one of
+the hidden version pages (`public/vN/index.html`), named in `manifesto/live.json`: the build copies
+it to `public/index.html` with the homepage head.
 
 **Adding a language:** drop a new `content/<lang>.json` (copy `en.json`, translate the values),
 add the locale to `ALL_LANGS` / `OG_LOCALE` / `LANGBAR_LABEL` in `build.js`, and run it — the switcher,
