@@ -322,27 +322,12 @@
       margin-left: auto; margin-right: -8px; height: 48px; padding: 0 18px;
       display: flex; align-items: center; justify-content: center; gap: 10px;
       background: var(--fill); color: #05090D; border: 2px solid var(--fill);
-      font-size: 16px; font-weight: 800; text-decoration: none;
+      font-size: 16px; font-weight: 800; text-decoration: none; white-space: nowrap;
     }
     .cta-top:hover { background: transparent; color: var(--text); }
-    /* The summit (Alexey, 2026-10-30) sits beside it, outlined so the
-       workshop stays the main call. */
-    .ctas-top { margin-left: auto; margin-right: -8px; display: flex; gap: 8px; }
-    .ctas-top .cta-top { margin: 0; }
-    .cta-top.alt { background: transparent; color: var(--text); border-color: var(--line); font-weight: 500; }
-    .cta-top.alt:hover { border-color: var(--fill); }
-    .cta-top .s { display: none; }
-    .cta-top { white-space: nowrap; }
-    /* Below ~1100px the mark, two buttons and the tools no longer fit one
-       line, so the buttons take their own row. */
-    @media (max-width: 1100px) {
-      .topbar { flex-wrap: wrap; }
-      .ctas-top { order: 3; flex: 1 1 100%; margin: 4px 0 0; }
-      .ctas-top .cta-top { flex: 1 1 0; padding: 0 10px; }
-    }
     @media (max-width: 640px) {
-      .cta-top .l { display: none; }
-      .cta-top .s { display: inline; }
+      .topbar { flex-wrap: wrap; }
+      .cta-top { order: 3; flex: 1 1 100%; margin: 4px 0 0; }
     }
   </style>
 </head>
@@ -351,10 +336,7 @@
   <header class="wrap top">
     <div class="topbar">
       <div class="mark" aria-hidden="true"><i></i></div>
-      <div class="ctas-top">
-        <a class="cta-top" href="https://www.orgtopologies.com/academy/c-otp" target="_blank" rel="noopener" title="Leading the Agentic Shift: Org Topologies Practitioner workshop" aria-label="Learn it in a workshop: Leading the Agentic Shift (opens in a new tab)"><span class="l">Learn it in a workshop</span><span class="s">Workshop</span> <span aria-hidden="true">↗</span></a>
-        <a class="cta-top alt" href="https://www.orgdesignconf.com/" target="_blank" rel="noopener" title="Org Design Summit 2027: Lead the agentic shift, 8–9 October, Amsterdam" aria-label="Org Design Summit 2027, Amsterdam (opens in a new tab)"><span class="l">Org Design Summit 2027</span><span class="s">Summit 2027</span> <span aria-hidden="true">↗</span></a>
-      </div>
+      <a class="cta-top" href="https://www.orgtopologies.com/academy/c-otp" target="_blank" rel="noopener" title="Leading the Agentic Shift: Org Topologies Practitioner workshop" aria-label="Learn it in a workshop: Leading the Agentic Shift (opens in a new tab)">Learn it in a workshop <span aria-hidden="true">↗</span></a>
       <div class="tools">
         <details class="langs">
           <summary aria-label="Language">EN</summary>
