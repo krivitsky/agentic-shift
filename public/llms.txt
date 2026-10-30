@@ -481,5 +481,7 @@ past events: https://agenticshift.org/munich
 
 - Manifesto (home): https://agenticshift.org/
 - Munich meetups: https://agenticshift.org/munich
+- Professional Agentic Product Engineering guide (the engineering practice behind "designing agentic systems", same author): https://agenticengineering.guide/
+- Leading the Agentic Shift workshop (Org Topologies C-OTP class): https://www.orgtopologies.com/academy/c-otp
 - Source (open-source — read, fork, propose improvements): https://github.com/krivitsky/agentic-shift
 - Luma calendar: https://luma.com/calendar/cal-MbzaaU1GVYLS8TM
