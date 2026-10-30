@@ -296,6 +296,22 @@
       font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text);
     }
     .rows + .group-title { margin-top: 56px; }
+
+    /* ── Workshop button (header) ───────────────────────── */
+    /* Promotes the C-OTP class (Alexey, 2026-10-30): straight to the class
+       page, new tab. Sits left of the tools; on phones it drops to its own
+       full-width row under the bar so EN + theme stay beside the mark. */
+    .cta-top {
+      margin-left: auto; margin-right: -8px; height: 48px; padding: 0 18px;
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      background: var(--fill); color: #05090D; border: 2px solid var(--fill);
+      font-size: 16px; font-weight: 800; text-decoration: none;
+    }
+    .cta-top:hover { background: transparent; color: var(--text); }
+    @media (max-width: 640px) {
+      .topbar { flex-wrap: wrap; }
+      .cta-top { order: 3; flex: 1 1 100%; margin: 4px 0 0; }
+    }
   </style>
 </head>
 <body>
@@ -303,6 +319,7 @@
   <header class="wrap top">
     <div class="topbar">
       <div class="mark" aria-hidden="true"><i></i></div>
+      <a class="cta-top" href="https://www.orgtopologies.com/academy/c-otp" target="_blank" rel="noopener">Learn it in a workshop <span aria-hidden="true">↗</span></a>
       <div class="tools">
         <details class="langs">
           <summary aria-label="Language">EN</summary>
