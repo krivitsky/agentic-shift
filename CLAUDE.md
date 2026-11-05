@@ -48,6 +48,7 @@ agentic shift on their own terms, plus the Agentic Shift Munich meetups. Run by 
 - **To edit a version:** edit `public/vN/index.html` by hand; it is the source. **If that version is live, re-run the build before committing.** There is no deploy-time build, so `/` stays stale until you do. That is the one way this setup breaks.
 - **Why not a Vercel rewrite:** it would serve the version's noindex head at `/`, and `npx serve public` would have no homepage locally.
 - **A new version page needs:** exactly one `<meta name="robots" content="noindex, nofollow">`; canonical, `og:url` and JSON-LD `url` absolute on `https://agenticshift.org/vN`; the two `LIVE:` lines in its head; absolute `/vN/…` asset paths with the files copied into its folder; its own language switcher. Keep it out of `sitemap()`.
+- **Reading the current shifts:** use `public/index.html` (or the live site), never `public/agentic-shift-en.md` or `en.json`. They hold older shift names (2026-11-05: sketches got drawn for retired shifts).
 - **What does not follow the live version:** `en.json` and everything built from it still carry the **v3** text: the 15 translations, the root `.md` downloads, `llms.txt`, the README manifesto block, and the English glosses on translated pages. Making v4 live without moving `en.json` and the translations to v4 leaves all of those on v3.
 
 ## Design system
