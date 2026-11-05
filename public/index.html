@@ -329,6 +329,16 @@
       .topbar { flex-wrap: wrap; }
       .cta-top { order: 3; flex: 1 1 100%; margin: 4px 0 0; }
     }
+    .more { flex: 1 1 100%; margin: 0; }
+    .more summary { cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 8px;
+      font-size: 16px; font-weight: 600; color: var(--accent); }
+    .more summary::-webkit-details-marker { display: none; }
+    .more summary::before { content: "+"; display: inline-block; width: 1em; font-weight: 800; }
+    .more[open] summary::before { content: "−"; }
+    .more-body { max-width: 72ch; padding-top: 16px; font-size: clamp(16px, calc(15.56px + 0.112vw), 17px); line-height: 1.6; }
+    .more-body img { display: block; width: 100%; height: auto; border: 2px solid var(--line); margin: 0 0 20px; }
+    .more-body p { margin: 0 0 14px; }
+    .more-body a { color: var(--accent); }
   </style>
 </head>
 <body>
@@ -401,6 +411,20 @@
               </div>
             </div>
             <p class="note">We grow from narrow, assembly-line specialists into end-to-end craftspeople, with AI filling the specialist gaps and helping us enter new domains.</p>
+            <details class="more" id="narrow-specialists-complete-craftspeople">
+              <summary>Read more</summary>
+              <div class="more-body">
+                <img src="/images/shifts/specialists-to-craftspeople.jpg" alt="Narrow specialists hand work down a waterfall, one step at a time; a complete craftsperson works with AI agents that fill the specialist gaps" width="1280" height="674" loading="lazy">
+                <p>This one feels obvious. With AI at their side, a backend developer can build the UI, write the tests and go through the customer interviews. Agents fill the specialist gaps, and the step into a new domain gets much shorter than it used to be.</p>
+                <p>But the fact that people can work broadly doesn't mean they are allowed to.</p>
+                <p>Look at the job titles. &ldquo;Senior Java Developer.&rdquo; &ldquo;Frontend Engineer.&rdquo; &ldquo;QA Specialist.&rdquo; Each title is a small fence: it says what you own, what you may touch, and what will count at your next review. A Java developer who spends a sprint on the React app and the test pipeline has, on paper, done somebody else's job. And moving to a new domain often resets their seniority.</p>
+                <p>So the organizational side of AI adoption starts in an unglamorous place: career paths. Broader titles first. A Java Developer becomes a Product Developer. Frontend, backend and QA specialists become product developers with different depths.</p>
+                <p>And when a Product Developer L3 is promoted to L4, it's because she grew both deeper and broader. Importantly, not only in technology, but in the customer's domain too.</p>
+                <p>Some companies call this <a href="https://www.orgtopologies.com/post/tailwind-career-paths-encouraging-growth-in-multi-skilled-organizations" target="_blank" rel="noopener">tailwind career paths</a>: the career system pushes people toward the broader work instead of holding them back from it.</p>
+                <p>If your engineers already use AI to cross into new areas, what does their job title still say?</p>
+                <p><a href="/shifts/specialists-to-craftspeople">Read it as an article →</a></p>
+              </div>
+            </details>
           </li>
           <li class="row">
             <div class="row-main">

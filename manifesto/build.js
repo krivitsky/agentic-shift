@@ -306,6 +306,8 @@ function sitemap() {
   const urls = LANGS.map((l) => entry(all[l].dir, l === 'en' ? '1.0' : '0.9'));
   urls.push(`  <url>\n    <loc>${ORIGIN}/munich</loc>\n`
     + `    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`);
+  urls.push(`  <url>\n    <loc>${ORIGIN}/shifts/specialists-to-craftspeople</loc>\n`
+    + `    <lastmod>2026-11-05</lastmod>\n    <priority>0.7</priority>\n  </url>`);
   urls.push(`  <url>\n    <loc>${ORIGIN}/community</loc>\n`
     + `    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`);
   return `<?xml version="1.0" encoding="UTF-8"?>\n`
