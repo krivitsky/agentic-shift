@@ -308,6 +308,8 @@ function sitemap() {
     + `    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`);
   urls.push(`  <url>\n    <loc>${ORIGIN}/shifts/specialists-to-craftspeople</loc>\n`
     + `    <lastmod>2026-11-05</lastmod>\n    <priority>0.7</priority>\n  </url>`);
+  urls.push(`  <url>\n    <loc>${ORIGIN}/shifts/output-to-outcomes</loc>\n`
+    + `    <lastmod>2026-11-11</lastmod>\n    <priority>0.7</priority>\n  </url>`);
   urls.push(`  <url>\n    <loc>${ORIGIN}/community</loc>\n`
     + `    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>`);
   return `<?xml version="1.0" encoding="UTF-8"?>\n`
