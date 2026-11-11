@@ -1,12 +1,16 @@
 # Agentic Shift
 
-_Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster._
+_Tekniken är här. Ditt val som ledare: forma om din organisation så att den drar nytta av den._
 
 ## Varför skifta?
 
-Vi använder AI-verktyg varje dag, och vi gillar dem. AI är en demokratiserad teknik. Alla har den, så i sig själv ger den ingen ett försprång. Den accelererar de tendenser som en organisation redan har. Så känn först till din konkurrensfördel, och förstärk den sedan med ett strategiskt AI-införande. Motstå frestelsen att i all hast strö ut AI över gamla strukturer bara för att AI-leverantörerna sprider FOMO.
+Vi använder AI-verktyg varje dag, och vi gillar dem. Men AI är en demokratiserad teknik: alla har den, så i sig själv ger den ingen ett försprång. Den förstärker det en organisation redan är.
 
-Nedan följer de skiften som organisationer gör när de strävar efter hållbar kvalitet, verkligt kundvärde, starkt medarbetarengagemang och hög anpassningsförmåga.
+Därmed ligger det verkliga arbetet hos ledarna. Varje organisation måste avgöra vad skiftet betyder för just den: vilken fördel den vill förstärka och hur dess strukturer, roller och regler behöver förändras för att komma dit. Att strö AI över gamla strukturer för att leverantörer sprider FOMO är inte det arbetet.
+
+Och omdesignen gäller människor, inte bara agenter. Att bygga harnesses för AI är halva jobbet. Den andra halvan är att förstärka mänsklig intelligens: hur människor lär sig, bedömer och beslutar när agenter gör mer av arbetet.
+
+Nedan följer de skiften vi ser i organisationer som får verklig nytta av AI. Varje skifte är en riktning, inte en destination: hur långt du tar det är ditt val.
 
 ## Ditt skifte
 

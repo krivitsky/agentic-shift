@@ -7,13 +7,17 @@
 
 ## Manifesto (English)
 
-**Agentic Shift** — From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.
+**Agentic Shift** — The technology has arrived. Your call as a leader: reshape your organization to benefit from it.
 
 ### Why shift?
 
-We use AI tools every day, and we enjoy them. AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So know your competitive advantage first, and then amplify it through strategic AI adoption. Resist sprinkling AI over old structures in a rush just because AI vendors spread FOMO.
+We use AI tools every day, and we enjoy them. But AI is a democratized technology: everyone has it, so on its own it gives no one an edge. It amplifies whatever an organization already is.
 
-Below are the shifts made by organizations that aim for sustainable quality, real customer value, great employee engagement and high adaptability.
+That puts the real work on leaders. Each organization has to decide what the shift means for it: which advantage it wants to amplify, and how its structures, roles and rules need to change to get there. Sprinkling AI over old structures because vendors spread FOMO is not that work.
+
+And the redesign covers people, not only agents. Building harnesses for AI is half the job. The other half is amplifying human intelligence: how people learn, judge and decide when agents do more of the work.
+
+Below are the shifts we see in organizations that get real benefit from AI. Each one is a direction, not a destination: how far to take it is your call.
 
 ### Own your shift
 
@@ -36,13 +40,17 @@ Revisit your choices as you learn. That is how you lead the agentic shift and ma
 
 ## Manifesto (Deutsch)
 
-**Agentic Shift** — Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen, in denen Menschen aufblühen und großartige Produkte und Services entwickeln.
+**Agentic Shift** — Die Technologie ist da. Deine Entscheidung als Führungskraft: Gestalte deine Organisation so um, dass sie davon profitiert.
 
 ### Warum der Shift?
 
-Wir nutzen KI-Werkzeuge jeden Tag, und wir mögen sie. KI ist eine demokratisierte Technologie. Alle haben sie, also verschafft sie für sich allein niemandem einen Vorsprung. Sie beschleunigt die Tendenzen, die eine Organisation ohnehin schon hat. Kenne also zuerst deinen Wettbewerbsvorteil und verstärke ihn dann durch eine strategische KI-Einführung. Widersteh der Versuchung, KI überstürzt über alte Strukturen zu streuen, nur weil KI-Anbieter FOMO verbreiten.
+Wir nutzen KI-Werkzeuge jeden Tag, und wir arbeiten gern damit. Aber KI ist eine demokratisierte Technologie: Alle haben sie, also verschafft sie für sich allein niemandem einen Vorsprung. Sie verstärkt das, was eine Organisation ohnehin schon ist.
 
-Im Folgenden die Shifts, die Organisationen vollziehen, wenn sie nachhaltige Qualität, echten Kundennutzen, hohes Engagement der Mitarbeitenden und hohe Anpassungsfähigkeit anstreben.
+Damit liegt die eigentliche Arbeit bei den Führungskräften. Jede Organisation muss entscheiden, was der Shift für sie bedeutet: welchen Vorteil sie verstärken will und wie sich ihre Strukturen, Rollen und Regeln ändern müssen, um dorthin zu kommen. KI mit der Gießkanne über alte Strukturen zu verteilen, weil Anbieter FOMO verbreiten, ist nicht diese Arbeit.
+
+Und die Neugestaltung betrifft Menschen, nicht nur Agenten. Harnesses für KI zu bauen ist die halbe Arbeit. Die andere Hälfte ist, menschliche Intelligenz zu verstärken: wie Menschen lernen, urteilen und entscheiden, wenn Agenten mehr von der Arbeit übernehmen.
+
+Im Folgenden die Shifts, die wir in Organisationen sehen, die echten Nutzen aus KI ziehen. Jeder ist eine Richtung, kein Ziel: Wie weit du ihn treibst, entscheidest du.
 
 ### Gestalte deinen Shift
 
@@ -65,13 +73,17 @@ Diese Shifts sind keine Checkliste. Nicht jede Organisation braucht alle sechs, 
 
 ## Manifesto (Nederlands)
 
-**Agentic Shift** — Van tokenmaxing en ander AI-theater naar gezonde organisaties waarin mensen floreren en geweldige producten en diensten bouwen.
+**Agentic Shift** — De technologie is er. Jouw keuze als leider: hervorm je organisatie zodat die ervan profiteert.
 
 ### Waarom veranderen?
 
-Wij gebruiken AI-tools elke dag, en we genieten ervan. AI is een gedemocratiseerde technologie. Iedereen heeft het, dus op zichzelf geeft het niemand een voorsprong. Het versnelt de neigingen die een organisatie al heeft. Ken dus eerst je concurrentievoordeel en versterk het daarna met een strategische AI-adoptie. Weersta de verleiding om AI haastig over oude structuren te strooien, alleen omdat AI-leveranciers FOMO verspreiden.
+Wij gebruiken AI-tools elke dag, en we werken er graag mee. Maar AI is een gedemocratiseerde technologie: iedereen heeft het, dus op zichzelf geeft het niemand een voorsprong. Het versterkt wat een organisatie al is.
 
-Hieronder staan de shifts die organisaties maken die streven naar duurzame kwaliteit, echte klantwaarde, sterke betrokkenheid van medewerkers en hoge wendbaarheid.
+Daarmee ligt het echte werk bij leiders. Elke organisatie moet beslissen wat de shift voor haar betekent: welk voordeel ze wil versterken, en hoe haar structuren, rollen en regels moeten veranderen om daar te komen. AI als sausje over oude structuren gieten omdat leveranciers FOMO verspreiden, is dat werk niet.
+
+En het herontwerp gaat over mensen, niet alleen over agents. Harnesses voor AI bouwen is het halve werk. De andere helft is menselijke intelligentie versterken: hoe mensen leren, oordelen en beslissen wanneer agents meer van het werk doen.
+
+Hieronder staan de shifts die we zien bij organisaties die echt profijt halen uit AI. Elke shift is een richting, geen eindpunt: hoe ver je die doorzet, bepaal jij.
 
 ### Jouw shift
 
@@ -94,13 +106,17 @@ Herzie je keuzes terwijl je leert. Zo geef je richting aan de agentic shift en m
 
 ## Manifesto (Français)
 
-**Agentic Shift** — Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines où les gens s'épanouissent et créent d'excellents produits et services.
+**Agentic Shift** — La technologie est là. C'est à vous de décider, en tant que dirigeant : remodeler votre organisation pour en tirer parti.
 
 ### Pourquoi ce virage ?
 
-Nous utilisons des outils d'IA tous les jours, et nous les apprécions. L'IA est une technologie démocratisée. Tout le monde y a accès, donc à elle seule elle ne donne d'avantage à personne. Elle accélère les tendances qu'une organisation a déjà. Commencez donc par connaître votre avantage concurrentiel, puis amplifiez-le par une adoption stratégique de l'IA. Résistez à la tentation de saupoudrer à la hâte de l'IA sur d'anciennes structures simplement parce que les fournisseurs d'IA répandent la FOMO.
+Nous utilisons des outils d'IA tous les jours, et nous les apprécions. Mais l'IA est une technologie démocratisée : tout le monde y a accès, donc à elle seule elle ne donne d'avantage à personne. Elle amplifie ce qu'une organisation est déjà.
 
-Voici les virages qu'opèrent les organisations qui visent une qualité durable, une réelle valeur pour le client, un fort engagement des collaborateurs et une forte adaptabilité.
+Le vrai travail revient donc aux dirigeants. Chaque organisation doit décider ce que le virage signifie pour elle : quel avantage elle veut amplifier, et comment ses structures, ses rôles et ses règles doivent évoluer pour y parvenir. Saupoudrer de l'IA sur de vieilles structures parce que les fournisseurs entretiennent le FOMO, ce n'est pas ce travail-là.
+
+Et la refonte concerne les personnes, pas seulement les agents. Construire des harnesses pour l'IA, c'est la moitié du travail. L'autre moitié consiste à amplifier l'intelligence humaine : comment les personnes apprennent, jugent et décident quand les agents font une plus grande part du travail.
+
+Voici les virages que nous observons dans les organisations qui tirent un réel bénéfice de l'IA. Chacun est une direction, pas une destination : jusqu'où aller, c'est à vous d'en décider.
 
 ### Votre virage
 
@@ -123,13 +139,17 @@ Revoyez vos choix à mesure que vous apprenez. C'est ainsi que vous menez le vir
 
 ## Manifesto (Italiano)
 
-**Agentic Shift** — Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti.
+**Agentic Shift** — La tecnologia è arrivata. La scelta spetta a te come leader: ridisegna la tua organizzazione per trarne beneficio.
 
 ### Perché cambiare?
 
-Usiamo strumenti di IA ogni giorno, e ci piacciono. L'IA è una tecnologia democratizzata. Ce l'hanno tutti, quindi da sola non dà un vantaggio a nessuno. Accelera le tendenze che un'organizzazione ha già. Quindi conosci prima il tuo vantaggio competitivo, e poi amplificalo con un'adozione strategica dell'IA. Resisti alla tentazione di spargere in fretta IA sulle vecchie strutture solo perché i fornitori di IA diffondono la FOMO.
+Usiamo strumenti di IA ogni giorno, e ci piacciono. Ma l'IA è una tecnologia democratizzata: ce l'hanno tutti, quindi da sola non dà un vantaggio a nessuno. Amplifica ciò che un'organizzazione già è.
 
-Ecco i cambiamenti che compiono le organizzazioni che puntano a qualità sostenibile, valore reale per il cliente, un forte coinvolgimento delle persone e un'elevata adattabilità.
+Così il vero lavoro tocca ai leader. Ogni organizzazione deve decidere che cosa significa per lei il cambiamento: quale vantaggio vuole amplificare, e come devono cambiare le sue strutture, i ruoli e le regole per arrivarci. Spolverare di IA vecchie strutture perché i fornitori diffondono FOMO non è quel lavoro.
+
+E la riprogettazione riguarda le persone, non solo gli agenti. Costruire gli harness per l'IA è metà del lavoro. L'altra metà è amplificare l'intelligenza umana: come le persone imparano, giudicano e decidono quando gli agenti fanno una parte maggiore del lavoro.
+
+Ecco i cambiamenti che vediamo nelle organizzazioni che traggono un beneficio reale dall'IA. Ognuno è una direzione, non una destinazione: fin dove spingerlo lo decidi tu.
 
 ### Il tuo cambiamento
 
@@ -152,13 +172,17 @@ Rivedi le tue scelte man mano che impari. È così che guidi il cambiamento agen
 
 ## Manifesto (Español)
 
-**Agentic Shift** — Del tokenmaxing y del resto del teatro de la IA hacia organizaciones sanas donde las personas prosperan y crean grandes productos y servicios.
+**Agentic Shift** — La tecnología ya está aquí. Tu decisión como líder: rediseña tu organización para sacarle partido.
 
 ### ¿Por qué el cambio?
 
-Usamos herramientas de IA cada día, y las disfrutamos. La IA es una tecnología democratizada. Todo el mundo la tiene, así que por sí sola no da ventaja a nadie. Acelera las tendencias que una organización ya tiene. Así que conoce primero tu ventaja competitiva y luego amplifícala con una adopción estratégica de la IA. Resiste la tentación de esparcir IA a toda prisa sobre viejas estructuras solo porque los proveedores de IA difunden el FOMO.
+Usamos herramientas de IA cada día, y nos gustan. Pero la IA es una tecnología democratizada: todo el mundo la tiene, así que por sí sola no da ventaja a nadie. Amplifica lo que una organización ya es.
 
-A continuación, los cambios que hacen las organizaciones que aspiran a calidad sostenible, valor real para el cliente, un alto compromiso de las personas y una alta adaptabilidad.
+Eso deja el trabajo de verdad en manos de los líderes. Cada organización tiene que decidir qué significa el cambio para ella: qué ventaja quiere amplificar y cómo deben cambiar sus estructuras, roles y reglas para llegar ahí. Espolvorear IA sobre estructuras viejas porque los proveedores difunden FOMO no es ese trabajo.
+
+Y el rediseño abarca a las personas, no solo a los agentes. Construir harnesses para la IA es la mitad del trabajo. La otra mitad es amplificar la inteligencia humana: cómo aprenden, juzgan y deciden las personas cuando los agentes hacen una parte mayor del trabajo.
+
+A continuación, los cambios que vemos en las organizaciones que obtienen un beneficio real de la IA. Cada uno es una dirección, no un destino: hasta dónde llevarlo lo decides tú.
 
 ### Tu cambio
 
@@ -181,13 +205,17 @@ Revisa tus decisiones a medida que aprendes. Así lideras el Agentic Shift y lo 
 
 ## Manifesto (Português)
 
-**Agentic Shift** — Do tokenmaxing e do restante teatro da IA rumo a organizações saudáveis onde as pessoas prosperam e criam excelentes produtos e serviços.
+**Agentic Shift** — A tecnologia chegou. A decisão é sua, enquanto líder: reformular a sua organização para tirar partido dela.
 
 ### Porquê mudar?
 
-Usamos ferramentas de IA todos os dias, e gostamos delas. A IA é uma tecnologia democratizada. Toda a gente a tem, pelo que, por si só, não dá vantagem a ninguém. Acelera as tendências que uma organização já tem. Por isso, conheça primeiro a sua vantagem competitiva e depois amplifique-a com uma adoção estratégica da IA. Resista à tentação de espalhar IA à pressa sobre estruturas antigas só porque os fornecedores de IA difundem o FOMO.
+Usamos ferramentas de IA todos os dias, e gostamos delas. Mas a IA é uma tecnologia democratizada: toda a gente a tem, pelo que, por si só, não dá vantagem a ninguém. Amplifica aquilo que uma organização já é.
 
-Seguem-se as mudanças que fazem as organizações que procuram qualidade sustentável, valor real para o cliente, elevado envolvimento dos colaboradores e elevada adaptabilidade.
+Isso coloca o verdadeiro trabalho nas mãos dos líderes. Cada organização tem de decidir o que a mudança significa para si: que vantagem quer amplificar e como as suas estruturas, papéis e regras têm de mudar para lá chegar. Polvilhar IA sobre estruturas antigas porque os fornecedores espalham FOMO não é esse trabalho.
+
+E o redesenho abrange as pessoas, não só os agentes. Construir harnesses para a IA é metade do trabalho. A outra metade é amplificar a inteligência humana: como as pessoas aprendem, avaliam e decidem quando os agentes fazem uma parte maior do trabalho.
+
+Seguem-se as mudanças que vemos nas organizações que tiram benefício real da IA. Cada uma é uma direção, não um destino: até onde a levar é decisão sua.
 
 ### A sua mudança
 
@@ -210,13 +238,17 @@ Reveja as suas escolhas à medida que aprende. É assim que lidera o Agentic Shi
 
 ## Manifesto (Polski)
 
-**Agentic Shift** — Od tokenmaxingu i innego teatru AI do zdrowych organizacji, w których ludzie się rozwijają i tworzą świetne produkty i usługi.
+**Agentic Shift** — Technologia już tu jest. Twoja decyzja jako lidera: przekształć organizację tak, by skorzystała na tej technologii.
 
 ### Po co zmiana?
 
-Codziennie korzystamy z narzędzi AI i lubimy je. AI to technologia zdemokratyzowana. Ma ją każdy, więc sama w sobie nikomu nie daje przewagi. Przyspiesza te tendencje, które organizacja już ma. Dlatego najpierw poznaj swoją przewagę konkurencyjną, a potem wzmocnij ją strategicznym wdrażaniem AI. Nie ulegaj pokusie pospiesznego rozsypywania AI po starych strukturach tylko dlatego, że dostawcy AI szerzą FOMO.
+Codziennie korzystamy z narzędzi AI i lubimy je. Ale AI to technologia zdemokratyzowana: ma ją każdy, więc sama w sobie nikomu nie daje przewagi. Wzmacnia to, czym organizacja już jest.
 
-Poniżej opisujemy zmiany, które przeprowadzają organizacje dążące do trwałej jakości, realnej wartości dla klientów, wysokiego zaangażowania pracowników i wysokiej zdolności adaptacji.
+Prawdziwa praca spada więc na liderów. Każda organizacja musi zdecydować, co zmiana oznacza właśnie dla niej: jaką przewagę chce wzmocnić i jak muszą zmienić się jej struktury, role i zasady, żeby tam dotrzeć. Posypywanie starych struktur sztuczną inteligencją, bo dostawcy sieją FOMO, to nie jest ta praca.
+
+A przeprojektowanie obejmuje ludzi, nie tylko agentów. Budowanie harnessów dla AI to połowa pracy. Druga połowa to wzmacnianie ludzkiej inteligencji: jak ludzie się uczą, oceniają i decydują, gdy agenci wykonują większą część pracy.
+
+Poniżej opisujemy zmiany, które widzimy w organizacjach czerpiących z AI realne korzyści. Każda z nich to kierunek, nie cel: jak daleko pójść, decydujesz ty.
 
 ### Twoja zmiana
 
@@ -239,13 +271,17 @@ Wracaj do swoich wyborów w miarę, jak się uczysz. Tak kierujesz agentic shift
 
 ## Manifesto (Čeština)
 
-**Agentic Shift** — Od tokenmaxingu a dalšího AI divadla ke zdravým organizacím, v nichž lidé vzkvétají a tvoří skvělé produkty a služby.
+**Agentic Shift** — Technologie je tady. Vaše rozhodnutí jako lídra: přetvořte svou organizaci tak, aby z technologie těžila.
 
 ### Proč se měnit?
 
-AI nástroje používáme každý den a baví nás. AI je demokratizovaná technologie. Má ji každý, takže sama o sobě nikomu náskok nedává. Urychluje tendence, které organizace už má. Nejprve tedy poznejte svou konkurenční výhodu a pak ji zesilte strategickým zaváděním AI. Odolejte pokušení ukvapeně rozsévat AI po starých strukturách jen proto, že dodavatelé AI šíří FOMO.
+AI nástroje používáme každý den a baví nás. Ale AI je demokratizovaná technologie: má ji každý, takže sama o sobě nikomu náskok nedává. Zesiluje to, čím organizace už je.
 
-Níže jsou posuny, které dělají organizace usilující o udržitelnou kvalitu, skutečnou hodnotu pro zákazníky, vysokou angažovanost zaměstnanců a vysokou přizpůsobivost.
+Skutečná práce tak připadá na lídry. Každá organizace se musí rozhodnout, co pro ni posun znamená: jakou výhodu chce zesílit a jak se musí změnit její struktury, role a pravidla, aby se tam dostala. Sypat AI na staré struktury, protože dodavatelé šíří FOMO, tou prací není.
+
+A přestavba se týká lidí, nejen agentů. Stavět pro AI harnessy je polovina práce. Druhou polovinou je zesilovat lidskou inteligenci: jak se lidé učí, posuzují a rozhodují, když agenti dělají větší část práce.
+
+Níže jsou posuny, které vidíme v organizacích, jimž AI přináší skutečný užitek. Každý z nich je směr, ne cíl: jak daleko ho dovedete, je na vás.
 
 ### Váš posun
 
@@ -268,13 +304,17 @@ Své volby průběžně revidujte podle toho, co se naučíte. Tak řídíte Age
 
 ## Manifesto (Dansk)
 
-**Agentic Shift** — Fra tokenmaxing og andet AI-teater mod sunde organisationer, hvor mennesker trives og bygger fremragende produkter og services.
+**Agentic Shift** — Teknologien er her. Dit valg som leder: omform din organisation, så den får gavn af den.
 
 ### Hvorfor skifte?
 
-Vi bruger AI-værktøjer hver dag, og vi kan godt lide dem. AI er en demokratiseret teknologi. Alle har den, så i sig selv giver den ingen et forspring. Den accelererer de tendenser, en organisation allerede har. Så kend først din konkurrencefordel, og forstærk den derefter med en strategisk AI-adoption. Modstå fristelsen til at drysse AI ud over gamle strukturer i hast, bare fordi AI-leverandørerne spreder FOMO.
+Vi bruger AI-værktøjer hver dag, og vi kan godt lide dem. Men AI er en demokratiseret teknologi: alle har den, så i sig selv giver den ingen et forspring. Den forstærker det, en organisation allerede er.
 
-Nedenfor er de skift, som organisationer foretager, når de stræber efter bæredygtig kvalitet, reel kundeværdi, højt medarbejderengagement og høj tilpasningsevne.
+Dermed ligger det egentlige arbejde hos lederne. Hver organisation må beslutte, hvad skiftet betyder for den: hvilken fordel den vil forstærke, og hvordan dens strukturer, roller og regler skal ændre sig for at nå dertil. At drysse AI ud over gamle strukturer, fordi leverandører spreder FOMO, er ikke det arbejde.
+
+Og redesignet omfatter mennesker, ikke kun agenter. At bygge harnesses til AI er halvdelen af jobbet. Den anden halvdel er at forstærke menneskelig intelligens: hvordan mennesker lærer, vurderer og beslutter, når agenter udfører mere af arbejdet.
+
+Nedenfor er de skifter, vi ser i organisationer, der får reel gavn af AI. Hvert skifte er en retning, ikke en destination: hvor langt du tager det, er dit valg.
 
 ### Dit skifte
 
@@ -297,13 +337,17 @@ Revurder dine valg, efterhånden som du lærer. Sådan leder du agentic shift og
 
 ## Manifesto (Norsk)
 
-**Agentic Shift** — Fra tokenmaxing og annet AI-teater mot sunne organisasjoner der mennesker trives og bygger fremragende produkter og tjenester.
+**Agentic Shift** — Teknologien er kommet. Ditt valg som leder: omform organisasjonen din så den får nytte av den.
 
 ### Hvorfor skifte?
 
-Vi bruker AI-verktøy hver dag, og vi liker dem. AI er en demokratisert teknologi. Alle har den, så alene gir den ingen et fortrinn. Den akselererer de tendensene en organisasjon allerede har. Så kjenn først konkurransefortrinnet ditt, og forsterk det deretter med en strategisk innføring av AI. Motstå fristelsen til å strø AI over gamle strukturer i all hast bare fordi AI-leverandørene sprer FOMO.
+Vi bruker AI-verktøy hver dag, og vi liker dem. Men AI er en demokratisert teknologi: alle har den, så alene gir den ingen et fortrinn. Den forsterker det en organisasjon allerede er.
 
-Nedenfor er skiftene som organisasjoner gjør når de streber etter bærekraftig kvalitet, reell kundeverdi, sterkt engasjement blant medarbeiderne og høy tilpasningsevne.
+Dermed ligger det egentlige arbeidet hos lederne. Hver organisasjon må avgjøre hva skiftet betyr for den: hvilket fortrinn den vil forsterke, og hvordan strukturene, rollene og reglene må endres for å komme dit. Å strø AI over gamle strukturer fordi leverandører sprer FOMO, er ikke det arbeidet.
+
+Og redesignet gjelder mennesker, ikke bare agenter. Å bygge harnesses for AI er halve jobben. Den andre halvdelen er å forsterke menneskelig intelligens: hvordan mennesker lærer, vurderer og beslutter når agenter gjør mer av arbeidet.
+
+Nedenfor er skiftene vi ser i organisasjoner som får reell nytte av AI. Hvert skifte er en retning, ikke et mål: hvor langt du tar det, er ditt valg.
 
 ### Ditt skifte
 
@@ -326,13 +370,17 @@ Vurder valgene dine på nytt etter hvert som du lærer. Slik leder du agentic sh
 
 ## Manifesto (Svenska)
 
-**Agentic Shift** — Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster.
+**Agentic Shift** — Tekniken är här. Ditt val som ledare: forma om din organisation så att den drar nytta av den.
 
 ### Varför skifta?
 
-Vi använder AI-verktyg varje dag, och vi gillar dem. AI är en demokratiserad teknik. Alla har den, så i sig själv ger den ingen ett försprång. Den accelererar de tendenser som en organisation redan har. Så känn först till din konkurrensfördel, och förstärk den sedan med ett strategiskt AI-införande. Motstå frestelsen att i all hast strö ut AI över gamla strukturer bara för att AI-leverantörerna sprider FOMO.
+Vi använder AI-verktyg varje dag, och vi gillar dem. Men AI är en demokratiserad teknik: alla har den, så i sig själv ger den ingen ett försprång. Den förstärker det en organisation redan är.
 
-Nedan följer de skiften som organisationer gör när de strävar efter hållbar kvalitet, verkligt kundvärde, starkt medarbetarengagemang och hög anpassningsförmåga.
+Därmed ligger det verkliga arbetet hos ledarna. Varje organisation måste avgöra vad skiftet betyder för just den: vilken fördel den vill förstärka och hur dess strukturer, roller och regler behöver förändras för att komma dit. Att strö AI över gamla strukturer för att leverantörer sprider FOMO är inte det arbetet.
+
+Och omdesignen gäller människor, inte bara agenter. Att bygga harnesses för AI är halva jobbet. Den andra halvan är att förstärka mänsklig intelligens: hur människor lär sig, bedömer och beslutar när agenter gör mer av arbetet.
+
+Nedan följer de skiften vi ser i organisationer som får verklig nytta av AI. Varje skifte är en riktning, inte en destination: hur långt du tar det är ditt val.
 
 ### Ditt skifte
 
@@ -355,13 +403,17 @@ Se över dina val allteftersom du lär dig. Så leder du agentic shift och får 
 
 ## Manifesto (Українська)
 
-**Agentic Shift** — Від tokenmaxing та іншого ШІ-театру до здорових організацій, у яких люди процвітають і створюють чудові продукти та послуги.
+**Agentic Shift** — Технологія вже тут. Ваше рішення як лідера: перебудуйте свою організацію, щоб вона отримала користь від технології.
 
 ### Навіщо змінюватися?
 
-Ми щодня користуємося інструментами ШІ, і нам це подобається. ШІ — демократизована технологія. Він є в усіх, тож сам по собі нікому не дає переваги. Він прискорює ті тенденції, які в організації вже є. Тож спершу усвідомте свою конкурентну перевагу, а потім підсильте її стратегічним упровадженням ШІ. Не піддавайтеся спокусі поспіхом розсипати ШІ по старих структурах лише тому, що постачальники ШІ поширюють FOMO.
+Ми щодня користуємося інструментами ШІ, і нам це подобається. Але ШІ — демократизована технологія: він є в усіх, тож сам по собі нікому не дає переваги. Він підсилює те, чим організація вже є.
 
-Нижче — зрушення, які роблять організації, що прагнуть сталої якості, реальної цінності для клієнтів, високої залученості працівників і високої адаптивності.
+Тож справжня робота лягає на лідерів. Кожна організація має вирішити, що зрушення означає саме для неї: яку перевагу вона хоче підсилити і як мають змінитися її структури, ролі та правила, щоб цього досягти. Розсипати ШІ поверх старих структур, бо постачальники роздмухують FOMO, — це не та робота.
+
+І перепроєктування стосується людей, а не лише агентів. Будувати для ШІ обв’язку (harnesses) — половина роботи. Друга половина — підсилювати людський інтелект: як люди вчаться, оцінюють і ухвалюють рішення, коли агенти виконують більшу частину роботи.
+
+Нижче — зрушення, які ми бачимо в організаціях, що отримують від ШІ реальну користь. Кожне з них — напрям, а не пункт призначення: наскільки далеко йти, вирішуєте ви.
 
 ### Ваше зрушення
 
@@ -384,13 +436,17 @@ Se över dina val allteftersom du lär dig. Så leder du agentic shift och får 
 
 ## Manifesto (Русский)
 
-**Agentic Shift** — От tokenmaxing и прочего ИИ-театра к здоровым организациям, в которых люди процветают и создают отличные продукты и услуги.
+**Agentic Shift** — Технология уже здесь. Ваше решение как лидера: перестройте свою организацию, чтобы она извлекла пользу из технологии.
 
 ### Зачем меняться?
 
-Мы каждый день пользуемся инструментами ИИ, и нам это нравится. ИИ — демократизированная технология. Он есть у всех, так что сам по себе никому не даёт преимущества. Он ускоряет те тенденции, которые в организации уже есть. Так что сначала осознайте своё конкурентное преимущество, а затем усильте его стратегическим внедрением ИИ. Не поддавайтесь соблазну второпях рассыпать ИИ по старым структурам только потому, что поставщики ИИ распространяют FOMO.
+Мы каждый день пользуемся инструментами ИИ, и нам это нравится. Но ИИ — демократизированная технология: он есть у всех, так что сам по себе никому не даёт преимущества. Он усиливает то, чем организация уже является.
 
-Ниже — сдвиги, которые совершают организации, стремящиеся к устойчивому качеству, реальной ценности для клиентов, высокой вовлечённости сотрудников и высокой адаптивности.
+Поэтому настоящая работа ложится на лидеров. Каждая организация должна решить, что сдвиг значит именно для неё: какое преимущество она хочет усилить и как должны измениться её структуры, роли и правила, чтобы этого достичь. Рассыпать ИИ поверх старых структур, потому что вендоры раздувают FOMO, — это не та работа.
+
+И перепроектирование касается людей, а не только агентов. Строить для ИИ обвязку (harnesses) — половина работы. Другая половина — усиливать человеческий интеллект: как люди учатся, оценивают и принимают решения, когда агенты берут на себя бо́льшую часть работы.
+
+Ниже — сдвиги, которые мы видим в организациях, получающих от ИИ реальную пользу. Каждый из них — направление, а не пункт назначения: насколько далеко идти, решаете вы.
 
 ### Ваш сдвиг
 
@@ -413,13 +469,17 @@ Se över dina val allteftersom du lär dig. Så leder du agentic shift och får 
 
 ## Manifesto (中文)
 
-**Agentic Shift** — 从 tokenmaxing 与其他 AI 表演，走向让人们茁壮成长、打造优秀产品与服务的健康组织。
+**Agentic Shift** — 技术已经到来。作为领导者，由你决定：重塑你的组织，从中获益。
 
 ### 为何转变？
 
-我们每天都在使用 AI 工具，并且乐在其中。AI 是一项民主化的技术。人人都有，所以它本身不会给任何人带来优势。它会加速组织中已有的倾向。因此，先认清自己的竞争优势，再通过有战略的 AI 采用来放大它。不要因为 AI 供应商散播 FOMO，就忍不住匆忙把 AI 撒在旧有的组织结构上。
+我们每天都在使用 AI 工具，并且乐在其中。但 AI 是一项民主化的技术：人人都有，所以它本身不会给任何人带来优势。它会放大一个组织本来的样子。
 
-以下是那些追求可持续质量、真实客户价值、高度员工敬业度与高度适应力的组织所做出的转变。
+因此，真正的工作落在领导者身上。每个组织都必须决定这场转变对自己意味着什么：想放大哪种优势，以及结构、角色和规则需要如何改变才能实现。因为供应商散播 FOMO 就把 AI 撒在旧有结构上，这并不是这项工作。
+
+而且重新设计涵盖的是人，而不只是智能体。为 AI 搭建 harness 只是工作的一半。另一半是放大人的智能：当智能体承担更多工作时，人如何学习、判断和决策。
+
+以下是我们在那些从 AI 中获得真正收益的组织里看到的转变。每一项都是一个方向，而不是终点：走多远，由你决定。
 
 ### 你的转变
 
@@ -442,13 +502,17 @@ Se över dina val allteftersom du lär dig. Så leder du agentic shift och får 
 
 ## Manifesto (日本語)
 
-**Agentic Shift** — tokenmaxing やその他の AI シアターから、人がいきいきと活躍し、優れた製品とサービスをつくる健全な組織へ。
+**Agentic Shift** — テクノロジーはすでに到来しました。どうするかは、リーダーであるあなた次第です。組織をつくり変え、その恩恵を手にしてください。
 
 ### なぜシフトするのか？
 
-私たちは AI ツールを毎日使い、楽しんでいます。AI は民主化された技術です。誰もが持っているので、それだけでは誰にも優位をもたらしません。AI は、組織がすでに持っている傾向を加速させます。だからこそ、まず自社の競争優位を見極め、そのうえで戦略的な AI 導入によってそれを増幅することです。AI ベンダーが FOMO を広めているからといって、古い組織構造に AI を慌ててふりかけたくなる誘惑に流されないようにしましょう。
+私たちは AI ツールを毎日使い、楽しんでいます。しかし AI は民主化された技術です。誰もが持っているので、それだけでは誰にも優位をもたらしません。AI は、組織のありのままの姿を増幅します。
 
-以下は、持続可能な品質、顧客にとっての本当の価値、社員の高いエンゲージメント、そして高い適応力を目指す組織が進めるシフトです。
+だからこそ、本当の仕事はリーダーにかかっています。どの組織も、このシフトが自分たちにとって何を意味するのかを決めなければなりません。どの優位を増幅したいのか、そしてそこに到達するために構造、役割、ルールをどう変える必要があるのか。ベンダーが FOMO を広めているからといって古い構造に AI をふりかけることは、その仕事ではありません。
+
+そして再設計の対象はエージェントだけでなく、人にも及びます。AI のためのハーネスをつくるのは仕事の半分です。残りの半分は人間の知性を増幅すること、つまりエージェントが仕事の多くを担うようになったとき、人がどう学び、判断し、意思決定するかです。
+
+以下は、AI から本当の恩恵を得ている組織で私たちが目にしているシフトです。それぞれは目的地ではなく方向です。どこまで進めるかは、あなたが決めることです。
 
 ### シフトを自分のものに
 

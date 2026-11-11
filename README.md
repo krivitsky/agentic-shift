@@ -8,13 +8,17 @@
 
 > _Generated from [`manifesto/content/en.json`](manifesto/content/en.json) — edit the JSON (and its siblings for other languages), then run `node manifesto/build.js`. Do not edit this section by hand._
 
-_From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services._
+_The technology has arrived. Your call as a leader: reshape your organization to benefit from it._
 
 ## Why shift?
 
-We use AI tools every day, and we enjoy them. AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So know your competitive advantage first, and then amplify it through strategic AI adoption. Resist sprinkling AI over old structures in a rush just because AI vendors spread FOMO.
+We use AI tools every day, and we enjoy them. But AI is a democratized technology: everyone has it, so on its own it gives no one an edge. It amplifies whatever an organization already is.
 
-Below are the shifts made by organizations that aim for sustainable quality, real customer value, great employee engagement and high adaptability.
+That puts the real work on leaders. Each organization has to decide what the shift means for it: which advantage it wants to amplify, and how its structures, roles and rules need to change to get there. Sprinkling AI over old structures because vendors spread FOMO is not that work.
+
+And the redesign covers people, not only agents. Building harnesses for AI is half the job. The other half is amplifying human intelligence: how people learn, judge and decide when agents do more of the work.
+
+Below are the shifts we see in organizations that get real benefit from AI. Each one is a direction, not a destination: how far to take it is your call.
 
 ## Own your shift
 

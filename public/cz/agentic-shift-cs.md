@@ -1,12 +1,16 @@
 # Agentic Shift
 
-_Od tokenmaxingu a dalšího AI divadla ke zdravým organizacím, v nichž lidé vzkvétají a tvoří skvělé produkty a služby._
+_Technologie je tady. Vaše rozhodnutí jako lídra: přetvořte svou organizaci tak, aby z technologie těžila._
 
 ## Proč se měnit?
 
-AI nástroje používáme každý den a baví nás. AI je demokratizovaná technologie. Má ji každý, takže sama o sobě nikomu náskok nedává. Urychluje tendence, které organizace už má. Nejprve tedy poznejte svou konkurenční výhodu a pak ji zesilte strategickým zaváděním AI. Odolejte pokušení ukvapeně rozsévat AI po starých strukturách jen proto, že dodavatelé AI šíří FOMO.
+AI nástroje používáme každý den a baví nás. Ale AI je demokratizovaná technologie: má ji každý, takže sama o sobě nikomu náskok nedává. Zesiluje to, čím organizace už je.
 
-Níže jsou posuny, které dělají organizace usilující o udržitelnou kvalitu, skutečnou hodnotu pro zákazníky, vysokou angažovanost zaměstnanců a vysokou přizpůsobivost.
+Skutečná práce tak připadá na lídry. Každá organizace se musí rozhodnout, co pro ni posun znamená: jakou výhodu chce zesílit a jak se musí změnit její struktury, role a pravidla, aby se tam dostala. Sypat AI na staré struktury, protože dodavatelé šíří FOMO, tou prací není.
+
+A přestavba se týká lidí, nejen agentů. Stavět pro AI harnessy je polovina práce. Druhou polovinou je zesilovat lidskou inteligenci: jak se lidé učí, posuzují a rozhodují, když agenti dělají větší část práce.
+
+Níže jsou posuny, které vidíme v organizacích, jimž AI přináší skutečný užitek. Každý z nich je směr, ne cíl: jak daleko ho dovedete, je na vás.
 
 ## Váš posun
 

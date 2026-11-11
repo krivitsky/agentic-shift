@@ -1,12 +1,16 @@
 # Agentic Shift
 
-_Van tokenmaxing en ander AI-theater naar gezonde organisaties waarin mensen floreren en geweldige producten en diensten bouwen._
+_De technologie is er. Jouw keuze als leider: hervorm je organisatie zodat die ervan profiteert._
 
 ## Waarom veranderen?
 
-Wij gebruiken AI-tools elke dag, en we genieten ervan. AI is een gedemocratiseerde technologie. Iedereen heeft het, dus op zichzelf geeft het niemand een voorsprong. Het versnelt de neigingen die een organisatie al heeft. Ken dus eerst je concurrentievoordeel en versterk het daarna met een strategische AI-adoptie. Weersta de verleiding om AI haastig over oude structuren te strooien, alleen omdat AI-leveranciers FOMO verspreiden.
+Wij gebruiken AI-tools elke dag, en we werken er graag mee. Maar AI is een gedemocratiseerde technologie: iedereen heeft het, dus op zichzelf geeft het niemand een voorsprong. Het versterkt wat een organisatie al is.
 
-Hieronder staan de shifts die organisaties maken die streven naar duurzame kwaliteit, echte klantwaarde, sterke betrokkenheid van medewerkers en hoge wendbaarheid.
+Daarmee ligt het echte werk bij leiders. Elke organisatie moet beslissen wat de shift voor haar betekent: welk voordeel ze wil versterken, en hoe haar structuren, rollen en regels moeten veranderen om daar te komen. AI als sausje over oude structuren gieten omdat leveranciers FOMO verspreiden, is dat werk niet.
+
+En het herontwerp gaat over mensen, niet alleen over agents. Harnesses voor AI bouwen is het halve werk. De andere helft is menselijke intelligentie versterken: hoe mensen leren, oordelen en beslissen wanneer agents meer van het werk doen.
+
+Hieronder staan de shifts die we zien bij organisaties die echt profijt halen uit AI. Elke shift is een richting, geen eindpunt: hoe ver je die doorzet, bepaal jij.
 
 ## Jouw shift
 

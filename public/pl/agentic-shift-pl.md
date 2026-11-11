@@ -1,12 +1,16 @@
 # Agentic Shift
 
-_Od tokenmaxingu i innego teatru AI do zdrowych organizacji, w których ludzie się rozwijają i tworzą świetne produkty i usługi._
+_Technologia już tu jest. Twoja decyzja jako lidera: przekształć organizację tak, by skorzystała na tej technologii._
 
 ## Po co zmiana?
 
-Codziennie korzystamy z narzędzi AI i lubimy je. AI to technologia zdemokratyzowana. Ma ją każdy, więc sama w sobie nikomu nie daje przewagi. Przyspiesza te tendencje, które organizacja już ma. Dlatego najpierw poznaj swoją przewagę konkurencyjną, a potem wzmocnij ją strategicznym wdrażaniem AI. Nie ulegaj pokusie pospiesznego rozsypywania AI po starych strukturach tylko dlatego, że dostawcy AI szerzą FOMO.
+Codziennie korzystamy z narzędzi AI i lubimy je. Ale AI to technologia zdemokratyzowana: ma ją każdy, więc sama w sobie nikomu nie daje przewagi. Wzmacnia to, czym organizacja już jest.
 
-Poniżej opisujemy zmiany, które przeprowadzają organizacje dążące do trwałej jakości, realnej wartości dla klientów, wysokiego zaangażowania pracowników i wysokiej zdolności adaptacji.
+Prawdziwa praca spada więc na liderów. Każda organizacja musi zdecydować, co zmiana oznacza właśnie dla niej: jaką przewagę chce wzmocnić i jak muszą zmienić się jej struktury, role i zasady, żeby tam dotrzeć. Posypywanie starych struktur sztuczną inteligencją, bo dostawcy sieją FOMO, to nie jest ta praca.
+
+A przeprojektowanie obejmuje ludzi, nie tylko agentów. Budowanie harnessów dla AI to połowa pracy. Druga połowa to wzmacnianie ludzkiej inteligencji: jak ludzie się uczą, oceniają i decydują, gdy agenci wykonują większą część pracy.
+
+Poniżej opisujemy zmiany, które widzimy w organizacjach czerpiących z AI realne korzyści. Każda z nich to kierunek, nie cel: jak daleko pójść, decydujesz ty.
 
 ## Twoja zmiana
 

@@ -4,23 +4,24 @@
   "dir": "/sv/",
   "meta": {
     "title": "Agentic Shift — genomtänkt AI-införande",
-    "description": "Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster.",
+    "description": "Tekniken är här. Ditt val som ledare: forma om din organisation så att den drar nytta av den.",
     "keywords": "agentic shift, agentic product engineering, agentisk produktutveckling, AI-agenter, organisationsdesign, product engineering, Alexey Krivitsky",
     "ogTitle": "Agentic Shift — genomtänkt AI-införande",
-    "ogDescription": "Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster.",
-    "schemaDescription": "Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster.",
+    "ogDescription": "Tekniken är här. Ditt val som ledare: forma om din organisation så att den drar nytta av den.",
+    "schemaDescription": "Tekniken är här. Ditt val som ledare: forma om din organisation så att den drar nytta av den.",
     "llmsTitle": "Agentic Shift — maskinläsbar (LLM-)version"
   },
   "hero": {
-    "kicker": "Behåll förnuftet i AI-kapplöpningen",
+    "kicker": "Tekniken är här. Ditt val som ledare: forma om din organisation så att den drar nytta av den.",
     "headlineLead": "Agentic",
-    "headlineTail": "Shift",
-    "subtitle": "Från tokenmaxing och annan AI-teater mot sunda organisationer där människor trivs och bygger fantastiska produkter och tjänster."
+    "headlineTail": "Shift"
   },
   "shiftHead": "Varför skifta?",
   "shiftIntro": [
-    "Vi använder AI-verktyg varje dag, och vi gillar dem. AI är en demokratiserad teknik. Alla har den, så i sig själv ger den ingen ett försprång. Den accelererar de tendenser som en organisation redan har. Så känn först till din konkurrensfördel, och förstärk den sedan med ett strategiskt AI-införande. Motstå frestelsen att i all hast strö ut AI över gamla strukturer bara för att AI-leverantörerna sprider FOMO.",
-    "Nedan följer de skiften som organisationer gör när de strävar efter hållbar kvalitet, verkligt kundvärde, starkt medarbetarengagemang och hög anpassningsförmåga."
+    "Vi använder AI-verktyg varje dag, och vi gillar dem. Men AI är en demokratiserad teknik: alla har den, så i sig själv ger den ingen ett försprång. Den förstärker det en organisation redan är.",
+    "Därmed ligger det verkliga arbetet hos ledarna. Varje organisation måste avgöra vad skiftet betyder för just den: vilken fördel den vill förstärka och hur dess strukturer, roller och regler behöver förändras för att komma dit. Att strö AI över gamla strukturer för att leverantörer sprider FOMO är inte det arbetet.",
+    "Och omdesignen gäller människor, inte bara agenter. Att bygga harnesses för AI är halva jobbet. Den andra halvan är att förstärka mänsklig intelligens: hur människor lär sig, bedömer och beslutar när agenter gör mer av arbetet.",
+    "Nedan följer de skiften vi ser i organisationer som får verklig nytta av AI. Varje skifte är en riktning, inte en destination: hur långt du tar det är ditt val."
   ],
   "ownHead": "Ditt skifte",
   "shifts": [

@@ -4,23 +4,24 @@
   "dir": "/",
   "meta": {
     "title": "Agentic Shift — thoughtful AI adoption",
-    "description": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.",
+    "description": "The technology has arrived. Your call as a leader: reshape your organization to benefit from it.",
     "keywords": "agentic shift, agentic product engineering, agentic engineering, AI agents, organizational design, product engineering, professional agentic engineering, Alexey Krivitsky",
     "ogTitle": "Agentic Shift — thoughtful AI adoption",
-    "ogDescription": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.",
-    "schemaDescription": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services.",
+    "ogDescription": "The technology has arrived. Your call as a leader: reshape your organization to benefit from it.",
+    "schemaDescription": "The technology has arrived. Your call as a leader: reshape your organization to benefit from it.",
     "llmsTitle": "Agentic Shift — machine-readable (LLM) version"
   },
   "hero": {
-    "kicker": "Staying sane in the AI race",
+    "kicker": "The technology has arrived. Your call as a leader: reshape your organization to benefit from it.",
     "headlineLead": "Agentic",
-    "headlineTail": "Shift",
-    "subtitle": "From tokenmaxing and other AI theater toward healthy organizations where people thrive and build great products and services."
+    "headlineTail": "Shift"
   },
   "shiftHead": "Why shift?",
   "shiftIntro": [
-    "We use AI tools every day, and we enjoy them. AI is a democratized technology. Everyone has it, so on its own it gives no one an edge. It accelerates whatever tendencies an organization already has. So know your competitive advantage first, and then amplify it through strategic AI adoption. Resist sprinkling AI over old structures in a rush just because AI vendors spread FOMO.",
-    "Below are the shifts made by organizations that aim for sustainable quality, real customer value, great employee engagement and high adaptability."
+    "We use AI tools every day, and we enjoy them. But AI is a democratized technology: everyone has it, so on its own it gives no one an edge. It amplifies whatever an organization already is.",
+    "That puts the real work on leaders. Each organization has to decide what the shift means for it: which advantage it wants to amplify, and how its structures, roles and rules need to change to get there. Sprinkling AI over old structures because vendors spread FOMO is not that work.",
+    "And the redesign covers people, not only agents. Building harnesses for AI is half the job. The other half is amplifying human intelligence: how people learn, judge and decide when agents do more of the work.",
+    "Below are the shifts we see in organizations that get real benefit from AI. Each one is a direction, not a destination: how far to take it is your call."
   ],
   "ownHead": "Own your shift",
   "shifts": [

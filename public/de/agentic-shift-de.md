@@ -1,12 +1,16 @@
 # Agentic Shift
 
-_Von Tokenmaxing und anderem KI-Theater hin zu gesunden Organisationen, in denen Menschen aufblühen und großartige Produkte und Services entwickeln._
+_Die Technologie ist da. Deine Entscheidung als Führungskraft: Gestalte deine Organisation so um, dass sie davon profitiert._
 
 ## Warum der Shift?
 
-Wir nutzen KI-Werkzeuge jeden Tag, und wir mögen sie. KI ist eine demokratisierte Technologie. Alle haben sie, also verschafft sie für sich allein niemandem einen Vorsprung. Sie beschleunigt die Tendenzen, die eine Organisation ohnehin schon hat. Kenne also zuerst deinen Wettbewerbsvorteil und verstärke ihn dann durch eine strategische KI-Einführung. Widersteh der Versuchung, KI überstürzt über alte Strukturen zu streuen, nur weil KI-Anbieter FOMO verbreiten.
+Wir nutzen KI-Werkzeuge jeden Tag, und wir arbeiten gern damit. Aber KI ist eine demokratisierte Technologie: Alle haben sie, also verschafft sie für sich allein niemandem einen Vorsprung. Sie verstärkt das, was eine Organisation ohnehin schon ist.
 
-Im Folgenden die Shifts, die Organisationen vollziehen, wenn sie nachhaltige Qualität, echten Kundennutzen, hohes Engagement der Mitarbeitenden und hohe Anpassungsfähigkeit anstreben.
+Damit liegt die eigentliche Arbeit bei den Führungskräften. Jede Organisation muss entscheiden, was der Shift für sie bedeutet: welchen Vorteil sie verstärken will und wie sich ihre Strukturen, Rollen und Regeln ändern müssen, um dorthin zu kommen. KI mit der Gießkanne über alte Strukturen zu verteilen, weil Anbieter FOMO verbreiten, ist nicht diese Arbeit.
+
+Und die Neugestaltung betrifft Menschen, nicht nur Agenten. Harnesses für KI zu bauen ist die halbe Arbeit. Die andere Hälfte ist, menschliche Intelligenz zu verstärken: wie Menschen lernen, urteilen und entscheiden, wenn Agenten mehr von der Arbeit übernehmen.
+
+Im Folgenden die Shifts, die wir in Organisationen sehen, die echten Nutzen aus KI ziehen. Jeder ist eine Richtung, kein Ziel: Wie weit du ihn treibst, entscheidest du.
 
 ## Gestalte deinen Shift
 

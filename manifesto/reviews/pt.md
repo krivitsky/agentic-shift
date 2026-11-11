@@ -119,3 +119,18 @@ The page was rewritten again in English (v4: six shifts, "Why shift?" /
   reused from the 2026-10-25 draft, not from the reviewer.)
 
 Everything else in v4 is a first-pass draft, not reviewed by a native speaker.
+
+---
+
+## 2026-11-11 hero + "Why shift?" retranslation
+
+The English hero kicker and the "Why shift?" intro (now 4 paragraphs) were rewritten,
+the subtitle was removed, and `pt.json` was re-translated for those keys only.
+
+- **`utilizadores`** — not in the new text, nothing to apply; all other keys untouched, so
+  the carried-over reviewer wording above stays as it was.
+- **"harnesses" kept in English** — not a reviewer correction, but follows the reviewer's
+  reasoning on `guardrails` (English tech terms read more naturally to the PT engineering
+  community). Confirm with a native reviewer if one is available.
+
+The new kicker and 4 paragraphs are a first-pass draft, not reviewed by a native speaker.

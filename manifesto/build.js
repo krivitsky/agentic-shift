@@ -209,10 +209,11 @@ function render(c) {
     META_OG_DESCRIPTION: esc(c.meta.ogDescription),
     META_SCHEMA_DESCRIPTION: esc(c.meta.schemaDescription),
     META_LLMS_TITLE: esc(c.meta.llmsTitle),
-    KICKER: esc(c.hero.kicker),
+    // Kicker sentences wrap as whole units (one <span> each), so a narrow screen
+    // breaks after the first sentence instead of mid-phrase.
+    KICKER: c.hero.kicker.split(/(?<=[.!?。！？])\s*(?=\S)/).map((s) => `<span class="kl">${esc(s)}</span>`).join(' '),
     HEADLINE_LEAD: esc(c.hero.headlineLead),
     HEADLINE_TAIL: esc(c.hero.headlineTail),
-    SUBTITLE: esc(c.hero.subtitle),
     SHIFT_HEAD: c.shiftHead,
     SHIFT_INTRO: p(c.shiftIntro),
     OWN_HEAD: esc(c.ownHead),
@@ -329,19 +330,19 @@ function llmsBlock() {
   return LANGS.map((l) => {
     const c = view(all[l]);
     return [`## Manifesto (${l === 'en' ? 'English' : c.name})`, '',
-      `**Agentic Shift** — ${plain(c.hero.subtitle)}`, '', pageMd(c, plain, 3)].join('\n');
+      `**Agentic Shift** — ${plain(c.hero.kicker)}`, '', pageMd(c, plain, 3)].join('\n');
   }).join('\n\n');
 }
 
 function readmeBlock() {
   return ['> _Generated from [`manifesto/content/en.json`](manifesto/content/en.json) — edit the JSON '
     + '(and its siblings for other languages), then run `node manifesto/build.js`. Do not edit this section by hand._', '',
-  `_${md(en.hero.subtitle)}_`, '', pageMd(en, md, 2)].join('\n');
+  `_${md(en.hero.kicker)}_`, '', pageMd(en, md, 2)].join('\n');
 }
 
 // Standalone, downloadable Markdown of one language's page.
 function downloadMd(c) {
-  return ['# Agentic Shift', '', `_${md(c.hero.subtitle)}_`, '', pageMd(c, md, 2), '', '---', '',
+  return ['# Agentic Shift', '', `_${md(c.hero.kicker)}_`, '', pageMd(c, md, 2), '', '---', '',
     `${md(c.foot.by)} [Alexey Krivitsky](https://www.linkedin.com/in/alexeykrivitsky/) · ${ORIGIN}${c.dir}`, ''].join('\n');
 }
 

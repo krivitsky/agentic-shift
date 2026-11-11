@@ -1,12 +1,16 @@
 # Agentic Shift
 
-_Du tokenmaxing et des autres formes de théâtre de l'IA vers des organisations saines où les gens s'épanouissent et créent d'excellents produits et services._
+_La technologie est là. C'est à vous de décider, en tant que dirigeant : remodeler votre organisation pour en tirer parti._
 
 ## Pourquoi ce virage ?
 
-Nous utilisons des outils d'IA tous les jours, et nous les apprécions. L'IA est une technologie démocratisée. Tout le monde y a accès, donc à elle seule elle ne donne d'avantage à personne. Elle accélère les tendances qu'une organisation a déjà. Commencez donc par connaître votre avantage concurrentiel, puis amplifiez-le par une adoption stratégique de l'IA. Résistez à la tentation de saupoudrer à la hâte de l'IA sur d'anciennes structures simplement parce que les fournisseurs d'IA répandent la FOMO.
+Nous utilisons des outils d'IA tous les jours, et nous les apprécions. Mais l'IA est une technologie démocratisée : tout le monde y a accès, donc à elle seule elle ne donne d'avantage à personne. Elle amplifie ce qu'une organisation est déjà.
 
-Voici les virages qu'opèrent les organisations qui visent une qualité durable, une réelle valeur pour le client, un fort engagement des collaborateurs et une forte adaptabilité.
+Le vrai travail revient donc aux dirigeants. Chaque organisation doit décider ce que le virage signifie pour elle : quel avantage elle veut amplifier, et comment ses structures, ses rôles et ses règles doivent évoluer pour y parvenir. Saupoudrer de l'IA sur de vieilles structures parce que les fournisseurs entretiennent le FOMO, ce n'est pas ce travail-là.
+
+Et la refonte concerne les personnes, pas seulement les agents. Construire des harnesses pour l'IA, c'est la moitié du travail. L'autre moitié consiste à amplifier l'intelligence humaine : comment les personnes apprennent, jugent et décident quand les agents font une plus grande part du travail.
+
+Voici les virages que nous observons dans les organisations qui tirent un réel bénéfice de l'IA. Chacun est une direction, pas une destination : jusqu'où aller, c'est à vous d'en décider.
 
 ## Votre virage
 

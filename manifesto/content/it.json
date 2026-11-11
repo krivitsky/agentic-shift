@@ -4,23 +4,24 @@
   "dir": "/it/",
   "meta": {
     "title": "Agentic Shift — adozione ponderata dell'IA",
-    "description": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti.",
+    "description": "La tecnologia è arrivata. La scelta spetta a te come leader: ridisegna la tua organizzazione per trarne beneficio.",
     "keywords": "agentic shift, ingegneria di prodotto agentica, agentic product engineering, agenti IA, progettazione organizzativa, ingegneria di prodotto, Alexey Krivitsky",
     "ogTitle": "Agentic Shift — adozione ponderata dell'IA",
-    "ogDescription": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti.",
-    "schemaDescription": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti.",
+    "ogDescription": "La tecnologia è arrivata. La scelta spetta a te come leader: ridisegna la tua organizzazione per trarne beneficio.",
+    "schemaDescription": "La tecnologia è arrivata. La scelta spetta a te come leader: ridisegna la tua organizzazione per trarne beneficio.",
     "llmsTitle": "Agentic Shift — versione leggibile dalle macchine (LLM)"
   },
   "hero": {
-    "kicker": "Mantenere la lucidità nella corsa all'IA",
+    "kicker": "La tecnologia è arrivata. La scelta spetta a te come leader: ridisegna la tua organizzazione per trarne beneficio.",
     "headlineLead": "Agentic",
-    "headlineTail": "Shift",
-    "subtitle": "Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti."
+    "headlineTail": "Shift"
   },
   "shiftHead": "Perché cambiare?",
   "shiftIntro": [
-    "Usiamo strumenti di IA ogni giorno, e ci piacciono. L'IA è una tecnologia democratizzata. Ce l'hanno tutti, quindi da sola non dà un vantaggio a nessuno. Accelera le tendenze che un'organizzazione ha già. Quindi conosci prima il tuo vantaggio competitivo, e poi amplificalo con un'adozione strategica dell'IA. Resisti alla tentazione di spargere in fretta IA sulle vecchie strutture solo perché i fornitori di IA diffondono la FOMO.",
-    "Ecco i cambiamenti che compiono le organizzazioni che puntano a qualità sostenibile, valore reale per il cliente, un forte coinvolgimento delle persone e un'elevata adattabilità."
+    "Usiamo strumenti di IA ogni giorno, e ci piacciono. Ma l'IA è una tecnologia democratizzata: ce l'hanno tutti, quindi da sola non dà un vantaggio a nessuno. Amplifica ciò che un'organizzazione già è.",
+    "Così il vero lavoro tocca ai leader. Ogni organizzazione deve decidere che cosa significa per lei il cambiamento: quale vantaggio vuole amplificare, e come devono cambiare le sue strutture, i ruoli e le regole per arrivarci. Spolverare di IA vecchie strutture perché i fornitori diffondono FOMO non è quel lavoro.",
+    "E la riprogettazione riguarda le persone, non solo gli agenti. Costruire gli harness per l'IA è metà del lavoro. L'altra metà è amplificare l'intelligenza umana: come le persone imparano, giudicano e decidono quando gli agenti fanno una parte maggiore del lavoro.",
+    "Ecco i cambiamenti che vediamo nelle organizzazioni che traggono un beneficio reale dall'IA. Ognuno è una direzione, non una destinazione: fin dove spingerlo lo decidi tu."
   ],
   "ownHead": "Il tuo cambiamento",
   "shifts": [

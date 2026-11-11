@@ -1,12 +1,16 @@
 # Agentic Shift
 
-_Dal tokenmaxing e dalle altre forme di teatro dell'IA verso organizzazioni sane in cui le persone prosperano e creano prodotti e servizi eccellenti._
+_La tecnologia è arrivata. La scelta spetta a te come leader: ridisegna la tua organizzazione per trarne beneficio._
 
 ## Perché cambiare?
 
-Usiamo strumenti di IA ogni giorno, e ci piacciono. L'IA è una tecnologia democratizzata. Ce l'hanno tutti, quindi da sola non dà un vantaggio a nessuno. Accelera le tendenze che un'organizzazione ha già. Quindi conosci prima il tuo vantaggio competitivo, e poi amplificalo con un'adozione strategica dell'IA. Resisti alla tentazione di spargere in fretta IA sulle vecchie strutture solo perché i fornitori di IA diffondono la FOMO.
+Usiamo strumenti di IA ogni giorno, e ci piacciono. Ma l'IA è una tecnologia democratizzata: ce l'hanno tutti, quindi da sola non dà un vantaggio a nessuno. Amplifica ciò che un'organizzazione già è.
 
-Ecco i cambiamenti che compiono le organizzazioni che puntano a qualità sostenibile, valore reale per il cliente, un forte coinvolgimento delle persone e un'elevata adattabilità.
+Così il vero lavoro tocca ai leader. Ogni organizzazione deve decidere che cosa significa per lei il cambiamento: quale vantaggio vuole amplificare, e come devono cambiare le sue strutture, i ruoli e le regole per arrivarci. Spolverare di IA vecchie strutture perché i fornitori diffondono FOMO non è quel lavoro.
+
+E la riprogettazione riguarda le persone, non solo gli agenti. Costruire gli harness per l'IA è metà del lavoro. L'altra metà è amplificare l'intelligenza umana: come le persone imparano, giudicano e decidono quando gli agenti fanno una parte maggiore del lavoro.
+
+Ecco i cambiamenti che vediamo nelle organizzazioni che traggono un beneficio reale dall'IA. Ognuno è una direzione, non una destinazione: fin dove spingerlo lo decidi tu.
 
 ## Il tuo cambiamento
 
