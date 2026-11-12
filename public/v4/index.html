@@ -176,6 +176,7 @@
     }
     .kicker + h1 { margin-top: 14px; }
     .kicker .kl { display: inline-block; } /* wraps as whole sentences: break after "arrived." */
+    li.row[id] { scroll-margin-top: 16px; } /* per-shift anchors land on the row title */
     h1 {
       margin: 28px 0 0; font-size: clamp(52px, 11vw, 144px); line-height: 0.92;
       font-weight: 800; letter-spacing: -0.03em;
@@ -384,7 +385,7 @@
       <div class="wrap rows-wrap">
         <h3 class="group-title">How we work</h3>
         <ul class="rows">
-          <li class="row">
+          <li class="row" id="narrow-specialists-complete-craftspeople">
             <div class="row-main">
               <div class="ends">
                 <div class="from">narrow specialists</div>
@@ -398,7 +399,7 @@
               </div>
             </div>
             <p class="note">We grow from narrow, assembly-line specialists into end-to-end craftspeople, with AI filling the specialist gaps and helping us enter new domains.</p>
-            <details class="more" id="narrow-specialists-complete-craftspeople">
+            <details class="more">
               <summary>Read more</summary>
               <div class="more-body">
                 <img src="/images/shifts/specialists-to-craftspeople.jpg" alt="Narrow specialists hand work down a waterfall, one step at a time; a complete craftsperson works with AI agents that fill the specialist gaps" width="1280" height="674" loading="lazy">
@@ -413,7 +414,7 @@
               </div>
             </details>
           </li>
-          <li class="row">
+          <li class="row" id="counting-output-owning-outcomes">
             <div class="row-main">
               <div class="ends">
                 <div class="from">counting output</div>
@@ -427,7 +428,7 @@
               </div>
             </div>
             <p class="note">We stop counting output and own the complete value loop: we ensure real customer impact, experiment, and change course as the evidence comes in.</p>
-            <details class="more" id="counting-output-owning-outcomes">
+            <details class="more">
               <summary>Read more</summary>
               <div class="more-body">
                 <img src="/images/shifts/output-to-outcomes.jpg" alt="Counting output: ticked task cards add up to an output bar chart; owning outcomes: a team loops through Discover, Deliver, Observe and Optimize around customer impact" width="1280" height="674" loading="lazy">
