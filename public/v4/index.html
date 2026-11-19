@@ -322,11 +322,11 @@
     .more summary::-webkit-details-marker { display: none; }
     .more summary::before { content: "+"; display: inline-block; width: 1em; font-weight: 800; }
     .more[open] summary::before { content: "−"; }
-    .more-body { max-width: 72ch; padding-top: 16px; font-size: clamp(16px, calc(15.56px + 0.112vw), 17px); line-height: 1.6; }
+    .more-body { max-width: 72ch; margin: 0 auto; padding-top: 16px; font-size: clamp(16px, calc(15.56px + 0.112vw), 17px); line-height: 1.6; }
     .more-body img { display: block; width: 100%; height: auto; border: 2px solid var(--line); margin: 0 0 20px; }
     .more-body p { margin: 0 0 14px; }
     .more-body a { color: var(--accent); }
-  </style>
+  .learn-more{display:block;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:0.82em;line-height:1.5;opacity:.85;margin-top:.6em}.learn-more .lm-label{text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-right:.4em}.learn-more .lm-label::after{content:" →"}</style>
 </head>
 <body>
 
@@ -409,7 +409,7 @@
                 <p>So the organizational side of AI adoption starts in an unglamorous place: career paths. Broader titles first. A Java Developer becomes a Product Developer. Frontend, backend and QA specialists become product developers with different depths.</p>
                 <p>And when a Product Developer L3 is promoted to L4, it's because she grew both deeper and broader. Importantly, not only in technology, but in the customer's domain too.</p>
                 <p>Some companies call this <a href="https://www.orgtopologies.com/post/tailwind-career-paths-encouraging-growth-in-multi-skilled-organizations" target="_blank" rel="noopener">tailwind career paths</a>: the career system pushes people toward the broader work instead of holding them back from it.</p>
-<p>On the <a href="https://www.orgtopologies.com/mapping">Org Topologies map</a>, this growth in skills is the horizontal move, toward a broader scope of skills.</p>
+<p class="learn-more"><span class="lm-label">Learn more</span> <a href="https://www.orgtopologies.com/mapping">Org Topologies map</a>: the horizontal move, toward a broader scope of skills</p>
                 <p>If your engineers already use AI to cross into new areas, what does their job title still say? Does it support them in doing the whole work, or does it keep them busy using AI to produce more output in their own narrow corner?</p>
                 <p><a href="/shifts/specialists-to-craftspeople">Read it as an article →</a></p>
               </div>
@@ -440,7 +440,7 @@
                 <p>First, the team's job ends at &ldquo;done&rdquo;. The feature ships, the ticket closes, and someone else, a product manager or a business unit, finds out months later whether it worked. The team never sees the evidence, so it can't change course.</p>
                 <p>Second, teams are fenced in by what they were made to own. This is traditional org design: teams own parts of a larger system, such as its applications, modules or components. But customer problems know nothing about our legacy org design decisions and respect no boundaries. To make it even more complicated, the boundaries of customer demand shift over time. So in a static organization, where each team owns one part, any real customer problem cuts across several teams, and no single team can carry it from discovery to evidence. Each one can only report that its part is done. That is why this shift goes hand in hand with shift #5, from <a href="/#owning-components-cocreating-the-whole">owning components to cocreating the whole</a>.</p>
                 <p>Owning outcomes means removing both fences, so the team keeps the whole loop: it discovers what customers need, delivers, observes what actually happened, and optimizes, which includes dropping the idea that didn't work. Only then do outcome metrics make sense.</p>
-<p>On the <a href="https://www.orgtopologies.com/mapping">Org Topologies map</a>, this move from outputs to outcomes is the vertical move, toward a broader scope of work.</p>
+<p class="learn-more"><span class="lm-label">Learn more</span> <a href="https://www.orgtopologies.com/mapping">Org Topologies map</a>: the vertical move, toward a broader scope of work</p>
                 <p>Historically, this was a hard sell: making teams own the whole loop, end to end, meant asking a few people to master too many skills and too much of the system. In the agentic age it is becoming more and more feasible, because agents fill the skill gaps and help people learn an unfamiliar part of the system fast. The shift is possible now. Leaders just need to drive it.</p>
                 <p>So look at your teams. Does each of them own a part of the system, or a customer outcome? And what happens when an outcome crosses several teams' territories? Do you add extra roles and processes to manage the dependencies, or even wrap the change in an overcomplicated project management framework?</p>
                 <p><a href="/shifts/output-to-outcomes">Read it as an article →</a></p>
@@ -463,7 +463,7 @@
                 <div class="cap"></div>
               </div>
             </div>
-            <p class="note">We stop coding features one by one and design the agentic systems that build them: the specs, context, skills and workflows that let agents turn intent into working software, and that improve with every iteration. In the <a href="https://agenticengineering.guide/" target="_blank" rel="noopener">Professional Agentic Product Engineering guide</a>, this is the climb from <a href="https://agenticengineering.guide/tier-2" target="_blank" rel="noopener">T2 Plan</a>, where you write the spec, to <a href="https://agenticengineering.guide/tier-5" target="_blank" rel="noopener">T5 Orchestrate</a> and <a href="https://agenticengineering.guide/tier-6" target="_blank" rel="noopener">T6 Supervise</a>, where agents run whole workflows and you improve the system.</p>
+            <p class="note">We stop coding features one by one and design the agentic systems that build them: the specs, context, skills and workflows that let agents turn intent into working software, and that improve with every iteration.<span class="learn-more"><span class="lm-label">Learn more</span> <a href="https://agenticengineering.guide/" target="_blank" rel="noopener">PAPE guide</a>: <a href="https://agenticengineering.guide/tier-2" target="_blank" rel="noopener">T2 Plan</a> → <a href="https://agenticengineering.guide/tier-5" target="_blank" rel="noopener">T5 Orchestrate</a> → <a href="https://agenticengineering.guide/tier-6" target="_blank" rel="noopener">T6 Supervise</a></span></p>
           </li>
           <li class="row">
             <div class="row-main">
@@ -478,7 +478,7 @@
                 <div class="cap"></div>
               </div>
             </div>
-            <p class="note">We replace quality checks by gatekeepers (QA stages, review queues, change boards) with guardrails built into our agentic systems: tests, specs and automated checks that every change must pass, owned by us, the people who build the product. In the Professional Agentic Product Engineering guide, these are the two Trust tiers: <a href="https://agenticengineering.guide/tier-3" target="_blank" rel="noopener">T3 Verify</a>, where you define &ldquo;done&rdquo;, and <a href="https://agenticengineering.guide/tier-4" target="_blank" rel="noopener">T4 Enforce</a>, where your rules become checks that run on every change.</p>
+            <p class="note">We replace quality checks by gatekeepers (QA stages, review queues, change boards) with guardrails built into our agentic systems: tests, specs and automated checks that every change must pass, owned by us, the people who build the product.<span class="learn-more"><span class="lm-label">Learn more</span> <a href="https://agenticengineering.guide/" target="_blank" rel="noopener">PAPE guide</a>: the Trust tiers, <a href="https://agenticengineering.guide/tier-3" target="_blank" rel="noopener">T3 Verify</a> and <a href="https://agenticengineering.guide/tier-4" target="_blank" rel="noopener">T4 Enforce</a></span></p>
           </li>
         </ul>
         <h3 class="group-title">How we collaborate</h3>
