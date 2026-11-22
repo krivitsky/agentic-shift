@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+# pre-push gate (AK 2026-11-22: hook in all repos) — nothing broken or stale gets pushed.
+#
+# Vercel runs no build here (vercel.json buildCommand ""): it serves public/ as committed.
+# So the gate is:
+# 1. Public-repo guard (secrets + private data): ~/src/aidy/cron/bin/public-repo-pre-push.sh
+# 2. `node manifesto/build.js` on a clean export of the commit being pushed:
+#    - must exit 0 (it exits 1 on TRANSLATION DRIFT across the 15 languages);
+#    - must change nothing: if it rewrites any file, the generated pages
+#      (/, /<lang>/, sitemap, README/llms.txt regions) were committed stale —
+#      "the one way this setup breaks" (CLAUDE.md §Versions).
+#
+# Enable once per clone:  git config core.hooksPath .githooks
+# Never bypass with --no-verify.
+set -uo pipefail
+export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:/usr/bin:/bin:$PATH"
+
+ROOT="$(git rev-parse --show-toplevel)"
+ZERO=0000000000000000000000000000000000000000
+IN="$(mktemp)"; WORK=""
+trap 'rm -rf "$IN" ${WORK:+"$WORK" "$WORK.orig"}' EXIT
+[ -t 0 ] || cat > "$IN"
+
+blocked() { echo "✘ pre-push: $*" >&2; echo "Push blocked. Fix it and push again (never --no-verify)." >&2; exit 1; }
+for t in git node; do command -v "$t" >/dev/null || blocked "$t not found — the gate could not run"; done
+
+GUARD="$HOME/src/aidy/cron/bin/public-repo-pre-push.sh"
+[ -x "$GUARD" ] || blocked "public-repo guard missing at $GUARD"
+"$GUARD" "$@" < "$IN" || exit 1
+
+SHAS=$(awk -v z="$ZERO" '$2 != z {print $2}' "$IN" | sort -u)
+if [ -z "$SHAS" ]; then [ -s "$IN" ] && exit 0; SHAS=$(git rev-parse HEAD); fi
+
+for SHA in $SHAS; do
+  WORK="$(mktemp -d)"
+  git -C "$ROOT" archive "$SHA" | tar -x -C "$WORK" || blocked "git archive $SHA failed"
+  cp -Rc "$WORK" "$WORK.orig" 2>/dev/null || cp -R "$WORK" "$WORK.orig"
+  echo "pre-push: manifesto build on ${SHA:0:7} …"
+  OUT=$(cd "$WORK" && node manifesto/build.js 2>&1); rc=$?
+  if [ $rc -ne 0 ]; then echo "$OUT" | tail -30 >&2; blocked "node manifesto/build.js exited $rc on ${SHA:0:7}"; fi
+  STALE=$(diff -rq "$WORK.orig" "$WORK" 2>&1)
+  if [ -n "$STALE" ]; then
+    echo "$STALE" | sed "s|$WORK.orig/||g; s|$WORK/||g" | head -20 >&2
+    blocked "generated files are stale in ${SHA:0:7}: run node manifesto/build.js and commit the result"
+  fi
+  rm -rf "$WORK" "$WORK.orig"; WORK=""
+done
+echo "pre-push: ✓ build clean, translations in sync, generated files up to date"
+exit 0
