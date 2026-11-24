@@ -9,6 +9,8 @@
 #    - must change nothing: if it rewrites any file, the generated pages
 #      (/, /<lang>/, sitemap, README/llms.txt regions) were committed stale —
 #      "the one way this setup breaks" (CLAUDE.md §Versions).
+# 3. `node manifesto/check-favicons.js`: every live page links favicon.ico (48×48 inside)
+#    and 96/192 px PNGs that exist at those sizes (Google Search logo, AK #26630).
 #
 # Enable once per clone:  git config core.hooksPath .githooks
 # Never bypass with --no-verify.
@@ -38,6 +40,7 @@ for SHA in $SHAS; do
   echo "pre-push: manifesto build on ${SHA:0:7} …"
   OUT=$(cd "$WORK" && node manifesto/build.js 2>&1); rc=$?
   if [ $rc -ne 0 ]; then echo "$OUT" | tail -30 >&2; blocked "node manifesto/build.js exited $rc on ${SHA:0:7}"; fi
+  FAV=$(node "$WORK/manifesto/check-favicons.js" "$WORK" 2>&1) || { echo "$FAV" >&2; blocked "favicon check failed on ${SHA:0:7}"; }
   STALE=$(diff -rq "$WORK.orig" "$WORK" 2>&1)
   if [ -n "$STALE" ]; then
     echo "$STALE" | sed "s|$WORK.orig/||g; s|$WORK/||g" | head -20 >&2
